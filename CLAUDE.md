@@ -12,7 +12,10 @@ the chrome, the network layer and the page layer are all ours to change at runti
 2. Call `status`. It launches the browser if it is not running and tells you the port,
    the open tabs, the loaded rule sets and the active profile.
 3. If you are changing the app itself (not just driving it), run `npm test` before and
-   after. It is a real end-to-end run under a headless display; 60 checks, all should pass.
+   after. It is a real end-to-end run under a headless display; 86 checks, all should pass.
+   `npm run test:sites` (20 live sites) and `npm run test:agent` (multi-step flows on
+   live sites) are slower, need the network, and are what actually finds things — every
+   bug worth fixing so far came from one of those two rather than from the fixtures.
 
 ## 1. The two ways to work
 
@@ -180,6 +183,26 @@ scope — it is the difference between a useful tool and a clickjacking machine.
 - Anything that touches the network layer, the profiles or the framing scope gets a test
   in `tests/e2e.js` **with its negative case**. A test that only proves the feature works
   is half a test.
+
+## 8a. What breaks, and where to look first
+
+Hard-won, in the order they cost the most time. `docs/OVERNIGHT.md` has the full account.
+
+- **A preload's world inherits the page's CSP for code generation.** `new Function` and
+  `eval` both throw on any site whose `script-src` lacks `unsafe-eval`, which is most
+  large sites. Rule `js` runs in isolated world 1234 for this reason. Never move it back.
+- **Filter-list scriptlets must be injected as one bundle.** Separate calls are not
+  guaranteed to land before the page's first script; the later ones arrive mid-hydration
+  and broke YouTube completely.
+- **`innerText` stops at shadow boundaries.** Anything reading page text needs the
+  shadow-aware path, or web-component sites look empty.
+- **Chromium's implicit form submission runs off the char event**, and that event carries
+  the character, not the key name. Enter without a carriage-return char event submits
+  nothing while still looking like a real keypress to the page.
+- **Real sites replace nodes.** Refs carry a descriptor so a stale one can be found
+  again; do not reduce that to a bare element reference.
+- **`device_commit_files` has reported success without writing.** When shipping to
+  Lloyd's machine, stage the file back and compare checksums.
 
 ## 9. Known rough edges
 

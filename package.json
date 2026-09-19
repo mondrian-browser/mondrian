@@ -10,7 +10,10 @@
     "dev": "electron . --dev",
     "mcp": "node tools/mcp/server.js",
     "test": "node tests/e2e.js",
-    "install-mcp": "node tools/install-mcp.js"
+    "install-mcp": "node tools/install-mcp.js",
+    "test:sites": "node tests/site-suite.js",
+    "test:agent": "node tests/agent-suite.js",
+    "test:all": "node tests/e2e.js && node tests/site-suite.js && node tests/agent-suite.js"
   },
   "engines": {
     "node": ">=20"
