@@ -175,6 +175,12 @@ class Client {
     // ---- reading
     const text = await c.call('page_text', { tabId });
     check('page_text returns page prose', text.text.includes('PINEAPPLE_MARKER'), text.text.slice(0, 120));
+    // A tiny <article> near the top used to win the root election and page_text would
+    // return only its text. Reddit does exactly this.
+    check('page_text ignores a near-empty landmark and reads the page',
+      text.chars > 200 && !/^\s*Sponsored\s*$/.test(text.text), `${text.chars} chars: ${text.text.slice(0, 60)}`);
+    const scoped = await c.call('page_text', { tabId, selector: '#decoy-landmark' });
+    check('page_text still honours an explicit selector', scoped.text.trim() === 'Sponsored', JSON.stringify(scoped.text));
 
     const read = await c.call('page_read', { tabId });
     const helloEl = read.elements.find((e) => e.text === 'Say hello');

@@ -291,6 +291,26 @@ function describe(el) {
   return d;
 }
 
+// Pick the element that actually holds the page's prose.
+//
+// Taking the first main/article/[role=main] is wrong often enough to matter: Reddit
+// puts an <article> with 32 characters in it near the top of a page carrying 6,500,
+// and page_text would return the 32. So consider every candidate, take the one with
+// the most text, and fall back to <body> unless that candidate holds a real share of
+// the page — a landmark that contains a fraction of the text is not the main content.
+function bestTextRoot() {
+  const body = document.body;
+  if (!body) return document.documentElement;
+  const bodyLen = (body.innerText || '').length;
+  let best = null;
+  let bestLen = 0;
+  for (const el of document.querySelectorAll('main, article, [role=main]')) {
+    const len = (el.innerText || '').length;
+    if (len > bestLen) { bestLen = len; best = el; }
+  }
+  return best && bestLen >= bodyLen * 0.5 ? best : body;
+}
+
 function elementCenter(el) {
   const r = el.getBoundingClientRect();
   // Clamp to viewport so the synthesized click lands on something real.
@@ -314,7 +334,7 @@ const methods = {
   },
 
   pageText({ selector, maxChars = 20000 }) {
-    const root = selector ? resolve({ selector }) : (document.querySelector('main,article,[role=main]') || document.body);
+    const root = selector ? resolve({ selector }) : bestTextRoot();
     const raw = (root?.innerText || document.body?.innerText || '').replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
     return {
       url: location.href,
