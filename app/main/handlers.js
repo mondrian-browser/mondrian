@@ -72,6 +72,19 @@ function makeHandlers(ctx) {
       };
     },
 
+    async app_restart({ quit = false }) {
+      const mode = quit ? 'quit' : 'restart';
+      log.info(mode, 'requested over the control socket');
+      // Answer first: the socket is about to close, and a caller that never hears back
+      // cannot tell a successful restart from a crash.
+      setTimeout(() => {
+        try { control.stop(); } catch (_) {}
+        if (!quit) app.relaunch();
+        app.exit(0);
+      }, 250);
+      return { [mode]: true, note: quit ? 'Browser is quitting.' : 'Browser is restarting; call status in a few seconds.' };
+    },
+
     async window({ action, bounds }) {
       switch (action) {
         case 'focus': win.show(); win.focus(); break;
@@ -81,6 +94,7 @@ function makeHandlers(ctx) {
         case 'fullscreen': win.setFullScreen(true); break;
         case 'unfullscreen': win.setFullScreen(false); break;
         case 'setBounds': win.setBounds({ ...win.getBounds(), ...bounds }); break;
+        case 'close': setTimeout(() => win.close(), 150); return { closing: true };
         case 'get': break;
       }
       return { bounds: win.getBounds(), fullscreen: win.isFullScreen(), minimized: win.isMinimized() };

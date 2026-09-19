@@ -20,11 +20,17 @@ const commands = [
     input: {},
   },
   {
+    name: 'app_restart',
+    group: 'app',
+    description: 'Restart the browser. Needed after changing anything under app/main (preloads and main-process code are not hot-reloadable). Tabs are not restored. The control socket drops and comes back within a few seconds; just call status again.',
+    input: { quit: z.boolean().optional().default(false).describe('Quit without relaunching.') },
+  },
+  {
     name: 'window',
     group: 'app',
-    description: 'Control the browser window: focus, minimize, maximize, restore, fullscreen, setBounds.',
+    description: 'Control the browser window: focus, minimize, maximize, restore, fullscreen, setBounds, close (closing the window quits the browser).',
     input: {
-      action: z.enum(['focus', 'minimize', 'maximize', 'restore', 'fullscreen', 'unfullscreen', 'setBounds', 'get']),
+      action: z.enum(['focus', 'minimize', 'maximize', 'restore', 'fullscreen', 'unfullscreen', 'setBounds', 'close', 'get']),
       bounds: z.object({ x: z.number().optional(), y: z.number().optional(), width: z.number().optional(), height: z.number().optional() }).optional(),
     },
   },

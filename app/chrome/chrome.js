@@ -176,9 +176,9 @@ for (const b of document.querySelectorAll('.panel-tab')) b.onclick = () => setPa
 
 for (const b of document.querySelectorAll('.win-btn')) {
   b.onclick = () => {
-    const a = b.dataset.win;
-    if (a === 'close') window.close();
-    else cmd('window', { action: a === 'maximize' ? 'maximize' : a }).catch(toastErr);
+    // window.close() is a no-op inside a WebContentsView: the chrome is a view, not a
+    // window. Every button goes through the same command Claude uses.
+    cmd('window', { action: b.dataset.win }).catch(toastErr);
   };
 }
 $('[data-win="maximize"]').ondblclick = null;
