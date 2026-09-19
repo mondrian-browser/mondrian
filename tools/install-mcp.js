@@ -9,7 +9,10 @@ const path = require('path');
 const os = require('os');
 
 const ROOT = path.resolve(__dirname, '..');
-const NAME = 'claude-browser';
+// NOT "claude-browser": the desktop app reserves that for its own built-in browser pane
+// and refuses to start a server whose name normalises onto a reserved one.
+const NAME = 'cbrowser';
+const OLD_NAMES = ['claude-browser'];
 const REMOVE = process.argv.includes('--remove');
 
 function configPath() {
@@ -30,8 +33,13 @@ if (fs.existsSync(file)) {
 
 config.mcpServers = config.mcpServers || {};
 
+// Clear out any earlier registration under a name that no longer works.
+for (const old of OLD_NAMES) {
+  if (config.mcpServers[old]) { delete config.mcpServers[old]; console.log(`Removed the old "${old}" entry.`); }
+}
+
 if (REMOVE) {
-  if (!config.mcpServers[NAME]) { console.log(`${NAME} was not registered. Nothing to do.`); process.exit(0); }
+  if (!config.mcpServers[NAME]) { console.log(`${NAME} was not registered. Nothing to do.`); }
   delete config.mcpServers[NAME];
 } else {
   config.mcpServers[NAME] = {

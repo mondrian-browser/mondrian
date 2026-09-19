@@ -14,7 +14,8 @@ npm run install-mcp       # register it with the Claude desktop app, then fully 
 npm test                  # 60 end-to-end checks against a real browser
 ```
 
-After `install-mcp`, any Claude session can drive the browser, and will start it
+The server registers as **cbrowser** (not `claude-browser` — the desktop app reserves
+that name for its own built-in browser pane). After `install-mcp`, any Claude session can drive the browser, and will start it
 automatically the first time it needs it.
 
 ## What it does
