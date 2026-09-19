@@ -29,7 +29,13 @@ function startFixture() {
     if (req.url.startsWith('/slow')) { setTimeout(() => { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1 id=slow>slow page</h1>'); }, 600); return; }
     if (req.url.startsWith('/blocked.js')) { res.writeHead(200, { 'content-type': 'application/javascript' }); res.end('window.__blockedLoaded = true;'); return; }
     if (req.url.startsWith('/second')) { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1>Second page</h1><p>SECOND_MARKER</p>'); return; }
-    if (req.url.startsWith('/denyframe')) { res.writeHead(200, { 'content-type': 'text/html', 'x-frame-options': 'DENY', 'content-security-policy': "frame-ancestors 'none'" }); res.end('<h1 id="denied">Refuses to be framed</h1>'); return; }
+    if (req.url.startsWith('/denyframe')) {
+      res.writeHead(200, { 'content-type': 'text/html', 'x-frame-options': 'DENY', 'content-security-policy': "frame-ancestors 'none'" });
+      // If this document renders at all, it says so to its parent. That is the only
+      // unambiguous proof the frame was allowed; console wording varies by platform.
+      res.end('<h1 id="denied">Refuses to be framed</h1><script>try{parent.postMessage("denyframe-rendered","*")}catch(e){}</script>');
+      return;
+    }
     res.writeHead(200, { 'content-type': 'text/html' });
     res.end(html);
   });
@@ -202,7 +208,10 @@ class Client {
     // ---- composed pages
     const composed = await c.call('page_create', {
       name: 'e2e-compose',
-      html: `<!doctype html><html><head><title>Composed</title></head><body>
+      html: `<!doctype html><html><head><title>Composed</title>
+        <script>window.__framed = false;
+          addEventListener('message', (e) => { if (e.data === 'denyframe-rendered') window.__framed = true; });
+        </script></head><body>
         <h1 id="composed">Composed page</h1>
         <iframe id="frame" src="${base}/second" width="400" height="200"></iframe>
         <iframe id="deny" src="${base}/denyframe" width="400" height="200"></iframe>
@@ -215,20 +224,18 @@ class Client {
     check('composed page is readable', composedText.text.includes('Composed page'), composedText.text.slice(0, 120));
     const frameCount = await c.call('eval_js', { tabId: composed.tab.id, code: 'window.frames.length' });
     check('composed page frames a normal page', frameCount.value >= 2, JSON.stringify(frameCount));
-    const composedConsole = await c.call('console_read', { tabId: composed.tab.id });
-    const refusedOnComposed = composedConsole.messages.some((m) => /Refused to (display|frame)|frame-ancestors|X-Frame-Options/i.test(m.message));
-    check('composed page may frame a site that sends X-Frame-Options: DENY', !refusedOnComposed,
-      composedConsole.messages.filter((m) => /Refused/i.test(m.message)).map((m) => m.message).join(' | '));
+    // The framed document reports in only if it actually rendered.
+    const framedOk = await c.call('eval_js', { tabId: composed.tab.id, code: 'window.__framed' });
+    check('composed page may frame a site that sends X-Frame-Options: DENY', framedOk.value === true,
+      `__framed=${framedOk.value}; composed url=${composed.url}`);
 
     // …and the same site is still refused when a NORMAL page tries to frame it.
     await c.call('navigate', { tabId, url: base });
-    await c.call('console_read', { tabId, clear: true });
     await c.call('eval_js', { tabId, code: 'window.postMessage("frame-me", "*")' });
-    await sleep(1200);
-    const normalConsole = await c.call('console_read', { tabId });
-    check('a normal page is still refused framing (header stripping is scoped)',
-      normalConsole.messages.some((m) => /Refused to (display|frame)|frame-ancestors|X-Frame-Options/i.test(m.message)),
-      normalConsole.messages.map((m) => m.message).join(' | ').slice(0, 200));
+    await sleep(1500);
+    const normalFramed = await c.call('eval_js', { tabId, code: 'window.__framed' });
+    check('a normal page is still refused framing (header stripping is scoped)', normalFramed.value === false,
+      `__framed=${normalFramed.value} — a normal page rendered a DENY frame, the scope is leaking`);
     const pageList = await c.call('page_list');
     check('page_list finds it', pageList.pages.some((p) => p.name === 'e2e-compose'));
     const src = await c.call('page_read_source', { name: 'e2e-compose' });

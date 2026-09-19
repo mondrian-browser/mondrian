@@ -2,6 +2,7 @@
 // Every command in shared/commands.js is implemented here.
 const fs = require('fs');
 const path = require('path');
+const { pathToFileURL } = require('url');
 const { app, nativeImage } = require('electron');
 const { paths } = require('./paths');
 const { Profiles } = require('./profiles');
@@ -318,7 +319,7 @@ function makeHandlers(ctx) {
       if (!/^[a-z0-9][a-z0-9_-]{0,63}$/i.test(name)) throw new Error(`Invalid page name "${name}". Letters, digits, - and _ only.`);
       const file = path.join(paths.pages, `${name}.html`);
       fs.writeFileSync(file, html);
-      const url = `file://${file.split(path.sep).join('/')}`;
+      const url = pathToFileURL(file).href;
       let tab = null;
       if (open) {
         const existing = [...tabsMgr.tabs.values()].find((t) => t.url.startsWith(url));
@@ -334,7 +335,7 @@ function makeHandlers(ctx) {
       return {
         pages: files.map((f) => {
           const s = fs.statSync(path.join(paths.pages, f));
-          return { name: f.replace(/\.html$/, ''), bytes: s.size, modified: s.mtime.toISOString(), url: `file://${path.join(paths.pages, f).split(path.sep).join('/')}` };
+          return { name: f.replace(/\.html$/, ''), bytes: s.size, modified: s.mtime.toISOString(), url: pathToFileURL(path.join(paths.pages, f)).href };
         }),
       };
     },

@@ -156,8 +156,9 @@ async function boot() {
     panel: PANEL,
   }));
 
+  // Constructed now so handlers can reference it, but not started until the app is
+  // fully up: control.json appearing is the signal that commands are safe to send.
   control = new ControlServer({ settings, dispatch: (cmd, args) => dispatch(cmd, args) });
-  await control.start();
 
   handlers = makeHandlers({
     tabsMgr, rules, profiles, settings, win, chrome, control, state,
@@ -211,6 +212,7 @@ async function boot() {
   await handlers.tab_open({ url: startUrl, activate: true, wait: false });
   layout();
 
+  await control.start();
   log.info('ready on port', control.port);
   if (process.env.CB_ANNOUNCE) process.stdout.write(`CLAUDE_BROWSER_READY ${control.port}\n`);
 }

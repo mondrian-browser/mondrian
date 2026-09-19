@@ -31,8 +31,12 @@
       document.getElementById('out').textContent = 'picked:' + e.target.value;
     });
     console.log('fixture loaded');
-    window.addEventListener('message', (e) => { if (e.data === 'frame-me') {
-      const f = document.createElement('iframe'); f.src = '/denyframe'; f.id = 'injected-frame'; document.body.appendChild(f);
-    }});
+    window.__framed = false;
+    window.addEventListener('message', (e) => {
+      if (e.data === 'denyframe-rendered') { window.__framed = true; return; }
+      if (e.data === 'frame-me') {
+        const f = document.createElement('iframe'); f.src = '/denyframe'; f.id = 'injected-frame'; document.body.appendChild(f);
+      }
+    });
   </script>
 </body></html>

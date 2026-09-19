@@ -4,7 +4,7 @@
 const { session, app } = require('electron');
 const log = require('./log').make('profiles');
 
-const path = require('path');
+const { pathToFileURL } = require('url');
 const { paths } = require('./paths');
 
 class Profiles {
@@ -13,7 +13,10 @@ class Profiles {
     this.rules = rules;
     this.onNetwork = onNetwork;
     this.sessions = new Map(); // name -> Session
-    this.pagesPrefix = 'file://' + paths.pages.split(path.sep).join('/');
+    // pathToFileURL, not string concatenation: on Windows a drive-letter path needs
+    // the empty-host slash (file:///C:/...), and "file://" + path silently does not
+    // match, which quietly disables the composed-page framing scope.
+    this.pagesPrefix = pathToFileURL(paths.pages).href.replace(/\/?$/, '/');
   }
 
   isComposedPage(url) { return typeof url === 'string' && url.startsWith(this.pagesPrefix); }
