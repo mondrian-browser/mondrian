@@ -36,6 +36,13 @@ function startFixture() {
     if (req.url.startsWith('/slow')) { setTimeout(() => { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1 id=slow>slow page</h1>'); }, 600); return; }
     if (req.url.startsWith('/blocked.js')) { res.writeHead(200, { 'content-type': 'application/javascript' }); res.end('window.__blockedLoaded = true;'); return; }
     if (req.url.startsWith('/adtest.js')) { res.writeHead(200, { 'content-type': 'application/javascript' }); res.end('window.__adLoaded = true;'); return; }
+    if (req.url.startsWith('/noeval')) {
+      // script-src without 'unsafe-eval', which is what YouTube sends. The preload's
+      // own world inherits this, so new Function() is refused here.
+      res.writeHead(200, { 'content-type': 'text/html', 'content-security-policy': "script-src 'self' 'unsafe-inline'" });
+      res.end('<!doctype html><html><head><title>No eval</title></head><body><h1 id="noeval">no eval</h1><div class="target">target</div></body></html>');
+      return;
+    }
     if (req.url.startsWith('/csp')) {
       // A page that refuses inline scripts, to prove main-world injection is not
       // going through an injected <script> element.
@@ -312,6 +319,51 @@ class Client {
       check('scriptlet library loaded', false, 'engine reported 0 scriptlets, so the list download probably failed');
     }
 
+    // ---- rule js under a CSP that forbids eval (the YouTube case)
+    await c.call('rules_set', {
+      name: 'e2e-noeval',
+      rule: {
+        title: 'no eval',
+        enabled: true,
+        match: [`*://127.0.0.1:${fixturePort}/*`],
+        js: `var el = document.querySelector('.target');
+             if (el) { el.setAttribute('data-rule-touched', reason); el.style.color = 'rgb(4, 5, 6)'; }
+             window.__ruleWorldFlag = 'set';`,
+        options: { marker: 'opts-arrived' },
+      },
+    });
+    await c.call('navigate', { tabId, url: `${base}/noeval` });
+    await sleep(900);
+    const noeval = await c.call('eval_js', { tabId, code: `({
+      touched: document.querySelector('.target').getAttribute('data-rule-touched'),
+      styled: getComputedStyle(document.querySelector('.target')).color,
+      leakedToPage: typeof window.__ruleWorldFlag
+    })` });
+    check('rule js runs on a page whose CSP forbids eval', !!noeval.value.touched, JSON.stringify(noeval.value));
+    check('rule js can style the DOM from its isolated world', noeval.value.styled === 'rgb(4, 5, 6)', noeval.value.styled);
+    check('rule js stays invisible to the page', noeval.value.leakedToPage === 'undefined', noeval.value.leakedToPage);
+
+    const noevalErrors = await c.call('console_read', { tabId, pattern: 'claude-browser' });
+    check('no rule errors were logged on the CSP page', noevalErrors.messages.length === 0,
+      noevalErrors.messages.map((m) => m.message).join(' | ').slice(0, 250));
+
+    // options and reason reach the rule
+    await c.call('rules_set', {
+      name: 'e2e-noeval',
+      rule: {
+        title: 'no eval',
+        enabled: true,
+        match: [`*://127.0.0.1:${fixturePort}/*`],
+        js: `document.documentElement.setAttribute('data-opts', options.marker + '/' + reason);`,
+        options: { marker: 'opts-arrived' },
+      },
+    });
+    await c.call('navigate', { tabId, url: `${base}/noeval` });
+    await sleep(700);
+    const opts = await c.call('eval_js', { tabId, code: 'document.documentElement.getAttribute("data-opts")' });
+    check('options and reason are passed into rule js', String(opts.value).startsWith('opts-arrived/'), JSON.stringify(opts));
+    await c.call('rules_toggle', { name: 'e2e-noeval', enabled: false });
+
     // ---- composed pages
     const composed = await c.call('page_create', {
       name: 'e2e-compose',
@@ -424,7 +476,7 @@ class Client {
   console.log(`\n${passed} passed, ${failed} failed`);
   if (failed && appLog) console.log('\n--- app log ---\n' + appLog.slice(-4000));
 
-  for (const f of ['e2e.json', 'e2e-live.json', 'e2e-mainworld.json']) {
+  for (const f of ['e2e.json', 'e2e-live.json', 'e2e-mainworld.json', 'e2e-noeval.json']) {
     try { fs.unlinkSync(path.join(ROOT, 'rules', f)); } catch (_) {}
   }
   server.close();

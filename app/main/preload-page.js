@@ -31,37 +31,84 @@ function runInPage(code, label) {
   }
 }
 
+// Run a rule's `js` in a dedicated isolated world.
+//
+// NOT new Function(): this preload's own world inherits the page's CSP for code
+// generation, so on any site whose script-src lacks 'unsafe-eval' — YouTube, most
+// large sites — new Function and eval both throw "Code generation from strings
+// disallowed for this context" and the rule's js silently never runs. Its css still
+// applies, which makes the failure look like a broken selector rather than dead code.
+//
+// executeJavaScriptInIsolatedWorld is not subject to the page's CSP, has full DOM
+// access, keeps its own globals between calls, and stays invisible to the page.
+// All four verified on Electron 44 against a page serving script-src 'self'.
+const RULE_WORLD = 1234;
+
+function runIsolated(code, options, reason, label) {
+  const wrapped = `(function (options, reason) {\n${code}\n}).call(undefined, ${JSON.stringify(options || {})}, ${JSON.stringify(reason)})`;
+  try {
+    const p = webFrame.executeJavaScriptInIsolatedWorld(RULE_WORLD, [{ code: wrapped }]);
+    if (p && typeof p.catch === 'function') {
+      p.catch((e) => ipcRenderer.send('cb:log', { level: 'error', msg: `rule ${label} js: ${e.message}` }));
+    }
+  } catch (e) {
+    ipcRenderer.send('cb:log', { level: 'error', msg: `rule ${label} js: ${e.message}` });
+  }
+}
+
+// Main-world code needs no DOM, so it goes at the true document-start: scriptlets
+// defuse things before they happen. Once per document — re-running them on an SPA
+// route change double-applies.
+function applyMainWorld() {
+  for (const set of ruleSets) {
+    const scripts = [...(set.scripts || []), ...(set.mainJs ? [set.mainJs] : [])];
+    if (!scripts.length || scriptsDone.has(set.name)) continue;
+    scriptsDone.add(set.name);
+    let ok = 0;
+    for (const code of scripts) if (runInPage(code, `${set.name} main-world script`)) ok++;
+    if (ok) ipcRenderer.send('cb:scriptlets', { name: set.name, count: ok, url: location.href });
+  }
+}
+
+// css and js both want a document. At the moment a preload first runs there is no
+// <html> yet, so anything touching the DOM throws. documentElement appears within a
+// tick of the parser starting, so wait for it rather than making every rule author
+// write a null guard, and rather than waiting for DOMContentLoaded, which is late
+// enough to show a flash of the thing the rule removes.
+function whenDocumentElement(fn) {
+  if (document.documentElement) return fn();
+  const iv = setInterval(() => {
+    if (!document.documentElement) return;
+    clearInterval(iv);
+    fn();
+  }, 0);
+  setTimeout(() => clearInterval(iv), 8000);
+}
+
 function applyRules(reason) {
   try {
-    // Main-world code first, and only once per document: scriptlets defuse things
-    // before they happen, and re-running them on an SPA route change double-applies.
+    applyMainWorld();
+    if (!document.documentElement) return whenDocumentElement(() => applyRules(reason));
     for (const set of ruleSets) {
-      const scripts = [...(set.scripts || []), ...(set.mainJs ? [set.mainJs] : [])];
-      if (!scripts.length || scriptsDone.has(set.name)) continue;
-      scriptsDone.add(set.name);
-      let ok = 0;
-      for (const code of scripts) if (runInPage(code, `${set.name} main-world script`)) ok++;
-      if (ok) ipcRenderer.send('cb:scriptlets', { name: set.name, count: ok, url: location.href });
-    }
-    for (const set of ruleSets) {
-      if (set.css) {
-        const id = `cb-rule-${set.name}`;
-        let el = document.getElementById(id);
-        if (!el) {
-          el = document.createElement('style');
-          el.id = id;
-          el.setAttribute('data-claude-browser', 'rule');
-          (document.head || document.documentElement).appendChild(el);
+      // Per set, so one rule failing cannot stop the rest. This used to wrap the whole
+      // loop: at document-start there is no <head> or <html> yet, the style append threw
+      // null, and every later rule in the list was skipped along with it.
+      try {
+        if (set.css) {
+          const host = document.head || document.documentElement;
+          const id = `cb-rule-${set.name}`;
+          let el = document.getElementById(id);
+          if (!el) {
+            el = document.createElement('style');
+            el.id = id;
+            el.setAttribute('data-claude-browser', 'rule');
+            host.appendChild(el);
+          }
+          if (el.textContent !== set.css) el.textContent = set.css;
         }
-        if (el.textContent !== set.css) el.textContent = set.css;
-      }
-      if (set.js) {
-        try {
-          const fn = new Function('options', 'reason', set.js);
-          fn(set.options || {}, reason);
-        } catch (e) {
-          ipcRenderer.send('cb:log', { level: 'error', msg: `rule ${set.name} js: ${e.message}` });
-        }
+        if (set.js) runIsolated(set.js, set.options, reason, set.name);
+      } catch (e) {
+        ipcRenderer.send('cb:log', { level: 'error', msg: `rule ${set.name}: ${e.message}` });
       }
     }
   } catch (e) {
@@ -74,9 +121,11 @@ try {
 } catch (_) { ruleSets = []; }
 applyRules('start');
 
-// Re-apply as the document grows (head/body appear after document-start).
+// Re-apply as the document grows (head and body appear after document-start).
 const earlyObserver = new MutationObserver(() => applyRules('mutate'));
-try { earlyObserver.observe(document.documentElement, { childList: true, subtree: false }); } catch (_) {}
+whenDocumentElement(() => {
+  try { earlyObserver.observe(document.documentElement, { childList: true, subtree: false }); } catch (_) {}
+});
 document.addEventListener('DOMContentLoaded', () => applyRules('domcontentloaded'));
 window.addEventListener('load', () => { applyRules('load'); setTimeout(() => earlyObserver.disconnect(), 5000); });
 
