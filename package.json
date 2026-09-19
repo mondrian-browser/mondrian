@@ -13,7 +13,8 @@
     "install-mcp": "node tools/install-mcp.js",
     "test:sites": "node tests/site-suite.js",
     "test:agent": "node tests/agent-suite.js",
-    "test:all": "node tests/e2e.js && node tests/site-suite.js && node tests/agent-suite.js"
+    "test:all": "node tests/e2e.js && node tests/site-suite.js && node tests/agent-suite.js",
+    "docs": "node tools/gen-docs.js"
   },
   "engines": {
     "node": ">=20"
