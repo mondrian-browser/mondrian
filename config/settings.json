@@ -1,0 +1,24 @@
+{
+  "homeUrl": "https://duckduckgo.com",
+  "searchUrl": "https://duckduckgo.com/?q=%s",
+  "defaultProfile": "lloyd",
+  "claudeProfile": "claude",
+  "theme": "default",
+  "control": {
+    "host": "127.0.0.1",
+    "port": 6510
+  },
+  "window": {
+    "width": 1440,
+    "height": 900
+  },
+  "permissions": {
+    "allow": [
+      "fullscreen",
+      "clipboard-read",
+      "clipboard-sanitized-write",
+      "media"
+    ]
+  },
+  "userAgentSuffix": ""
+}

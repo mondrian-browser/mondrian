@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline' file:; script-src file:; img-src data: https: file:; font-src file:;">
+<title>Claude Browser</title>
+<link rel="stylesheet" href="chrome.css">
+<style id="theme-css"></style>
+<style id="custom-css"></style>
+<style id="injected-css"></style>
+</head>
+<body>
+  <header id="topbar">
+    <div id="tabstrip">
+      <div id="tabs" role="tablist" aria-label="Tabs"></div>
+      <button id="newtab" class="icon-btn" title="New tab (Ctrl+T)" aria-label="New tab">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5v9M3.5 8h9"/></svg>
+      </button>
+      <div id="drag-spacer"></div>
+      <div id="wincontrols">
+        <button class="win-btn" data-win="minimize" aria-label="Minimise"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6h7"/></svg></button>
+        <button class="win-btn" data-win="maximize" aria-label="Maximise"><svg viewBox="0 0 12 12" aria-hidden="true"><rect x="2.8" y="2.8" width="6.4" height="6.4" rx="1"/></svg></button>
+        <button class="win-btn danger" data-win="close" aria-label="Close"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 3l6 6M9 3l-6 6"/></svg></button>
+      </div>
+    </div>
+
+    <div id="toolbar">
+      <div class="nav-group">
+        <button id="back" class="icon-btn" title="Back" aria-label="Back"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3.5L5.5 8l4.5 4.5"/></svg></button>
+        <button id="forward" class="icon-btn" title="Forward" aria-label="Forward"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5L10.5 8 6 12.5"/></svg></button>
+        <button id="reload" class="icon-btn" title="Reload" aria-label="Reload"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 8a5 5 0 1 1-1.6-3.7M13 3v2.2h-2.2"/></svg></button>
+      </div>
+
+      <form id="omniform" autocomplete="off">
+        <div id="omnibox-wrap">
+          <span id="scheme" aria-hidden="true"></span>
+          <input id="omnibox" type="text" spellcheck="false" placeholder="Search, or type a URL" aria-label="Address and search bar">
+          <span id="profile-chip" title="Profile (isolated cookies)"></span>
+        </div>
+      </form>
+
+      <div class="nav-group">
+        <button id="rules-btn" class="icon-btn" title="Site rules" aria-label="Site rules">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h7"/></svg>
+          <span id="rules-dot" hidden></span>
+        </button>
+        <button id="panel-btn" class="icon-btn" title="Activity panel (Ctrl+Shift+P)" aria-label="Activity panel">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.5" y="3" width="11" height="10" rx="1.6"/><path d="M10 3v10"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <aside id="panel" hidden aria-label="Activity">
+    <div class="panel-head">
+      <h2>Activity</h2>
+      <button id="panel-close" class="icon-btn" aria-label="Close panel"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
+    </div>
+    <div id="panel-tabs">
+      <button class="panel-tab is-on" data-view="notes">Notes</button>
+      <button class="panel-tab" data-view="rules">Rules</button>
+    </div>
+    <div id="view-notes" class="panel-view">
+      <ol id="notes" aria-live="polite"></ol>
+      <p id="notes-empty" class="empty">Nothing yet. Claude posts here while it works.</p>
+    </div>
+    <div id="view-rules" class="panel-view" hidden>
+      <ul id="rules-list"></ul>
+    </div>
+  </aside>
+
+  <div id="toasts" aria-live="polite"></div>
+  <div id="status" hidden></div>
+
+  <script src="chrome.js"></script>
+</body>
+</html>

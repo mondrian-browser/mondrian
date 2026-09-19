@@ -1,0 +1,13 @@
+{
+  "title": "Focus mode",
+  "enabled": false,
+  "note": "Example of a rule Claude can write on request. Off by default.",
+  "match": [
+    "*://*.reddit.com/*",
+    "*://news.ycombinator.com/*",
+    "*://*.x.com/*"
+  ],
+  "block": [],
+  "css": "body::before { content: \"focus mode\"; position: fixed; z-index: 99999; top: 0; left: 0; right: 0; text-align: center; font: 11px system-ui; letter-spacing: .1em; text-transform: uppercase; padding: 3px; background: #c8794f; color: #fff; }",
+  "js": ""
+}

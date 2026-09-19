@@ -1,0 +1,26 @@
+{
+  "name": "claude-browser",
+  "version": "0.1.0",
+  "description": "A browser built for Claude to steer and for Lloyd to use. Electron shell, localhost control server, MCP bridge, hot-reloadable site rules and UI.",
+  "private": true,
+  "main": "app/main/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "mcp": "node tools/mcp/server.js",
+    "test": "node tests/e2e.js",
+    "install-mcp": "node tools/install-mcp.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "ws": "^8.21.3",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "electron": "^44.4.3"
+  }
+}
