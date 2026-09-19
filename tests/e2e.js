@@ -60,6 +60,47 @@ function startFixture() {
       </script></head><body><h1 id="mw">main world</h1></body></html>`);
       return;
     }
+    if (req.url.startsWith('/form')) {
+      res.writeHead(200, { 'content-type': 'text/html' });
+      res.end(`<!doctype html><html><head><title>Form page</title></head><body>
+        <h1>Form page</h1>
+        <!-- A submit button, because HTML only does implicit submission when a form
+             has one, or has exactly one field that blocks it. Two bare inputs and no
+             button means Chromium is right to ignore Enter. -->
+        <form id="f" action="/second" method="get">
+          <input id="q" name="q" type="search" placeholder="Query">
+          <input id="second" name="second" type="text">
+          <button id="go" type="submit">Go</button>
+        </form>
+        <form id="single" action="/second" method="get">
+          <input id="lonely" name="lonely" type="text">
+        </form>
+        <div id="log">no submit</div>
+        <script>
+          document.getElementById('f').addEventListener('submit', () => { document.getElementById('log').textContent = 'submitted'; });
+        </script>
+      </body></html>`);
+      return;
+    }
+    if (req.url.startsWith('/swap')) {
+      res.writeHead(200, { 'content-type': 'text/html' });
+      res.end(`<!doctype html><html><head><title>Swap page</title></head><body>
+        <h1>Swap page</h1>
+        <div id="holder"><input id="live" name="q" placeholder="Search here"></div>
+        <script>
+          // Replace the node on first focus, exactly what Wikipedia's search box does.
+          document.getElementById('live').addEventListener('focus', function once() {
+            const old = document.getElementById('live');
+            const fresh = document.createElement('input');
+            fresh.id = 'live'; fresh.name = 'q'; fresh.placeholder = 'Search here';
+            fresh.setAttribute('data-swapped', 'yes');
+            old.replaceWith(fresh);
+            fresh.focus();
+          }, { once: true });
+        </script>
+      </body></html>`);
+      return;
+    }
     if (req.url.startsWith('/shadow')) {
       res.writeHead(200, { 'content-type': 'text/html' });
       res.end(`<!doctype html><html><head><title>Shadow page</title></head><body>
@@ -338,6 +379,57 @@ class Client {
     } else {
       check('scriptlet library loaded', false, 'engine reported 0 scriptlets, so the list download probably failed');
     }
+
+    // ---- a ref whose node gets replaced is found again, not just refused
+    await c.call('navigate', { tabId, url: `${base}/swap` });
+    await sleep(500);
+    const swapFound = await c.call('find', { tabId, query: 'Search here' });
+    check('found the field before it is replaced', swapFound.count > 0, JSON.stringify(swapFound.elements[0]));
+    const swapRef = swapFound.elements[0].ref;
+    // Focusing swaps the node out, which kills a plain element reference.
+    await c.call('click', { tabId, ref: swapRef });
+    await sleep(400);
+    const wasSwapped = await c.call('eval_js', { tabId, code: 'document.getElementById("live").getAttribute("data-swapped")' });
+    check('the page really did replace the node', wasSwapped.value === 'yes', JSON.stringify(wasSwapped.value));
+    const typedSwap = await c.call('type', { tabId, ref: swapRef, text: 'still works', clear: true });
+    check('the ref survives the node being replaced', typedSwap.fieldValue === 'still works', JSON.stringify(typedSwap));
+
+    // ---- Enter has to actually submit a form
+    // Chromium drives implicit submission off the char event. Sending only
+    // keyDown/keyUp delivers a trusted Enter that the page sees and nothing happens,
+    // which is exactly what Wikipedia's search box did.
+    await c.call('navigate', { tabId, url: `${base}/form` });
+    await sleep(500);
+    await c.call('type', { tabId, selector: '#q', text: 'hello', clear: true });
+    await c.call('press_key', { tabId, key: 'Enter' });
+    await sleep(1200);
+    const submitted = (await c.call('tabs_list')).tabs.find((t) => t.id === tabId);
+    check('Enter submits a real form', submitted.url.includes('/second') && submitted.url.includes('q=hello'), submitted.url);
+
+    // and the same through type({submit:true})
+    await c.call('navigate', { tabId, url: `${base}/form` });
+    await sleep(500);
+    await c.call('type', { tabId, selector: '#q', text: 'world', clear: true, submit: true });
+    await sleep(1200);
+    const submitted2 = (await c.call('tabs_list')).tabs.find((t) => t.id === tabId);
+    check('type with submit:true submits too', submitted2.url.includes('q=world'), submitted2.url);
+
+    // A single-field form with no button is the other case HTML allows
+    await c.call('navigate', { tabId, url: `${base}/form` });
+    await sleep(500);
+    await c.call('type', { tabId, selector: '#lonely', text: 'solo', clear: true, submit: true });
+    await sleep(1200);
+    const solo = (await c.call('tabs_list')).tabs.find((t) => t.id === tabId);
+    check('Enter submits a single-field form with no button', solo.url.includes('lonely=solo'), solo.url);
+
+    // Tab moves focus, which also needs the char event
+    await c.call('navigate', { tabId, url: `${base}/form` });
+    await sleep(500);
+    await c.call('click', { tabId, selector: '#q' });
+    await c.call('press_key', { tabId, key: 'Tab' });
+    await sleep(400);
+    const focused = await c.call('eval_js', { tabId, code: 'document.activeElement && document.activeElement.id' });
+    check('Tab moves focus to the next field', focused.value === 'second', JSON.stringify(focused.value));
 
     // ---- shadow DOM: innerText is blind to it, so page_text has to go deeper
     await c.call('navigate', { tabId, url: `${base}/shadow` });

@@ -156,7 +156,7 @@ window.addEventListener('load', () => { applyRules('load'); setTimeout(() => ear
 function onUrlMaybeChanged() {
   if (location.href === lastUrl) return;
   lastUrl = location.href;
-  refs.clear(); refMap = new WeakMap(); refSeq = 0;
+  refs.clear(); refInfo.clear(); refMap = new WeakMap(); refSeq = 0; lastRelocated = null;
   // Same document, so main-world code stays applied; do not clear scriptsDone here.
   try { ruleSets = ipcRenderer.sendSync('cb:rules-for-url', location.href) || []; } catch (_) {}
   applyRules('spa');
@@ -172,8 +172,10 @@ setInterval(onUrlMaybeChanged, 700);
 
 // ---------------------------------------------------------------- agent
 let refs = new Map();      // ref -> element
+let refInfo = new Map();   // ref -> descriptor, so a replaced node can be found again
 let refMap = new WeakMap();// element -> ref
 let refSeq = 0;
+let lastRelocated = null;  // reported once, so a caller can see it happened
 
 const INTERACTIVE = 'a[href],button,input,select,textarea,summary,[role=button],[role=link],[role=tab],[role=checkbox],[role=radio],[role=menuitem],[role=option],[role=switch],[role=searchbox],[role=textbox],[role=combobox],[contenteditable=""],[contenteditable=true],[onclick],[tabindex]:not([tabindex="-1"])';
 const HEADINGS = 'h1,h2,h3,h4,h5,h6,[role=heading]';
@@ -182,15 +184,74 @@ const SKIP = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE', 'SVG', 'PATH', 
 
 function refFor(el) {
   let r = refMap.get(el);
-  if (!r) { r = 'e' + (++refSeq); refMap.set(el, r); refs.set(r, el); }
+  if (!r) {
+    r = 'e' + (++refSeq);
+    refMap.set(el, r);
+    refs.set(r, el);
+    refInfo.set(r, descriptorFor(el));
+  }
   return r;
+}
+
+// Enough about an element to find it again if the page replaces the node.
+function descriptorFor(el) {
+  try {
+    return {
+      tag: el.tagName,
+      id: el.id || null,
+      name: el.getAttribute?.('name') || null,
+      aria: el.getAttribute?.('aria-label') || null,
+      placeholder: el.getAttribute?.('placeholder') || null,
+      href: el.tagName === 'A' ? el.getAttribute('href') : null,
+      role: role(el),
+      text: label(el).slice(0, 80),
+    };
+  } catch (_) { return null; }
+}
+
+// Real sites swap nodes out from under you. Wikipedia replaces its search input with
+// a different element the moment it gains focus, so a ref taken from find() is dead
+// by the time you type into it. Rather than making every caller re-read the page,
+// look the same element up again by what it was.
+function relocate(d) {
+  if (!d) return null;
+  const esc = (v) => (window.CSS && CSS.escape ? CSS.escape(v) : String(v).replace(/["\\]/g, '\\$&'));
+  const tag = (d.tag || '').toLowerCase();
+  const selectors = [];
+  if (d.id) selectors.push(`#${esc(d.id)}`);
+  if (d.name) selectors.push(`${tag}[name="${esc(d.name)}"]`);
+  if (d.aria) selectors.push(`[aria-label="${esc(d.aria)}"]`);
+  if (d.placeholder) selectors.push(`[placeholder="${esc(d.placeholder)}"]`);
+  if (d.href) selectors.push(`a[href="${esc(d.href)}"]`);
+  for (const sel of selectors) {
+    try {
+      const el = deepQuery(sel);
+      if (el && el.isConnected) return el;
+    } catch (_) { /* bad selector, try the next */ }
+  }
+  if (d.text) {
+    try {
+      for (const el of walkAll(document.body)) {
+        if (!visible(el)) continue;
+        if (role(el) === d.role && label(el).slice(0, 80) === d.text) return el;
+      }
+    } catch (_) { /* fall through */ }
+  }
+  return null;
 }
 
 function deref(ref) {
   const el = refs.get(ref);
+  if (el && el.isConnected) return el;
+  const found = relocate(refInfo.get(ref));
+  if (found) {
+    refs.set(ref, found);
+    refMap.set(found, ref);
+    lastRelocated = ref;
+    return found;
+  }
   if (!el) throw new Error(`Unknown ref "${ref}". Call page_read or find again — the page may have changed.`);
-  if (!el.isConnected) throw new Error(`Ref "${ref}" is no longer in the document. Call page_read or find again.`);
-  return el;
+  throw new Error(`Ref "${ref}" is no longer in the document and could not be found again. Call page_read or find again.`);
 }
 
 function resolve({ ref, selector }) {
@@ -448,10 +509,13 @@ const methods = {
   },
 
   point(spec) {
+    lastRelocated = null;
     const el = resolve(spec);
     scrollIntoView(el);
     const c = elementCenter(el);
-    return { ...c, ref: refFor(el), text: label(el), role: role(el) };
+    const out = { ...c, ref: refFor(el), text: label(el), role: role(el) };
+    if (lastRelocated) out.relocated = true; // the node was replaced and found again
+    return out;
   },
 
   focus(spec) {

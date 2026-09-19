@@ -26,11 +26,21 @@ function makeHandlers(ctx) {
     tab.wc.sendInputEvent({ type, x: Math.round(x), y: Math.round(y), button, clickCount, modifiers: modifiers.map((m) => MOD[m]).filter(Boolean) });
   }
 
+  // Keys that carry a character. Enter and Tab belong here even though their names are
+  // longer than one letter: Chromium drives implicit form submission off the char
+  // event, so a keyDown/keyUp pair alone delivers a trusted Enter to the page and
+  // submits nothing. Wikipedia's search box took the keystroke and sat there.
+  // The char event carries the CHARACTER, not the key name: Chromium needs charCode
+  // 13 to run implicit form submission, and 'Enter' as a char is not that.
+  const CHAR_OF = { Enter: '\r', Tab: '\t', Space: ' ' };
+  const charFor = (key) => CHAR_OF[key] || key;
+
   function sendKey(tab, key, modifiers = []) {
     const mods = modifiers.map((m) => MOD[m]).filter(Boolean);
+    const isShortcut = mods.some((m) => m === 'control' || m === 'meta' || m === 'alt');
     tab.wc.sendInputEvent({ type: 'keyDown', keyCode: key, modifiers: mods });
-    if (key.length === 1 && !mods.some((m) => m === 'control' || m === 'meta' || m === 'alt')) {
-      tab.wc.sendInputEvent({ type: 'char', keyCode: key, modifiers: mods });
+    if (!isShortcut && (key.length === 1 || CHAR_OF[key] !== undefined)) {
+      tab.wc.sendInputEvent({ type: 'char', keyCode: charFor(key), modifiers: mods });
     }
     tab.wc.sendInputEvent({ type: 'keyUp', keyCode: key, modifiers: mods });
   }
@@ -40,15 +50,36 @@ function makeHandlers(ctx) {
   // Run `code` as an expression if it is one, otherwise as a statement body.
   // Deciding by syntax beats guessing from the text: `(() => { return 1 })()`
   // is an expression that contains the word "return".
+  // Electron reports any page-side throw as "Script failed to execute, this normally
+  // means an error was thrown. Check the renderer console for the error." There is no
+  // renderer console to check from here, so catch inside the page and carry the real
+  // message and stack back out.
+  const CB_ERR = '__claudeBrowserError';
+  function wrap(code, asExpression) {
+    const body = asExpression ? `return (${code}\n);` : `${code}\n`;
+    return `(async () => { try { ${body} } catch (e) {
+      return { ${CB_ERR}: String((e && e.message) || e), stack: String((e && e.stack) || '').split('\\n').slice(0, 3).join(' | ') };
+    } })()`;
+  }
+
   async function runJs(wc, code) {
-    const asExpression = `(async () => { return (${code}\n); })()`;
-    const asStatements = `(async () => { ${code}\n })()`;
+    let value;
     try {
-      return await wc.executeJavaScript(asExpression, true);
-    } catch (e) {
-      if (!/SyntaxError/i.test(String(e?.message || e))) throw e;
-      return wc.executeJavaScript(asStatements, true);
+      value = await wc.executeJavaScript(wrap(code, true), true);
+    } catch (_) {
+      // Any rejection here means the code would not parse as an expression, because a
+      // runtime throw is caught inside the page and comes back as a value. Electron
+      // reports a syntax error with the same generic "Script failed to execute" text
+      // as everything else, so matching on the message is not possible: retry on any
+      // failure and let the statements form report what is actually wrong.
+      value = await wc.executeJavaScript(wrap(code, false), true);
     }
+    if (value && typeof value === 'object' && value[CB_ERR]) {
+      const err = new Error(value[CB_ERR]);
+      err.pageStack = value.stack;
+      throw err;
+    }
+    return value;
   }
 
   const H = {
@@ -175,7 +206,7 @@ function makeHandlers(ctx) {
         const value = await runJs(tab.wc, code);
         return { value: value === undefined ? null : value };
       } catch (e) {
-        throw new Error(`Page threw: ${e.message}`);
+        throw new Error(`Page threw: ${e.message}${e.pageStack ? ` (${e.pageStack})` : ''}`);
       }
     },
 
