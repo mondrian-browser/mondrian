@@ -17,6 +17,7 @@ class Tab {
     this.network = [];
     this.blockedCount = 0;
     this.scriptletCount = 0;
+    this.scriptletFailures = 0;
     this.loading = false;
     this.lastError = null;
     this.createdAt = Date.now();
@@ -52,6 +53,7 @@ class Tab {
       loading: this.loading,
       blockedCount: this.blockedCount,
       scriptletCount: this.scriptletCount,
+      scriptletFailures: this.scriptletFailures,
       canGoBack: this.wc.navigationHistory?.canGoBack() ?? false,
       canGoForward: this.wc.navigationHistory?.canGoForward() ?? false,
       lastError: this.lastError,
@@ -66,7 +68,7 @@ class Tab {
     wc.on('did-stop-loading', () => { this.loading = false; emit('tab-updated'); });
     wc.on('page-title-updated', () => emit('tab-updated'));
     wc.on('page-favicon-updated', (_e, icons) => emit('tab-updated', { favicon: icons?.[0] }));
-    wc.on('did-navigate', () => { this.console = []; this.network = []; this.blockedCount = 0; this.scriptletCount = 0; emit('tab-updated'); });
+    wc.on('did-navigate', () => { this.console = []; this.network = []; this.blockedCount = 0; this.scriptletCount = 0; this.scriptletFailures = 0; emit('tab-updated'); });
     wc.on('did-navigate-in-page', () => emit('tab-updated'));
     wc.on('did-fail-load', (_e, code, desc, url, isMainFrame) => {
       if (isMainFrame && code !== -3) { this.lastError = { code, desc, url }; emit('tab-updated'); }
@@ -131,11 +133,13 @@ class TabManager {
       const tab = this.byWebContentsId(e.sender.id);
       if (tab) { tab.console.push({ t: Date.now(), level, message: `[claude-browser] ${msg}` }); }
     });
-    ipcMain.on('cb:scriptlets', (e, { name, count, url }) => {
+    ipcMain.on('cb:scriptlets', (e, { name, count, failed, url }) => {
       const tab = this.byWebContentsId(e.sender.id);
       if (!tab) return;
       tab.scriptletCount += count;
-      tab.console.push({ t: Date.now(), level: 'info', message: `[claude-browser] ${name}: ${count} main-world script(s) injected into ${url}` });
+      tab.scriptletFailures += failed || 0;
+      const note = failed ? `${count} main-world script(s) injected, ${failed} threw` : `${count} main-world script(s) injected`;
+      tab.console.push({ t: Date.now(), level: failed ? 'warning' : 'info', message: `[claude-browser] ${name}: ${note} into ${url}` });
     });
     ipcMain.on('cb:preload-ready', () => {});
   }

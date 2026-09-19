@@ -147,12 +147,15 @@ class Adblock {
     const domain = parseDomain(hostname).domain || hostname;
     let css = '';
     const scripts = [];
+    // Scriptlets run real JavaScript in the page and can break a site outright, so they
+    // are separable from element hiding and network blocking.
+    const wantScripts = this.settings.scriptlets !== false;
     for (const engine of [this.custom, this.engine]) {
       if (!engine) continue;
       try {
         const c = engine.getCosmeticsFilters({ url: pageUrl, hostname, domain });
         if (c?.styles) css += (css ? '\n' : '') + c.styles;
-        if (c?.scripts?.length) scripts.push(...c.scripts);
+        if (wantScripts && c?.scripts?.length) scripts.push(...c.scripts);
       } catch (_) { /* skip */ }
     }
     if (scripts.length) this.stats.scriptlets += scripts.length;
@@ -172,6 +175,7 @@ class Adblock {
       updatedAt: this.updatedAt,
       refreshHours: this.settings.refreshHours ?? 72,
       customFilters: (this.settings.customFilters || []).length,
+      scriptletsEnabled: this.settings.scriptlets !== false,
       allowlist: this.settings.allowlist || [],
       stats: this.stats,
       degraded: this.degraded,

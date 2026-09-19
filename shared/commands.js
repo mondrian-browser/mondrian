@@ -323,6 +323,7 @@ const commands = [
       enabled: z.boolean().optional(),
       lists: z.enum(['ads-only', 'ads-and-tracking', 'full']).optional().describe('ads-and-tracking is the default. "full" adds annoyance and cookie-notice lists.'),
       allowlist: z.array(z.string()).optional().describe('Domains where blocking is off entirely. Replaces the current list.'),
+      scriptlets: z.boolean().optional().describe('Filter-list scriptlets: real JavaScript injected into the page to defuse anti-adblock and paywall scripts. Powerful and the most likely thing to break a site, so it can be turned off without losing network blocking or element hiding.'),
       customFilters: z.array(z.string()).optional().describe('Adblock Plus syntax lines, applied before the downloaded lists. Replaces the current set.'),
     },
   },

@@ -332,12 +332,13 @@ function makeHandlers(ctx) {
     // ------------------------------------------------------------- ad blocking
     async adblock_status() { return adblock.status(); },
 
-    async adblock_set({ enabled, lists, allowlist, customFilters }) {
+    async adblock_set({ enabled, lists, allowlist, customFilters, scriptlets }) {
       const next = { ...(settings.adblock || {}) };
       if (enabled !== undefined) next.enabled = enabled;
       if (lists !== undefined) next.lists = lists;
       if (allowlist !== undefined) next.allowlist = allowlist;
       if (customFilters !== undefined) next.customFilters = customFilters;
+      if (scriptlets !== undefined) next.scriptlets = scriptlets;
       settings.adblock = next;
       adblock.settings = next;
       ctx.saveSettings({ adblock: next });

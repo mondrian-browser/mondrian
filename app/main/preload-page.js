@@ -64,9 +64,32 @@ function applyMainWorld() {
     const scripts = [...(set.scripts || []), ...(set.mainJs ? [set.mainJs] : [])];
     if (!scripts.length || scriptsDone.has(set.name)) continue;
     scriptsDone.add(set.name);
-    let ok = 0;
-    for (const code of scripts) if (runInPage(code, `${set.name} main-world script`)) ok++;
-    if (ok) ipcRenderer.send('cb:scriptlets', { name: set.name, count: ok, url: location.href });
+
+    // ONE injection for the whole set, wrapped in a single IIFE, each part in its own
+    // try. Injecting them one call at a time was wrong in two ways: the calls are not
+    // guaranteed to all land before the page's first script, so later ones arrive
+    // mid-hydration, and one throwing took the rest with it. A filter list's scriptlets
+    // are written to be concatenated — they share one `scriptletGlobals` and expect to
+    // see each other — so they belong in one scope, which also keeps their declarations
+    // out of the page's globals.
+    const combined =
+      '(function () { var __cbFailed = 0;\n'
+      + scripts.map((code) => `try {\n${code}\n} catch (e) { __cbFailed++; }`).join('\n')
+      + '\nreturn __cbFailed; })()';
+
+    const done = (failed) => ipcRenderer.send('cb:scriptlets', {
+      name: set.name, count: scripts.length, failed: failed || 0, url: location.href,
+    });
+    try {
+      const p = webFrame.executeJavaScript(combined, false);
+      if (p && typeof p.then === 'function') {
+        p.then(done).catch((e) => {
+          ipcRenderer.send('cb:log', { level: 'warning', msg: `${set.name} main-world bundle failed: ${e.message}` });
+        });
+      } else done(0);
+    } catch (e) {
+      ipcRenderer.send('cb:log', { level: 'warning', msg: `${set.name} main-world bundle failed: ${e.message}` });
+    }
   }
 }
 

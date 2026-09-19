@@ -319,6 +319,49 @@ class Client {
       check('scriptlet library loaded', false, 'engine reported 0 scriptlets, so the list download probably failed');
     }
 
+    // ---- main-world code is ONE bundle per set, with each part isolated
+    // Injecting a set's scripts as separate calls broke YouTube outright: later calls
+    // landed mid-hydration. They go in one bundle now, each part in its own try.
+    await c.call('adblock_set', { customFilters: [
+      '127.0.0.1##+js(set-constant, __bundleOne, 1)',
+      '127.0.0.1##+js(set-constant, __bundleTwo, 2)',
+    ] });
+    await c.call('navigate', { tabId, url: `${base}/mainworld` });
+    await sleep(1200);
+    const bundle = await c.call('eval_js', { tabId, code: '({ one: window.__bundleOne, two: window.__bundleTwo })' });
+    check('every scriptlet in a set is applied', bundle.value.one === 1 && bundle.value.two === 2, JSON.stringify(bundle.value));
+    const bundleTab = (await c.call('tabs_list')).tabs.find((t) => t.id === tabId);
+    check('a clean bundle reports no failures', bundleTab.scriptletFailures === 0, JSON.stringify(bundleTab.scriptletFailures));
+    await c.call('adblock_set', { customFilters: [] });
+
+    await c.call('rules_set', {
+      name: 'e2e-throw',
+      rule: {
+        title: 'throwing mainJs',
+        enabled: true,
+        match: [`*://127.0.0.1:${fixturePort}/*`],
+        mainJs: 'window.__beforeThrow = true; throw new Error("deliberate"); ',
+      },
+    });
+    await c.call('navigate', { tabId, url: `${base}/mainworld` });
+    await sleep(900);
+    const threw = await c.call('eval_js', { tabId, code: '({ ran: window.__beforeThrow === true, pageAlive: !!document.querySelector("h1") })' });
+    check('a throwing main-world script is caught, not fatal', threw.value.ran === true && threw.value.pageAlive === true, JSON.stringify(threw.value));
+    const throwTab = (await c.call('tabs_list')).tabs.find((t) => t.id === tabId);
+    check('a throwing main-world script is counted', throwTab.scriptletFailures >= 1, JSON.stringify(throwTab.scriptletFailures));
+    await c.call('rules_toggle', { name: 'e2e-throw', enabled: false });
+
+    // scriptlets can be switched off without losing blocking
+    await c.call('adblock_set', { customFilters: ['127.0.0.1##+js(set-constant, __offTest, 9)', '/adtest.js'], scriptlets: false });
+    await c.call('navigate', { tabId, url: `${base}/mainworld` });
+    await sleep(900);
+    const noScriptlets = await c.call('eval_js', { tabId, code: 'window.__offTest' });
+    check('scriptlets can be turned off on their own', noScriptlets.value === null || noScriptlets.value === undefined, JSON.stringify(noScriptlets));
+    await c.call('navigate', { tabId, url: base });
+    const stillBlocking = await c.call('eval_js', { tabId, code: 'window.__adLoaded === true' });
+    check('turning scriptlets off leaves network blocking on', stillBlocking.value === false, JSON.stringify(stillBlocking));
+    await c.call('adblock_set', { customFilters: [], scriptlets: true });
+
     // ---- rule js under a CSP that forbids eval (the YouTube case)
     await c.call('rules_set', {
       name: 'e2e-noeval',
@@ -476,7 +519,7 @@ class Client {
   console.log(`\n${passed} passed, ${failed} failed`);
   if (failed && appLog) console.log('\n--- app log ---\n' + appLog.slice(-4000));
 
-  for (const f of ['e2e.json', 'e2e-live.json', 'e2e-mainworld.json', 'e2e-noeval.json']) {
+  for (const f of ['e2e.json', 'e2e-live.json', 'e2e-mainworld.json', 'e2e-noeval.json', 'e2e-throw.json']) {
     try { fs.unlinkSync(path.join(ROOT, 'rules', f)); } catch (_) {}
   }
   server.close();
