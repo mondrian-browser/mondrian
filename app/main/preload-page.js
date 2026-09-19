@@ -311,6 +311,61 @@ function bestTextRoot() {
   return best && bestLen >= bodyLen * 0.5 ? best : body;
 }
 
+// innerText stops at a shadow boundary. Sites built out of web components put all
+// their content inside one, so innerText reports nothing at all: archive.org has
+// 83,000 characters nested seven shadow roots deep under <app-root> and a plain
+// innerText read of its body returns 0. page_read already walks shadow roots, which
+// is why it could see the page while page_text could not.
+//
+// Only used when innerText comes up short, because it is much slower than innerText
+// and innerText is the better answer whenever it works.
+function collectShadowRoots(root, acc = [], depth = 0) {
+  if (depth > 20 || !root) return acc;
+  let all;
+  try { all = root.querySelectorAll('*'); } catch (_) { return acc; }
+  for (const el of all) {
+    if (el.shadowRoot) {
+      acc.push(el.shadowRoot);
+      collectShadowRoots(el.shadowRoot, acc, depth + 1);
+    }
+  }
+  return acc;
+}
+
+function deepText(root) {
+  if (!root) return '';
+  const parts = [];
+  const seen = new Set();
+  const add = (t) => {
+    const trimmed = (t || '').trim();
+    // Slotted content appears in both a host and its shadow root, so the same block
+    // can be reached twice. Keep the first sighting and drop repeats.
+    if (!trimmed || seen.has(trimmed)) return;
+    seen.add(trimmed);
+    parts.push(trimmed);
+  };
+
+  add(root.innerText);
+  // Walk to every open shadow root rather than descending element by element:
+  // innerText stops at each boundary but covers everything between them, so the
+  // union of the roots is the whole page. Stopping at the first element that had
+  // any text at all missed everything nested below it.
+  for (const shadow of collectShadowRoots(root)) {
+    for (const child of shadow.children || []) {
+      if (SKIP.has(child.tagName)) continue;
+      add(child.innerText);
+    }
+  }
+  return parts.join('\n');
+}
+
+function hasShadowContent() {
+  try {
+    for (const el of document.querySelectorAll('*')) if (el.shadowRoot) return true;
+  } catch (_) { /* ignore */ }
+  return false;
+}
+
 function elementCenter(el) {
   const r = el.getBoundingClientRect();
   // Clamp to viewport so the synthesized click lands on something real.
@@ -335,12 +390,19 @@ const methods = {
 
   pageText({ selector, maxChars = 20000 }) {
     const root = selector ? resolve({ selector }) : bestTextRoot();
-    const raw = (root?.innerText || document.body?.innerText || '').replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+    let raw = (root?.innerText || document.body?.innerText || '').trim();
+    let viaShadow = false;
+    if (raw.length < 200 && hasShadowContent()) {
+      const deep = deepText(root || document.body).trim();
+      if (deep.length > raw.length) { raw = deep; viaShadow = true; }
+    }
+    raw = raw.replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
     return {
       url: location.href,
       title: document.title,
       chars: raw.length,
       truncated: raw.length > maxChars,
+      viaShadow,
       text: raw.slice(0, maxChars),
     };
   },

@@ -88,17 +88,41 @@ class Client {
 
 // ---------------------------------------------------------------- per-site checks
 const HEALTH = `(() => {
-  const vis = (sel) => { try { return [...document.querySelectorAll(sel)].filter(e => {
-    const r = e.getBoundingClientRect();
-    return r.width > 2 && r.height > 2 && getComputedStyle(e).display !== 'none';
-  }).length; } catch (_) { return -1; } };
+  // Count through open shadow roots. A probe that only looks at the light DOM calls
+  // a working web-component site broken, which is what happened with archive.org.
+  const roots = (() => {
+    const acc = [document];
+    const walk = (r, d) => {
+      if (d > 20) return;
+      for (const el of r.querySelectorAll('*')) if (el.shadowRoot) { acc.push(el.shadowRoot); walk(el.shadowRoot, d + 1); }
+    };
+    try { walk(document, 0); } catch (_) {}
+    return acc;
+  })();
+  const vis = (sel) => { try {
+    let n = 0;
+    for (const root of roots) for (const e of root.querySelectorAll(sel)) {
+      const r = e.getBoundingClientRect();
+      if (r.width > 2 && r.height > 2 && getComputedStyle(e).display !== 'none') n++;
+    }
+    return n;
+  } catch (_) { return -1; } };
+  const deepChars = () => {
+    let n = 0;
+    for (const root of roots) {
+      if (root === document) { n += (document.body && document.body.innerText || '').length; continue; }
+      for (const c of root.children || []) n += (c.innerText || '').length;
+    }
+    return n;
+  };
   const body = document.body;
   return {
     readyState: document.readyState,
     title: document.title.slice(0, 80),
-    textChars: (body && body.innerText || '').length,
+    textChars: deepChars(),
     visibleElements: vis('a, button, input, h1, h2, p, img'),
-    links: document.querySelectorAll('a[href]').length,
+    links: vis('a[href]'),
+    shadowRoots: roots.length - 1,
     bodyHeight: body ? Math.round(body.getBoundingClientRect().height) : 0,
     scrollHeight: document.documentElement.scrollHeight,
     hasStyleFromRules: !!document.querySelector('style[data-claude-browser]'),

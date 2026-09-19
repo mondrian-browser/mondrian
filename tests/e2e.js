@@ -60,6 +60,20 @@ function startFixture() {
       </script></head><body><h1 id="mw">main world</h1></body></html>`);
       return;
     }
+    if (req.url.startsWith('/shadow')) {
+      res.writeHead(200, { 'content-type': 'text/html' });
+      res.end(`<!doctype html><html><head><title>Shadow page</title></head><body>
+        <div id="host"></div>
+        <script>
+          // Two levels deep, the way a web-component site nests them.
+          const outer = document.getElementById('host').attachShadow({ mode: 'open' });
+          outer.innerHTML = '<h1>Outer shadow heading</h1><div id="inner"></div>';
+          const inner = outer.querySelector('#inner').attachShadow({ mode: 'open' });
+          inner.innerHTML = '<p>SHADOW_MARKER deep inside a nested shadow root, where innerText cannot reach it.</p><a href="/second" id="shadowlink">Shadow link</a>';
+        </script>
+      </body></html>`);
+      return;
+    }
     if (req.url.startsWith('/second')) { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1>Second page</h1><p>SECOND_MARKER</p>'); return; }
     if (req.url.startsWith('/denyframe')) {
       res.writeHead(200, { 'content-type': 'text/html', 'x-frame-options': 'DENY', 'content-security-policy': "frame-ancestors 'none'" });
@@ -323,6 +337,26 @@ class Client {
       await c.call('adblock_set', { customFilters: [] });
     } else {
       check('scriptlet library loaded', false, 'engine reported 0 scriptlets, so the list download probably failed');
+    }
+
+    // ---- shadow DOM: innerText is blind to it, so page_text has to go deeper
+    await c.call('navigate', { tabId, url: `${base}/shadow` });
+    await sleep(700);
+    const plainInner = await c.call('eval_js', { tabId, code: '(document.body.innerText || "").trim().length' });
+    check('innerText really does miss shadow content', plainInner.value < 40, `body innerText was ${plainInner.value} chars`);
+    const shadowText = await c.call('page_text', { tabId });
+    check('page_text reads nested shadow DOM', shadowText.text.includes('SHADOW_MARKER'), `${shadowText.chars} chars: ${shadowText.text.slice(0, 80)}`);
+    check('page_text says when it had to go through shadow roots', shadowText.viaShadow === true, JSON.stringify(shadowText.viaShadow));
+    const shadowRead = await c.call('page_read', { tabId });
+    check('page_read finds elements inside shadow roots', shadowRead.elements.some((e) => e.text === 'Shadow link'), JSON.stringify(shadowRead.elements.slice(0, 5)));
+    const shadowFind = await c.call('find', { tabId, query: 'Shadow link' });
+    check('find reaches into shadow roots', shadowFind.count > 0, JSON.stringify(shadowFind.elements[0]));
+    if (shadowFind.count) {
+      await c.call('click', { tabId, ref: shadowFind.elements[0].ref });
+      await sleep(900);
+      const after = await c.call('tabs_list');
+      const t = after.tabs.find((x) => x.id === tabId);
+      check('clicking an element inside a shadow root works', t.url.includes('/second'), t.url);
     }
 
     // ---- main-world code is ONE bundle per set, with each part isolated
