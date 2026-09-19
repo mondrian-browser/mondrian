@@ -12,7 +12,7 @@ the chrome, the network layer and the page layer are all ours to change at runti
 2. Call `status`. It launches the browser if it is not running and tells you the port,
    the open tabs, the loaded rule sets and the active profile.
 3. If you are changing the app itself (not just driving it), run `npm test` before and
-   after. It is a real end-to-end run under a headless display; 44 checks, all should pass.
+   after. It is a real end-to-end run under a headless display; 53 checks, all should pass.
 
 ## 1. The two ways to work
 
@@ -37,7 +37,10 @@ app/main/handlers.js    Every command implemented, once. The UI and Claude both 
 app/main/main.js        Boot, window, layout, shortcuts, context menus, IPC wiring.
 app/main/tabs.js        BaseWindow + one WebContentsView per tab, stacked over the chrome.
 app/main/profiles.js    One Electron session partition per profile = separate cookie jars.
-app/main/rules.js       Site rules: match → block / redirect / css / js.
+app/main/rules.js       Site rules: match → block / redirect / css / js. Owns the single
+                        onBeforeRequest listener and consults adblock.js after its own rules.
+app/main/adblock.js     EasyList/EasyPrivacy via the Ghostery engine. Deliberately does NOT
+                        install session hooks of its own; see section 4a.
 app/main/preload-page.js  Runs in every page at document-start. Applies rules before
                           first paint; is the agent that reads structure and resolves refs.
 app/chrome/*            The browser's own UI. Plain HTML/CSS/JS, no framework.
@@ -85,6 +88,27 @@ A rule set is one JSON file in `rules/`:
 **Selectors rot.** YouTube reshuffles its DOM every few months. When a rule stops working,
 A/B it: `rules_toggle` off, count what is visible, toggle on, count again. `tests/youtube-ab.js`
 does exactly this and is the pattern to copy for any site.
+
+## 4a. Ad and tracker blocking
+
+On by default. `adblock_status` / `adblock_set` / `adblock_update`.
+
+Electron allows exactly **one** webRequest listener per event per session, and a second
+`onBeforeRequest` silently replaces the first. `@ghostery/adblocker-electron` installs its
+own, which would clobber the rules engine without any error. So this project uses the plain
+`@ghostery/adblocker` engine and calls `match()` from inside the rules listener. Order of
+precedence: your site rules first, then the filter lists. Do not switch to the -electron
+package without understanding what it would overwrite.
+
+Element hiding rides the same document-start channel as rule CSS, so hidden elements never
+flash. Scriptlet injection from filter lists is **not** implemented: scriptlets need the
+page's main world and the preload runs isolated. Say so rather than implying full parity.
+
+The lists are cached in `.runtime/` and refreshed every `refreshHours` (default 72). If the
+download fails the engine runs on custom filters only and `status().degraded` says why.
+
+Custom filters take Adblock Plus syntax, are matched before the downloaded lists, and are
+what the test suite uses so it stays deterministic and offline.
 
 ## 5. Profiles
 
@@ -138,4 +162,9 @@ scope — it is the difference between a useful tool and a clickjacking machine.
   it works.
 - No find-in-page bar yet (Ctrl+F). No downloads UI; downloads work, they just go
   straight to the default folder.
+- Filter-list scriptlets are not injected, so a handful of anti-adblock workarounds that
+  rely on them will not fire.
+- Real-site blocking was measured by request volume (roughly halved on news sites). The
+  ad-element probes found nothing to count in either state on a datacentre IP, so element
+  hiding on live ad slots is unproven; `tests/adblock-check.js` re-measures it anywhere.
 - `window.open` always becomes a tab, never a popup window.

@@ -15,6 +15,7 @@ class Tab {
     this.onEvent = onEvent;
     this.console = [];
     this.network = [];
+    this.blockedCount = 0;
     this.loading = false;
     this.lastError = null;
     this.createdAt = Date.now();
@@ -48,6 +49,7 @@ class Tab {
       title: this.title,
       profile: this.profile,
       loading: this.loading,
+      blockedCount: this.blockedCount,
       canGoBack: this.wc.navigationHistory?.canGoBack() ?? false,
       canGoForward: this.wc.navigationHistory?.canGoForward() ?? false,
       lastError: this.lastError,
@@ -62,7 +64,7 @@ class Tab {
     wc.on('did-stop-loading', () => { this.loading = false; emit('tab-updated'); });
     wc.on('page-title-updated', () => emit('tab-updated'));
     wc.on('page-favicon-updated', (_e, icons) => emit('tab-updated', { favicon: icons?.[0] }));
-    wc.on('did-navigate', () => { this.console = []; this.network = []; emit('tab-updated'); });
+    wc.on('did-navigate', () => { this.console = []; this.network = []; this.blockedCount = 0; emit('tab-updated'); });
     wc.on('did-navigate-in-page', () => emit('tab-updated'));
     wc.on('did-fail-load', (_e, code, desc, url, isMainFrame) => {
       if (isMainFrame && code !== -3) { this.lastError = { code, desc, url }; emit('tab-updated'); }
@@ -84,6 +86,8 @@ class Tab {
   pushNetwork(entry) {
     this.network.push(entry);
     if (this.network.length > MAX_LOG) this.network.shift();
+    if (entry.blocked || entry.error === 'net::ERR_BLOCKED_BY_CLIENT') { this.blockedCount++; return true; }
+    return false;
   }
 
   destroy() {

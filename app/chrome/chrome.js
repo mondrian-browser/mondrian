@@ -44,8 +44,15 @@ function renderTabs() {
   }
 }
 
+// For tab labels: the port is worth seeing on localhost.
 function hostOf(url) {
   try { return new URL(url).host.replace(/^www\./, ''); } catch (_) { return ''; }
+}
+
+// For the allowlist: must be the bare hostname, because that is what the blocking
+// engine matches on. Using .host here silently breaks any site on a non-default port.
+function hostnameOf(url) {
+  try { return new URL(url).hostname; } catch (_) { return ''; }
 }
 
 function renderActive() {
@@ -66,6 +73,20 @@ function renderActive() {
   }
   const active = ui.rules.filter((r) => r.enabled).length;
   $('#rules-dot').hidden = active === 0;
+  renderShield(t);
+}
+
+function renderShield(t) {
+  const ab = ui.adblock || {};
+  const host = hostnameOf(t?.url || '');
+  const allowed = !!host && (ab.allowlist || []).some((d) => host === d || host.endsWith('.' + d));
+  const off = ab.enabled === false || allowed;
+  const shield = $('#shield');
+  shield.classList.toggle('is-off', off);
+  $('#blocked-count').textContent = off || !t?.blockedCount ? '' : (t.blockedCount > 99 ? '99+' : String(t.blockedCount));
+  shield.title = ab.enabled === false ? 'Ad blocking is off. Click to turn it on.'
+    : allowed ? `Ad blocking is off for ${host}. Click to turn it back on.`
+    : `${t?.blockedCount || 0} requests blocked on this page. Click to allow this site.`;
 }
 
 // ---------------------------------------------------------------- rules panel
@@ -129,6 +150,25 @@ $('#back').onclick = () => cmd('history', { action: 'back' }).catch(toastErr);
 $('#forward').onclick = () => cmd('history', { action: 'forward' }).catch(toastErr);
 $('#reload').onclick = () => cmd('history', { action: 'reload' }).catch(toastErr);
 
+$('#shield').onclick = async () => {
+  const t = ui.tabs.find((x) => x.active);
+  const host = hostnameOf(t?.url || '');
+  const ab = ui.adblock || {};
+  try {
+    if (ab.enabled === false) { ui.adblock = await cmd('adblock_set', { enabled: true }); toast('Ad blocking on', 'success'); }
+    else if (!host) { toast('No site to allow here', 'warning'); }
+    else {
+      const list = ab.allowlist || [];
+      const on = list.some((d) => host === d || host.endsWith('.' + d));
+      const next = on ? list.filter((d) => !(host === d || host.endsWith('.' + d))) : [...list, host];
+      ui.adblock = await cmd('adblock_set', { allowlist: next });
+      toast(on ? `Blocking back on for ${host}` : `Blocking off for ${host}`, on ? 'success' : 'info');
+      cmd('history', { action: 'reload' }).catch(() => {});
+    }
+    renderActive();
+  } catch (e) { toastErr(e); }
+};
+
 $('#panel-btn').onclick = () => { setPanel(!ui.panelOpen, ui.panelView); cmd('ui_panel', { open: ui.panelOpen }).catch(() => {}); };
 $('#panel-close').onclick = () => { setPanel(false); cmd('ui_panel', { open: false }).catch(() => {}); };
 $('#rules-btn').onclick = () => { setPanel(true, 'rules'); cmd('ui_panel', { open: true }).catch(() => {}); };
@@ -163,6 +203,7 @@ window.browser.on('ui:event', (e) => {
     const i = ui.tabs.findIndex((t) => t.id === e.tabId);
     if (i >= 0) { ui.tabs[i] = { ...ui.tabs[i], ...e, active: ui.tabs[i].active }; renderTabs(); renderActive(); }
   } else if (e.type === 'rules-changed') { ui.rules = e.rules; renderRules(); renderActive(); }
+  else if (e.type === 'adblock-changed') { ui.adblock = e.adblock; renderActive(); }
 });
 
 window.browser.on('ui:note', addNote);
@@ -188,6 +229,7 @@ document.addEventListener('keydown', (e) => {
   ui.defaultProfile = init.settings.defaultProfile;
   ui.tabs = init.tabs;
   ui.rules = init.rules;
+  ui.adblock = init.adblock;
   $('#theme-css').textContent = init.theme.css || '';
   $('#custom-css').textContent = init.theme.custom || '';
   document.documentElement.style.setProperty('--topbar', init.topbar + 'px');

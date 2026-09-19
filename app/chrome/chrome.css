@@ -133,6 +133,17 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
 
 #rules-dot { position: absolute; top: 5px; right: 5px; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
 
+#shield.is-off { color: var(--text-faint); opacity: .5; }
+#shield.is-off svg { stroke-dasharray: 2 2; }
+#blocked-count {
+  position: absolute; bottom: 1px; right: 0;
+  min-width: 13px; height: 13px; padding: 0 3px;
+  border-radius: 7px; background: var(--good); color: var(--bg);
+  font-size: 9px; font-weight: 600; line-height: 13px; text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+#blocked-count:empty { display: none; }
+
 #omniform { flex: 1; }
 
 #omnibox-wrap {

@@ -30,6 +30,7 @@ class Rules {
     this.sets = new Map(); // name -> {name, file, rule, matchRes, blockRes, redirects, hits}
     this.onChange = onChange || (() => {});
     this.tabUrlFor = () => null; // set by main: webContentsId -> top-level url
+    this.adblock = null;        // set by main; consulted after the site rules
     this.watcher = null;
   }
 
@@ -121,10 +122,14 @@ class Rules {
   }
 
   // What the preload needs at document-start: css + js + options, in file order.
+  // Ad-blocking element hiding rides the same channel so it lands before first paint.
   payloadForUrl(url) {
     const sets = this.forUrl(url);
     for (const s of sets) s.hits.applied++;
-    return sets.map((s) => ({ name: s.name, css: s.rule.css || '', js: s.rule.js || '', options: s.rule.options || {} }));
+    const payload = sets.map((s) => ({ name: s.name, css: s.rule.css || '', js: s.rule.js || '', options: s.rule.options || {} }));
+    const cosmetic = this.adblock?.cosmeticCss(url) || '';
+    if (cosmetic) payload.unshift({ name: 'adblock', css: cosmetic, js: '', options: {} });
+    return payload;
   }
 
   attachSession(ses, profileName) {
@@ -132,7 +137,7 @@ class Rules {
       try {
         const pageUrl = this.tabUrlFor(details.webContentsId) || details.url;
         const sets = this.forUrl(pageUrl);
-        if (!sets.length) return callback({});
+        // Site rules first: an explicit rule you wrote outranks the filter lists.
         for (const s of sets) {
           for (const r of s.redirects) {
             const m = r.re.exec(details.url);
@@ -152,6 +157,10 @@ class Rules {
             }
           }
         }
+        // Then the ad and tracker lists.
+        const ad = this.adblock?.match(details, pageUrl);
+        if (ad?.redirect) return callback({ redirectURL: ad.redirect });
+        if (ad?.block) return callback({ cancel: true });
         callback({});
       } catch (e) {
         log.error('onBeforeRequest', e.message);

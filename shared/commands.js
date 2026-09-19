@@ -302,6 +302,31 @@ const commands = [
     input: {},
   },
 
+  // ---------------------------------------------------------------- ad blocking
+  {
+    name: 'adblock_status',
+    group: 'adblock',
+    description: 'Ad and tracker blocking: whether it is on, which lists, how old they are, how much has been blocked, and the per-site allowlist.',
+    input: {},
+  },
+  {
+    name: 'adblock_set',
+    group: 'adblock',
+    description: 'Change ad blocking: turn it on or off, swap list sets, allowlist sites, or add custom filters in Adblock Plus syntax (e.g. "||ads.example.com^" or "example.com##.promo-banner"). Persists to config/settings.json.',
+    input: {
+      enabled: z.boolean().optional(),
+      lists: z.enum(['ads-only', 'ads-and-tracking', 'full']).optional().describe('ads-and-tracking is the default. "full" adds annoyance and cookie-notice lists.'),
+      allowlist: z.array(z.string()).optional().describe('Domains where blocking is off entirely. Replaces the current list.'),
+      customFilters: z.array(z.string()).optional().describe('Adblock Plus syntax lines, applied before the downloaded lists. Replaces the current set.'),
+    },
+  },
+  {
+    name: 'adblock_update',
+    group: 'adblock',
+    description: 'Re-download the filter lists now instead of waiting for the scheduled refresh.',
+    input: {},
+  },
+
   // ---------------------------------------------------------------- composed pages
   {
     name: 'page_create',

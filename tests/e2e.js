@@ -28,6 +28,7 @@ function startFixture() {
   const server = http.createServer((req, res) => {
     if (req.url.startsWith('/slow')) { setTimeout(() => { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1 id=slow>slow page</h1>'); }, 600); return; }
     if (req.url.startsWith('/blocked.js')) { res.writeHead(200, { 'content-type': 'application/javascript' }); res.end('window.__blockedLoaded = true;'); return; }
+    if (req.url.startsWith('/adtest.js')) { res.writeHead(200, { 'content-type': 'application/javascript' }); res.end('window.__adLoaded = true;'); return; }
     if (req.url.startsWith('/second')) { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1>Second page</h1><p>SECOND_MARKER</p>'); return; }
     if (req.url.startsWith('/denyframe')) {
       res.writeHead(200, { 'content-type': 'text/html', 'x-frame-options': 'DENY', 'content-security-policy': "frame-ancestors 'none'" });
@@ -205,6 +206,33 @@ class Client {
     const h1b = await c.call('eval_js', { tabId, code: 'getComputedStyle(document.querySelector("h1")).color' });
     check('a disabled rule stops applying', h1b.value !== 'rgb(1, 2, 3)', h1b.value);
 
+    // ---- ad blocking (custom filters, so this is deterministic and needs no network)
+    const abStatus = await c.call('adblock_status');
+    check('adblock reports ready', abStatus.ready === true && abStatus.enabled === true, JSON.stringify(abStatus).slice(0, 200));
+
+    await c.call('navigate', { tabId, url: base });
+    const adBefore = await c.call('eval_js', { tabId, code: 'window.__adLoaded === true' });
+    check('the ad script loads before any filter matches it', adBefore.value === true, JSON.stringify(adBefore));
+
+    await c.call('adblock_set', { customFilters: ['/adtest.js', '127.0.0.1##.sponsored-thing'] });
+    await c.call('navigate', { tabId, url: base });
+    const adAfter = await c.call('eval_js', { tabId, code: 'window.__adLoaded === true' });
+    check('a custom network filter blocks the request', adAfter.value === false, JSON.stringify(adAfter));
+    const cosmetic = await c.call('eval_js', { tabId, code: 'getComputedStyle(document.querySelector(".sponsored-thing")).display' });
+    check('a custom cosmetic filter hides the element', cosmetic.value === 'none', cosmetic.value);
+
+    await c.call('adblock_set', { allowlist: ['127.0.0.1'] });
+    await c.call('navigate', { tabId, url: base });
+    const allowed = await c.call('eval_js', { tabId, code: 'window.__adLoaded === true' });
+    check('the allowlist turns blocking off for that site', allowed.value === true, JSON.stringify(allowed));
+    const cosmeticOff = await c.call('eval_js', { tabId, code: 'getComputedStyle(document.querySelector(".sponsored-thing")).display' });
+    check('the allowlist also stops element hiding', cosmeticOff.value !== 'none', cosmeticOff.value);
+
+    await c.call('adblock_set', { enabled: false, customFilters: [], allowlist: [] });
+    const abOff = await c.call('adblock_status');
+    check('adblock can be switched off', abOff.enabled === false && abOff.customFilters === 0);
+    await c.call('adblock_set', { enabled: true });
+
     // ---- composed pages
     const composed = await c.call('page_create', {
       name: 'e2e-compose',
@@ -279,6 +307,20 @@ class Client {
     // the chrome UI renders tabs
     const tabCount = await c.call('ui_eval', { code: 'document.querySelectorAll("#tabs .tab").length' });
     check('chrome UI renders a tab strip', tabCount.value >= 2, JSON.stringify(tabCount));
+
+    // the shield reflects blocking state
+    await c.call('adblock_set', { customFilters: ['/adtest.js'], allowlist: [] });
+    const shieldTab = (await c.call('tab_open', { url: base, profile: 'claude' })).tab;
+    await sleep(1400);
+    const shield = await c.call('ui_eval', { code: '({ count: document.getElementById("blocked-count").textContent, off: document.getElementById("shield").classList.contains("is-off") })' });
+    check('the shield shows a blocked count for the page', shield.value.count !== '' && shield.value.off === false, JSON.stringify(shield.value));
+    await c.call('adblock_set', { allowlist: ['127.0.0.1'] });
+    await c.call('history', { tabId: shieldTab.id, action: 'reload' });
+    await sleep(1200);
+    const shieldOff = await c.call('ui_eval', { code: 'document.getElementById("shield").classList.contains("is-off")' });
+    check('the shield dims on an allowlisted site', shieldOff.value === true, JSON.stringify(shieldOff));
+    await c.call('tab_close', { tabId: shieldTab.id });
+    await c.call('adblock_set', { customFilters: [], allowlist: [] });
 
     // ---- window
     const w = await c.call('window', { action: 'setBounds', bounds: { width: 1100, height: 780 } });

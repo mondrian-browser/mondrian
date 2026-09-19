@@ -1,7 +1,7 @@
 {
   "title": "Quiet web",
-  "enabled": true,
-  "note": "Cross-site ad and tracking noise. Add hosts as you meet them.",
+  "enabled": false,
+  "note": "Superseded by the built-in ad and tracker blocking (EasyList + EasyPrivacy), which covers all of this and far more. Kept as an example of a hand-written global rule, and as a fallback if the filter lists cannot be downloaded. Turn it on with rules_toggle if you want it.",
   "match": [
     "<all_urls>"
   ],

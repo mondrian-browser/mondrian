@@ -11,7 +11,7 @@ const log = require('./log').make('cmd');
 const MOD = { shift: 'shift', control: 'control', alt: 'alt', meta: 'meta' };
 
 function makeHandlers(ctx) {
-  const { tabsMgr, rules, profiles, settings, win, chrome, control, state } = ctx;
+  const { tabsMgr, rules, profiles, settings, win, chrome, control, state, adblock } = ctx;
 
   const page = (tabId) => tabsMgr.get(tabId);
   const callPage = (tabId, method, args, timeout) => tabsMgr.call(page(tabId), method, args, timeout);
@@ -67,6 +67,7 @@ function makeHandlers(ctx) {
         defaultProfile: settings.defaultProfile,
         theme: state.theme,
         rules: rules.list(),
+        adblock: adblock.status(),
         paths: { root: paths.root, rules: paths.rules, themes: paths.themes, logs: paths.logs },
       };
     },
@@ -312,6 +313,33 @@ function makeHandlers(ctx) {
       const list = rules.load();
       await ctx.reapplyRules();
       return { rules: list };
+    },
+
+    // ------------------------------------------------------------- ad blocking
+    async adblock_status() { return adblock.status(); },
+
+    async adblock_set({ enabled, lists, allowlist, customFilters }) {
+      const next = { ...(settings.adblock || {}) };
+      if (enabled !== undefined) next.enabled = enabled;
+      if (lists !== undefined) next.lists = lists;
+      if (allowlist !== undefined) next.allowlist = allowlist;
+      if (customFilters !== undefined) next.customFilters = customFilters;
+      settings.adblock = next;
+      adblock.settings = next;
+      ctx.saveSettings({ adblock: next });
+      if (customFilters !== undefined) adblock.buildCustom();
+      if (lists !== undefined) { try { await adblock.update(); } catch (e) { log.warn('list swap failed', e.message); } }
+      await ctx.reapplyRules();
+      const status = adblock.status();
+      // The UI needs to know however the change was made, including over the socket.
+      ctx.broadcast({ type: 'adblock-changed', adblock: status });
+      return status;
+    },
+
+    async adblock_update() {
+      const status = await adblock.update();
+      ctx.broadcast({ type: 'adblock-changed', adblock: status });
+      return status;
     },
 
     // ------------------------------------------------------------- composed pages

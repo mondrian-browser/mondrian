@@ -8,6 +8,7 @@ const { Rules } = require('./rules');
 const { Profiles } = require('./profiles');
 const { TabManager } = require('./tabs');
 const { ControlServer } = require('./control');
+const { Adblock } = require('./adblock');
 const { makeHandlers } = require('./handlers');
 
 const TOPBAR = 84;   // tab strip + toolbar, in CSS px
@@ -19,7 +20,7 @@ const state = { theme: settings.theme || 'default', panelOpen: false };
 app.commandLine.appendSwitch('disable-features', 'OutOfBlinkCors,site-per-process-for-subframes');
 if (process.platform === 'linux') app.commandLine.appendSwitch('no-sandbox');
 
-let win, chromeView, tabsMgr, rules, profiles, control, handlers;
+let win, chromeView, tabsMgr, rules, profiles, control, handlers, adblock;
 
 function saveSettings(patch) {
   settings = { ...settings, ...patch };
@@ -49,6 +50,22 @@ const chrome = {
     return true;
   },
 };
+
+// Blocked requests arrive in bursts; the counter is worth showing, not worth
+// a message per hit.
+const blockedPending = new Set();
+let blockedTimer = null;
+function scheduleBlockedUpdate(tab) {
+  blockedPending.add(tab);
+  if (blockedTimer) return;
+  blockedTimer = setTimeout(() => {
+    blockedTimer = null;
+    for (const t of blockedPending) {
+      if (tabsMgr.tabs.has(t.id)) broadcast({ type: 'tab-updated', tabId: t.id, ...t.info() });
+    }
+    blockedPending.clear();
+  }, 600);
+}
 
 function broadcast(event) {
   control?.broadcast(event);
@@ -109,12 +126,17 @@ async function boot() {
   rules.load();
   rules.watch();
 
+  // Loaded before any session exists, so the first request is already filtered.
+  adblock = new Adblock({ settings });
+  try { await adblock.load(); } catch (e) { log.warn('adblock degraded:', e.message); }
+  rules.adblock = adblock;
+
   profiles = new Profiles({
     settings,
     rules,
     onNetwork: (wcId, entry) => {
       const tab = tabsMgr?.byWebContentsId(wcId);
-      if (tab) tab.pushNetwork(entry);
+      if (tab && tab.pushNetwork(entry)) scheduleBlockedUpdate(tab);
     },
   });
 
@@ -152,6 +174,7 @@ async function boot() {
     theme: { name: state.theme, css: readTheme(state.theme), custom: readTheme('custom') },
     tabs: tabsMgr.list(),
     rules: rules.list(),
+    adblock: adblock.status(),
     topbar: TOPBAR,
     panel: PANEL,
   }));
@@ -161,8 +184,8 @@ async function boot() {
   control = new ControlServer({ settings, dispatch: (cmd, args) => dispatch(cmd, args) });
 
   handlers = makeHandlers({
-    tabsMgr, rules, profiles, settings, win, chrome, control, state,
-    layout, saveSettings, reapplyRules,
+    tabsMgr, rules, profiles, settings, win, chrome, control, state, adblock,
+    layout, saveSettings, reapplyRules, broadcast,
   });
 
   // The UI is created last, once every handler it may call exists.
