@@ -106,6 +106,7 @@ class Rules {
       redirects: (s.rule.redirect || []).length,
       hasCss: !!s.rule.css,
       hasJs: !!s.rule.js,
+      hasMainJs: !!s.rule.mainJs,
       hits: s.hits,
     };
   }
@@ -126,9 +127,17 @@ class Rules {
   payloadForUrl(url) {
     const sets = this.forUrl(url);
     for (const s of sets) s.hits.applied++;
-    const payload = sets.map((s) => ({ name: s.name, css: s.rule.css || '', js: s.rule.js || '', options: s.rule.options || {} }));
-    const cosmetic = this.adblock?.cosmeticCss(url) || '';
-    if (cosmetic) payload.unshift({ name: 'adblock', css: cosmetic, js: '', options: {} });
+    const payload = sets.map((s) => ({
+      name: s.name,
+      css: s.rule.css || '',
+      js: s.rule.js || '',            // isolated world
+      mainJs: s.rule.mainJs || '',    // page's own world, once per document
+      options: s.rule.options || {},
+    }));
+    const cos = this.adblock?.cosmetics(url);
+    if (cos && (cos.css || cos.scripts.length)) {
+      payload.unshift({ name: 'adblock', css: cos.css, js: '', scripts: cos.scripts, options: {} });
+    }
     return payload;
   }
 

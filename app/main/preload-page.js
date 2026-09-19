@@ -5,14 +5,44 @@
 //   2. Be the agent: read structure, find things, resolve refs to coordinates, type, scroll.
 // Main talks to it over IPC: 'cb:call' in, 'cb:result' out.
 
-const { ipcRenderer } = require('electron');
+const { ipcRenderer, webFrame } = require('electron');
 
 // ---------------------------------------------------------------- rules
 let ruleSets = [];
 let lastUrl = location.href;
+let scriptsDone = new Set(); // set name -> already injected for this document
+
+// Run code in the PAGE's own world, not this isolated one.
+//
+// Scriptlets and rule mainJs have to touch the page's globals before the page's own
+// scripts run, so neither an isolated-world eval nor an injected <script> element will
+// do: the former cannot see page globals, and the latter cannot even be created at
+// document-start (documentElement is still null) and would be refused under a strict
+// script-src CSP anyway. webFrame.executeJavaScript from a preload runs in the main
+// world, before page scripts, and is not subject to the page's CSP. Verified on
+// Electron 44 against both a plain page and one sending script-src 'self'.
+function runInPage(code, label) {
+  try {
+    webFrame.executeJavaScript(code, false);
+    return true;
+  } catch (e) {
+    ipcRenderer.send('cb:log', { level: 'warning', msg: `${label} failed: ${e.message}` });
+    return false;
+  }
+}
 
 function applyRules(reason) {
   try {
+    // Main-world code first, and only once per document: scriptlets defuse things
+    // before they happen, and re-running them on an SPA route change double-applies.
+    for (const set of ruleSets) {
+      const scripts = [...(set.scripts || []), ...(set.mainJs ? [set.mainJs] : [])];
+      if (!scripts.length || scriptsDone.has(set.name)) continue;
+      scriptsDone.add(set.name);
+      let ok = 0;
+      for (const code of scripts) if (runInPage(code, `${set.name} main-world script`)) ok++;
+      if (ok) ipcRenderer.send('cb:scriptlets', { name: set.name, count: ok, url: location.href });
+    }
     for (const set of ruleSets) {
       if (set.css) {
         const id = `cb-rule-${set.name}`;
@@ -55,6 +85,7 @@ function onUrlMaybeChanged() {
   if (location.href === lastUrl) return;
   lastUrl = location.href;
   refs.clear(); refMap = new WeakMap(); refSeq = 0;
+  // Same document, so main-world code stays applied; do not clear scriptsDone here.
   try { ruleSets = ipcRenderer.sendSync('cb:rules-for-url', location.href) || []; } catch (_) {}
   applyRules('spa');
   ipcRenderer.send('cb:navigated', { url: location.href, title: document.title });
@@ -204,7 +235,11 @@ function scrollIntoView(el) {
 const methods = {
   ping: () => ({ url: location.href, title: document.title, ready: document.readyState }),
 
-  setRules(sets) { ruleSets = sets || []; applyRules('push'); return { applied: ruleSets.map((s) => s.name) }; },
+  setRules(sets) {
+    ruleSets = sets || [];
+    applyRules('push');
+    return { applied: ruleSets.map((s) => s.name), mainWorldRan: [...scriptsDone] };
+  },
 
   pageText({ selector, maxChars = 20000 }) {
     const root = selector ? resolve({ selector }) : (document.querySelector('main,article,[role=main]') || document.body);

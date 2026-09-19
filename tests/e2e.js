@@ -22,6 +22,13 @@ function check(name, cond, detail) {
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+function shutdown(child) {
+  if (!child) return;
+  for (const signal of ['SIGTERM', 'SIGKILL']) {
+    try { process.kill(-child.pid, signal); } catch (_) { try { child.kill(signal); } catch (_) {} }
+  }
+}
+
 // ---------------------------------------------------------------- fixture server
 function startFixture() {
   const html = fs.readFileSync(path.join(__dirname, 'fixture.html'));
@@ -29,6 +36,23 @@ function startFixture() {
     if (req.url.startsWith('/slow')) { setTimeout(() => { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1 id=slow>slow page</h1>'); }, 600); return; }
     if (req.url.startsWith('/blocked.js')) { res.writeHead(200, { 'content-type': 'application/javascript' }); res.end('window.__blockedLoaded = true;'); return; }
     if (req.url.startsWith('/adtest.js')) { res.writeHead(200, { 'content-type': 'application/javascript' }); res.end('window.__adLoaded = true;'); return; }
+    if (req.url.startsWith('/csp')) {
+      // A page that refuses inline scripts, to prove main-world injection is not
+      // going through an injected <script> element.
+      res.writeHead(200, { 'content-type': 'text/html', 'content-security-policy': "script-src 'self'" });
+      res.end('<!doctype html><html><head></head><body><h1 id="csp">CSP page</h1></body></html>');
+      return;
+    }
+    if (req.url.startsWith('/mainworld')) {
+      res.writeHead(200, { 'content-type': 'text/html' });
+      // The page records whether the injected global was already there when it ran.
+      res.end(`<!doctype html><html><head><script>
+        window.__pageRanAt = Date.now();
+        window.__sawInjected = (typeof window.__injectedEarly !== 'undefined');
+        window.__siteApi = function () { return 'original'; };
+      </script></head><body><h1 id="mw">main world</h1></body></html>`);
+      return;
+    }
     if (req.url.startsWith('/second')) { res.writeHead(200, { 'content-type': 'text/html' }); res.end('<h1>Second page</h1><p>SECOND_MARKER</p>'); return; }
     if (req.url.startsWith('/denyframe')) {
       res.writeHead(200, { 'content-type': 'text/html', 'x-frame-options': 'DENY', 'content-security-policy': "frame-ancestors 'none'" });
@@ -101,7 +125,15 @@ class Client {
   const cmd = needXvfb ? 'xvfb-run' : electron;
   const args = needXvfb ? ['-a', '-s', '-screen 0 1440x900x24', electron, '.', ...extra] : ['.', ...extra];
   console.log(`launching electron${needXvfb ? ' under xvfb' : ''}…`);
-  const child = spawn(cmd, args, { cwd: ROOT, env: { ...process.env, CB_ANNOUNCE: '1' }, stdio: ['ignore', 'pipe', 'pipe'] });
+  // detached gives the child its own process group. Without it, killing -pid does
+  // nothing and xvfb-run leaves an orphaned Electron holding a control port; twenty
+  // of those and the next run cannot start at all.
+  const child = spawn(cmd, args, {
+    cwd: ROOT,
+    env: { ...process.env, CB_ANNOUNCE: '1', CB_ALLOW_MULTIPLE: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+    detached: true,
+  });
   let appLog = '';
   child.stdout.on('data', (d) => { appLog += d; });
   child.stderr.on('data', (d) => { appLog += d; });
@@ -112,7 +144,7 @@ class Client {
     await sleep(400);
     try { info = JSON.parse(fs.readFileSync(CONTROL, 'utf8')); } catch (_) {}
   }
-  if (!info) { console.error('browser never wrote control.json\n' + appLog); process.exit(1); }
+  if (!info) { console.error('browser never wrote control.json\n' + appLog); shutdown(child); process.exit(1); }
 
   const c = await new Client(info).connect();
   console.log('connected\n');
@@ -233,6 +265,53 @@ class Client {
     check('adblock can be switched off', abOff.enabled === false && abOff.customFilters === 0);
     await c.call('adblock_set', { enabled: true });
 
+    // ---- main-world injection (rule mainJs, and the scriptlets that ride the same path)
+    await c.call('rules_set', {
+      name: 'e2e-mainworld',
+      rule: {
+        title: 'main world',
+        enabled: true,
+        match: [`*://127.0.0.1:${fixturePort}/*`],
+        // Sets a global BEFORE the page runs, and replaces a function the page defines.
+        mainJs: `window.__injectedEarly = 'yes';
+                 window.__injectedAt = Date.now();
+                 Object.defineProperty(window, '__siteApi', {
+                   configurable: true,
+                   get() { return function () { return 'replaced'; }; },
+                   set() {},
+                 });`,
+        js: 'window.__isolatedRan = true;',
+      },
+    });
+
+    await c.call('navigate', { tabId, url: `${base}/mainworld` });
+    const mw = await c.call('eval_js', { tabId, code: '({ injected: window.__injectedEarly, sawInjected: window.__sawInjected, api: window.__siteApi && window.__siteApi(), isolatedLeaked: typeof window.__isolatedRan })' });
+    check('mainJs reaches the page\'s own world', mw.value.injected === 'yes', JSON.stringify(mw.value));
+    check('mainJs runs before the page\'s own scripts', mw.value.sawInjected === true, JSON.stringify(mw.value));
+    check('mainJs can replace what the page defines', mw.value.api === 'replaced', JSON.stringify(mw.value));
+    check('isolated-world js stays out of the page', mw.value.isolatedLeaked === 'undefined', mw.value.isolatedLeaked);
+
+    await c.call('navigate', { tabId, url: `${base}/csp` });
+    const cspInject = await c.call('eval_js', { tabId, code: 'window.__injectedEarly' });
+    check('main-world injection survives a strict script-src CSP', cspInject.value === 'yes', JSON.stringify(cspInject));
+
+    await c.call('rules_toggle', { name: 'e2e-mainworld', enabled: false });
+
+    // Filter-list scriptlets use the same channel. set-constant defines a page global,
+    // so if it lands, real scriptlets from EasyList land too.
+    const abReady = await c.call('adblock_status');
+    if (abReady.scriptlets > 0) {
+      await c.call('adblock_set', { customFilters: ['127.0.0.1##+js(set-constant, __scriptletProof, true)'] });
+      await c.call('navigate', { tabId, url: `${base}/mainworld` });
+      const sc = await c.call('eval_js', { tabId, code: 'window.__scriptletProof' });
+      check('a filter-list scriptlet executes in the page', sc.value === true, `${JSON.stringify(sc)} (library has ${abReady.scriptlets} scriptlets)`);
+      const tabAfter = (await c.call('tabs_list')).tabs.find((t) => t.id === tabId);
+      check('scriptlet injections are counted on the tab', tabAfter.scriptletCount >= 1, JSON.stringify(tabAfter?.scriptletCount));
+      await c.call('adblock_set', { customFilters: [] });
+    } else {
+      check('scriptlet library loaded', false, 'engine reported 0 scriptlets, so the list download probably failed');
+    }
+
     // ---- composed pages
     const composed = await c.call('page_create', {
       name: 'e2e-compose',
@@ -345,9 +424,10 @@ class Client {
   console.log(`\n${passed} passed, ${failed} failed`);
   if (failed && appLog) console.log('\n--- app log ---\n' + appLog.slice(-4000));
 
-  try { fs.unlinkSync(path.join(ROOT, 'rules', 'e2e.json')); } catch (_) {}
-  try { fs.unlinkSync(path.join(ROOT, 'rules', 'e2e-live.json')); } catch (_) {}
+  for (const f of ['e2e.json', 'e2e-live.json', 'e2e-mainworld.json']) {
+    try { fs.unlinkSync(path.join(ROOT, 'rules', f)); } catch (_) {}
+  }
   server.close();
-  if (!KEEP) { try { process.kill(-child.pid); } catch (_) { try { child.kill('SIGKILL'); } catch (_) {} } }
+  if (!KEEP) shutdown(child);
   process.exit(failed ? 1 : 0);
 })();

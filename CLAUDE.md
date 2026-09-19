@@ -12,7 +12,7 @@ the chrome, the network layer and the page layer are all ours to change at runti
 2. Call `status`. It launches the browser if it is not running and tells you the port,
    the open tabs, the loaded rule sets and the active profile.
 3. If you are changing the app itself (not just driving it), run `npm test` before and
-   after. It is a real end-to-end run under a headless display; 53 checks, all should pass.
+   after. It is a real end-to-end run under a headless display; 60 checks, all should pass.
 
 ## 1. The two ways to work
 
@@ -101,14 +101,40 @@ precedence: your site rules first, then the filter lists. Do not switch to the -
 package without understanding what it would overwrite.
 
 Element hiding rides the same document-start channel as rule CSS, so hidden elements never
-flash. Scriptlet injection from filter lists is **not** implemented: scriptlets need the
-page's main world and the preload runs isolated. Say so rather than implying full parity.
+flash. Scriptlets are injected too (see section 4b), which is what defuses anti-adblock
+scripts. Verified on real sites: 5 injected on bild.de, 6 on tomshardware.com.
 
 The lists are cached in `.runtime/` and refreshed every `refreshHours` (default 72). If the
 download fails the engine runs on custom filters only and `status().degraded` says why.
 
 Custom filters take Adblock Plus syntax, are matched before the downloaded lists, and are
 what the test suite uses so it stays deterministic and offline.
+
+## 4b. Main-world injection
+
+Two kinds of injected JavaScript, and the difference matters:
+
+- **`js`** on a rule runs in the preload's **isolated world**. It shares the DOM but not
+  the page's globals, the page cannot see or tamper with it, and it re-runs on SPA route
+  changes. This is the default and the safer of the two.
+- **`mainJs`** on a rule, and every filter-list scriptlet, runs in the **page's own world**,
+  before the page's own scripts, once per document. It can set page globals, stub a
+  function the site is about to call, or patch an API before the site touches it.
+
+The mechanism is `webFrame.executeJavaScript` from the preload. Three properties were
+measured on Electron 44, not assumed, and the test suite asserts all three:
+
+1. It lands in the main world, not the isolated one.
+2. It runs **before** the page's own inline scripts.
+3. It is **not** subject to the page's CSP, so `script-src 'self'` does not stop it.
+
+Do not switch this to an injected `<script>` element. At document-start
+`document.documentElement` is still null so the element cannot be created, and even
+later a strict `script-src` would refuse it. Both failure modes were observed.
+
+`mainJs` runs once per document and deliberately does not re-run on SPA route changes —
+a scriptlet that defuses something on load would double-apply. Use `js` for anything that
+needs to run again after a route change.
 
 ## 5. Profiles
 
@@ -162,8 +188,6 @@ scope — it is the difference between a useful tool and a clickjacking machine.
   it works.
 - No find-in-page bar yet (Ctrl+F). No downloads UI; downloads work, they just go
   straight to the default folder.
-- Filter-list scriptlets are not injected, so a handful of anti-adblock workarounds that
-  rely on them will not fire.
 - Real-site blocking was measured by request volume (roughly halved on news sites). The
   ad-element probes found nothing to count in either state on a datacentre IP, so element
   hiding on live ad slots is unproven; `tests/adblock-check.js` re-measures it anywhere.

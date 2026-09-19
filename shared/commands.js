@@ -286,7 +286,7 @@ const commands = [
   {
     name: 'rules_set',
     group: 'rules',
-    description: 'Create or replace a rule set (rules/<name>.json) and apply it immediately. Schema: {enabled, match[], block[], redirect[{from,to}], css, js, options{}}.',
+    description: 'Create or replace a rule set (rules/<name>.json) and apply it immediately. Schema: {enabled, match[], block[], redirect[{from,to}], css, js, mainJs, options{}}. "js" runs in an isolated world with DOM access (safe, invisible to the page, re-runs on SPA route changes). "mainJs" runs in the page\'s OWN world before its scripts, once per document, and is not subject to the page CSP — use it to set or replace page globals, stub a function the site calls, or patch an API before the site touches it.',
     input: { name: z.string(), rule: z.record(z.any()) },
   },
   {

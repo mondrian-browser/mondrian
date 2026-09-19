@@ -20,6 +20,24 @@ const state = { theme: settings.theme || 'default', panelOpen: false };
 app.commandLine.appendSwitch('disable-features', 'OutOfBlinkCors,site-per-process-for-subframes');
 if (process.platform === 'linux') app.commandLine.appendSwitch('no-sandbox');
 
+// One browser at a time. Two instances would fight over the same Chromium profile
+// directory and each take a control port, which is how a crashed run used to leave
+// the next one unable to find a free port. A second launch now hands its URL to the
+// window that is already open, which is also what a browser should do.
+if (!process.env.CB_ALLOW_MULTIPLE && !app.requestSingleInstanceLock()) {
+  app.quit();
+  return;
+}
+
+app.on('second-instance', (_event, argv) => {
+  if (!win) return;
+  if (win.isMinimized()) win.restore();
+  win.show();
+  win.focus();
+  const url = argv.find((a) => a.startsWith('--url='))?.slice(6);
+  if (url && handlers) handlers.tab_open({ url, activate: true, wait: false }).catch(() => {});
+});
+
 let win, chromeView, tabsMgr, rules, profiles, control, handlers, adblock;
 
 function saveSettings(patch) {

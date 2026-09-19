@@ -11,7 +11,7 @@ cd ClaudeBrowser
 npm install
 npm start                 # run it
 npm run install-mcp       # register it with the Claude desktop app, then fully quit and reopen Claude
-npm test                  # 53 end-to-end checks against a real browser
+npm test                  # 60 end-to-end checks against a real browser
 ```
 
 After `install-mcp`, any Claude session can drive the browser, and will start it
@@ -28,7 +28,8 @@ no end screens, and Shorts URLs redirected to the normal player), plus **Quiet w
 **Focus mode** as off-by-default examples of hand-written rules.
 
 **Ad and tracker blocking**, on by default, using EasyList and EasyPrivacy through the
-Ghostery engine. Network blocking and element hiding, both applied before the page paints.
+Ghostery engine. Network blocking, element hiding and scriptlet injection, all applied
+before the page paints.
 The shield in the toolbar shows how many requests were stopped on the current page and
 turns blocking off for a site in one click. Custom filters in Adblock Plus syntax go in
 `config/settings.json` or through `adblock_set`. Lists are cached locally and refreshed

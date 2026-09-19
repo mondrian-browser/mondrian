@@ -31,13 +31,12 @@ class Adblock {
     this.ready = false;
     this.degraded = null;      // reason, when running without the prebuilt lists
     this.updatedAt = null;
-    this.stats = { blocked: 0, checked: 0 };
+    this.stats = { blocked: 0, checked: 0, scriptlets: 0 };
   }
 
   get enabled() { return this.settings.enabled !== false; }
 
   async load() {
-    this.buildCustom();
     const stale = this.loadFromCache();
     if (!this.engine) {
       await this.fetchEngine();
@@ -45,6 +44,7 @@ class Adblock {
       // Serve from cache now, refresh behind the scenes.
       this.fetchEngine().catch((e) => log.warn('background refresh failed', e.message));
     }
+    this.buildCustom(); // after the engine, so custom filters inherit its scriptlet resources
     this.ready = true;
     return this.status();
   }
@@ -53,6 +53,9 @@ class Adblock {
     const lines = (this.settings.customFilters || []).filter(Boolean);
     try {
       this.custom = lines.length ? FiltersEngine.parse(lines.join('\n')) : null;
+      // A parsed engine has no scriptlet library of its own, so ##+js(...) in a custom
+      // filter expands to nothing. Share the prebuilt engine's resources with it.
+      if (this.custom && this.engine?.resources) this.custom.resources = this.engine.resources;
       if (lines.length) log.info('custom filters:', lines.length);
     } catch (e) {
       log.error('custom filters failed to parse', e.message);
@@ -133,22 +136,27 @@ class Adblock {
     return null;
   }
 
-  // Element hiding, handed to the page preload so it applies before first paint.
-  cosmeticCss(pageUrl) {
-    if (!this.enabled || !this.ready) return '';
-    if (this.allowlisted(pageUrl)) return '';
+  // Element hiding and scriptlets, handed to the page preload so both land before
+  // first paint. Scriptlets run in the page's main world; see preload-page.js.
+  cosmetics(pageUrl) {
+    const empty = { css: '', scripts: [] };
+    if (!this.enabled || !this.ready) return empty;
+    if (this.allowlisted(pageUrl)) return empty;
     const hostname = this.hostOf(pageUrl);
-    if (!hostname) return '';
+    if (!hostname) return empty;
     const domain = parseDomain(hostname).domain || hostname;
     let css = '';
+    const scripts = [];
     for (const engine of [this.custom, this.engine]) {
       if (!engine) continue;
       try {
         const c = engine.getCosmeticsFilters({ url: pageUrl, hostname, domain });
         if (c?.styles) css += (css ? '\n' : '') + c.styles;
+        if (c?.scripts?.length) scripts.push(...c.scripts);
       } catch (_) { /* skip */ }
     }
-    return css;
+    if (scripts.length) this.stats.scriptlets += scripts.length;
+    return { css, scripts };
   }
 
   setAllowlist(list) {
@@ -167,7 +175,8 @@ class Adblock {
       allowlist: this.settings.allowlist || [],
       stats: this.stats,
       degraded: this.degraded,
-      note: 'Element hiding is applied; scriptlet injection from filter lists is not supported yet.',
+      // scriptlets is an Array here, not a Map: read length, not size.
+      scriptlets: this.engine?.resources?.scriptlets?.length ?? this.engine?.resources?.scriptlets?.size ?? 0,
     };
   }
 }
