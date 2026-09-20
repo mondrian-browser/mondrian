@@ -157,3 +157,31 @@ change before it is worth writing, so it is not blocked on marketing. Landing pa
 waits on something to download. Nothing else fires until a release, a [needs-marketing]
 tag, a marketing tagged DECISIONS answer, or the first of October.
 Tags: none
+
+## 2026-09-21 operations
+Did: first operations run. Trigger was Monday, so the weekly report,
+company/reports/2026-38.md, covering the week that ended yesterday. Named for the week it
+covers rather than the week it is written in, and CALENDAR now says so, because the first
+report otherwise sets a convention by accident. It is not the 1st, so no dependency or
+licence audit; nothing in CALENDAR is inside its lead time.
+Also acted on one answered decision. D1 said the routines push through the Claude GitHub
+App as Lloyd and no token is stored anywhere, which retires the "rotate the GitHub token"
+calendar entry rather than setting a date for it; the row says so and says to reinstate it
+if a token is ever issued. D2 is answered later, so per Lloyd's answer no Headstart filing
+sheet was prepared. D3 and D4 have no answer yet.
+Found: three things worth Lloyd's attention. (1) PR #2 is red on Linux and the failure is
+not its own. The job aborts with the SUID sandbox error, which is the second of the three
+causes PR #1 fixes, so PR #2 cannot go green until PR #1 is in main. PR #1 is green on
+both platforms and mergeable, so merging it clears both. (2) The largest change on main
+this week, the corpus at 186 sites and 22,349 regions and the trees crossing the rules,
+was committed directly and has no LOG entry, so the week cannot be reconstructed from the
+LOG alone. Not a rule, since the LOG is for role runs, but worth knowing when reading it.
+(3) CI warns that actions/checkout@v4 and actions/setup-node@v4 target Node 20, now
+deprecated and forced onto Node 24. Nothing is failing; it is a line for the 1 October
+audit, not work for today.
+Next: 1 October is the first dependency and licence audit, npm audit, npm outdated, a PR
+for patch and minor updates with the fixture suite as evidence, and NOTICE checked against
+package.json. Before then, nothing fires except next Monday's report unless Lloyd answers
+D3, which is the decision the ASIC and BAS dates, D4 and the trade mark timing all wait
+behind.
+Tags: none
