@@ -1,41 +1,35 @@
 # Mondrian
 
-Mondrian is an experimental browser with the aim of enabling AI (at this stage intended for use with Claude models) to deeply control and customise the user's browsing experience. 
+Mondrian is an experimental browser built so that AI (Claude, for now) can get right into the guts of your browsing and change it. The whole browser is open to it, not just a tab.
 
-Imagine your top ten most visited websites (with the exception of any "adult" content sites) are merged into one page. Chaotic? Impossible? Not anymore. 
+Imagine your top ten most visited websites merged into one page. Chaotic? Impossible? Not anymore.
 
-The fact is, many UI elements are only necessary for a fraction of the userbase. Many parts of a website are completely unnecessary for many users. If only the useful parts of each of your top ten sites were separated into distinct "blocks", codified, and intelligently laid out in one style, we propose that you could quite easily complete all of your daily browsing from a single tab. Now imagine that every aspect of this tab is customisable because Claude plugs directly into your browser with a heretofore unseen level of deep control. 
+The fact is, most of what's on a webpage is there for someone else. The nav bar, the share buttons, the "you might also like", the newsletter box: all necessary for a fraction of the userbase, dead weight for everyone else. If only the useful parts of each of your top ten sites were separated into distinct blocks and laid out in one style, you could do most of your daily browsing from a single tab. And because Claude plugs directly into the browser, every part of that tab is yours to change.
 
-Bad opsec? Maybe (if done poorly), but the payoff could be HUGE. With the necessary security measures in place, this could safely revolutionise the web browsing experience. 
+**One thing, upfront: you can't use this to break Claude's terms of service.** Adult sites, anything else Anthropic's usage policy rules out, leave them out of it. Mondrian gives Claude a lot of control, and pointing that at the wrong site is a fast way to lose your account. We can't protect you from that and we're not going to try.
 
-## Some of the proposed features:
+Bad opsec? Not if it's done right, and doing it right is most of the work. The core runs with no model and no network. Nothing about what you browse leaves your machine. Claude's accounts live in their own profile and yours in another, and the plan (ADR 0012) keeps credentials and steering scoped per profile so Claude only touches what it's been given. The reasoning is all in `docs/adr/`.
 
-### Page composition:
+## Where it's going
 
-every single webpage is first put through the design filter, which means that it fits into the layout language of the browser. The layout language is blocks - boxes for text, headings, videos, - every element has a block and they are arranged for maximum clarity for the reader. 
+Every page goes through the design filter before it's painted. The filter breaks the page into blocks (a block for text, for a heading, for a video, for a table) and lays them out in Mondrian's own layout language. Every site ends up in the same grid.
 
-the processing of every page should be automatic and seamless, with a quick loading animation things should be loaded into this layout upon visiting any page. once the page has been loaded once, it will be instant to load it the second time. 
+Once you have blocks you can compose. Drag one tab into another and the two pages reflow into one. Claude decides the layout; if you want a different one, ask for it in the bar.
 
-Then, you can drag two pages into each other and it will quickly reformat into the composed page. You can compose a maximum of four pages at a time . 
-
-Composition is an automatic process driven by claude, the user doesn't need to select options, claude just makes the decision for them. As soon as you drag one tab into another it will happen. Alternatively you can then request a change to the page composition in the claude bar if you want some other layout.  
-
-this way every website shares the same seamless design language and layout system.
-
-#### The overall aim of Mondrian is to unify web design under one rule - the rule of the grid system. Too long has mankind been plagued by disparate formatting, urls, tabs - a web browsing experience hardly changed from last century. Mondrian aims to make the leap from traditional browsing to true AI-enabled web use; a browser experience for the twenty-first century. We know this is not an easy goal, but with the newfound technology that is rapidly evolving in front of us, we truly believe that it is an achievable one. 
+That's the aim: one layout system for the whole web, and a browser where the AI is part of the thing rather than bolted onto the side of it. `docs/project/01-CONCEPT.md` has the full picture and `docs/project/NEXT.md` has where we're up to. What's in this repo today is the foundation for that, not the thing itself.
 
 ## Setup
 
 ```
-cd ClaudeBrowser
+cd Mondrian
 npm install
 npm start                 # run it
 npm run install-mcp       # register it with the Claude desktop app, then fully quit and reopen Claude
-npm test                  # 60 end-to-end checks against a real browser
+npm test                  # 86 end-to-end checks against a real browser
 ```
 
 The MCP server registers as **mondrian**, so its tools are named
-`mcp__remote-devices__mondrian__<command>`. After `install-mcp`, any Claude session can
+`mcp__mondrian__<command>`. After `install-mcp`, any Claude session can
 drive the browser and will start it automatically the first time it needs it.
 
 ## What it does
