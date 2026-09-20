@@ -100,9 +100,9 @@ Review routing should use the top-two margin, not raw confidence, once B2 calibr
 
 *Accuracy check, same day* (`tools/label/sample.js`, 150 random regions from the 100-type
 run, judged by Claude, judgements in `tools/label/judgements/`): top label right 82%,
-right-or-acceptable 93%, wrong 7%. Wrong rate 5% where Jev was confident and 24% where it
-flagged, so flag-then-review works. Of the ten wrong, six were the extractor (dates split
-from their reviews, page headers merged into one lump) or a definition overlap, four the
+right-or-acceptable 93%, wrong 7%, three routed to Lloyd and settled. Wrong rate 5% where Jev was confident and 29% where it
+flagged, so flag-then-review works. Of the eleven wrong, seven were the extractor (dates split
+from their reviews, page headers merged into one lump: GitHub, Allrecipes, HN) or a definition overlap, four the
 model. Image-only regions with no text are a blind spot: capture alt text and dimensions.
 
 **B3. Heuristic baseline, no model.** Semantic HTML and ARIA, cross-page repetition, link
