@@ -43,7 +43,7 @@ This has not run on Windows since the isolated-world, scriptlet, char-event, ref
 page_text and shadow-DOM changes. Windows has already caught one platform-specific bug
 that passed on Linux, so this is not a formality. If anything fails, fix it before A4.
 
-**A4. Publish.** Create the GitHub repo, replace `USERNAME` in `package.json` URLs, push.
+**A4. Done 20 Sep 2026, github.com/mondrian-browser/mondrian.** Publish. Create the GitHub repo, replace `USERNAME` in `package.json` URLs, push.
 Apache-2.0 and the NOTICE file are already in place (ADR 0007).
 
 ---

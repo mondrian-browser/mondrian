@@ -18,9 +18,9 @@ A role that needs a gate crossed writes the request to `DECISIONS.md` and moves 
 
 ## Shared state
 
-Everything the roles know about each other lives in this folder, in git, on GitHub.
-The GitHub repo is the source of truth. Each run clones fresh, so anything not pushed
-does not exist.
+Everything the roles know about each other lives in this folder, in git, on GitHub at
+mondrian-browser/mondrian. The GitHub repo is the source of truth. Each run is a Claude
+Code routine that starts with a fresh clone, so anything not pushed does not exist.
 
 | file | what it is | who writes |
 |---|---|---|
@@ -39,15 +39,16 @@ code.
 
 Every role, every run, in this order:
 
-1. Clone the repo. Read `CLAUDE.md`, `company/ROLES.md`, the last 40 lines of
-   `company/LOG.md`, and `company/DECISIONS.md`.
+1. Read `CLAUDE.md`, `company/ROLES.md`, the last 40 lines of `company/LOG.md`, and
+   `company/DECISIONS.md`. The repo is already cloned when a routine starts.
 2. Check the role's triggers, listed below. If none fire, stop. Write nothing. An idle
    run leaves no trace and costs almost nothing; that is the design.
 3. Do one bounded piece of work. One NEXT item, one review, one draft, one report.
    Never two. The next run picks up the next thing.
 4. Append one entry to `LOG.md` and, if a gate was reached, one to `DECISIONS.md`.
    Push to main (rebase first; these files are append-only so conflicts are rare).
-5. Code changes go on a branch and become a pull request. Never to main.
+5. Code changes go on a `claude/`-prefixed branch and become a pull request. Never to
+   main. Only the files in this folder are pushed to main directly.
 
 LOG entry format, one per run, newest at the bottom:
 

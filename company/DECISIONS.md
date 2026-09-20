@@ -5,17 +5,14 @@ role acts on it next run and marks it (done). Format is in `ROLES.md`.
 
 ---
 
-### D1 (open) setup, 2026-09-20
-Ask: publish the repo to GitHub (NEXT A4) and give the role tasks a way to push.
-The roles run in the cloud and clone fresh each time. Reading a public repo needs nothing.
-Pushing branches, opening PRs and appending to LOG.md needs a credential.
-Options:
-  a. Fine-grained personal access token scoped to the one repo, permissions Contents
-     read/write and Pull requests read/write, 90 day expiry, stored as an environment
-     secret for the scheduled tasks. Simplest. Rotate quarterly (operations will remind).
-  b. A GitHub App installed on the repo. More setup, better audit trail, no expiry churn.
-Recommendation: a, then b if the company grows past one repo.
-Answer:
+### D1 (done 2026-09-20) setup
+Ask: publish the repo to GitHub (NEXT A4) and give the role runs a way to push.
+Outcome: repo is public at github.com/mondrian-browser/mondrian. The roles run as Claude
+Code routines with the repository attached, so pushes and PRs go through the Claude
+GitHub App as Lloyd. No token is stored anywhere. Remaining step for Lloyd: connect
+GitHub at claude.ai/code and install the Claude GitHub App on the repo
+(github.com/apps/claude), which also enables the PR and release event triggers.
+Answer: done.
 
 ### D2 (open) operations, 2026-09-20
 Ask: file TM Headstart for MONDRIAN in class 9, $200 now, $130 later to convert.
