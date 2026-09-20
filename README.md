@@ -56,7 +56,7 @@ turns blocking off for a site in one click. Custom filters in Adblock Plus synta
 `config/settings.json` or through `adblock_set`. Lists are cached locally and refreshed
 every three days.
 
-**Profiles.** Separate cookie jars. `lloyd` for you, `claude` for accounts Claude uses,
+**Profiles.** Separate cookie jars. `username` for you, `claude` for accounts Claude uses,
 any other name on demand. Verified isolated.
 
 **Composed pages.** `page_create` writes a page into `pages/` and opens it. Those pages —
