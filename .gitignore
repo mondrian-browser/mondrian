@@ -8,3 +8,7 @@ themes/custom.css
 .DS_Store
 Thumbs.db
 .claude/settings.local.json
+
+# corpus: full page copies stay off the public repo (corpus/README.md)
+corpus/pages/*/dom.html
+corpus/pages/*/shot.jpg

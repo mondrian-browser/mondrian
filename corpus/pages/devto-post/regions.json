@@ -1,0 +1,876 @@
+{
+ "url": "https://dev.to/aymanepraxe/i-missed-gos-if-err-nil-so-i-built-errval-for-typescript-iga",
+ "title": "I missed Go's `if err != nil`, so I built errval for TypeScript - DEV Community",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 3784,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "id": "topbar",
+   "class": "crayons-header topbar print-hidden",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 92,
+   "text": "Skip to content\n Navigation menu\n Search\n Powered by Algolia\n Search\n Log in\n Create account",
+   "counts": {
+    "links": 5,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "DEV Community",
+     "width": 50,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 0,
+    "height": 56,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "crayons-article-actions__inner",
+   "landmarks": [
+    "aside"
+   ],
+   "textLength": 265,
+   "text": "5\n Add reaction\n 1\n Like\n 1\n Unicorn\n 1\n Exploding Head\n 1\n Raised Hands\n 1\n Fire\n 1\n Jump to Comments\n 1\n Save\n Boost\nPick as gem\n More...\n Copy link\n Copy link\n Copied to Clipboard\n Share to X\n Share to LinkedIn\n Share to Facebook\n Share to Mastodon\n Report Abuse",
+   "counts": {
+    "links": 5,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 12,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 121,
+    "height": 326,
+    "widthFraction": 0.04,
+    "leftFraction": 0.03,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "img",
+   "class": "crayons-article__cover__image",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Cover image for I missed Go's `if err != nil`, so I built errval for TypeScript",
+     "width": 876,
+     "height": 368
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 72,
+    "height": 368,
+    "widthFraction": 0.61,
+    "leftFraction": 0.08,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "flex flex-1 mb-5 items-start",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 34,
+   "text": "aymane aallaoui\n Posted on 20 Sept",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "aymane aallaoui",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0.44,
+   "geometry": {
+    "top": 472,
+    "height": 42,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "multiple_reactions_engagement",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 13,
+   "text": "1\n 1\n 1\n 1\n 1",
+   "counts": {
+    "links": 0,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 534,
+    "height": 54,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h1",
+   "class": "fs-3xl m:fs-4xl l:fs-5xl fw-bold",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 63,
+   "text": "I missed Go's `if err != nil`, so I built errval for TypeScript",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 588,
+    "height": 120,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "spec__tags flex flex-wrap",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 42,
+   "text": "#typescript\n #javascript\n #opensource\n #go",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 716,
+    "height": 32,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.19,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 324,
+   "text": "I write mostly TypeScript and some Go. When I switch back from Go, I miss explicit error returns. A function that can fail says so, and I deal with it right there.\nIn TypeScript I get catch (e), where e is unknown, thrown from some layer I forgot could throw.\nI wrote errval: zero dependencies, 1.86 kB minified and gzipped.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 780,
+    "height": 190,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "pre",
+   "class": "highlight typescript",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 108,
+   "text": "const [err, user] = await getUser(id)\nif (err) return fail(err)\nuser.email // narrowed. no undefined, no `!`",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1014,
+    "height": 168,
+    "widthFraction": 0.49,
+    "leftFraction": 0.14,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 126,
+   "text": "I don't write the error union manually, it's inferred from the calls to fail(). And match will not compile if I forget a case:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1226,
+    "height": 60,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "pre",
+   "class": "highlight typescript",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 151,
+   "text": "return match(err, {\n NotFound: (e) => respond(404, e.id),\n Forbidden: (e) => respond(403, e.reason),\n DbError: (e) => respond(503, e.cause.message),\n})",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1330,
+    "height": 264,
+    "widthFraction": 0.49,
+    "leftFraction": 0.14,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 208,
+   "text": "Return a new error type from the service and the match in the handler will stop compiling until it has a case for it.\nI benchmarked it. A request handler where half the requests fail, Node 24.16, per request:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1638,
+    "height": 140,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 78,
+   "text": "neverthrow: 198 ns\nerrval: 226 ns\ntry/catch: 2,623 ns\nEffect runSync: 3,952 ns",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1798,
+    "height": 120,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×5",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 832,
+   "text": "neverthrow is faster than mine. In that test its errors are bare objects with no name and no message, and mine are real instanceof Error objects with both, so I'm happy to leave the gap. Plain try/catch wins too when nothing fails at all: 195 ns vs my 203.\nThe large gap is on the failure path, and it comes from error construction. Creating an Error subclass took 1,978 ns. An errval error took 25 n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1938,
+    "height": 440,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 127,
+   "text": "npm install errval\nhttps://github.com/aymaneallaoui/errval\nWould you use [err, value] in a TypeScript codebase? Why or why not?",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 2398,
+    "height": 130,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "header",
+   "class": "relative flex justify-between items-center",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "header"
+   ],
+   "textLength": 27,
+   "text": "Top comments (1)\n Subscribe",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2593,
+    "height": 40,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "form",
+   "id": "new_comment",
+   "class": "comment-form print-hidden",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "form"
+   ],
+   "textLength": 134,
+   "text": "Personal\n Trusted User\n Create template\n Templates let you quickly answer FAQs or store snippets for re-use.\n Submit\n Preview\n Dismiss",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "pic",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 2657,
+    "height": 134,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "div",
+   "class": "comment__header",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 388,
+   "text": "Collapse\n Expand\n\n\nMihai Perdum\n Mihai Perdum\n Mihai Perdum\n Follow\n Atlassian Forge developer and AI enthusiast who built his own agentic development workflow. Turns complex migration projects into lean, fast deliveries.\n Location\n Romania, Bucharest\n Education\n Mihail Sadoveanu\n Work\n Atlassian Consultant\n Joined\n 18 Sept 2026\n •\n 20 Sept\n Dropdown menu\n Copy link\n Hide\n Report abuse",
+   "counts": {
+    "links": 5,
+    "images": 3,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "mihai_leanzero profile image",
+     "width": 32,
+     "height": 32
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 2811,
+    "height": 77,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 848,
+   "text": "answering directly: yeah, error-first is right. value-first still compiles a silent swallow, since const [value] = save() type-checks fine and just drops a real failure. err first breaks that trick.\ndug into the source on the instanceof claim out of curiosity. TaggedBase never calls new Error(). it just reparents the prototype so instanceof passes free, skipping the constructor entirely. that's th",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2859,
+    "height": 364,
+    "widthFraction": 0.47,
+    "leftFraction": 0.17,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "footer",
+   "class": "comment__footer print-hidden",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "footer"
+   ],
+   "textLength": 67,
+   "text": "Like comment: \n Like comment: \n 1 like\n Like\n Comment button\n Reply",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3243,
+    "height": 36,
+    "widthFraction": 0.49,
+    "leftFraction": 0.15,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "nav",
+   "class": "fs-s align-center block",
+   "ariaLabel": "Conduct controls",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "nav"
+   ],
+   "textLength": 32,
+   "text": "Code of Conduct\n •\n Report abuse",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.84,
+   "geometry": {
+    "top": 3303,
+    "height": 21,
+    "widthFraction": 0.52,
+    "leftFraction": 0.13,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "new-bb-container pb-4 crayons-layout__comments-billboard",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 317,
+   "text": "The DEV Team\n Promoted\n Dropdown menu\n What's a billboard?\n Manage preferences\n Report billboard\n Preptember is here! Plan a Fest for your local community. 🎃 ✅\nSeptember marks the official start of Preptember, a month dedicated to organizers planning local gatherings and getting ready for Hacktoberfest.\nRead more →",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 1,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 3,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.48,
+   "geometry": {
+    "top": 3372,
+    "height": 16,
+    "widthFraction": 0.61,
+    "leftFraction": 0.08,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "div×2",
+   "class": "crayons-card crayons-card--secondary branded-7 p-4",
+   "landmarks": [
+    "aside"
+   ],
+   "textLength": 475,
+   "text": "aymane aallaoui\n Follow\n i'm 21y old student that loves to code \n Joined\n 18 Dec 2022\nMore from aymane aallaoui\n Embracing TypeScript Principles in Go: The Creation of a Zod-Inspired Validation Library\n #programming\n #webdev\n #go\n #javascript\n Building Kafka HTTP Scanner: An Open-Source Web Vulnerability Scanner in Go\n #webdev\n #programming\n #go\n #security\n Turbocharge Your Go App: Mastering Blazi",
+   "counts": {
+    "links": 5,
+    "images": 1,
+    "headings": 1,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 2
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 48,
+     "height": 48
+    }
+   ],
+   "linkTextRatio": 1.34,
+   "geometry": {
+    "top": 72,
+    "height": 624,
+    "widthFraction": 0.26,
+    "leftFraction": 0.7,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 23,
+   "tag": "footer",
+   "id": "footer",
+   "class": "crayons-footer print-hidden",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 481,
+   "text": "DEV Community — A space to discuss and keep up software development and manage your software career\n Home\n DEV Challenges\n DEV++\n Videos\n DEV Education Tracks\n DEV Help\n Advertise on DEV\n Organization Accounts\n DEV Showcase\n About\n Contact\n Free Postgres Database\n DEV Shop\n MLH\n Code of Conduct\n Privacy Policy\n Terms of Use\n Built on Forem — the open source software that powers DEV and other inclu",
+   "counts": {
+    "links": 22,
+    "images": 0,
+    "headings": 0,
+    "listItems": 17,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.49,
+   "geometry": {
+    "top": 3420,
+    "height": 364,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  }
+ ]
+}

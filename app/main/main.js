@@ -17,7 +17,11 @@ const PANEL = 340;   // activity panel width when open
 let settings = loadSettings();
 const state = { theme: settings.theme || 'default', panelOpen: false };
 
-app.commandLine.appendSwitch('disable-features', 'OutOfBlinkCors,site-per-process-for-subframes');
+// CalculateNativeWinOcclusion: on Windows, Chromium treats a window hidden behind another
+// as not visible, and capturePage then fails with "display surface not available". Claude
+// drives this browser while it sits behind the desktop app, so screenshots must work
+// occluded. Measured 20 Sep 2026: 67 of 74 corpus screenshots failed without this.
+app.commandLine.appendSwitch('disable-features', 'OutOfBlinkCors,site-per-process-for-subframes,CalculateNativeWinOcclusion');
 if (process.platform === 'linux') app.commandLine.appendSwitch('no-sandbox');
 
 // One browser at a time. Two instances would fight over the same Chromium profile

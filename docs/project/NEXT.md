@@ -56,7 +56,34 @@ milestone is to find out cheaply whether ten block types survive the real web.
 **Gate: if the scorecard cannot be made to read well on 50 sites, the concept needs
 rethinking rather than more engineering.**
 
-**B1. Capture the corpus.** 50 pages, **several pages per site**, serialised DOM stored on
+**B1. Done 20 Sep 2026: 74 pages, 45 sites, 3,277 regions.** `npm run corpus:capture`,
+list in `tools/corpus/pages.js`, files in `corpus/` (its README says what is in each).
+Every page carries a first-guess tier (62 relayout, 6 skinned, 6 contained) **for Lloyd to
+confirm before B2 labels**, since the coverage number on the scorecard comes from it.
+Captured on purpose: a consent wall (Spiegel), a login wall (old.reddit), paywall fronts
+(Economist, NYT), a metered Medium post, five applications and a PDF. `dom.html` carries
+geometry as attributes so B3 can re-extract offline; `dom.html` and `shot.jpg` are
+gitignored (public repo, other people's pages), `regions.json` and `meta.json` are in.
+
+Extractor fixes that went in first, each found by the 20 Sep accuracy check or by the
+capture itself: tiny fragments rejoin their sibling; H1 header zones split; layout tables
+descend; long comments in a list stay one row; wrapper unwrapping no longer counts toward
+the depth limit (GitHub was 5 regions, now 47); direct text in a split element is kept
+(Paul Graham's essays were arriving with no essay); a zero-height body is walked (YouTube
+was 0 regions); images carry alt text and size. No region cap.
+
+Coarse spots to expect in B2: a Paul Graham essay is one 66k-char block (paragraphs are
+`<br><br>`), the Hacker News thread is one region of 363 repeats, GitHub's repo header is
+one lump (no H1, title not in its text). Not wrong, just big.
+
+Screenshots needed a main-process change: Windows Chromium refuses `capturePage` on an
+occluded window, and Mondrian sits behind the desktop app while Claude drives it.
+`CalculateNativeWinOcclusion` is now disabled at boot in `app/main/main.js`.
+
+**Not yet frozen.** Freeze once Lloyd has confirmed the tiers and B2 has labelled it; a
+recapture after that invalidates labels.
+
+The brief as written: 50 pages, **several pages per site**, serialised DOM stored on
 disk. Capture through Mondrian so client-rendered content and shadow DOM are included;
 `curl` would miss most of the web. Multiple pages per site is load-bearing, not tidiness:
 cross-page repetition is the strongest chrome signal there is and B3 depends on it.
@@ -67,9 +94,13 @@ PDF in a viewer, single-page app, paywalled article, cookie-walled page, and a f
 deliberately awful ones. At least five that are genuinely applications, because the escape
 hatch needs testing too.
 
-Freeze it when it is captured. ADR 0008.
+Freeze it when it is captured. ADR 0008. (See "Not yet frozen" above.)
 
-**B2. Label it with Jev.** Ten types per region across the corpus. Jev returns a typed
+**B2. Label it with Jev.** Next. `tools/label/trial.js` drives live pages; it needs a
+mode that reads `corpus/pages/*/regions.json` instead, then labels all 3,277 regions with
+the 100 types. Under a dollar at the trial's rate. Route review by top-two margin.
+
+The brief as written: ten types per region across the corpus. Jev returns a typed
 choice with a confidence number, so it labels in bulk and flags what it is unsure of.
 Review only the flagged cases. An afternoon rather than a week.
 

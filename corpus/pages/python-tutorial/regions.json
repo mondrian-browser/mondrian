@@ -1,0 +1,4680 @@
+{
+ "url": "https://docs.python.org/3/tutorial/controlflow.html",
+ "title": "4. More Control Flow Tools — Python 3.14.7 documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 20512,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 513,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 14,
+    "height": 60,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "h1",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "4. More Control Flow Tools¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 100,
+    "height": 62,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 110,
+   "text": "As well as the while statement just introduced, Python uses a few more\nthat we will encounter in this chapter.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 178,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 19,
+   "text": "4.1. if Statements¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 221,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 76,
+   "text": "Perhaps the most well-known statement type is the if statement. For\nexample:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 286,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 246,
+   "text": ">>> x = int(input(\"Please enter an integer: \"))\nPlease enter an integer: 42\n>>> if x < 0:\n... x = 0\n... print('Negative changed to zero')\n... elif x == 0:\n... print('Zero')\n... elif x == 1:\n... print('Single')\n... else:\n... print('More')\n...\nMore",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 329,
+    "height": 253,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 452,
+   "text": "There can be zero or more elif parts, and the else part is\noptional. The keyword ‘elif’ is short for ‘else if’, and is useful\nto avoid excessive indentation. An if … elif …\nelif … sequence is a substitute for the switch or\ncase statements found in other languages.\nIf you’re comparing the same value to several constants, or checking for specific types or\nattributes, you may also find the match stat",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 598,
+    "height": 147,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 20,
+   "text": "4.2. for Statements¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 761,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "id": "index-0",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 433,
+   "text": "The for statement in Python differs a bit from what you may be used\nto in C or Pascal. Rather than always iterating over an arithmetic progression\nof numbers (like in Pascal), or giving the user the ability to define both the\niteration step and halting condition (as C), Python’s for statement\niterates over the items of any sequence (a list or a string), in the order that\nthey appear in the sequenc",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 826,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.04,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 149,
+   "text": ">>> # Measure some strings:\n>>> words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n...\ncat 3\nwindow 6\ndefenestrate 12",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 947,
+    "height": 160,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 215,
+   "text": "Code that modifies a collection while iterating over that same collection can\nbe tricky to get right. Instead, it is usually more straight-forward to loop\nover a copy of the collection or to create a new collection:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1123,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 355,
+   "text": "# Create a sample collection\nusers = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}\n# Strategy: Iterate over a copy\nfor user, status in users.copy().items():\n if status == 'inactive':\n del users[user]\n# Strategy: Create a new collection\nactive_users = {}\nfor user, status in users.items():\n if status == 'active':\n active_users[user] = status",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1190,
+    "height": 253,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 26,
+   "text": "4.3. The range() Function¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 1459,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 137,
+   "text": "If you do need to iterate over a sequence of numbers, the built-in function\nrange() comes in handy. It generates arithmetic progressions:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 1524,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 49,
+   "text": ">>> for i in range(5):\n... print(i)\n...\n0\n1\n2\n3\n4",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1593,
+    "height": 160,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 294,
+   "text": "The given end point is never part of the generated sequence; range(10) generates\n10 values, the legal indices for items of a sequence of length 10. It\nis possible to let the range start at another number, or to specify a different\nincrement (even negative; sometimes this is called the ‘step’):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1769,
+    "height": 78,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 125,
+   "text": ">>> list(range(5, 10))\n[5, 6, 7, 8, 9]\n>>> list(range(0, 10, 3))\n[0, 3, 6, 9]\n>>> list(range(-10, -100, -30))\n[-10, -40, -70]",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1863,
+    "height": 160,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 88,
+   "text": "To iterate over the indices of a sequence, you can combine range() and\nlen() as follows:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 2039,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 130,
+   "text": ">>> a = ['Mary', 'had', 'a', 'little', 'lamb']\n>>> for i in range(len(a)):\n... print(i, a[i])\n...\n0 Mary\n1 had\n2 a\n3 little\n4 lamb",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2082,
+    "height": 179,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 102,
+   "text": "In most such cases, however, it is convenient to use the enumerate()\nfunction, see Looping Techniques.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 2277,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 77,
+   "text": "A strange thing happens if you just print a range:\n>>> range(10)\nrange(0, 10)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2319,
+    "height": 91,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 562,
+   "text": "In many ways the object returned by range() behaves as if it is a list,\nbut in fact it isn’t. It is an object which returns the successive items of\nthe desired sequence when you iterate over it, but it doesn’t really make\nthe list, thus saving space.\nWe say such an object is iterable, that is, suitable as a target for\nfunctions and constructs that expect something from which they can\nobtain succes",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 2426,
+    "height": 173,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 35,
+   "text": ">>> sum(range(4)) # 0 + 1 + 2 + 3\n6",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2615,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 154,
+   "text": "Later we will see more functions that return iterables and take iterables as\narguments. In chapter Data Structures, we will discuss list() in more\ndetail.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 2680,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 35,
+   "text": "4.4. break and continue Statements¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 2748,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 76,
+   "text": "The break statement breaks out of the innermost enclosing\nfor or while loop:",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 2813,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 183,
+   "text": ">>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(f\"{n} equals {x} * {n//x}\")\n... break\n...\n4 equals 2 * 2\n6 equals 2 * 3\n8 equals 2 * 4\n9 equals 3 * 3",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2856,
+    "height": 197,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 69,
+   "text": "The continue statement continues with the next\niteration of the loop:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 3069,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 327,
+   "text": ">>> for num in range(2, 10):\n... if num % 2 == 0:\n... print(f\"Found an even number {num}\")\n... continue\n... print(f\"Found an odd number {num}\")\n...\nFound an even number 2\nFound an odd number 3\nFound an even number 4\nFound an odd number 5\nFound an even number 6\nFound an odd number 7\nFound an even number 8\nFound an odd number 9",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3112,
+    "height": 271,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "4.5. else Clauses on Loops¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 3400,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p×5",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 654,
+   "text": "In a for or while loop the break statement\nmay be paired with an else clause. If the loop finishes without\nexecuting the break, the else clause executes.\nIn a for loop, the else clause is executed\nafter the loop finishes its final iteration, that is, if no break occurred.\nIn a while loop, it’s executed after the loop’s condition becomes false.\nIn either kind of loop, the else clause is not execute",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 3465,
+    "height": 251,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 355,
+   "text": ">>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(n, 'equals', x, '*', n//x)\n... break\n... else:\n... # loop fell through without finding a factor\n... print(n, 'is a prime number')\n...\n2 is a prime number\n3 is a prime number\n4 equals 2 * 2\n5 is a prime number\n6 equals 2 * 3\n7 is a prime number\n8 equals 2 * 4\n9 equals 3 * 3",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3732,
+    "height": 327,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p×3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 775,
+   "text": "(Yes, this is the correct code. Look closely: the else clause belongs to\nthe for loop, not the if statement.)\nOne way to think of the else clause is to imagine it paired with the if\ninside the loop. As the loop executes, it will run a sequence like\nif/if/if/else. The if is inside the loop, encountered a number of times. If\nthe condition is ever true, a break will happen. If the condition is never\n",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4075,
+    "height": 244,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "4.6. pass Statements¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 4335,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 139,
+   "text": "The pass statement does nothing. It can be used when a statement is\nrequired syntactically but the program requires no action. For example:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4401,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 72,
+   "text": ">>> while True:\n... pass # Busy-wait for keyboard interrupt (Ctrl+C)\n...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4469,
+    "height": 68,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 88,
+   "text": "This is commonly used for creating minimal classes:\n>>> class MyEmptyClass:\n... pass\n...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4552,
+    "height": 109,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 206,
+   "text": "Another place pass can be used is as a place-holder for a function or\nconditional body when you are working on new code, allowing you to keep thinking\nat a more abstract level. The pass is silently ignored:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 4678,
+    "height": 53,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 66,
+   "text": ">>> def initlog(*args):\n... pass # Remember to implement this!\n...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4747,
+    "height": 68,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 296,
+   "text": "For this last case, many people use the ellipsis literal ... instead of\npass. This use has no special meaning to Python, and is not part of\nthe language definition (you could use any constant expression here), but\n... is used conventionally as a placeholder body as well.\nSee The Ellipsis Object.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 4831,
+    "height": 79,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "4.7. match Statements¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 4926,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 583,
+   "text": "A match statement takes an expression and compares its value to successive\npatterns given as one or more case blocks. This is superficially\nsimilar to a switch statement in C, Java or JavaScript (and many\nother languages), but it’s more similar to pattern matching in\nlanguages like Rust or Haskell. Only the first pattern that matches\ngets executed and it can also extract components (sequence eleme",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 4991,
+    "height": 171,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 191,
+   "text": "def http_error(status):\n match status:\n case 400:\n return \"Bad request\"\n case 404:\n return \"Not found\"\n case 418:\n return \"I'm a teapot\"\n case _:\n return \"Something's wrong with the internet\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5178,
+    "height": 197,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 156,
+   "text": "Note the last block: the “variable name” _ acts as a wildcard and\nnever fails to match.\nYou can combine several literals in a single pattern using | (“or”):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5391,
+    "height": 69,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 43,
+   "text": "case 401 | 403 | 404:\n return \"Not allowed\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5476,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 80,
+   "text": "Patterns can look like unpacking assignments, and can be used to bind\nvariables:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5541,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 212,
+   "text": "# point is an (x, y) tuple\nmatch point:\n case (0, 0):\n print(\"Origin\")\n case (0, y):\n print(f\"Y={y}\")\n case (x, 0):\n print(f\"X={x}\")\n case (x, y):\n print(f\"X={x}, Y={y}\")\n case _:\n raise ValueError(\"Not a point\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5583,
+    "height": 234,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 561,
+   "text": "Study that one carefully! The first pattern has two literals, and can\nbe thought of as an extension of the literal pattern shown above. But\nthe next two patterns combine a literal and a variable, and the\nvariable binds a value from the subject (point). The fourth\npattern captures two values, which makes it conceptually similar to\nthe unpacking assignment (x, y) = point.\nIf you are using classes to",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5833,
+    "height": 172,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 289,
+   "text": "class Point:\n def __init__(self, x, y):\n self.x = x\n self.y = y\ndef where_is(point):\n match point:\n case Point(x=0, y=0):\n print(\"Origin\")\n case Point(x=0, y=y):\n print(f\"Y={y}\")\n case Point(x=x, y=0):\n print(f\"X={x}\")\n case Point():\n print(\"Somewhere else\")\n case _:\n print(\"Not a point\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6021,
+    "height": 327,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 378,
+   "text": "You can use positional parameters with some builtin classes that provide an\nordering for their attributes (e.g. dataclasses). You can also define a specific\nposition for attributes in patterns by setting the __match_args__ special\nattribute in your classes. If it’s set to (“x”, “y”), the following patterns are all\nequivalent (and all bind the y attribute to the var variable):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6364,
+    "height": 106,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 65,
+   "text": "Point(1, var)\nPoint(1, y=var)\nPoint(x=1, y=var)\nPoint(y=var, x=1)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6486,
+    "height": 86,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 559,
+   "text": "A recommended way to read patterns is to look at them as an extended form of what you\nwould put on the left of an assignment, to understand which variables would be set to\nwhat.\nOnly the standalone names (like var above) are assigned to by a match statement.\nDotted names (like foo.bar), attribute names (the x= and y= above) or class names\n(recognized by the “(…)” next to them like Point above) are",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6588,
+    "height": 174,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 345,
+   "text": "class Point:\n __match_args__ = ('x', 'y')\n def __init__(self, x, y):\n self.x = x\n self.y = y\nmatch points:\n case []:\n print(\"No points\")\n case [Point(0, 0)]:\n print(\"The origin\")\n case [Point(x, y)]:\n print(f\"Single point {x}, {y}\")\n case [Point(0, y1), Point(0, y2)]:\n print(f\"Two on the Y axis at {y1}, {y2}\")\n case _:\n print(\"Something else\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6778,
+    "height": 327,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 185,
+   "text": "We can add an if clause to a pattern, known as a “guard”. If the\nguard is false, match goes on to try the next case block. Note\nthat value capture happens before the guard is evaluated:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7121,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 113,
+   "text": "match point:\n case Point(x, y) if x == y:\n print(f\"Y=X at {x}\")\n case Point(x, y):\n print(f\"Not on the diagonal\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7189,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "ul",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 1483,
+   "text": "Several other key features of this statement:\nLike unpacking assignments, tuple and list patterns have exactly the\nsame meaning and actually match arbitrary sequences. An important\nexception is that they don’t match iterators or strings.\nSequence patterns support extended unpacking: [x, y, *rest] and (x, y,\n*rest) work similar to unpacking assignments. The\nname after * may also be _, so (x, y, *_)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 8,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7310,
+    "height": 857,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 121,
+   "text": "For a more detailed explanation and additional examples, you can look into\nPEP 636 which is written in a tutorial format.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 8183,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "4.8. Defining Functions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 8250,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 83,
+   "text": "We can create a function that writes the Fibonacci series to an arbitrary\nboundary:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8315,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 302,
+   "text": ">>> def fib(n): # write Fibonacci series less than n\n... \"\"\"Print a Fibonacci series less than n.\"\"\"\n... a, b = 0, 1\n... while a < n:\n... print(a, end=' ')\n... a, b = b, a+b\n... print()\n...\n>>> # Now call the function we just defined:\n>>> fib(2000)\n0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8357,
+    "height": 216,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p×5",
+   "id": "index-3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 2061,
+   "text": "The keyword def introduces a function definition. It must be\nfollowed by the function name and the parenthesized list of formal parameters.\nThe statements that form the body of the function start at the next line, and\nmust be indented.\nThe first statement of the function body can optionally be a string literal;\nthis string literal is the function’s documentation string, or docstring.\n(More about d",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 8589,
+    "height": 630,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 86,
+   "text": ">>> fib\n<function fib at 10042ed0>\n>>> f = fib\n>>> f(100)\n0 1 1 2 3 5 8 13 21 34 55 89",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9235,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 425,
+   "text": "Coming from other languages, you might object that fib is not a function but\na procedure since it doesn’t return a value. In fact, even functions without a\nreturn statement do return a value, albeit a rather boring one. This\nvalue is called None (it’s a built-in name). Writing the value None is\nnormally suppressed by the interpreter if it would be the only value written.\nYou can see it if you real",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 9356,
+    "height": 107,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 33,
+   "text": ">>> fib(0)\n>>> print(fib(0))\nNone",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9479,
+    "height": 68,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 116,
+   "text": "It is simple to write a function that returns a list of the numbers of the\nFibonacci series, instead of printing it:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9562,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 338,
+   "text": ">>> def fib2(n): # return Fibonacci series up to n\n... \"\"\"Return a list containing the Fibonacci series up to n.\"\"\"\n... result = []\n... a, b = 0, 1\n... while a < n:\n... result.append(a) # see below\n... a, b = b, a+b\n... return result\n...\n>>> f100 = fib2(100) # call it\n>>> f100 # write the result\n[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9604,
+    "height": 234,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 62,
+   "text": "This example, as usual, demonstrates some new Python features:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9854,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 850,
+   "text": "The return statement returns with a value from a function.\nreturn without an expression argument returns None. Falling off\nthe end of a function also returns None.\nThe statement result.append(a) calls a method of the list object\nresult. A method is a function that ‘belongs’ to an object and is named\nobj.methodname, where obj is some object (this may be an expression),\nand methodname is the name of",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 9896,
+    "height": 238,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 32,
+   "text": "4.9. More on Defining Functions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 10150,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 122,
+   "text": "It is also possible to define functions with a variable number of arguments.\nThere are three forms, which can be combined.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10215,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 31,
+   "text": "4.9.1. Default Argument Values¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 10282,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 183,
+   "text": "The most useful form is to specify a default value for one or more arguments.\nThis creates a function that can be called with fewer arguments than it is\ndefined to allow. For example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10342,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 297,
+   "text": "def ask_ok(prompt, retries=4, reminder='Please try again!'):\n while True:\n reply = input(prompt)\n if reply in {'y', 'ye', 'yes'}:\n return True\n if reply in {'n', 'no', 'nop', 'nope'}:\n return False\n retries = retries - 1\n if retries < 0:\n raise ValueError('invalid user response')\n print(reminder)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10409,
+    "height": 216,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 292,
+   "text": "This function can be called in several ways:\ngiving only the mandatory argument:\nask_ok('Do you really want to quit?')\ngiving one of the optional arguments:\nask_ok('OK to overwrite the file?', 2)\nor even giving all arguments:\nask_ok('OK to overwrite the file?', 2, 'Come on, only yes or no!')",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10641,
+    "height": 148,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 207,
+   "text": "This example also introduces the in keyword. This tests whether or\nnot a sequence contains a certain value.\nThe default values are evaluated at the point of function definition in the\ndefining scope, so that",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 10805,
+    "height": 68,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 41,
+   "text": "i = 5\ndef f(arg=i):\n print(arg)\ni = 6\nf()",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10889,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 289,
+   "text": "will print 5.\nImportant warning: The default value is evaluated only once. This makes a\ndifference when the default is a mutable object such as a list, dictionary, or\ninstances of most classes. For example, the following function accumulates the\narguments passed to it on subsequent calls:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11047,
+    "height": 119,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 74,
+   "text": "def f(a, L=[]):\n L.append(a)\n return L\nprint(f(1))\nprint(f(2))\nprint(f(3))",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11183,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 36,
+   "text": "This will print\n[1]\n[1, 2]\n[1, 2, 3]",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11340,
+    "height": 109,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 114,
+   "text": "If you don’t want the default to be shared between subsequent calls, you can\nwrite the function like this instead:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11465,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 63,
+   "text": "def f(a, L=None):\n if L is None:\n L = []\n L.append(a)\n return L",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11507,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 25,
+   "text": "4.9.2. Keyword Arguments¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 11628,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 115,
+   "text": "Functions can also be called using keyword arguments\nof the form kwarg=value. For instance, the following function:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 11687,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 246,
+   "text": "def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):\n print(\"-- This parrot wouldn't\", action, end=' ')\n print(\"if you put\", voltage, \"volts through it.\")\n print(\"-- Lovely plumage, the\", type)\n print(\"-- It's\", state, \"!\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11755,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 153,
+   "text": "accepts one required argument (voltage) and three optional arguments\n(state, action, and type). This function can be called in any\nof the following ways:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11876,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 356,
+   "text": "parrot(1000) # 1 positional argument\nparrot(voltage=1000) # 1 keyword argument\nparrot(voltage=1000000, action='VOOOOOM') # 2 keyword arguments\nparrot(action='VOOOOOM', voltage=1000000) # 2 keyword arguments\nparrot('a million', 'bereft of life', 'jump') # 3 positional arguments\nparrot('a thousand', state='pushing up the daisies') # 1 positional, 1 keyword",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11944,
+    "height": 123,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 278,
+   "text": "but all the following calls would be invalid:\nparrot() # required argument missing\nparrot(voltage=5.0, 'dead') # non-keyword argument after a keyword argument\nparrot(110, voltage=220) # duplicate value for the same argument\nparrot(actor='John Cleese') # unknown keyword argument",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12084,
+    "height": 128,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 443,
+   "text": "In a function call, keyword arguments must follow positional arguments.\nAll the keyword arguments passed must match one of the arguments\naccepted by the function (e.g. actor is not a valid argument for the\nparrot function), and their order is not important. This also includes\nnon-optional arguments (e.g. parrot(voltage=1000) is valid too).\nNo argument may receive a value more than once.\nHere’s an ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12227,
+    "height": 130,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 185,
+   "text": ">>> def function(a):\n... pass\n...\n>>> function(0, a=0)\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: function() got multiple values for argument 'a'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12373,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 472,
+   "text": "When a final formal parameter of the form **name is present, it receives a\ndictionary (see Mapping Types — dict) containing all keyword arguments except for\nthose corresponding to a formal parameter. This may be combined with a formal\nparameter of the form *name (described in the next subsection) which\nreceives a tuple containing the positional\narguments beyond the formal parameter list. (*name mu",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 12531,
+    "height": 131,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 235,
+   "text": "def cheeseshop(kind, *arguments, **keywords):\n print(\"-- Do you have any\", kind, \"?\")\n print(\"-- I'm sorry, we're all out of\", kind)\n for arg in arguments:\n print(arg)\n print(\"-\" * 40)\n for kw in keywords:\n print(kw, \":\", keywords[kw])",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12678,
+    "height": 160,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 199,
+   "text": "It could be called like this:\ncheeseshop(\"Limburger\", \"It's very runny, sir.\",\n \"It's really very, VERY runny, sir.\",\n shopkeeper=\"Michael Palin\",\n client=\"John Cleese\",\n sketch=\"Cheese Shop Sketch\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12855,
+    "height": 146,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 275,
+   "text": "and of course it would print:\n-- Do you have any Limburger ?\n-- I'm sorry, we're all out of Limburger\nIt's very runny, sir.\nIt's really very, VERY runny, sir.\n----------------------------------------\nshopkeeper : Michael Palin\nclient : John Cleese\nsketch : Cheese Shop Sketch",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13017,
+    "height": 202,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 145,
+   "text": "Note that the order in which the keyword arguments are printed is guaranteed\nto match the order in which they were provided in the function call.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13235,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 26,
+   "text": "4.9.3. Special parameters¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 13302,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 340,
+   "text": "By default, arguments may be passed to a Python function either by position\nor explicitly by keyword. For readability and performance, it makes sense to\nrestrict the way arguments can be passed so that a developer need only look\nat the function definition to determine if items are passed by position, by\nposition or keyword, or by keyword.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13361,
+    "height": 102,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 192,
+   "text": "A function definition may look like:\ndef f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):\n ----------- ---------- ----------\n | | |\n | Positional or keyword |\n | - Keyword only\n -- Positional only",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13480,
+    "height": 165,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 252,
+   "text": "where / and * are optional. If used, these symbols indicate the kind of\nparameter by how the arguments may be passed to the function:\npositional-only, positional-or-keyword, and keyword-only. Keyword parameters\nare also referred to as named parameters.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13661,
+    "height": 78,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "section×3",
+   "id": "positional-or-keyword-arguments",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 932,
+   "text": "4.9.3.1. Positional-or-Keyword Arguments¶\nIf / and * are not present in the function definition, arguments may\nbe passed to a function by position or by keyword.\n4.9.3.2. Positional-Only Parameters¶\nLooking at this in a bit more detail, it is possible to mark certain parameters\nas positional-only. If positional-only, the parameters’ order matters, and\nthe parameters cannot be passed by keyword. Po",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 3
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13754,
+    "height": 444,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "h4",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "4.9.3.4. Function Examples¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 14215,
+    "height": 38,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 98,
+   "text": "Consider the following example function definitions paying close attention to the\nmarkers / and *:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14268,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 245,
+   "text": ">>> def standard_arg(arg):\n... print(arg)\n...\n>>> def pos_only_arg(arg, /):\n... print(arg)\n...\n>>> def kwd_only_arg(*, arg):\n... print(arg)\n...\n>>> def combined_example(pos_only, /, standard, *, kwd_only):\n... print(pos_only, standard, kwd_only)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14311,
+    "height": 216,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 169,
+   "text": "The first function definition, standard_arg, the most familiar form,\nplaces no restrictions on the calling convention and arguments may be\npassed by position or keyword:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14543,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 47,
+   "text": ">>> standard_arg(2)\n2\n>>> standard_arg(arg=2)\n2",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14611,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 124,
+   "text": "The second function pos_only_arg is restricted to only use positional\nparameters as there is a / in the function definition:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14732,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 213,
+   "text": ">>> pos_only_arg(1)\n1\n>>> pos_only_arg(arg=1)\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: pos_only_arg() got some positional-only arguments passed as keyword arguments: 'arg'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14800,
+    "height": 157,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 109,
+   "text": "The third function kwd_only_arg only allows keyword arguments as indicated\nby a * in the function definition:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14973,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 188,
+   "text": ">>> kwd_only_arg(3)\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: kwd_only_arg() takes 0 positional arguments but 1 was given\n>>> kwd_only_arg(arg=3)\n3",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15015,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 80,
+   "text": "And the last uses all three calling conventions in the same function\ndefinition:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15173,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 109,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 510,
+   "text": ">>> combined_example(1, 2, 3)\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: combined_example() takes 2 positional arguments but 3 were given\n>>> combined_example(1, 2, kwd_only=3)\n1 2 3\n>>> combined_example(1, standard=2, kwd_only=3)\n1 2 3\n>>> combined_example(pos_only=1, standard=2, kwd_only=3)\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <mo",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15215,
+    "height": 305,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 110,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 147,
+   "text": "Finally, consider this function definition which has a potential collision between the positional argument name and **kwds which has name as a key:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15536,
+    "height": 53,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 111,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 45,
+   "text": "def foo(name, **kwds):\n return 'name' in kwds",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15605,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 112,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 131,
+   "text": "There is no possible call that will make it return True as the keyword 'name'\nwill always bind to the first parameter. For example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15670,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 113,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 158,
+   "text": ">>> foo(1, **{'name': 2})\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: foo() got multiple values for argument 'name'\n>>>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15738,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 114,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 147,
+   "text": "But using / (positional only arguments), it is possible since it allows name as a positional argument and 'name' as a key in the keyword arguments:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15859,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 115,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 90,
+   "text": ">>> def foo(name, /, **kwds):\n... return 'name' in kwds\n...\n>>> foo(1, **{'name': 2})\nTrue",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15927,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 116,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 96,
+   "text": "In other words, the names of positional-only parameters can be used in\n**kwds without ambiguity.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16048,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 117,
+   "tag": "h4",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "4.9.3.5. Recap¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 16091,
+    "height": 38,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 118,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 79,
+   "text": "The use case will determine which parameters to use in the function definition:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16144,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 119,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 48,
+   "text": "def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16186,
+    "height": 31,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 120,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 633,
+   "text": "As guidance:\nUse positional-only if you want the name of the parameters to not be\navailable to the user. This is useful when parameter names have no real\nmeaning, if you want to enforce the order of the arguments when the function\nis called or if you need to take some positional parameters and arbitrary\nkeywords.\nUse keyword-only when names have meaning and the function definition is\nmore understa",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16232,
+    "height": 221,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 121,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 32,
+   "text": "4.9.4. Arbitrary Argument Lists¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 16469,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 122,
+   "tag": "p",
+   "id": "index-4",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 280,
+   "text": "Finally, the least frequently used option is to specify that a function can be\ncalled with an arbitrary number of arguments. These arguments will be wrapped\nup in a tuple (see Tuples and Sequences). Before the variable number of arguments,\nzero or more normal arguments may occur.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 16528,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 123,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 83,
+   "text": "def write_multiple_items(file, separator, *args):\n file.write(separator.join(args))",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16621,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 124,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 337,
+   "text": "Normally, these variadic arguments will be last in the list of formal\nparameters, because they scoop up all remaining input arguments that are\npassed to the function. Any formal parameters which occur after the *args\nparameter are ‘keyword-only’ arguments, meaning that they can only be used as\nkeywords rather than positional arguments.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16686,
+    "height": 103,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 125,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 182,
+   "text": ">>> def concat(*args, sep=\"/\"):\n... return sep.join(args)\n...\n>>> concat(\"earth\", \"mars\", \"venus\")\n'earth/mars/venus'\n>>> concat(\"earth\", \"mars\", \"venus\", sep=\".\")\n'earth.mars.venus'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16806,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 126,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 32,
+   "text": "4.9.5. Unpacking Argument Lists¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 16964,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 127,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 380,
+   "text": "The reverse situation occurs when the arguments are already in a list or tuple\nbut need to be unpacked for a function call requiring separate positional\narguments. For instance, the built-in range() function expects separate\nstart and stop arguments. If they are not available separately, write the\nfunction call with the *-operator to unpack the arguments out of a list\nor tuple:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 17023,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 128,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 163,
+   "text": ">>> list(range(3, 6)) # normal call with separate arguments\n[3, 4, 5]\n>>> args = [3, 6]\n>>> list(range(*args)) # call with arguments unpacked from a list\n[3, 4, 5]",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17144,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 129,
+   "tag": "p",
+   "id": "index-5",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 85,
+   "text": "In the same fashion, dictionaries can deliver keyword arguments with the\n**-operator:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17264,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 130,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 399,
+   "text": ">>> def parrot(voltage, state='a stiff', action='voom'):\n... print(\"-- This parrot wouldn't\", action, end=' ')\n... print(\"if you put\", voltage, \"volts through it.\", end=' ')\n... print(\"E's\", state, \"!\")\n...\n>>> d = {\"voltage\": \"four million\", \"state\": \"bleedin' demised\", \"action\": \"VOOM\"}\n>>> parrot(**d)\n-- This parrot wouldn't VOOM if you put four million volts through it. E's bleedin' demised !",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17307,
+    "height": 175,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 131,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 26,
+   "text": "4.9.6. Lambda Expressions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 17498,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 132,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 442,
+   "text": "Small anonymous functions can be created with the lambda keyword.\nThis function returns the sum of its two arguments: lambda a, b: a+b.\nLambda functions can be used wherever function objects are required. They are\nsyntactically restricted to a single expression. Semantically, they are just\nsyntactic sugar for a normal function definition. Like nested function\ndefinitions, lambda functions can refe",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 17558,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 133,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 112,
+   "text": ">>> def make_incrementor(n):\n... return lambda x: x + n\n...\n>>> f = make_incrementor(42)\n>>> f(0)\n42\n>>> f(1)\n43",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17678,
+    "height": 160,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 134,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 211,
+   "text": "The above example uses a lambda expression to return a function. Another use\nis to pass a small function as an argument. For instance, list.sort()\ntakes a sorting key function key which can be a lambda function:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 17854,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 135,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 166,
+   "text": ">>> pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]\n>>> pairs.sort(key=lambda pair: pair[1])\n>>> pairs\n[(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17923,
+    "height": 86,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 136,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 29,
+   "text": "4.9.7. Documentation Strings¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 18025,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 137,
+   "tag": "p×4",
+   "id": "index-6",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 823,
+   "text": "Here are some conventions about the content and formatting of documentation\nstrings.\nThe first line should always be a short, concise summary of the object’s\npurpose. For brevity, it should not explicitly state the object’s name or type,\nsince these are available by other means (except if the name happens to be a\nverb describing a function’s operation). This line should begin with a capital\nletter",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 18084,
+    "height": 278,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 138,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 323,
+   "text": "Here is an example of a multi-line docstring:\n>>> def my_function():\n... \"\"\"Do nothing, but document it.\n...\n... No, really, it doesn't do anything:\n...\n... >>> my_function()\n... >>>\n... \"\"\"\n... pass\n...\n>>> print(my_function.__doc__)\nDo nothing, but document it.\nNo, really, it doesn't do anything:\n >>> my_function()\n >>>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 18379,
+    "height": 369,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 139,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 28,
+   "text": "4.9.8. Function Annotations¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 18763,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 140,
+   "tag": "p×2",
+   "id": "index-7",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 699,
+   "text": "Function annotations are completely optional metadata\ninformation about the types used by user-defined functions (see PEP 3107 and\nPEP 484 for more information).\nAnnotations are stored in the __annotations__\nattribute of the function as a dictionary and have no effect on any other part of the\nfunction. Parameter annotations are defined by a colon after the parameter name, followed\nby an expression",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 18823,
+    "height": 198,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 141,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 298,
+   "text": ">>> def f(ham: str, eggs: str = 'eggs') -> str:\n... print(\"Annotations:\", f.__annotations__)\n... print(\"Arguments:\", ham, eggs)\n... return ham + ' and ' + eggs\n...\n>>> f('spam')\nAnnotations: {'ham': <class 'str'>, 'return': <class 'str'>, 'eggs': <class 'str'>}\nArguments: spam eggs\n'spam and eggs'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 19037,
+    "height": 179,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 142,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 31,
+   "text": "4.10. Intermezzo: Coding Style¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 19232,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 143,
+   "tag": "p×2",
+   "id": "index-10",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 608,
+   "text": "Now that you are about to write longer, more complex pieces of Python, it is a\ngood time to talk about coding style. Most languages can be written (or more\nconcisely, formatted) in different styles; some are more readable than others.\nMaking it easy for others to read your code is always a good idea, and adopting\na nice coding style helps tremendously for that.\nFor Python, PEP 8 has emerged as the",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 19297,
+    "height": 195,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 144,
+   "tag": "ul",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 1262,
+   "text": "Use 4-space indentation, and no tabs.\n4 spaces are a good compromise between small indentation (allows greater\nnesting depth) and large indentation (easier to read). Tabs introduce\nconfusion, and are best left out.\nWrap lines so that they don’t exceed 79 characters.\nThis helps users with small displays and makes it possible to have several\ncode files side-by-side on larger displays.\nUse blank line",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 11,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 19508,
+    "height": 625,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 145,
+   "tag": "aside",
+   "class": "footnote-list brackets",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "aside"
+   ],
+   "textLength": 201,
+   "text": "Footnotes\n[1]\nActually, call by object reference would be a better description,\nsince if a mutable object is passed, the caller will see any changes the\ncallee makes to it (items inserted into a list).",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 20163,
+    "height": 93,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 146,
+   "tag": "h3",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 17,
+   "text": "Table of Contents",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 138,
+    "height": 17,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 147,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 663,
+   "text": "4. More Control Flow Tools\n4.1. if Statements\n4.2. for Statements\n4.3. The range() Function\n4.4. break and continue Statements\n4.5. else Clauses on Loops\n4.6. pass Statements\n4.7. match Statements\n4.8. Defining Functions\n4.9. More on Defining Functions\n4.9.1. Default Argument Values\n4.9.2. Keyword Arguments\n4.9.3. Special parameters\n4.9.3.1. Positional-or-Keyword Arguments\n4.9.3.2. Positional-Only",
+   "counts": {
+    "links": 24,
+    "images": 0,
+    "headings": 0,
+    "listItems": 24,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 165,
+    "height": 440,
+    "widthFraction": 0.21,
+    "leftFraction": 0.03,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 148,
+   "tag": "div",
+   "role": "note",
+   "ariaLabel": "source link",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 140,
+   "text": "Previous topic\n 3. An Informal Introduction to Python\nNext topic\n 5. Data Structures\nThis page\n Report a bug\n Improve this page\n Show source",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 3,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 631,
+    "height": 213,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 149,
+   "tag": "span",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 1,
+   "text": "«",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 500,
+    "height": 17,
+    "widthFraction": 0.01,
+    "leftFraction": 0.25,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 150,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 513,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 20272,
+    "height": 60,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 151,
+   "tag": "div",
+   "class": "footer",
+   "landmarks": [],
+   "textLength": 449,
+   "text": "© Copyright 2001 Python Software Foundation.\n This page is licensed under the Python Software Foundation License Version 2.\n Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.\n See History and License for more information.\n The Python Software Foundation is a non-profit corporation.\nPlease donate.\n Last updated on Sep 20, 2026 (03:43",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 20332,
+    "height": 180,
+    "widthFraction": 0.96,
+    "leftFraction": 0.01,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

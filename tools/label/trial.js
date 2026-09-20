@@ -18,8 +18,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const WebSocket = require('ws');
 const { ask, MODEL } = require('./jev');
+const { connect } = require('../lib/control');
 const { EXTRACT_SOURCE } = require('./extract');
 const questions = require('./questions');
 const { REVIEW_BELOW, applicationQuestion } = questions;
@@ -35,7 +35,6 @@ const BLOCK_TYPES = TYPES_MODULE ? require(path.resolve(TYPES_MODULE)) : questio
 const regionQuestion = () => ({ ...questions.regionQuestion(), criteria: BLOCK_TYPES });
 
 const ROOT = path.resolve(__dirname, '..', '..');
-const CONTROL = path.join(ROOT, '.runtime', 'control.json');
 const OUT_DIR = path.join(ROOT, '.runtime', 'label-trial');
 const PROFILE = 'claude';
 const CONCURRENCY = 4;
@@ -61,37 +60,6 @@ const DEFAULT_PAGES = [
   'https://duckduckgo.com/?q=piet+mondrian&ia=web',                           // search results
   'https://excalidraw.com/',                                                  // application
 ];
-
-// ---------------------------------------------------------------- control client
-class Client {
-  constructor(info) { this.info = info; this.seq = 0; this.pending = new Map(); }
-  connect() {
-    return new Promise((resolve, reject) => {
-      const ws = new WebSocket(`ws://${this.info.host}:${this.info.port}`);
-      const t = setTimeout(() => reject(new Error('control socket timeout')), 5000);
-      ws.once('error', reject);
-      ws.once('open', () => ws.send(JSON.stringify({ auth: this.info.token })));
-      ws.on('message', (raw) => {
-        const m = JSON.parse(raw.toString());
-        if (m.type === 'hello') { clearTimeout(t); this.ws = ws; return resolve(this); }
-        if (m.type === 'event') return;
-        const p = this.pending.get(m.id);
-        if (!p) return;
-        this.pending.delete(m.id);
-        m.ok ? p.resolve(m.result) : p.reject(new Error(m.error));
-      });
-    });
-  }
-  call(cmd, args = {}, timeoutMs = 45000) {
-    return new Promise((resolve, reject) => {
-      const id = `l${++this.seq}`;
-      const timer = setTimeout(() => { this.pending.delete(id); reject(new Error(`${cmd} timed out`)); }, timeoutMs);
-      this.pending.set(id, { resolve: (v) => { clearTimeout(timer); resolve(v); }, reject: (e) => { clearTimeout(timer); reject(e); } });
-      this.ws.send(JSON.stringify({ id, cmd, args }));
-    });
-  }
-  close() { this.ws.close(); }
-}
 
 // ---------------------------------------------------------------- helpers
 const brief = (r) => r ? `${r.tag}${r.landmarks.length ? ' in ' + r.landmarks.join('>') : ''}: ${r.text.slice(0, 80).replace(/\n/g, ' ')}` : null;
@@ -179,14 +147,7 @@ function summarise(results) {
 (async () => {
   const pages = argv.length ? argv : DEFAULT_PAGES;
   console.log(`types: ${Object.keys(BLOCK_TYPES).length} (${LABEL})   pages: ${pages.length}`);
-  if (!fs.existsSync(CONTROL)) {
-    console.error('Browser is not running (no .runtime/control.json). Start it with `npm start` or the MCP `status` tool.');
-    process.exit(1);
-  }
-  const client = await new Client(JSON.parse(fs.readFileSync(CONTROL, 'utf8'))).connect();
-  // A minimised window has a 0x0 viewport and every region is invisible; refuse rather than label nothing.
-  const win = await client.call('window', { action: 'get' });
-  if (win.minimized) { await client.call('window', { action: 'restore' }); console.log('browser window was minimised; restored it'); }
+  const client = await connect();
   await client.call('ui_note', { text: `Jev trial: labelling ${pages.length} pages in the ${PROFILE} profile.` }).catch(() => {});
 
   const results = [];

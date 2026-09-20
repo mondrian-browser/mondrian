@@ -15,7 +15,8 @@
     "test:agent": "node tests/agent-suite.js",
     "test:all": "node tests/e2e.js && node tests/site-suite.js && node tests/agent-suite.js",
     "docs": "node tools/gen-docs.js",
-    "label:trial": "node tools/label/trial.js"
+    "label:trial": "node tools/label/trial.js",
+    "corpus:capture": "node tools/corpus/capture.js"
   },
   "engines": {
     "node": ">=20"

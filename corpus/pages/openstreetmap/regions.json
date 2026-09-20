@@ -1,0 +1,256 @@
+{
+ "url": "https://www.openstreetmap.org/#map=14/-37.81360/144.96310",
+ "title": "OpenStreetMap",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "class": "d-flex m-0 align-items-center fw-semibold",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 13,
+   "text": "OpenStreetMap",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "OpenStreetMap logo",
+     "width": 30,
+     "height": 30
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 0,
+    "height": 55,
+    "widthFraction": 0.13,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "section",
+   "id": "header-nav",
+   "class": "flex-grow-1 collapse d-md-block",
+   "landmarks": [
+    "header",
+    "section"
+   ],
+   "textLength": 285,
+   "text": "Where is this?\n GraphHopper\nOSRM\nValhalla\n Route start marker\n Route end marker\n Edit\n Edit with iD (in-browser editor)\n Edit with Remote Control (JOSM, Potlatch, Merkaartor)\n History\n Export\n GPS Tracks\n User Diaries\n Communities\n Copyright\n Help\n Donate\n About\n More\n Log In\n Sign Up",
+   "counts": {
+    "links": 15,
+    "images": 0,
+    "headings": 0,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 14,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.6,
+   "geometry": {
+    "top": 0,
+    "height": 55,
+    "widthFraction": 0.87,
+    "leftFraction": 0.13,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "form",
+   "class": "search_form bg-body-secondary p-2",
+   "landmarks": [
+    "form"
+   ],
+   "textLength": 14,
+   "text": "Where is this?",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 55,
+    "height": 50,
+    "widthFraction": 0.24,
+    "leftFraction": 0,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h2",
+   "class": "me-4 text-break",
+   "landmarks": [],
+   "textLength": 25,
+   "text": "Welcome to OpenStreetMap!",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 113,
+    "height": 85,
+    "widthFraction": 0.23,
+    "leftFraction": 0.01,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "class": "fs-6 fw-light",
+   "landmarks": [],
+   "textLength": 102,
+   "text": "OpenStreetMap is a map of the world, created by people like you and free to use under an open licence.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 206,
+    "height": 72,
+    "widthFraction": 0.22,
+    "leftFraction": 0.01,
+    "pageFraction": 0.25,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p×2",
+   "class": "fs-7 fw-light",
+   "landmarks": [],
+   "textLength": 194,
+   "text": "Hosting is supported by Fastly, OSMF corporate members, and other partners.\nBy using this website or other infrastructure provided by the OpenStreetMap Foundation, you agree to the Terms of Use.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 294,
+    "height": 121,
+    "widthFraction": 0.22,
+    "leftFraction": 0.01,
+    "pageFraction": 0.36,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "d-flex gap-2",
+   "landmarks": [],
+   "textLength": 25,
+   "text": "Learn More\n Start Mapping",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 431,
+    "height": 38,
+    "widthFraction": 0.22,
+    "leftFraction": 0.01,
+    "pageFraction": 0.53,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "a",
+   "landmarks": [],
+   "textLength": 78,
+   "text": "500 m\n2000 ft\nOpenStreetMap contributors\nMake a Donation\nWebsite and API terms",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 777,
+    "height": 39,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0.95,
+    "aboveFold": true
+   }
+  }
+ ]
+}

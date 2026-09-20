@@ -1,0 +1,1401 @@
+{
+ "url": "https://docs.python.org/3/library/json.html",
+ "title": "json — JSON encoder and decoder — Python 3.14.7 documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 13661,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 552,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 9,
+    "images": 1,
+    "headings": 0,
+    "listItems": 14,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 14,
+    "height": 61,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "h1",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 32,
+   "text": "json — JSON encoder and decoder¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 101,
+    "height": 62,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 277,
+   "text": "Source code: Lib/json/__init__.py\nJSON (JavaScript Object Notation), specified by\nRFC 7159 (which obsoletes RFC 4627) and by\nECMA-404,\nis a lightweight data interchange format inspired by\nJavaScript object literal syntax\n(although it is not a strict subset of JavaScript [1] ).",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 179,
+    "height": 135,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 213,
+   "text": "Note\nThe term “object” in the context of JSON processing in Python can be\nambiguous. All values in Python are objects. In JSON, an object refers to\nany data wrapped in curly braces, similar to a Python dictionary.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 330,
+    "height": 67,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "admonition warning",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 217,
+   "text": "Warning\nBe cautious when parsing JSON data from untrusted sources. A malicious\nJSON string may cause the decoder to consume considerable CPU and memory\nresources. Limiting the size of data to be parsed is recommended.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 408,
+    "height": 93,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 96,
+   "text": "This module exposes an API familiar to users of the standard library\nmarshal and pickle modules.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 516,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 488,
+   "text": "Encoding basic Python object hierarchies:\n>>> import json\n>>> json.dumps(['foo', {'bar': ('baz', None, 1.0, 2)}])\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n>>> print(json.dumps(\"\\\"foo\\bar\"))\n\"\\\"foo\\bar\"\n>>> print(json.dumps('\\u1234'))\n\"\\u1234\"\n>>> print(json.dumps('\\\\'))\n\"\\\\\"\n>>> print(json.dumps({\"c\": 0, \"b\": 0, \"a\": 0}, sort_keys=True))\n{\"a\": 0, \"b\": 0, \"c\": 0}\n>>> from io import StringIO\n>>> io",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 559,
+    "height": 350,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 124,
+   "text": "Compact encoding:\n>>> import json\n>>> json.dumps([1, 2, 3, {'4': 5, '6': 7}], separators=(',', ':'))\n'[1,2,3,{\"4\":5,\"6\":7}]'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 925,
+    "height": 109,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 119,
+   "text": "Pretty printing:\n>>> import json\n>>> print(json.dumps({'6': 7, '4': 5}, sort_keys=True, indent=4))\n{\n \"4\": 5,\n \"6\": 7\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1050,
+    "height": 165,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 338,
+   "text": "Customizing JSON object encoding:\n>>> import json\n>>> def custom_json(obj):\n... if isinstance(obj, complex):\n... return {'__complex__': True, 'real': obj.real, 'imag': obj.imag}\n... raise TypeError(f'Cannot serialize object of {type(obj)}')\n...\n>>> json.dumps(1 + 2j, default=custom_json)\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1231,
+    "height": 202,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 275,
+   "text": "Decoding JSON:\n>>> import json\n>>> json.loads('[\"foo\", {\"bar\":[\"baz\", null, 1.0, 2]}]')\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n>>> json.loads('\"\\\\\"foo\\\\bar\"')\n'\"foo\\x08ar'\n>>> from io import StringIO\n>>> io = StringIO('[\"streaming API\"]')\n>>> json.load(io)\n['streaming API']",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1449,
+    "height": 220,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 349,
+   "text": "Customizing JSON object decoding:\n>>> import json\n>>> def as_complex(dct):\n... if '__complex__' in dct:\n... return complex(dct['real'], dct['imag'])\n... return dct\n...\n>>> json.loads('{\"__complex__\": true, \"real\": 1, \"imag\": 2}',\n... object_hook=as_complex)\n(1+2j)\n>>> import decimal\n>>> json.loads('1.1', parse_float=decimal.Decimal)\nDecimal('1.1')",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1685,
+    "height": 276,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 445,
+   "text": "Extending JSONEncoder:\n>>> import json\n>>> class ComplexEncoder(json.JSONEncoder):\n... def default(self, obj):\n... if isinstance(obj, complex):\n... return [obj.real, obj.imag]\n... # Let the base class default method raise the TypeError\n... return super().default(obj)\n...\n>>> json.dumps(2 + 1j, cls=ComplexEncoder)\n'[2.0, 1.0]'\n>>> ComplexEncoder().encode(2 + 1j)\n'[2.0, 1.0]'\n>>> list(ComplexEncoder",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 1977,
+    "height": 314,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 227,
+   "text": "Using json from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n \"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2307,
+    "height": 166,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 281,
+   "text": "See Command-line interface for detailed documentation.\nNote\nJSON is a subset of YAML 1.2. The JSON produced by\nthis module’s default settings (in particular, the default separators\nvalue) is also a subset of YAML 1.0 and 1.1. This module can thus also be\nused as a YAML serializer.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 2489,
+    "height": 134,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 147,
+   "text": "Note\nThis module’s encoders and decoders preserve input and output order by\ndefault. Order is only lost if the underlying containers are unordered.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2634,
+    "height": 67,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 12,
+   "text": "Basic Usage¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 2711,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "dl×4",
+   "class": "py function",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 6906,
+   "text": "json.dump(obj, fp, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)¶\nSerialize obj as a JSON formatted stream to fp (a .write()-supporting\nfile-like object) using this Python-to-JSON conversion table.\nNote\nUnlike pickle and marshal, JSON is not a framed protocol,\nso trying to serialize multiple o",
+   "counts": {
+    "links": 64,
+    "images": 0,
+    "headings": 0,
+    "listItems": 24,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 40,
+    "repeats": 4
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 2776,
+    "height": 2689,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "Encoders and Decoders¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 5481,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "dl×2",
+   "class": "py class",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 6461,
+   "text": "class json.JSONDecoder(*, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, strict=True, object_pairs_hook=None)¶\nSimple JSON decoder.\nPerforms the following translations in decoding by default:\nJSON\nPython\nobject\ndict\narray\nlist\nstring\nstr\nnumber (int)\nint\nnumber (real)\nfloat\ntrue\nTrue\nfalse\nFalse\nnull\nNone\nIt also understands NaN, Infinity, and -Infinity as their\ncorrespon",
+   "counts": {
+    "links": 29,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 17,
+    "controls": 3,
+    "paragraphs": 69,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5546,
+    "height": 3533,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 11,
+   "text": "Exceptions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 9094,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "dl",
+   "class": "py exception",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 335,
+   "text": "exception json.JSONDecodeError(msg, doc, pos)¶\nSubclass of ValueError with the following additional attributes:\nmsg¶\nThe unformatted error message.\ndoc¶\nThe JSON document being parsed.\npos¶\nThe start index of doc where parsing failed.\nlineno¶\nThe line corresponding to pos.\ncolno¶\nThe column corresponding to pos.\nAdded in version 3.5.",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 9159,
+    "height": 454,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 41,
+   "text": "Standard Compliance and Interoperability¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 9629,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 408,
+   "text": "The JSON format is specified by RFC 7159 and by\nECMA-404.\nThis section details this module’s level of compliance with the RFC.\nFor simplicity, JSONEncoder and JSONDecoder subclasses, and\nparameters other than those explicitly mentioned, are not considered.\nThis module does not comply with the RFC in a strict fashion, implementing some\nextensions that are valid JavaScript but not valid JSON. In par",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 9694,
+    "height": 145,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 157,
+   "text": "Infinite and NaN number values are accepted and output;\nRepeated names within an object are accepted, and only the value of the last\nname-value pair is used.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9856,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 173,
+   "text": "Since the RFC permits RFC-compliant parsers to accept input texts that are not\nRFC-compliant, this module’s deserializer is technically RFC-compliant under\ndefault settings.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9923,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 20,
+   "text": "Character Encodings¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 9990,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p×5",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1227,
+   "text": "The RFC requires that JSON be represented using either UTF-8, UTF-16, or\nUTF-32, with UTF-8 being the recommended default for maximum interoperability.\nAs permitted, though not required, by the RFC, this module’s serializer sets\nensure_ascii=True by default, thus escaping the output so that the resulting\nstrings only contain printable ASCII characters.\nOther than the ensure_ascii parameter, this m",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 10049,
+    "height": 400,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "section×3",
+   "id": "infinite-and-nan-number-values",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1649,
+   "text": "Infinite and NaN Number Values¶\nThe RFC does not permit the representation of infinite or NaN number values.\nDespite that, by default, this module accepts and outputs Infinity,\n-Infinity, and NaN as if they were valid JSON number literal values:\nCopy>>> # Neither of these calls raises an exception, but the results are not valid JSON\n>>> json.dumps(float('-inf'))\n'-Infinity'\n>>> json.dumps(float('n",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 6,
+    "repeats": 3
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 10465,
+    "height": 890,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "Implementation Limitations¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 11371,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 232,
+   "text": "Some JSON deserializer implementations may set limits on:\nthe size of accepted JSON texts\nthe maximum level of nesting of JSON objects and arrays\nthe range and precision of JSON numbers\nthe content and maximum length of JSON strings",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11431,
+    "height": 144,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 586,
+   "text": "This module does not impose any such limits beyond those of the relevant\nPython datatypes themselves or the Python interpreter itself.\nWhen serializing to JSON, beware any such limitations in applications that may\nconsume your JSON. In particular, it is common for JSON numbers to be\ndeserialized into IEEE 754 double precision numbers and thus subject to that\nrepresentation’s range and precision li",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 11591,
+    "height": 197,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 23,
+   "text": "Command-line interface¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 11804,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 185,
+   "text": "Source code: Lib/json/tool.py\nThe json module can be invoked as a script via python -m json\nto validate and pretty-print JSON objects. The json.tool submodule\nimplements this interface.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 11870,
+    "height": 112,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 115,
+   "text": "If the optional infile and outfile arguments are not\nspecified, sys.stdin and sys.stdout will be used respectively:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 11998,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 172,
+   "text": "$ echo '{\"json\": \"obj\"}' | python -m json\n{\n \"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12066,
+    "height": 123,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 335,
+   "text": "Changed in version 3.5: The output is now in the same order as the input. Use the\n--sort-keys option to sort the output of dictionaries\nalphabetically by key.\nChanged in version 3.14: The json module may now be directly executed as\npython -m json. For backwards compatibility, invoking\nthe CLI as python -m json.tool remains supported.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 12205,
+    "height": 122,
+    "widthFraction": 0.53,
+    "leftFraction": 0.28,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "Command-line options¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 12343,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "dl×7",
+   "class": "std option",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 828,
+   "text": "infile¶\nThe JSON file to be validated or pretty-printed:\nCopy$ python -m json mp_films.json\n[\n {\n \"title\": \"And Now for Something Completely Different\",\n \"year\": 1971\n },\n {\n \"title\": \"Monty Python and the Holy Grail\",\n \"year\": 1975\n }\n]\nIf infile is not specified, read from sys.stdin.\noutfile¶\nWrite the output of the infile to the given outfile. Otherwise, write it\nto sys.stdout.\n--sort-keys¶\nSor",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 12,
+    "repeats": 7
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 12402,
+    "height": 879,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "aside",
+   "class": "footnote-list brackets",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section",
+    "aside"
+   ],
+   "textLength": 211,
+   "text": "Footnotes\n[1]\nAs noted in the errata for RFC 7159,\nJSON permits literal U+2028 (LINE SEPARATOR) and\nU+2029 (PARAGRAPH SEPARATOR) characters in strings, whereas JavaScript\n(as of ECMAScript Edition 5.1) does not.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 13311,
+    "height": 93,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "div",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 328,
+   "text": "Table of Contents\njson — JSON encoder and decoder\nBasic Usage\nEncoders and Decoders\nExceptions\nStandard Compliance and Interoperability\nCharacter Encodings\nInfinite and NaN Number Values\nRepeated Names Within an Object\nTop-level Non-Object, Non-Array Values\nImplementation Limitations\nCommand-line interface\nCommand-line options",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 1,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 139,
+    "height": 236,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 104,
+   "text": "Previous topic\n email.iterators: Iterators\nNext topic\n mailbox — Manipulate mailboxes in various formats",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.72,
+   "geometry": {
+    "top": 401,
+    "height": 125,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 42,
+   "tag": "div",
+   "role": "note",
+   "ariaLabel": "source link",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 55,
+   "text": "This page\n Report a bug\n Improve this page\n Show source",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 1,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 554,
+    "height": 79,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 43,
+   "tag": "span",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 1,
+   "text": "«",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 501,
+    "height": 17,
+    "widthFraction": 0.01,
+    "leftFraction": 0.25,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 44,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 552,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 9,
+    "images": 1,
+    "headings": 0,
+    "listItems": 14,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 13419,
+    "height": 61,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "div",
+   "class": "footer",
+   "landmarks": [],
+   "textLength": 449,
+   "text": "© Copyright 2001 Python Software Foundation.\n This page is licensed under the Python Software Foundation License Version 2.\n Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.\n See History and License for more information.\n The Python Software Foundation is a non-profit corporation.\nPlease donate.\n Last updated on Sep 20, 2026 (03:43",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 13481,
+    "height": 180,
+    "widthFraction": 0.96,
+    "leftFraction": 0.01,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}
