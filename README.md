@@ -8,9 +8,9 @@ The fact is, many UI elements are only necessary for a fraction of the userbase.
 
 Bad opsec? Maybe (if done poorly), but the payoff could be HUGE. With the necessary security measures in place, this could safely revolutionise the web browsing experience. 
 
-Some of the proposed features:
+##Some of the proposed features:
 
-Page composition:
+###Page composition:
 
 every single webpage is first put through the design filter, which means that it fits into the layout language of the browser. The layout language is blocks - boxes for text, headings, videos, - every element has a block and they are arranged for maximum clarity for the reader. 
 
@@ -22,7 +22,7 @@ Composition is an automatic process driven by claude, the user doesn't need to s
 
 this way every website shares the same seamless design language and layout system.
 
-The overall aim of Mondrian is to unify web design under one rule - the rule of the grid system. Too long has mankind been plagued by disparate formatting, urls, tabs - a web browsing experience hardly changed from last century. Mondrian aims to make the leap from traditional browsing to true AI-enabled web use; a browser experience for the twenty-first century. We know this is not an easy goal, but with the newfound technology that is rapidly evolving in front of us, we truly believe that it is an achievable one. 
+###The overall aim of Mondrian is to unify web design under one rule - the rule of the grid system. Too long has mankind been plagued by disparate formatting, urls, tabs - a web browsing experience hardly changed from last century. Mondrian aims to make the leap from traditional browsing to true AI-enabled web use; a browser experience for the twenty-first century. We know this is not an easy goal, but with the newfound technology that is rapidly evolving in front of us, we truly believe that it is an achievable one. 
 
 ## Setup
 
