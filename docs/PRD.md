@@ -108,7 +108,10 @@ it and never notice what it removed. This is why the first milestone measures ac
 before anything downstream is built.
 
 **Too much of the web is an application.** If the escape hatch fires on a third of real
-browsing, Mondrian is reader mode with extra steps.
+browsing, Mondrian is reader mode with extra steps. There is a published number on this:
+Brave's SpeedReader, which answers a narrower question, applies to 22% of general web
+pages. See `docs/project/09-PRIOR-ART.md`. Measuring Mondrian's own coverage is the
+cheapest decisive experiment available and belongs at the very start of milestone 1.
 
 **Maintenance outlasts enthusiasm.** A browser has a permanent tail of Chromium updates
 and site breakage. Open source is partly a hedge against this.

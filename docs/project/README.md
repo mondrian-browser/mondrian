@@ -14,6 +14,7 @@ Upload these to the Claude Project as knowledge, and paste the block inside
 | `06-ROADMAP.md` | the original list, and what the concept absorbs | yes |
 | `07-OVERNIGHT.md` | the night the six bugs were found; useful as worked examples | optional |
 | `08-DEVELOPMENT-PLAN.md` | decisions taken, order of work, and what would make it fail | yes |
+| `09-PRIOR-ART.md` | what already exists, what does not, and the one number that matters | yes |
 
 Also upload `docs/concept/concept-layout.pdf`. It is the visual reference and `01-CONCEPT.md`
 is deliberately written to work without it, but the pages carry detail that prose does not.
