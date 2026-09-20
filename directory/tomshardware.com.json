@@ -1,0 +1,341 @@
+{
+ "site": "tomshardware.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "tomshardware-article",
+  "tomshardware-index"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.760Z",
+ "blocks": [
+  {
+   "selector": "[role=main] article section header > header",
+   "type": "heading",
+   "n": 11,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > p.kiosq-b",
+   "type": "text",
+   "n": 10,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.listingResult",
+   "type": "teaser_card",
+   "n": 10,
+   "purity": 0.9,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > article.search-result",
+   "type": "teaser_card",
+   "n": 7,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h2.kiosq-b",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav nav > ul.meganav-desktop__list",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav nav > div.meganav-secondary",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "[role=main] nav > nav.trending__nav",
+   "type": "trending",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "[role=main] article section > table.table__wrapper",
+   "type": "table",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > footer#document-footer",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "[role=main] article > h2.widget-title",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.listingResults",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > button.experts-content__arrow",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section article > figure.article-lead-image-wrap",
+   "type": "image",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav [role=banner] [role=navigation] > div.van-masthead",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] nav > nav.breadcrumb",
+   "type": "breadcrumbs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.pretty-verdict__heading-container",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.pretty-verdict__verdict",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.pretty-verdict__pros",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.pretty-verdict__cons",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > p#how-we-test",
+   "type": "disclosure",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > label.no-select",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.newsletter-form__container",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h2#assembly-and-accessories-3",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h2#osd-features-3",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.extended-layout",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h2#gaming-and-hands-on-3",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.box",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div#articleTag",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.author__header",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > div.xenforo-comment-widget",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav [role=banner] [role=navigation] > button.locale-selector__button",
+   "type": "version_switcher",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav [role=banner] [role=navigation] > div#auth-in-nav-header",
+   "type": "account",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] section > figure.feature-block-item",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] section > div#Item6",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] section > div#Item7",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div#lsp-header",
+   "type": "subscribe",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div#lsp-features-grid",
+   "type": "feature_grid",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] section > span#lsp-featured-title",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] section > a#lsp-secondary-article-0",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div#lsp-footer",
+   "type": "subscribe",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > fw-player-deck.needsclick",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > div.newsletter-form__container",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > div.experts-content__item",
+   "type": "team",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > div.chat_hammerbot-iframe-wrapper",
+   "type": "chat_widget",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > p[class*=\"chat_hammerbot-iframe-wrapper__\"]",
+   "type": "chat_widget",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> iframe#chat_hammerbot",
+   "type": "chat_widget",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

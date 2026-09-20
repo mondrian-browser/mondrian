@@ -1,0 +1,124 @@
+{
+ "site": "ebay.com.au",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "ebay-item",
+  "ebay-search"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.623Z",
+ "blocks": [
+  {
+   "selector": "header nav > nav.gh-nav",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header section > a.gh-logo",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header section form > form#gh-f",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > img.dp-error-banner-container__illustration",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > footer.gh-footer",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > nav.x-skip-nav",
+   "type": "skip_link",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.srp-main-above-river--top",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> ul.su-accordion",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > h1#srp-results-heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > button.faux-link",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div.srp-controls__default-refinements",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div.su-card-container",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > ul.carousel__list",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > ul.srp-results",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div.srp-refinements-guidance",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.x-footer",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

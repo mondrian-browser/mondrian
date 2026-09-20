@@ -1,0 +1,81 @@
+{
+ "site": "spiegel.de",
+ "tier": "relayout",
+ "pages": 1,
+ "pageIds": [
+  "spiegel-index"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.736Z",
+ "blocks": [
+  {
+   "selector": "main section article > article",
+   "type": "teaser_card",
+   "n": 79,
+   "purity": 0.97,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div",
+   "type": "action_button",
+   "n": 30,
+   "purity": 0.8,
+   "pages": 1
+  },
+  {
+   "selector": "main section article section > section",
+   "type": "summary",
+   "n": 26,
+   "purity": 0.88,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2",
+   "type": "heading",
+   "n": 21,
+   "purity": 0.95,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > section.flow-root",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.from-black",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > button.polygon-swiper-button-next",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.polygon-swiper-slide",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.polygon-swiper",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul.polygon-swiper-wrapper",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

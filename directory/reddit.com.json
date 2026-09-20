@@ -1,0 +1,89 @@
+{
+ "site": "reddit.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "reddit-listing",
+  "reddit-thread"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.713Z",
+ "blocks": [
+  {
+   "selector": "main section > p",
+   "type": "text",
+   "n": 7,
+   "purity": 0.86,
+   "pages": 1
+  },
+  {
+   "selector": "main article > article",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header.pointer-events-auto",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "aside > h2.uppercase",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> img.inset-0",
+   "type": "image",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > summary.list-none",
+   "type": "comments",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div#pdp-credit-bar",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h1#post-title-t3_1wkrfqw",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.pointer-cursor",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > button.rpl-cab",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside > ul.list-none",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

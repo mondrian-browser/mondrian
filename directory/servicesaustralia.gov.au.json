@@ -1,0 +1,53 @@
+{
+ "site": "servicesaustralia.gov.au",
+ "tier": "relayout",
+ "pages": 1,
+ "pageIds": [
+  "services-australia"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.724Z",
+ "blocks": [
+  {
+   "selector": "> div#lit-toolbar",
+   "type": "page_tools",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#lit-toolbar-area",
+   "type": "version_switcher",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header#lit-header",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h1#lit-page-title",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.cards-secondary",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#lit-content-below",
+   "type": "feedback",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

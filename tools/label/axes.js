@@ -52,7 +52,10 @@ const SLOT_OF = {
 
 // Slots that open a section: what follows in the same landmark belongs to them until
 // another opens. Every other slot is a point: the region has it, its neighbours do not.
-const OPENS = new Set(['header', 'footer', 'nav', 'comments', 'reviews', 'related', 'teasers', 'trending', 'promo', 'features', 'testimonials', 'listing', 'pricing', 'hero', 'gate', 'tags']);
+// Decided by type, not by slot: a text-settings control is in the nav slot but does not
+// open a nav section around the article that follows it.
+const OPEN_TYPES = new Set(['site_header', 'site_nav', 'site_footer', 'legal_notice', 'section_nav', 'breadcrumbs', 'table_of_contents', 'comments', 'reviews', 'related', 'teaser_card', 'trending', 'cross_promo', 'newsletter', 'subscribe', 'feature_grid', 'testimonial', 'product_card', 'pricing_table', 'hero', 'cookie_banner', 'consent_gate', 'tag_cloud', 'logo_cloud', 'team']);
+const OPENS = OPEN_TYPES;
 
 // Block for a slot type, from the region's own structure when the type does not say.
 function structuralBlock(r) {
@@ -102,8 +105,7 @@ function deriveAxes(regions, types) {
     for (let i = start; i < end; i++) {
       const t = types[i];
       if (isStructural(t)) continue;
-      const sl = SLOT_OF[t] || t;
-      if (OPENS.has(sl)) { sectionSlot = sl; break; }
+      if (OPEN_TYPES.has(t)) { sectionSlot = SLOT_OF[t] || t; break; }
     }
     if (!sectionSlot) sectionSlot = defaultSlot(regions[start]);
     for (let i = start; i < end; i++) {

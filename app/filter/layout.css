@@ -1,0 +1,105 @@
+/* Mondrian's layout language: the one layout every relaid page gets.
+   Lives inside a shadow root, so nothing here reaches the site and nothing of the
+   site's reaches this. Tokens on :host; a theme can override them by injecting a
+   second sheet after this one (see app/main/filter.js). */
+
+:host {
+  --mx-bg: #f6f3ec;
+  --mx-fg: #1d1b18;
+  --mx-muted: #6e6a62;
+  --mx-line: #d9d3c6;
+  --mx-accent: #c8794f;
+  --mx-sage: #7a9a7a;
+  --mx-measure: 68ch;
+  --mx-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --mx-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mx-mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  all: initial;
+  display: block;
+  color: var(--mx-fg);
+  background: var(--mx-bg);
+  font: 18px/1.55 var(--mx-serif);
+  -webkit-font-smoothing: antialiased;
+}
+@media (prefers-color-scheme: dark) {
+  :host { --mx-bg: #191816; --mx-fg: #e8e3d8; --mx-muted: #9a948a; --mx-line: #35322c; }
+}
+*, *::before, *::after { box-sizing: border-box; }
+a { color: inherit; text-decoration: underline; text-decoration-color: var(--mx-line); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--mx-accent); }
+img, video, iframe, svg, canvas { max-width: 100%; height: auto; }
+
+.mx-page { max-width: calc(var(--mx-measure) + 8rem); margin: 0 auto; padding: 4rem 4rem 8rem; }
+.mx-strip {
+  position: sticky; top: 0; z-index: 2; display: flex; gap: 1.2em; align-items: baseline;
+  margin: -4rem -4rem 3rem; padding: .6rem 4rem; font: 12px/1.4 var(--mx-sans);
+  letter-spacing: .06em; text-transform: uppercase; color: var(--mx-muted);
+  background: color-mix(in srgb, var(--mx-bg) 88%, transparent); backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--mx-line);
+}
+.mx-strip b { color: var(--mx-fg); font-weight: 600; }
+.mx-strip button, .mx-panel button {
+  font: inherit; letter-spacing: inherit; text-transform: inherit; color: var(--mx-accent);
+  background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
+}
+.mx-strip .mx-right { margin-left: auto; }
+
+/* Blocks */
+.mx-block { position: relative; margin: 0 0 1.4em; max-width: var(--mx-measure); }
+.mx-block::before {
+  content: attr(data-mx-label); position: absolute; left: -7.5rem; top: .35em; width: 6.5rem;
+  text-align: right; font: 10px/1.3 var(--mx-sans); letter-spacing: .08em; text-transform: uppercase;
+  color: var(--mx-muted); opacity: 0; transition: opacity .15s;
+}
+.mx-block:hover::before { opacity: 1; }
+.mx-block.mx-demoted::before { opacity: .6; }
+
+.mx-heading h1, .mx-heading h2, .mx-heading h3, .mx-heading h4, .mx-heading h5, .mx-heading h6 {
+  font-family: var(--mx-sans); font-weight: 650; line-height: 1.15; letter-spacing: -.01em; margin: 0;
+}
+.mx-heading h1, .mx-title h1 { font-size: 2.3em; margin: 0 0 .3em; }
+.mx-heading h2 { font-size: 1.5em; margin-top: 1.6em; }
+.mx-heading h3 { font-size: 1.2em; margin-top: 1.4em; }
+.mx-heading h4, .mx-heading h5, .mx-heading h6 { font-size: 1em; margin-top: 1.2em; text-transform: uppercase; letter-spacing: .05em; font-size: .85em; }
+.mx-summary { font-size: 1.15em; color: var(--mx-muted); }
+.mx-byline { font: 13px/1.5 var(--mx-sans); color: var(--mx-muted); text-transform: uppercase; letter-spacing: .06em; }
+.mx-prose p { margin: 0 0 1em; }
+.mx-prose p:last-child { margin-bottom: 0; }
+.mx-quote { border-left: 3px solid var(--mx-accent); padding-left: 1.2em; font-style: italic; }
+.mx-quote blockquote { margin: 0; }
+.mx-code { font: 13.5px/1.5 var(--mx-mono); background: color-mix(in srgb, var(--mx-fg) 6%, transparent); padding: 1em 1.2em; border-radius: 3px; overflow-x: auto; max-width: none; }
+.mx-code pre { margin: 0; white-space: pre; }
+.mx-list ul, .mx-list ol { padding-left: 1.4em; margin: 0; }
+.mx-list li { margin: .25em 0; }
+.mx-table { max-width: none; overflow-x: auto; font: 15px/1.4 var(--mx-sans); }
+.mx-table table { border-collapse: collapse; width: 100%; }
+.mx-table th, .mx-table td { border-bottom: 1px solid var(--mx-line); padding: .4em .6em; text-align: left; vertical-align: top; }
+.mx-table th { font-weight: 600; }
+.mx-pairs { font: 14px/1.5 var(--mx-sans); column-gap: 2em; }
+.mx-media { max-width: none; }
+.mx-media img, .mx-media video { display: block; max-height: 80vh; width: auto; max-width: 100%; }
+.mx-media figcaption, .mx-caption { font: 13px/1.5 var(--mx-sans); color: var(--mx-muted); margin-top: .5em; }
+.mx-cards { max-width: none; font: 14px/1.4 var(--mx-sans); display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 1rem; }
+.mx-cards > * { min-width: 0; }
+.mx-cards img { width: 100%; aspect-ratio: 16/10; object-fit: cover; margin-bottom: .4em; }
+.mx-thread { font: 15px/1.5 var(--mx-sans); }
+.mx-thread summary { cursor: pointer; color: var(--mx-muted); text-transform: uppercase; letter-spacing: .06em; font-size: 12px; }
+.mx-controls, .mx-links { font: 14px/1.5 var(--mx-sans); }
+.mx-links a { display: inline-block; margin: 0 .8em .3em 0; }
+.mx-frame { max-width: none; }
+.mx-frame iframe { width: 100%; aspect-ratio: 16/9; border: 0; }
+
+/* Set aside: kept but out of the column */
+.mx-aside { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--mx-line); }
+.mx-aside > summary, .mx-dropped > summary { font: 12px/1.4 var(--mx-sans); letter-spacing: .06em; text-transform: uppercase; color: var(--mx-muted); cursor: pointer; margin-bottom: 1.5rem; }
+.mx-aside .mx-block { opacity: .8; font-size: .9em; }
+
+/* Dropped: never emitted; listed */
+.mx-dropped { margin-top: 2rem; }
+.mx-dropped ol { list-style: none; padding: 0; margin: 0; font: 14px/1.5 var(--mx-sans); }
+.mx-dropped li { display: flex; gap: 1em; align-items: baseline; padding: .4em 0; border-bottom: 1px solid var(--mx-line); }
+.mx-dropped .mx-kind { flex: 0 0 9rem; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--mx-muted); }
+.mx-dropped .mx-snip { flex: 1; color: var(--mx-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mx-dropped button { font: 11px/1.4 var(--mx-sans); letter-spacing: .06em; text-transform: uppercase; }
+.mx-panel { font: 14px/1.5 var(--mx-sans); }
+.mx-empty { color: var(--mx-muted); font: 14px/1.5 var(--mx-sans); }

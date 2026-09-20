@@ -1,0 +1,53 @@
+{
+ "site": "genius.com",
+ "tier": "relayout",
+ "pages": 1,
+ "pageIds": [
+  "genius-lyrics"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.637Z",
+ "blocks": [
+  {
+   "selector": "main > a",
+   "type": "text",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > button",
+   "type": "action_button",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "main > blockquote",
+   "type": "quote",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > nav#sticky-nav",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > div.exA-dMy",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

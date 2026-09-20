@@ -124,7 +124,11 @@ if (TEST) {
     const blocks = derive(list);
     const file = path.join(DIR, site.replace(/[^a-z0-9.-]/gi, '_') + '.json');
     const existing = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
-    const entry = { ...existing, site, pages: list.length, pageIds: list.map((p) => p.id), derivedAt: new Date().toISOString(), blocks };
+    // The site's tier (ADR 0011): the most common tier of its corpus pages, which pages.js
+    // set by hand for the first 74 and solve.js sets to relayout; a rule can override.
+    const tiers = {}; for (const p of list) tiers[p.tier || 'relayout'] = (tiers[p.tier || 'relayout'] || 0) + 1;
+    const tier = Object.entries(tiers).sort((a, b) => b[1] - a[1])[0][0];
+    const entry = { ...existing, site, tier, pages: list.length, pageIds: list.map((p) => p.id), derivedAt: new Date().toISOString(), blocks };
     fs.writeFileSync(file, JSON.stringify(entry, null, 1));
     const regions = list.reduce((n, p) => n + p.labels.length, 0);
     const coveredN = blocks.reduce((n, b) => n + b.n, 0);

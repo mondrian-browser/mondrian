@@ -1,0 +1,95 @@
+{
+ "site": "raspberrypi.com",
+ "tier": "relayout",
+ "pages": 1,
+ "pageIds": [
+  "raspberrypi-product"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.709Z",
+ "blocks": [
+  {
+   "selector": "main section > h3",
+   "type": "heading",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h1#hero-heading",
+   "type": "hero",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.gatsby-image-wrapper",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.o-container",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#specification",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#your-questions-answered",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#compliance",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.SpecsPanel-module--rich-text--febdb",
+   "type": "legal_notice",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#find-reseller-heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div.c-variant-select",
+   "type": "buy_box",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div.c-country-select",
+   "type": "version_switcher",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div.c-tabs",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "site": "developer.mozilla.org",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "mdn-flexbox",
+  "mdn-innertext"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.678Z",
+ "blocks": [
+  {
+   "selector": "> iframe",
+   "type": "embed",
+   "n": 9,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> ul.a11y-menu",
+   "type": "skip_link",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header > div.breadcrumbs-bar",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main aside nav > nav.reference-toc",
+   "type": "table_of_contents",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > details.baseline-indicator",
+   "type": "badge",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "site": "openstreetmap.org",
+ "tier": "contained",
+ "pages": 1,
+ "pageIds": [
+  "openstreetmap"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.701Z",
+ "blocks": [
+  {
+   "selector": "header > h1.align-items-center",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header section > section#header-nav",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "form > form.search_form",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

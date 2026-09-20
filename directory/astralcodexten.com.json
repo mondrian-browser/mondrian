@@ -1,0 +1,61 @@
+{
+ "site": "astralcodexten.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "substack-index",
+  "substack-post"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.740Z",
+ "blocks": [
+  {
+   "selector": "> h1.pc-reset",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "[role=navigation] > div.pc-display-flex",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> button.pc-reset",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h4.home-sitemap-title",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "form > form.form",
+   "type": "subscribe",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.home-sitemap-links",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article [role=region] > h1.post-title",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

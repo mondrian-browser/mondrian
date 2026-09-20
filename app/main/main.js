@@ -9,6 +9,7 @@ const { Profiles } = require('./profiles');
 const { TabManager } = require('./tabs');
 const { ControlServer } = require('./control');
 const { Adblock } = require('./adblock');
+const { Filter } = require('./filter');
 const { makeHandlers } = require('./handlers');
 
 const TOPBAR = 84;   // tab strip + toolbar, in CSS px
@@ -42,7 +43,7 @@ app.on('second-instance', (_event, argv) => {
   if (url && handlers) handlers.tab_open({ url, activate: true, wait: false }).catch(() => {});
 });
 
-let win, chromeView, tabsMgr, rules, profiles, control, handlers, adblock;
+let win, chromeView, tabsMgr, rules, profiles, control, handlers, adblock, filter;
 
 function saveSettings(patch) {
   settings = { ...settings, ...patch };
@@ -174,6 +175,8 @@ async function boot() {
   });
 
   tabsMgr = new TabManager({ settings, profiles, onEvent: (e) => broadcast(e) });
+  // The design filter: what the preload does to each page, decided here per URL.
+  filter = new Filter({ settings, rules, tabsMgr, saveSettings });
   tabsMgr.attachWindow(win);
 
   // Rules match against the TOP-LEVEL page, not the individual request, so that
@@ -206,7 +209,7 @@ async function boot() {
   control = new ControlServer({ settings, dispatch: (cmd, args) => dispatch(cmd, args) });
 
   handlers = makeHandlers({
-    tabsMgr, rules, profiles, settings, win, chrome, control, state, adblock,
+    tabsMgr, rules, profiles, settings, win, chrome, control, state, adblock, filter,
     layout, saveSettings, reapplyRules, broadcast,
   });
 

@@ -1,0 +1,173 @@
+{
+ "site": "dev.to",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "devto-article",
+  "devto-post"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.615Z",
+ "blocks": [
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header.crayons-header",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "aside section > section.crayons-card",
+   "type": "text",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > footer.crayons-footer",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > pre.highlight",
+   "type": "code",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.tag-header-cover",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > h1.crayons-title",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside > div.sidebar-data",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main header > header#on-page-nav-controls",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.crayons-story",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.crayons-notice",
+   "type": "account",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section header > header.crayons-card__header",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section > a.crayons-link",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside > div.crayons-article-actions__inner",
+   "type": "reactions",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > img.crayons-article__cover__image",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > div.multiple_reactions_engagement",
+   "type": "reactions",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > div.spec__tags",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section form > form#new_comment",
+   "type": "form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.comment__header",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section footer > footer.comment__footer",
+   "type": "reactions",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section nav > nav.align-center",
+   "type": "page_tools",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.new-bb-container",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside > div.crayons-card",
+   "type": "user_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

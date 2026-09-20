@@ -1,0 +1,54 @@
+{
+ "site": "duckduckgo.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "ddg-web",
+  "ddg-web-2"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.613Z",
+ "blocks": [
+  {
+   "selector": "nav > nav.ph1UFslrkUMqoYJEtp3t",
+   "type": "filters",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > ol.react-results--main",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > button#more-results",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> ul.nav-menu__list",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> button.mDfTLfECeDUwedENpz0Z",
+   "type": "feedback",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > ol.react-results--sidebar",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

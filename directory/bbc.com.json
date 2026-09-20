@@ -1,0 +1,91 @@
+{
+ "site": "bbc.com",
+ "tier": "relayout",
+ "pages": 4,
+ "pageIds": [
+  "bbc-news-article",
+  "bbc-news-article-2",
+  "bbc-news-index",
+  "bbc-news-tech"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.583Z",
+ "blocks": [
+  {
+   "selector": "main article section section > div",
+   "type": "teaser_card",
+   "n": 15,
+   "purity": 0.93,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h2",
+   "type": "heading",
+   "n": 9,
+   "purity": 0.89,
+   "pages": 2
+  },
+  {
+   "selector": "footer section > section",
+   "type": "site_footer",
+   "n": 8,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 6,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header > header#bbc-header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "nav > nav#main-navigation-container",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > h1",
+   "type": "title",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > figure",
+   "type": "image",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "footer section > button",
+   "type": "version_switcher",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article section > img.hide-when-no-script",
+   "type": "image",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

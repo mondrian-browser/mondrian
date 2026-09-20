@@ -26,11 +26,16 @@
 //   - images carry alt text and rendered size, and spacers under 8px do not count.
 // There is no region cap: the corpus wants every region.
 //
-// Exported as source text because it has to cross into the page.
+// Exported two ways: as a function, for the preload (whose world inherits the page CSP,
+// so it cannot eval a string), and as source text for eval_js from outside the page.
+// The function must stay self-contained: no closures over module scope, because its
+// source is what crosses into the page.
 
 'use strict';
 
-const EXTRACT_SOURCE = `(() => {
+// opts.withElements: attach the live elements to each region (for the preload, which
+// renders them); never set when the result has to be serialised.
+function extract(opts) {
   const MAX_LEAVES = 1500;    // safety only; a page that produces more is pathological
   const SMALL_TEXT = 700;     // chars; a region with less text than this is one block
   const SMALL_HEIGHT = 480;   // px
@@ -75,10 +80,10 @@ const EXTRACT_SOURCE = `(() => {
       if (n.nodeType !== 1 || SKIP.has(n.tagName)) return;
       if (n.shadowRoot) for (const c of n.shadowRoot.childNodes) walk(c);
       for (const c of n.childNodes) walk(c);
-      if (/^(P|DIV|LI|TR|H[1-6]|BR|SECTION|ARTICLE)$/.test(n.tagName)) s += '\\n';
+      if (/^(P|DIV|LI|TR|H[1-6]|BR|SECTION|ARTICLE)$/.test(n.tagName)) s += '\n';
     };
     walk(el);
-    return s.replace(/[ \\t]+/g, ' ').replace(/\\n\\s*\\n+/g, '\\n').trim();
+    return s.replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
   }
 
   // A table is data if it declares headers or its rows share a shape. Otherwise it is
@@ -101,7 +106,7 @@ const EXTRACT_SOURCE = `(() => {
     return titlePrefix.length >= 12 && text(el).includes(titlePrefix);
   }
   // Signature for "same kind of sibling": tag plus the first two classes.
-  const sig = (el) => el.tagName + '.' + ((typeof el.className === 'string' ? el.className : '').trim().split(/\\s+/).slice(0, 2).join('.'));
+  const sig = (el) => el.tagName + '.' + ((typeof el.className === 'string' ? el.className : '').trim().split(/\s+/).slice(0, 2).join('.'));
 
   // Collect leaf regions. Each leaf is a group of one or more elements (a tiny child
   // that rejoined a sibling makes a group of two) plus the top-level element under the
@@ -140,7 +145,7 @@ const EXTRACT_SOURCE = `(() => {
       for (const k of kids) tally[sig(k)] = (tally[sig(k)] || 0) + 1;
       const [best, n] = Object.entries(tally).sort((a, b) => b[1] - a[1])[0];
       // Unclassed divs and spans are not evidence of a list; rows are marked as rows.
-      if (n >= kids.length * 0.6 && /[.].|^(LI|TR|ARTICLE|SECTION|DT|DD)\\./.test(best)) {
+      if (n >= kids.length * 0.6 && /[.].|^(LI|TR|ARTICLE|SECTION|DT|DD)\./.test(best)) {
         // Rows are alike in size as well as in kind: none is huge, none holds a page
         // landmark. Otherwise this is a page skeleton (header row, body row, footer row).
         const rows = kids.filter((k) => sig(k) === best);
@@ -225,7 +230,7 @@ const EXTRACT_SOURCE = `(() => {
     const bottom = Math.max(r0.bottom, r1.bottom) + scrollY;
     const left = Math.min(r0.left, r1.left);
     const width = Math.max(r0.right, r1.right) - left;
-    const t = els.map(text).join('\\n').trim();
+    const t = els.map(text).join('\n').trim();
     const q = (sel) => els.reduce((n, e) => n + e.querySelectorAll(sel).length, 0);
     const links = els.flatMap((e) => [...e.querySelectorAll('a[href]')]);
     // Anchors that wrap the region (an ancestor) or lie over it (a descendant covering
@@ -241,7 +246,7 @@ const EXTRACT_SOURCE = `(() => {
     const linkText = links.reduce((n, a) => n + (a.textContent || '').trim().length, 0);
     const main = m.tops.length > 1 ? first : (els.find((e) => !tiny(e)) || first);
     const own = (name) => (main.getAttribute(name) || '').slice(0, 80);
-    const cls = (main.className && typeof main.className === 'string') ? main.className.trim().split(/\\s+/).slice(0, 4).join(' ') : '';
+    const cls = (main.className && typeof main.className === 'string') ? main.className.trim().split(/\s+/).slice(0, 4).join(' ') : '';
     const imgs = images(els);
     // A cross-origin frame has no text or pictures of its own; its host and size are
     // all there is to go on (consent walls, video embeds, live examples, chat bots).
@@ -255,7 +260,7 @@ const EXTRACT_SOURCE = `(() => {
     }
     return {
       index,
-      tag: m.run ? main.tagName.toLowerCase() + '\\u00d7' + els.length : main.tagName.toLowerCase(),
+      tag: m.run ? main.tagName.toLowerCase() + '\u00d7' + els.length : main.tagName.toLowerCase(),
       id: own('id') || undefined,
       class: cls || undefined,
       role: own('role') || undefined,
@@ -289,7 +294,7 @@ const EXTRACT_SOURCE = `(() => {
     };
   }
 
-  let regions = merged.map(describe);
+  let regions = merged.map((m, i) => { const d = describe(m, i); if (opts && opts.withElements) d.els = m.els; return d; });
   // Drop empty decorative bits. No cap: the corpus wants every region (NEXT.md B2).
   regions = regions.filter((r) => r.textLength > 0 || r.counts.images > 0 || r.counts.controls > 0 || (r.frame && r.frame.width >= 80 && r.frame.height >= 80));
   regions.forEach((r, i) => { r.index = i; });
@@ -301,6 +306,8 @@ const EXTRACT_SOURCE = `(() => {
     pageHeight: pageH,
     regions,
   };
-})()`;
+}
 
-module.exports = { EXTRACT_SOURCE };
+const EXTRACT_SOURCE = '(' + extract.toString() + ')()';
+
+module.exports = { extract, EXTRACT_SOURCE };

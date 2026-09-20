@@ -1,0 +1,565 @@
+{
+ "site": "allrecipes.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "allrecipes-banana",
+  "allrecipes-cookies"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.569Z",
+ "blocks": [
+  {
+   "selector": "header > div.mntl-header__menu-top",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header nav > ul.mntl-header-nav__list",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > ul#mntl-universal-breadcrumbs_1-0",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h1.article-heading",
+   "type": "title",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#mntl-article-meta-dynamic_1-0",
+   "type": "byline",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > video.jw-video",
+   "type": "video",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.jw-overlays",
+   "type": "video",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#article__photo-ribbon_1-0",
+   "type": "gallery",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#mm-recipes-details_1-0",
+   "type": "metadata",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > button#mm-recipes-jump-to-recipe__button_1-0",
+   "type": "skip_link",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_1-0",
+   "type": "summary",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_3-0",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_4-0",
+   "type": "text",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > ul#mntl-sc-block_6-0",
+   "type": "list",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_23-0",
+   "type": "text",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#mm-recipes-screen-wake_1-0",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h2#mm-recipes-structured-ingredients__heading_1-0",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#mm-recipes-serving-size-adjuster_1-0",
+   "type": "settings",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > ul.mm-recipes-structured-ingredients__list",
+   "type": "list",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h2#mm-recipes-steps__heading_1-0",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#mm-recipes-nutrition-facts-summary_1-0",
+   "type": "infobox",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > button.mm-recipes-nutrition-facts-label__button",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#mm-myrecipes-recipe-detail-promo-banner_1-0",
+   "type": "app_nag",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div#mm-recipes-rate-print_1-0",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h2.mm-recipes-ugc-qanda__heading",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-qanda-question-card",
+   "type": "comments",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > button.mm-recipes-ugc-qanda-load-more__button",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-qanda-ask-question",
+   "type": "form",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h2.mm-recipes-ugc-threaded__heading",
+   "type": "reviews",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-threaded-ratings-histogram",
+   "type": "rating",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article header > header.mm-recipes-ugc-threaded-carousel__header",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-shared-item-card",
+   "type": "reviews",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-threaded__toolbar",
+   "type": "filters",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-shared-item-card-list__item",
+   "type": "reviews",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > button.mm-recipes-ugc-shared-item-card-list__load-more-button",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > div#pre-carousel__heading_1-0",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > ul.loc",
+   "type": "related",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h2#mntl-recirc-section__header_1-0",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > a#mntl-card-list-items_1-0",
+   "type": "related",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > a#mntl-card-list-items_9-0",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > div.mntl-footer__primary",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > div.mntl-footer__secondary",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > div.mntl-dotdash-universal-nav__content",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > figure#mntl-sc-block_8-0",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_9-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_10-0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > span.link__wrapper",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure#mntl-sc-block_14-0",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_15-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_16-0",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul#mntl-sc-block_18-0",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_20-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_21-0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_25-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_26-0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_28-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_29-0",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_31-0",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_33-0",
+   "type": "testimonial",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ol#mntl-sc-block_36-0",
+   "type": "steps",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-shared-item-card__text",
+   "type": "reviews",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-shared-card-toolbar__buttons",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_8-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_9-0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure#mntl-sc-block_11-0",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_12-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_13-0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul#mntl-sc-block_15-0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_17-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_18-0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_22-0",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul#mntl-sc-block_25-0",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_27-0",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#mntl-sc-block_29-0",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_30-0",
+   "type": "testimonial",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_32-0",
+   "type": "testimonial",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p#mntl-sc-block_34-0",
+   "type": "reviews",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ol#mntl-sc-block_35-0",
+   "type": "steps",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.mm-recipes-ugc-shared-item-card__content",
+   "type": "reviews",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

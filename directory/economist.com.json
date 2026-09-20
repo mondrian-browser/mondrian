@@ -1,0 +1,166 @@
+{
+ "site": "economist.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "economist-article",
+  "economist-index"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.623Z",
+ "blocks": [
+  {
+   "selector": "main section > section",
+   "type": "teaser_card",
+   "n": 6,
+   "purity": 0.83,
+   "pages": 1
+  },
+  {
+   "selector": "header nav > nav[class*=\"quick-links_mb-masthead__\"]",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > div[class*=\"cookie-notice_mb-footer__\"]",
+   "type": "cookie_banner",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article section > h1.e1qjd5lc0",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h2.e6h2z500",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > button[class*=\"button_mb-button__\"]",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > section.e1jfkr0u0",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > p.e1y9q0ei0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section [role=dialog] > div#regwall-contents",
+   "type": "paywall",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2[class*=\"title_mb-section-header__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.e17npd3y0",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.e17npd3y4",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > div[class*=\"footer_mb-footer__\"]",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer nav > nav[class*=\"legal_mb-footer__\"]",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > img[class*=\"nav-bar_mb-masthead__\"]",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.e17npd3y0",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.e17npd3y4",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2[class*=\"title_mb-section-header__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer nav > nav#footer-link-list-0-controls",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer nav > nav#footer-link-list-1-controls",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > div[class*=\"link-list_mb-link-list__\"]",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> p.expandable-banner__content-body__description",
+   "type": "subscribe",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

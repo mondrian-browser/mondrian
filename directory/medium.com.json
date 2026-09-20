@@ -1,0 +1,40 @@
+{
+ "site": "medium.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "medium-post",
+  "medium-tag"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.679Z",
+ "blocks": [
+  {
+   "selector": "article > article",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "article section > div.speechify-ignore",
+   "type": "paywall",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article section > h1.pw-post-title",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article section > p#b3f5",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

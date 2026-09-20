@@ -1,0 +1,19 @@
+{
+ "site": "news.ycombinator.com",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "hn-front",
+  "hn-thread"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.649Z",
+ "blocks": [
+  {
+   "selector": "> tr.submission",
+   "type": "teaser_card",
+   "n": 30,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

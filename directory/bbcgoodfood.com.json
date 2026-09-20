@@ -1,0 +1,256 @@
+{
+ "site": "bbcgoodfood.com",
+ "tier": "relayout",
+ "pages": 1,
+ "pageIds": [
+  "bbcgoodfood-victoria"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.583Z",
+ "blocks": [
+  {
+   "selector": "main [role=main] > p",
+   "type": "text",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] section > h4.dynamic-related-content__heading",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.ad-banner__content",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.eyebrow-nav__container",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > ul.main-nav__nav",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "form > form.form",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main nav > nav.breadcrumb",
+   "type": "breadcrumbs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=banner] > h1.heading-1",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=banner] > div.enhanced-authors__author",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=banner] > div.split-button",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=banner] > div.recipe-cook-and-prep-details",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=banner] > div.rating__skiplinks",
+   "type": "rating",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=banner] > div.editor-content",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div.tabbed-pocket__tabs",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] section nav > nav.carousel__dots-nav",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div.tabbed-list__header",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div.unit-toggle",
+   "type": "settings",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] section > h2.method-steps__heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] section > ul.method-steps__list",
+   "type": "steps",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div.newsletter-sign-up",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > h6#for-more-information-about-how-we-hold-your-personal-data-please-see-our-privacy",
+   "type": "legal_notice",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] section > section.highlight-box",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > h2.heading-2",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] form > form.form",
+   "type": "form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] article > article.reaction--parent",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > button.button--secondary",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div#recipe--mpu--1",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div#recipe--mpu--2",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div.promotion-cards__info",
+   "type": "subscribe",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] section > div.dynamic-cards-grid",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] > div#recipe--mpu--3",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=main] section > section.dynamic-related-content",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > div.site-footer__brand-section-inner",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer section > section.site-footer__corporate-section-inner",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer section > section.body-copy-small",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

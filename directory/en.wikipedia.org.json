@@ -1,0 +1,650 @@
+{
+ "site": "en.wikipedia.org",
+ "tier": "relayout",
+ "pages": 3,
+ "pageIds": [
+  "wiki-melbourne",
+  "wiki-mondrian",
+  "wiki-population"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.772Z",
+ "blocks": [
+  {
+   "selector": "main section > div.mw-heading",
+   "type": "heading",
+   "n": 25,
+   "purity": 0.88,
+   "pages": 2
+  },
+  {
+   "selector": "main section section > div.mw-heading",
+   "type": "heading",
+   "n": 22,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section section > p",
+   "type": "text",
+   "n": 22,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > p",
+   "type": "text",
+   "n": 13,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > tr.mergedrow",
+   "type": "infobox",
+   "n": 6,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header.vector-header",
+   "type": "site_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main header > h1#firstHeading",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main header > label#p-lang-btn-label",
+   "type": "version_switcher",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div.vector-page-toolbar-container",
+   "type": "page_tools",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main nav > nav.vector-appearance-landmark",
+   "type": "settings",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > ul",
+   "type": "list",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ol.mw-references",
+   "type": "references",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "footer > footer.mw-footer",
+   "type": "site_footer",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > a.text",
+   "type": "callout",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > div.vector-pinnable-header",
+   "type": "table_of_contents",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav > ul#mw-panel-toc-list",
+   "type": "table_of_contents",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > tr.mergedtoprow",
+   "type": "infobox",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.navigation-not-searchable",
+   "type": "related",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div#mw-normal-catlinks",
+   "type": "tag_cloud",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.vector-body-before-content",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#mwBA",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > th.infobox-above",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.switcher-container",
+   "type": "map",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > td.infobox-full-data",
+   "type": "map",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwFw",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#mwrA",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#mw0w",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div#mw1g",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mw1w",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwAT4",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwAX8",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwAa0",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwAk0",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div.thumbinner",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwAy4",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div#mwA4Y",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwA4c",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwA4s",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > table.wikitable",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > table#mwA_M",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#mwBC8",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwBD4",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > figure#mwBc4",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwBg4",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwBl8",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwBt8",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwB08",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwB1U",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwB5g",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwB50",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwB7g",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwB70",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > table#mwB8Q",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwCB0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div.smooth-pie-legend-container",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwCG8",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > figure#mwCK4",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwCU4",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwCq0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul#mwGA0",
+   "type": "references",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=navigation] > div.side-box",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#mwBw",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > table.biography",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwCQ",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwJg",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwMw",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwZQ",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwgA",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwiw",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwkQ",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mwtQ",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mwwA",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mw0g",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > blockquote#mw6w",
+   "type": "quote",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > p#mw8A",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > figure#mw_Q",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul#mwAl0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#mwAx0",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > nav#mw-panel-toc",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#mwBg",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#mwCA",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.smooth-pie-legend-container",
+   "type": "chart",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwDA",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwHw",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#Sovereign_states_and_dependencies_by_population",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p#mwNQ",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > table#mwPw",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#See_also",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#Explanatory_notes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#References",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ol#mwD00",
+   "type": "references",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

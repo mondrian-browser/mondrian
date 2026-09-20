@@ -1,0 +1,39 @@
+{
+ "site": "old.reddit.com",
+ "tier": "relayout",
+ "pages": 1,
+ "pageIds": [
+  "reddit-login-wall"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.713Z",
+ "blocks": [
+  {
+   "selector": "header > header.theme-beta",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.box-border",
+   "type": "login_form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> faceplate-text-input#login-password",
+   "type": "login_form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> button.oidc",
+   "type": "login_form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

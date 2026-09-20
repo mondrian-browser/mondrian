@@ -1,0 +1,68 @@
+{
+ "site": "nhs.uk",
+ "tier": "relayout",
+ "pages": 2,
+ "pageIds": [
+  "nhs-flu",
+  "nhs-index"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.692Z",
+ "blocks": [
+  {
+   "selector": "main article > ul.nhsuk-list",
+   "type": "list",
+   "n": 22,
+   "purity": 0.86,
+   "pages": 1
+  },
+  {
+   "selector": "> div.nhsuk-width-container",
+   "type": "cookie_banner",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header > header.nhsuk-header",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav > nav.nhsuk-breadcrumb",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > p.nhsuk-lede-text",
+   "type": "summary",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > footer#nhsuk-footer",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > p.nhsuk-body-s",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article nav > nav#nhsuk-nav-a-z",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

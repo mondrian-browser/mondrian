@@ -1,0 +1,32 @@
+{
+ "site": "worldometers.info",
+ "tier": "relayout",
+ "pages": 1,
+ "pageIds": [
+  "worldometers"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.775Z",
+ "blocks": [
+  {
+   "selector": "> input.datatable-input",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> table.datatable",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.not-prose",
+   "type": "references",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

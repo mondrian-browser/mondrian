@@ -308,6 +308,26 @@ const commands = [
     input: {},
   },
 
+  // ---------------------------------------------------------------- the design filter
+  {
+    name: 'filter_status',
+    group: 'filter',
+    description: 'The design filter: whether it is on, the default tier (relayout, skinned, contained), whether a trained model is loaded, and how many sites have directory entries. Per-tab results are on each tab in tabs_list (tab.filter).',
+    input: {},
+  },
+  {
+    name: 'filter_set',
+    group: 'filter',
+    description: 'Change the design filter. With tabId: for that tab only (it reloads). Without: the default for every page, saved. show swaps what the tab displays without reloading: "original" is the page as the site built it, "blocks" is the relayout.',
+    input: { tabId, enabled: z.boolean().optional(), tier: z.enum(['relayout', 'skinned', 'contained']).optional(), show: z.enum(['original', 'blocks']).optional() },
+  },
+  {
+    name: 'page_blocks',
+    group: 'filter',
+    description: 'What the design filter made of the page: tier, counts, and every region with its type, block, slot, disposition (keep, demote, drop), which stage decided it (directory, trees, rules) and a text sample. This is what the reader sees; dropped blocks are listed, not shown. show: re-emit one dropped block by index ("show anyway").',
+    input: { tabId, show: z.number().int().optional() },
+  },
+
   // ---------------------------------------------------------------- ad blocking
   {
     name: 'adblock_status',

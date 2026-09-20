@@ -160,6 +160,7 @@ function onUrlMaybeChanged() {
   // Same document, so main-world code stays applied; do not clear scriptsDone here.
   try { ruleSets = ipcRenderer.sendSync('cb:rules-for-url', location.href) || []; } catch (_) {}
   applyRules('spa');
+  filterReset();
   ipcRenderer.send('cb:navigated', { url: location.href, title: document.title });
 }
 for (const m of ['pushState', 'replaceState']) {
@@ -169,6 +170,92 @@ for (const m of ['pushState', 'replaceState']) {
 window.addEventListener('popstate', () => setTimeout(onUrlMaybeChanged, 0));
 window.addEventListener('yt-navigate-finish', () => setTimeout(onUrlMaybeChanged, 0), true);
 setInterval(onUrlMaybeChanged, 700);
+
+// ---------------------------------------------------------------- the design filter
+// Parse, classify, order, lay out: in front of paint. At document-start the page is
+// veiled (laid out but not painted), so the site's design never reaches the screen.
+// Once the document has settled the extractor reads it, the classifier types every
+// region, and render.js builds Mondrian's document beside the hidden body. If anything
+// goes wrong, or the page yields nothing to lay out, the veil lifts and the page shows
+// as built: contained is the fallback, never a blank tab.
+const filterCfg = (() => { try { return ipcRenderer.sendSync('cb:filter-for-url', location.href) || { enabled: false }; } catch (_) { return { enabled: false }; } })();
+let filterApi = null;
+let filterResult = null;
+let filterModel = null;
+let filterRan = false;
+const FILTER_SETTLE_MS = 1200;   // after DOMContentLoaded, unless load comes first
+const FILTER_DEADLINE_MS = 6000; // after DOMContentLoaded, whatever happens
+
+function filterReport(extra) {
+  filterResult = { url: location.href, tier: filterCfg.tier, reason: filterCfg.reason, showing: filterApi ? filterApi.showing : 'original', ...extra };
+  ipcRenderer.send('cb:filter-result', filterResult);
+}
+
+function filterVeil(on) {
+  let el = document.getElementById('mx-early');
+  if (on && !el && document.documentElement) {
+    el = document.createElement('style');
+    el.id = 'mx-early';
+    // opacity, not visibility: visibility inherits and the extractor would see nothing.
+    el.textContent = 'html { opacity: 0 !important; }';
+    document.documentElement.appendChild(el);
+  }
+  if (!on && el) el.remove();
+}
+
+function runFilter(reason) {
+  if (filterRan) return;
+  filterRan = true;
+  const t0 = performance.now();
+  try {
+    const { extract } = require('../../tools/label/extract');
+    const { classifyPage } = require('../filter/classify');
+    const { render } = require('../filter/render');
+    if (filterCfg.modelPath && !filterModel) {
+      try { filterModel = JSON.parse(require('fs').readFileSync(filterCfg.modelPath, 'utf8')); } catch (e) { ipcRenderer.send('cb:log', { level: 'warning', msg: `filter model: ${e.message}` }); }
+    }
+    const page = extract({ withElements: true });
+    const regions = page.regions;
+    if (regions.length < 3) { filterVeil(false); filterReport({ tier: 'contained', reason: `only ${regions.length} region(s)`, counts: null, elapsed: Math.round(performance.now() - t0) }); return; }
+    const { calls, counts } = classifyPage(regions, { url: location.href, site: filterCfg.host, directory: filterCfg.directory, model: filterModel });
+    if (counts.keep < 2) { filterVeil(false); filterReport({ tier: 'contained', reason: `only ${counts.keep} block(s) to keep`, counts, elapsed: Math.round(performance.now() - t0) }); return; }
+    render.css = filterCfg.css || '';
+    const elapsed = Math.round(performance.now() - t0);
+    filterApi = render({ regions, calls, counts, url: location.href, site: filterCfg.host, tier: filterCfg.tier, elapsed });
+    filterVeil(false);
+    filterApi.calls = calls; filterApi.regions = regions; filterApi.counts = counts;
+    filterReport({ counts, elapsed, blocks: calls.map((c) => ({ index: c.index, type: c.type, block: c.block, slot: c.slot, disposition: c.disposition, source: c.source, confidence: c.confidence, text: (regions[c.index].text || regions[c.index].coverLabel || '').slice(0, 80) })) });
+  } catch (e) {
+    filterVeil(false);
+    ipcRenderer.send('cb:log', { level: 'error', msg: `filter failed (${reason}): ${e.message}` });
+    filterReport({ tier: 'contained', reason: 'filter failed: ' + e.message, counts: null, elapsed: Math.round(performance.now() - t0) });
+  }
+}
+
+function scheduleFilter() {
+  if (!filterCfg.enabled || filterCfg.tier !== 'relayout') return;
+  whenDocumentElement(() => filterVeil(true));
+  const go = (why) => () => runFilter(why);
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(go('settled'), FILTER_SETTLE_MS);
+    setTimeout(go('deadline'), FILTER_DEADLINE_MS);
+  });
+  window.addEventListener('load', () => setTimeout(go('load'), 150));
+}
+scheduleFilter();
+
+let filterDoc = { path: location.pathname.replace(/[/]page[/][0-9]+[/]?$/, ''), title: document.title };
+function filterReset() {
+  // A route change is a new document only if the path (less any /page/N) or the title
+  // changed. Infinite scroll pushes /page/2/ while the reader has not moved; hash and
+  // query changes are the same document.
+  const now = { path: location.pathname.replace(/[/]page[/][0-9]+[/]?$/, ''), title: document.title };
+  if (now.path === filterDoc.path && now.title === filterDoc.title) return;
+  filterDoc = now;
+  if (filterApi) { try { filterApi.remove(); } catch (_) {} filterApi = null; }
+  filterRan = false;
+  if (filterCfg.enabled && filterCfg.tier === 'relayout') setTimeout(() => runFilter('spa'), FILTER_SETTLE_MS);
+}
 
 // ---------------------------------------------------------------- agent
 let refs = new Map();      // ref -> element
@@ -450,6 +537,11 @@ const methods = {
   },
 
   pageText({ selector, maxChars = 20000 }) {
+    // What the reader sees: Mondrian's document when the filter has relaid the page.
+    if (!selector && filterApi && filterApi.showing === 'blocks') {
+      const raw = filterApi.text().replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+      return { url: location.href, title: document.title, text: raw.slice(0, maxChars), length: raw.length, truncated: raw.length > maxChars, viaFilter: true };
+    }
     const root = selector ? resolve({ selector }) : bestTextRoot();
     let raw = (root?.innerText || document.body?.innerText || '').trim();
     let viaShadow = false;
@@ -592,6 +684,24 @@ const methods = {
   },
 
   viewport: () => ({ width: innerWidth, height: innerHeight, scrollY, scrollHeight: document.documentElement.scrollHeight, devicePixelRatio }),
+
+  filterState() {
+    if (!filterResult) return { tier: filterCfg.enabled ? filterCfg.tier : 'off', reason: filterCfg.reason || 'not run yet', showing: 'original', counts: null, blocks: [] };
+    return { ...filterResult, showing: filterApi ? filterApi.showing : 'original' };
+  },
+  filterSet({ show }) {
+    if (!filterApi) throw new Error('This page was not relaid out (tier ' + (filterResult?.tier || filterCfg.tier) + '), so there is nothing to swap.');
+    if (show === 'original') filterApi.original(); else if (show === 'blocks') filterApi.blocks();
+    if (filterResult) { filterResult.showing = filterApi.showing; ipcRenderer.send('cb:filter-result', filterResult); }
+    return { showing: filterApi.showing };
+  },
+  filterDebug() { return filterApi ? filterApi.debug() : null; },
+  filterShow({ index }) {
+    if (!filterApi) throw new Error('This page was not relaid out.');
+    const ok = filterApi.show(index);
+    if (ok && filterResult) { filterResult.counts = filterApi.counts; const b = filterResult.blocks.find((x) => x.index === index); if (b) b.disposition = 'keep'; ipcRenderer.send('cb:filter-result', filterResult); }
+    return ok;
+  },
 };
 
 ipcRenderer.on('cb:call', async (_e, { id, method, args }) => {

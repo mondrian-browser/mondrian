@@ -11,7 +11,7 @@ const log = require('./log').make('cmd');
 const MOD = { shift: 'shift', control: 'control', alt: 'alt', meta: 'meta' };
 
 function makeHandlers(ctx) {
-  const { tabsMgr, rules, profiles, settings, win, chrome, control, state, adblock } = ctx;
+  const { tabsMgr, rules, profiles, settings, win, chrome, control, state, adblock, filter } = ctx;
 
   const page = (tabId) => tabsMgr.get(tabId);
   const callPage = (tabId, method, args, timeout) => tabsMgr.call(page(tabId), method, args, timeout);
@@ -132,6 +132,22 @@ function makeHandlers(ctx) {
     },
 
     // ------------------------------------------------------------- tabs
+    // ------------------------------------------------------------- filter
+    async filter_status() { return filter.status(); },
+    async filter_set({ tabId, enabled, tier, show }) {
+      const tab = tabId || show ? page(tabId) : null;
+      const out = enabled !== undefined || tier !== undefined ? filter.set({ enabled, tier }, tabId ? tab : null) : {};
+      if (show) out.showing = (await callPage(tab.id, 'filterSet', { show })).showing;
+      if (enabled !== undefined || tier !== undefined) { const t = tab || page(); t.wc.reload(); out.reloaded = t.id; }
+      return out;
+    },
+    async page_blocks({ tabId, show, debug }) {
+      if (debug) return callPage(tabId, 'filterDebug', {});
+      const state = await callPage(tabId, 'filterState', {}, 15000);
+      if (show !== undefined) state.shown = await callPage(tabId, 'filterShow', { index: show });
+      return state;
+    },
+
     async tabs_list() { return { tabs: tabsMgr.list(), activeTab: tabsMgr.activeId }; },
 
     async tab_open({ url, profile, activate = true, wait = true }) {

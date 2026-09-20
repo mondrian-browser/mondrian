@@ -1,0 +1,75 @@
+{
+ "site": "youtube.com",
+ "tier": "skinned",
+ "pages": 2,
+ "pageIds": [
+  "youtube-results",
+  "youtube-watch"
+ ],
+ "derivedAt": "2026-09-20T23:56:59.776Z",
+ "blocks": [
+  {
+   "selector": "[role=navigation] > div.style-scope",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > ytd-search-header-renderer.style-scope",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div#meta",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > yt-formatted-string.metadata-snippet-text",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > a.yt-simple-endpoint",
+   "type": "transcript",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] [role=complementary] > div.ytp-overlay-top-left",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] [role=complementary] > div.ytp-chrome-bottom",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div#title-row",
+   "type": "user_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div#bottom-row",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}
