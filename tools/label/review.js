@@ -16,6 +16,7 @@
 const fs = require('fs');
 const path = require('path');
 const { REVIEW_BELOW } = require('./questions');
+const { POLICIES } = require('./policies');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const PAGES_DIR = path.join(ROOT, 'corpus', 'pages');
@@ -101,14 +102,15 @@ function score(file) {
 // Jev's choice) and judged ones get `review`. Jev's own output is kept untouched.
 function apply(file) {
   const j = JSON.parse(fs.readFileSync(file, 'utf8'));
-  let judged = 0, corrected = 0;
+  let judged = 0, corrected = 0, policed = 0;
   for (const id of fs.readdirSync(PAGES_DIR)) {
     const lf = path.join(PAGES_DIR, id, 'labels.json');
     if (!fs.existsSync(lf)) continue;
     const labels = JSON.parse(fs.readFileSync(lf, 'utf8'));
+    const regions = JSON.parse(fs.readFileSync(path.join(PAGES_DIR, id, 'regions.json'), 'utf8')).regions;
     for (const a of labels.regions) {
       const v = j[`${id}:${a.index}`];
-      delete a.review; delete a.final;
+      delete a.review; delete a.final; delete a.policy;
       if (v) {
         judged++;
         const [verdict, type] = v.split(':');
@@ -117,11 +119,19 @@ function apply(file) {
       }
       a.final = a.choice;
     }
+    // Then the policies (policies.js), which are definitions rather than judgements.
+    for (const a of labels.regions) {
+      const r = regions[a.index];
+      for (const [name, rule] of Object.entries(POLICIES)) {
+        const t = rule(r, a.final, regions[a.index - 1], regions[a.index + 1]);
+        if (t && t !== a.final) { a.final = t; a.policy = name; policed++; break; }
+      }
+    }
     labels.reviewedAt = new Date().toISOString();
     labels.reviewFile = path.relative(ROOT, file).split(path.sep).join('/');
     fs.writeFileSync(lf, JSON.stringify(labels, null, 1));
   }
-  console.log(`applied ${judged} judgements, ${corrected} labels corrected; every region now has final`);
+  console.log(`applied ${judged} judgements, ${corrected} labels corrected, ${policed} changed by policy; every region now has final`);
 }
 
 // ---------------------------------------------------------------- run

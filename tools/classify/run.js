@@ -19,14 +19,11 @@
 
 const fs = require('fs');
 const path = require('path');
-const crypto = require('crypto');
 const { classifyAll, RULES } = require('./heuristic');
+const { loadPages, ROOT } = require('./corpus');
 const { BLOCK_TYPES } = require('../label/questions');
 
-const ROOT = path.resolve(__dirname, '..', '..');
-const PAGES_DIR = path.join(ROOT, 'corpus', 'pages');
 const OUT_DIR = path.join(ROOT, 'corpus', 'scorecard');
-const HOLDOUT_FRACTION = 0.25;
 
 const argv = process.argv.slice(2);
 const flag = (n) => { const i = argv.indexOf(n); if (i < 0) return null; const v = argv[i + 1]; argv.splice(i, 2); return v; };
@@ -35,17 +32,7 @@ const TYPE = flag('--type');
 const PAGE = flag('--page');
 
 // ---------------------------------------------------------------- load
-const pages = [];
-for (const id of fs.readdirSync(PAGES_DIR)) {
-  const dir = path.join(PAGES_DIR, id);
-  if (!fs.existsSync(path.join(dir, 'labels.json'))) continue;
-  const regions = JSON.parse(fs.readFileSync(path.join(dir, 'regions.json'), 'utf8'));
-  const labels = JSON.parse(fs.readFileSync(path.join(dir, 'labels.json'), 'utf8'));
-  const meta = JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8'));
-  pages.push({ id, site: meta.site, url: regions.url, title: regions.title, viewport: regions.viewport, pageHeight: regions.pageHeight, regions: regions.regions, labels: labels.regions, tier: meta.tier });
-}
-const holdout = (site) => parseInt(crypto.createHash('md5').update(site).digest('hex').slice(0, 8), 16) / 0xffffffff < HOLDOUT_FRACTION;
-for (const p of pages) p.split = holdout(p.site) ? 'holdout' : 'dev';
+const pages = loadPages();
 
 // ---------------------------------------------------------------- classify and score
 const calls = classifyAll(pages);

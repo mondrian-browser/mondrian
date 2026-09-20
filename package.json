@@ -17,7 +17,8 @@
     "docs": "node tools/gen-docs.js",
     "label:trial": "node tools/label/trial.js",
     "corpus:capture": "node tools/corpus/capture.js",
-    "classify": "node tools/classify/run.js"
+    "classify": "node tools/classify/run.js",
+    "classify:train": "node tools/classify/train.js"
   },
   "engines": {
     "node": ">=20"

@@ -209,7 +209,50 @@ The reading, which is B4's real deliverable:
   HN: pages where the regions are chrome with no prose and the hints are minified class
   names. Nothing in the heuristics can read `sc-86fcb06b-2`.
 
-**B5. Decide.** Next, and Lloyd's call. Three branches, and B4 says which. Heuristics close, so write per-site
+**B5. Branch two tried 20 Sep 2026, and it did not pay.** Lloyd chose branch two.
+Done in this order: `tools/label/policies.js` (three definitions applied on top of the
+judgements by `review.js --apply`: a heading is a heading even when it names a related
+slot; cards under a "related" heading are related, under "most read" trending; 18 labels
+changed, heuristics unmoved at 68.8% / 62.1%). Then `tools/classify/vectors.js` (every
+feature, hint and text hit, tag, landmark, the rule that fired and the type it gave: 500
+dimensions), `tools/classify/gbt.js` (multiclass gradient boosted trees in plain JS,
+histogram splits, Newton leaves, no native dependency) and `tools/classify/train.js`
+(train on dev sites, score holdout; `--cv k` for site-fold cross-validation).
+
+The result, strict on sites the trees never saw:
+
+| | rules | trees | best blend |
+|---|---|---|---|
+| holdout (12 sites, 890 regions), 30 rounds depth 4 | 62.1% | 55.4% | 61.8% |
+| 4-fold by site, 40 rounds depth 3, heavy regularisation | 68.8% | 49.7% | 69.0% |
+| holdout, 60 rounds depth 2 | 62.1% | 51.7% | 62.8% |
+| holdout, 20 rounds depth 5 | 62.1% | 47.9% | 62.6% |
+
+Training accuracy reaches 99% in every configuration. The trees memorise the sites
+they see and lose 40 points on the sites they do not; blending them in at any threshold
+buys under one point over the rules. Per type, they beat the rules on chrome (heading
+96% vs 74%, site_footer 88 vs 76, site_nav 73 vs 55, site_header 81 vs 69, title 87 vs
+80) and collapse on anything rarer (ad, skip_link, embed, subscribe, pagination: 0 to
+10%). A by-type blend picked on dev is leaky and was not pursued.
+
+Why, as far as the data says: 45 sites, and the rarer types live on one site each
+(every embed is MDN, every skip link NHS, most vote controls Stack Overflow), so the
+site-held-out split removes a type's whole training set, and 500 features on 2,400
+rows with a 100-way softmax finds site idiom before it finds the web. This is a corpus
+size result, not a taxonomy result: Jev at 84% / 97% shows the distinctions are makable.
+
+**Decision, for Lloyd:** the rules are the filter for now (branch one), at 69% overall
+and 62% on unseen sites, with per-site rules for the sites he uses, and milestone 2
+starts against them. Trees are worth trying again when the corpus has three or four
+times the sites, and the capture list should then put each type on several sites
+rather than adding more pages of the same ones. The training code stays; it runs in a
+minute and prints the honest number. The model file is gitignored.
+
+Two cheap things that would raise the rules first: the extractor counting overlay and
+wrapping anchors (BBC and Guardian cards show zero link text today), and a fuzzier
+cross-page signature.
+
+The brief as written: Three branches, and B4 says which. Heuristics close, so write per-site
 rules for the tail and go to milestone 2. Heuristics weak but the types sound, so train on
 B2's labels, defaulting to gradient boosted trees rather than a neural model. The types do
 not hold, so revise the taxonomy and repeat from B3. ADR 0010.
