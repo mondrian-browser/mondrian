@@ -1,6 +1,6 @@
 # Next
 
-Start here. Updated 20 September 2026.
+Start here. Updated 20 September 2026. Company roles and their run protocol are in `company/ROLES.md`.
 
 Everything below is either blocked on the step above it or explicitly marked as parallel.
 `docs/project/08-DEVELOPMENT-PLAN.md` has the reasoning; this file is just the order.
@@ -11,7 +11,7 @@ Everything below is either blocked on the step above it or explicitly marked as 
 
 Small, dull, and all of milestone 1 depends on it.
 
-**A1. Get the repo onto the machine as a repo.** The working folder is currently files
+**A1. Done 20 Sep 2026.** Get the repo onto the machine as a repo. The working folder is currently files
 without history. `mondrian.bundle` in it holds all 19 commits.
 
 ```
@@ -23,7 +23,7 @@ npm install
 
 Work in `Mondrian` from then on. Keep `ClaudeBrowser` until A3 passes, then delete it.
 
-**A2. Register the MCP server and restart.** Outstanding since the rename.
+**A2. Done 20 Sep 2026.** Register the MCP server and restart. Outstanding since the rename.
 
 ```
 npm.cmd run install-mcp
@@ -33,7 +33,7 @@ Then quit the Claude desktop app completely and reopen it. The tool list is cach
 app start, so `mondrian` tools will not appear until a full restart. This also clears the
 dead `claude-browser` and `cbrowser` registrations.
 
-**A3. Run the suite on Windows.** Expect 86 passed, 0 failed.
+**A3. Done 20 Sep 2026, 86 passed.** Run the suite on Windows. Expect 86 passed, 0 failed.
 
 ```
 npm.cmd test
