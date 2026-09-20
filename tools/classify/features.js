@@ -211,7 +211,7 @@ function features(page, i, index) {
   return {
     r, tag, run, text: t, lower, hint, lines, words, commas, sentences, avgLine,
     len: r.textLength, ltr: tag === 'a' ? 1 : r.linkTextRatio, c,
-    links: c.links + (tag === 'a' ? 1 : 0), images: c.images, headings: c.headings, items: c.listItems, rows: c.tableRows, controls: c.controls, paragraphs: c.paragraphs, repeats: c.repeats,
+    links: c.links + (tag === 'a' ? 1 : 0) + (c.coverLinks || 0), cover: c.coverLinks || 0, covered: (c.coverLinks || 0) > 0 || tag === 'a', coverLabel: r.coverLabel || '', images: c.images, headings: c.headings, items: c.listItems, rows: c.tableRows, controls: c.controls, paragraphs: c.paragraphs, repeats: c.repeats,
     imgs: r.images || [], bigImage: (r.images || []).some((im) => im.width >= 120 && im.height >= 80), iconsOnly: (r.images || []).length > 0 && (r.images || []).every((im) => im.width < 64 && im.height < 64),
     frame: r.frame,
     lm, last,
@@ -232,7 +232,7 @@ function features(page, i, index) {
     prevText: (page.regions[i - 1] || {}).text || '',
     firstProse: !page.regions.slice(0, i).some((q) => (q.tag === 'p' || /^p×/.test(q.tag) || q.counts.paragraphs >= 1) && q.textLength >= 300 && q.linkTextRatio < 0.3), prevTitleish: [1, 2, 3].some((k) => { const q = page.regions[i - k]; return q && (/^(h1|header|hgroup)/.test(q.tag) || q.counts.headings >= 1 && q.textLength < 160); }),
     short: r.textLength < 40, tiny: r.textLength < 16, prose: r.textLength >= 80 && r.linkTextRatio < 0.3 && (sentences > 0 || commas > 0 || words > 15),
-    linky: r.linkTextRatio >= 0.6 && c.links >= 3,
+    linky: r.linkTextRatio >= 0.6 && c.links >= 3 || (c.coverLinks || 0) >= 3,
   };
 }
 

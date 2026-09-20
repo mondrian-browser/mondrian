@@ -39,3 +39,7 @@ Jev: 9 `embed` (MDN live examples), 2 `video` (YouTube), 1 `chat_widget`, and th
 full-viewport consent frames as `cookie_banner`, corrected to `consent_gate` in review.
 The extractor now emits frames itself (`frame: { host, width, height }`), so a future
 capture does not need this pass.
+
+**Added 20 Sep 2026:** `counts.coverLinks` and `coverLabel` on every region, computed from
+`dom.html` by `tools/corpus/add-cover-links.js` (anchors that wrap or overlay a region, and
+the first one's aria-label). The extractor now records both itself. No index moved.

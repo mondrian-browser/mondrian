@@ -228,6 +228,7 @@ const RULES = [
   // ---------------------------------------------------------------- shape
   ['ol-steps', (f) => f.tag === 'ol' && f.tx('steps') && 'steps'],
   ['ul-ingredients', (f) => f.tag === 'ul' && f.tx('ingredient') && 'list'],
+  ['linky-row', (f) => f.linky && f.lines.length <= 3 && f.len < 160 && f.tag === 'tr' && !f.inNav && !f.inFooter && !f.inHeader && 'teaser_card'],
   ['linky-related', (f) => f.linky && f.tx('related') && 'related'],
   ['linky-trending', (f) => f.linky && f.tx('trending') && 'trending'],
   ['ul-main-list', (f) => f.tag === 'ul' && f.inMain && !f.inNav && !f.inAside && f.links >= 6 && f.images === 0 && f.headings === 0 && f.avgLine > 14 && 'list'],
@@ -246,10 +247,13 @@ const RULES = [
   ['comments-run', (f) => f.run && f.tx('ago') && f.len > 200 && f.ltr < 0.3 && 'comments'],
   ['comments-shape', (f) => (f.tx('ago') || /\bago\b/i.test(f.lines[1] || '') || /\d{1,2}\/\d{1,2}\/\d{2,4}/.test(f.lines[1] || '')) && f.len > 120 && f.ltr < 0.3 && f.lines.length >= 3 && f.lines[0].length < 40 && f.inMain && f.top > 0.3 && 'comments'],
   ['reviews-run', (f) => f.run && f.tx('rating') && f.len > 300 && 'reviews'],
+  ['standfirst', (f) => f.tag !== 'p' && f.prev && f.prev.tag === 'header' && f.len >= 50 && f.len <= 500 && f.ltr < 0.2 && f.paragraphs <= 1 && f.sentences <= 4 && !f.run && 'summary'],
   ['summary-early', (f) => f.top < 0.25 && f.index <= 12 && f.len >= 50 && f.len <= 500 && f.ltr < 0.2 && f.paragraphs <= 1 && f.sentences <= 4 && !f.run && (f.prevTitleish || f.firstProse && f.tag === 'p') && 'summary'],
   // Modern card layouts link the whole card through one overlay anchor with an aria-label,
   // so link text is zero. A run of siblings that each carry a heading and a paragraph, or
   // a list whose items each carry a heading, is a row of cards whatever the link count.
+  ['card-covered-run', (f) => f.run && f.cover >= Math.max(2, f.repeats * 0.5) && f.len / f.repeats < 600 && !f.inFooter && !f.inHeader && 'teaser_card'],
+  ['card-covered', (f) => f.covered && f.tag !== 'a' && (f.images >= 1 || f.headings >= 1) && f.len < 600 && f.sentences <= 3 && !f.inFooter && !f.inHeader && !f.inNav && f.index > 0 && 'teaser_card'],
   ['card-run', (f) => f.run && f.headings >= f.repeats && f.paragraphs + f.images >= f.repeats && f.len / f.repeats < 500 && !f.inFooter && !f.inHeader && 'teaser_card'],
   ['card-ul-headed', (f) => f.tag === 'ul' && f.items >= 2 && f.headings >= 2 && f.len / f.items < 400 && !f.inNav && 'teaser_card'],
   ['card-headed', (f) => /^(div|li|article|section)$/.test(f.tag) && f.headings >= 1 && f.images >= 1 && f.paragraphs >= 1 && f.len < 400 && f.sentences <= 3 && !f.inHeader && !f.inFooter && f.index > 0 && 'teaser_card'],

@@ -1,16 +1,16 @@
 {
- "at": "2026-09-20T10:41:51.572Z",
+ "at": "2026-09-20T10:45:17.948Z",
  "pages": 74,
  "sites": 45,
- "rules": 227,
+ "rules": 231,
  "all": {
   "regions": 3292,
-  "strict": 0.688,
-  "lenient": 0.706,
-  "macroF1": 0.488,
-  "block": 0.824,
-  "slot": 0.661,
-  "axes": 0.623,
+  "strict": 0.698,
+  "lenient": 0.717,
+  "macroF1": 0.491,
+  "block": 0.834,
+  "slot": 0.672,
+  "axes": 0.635,
   "types": {
    "title": {
     "n": 46,
@@ -21,24 +21,24 @@
    },
    "heading": {
     "n": 372,
-    "called": 375,
-    "precision": 0.837,
+    "called": 374,
+    "precision": 0.84,
     "recall": 0.844,
-    "f1": 0.841
+    "f1": 0.842
    },
    "summary": {
     "n": 52,
-    "called": 34,
-    "precision": 0.382,
+    "called": 33,
+    "precision": 0.394,
     "recall": 0.25,
-    "f1": 0.302
+    "f1": 0.306
    },
    "text": {
     "n": 537,
-    "called": 601,
-    "precision": 0.767,
+    "called": 594,
+    "precision": 0.776,
     "recall": 0.858,
-    "f1": 0.81
+    "f1": 0.815
    },
    "byline": {
     "n": 82,
@@ -84,10 +84,10 @@
    },
    "image": {
     "n": 111,
-    "called": 145,
-    "precision": 0.717,
-    "recall": 0.937,
-    "f1": 0.813
+    "called": 143,
+    "precision": 0.72,
+    "recall": 0.928,
+    "f1": 0.811
    },
    "gallery": {
     "n": 29,
@@ -133,10 +133,10 @@
    },
    "list": {
     "n": 86,
-    "called": 136,
-    "precision": 0.493,
+    "called": 112,
+    "precision": 0.598,
     "recall": 0.779,
-    "f1": 0.604
+    "f1": 0.677
    },
    "steps": {
     "n": 9,
@@ -252,14 +252,14 @@
    },
    "comments": {
     "n": 118,
-    "called": 124,
-    "precision": 0.831,
+    "called": 122,
+    "precision": 0.844,
     "recall": 0.873,
-    "f1": 0.851
+    "f1": 0.858
    },
    "reviews": {
     "n": 12,
-    "called": 14,
+    "called": 13,
     "precision": 0,
     "recall": 0,
     "f1": 0
@@ -294,17 +294,17 @@
    },
    "related": {
     "n": 71,
-    "called": 54,
-    "precision": 0.593,
-    "recall": 0.451,
-    "f1": 0.512
+    "called": 55,
+    "precision": 0.6,
+    "recall": 0.465,
+    "f1": 0.524
    },
    "teaser_card": {
     "n": 394,
-    "called": 385,
-    "precision": 0.652,
-    "recall": 0.637,
-    "f1": 0.644
+    "called": 424,
+    "precision": 0.675,
+    "recall": 0.726,
+    "f1": 0.699
    },
    "product_card": {
     "n": 10,
@@ -371,10 +371,10 @@
    },
    "action_button": {
     "n": 94,
-    "called": 141,
-    "precision": 0.603,
+    "called": 140,
+    "precision": 0.607,
     "recall": 0.904,
-    "f1": 0.723
+    "f1": 0.726
    },
    "buy_box": {
     "n": 4,
@@ -399,24 +399,24 @@
    },
    "site_nav": {
     "n": 78,
-    "called": 78,
-    "precision": 0.603,
+    "called": 77,
+    "precision": 0.61,
     "recall": 0.603,
-    "f1": 0.603
+    "f1": 0.606
    },
    "section_nav": {
     "n": 30,
-    "called": 35,
-    "precision": 0.2,
+    "called": 34,
+    "precision": 0.206,
     "recall": 0.233,
-    "f1": 0.215
+    "f1": 0.219
    },
    "breadcrumbs": {
     "n": 19,
-    "called": 26,
-    "precision": 0.577,
+    "called": 27,
+    "precision": 0.556,
     "recall": 0.789,
-    "f1": 0.667
+    "f1": 0.652
    },
    "version_switcher": {
     "n": 26,
@@ -687,7 +687,7 @@
    },
    "related": {
     "n": 148,
-    "ok": 61
+    "ok": 63
    },
    "tags": {
     "n": 26,
@@ -695,7 +695,7 @@
    },
    "teasers": {
     "n": 474,
-    "ok": 318
+    "ok": 352
    },
    "footer": {
     "n": 156,
@@ -773,12 +773,12 @@
  },
  "dev": {
   "regions": 2402,
-  "strict": 0.712,
-  "lenient": 0.731,
-  "macroF1": 0.48,
-  "block": 0.832,
-  "slot": 0.665,
-  "axes": 0.625,
+  "strict": 0.726,
+  "lenient": 0.744,
+  "macroF1": 0.485,
+  "block": 0.845,
+  "slot": 0.679,
+  "axes": 0.64,
   "types": {
    "title": {
     "n": 31,
@@ -796,17 +796,17 @@
    },
    "summary": {
     "n": 19,
-    "called": 25,
-    "precision": 0.36,
+    "called": 24,
+    "precision": 0.375,
     "recall": 0.474,
-    "f1": 0.409
+    "f1": 0.419
    },
    "text": {
     "n": 482,
-    "called": 497,
-    "precision": 0.827,
+    "called": 492,
+    "precision": 0.835,
     "recall": 0.853,
-    "f1": 0.84
+    "f1": 0.844
    },
    "byline": {
     "n": 74,
@@ -894,10 +894,10 @@
    },
    "list": {
     "n": 48,
-    "called": 95,
-    "precision": 0.411,
+    "called": 71,
+    "precision": 0.549,
     "recall": 0.813,
-    "f1": 0.545
+    "f1": 0.655
    },
    "steps": {
     "n": 7,
@@ -1006,14 +1006,14 @@
    },
    "comments": {
     "n": 109,
-    "called": 112,
-    "precision": 0.875,
+    "called": 110,
+    "precision": 0.891,
     "recall": 0.899,
-    "f1": 0.887
+    "f1": 0.895
    },
    "reviews": {
     "n": 9,
-    "called": 14,
+    "called": 13,
     "precision": 0,
     "recall": 0,
     "f1": 0
@@ -1048,17 +1048,17 @@
    },
    "related": {
     "n": 46,
-    "called": 34,
-    "precision": 0.618,
-    "recall": 0.457,
-    "f1": 0.525
+    "called": 35,
+    "precision": 0.629,
+    "recall": 0.478,
+    "f1": 0.543
    },
    "teaser_card": {
     "n": 199,
-    "called": 158,
-    "precision": 0.633,
-    "recall": 0.503,
-    "f1": 0.56
+    "called": 191,
+    "precision": 0.691,
+    "recall": 0.663,
+    "f1": 0.677
    },
    "product_card": {
     "n": 6,
@@ -1153,10 +1153,10 @@
    },
    "site_nav": {
     "n": 56,
-    "called": 60,
-    "precision": 0.583,
+    "called": 59,
+    "precision": 0.593,
     "recall": 0.625,
-    "f1": 0.603
+    "f1": 0.609
    },
    "section_nav": {
     "n": 19,
@@ -1420,7 +1420,7 @@
    },
    "related": {
     "n": 113,
-    "ok": 47
+    "ok": 49
    },
    "tags": {
     "n": 25,
@@ -1428,7 +1428,7 @@
    },
    "teasers": {
     "n": 254,
-    "ok": 141
+    "ok": 173
    },
    "footer": {
     "n": 110,
@@ -1502,12 +1502,12 @@
  },
  "holdout": {
   "regions": 890,
-  "strict": 0.621,
-  "lenient": 0.639,
+  "strict": 0.624,
+  "lenient": 0.642,
   "macroF1": 0.482,
-  "block": 0.802,
-  "slot": 0.649,
-  "axes": 0.617,
+  "block": 0.803,
+  "slot": 0.652,
+  "axes": 0.62,
   "types": {
    "title": {
     "n": 15,
@@ -1518,10 +1518,10 @@
    },
    "heading": {
     "n": 106,
-    "called": 100,
-    "precision": 0.78,
+    "called": 99,
+    "precision": 0.788,
     "recall": 0.736,
-    "f1": 0.757
+    "f1": 0.761
    },
    "summary": {
     "n": 33,
@@ -1532,10 +1532,10 @@
    },
    "text": {
     "n": 55,
-    "called": 104,
-    "precision": 0.481,
+    "called": 102,
+    "precision": 0.49,
     "recall": 0.909,
-    "f1": 0.629
+    "f1": 0.637
    },
    "byline": {
     "n": 8,
@@ -1574,10 +1574,10 @@
    },
    "image": {
     "n": 28,
-    "called": 45,
-    "precision": 0.578,
-    "recall": 0.929,
-    "f1": 0.712
+    "called": 43,
+    "precision": 0.581,
+    "recall": 0.893,
+    "f1": 0.704
    },
    "gallery": {
     "n": 10,
@@ -1721,10 +1721,10 @@
    },
    "teaser_card": {
     "n": 195,
-    "called": 227,
-    "precision": 0.665,
-    "recall": 0.774,
-    "f1": 0.716
+    "called": 233,
+    "precision": 0.661,
+    "recall": 0.79,
+    "f1": 0.72
    },
    "product_card": {
     "n": 4,
@@ -1784,10 +1784,10 @@
    },
    "action_button": {
     "n": 32,
-    "called": 47,
-    "precision": 0.66,
+    "called": 46,
+    "precision": 0.674,
     "recall": 0.969,
-    "f1": 0.785
+    "f1": 0.795
    },
    "settings": {
     "n": 1,
@@ -1812,17 +1812,17 @@
    },
    "section_nav": {
     "n": 11,
-    "called": 14,
-    "precision": 0.071,
+    "called": 13,
+    "precision": 0.077,
     "recall": 0.091,
-    "f1": 0.08
+    "f1": 0.083
    },
    "breadcrumbs": {
     "n": 9,
-    "called": 11,
-    "precision": 0.545,
+    "called": 12,
+    "precision": 0.5,
     "recall": 0.667,
-    "f1": 0.6
+    "f1": 0.571
    },
    "version_switcher": {
     "n": 7,
@@ -2048,7 +2048,7 @@
    },
    "teasers": {
     "n": 220,
-    "ok": 177
+    "ok": 179
    },
    "article": {
     "n": 203,
@@ -2173,12 +2173,12 @@
   "bbc-news-index": {
    "split": "dev",
    "regions": 30,
-   "strict": 0.77
+   "strict": 0.83
   },
   "bbc-news-tech": {
    "split": "dev",
    "regions": 30,
-   "strict": 0.7
+   "strict": 0.73
   },
   "bbcgoodfood-victoria": {
    "split": "holdout",
@@ -2288,7 +2288,7 @@
   "hn-front": {
    "split": "dev",
    "regions": 62,
-   "strict": 0.24
+   "strict": 0.61
   },
   "hn-thread": {
    "split": "dev",
@@ -2463,7 +2463,7 @@
   "tomshardware-index": {
    "split": "dev",
    "regions": 69,
-   "strict": 0.45
+   "strict": 0.55
   },
   "wiki-melbourne": {
    "split": "dev",
@@ -2488,7 +2488,7 @@
   "youtube-results": {
    "split": "holdout",
    "regions": 9,
-   "strict": 0.22
+   "strict": 0.44
   },
   "youtube-watch": {
    "split": "holdout",
@@ -2504,28 +2504,12 @@
     "fallback-text": 20
    }
   },
-  "teaser_card -> list": {
-   "n": 26,
-   "rules": {
-    "linky": 26
-   }
-  },
   "related -> teaser_card": {
-   "n": 15,
+   "n": 14,
    "rules": {
     "hint-card": 2,
     "linky-cards": 9,
-    "card-run": 1,
     "card-index": 3
-   }
-  },
-  "teaser_card -> text": {
-   "n": 14,
-   "rules": {
-    "prose": 4,
-    "long-text": 1,
-    "fallback-text": 2,
-    "prose-p": 7
    }
   },
   "heading -> teaser_card": {
@@ -2567,13 +2551,6 @@
     "card-article": 1
    }
   },
-  "teaser_card -> comments": {
-   "n": 9,
-   "rules": {
-    "comments-shape": 7,
-    "comments-run": 2
-   }
-  },
   "site_footer -> heading": {
    "n": 8,
    "rules": {
@@ -2602,11 +2579,22 @@
     "prose-p": 6
    }
   },
-  "teaser_card -> image": {
+  "metadata -> teaser_card": {
    "n": 8,
    "rules": {
-    "figure": 7,
-    "image-only": 1
+    "linky-run": 1,
+    "card-index": 5,
+    "card-covered": 1,
+    "linky-cards": 1
+   }
+  },
+  "teaser_card -> text": {
+   "n": 8,
+   "rules": {
+    "prose": 3,
+    "long-text": 1,
+    "fallback-text": 2,
+    "prose-p": 2
    }
   },
   "text -> image": {
@@ -2637,18 +2625,22 @@
     "header-nav": 1
    }
   },
-  "metadata -> teaser_card": {
+  "teaser_card -> comments": {
    "n": 7,
    "rules": {
-    "linky-run": 1,
-    "card-index": 5,
-    "linky-cards": 1
+    "comments-shape": 7
    }
   },
   "teaser_card -> rating": {
    "n": 7,
    "rules": {
     "hint-rating": 7
+   }
+  },
+  "teaser_card -> image": {
+   "n": 7,
+   "rules": {
+    "figure": 7
    }
   },
   "ad -> teaser_card": {
@@ -2773,13 +2765,6 @@
     "top-header": 1
    }
   },
-  "teaser_card -> reviews": {
-   "n": 5,
-   "rules": {
-    "reviews-run": 1,
-    "hint-reviews": 4
-   }
-  },
   "trending -> teaser_card": {
    "n": 5,
    "rules": {
@@ -2812,6 +2797,14 @@
    "n": 5,
    "rules": {
     "prose-p": 5
+   }
+  },
+  "infobox -> teaser_card": {
+   "n": 5,
+   "rules": {
+    "linky-run": 1,
+    "card-index": 2,
+    "linky-row": 2
    }
   },
   "cta -> teaser_card": {
@@ -2887,6 +2880,12 @@
     "text-hn-subtext": 2
    }
   },
+  "teaser_card -> reviews": {
+   "n": 4,
+   "rules": {
+    "hint-reviews": 4
+   }
+  },
   "external_links -> list": {
    "n": 4,
    "rules": {
@@ -2917,7 +2916,7 @@
  },
  "ruleUse": {
   "prose-p": {
-   "n": 535,
+   "n": 530,
    "right": 460
   },
   "h-heading": {
@@ -2929,16 +2928,16 @@
    "right": 204
   },
   "linky-cards": {
-   "n": 122,
-   "right": 93
+   "n": 128,
+   "right": 97
+  },
+  "card-index": {
+   "n": 123,
+   "right": 60
   },
   "footer": {
    "n": 121,
    "right": 99
-  },
-  "card-index": {
-   "n": 112,
-   "right": 49
   },
   "figure": {
    "n": 109,
@@ -2952,13 +2951,13 @@
    "n": 74,
    "right": 52
   },
-  "card-article": {
-   "n": 65,
-   "right": 61
-  },
   "list-ul": {
    "n": 63,
    "right": 41
+  },
+  "card-article": {
+   "n": 63,
+   "right": 61
   },
   "comments-shape": {
    "n": 62,
@@ -2980,17 +2979,13 @@
    "n": 43,
    "right": 30
   },
-  "linky": {
-   "n": 38,
-   "right": 2
-  },
-  "fallback-text": {
-   "n": 36,
-   "right": 2
-  },
   "hint-related": {
    "n": 35,
    "right": 21
+  },
+  "fallback-text": {
+   "n": 35,
+   "right": 2
   },
   "header": {
    "n": 34,
@@ -3000,21 +2995,17 @@
    "n": 33,
    "right": 0
   },
-  "action-word": {
-   "n": 31,
-   "right": 27
-  },
   "text-hn-subtext": {
    "n": 31,
    "right": 29
   },
+  "action-word": {
+   "n": 30,
+   "right": 26
+  },
   "ul-main-list": {
    "n": 29,
    "right": 26
-  },
-  "summary-early": {
-   "n": 27,
-   "right": 9
   },
   "img": {
    "n": 27,
@@ -3024,25 +3015,29 @@
    "n": 26,
    "right": 24
   },
+  "summary-early": {
+   "n": 26,
+   "right": 9
+  },
+  "hint-card": {
+   "n": 26,
+   "right": 13
+  },
   "text-byline": {
    "n": 25,
    "right": 4
+  },
+  "linky-row": {
+   "n": 25,
+   "right": 23
   },
   "hint-rating": {
    "n": 24,
    "right": 5
   },
-  "hint-card": {
-   "n": 24,
-   "right": 11
-  },
   "nav-top": {
    "n": 23,
    "right": 14
-  },
-  "prose": {
-   "n": 23,
-   "right": 2
   },
   "blockquote": {
    "n": 22,
@@ -3051,6 +3046,10 @@
   "button-like": {
    "n": 22,
    "right": 7
+  },
+  "prose": {
+   "n": 22,
+   "right": 2
   },
   "h-skip": {
    "n": 21,
@@ -3068,18 +3067,6 @@
    "n": 18,
    "right": 3
   },
-  "card-run": {
-   "n": 17,
-   "right": 10
-  },
-  "nav": {
-   "n": 16,
-   "right": 3
-  },
-  "short-heading": {
-   "n": 16,
-   "right": 6
-  },
   "skip-link": {
    "n": 15,
    "right": 6
@@ -3087,6 +3074,22 @@
   "breadcrumbs": {
    "n": 15,
    "right": 15
+  },
+  "nav": {
+   "n": 15,
+   "right": 3
+  },
+  "short-heading": {
+   "n": 15,
+   "right": 6
+  },
+  "short-link": {
+   "n": 14,
+   "right": 2
+  },
+  "linky": {
+   "n": 14,
+   "right": 2
   },
   "table": {
    "n": 14,
@@ -3096,13 +3099,13 @@
    "n": 13,
    "right": 3
   },
-  "short-link": {
-   "n": 13,
-   "right": 1
-  },
   "top-header": {
    "n": 12,
    "right": 6
+  },
+  "breadcrumbs-shape": {
+   "n": 12,
+   "right": 0
   },
   "control-version": {
    "n": 12,
@@ -3116,19 +3119,15 @@
    "n": 12,
    "right": 7
   },
-  "breadcrumbs-shape": {
+  "context-related": {
    "n": 11,
-   "right": 0
+   "right": 11
   },
   "h1-heading": {
    "n": 11,
    "right": 6
   },
   "context-trending": {
-   "n": 10,
-   "right": 10
-  },
-  "context-related": {
    "n": 10,
    "right": 10
   },
@@ -3143,10 +3142,6 @@
   "bottom-footer": {
    "n": 10,
    "right": 9
-  },
-  "image-only": {
-   "n": 10,
-   "right": 7
   },
   "legal": {
    "n": 9,
@@ -3172,6 +3167,10 @@
    "n": 9,
    "right": 9
   },
+  "card-run": {
+   "n": 9,
+   "right": 3
+  },
   "frame-embed": {
    "n": 9,
    "right": 9
@@ -3196,9 +3195,9 @@
    "n": 8,
    "right": 2
   },
-  "linky-top": {
+  "image-only": {
    "n": 8,
-   "right": 0
+   "right": 6
   },
   "heading-like": {
    "n": 8,
@@ -3211,10 +3210,6 @@
   "hint-byline": {
    "n": 7,
    "right": 7
-  },
-  "reviews-run": {
-   "n": 7,
-   "right": 0
   },
   "h-trending-head": {
    "n": 7,
@@ -3248,9 +3243,17 @@
    "n": 7,
    "right": 0
   },
+  "linky-top": {
+   "n": 7,
+   "right": 0
+  },
   "references": {
    "n": 7,
    "right": 7
+  },
+  "reviews-run": {
+   "n": 6,
+   "right": 0
   },
   "h-related-head": {
    "n": 6,
@@ -3276,10 +3279,6 @@
    "n": 5,
    "right": 3
   },
-  "comments-run": {
-   "n": 5,
-   "right": 0
-  },
   "hint-share": {
    "n": 5,
    "right": 4
@@ -3287,10 +3286,6 @@
   "footer-legal": {
    "n": 5,
    "right": 0
-  },
-  "card-headed": {
-   "n": 5,
-   "right": 3
   },
   "control-share": {
    "n": 5,
@@ -3303,6 +3298,10 @@
   "hint-caption": {
    "n": 5,
    "right": 0
+  },
+  "card-covered": {
+   "n": 5,
+   "right": 2
   },
   "toc": {
    "n": 5,
@@ -3352,6 +3351,10 @@
    "n": 4,
    "right": 2
   },
+  "linky-run": {
+   "n": 4,
+   "right": 2
+  },
   "code-hint": {
    "n": 4,
    "right": 2
@@ -3367,6 +3370,10 @@
   "control-newsletter": {
    "n": 4,
    "right": 3
+  },
+  "comments-run": {
+   "n": 3,
+   "right": 0
   },
   "hint-login": {
    "n": 3,
@@ -3420,6 +3427,10 @@
    "n": 3,
    "right": 3
   },
+  "card-headed": {
+   "n": 3,
+   "right": 1
+  },
   "frame-consent": {
    "n": 3,
    "right": 3
@@ -3467,10 +3478,6 @@
   "paywall": {
    "n": 2,
    "right": 1
-  },
-  "linky-run": {
-   "n": 2,
-   "right": 0
   },
   "frame-video": {
    "n": 2,
@@ -3527,10 +3534,6 @@
   "h-related": {
    "n": 1,
    "right": 1
-  },
-  "controls-only": {
-   "n": 1,
-   "right": 0
   },
   "top-search": {
    "n": 1,

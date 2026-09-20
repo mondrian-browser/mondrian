@@ -228,6 +228,16 @@ const EXTRACT_SOURCE = `(() => {
     const t = els.map(text).join('\\n').trim();
     const q = (sel) => els.reduce((n, e) => n + e.querySelectorAll(sel).length, 0);
     const links = els.flatMap((e) => [...e.querySelectorAll('a[href]')]);
+    // Anchors that wrap the region (an ancestor) or lie over it (a descendant covering
+    // half its area): modern cards link this way, with an aria-label and no link text,
+    // so link density alone says the card has no links. Count them and keep the label.
+    const area = Math.max(1, (Math.max(r0.right, r1.right) - Math.min(r0.left, r1.left)) * (bottom - top));
+    const covering = [];
+    for (let n = first.parentElement; n && n !== document.body; n = n.parentElement) if (n.tagName === 'A' && n.href) { covering.push(n); break; }
+    const member = area / Math.max(els.length, 1);
+    for (const a of links) { const ar = a.getBoundingClientRect(); if (ar.width * ar.height >= member * 0.4) covering.push(a); }
+    for (const e of els) for (let n = e.parentElement; n && n !== document.body; n = n.parentElement) if (n.tagName === 'A' && n.href && !covering.includes(n)) { covering.push(n); break; }
+    const coverLabel = covering.map((a) => (a.getAttribute('aria-label') || a.title || '').trim()).find(Boolean);
     const linkText = links.reduce((n, a) => n + (a.textContent || '').trim().length, 0);
     const main = m.tops.length > 1 ? first : (els.find((e) => !tiny(e)) || first);
     const own = (name) => (main.getAttribute(name) || '').slice(0, 80);
@@ -262,9 +272,11 @@ const EXTRACT_SOURCE = `(() => {
         controls: q('input,textarea,select,button') + els.filter((e) => /^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(e.tagName)).length,
         paragraphs: els.filter((e) => e.tagName === 'P').length + q('p'),
         repeats: m.tops.length,
+        coverLinks: covering.length,
       },
       images: imgs.count ? imgs.list : undefined,
       frame,
+      coverLabel: coverLabel ? coverLabel.slice(0, 120) : undefined,
       linkTextRatio: t.length ? +(linkText / t.length).toFixed(2) : 0,
       geometry: {
         top: Math.round(top),
