@@ -4,6 +4,7 @@
 //   node tools/corpus/capture.js <id>...      only these ids
 //   --force                                   recapture even if a capture exists
 //   --dry                                     list what would be captured and exit
+//   --list <file.json>                        capture this list instead of pages.js
 //   --shots                                   only retake screenshots that failed; DOM and
 //                                             regions on disk are left exactly as they are
 //
@@ -32,7 +33,11 @@ const fs = require('fs');
 const path = require('path');
 const { connect, ROOT } = require('../lib/control');
 const { EXTRACT_SOURCE } = require('../label/extract');
-const { PAGES } = require('./pages');
+const LIST = (() => { const i = process.argv.indexOf('--list'); return i >= 0 ? process.argv[i + 1] : null; })();
+if (LIST) process.argv.splice(process.argv.indexOf('--list'), 2);
+// The page list: pages.js, or a JSON file of the same shape (tools/sites/solve.js
+// writes one per site it solves). Every captured page joins the corpus either way.
+const PAGES = LIST ? JSON.parse(fs.readFileSync(path.resolve(LIST), 'utf8')) : require('./pages').PAGES;
 
 const CORPUS = path.join(ROOT, 'corpus');
 const PAGES_DIR = path.join(CORPUS, 'pages');
@@ -234,11 +239,12 @@ async function reshoot(client, meta) {
 
 function writeManifest() {
   const entries = [];
-  for (const p of PAGES) {
-    const metaPath = path.join(PAGES_DIR, p.id, 'meta.json');
-    if (fs.existsSync(metaPath)) entries.push(JSON.parse(fs.readFileSync(metaPath, 'utf8')));
-    else entries.push({ id: p.id, site: p.site, kind: p.kind, tier: p.tier, captured: false });
+  const seen = new Set();
+  if (fs.existsSync(PAGES_DIR)) for (const id of fs.readdirSync(PAGES_DIR)) {
+    const metaPath = path.join(PAGES_DIR, id, 'meta.json');
+    if (fs.existsSync(metaPath)) { entries.push(JSON.parse(fs.readFileSync(metaPath, 'utf8'))); seen.add(id); }
   }
+  for (const p of PAGES) if (!seen.has(p.id)) entries.push({ id: p.id, site: p.site, kind: p.kind, tier: p.tier, captured: false });
   const captured = entries.filter((e) => e.capturedAt);
   const manifest = {
     updatedAt: new Date().toISOString(),

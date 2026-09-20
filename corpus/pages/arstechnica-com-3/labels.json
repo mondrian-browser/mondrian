@@ -1,0 +1,200 @@
+{
+ "id": "arstechnica-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T10:53:15.277Z",
+ "tier": "relayout",
+ "application": 0.11,
+ "inputTokens": 27907,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "account",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "account",
+     1
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ],
+    [
+     "site_footer",
+     0
+    ]
+   ],
+   "final": "account",
+   "block": "mixed",
+   "slot": "header"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.75,
+   "margin": 0.56,
+   "top": [
+    [
+     "site_nav",
+     0.76
+    ],
+    [
+     "site_header",
+     0.2
+    ],
+    [
+     "search",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "account",
+     0.01
+    ]
+   ],
+   "final": "site_nav",
+   "block": "links",
+   "slot": "header"
+  },
+  {
+   "index": 2,
+   "choice": "heading",
+   "confidence": 0.36,
+   "margin": 0.01,
+   "top": [
+    [
+     "heading",
+     0.38
+    ],
+    [
+     "title",
+     0.37
+    ],
+    [
+     "tabs",
+     0.22
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "vote_controls",
+     0.01
+    ]
+   ],
+   "final": "heading",
+   "block": "heading",
+   "slot": "teasers"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.75,
+   "margin": 0.63,
+   "top": [
+    [
+     "teaser_card",
+     0.76
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.08
+    ],
+    [
+     "comments",
+     0.01
+    ],
+    [
+     "tag_cloud",
+     0.01
+    ]
+   ],
+   "final": "teaser_card",
+   "block": "cards",
+   "slot": "teasers"
+  },
+  {
+   "index": 4,
+   "choice": "list",
+   "confidence": 0.59,
+   "margin": 0.47,
+   "top": [
+    [
+     "list",
+     0.6
+    ],
+    [
+     "user_card",
+     0.13
+    ],
+    [
+     "comments",
+     0.05
+    ],
+    [
+     "trending",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.04
+    ]
+   ],
+   "final": "list",
+   "block": "list",
+   "slot": "teasers"
+  },
+  {
+   "index": 5,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "hero",
+     0
+    ]
+   ],
+   "final": "site_footer",
+   "block": "prose",
+   "slot": "footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T10:53:25.152Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

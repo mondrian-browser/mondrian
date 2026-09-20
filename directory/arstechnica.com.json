@@ -1,0 +1,181 @@
+{
+ "site": "arstechnica.com",
+ "pages": 4,
+ "pageIds": [
+  "arstechnica-com-1",
+  "arstechnica-com-2",
+  "arstechnica-com-3",
+  "arstechnica-com-4"
+ ],
+ "derivedAt": "2026-09-20T10:53:25.556Z",
+ "blocks": [
+  {
+   "selector": "main article > div",
+   "type": "text",
+   "n": 50,
+   "purity": 0.96,
+   "pages": 2
+  },
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 8,
+   "purity": 0.88,
+   "pages": 3
+  },
+  {
+   "selector": "main article > article.card-grid-latest",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > article.card-grid-letterbox",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ol",
+   "type": "trending",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > article.card-grid-square",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "footer > div#copyright-terms",
+   "type": "site_footer",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > h3",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul",
+   "type": "list",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > a.post-navigation-link",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header > header#site-header",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article header > div.uppercase",
+   "type": "byline",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article header > img.intro-image",
+   "type": "image",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > a.view-comments",
+   "type": "comments",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.ars-gallery-caption",
+   "type": "gallery",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.settings-bar",
+   "type": "settings",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > img.object-cover",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > article.card-grid-wide",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > button.btn-customize",
+   "type": "settings",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.post-navigation",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h1.audfeeds_h1",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.ars-gallery-thumbnails",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure.ars-wp-img-shortcode",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}
