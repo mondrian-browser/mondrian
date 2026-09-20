@@ -17,6 +17,9 @@
   --warn:          #d9a441;
   --radius:        10px;
   --radius-sm:     7px;
+  --radius-xs:     4px;
+  --radius-pill:   16px;
+  --radius-tab:    8px;
   --topbar:        84px;
   --panel-w:       340px;
   --font: -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
@@ -68,7 +71,7 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
   min-width: 42px;
   max-width: 220px;
   padding: 0 6px 0 11px;
-  border-radius: 8px 8px 0 0;
+  border-radius: var(--radius-tab) var(--radius-tab) 0 0;
   background: transparent;
   border: none;
   color: var(--text-faint);
@@ -83,17 +86,17 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
   content: ""; position: absolute; left: 10px; right: 10px; bottom: 0; height: 2px;
   background: var(--accent); border-radius: 2px 2px 0 0;
 }
-.tab .favicon { width: 14px; height: 14px; border-radius: 3px; flex: none; opacity: .9; }
+.tab .favicon { width: 14px; height: 14px; border-radius: var(--radius-xs); flex: none; opacity: .9; }
 .tab .spinner { width: 12px; height: 12px; flex: none; border: 1.5px solid var(--line); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .tab .label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
-.tab .close { flex: none; width: 18px; height: 18px; border: none; background: none; color: inherit; border-radius: 5px; display: grid; place-items: center; opacity: 0; }
+.tab .close { flex: none; width: 18px; height: 18px; border: none; background: none; color: inherit; border-radius: var(--radius-xs); display: grid; place-items: center; opacity: 0; }
 .tab .close svg { width: 11px; height: 11px; stroke-width: 1.7; }
 .tab:hover .close, .tab.is-active .close { opacity: .55; }
 .tab .close:hover { opacity: 1; background: var(--surface-hi); }
 .tab .pill {
   flex: none; font-size: 9.5px; letter-spacing: .04em; text-transform: uppercase;
-  padding: 1px 5px; border-radius: 4px; background: var(--accent-soft); color: var(--accent);
+  padding: 1px 5px; border-radius: var(--radius-xs); background: var(--accent-soft); color: var(--accent);
 }
 
 #newtab { -webkit-app-region: no-drag; margin-bottom: 4px; }
@@ -138,7 +141,7 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
 #blocked-count {
   position: absolute; bottom: 1px; right: 0;
   min-width: 13px; height: 13px; padding: 0 3px;
-  border-radius: 7px; background: var(--good); color: var(--bg);
+  border-radius: var(--radius-pill); background: var(--good); color: var(--bg);
   font-size: 9px; font-weight: 600; line-height: 13px; text-align: center;
   font-variant-numeric: tabular-nums;
 }
@@ -151,7 +154,7 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
   height: 32px; padding: 0 12px;
   background: var(--bg-sunken);
   border: 1px solid transparent;
-  border-radius: 16px;
+  border-radius: var(--radius-pill);
   transition: border-color .14s ease, background .14s ease;
 }
 #omnibox-wrap:focus-within { border-color: var(--accent); background: var(--surface); }
@@ -169,7 +172,7 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
 
 #profile-chip {
   flex: none; font-size: 10px; letter-spacing: .04em; text-transform: uppercase;
-  padding: 2px 7px; border-radius: 5px;
+  padding: 2px 7px; border-radius: var(--radius-xs);
   background: var(--surface-hi); color: var(--text-dim);
 }
 #profile-chip[data-profile="claude"] { background: var(--accent-soft); color: var(--accent); }
@@ -191,14 +194,14 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
 #panel-tabs { display: flex; gap: 4px; padding: 0 12px 10px; border-bottom: 1px solid var(--line); }
 .panel-tab {
   border: none; background: none; color: var(--text-faint);
-  font: 11.5px/1 var(--font); padding: 5px 9px; border-radius: 6px;
+  font: 11.5px/1 var(--font); padding: 5px 9px; border-radius: var(--radius-sm);
 }
 .panel-tab:hover { color: var(--text-dim); background: var(--surface); }
 .panel-tab.is-on { background: var(--surface-hi); color: var(--text); }
 
 .panel-view { flex: 1; overflow-y: auto; padding: 10px 12px 20px; }
 .panel-view::-webkit-scrollbar { width: 9px; }
-.panel-view::-webkit-scrollbar-thumb { background: var(--surface-hi); border-radius: 5px; border: 2px solid var(--bg); }
+.panel-view::-webkit-scrollbar-thumb { background: var(--surface-hi); border-radius: var(--radius-xs); border: 2px solid var(--bg); }
 
 .empty { color: var(--text-faint); font-size: 12px; padding: 18px 4px; line-height: 1.6; }
 
@@ -242,7 +245,7 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
 #status {
   position: absolute; bottom: 0; left: 0;
   background: var(--surface); border: 1px solid var(--line); border-left: none; border-bottom: none;
-  border-radius: 0 6px 0 0; padding: 4px 10px;
+  border-radius: 0 var(--radius-sm) 0 0; padding: 4px 10px;
   font-size: 11px; color: var(--text-dim); max-width: 60%;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
