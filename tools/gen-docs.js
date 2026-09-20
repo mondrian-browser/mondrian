@@ -8,7 +8,7 @@ const path = require('path');
 const { commands } = require('../shared/commands.js');
 
 const ROOT = path.resolve(__dirname, '..');
-const OUT = path.join(ROOT, 'docs', 'project', '02-COMMANDS.md');
+const OUT = path.join(ROOT, 'docs', 'project', '03-COMMANDS.md');
 
 // Walk a zod schema down to something printable.
 function describe(schema) {

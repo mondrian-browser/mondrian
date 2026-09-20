@@ -7,10 +7,17 @@ the block is notes for Lloyd about the instructions themselves, not part of them
 ---
 
 ```
-This project is Claude Browser: a real browser (Electron 44 / Chromium) built so Claude
-can steer it deeply and Lloyd can enjoy using it. It is not an automation harness bolted
-onto someone else's browser — the interface, the network layer and the page layer are all
-ours to change at runtime.
+This project is Claude Browser. The goal is a browser where NO PAGE IS RENDERED AS SENT:
+every document is pulled apart into blocks and laid back out in the browser's own layout
+language, so the site supplies content and structure and the browser supplies the layout,
+always the same one. Tabs are the unit of composition — drag one into another and Claude
+composes a single page from both, up to four sources. 01-CONCEPT.md is the design and
+docs/concept/concept-layout.pdf is the visual reference. Read the concept before
+proposing anything, because it changes what most of the existing code is for.
+
+What exists today is the foundation, not the concept: a real browser (Electron 44 /
+Chromium) that Claude can steer deeply, with a rules engine, ad blocking, profiles and
+composed pages. The design filter is not built yet. 05-STATUS.md is the honest gap.
 
 The code lives at C:\Users\Lloyd\Documents\Claude\Projects\ClaudeBrowser on Lloyd's PC.
 The repo's CLAUDE.md is the working guide and takes precedence over anything in project
@@ -29,6 +36,14 @@ source of truth for the command set: add a command there and implement it in
 app/main/handlers.js and it becomes an MCP tool automatically. Run npm run docs after,
 so the reference regenerates.
 
+Building toward the concept: the filter sits in front of paint, never after it. Render
+then reflow would show the site's design and take it apart in view, which is the one
+thing the concept rules out. Blocks are emitted, not hidden — dropping something means
+never making a block for it, not adding display:none. Nothing is silently deleted:
+whatever the filter drops is counted and listed, one click from being shown. Sources are
+never thrown away and blocks that contradict each other are kept side by side rather than
+averaged into one claim.
+
 Testing: npm test is 86 fixture checks. npm run test:sites hits 20 live sites and
 npm run test:agent runs multi-step flows on live sites. Every bug worth fixing so far
 came from the latter two, not the fixtures — a fixture passes because it was built to.
@@ -36,7 +51,7 @@ When you change anything in app/main, run the suites before and after.
 
 HOUSE RULES
 
-Read 03-GOTCHAS.md before touching the preload, the rules engine or input handling. Six
+Read 04-GOTCHAS.md before touching the preload, the rules engine or input handling. Six
 of the bugs found so far were invisible failures — the feature looked fine while half of
 it had never run. Those are all written down; rediscovering them is a waste of a night.
 
@@ -59,7 +74,8 @@ there or clear it without asking. Use "claude" or a throwaway name for anything 
 Composed pages in pages/ are the one place X-Frame-Options and frame-ancestors are
 stripped, scoped to subframes of those files and asserted in both directions by the test
 suite. Do not widen that scope: it is the difference between a useful tool and a
-clickjacking machine.
+clickjacking machine. Note that the concept's compose:// pages are built from blocks
+rather than frames, which sidesteps this entirely — that is a point in its favour.
 
 Claude may act with Lloyd's sessions, never with his secrets. Being signed in is
 revocable and visible; a handed-over password is neither. Do not build credential storage
@@ -85,3 +101,7 @@ reasoning about what Chromium probably does.
 
 If you later split this into several projects, keep the "measure, do not assume" and the
 gotchas pointer in all of them.
+
+The instructions deliberately lead with the concept rather than the current code, because
+the risk now is a session reading the existing rules engine and assuming CSS hiding is the
+answer to everything. Under the concept it mostly is not.

@@ -1,6 +1,11 @@
 # Architecture
 
-One pass through the whole system. The code is the truth; this is the map.
+One pass through the whole system as it exists **today**. The code is the truth; this is
+the map.
+
+`01-CONCEPT.md` describes where it is going, which is a different browser: one where the
+site's layout never reaches the screen. The last section here covers where the design
+filter would sit in this structure and what it displaces.
 
 ## The shape of it
 
@@ -112,6 +117,47 @@ header stripping is scoped to subframes whose top-level document is one of them.
 test suite asserts both halves: a composed page may frame a DENY site, a normal page
 still may not.
 
+## Where the design filter would go
+
+The concept's pipeline is **parse, classify, order, lay out**, in front of paint. Mapped
+onto what exists:
+
+```
+  network                 rules.js + adblock.js       unchanged. Blocking a request is
+                                                      cheaper than classifying what it
+                                                      loaded, and it is about the network
+                                                      rather than the layout.
+        ▼
+  document-start          preload-page.js             already runs before the page paints
+                          │                           and already walks shadow DOM with
+                          │                           stable refs, which is most of what
+                          │                           a parser needs.
+                          ▼
+  PARSE + CLASSIFY        (new) block extractor       ten block types; anything that is
+                          │                           chrome, promotion or tracking gets
+                          │                           no block at all.
+                          ▼
+  ORDER + LAY OUT         (new) block renderer        the browser's own layout language.
+                          │                           The site's CSS never reaches paint.
+                          ▼
+  CACHE                   (new) per-URL block store   second visit is instant; background
+                                                      refetch when the source moved.
+```
+
+Two things this displaces, and one it does not:
+
+- **Rule `css` stops being the main mechanism for removing things.** You do not hide a
+  sidebar you never emitted a block for. Rules become per-site *correction* of the
+  classifier: escape-hatch this site, force this element into a block, this selector is
+  being misread. That is a better job for them.
+- **`page_create` is superseded by `compose://`**, which composes from blocks rather than
+  frames. That also removes the need for frame-header stripping, since nothing is framed.
+- **Ad and tracker blocking is untouched**, and `page_read`'s shadow-DOM walk and ref
+  system become the front end of the parser rather than only an agent affordance.
+
+The hard part is the classifier, not the renderer. Ten block types across the real web is
+the product; laying out ten known block types is a stylesheet. Plan effort accordingly.
+
 ## Where state lives
 
 | what | where | survives restart |
@@ -124,6 +170,7 @@ still may not.
 | filter list engine | `.runtime/adblock-engine.bin` | yes, refreshed every 72h |
 | control port and token | `.runtime/control.json` | no, written each launch |
 | logs | `.runtime/logs/` | yes |
+| block cache (planned) | per URL, `.runtime/` | yes, with background refetch |
 
 `.runtime/` is gitignored. `control.json` existing means the browser is up and ready to
 take commands — it is written last during boot for exactly that reason.

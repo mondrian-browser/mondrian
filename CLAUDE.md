@@ -4,6 +4,14 @@ A real browser (Electron 44 / Chromium) built so that Claude can steer it deeply
 Lloyd can enjoy using it. Not an automation harness bolted onto someone else's browser:
 the chrome, the network layer and the page layer are all ours to change at runtime.
 
+**Where this is going.** `docs/project/01-CONCEPT.md`, with the visual reference in
+`docs/concept/concept-layout.pdf`, describes the browser this becomes: no page rendered
+as sent, every document pulled apart into blocks and laid back out in one layout
+language, and tabs as the unit you compose with. Read it before proposing anything
+substantial, because it changes what much of the code below is for — under the concept
+you do not hide a sidebar with CSS, you never emit a block for it. `docs/project/05-STATUS.md`
+holds the honest gap between the two.
+
 ---
 
 ## 0. Start of every session
@@ -203,6 +211,23 @@ Hard-won, in the order they cost the most time. `docs/OVERNIGHT.md` has the full
   again; do not reduce that to a bare element reference.
 - **`device_commit_files` has reported success without writing.** When shipping to
   Lloyd's machine, stage the file back and compare checksums.
+
+## 8b. Building toward the concept
+
+Three rules from the design that are easy to violate by accident:
+
+- **The filter sits in front of paint.** Render-then-reflow shows the site's design and
+  then takes it apart in view, which is the single thing the concept rules out. Anything
+  that runs after first paint is the wrong place for it.
+- **Emit, do not hide.** Dropping content means never making a block for it. `display:none`
+  is the old mechanism and leaves the site's layout underneath.
+- **Nothing is silently deleted.** Whatever the filter drops is counted and listed, one
+  click from being shown. A filter that quietly eats content is not trustworthy and Lloyd
+  will not be able to tell a bug from a decision.
+
+And for composition: sources are never thrown away, every block keeps the mark of the page
+it came from, and blocks that contradict each other are kept side by side rather than
+averaged into one claim.
 
 ## 9. Known rough edges
 

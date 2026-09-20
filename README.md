@@ -4,6 +4,12 @@ A browser built from scratch so it can be steered deeply and changed quickly. El
 Chromium under the hood, every layer open: the interface is plain HTML you can restyle at
 runtime, the network layer takes per-site rules, and pages can be composed out of other pages.
 
+**Where it is going:** a design filter in front of paint, so no page is rendered as sent —
+every document pulled apart into blocks and laid back out in one layout language, with
+tabs as the unit you compose with. See `docs/project/01-CONCEPT.md` and
+`docs/concept/concept-layout.pdf`. What is in this repo today is the foundation for that,
+not the thing itself.
+
 ## Setup
 
 ```

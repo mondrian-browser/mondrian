@@ -6,24 +6,31 @@ Upload these to the Claude Project as knowledge, and paste the block inside
 | file | what it is | upload? |
 |---|---|---|
 | `00-INSTRUCTIONS.md` | the custom-instructions text, plus notes on why it says what it does | paste the block, uploading is optional |
-| `01-ARCHITECTURE.md` | the whole system in one read | yes |
-| `02-COMMANDS.md` | all 44 commands, generated from source | yes |
-| `03-GOTCHAS.md` | the expensive knowledge — read this one | yes |
-| `04-STATUS.md` | what is verified, what is not, as of today | yes |
-| `05-ROADMAP.md` | the eight things Lloyd asked for, and where each stands | yes |
-| `06-OVERNIGHT.md` | the night the six bugs were found; useful as worked examples | optional |
+| `01-CONCEPT.md` | the design filter and composition — what this is becoming | yes, first |
+| `02-ARCHITECTURE.md` | the system as built, and where the filter would sit | yes |
+| `03-COMMANDS.md` | all 44 commands, generated from source | yes |
+| `04-GOTCHAS.md` | the expensive knowledge — read this one | yes |
+| `05-STATUS.md` | what is built, what is verified, and the gap to the concept | yes |
+| `06-ROADMAP.md` | the original list, and what the concept absorbs | yes |
+| `07-OVERNIGHT.md` | the night the six bugs were found; useful as worked examples | optional |
 
-`02-COMMANDS.md` is generated. Run `npm run docs` after changing `shared/commands.js`
+Also upload `docs/concept/concept-layout.pdf`. It is the visual reference and `01-CONCEPT.md`
+is deliberately written to work without it, but the pages carry detail that prose does not.
+
+`03-COMMANDS.md` is generated. Run `npm run docs` after changing `shared/commands.js`
 and re-upload it, or it will drift from the browser.
 
 ## What to keep current
 
-`04-STATUS.md` goes stale fastest and is the most misleading when it does. Update it when
-a suite count changes, when something moves from unverified to verified, or when a rough
-edge is fixed.
+`05-STATUS.md` goes stale fastest and is the most misleading when it does. Update it when
+a suite count changes, when something moves from unverified to verified, when a rough edge
+is fixed, and as rows in the concept table move off "not started".
 
-`03-GOTCHAS.md` should only ever grow. If a night is lost to something, it belongs here
+`04-GOTCHAS.md` should only ever grow. If a night is lost to something, it belongs here
 before the fix is committed.
+
+`01-CONCEPT.md` should stay a description of the design, not a progress report. Progress
+belongs in status. If the design itself changes, change it here and say what changed.
 
 The repo's `CLAUDE.md` stays the working guide for sessions that have the code in front
 of them. This bundle is for sessions that do not — it carries what is expensive to

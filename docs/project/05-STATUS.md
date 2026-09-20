@@ -3,6 +3,37 @@
 As of 20 September 2026. Update this when the picture changes; a stale status file is
 worse than none.
 
+## Against the concept
+
+`01-CONCEPT.md` describes the browser this is meant to become. Measured against it, the
+honest position is: **the foundation is built and tested, the concept is not started.**
+
+| concept | state |
+|---|---|
+| Design filter — parse, classify, order, lay out | not started |
+| Ten block types | not started |
+| Dropped-elements index, one click from showing | not started |
+| Escape hatch per site | not started, but the rules engine is the right home for it |
+| Progressive block arrival with states | not started |
+| Block cache, instant second visit | not started |
+| The bar, six states | not started; the omnibox is a plain address bar today |
+| Answering across open tabs | possible now through the MCP tools, not wired into the bar |
+| Drag a tab onto a tab to compose | not started |
+| `compose://` pages with per-block provenance | `page_create` is a rough ancestor: it composes real sites, but by framing them, with no blocks, provenance or conflict handling |
+| Conflicts kept side by side | not started |
+| Relayout in words | not started |
+| Sources never thrown away, split back | not started |
+
+What exists underneath it and works: the Electron shell, tabs, profiles, the rules engine,
+ad and tracker blocking with scriptlets, the control socket and MCP bridge, the agent
+(read, find, act, with shadow-DOM support and refs that survive re-renders), composed
+pages by framing, and three test suites.
+
+The most reusable pieces for the concept are `preload-page.js` — it already runs before
+paint and already walks shadow DOM with stable refs, which is most of a parser's job — and
+the rules engine, whose real purpose under the concept becomes per-site correction of the
+classifier rather than hiding things with CSS.
+
 ## Versions
 
 Electron 44.4.3 (Chromium 152), Node 22, `@ghostery/adblocker` 2.18, MCP SDK 1.30,
@@ -63,6 +94,14 @@ Chrome. Nothing about a signed-in session has been checked.
 - archive.org renders nothing in the container even with blocking fully off. Environment,
   not the browser; it reads fine on Lloyd's machine.
 - Scriptlets are on by default and are the most likely thing to break a site.
+
+## Decisions the concept still needs
+
+Listed in full at the end of `01-CONCEPT.md`. The one that changes the architecture most:
+**380ms to first block is not a model round trip**, so Claude cannot be in the hot path
+for every page load. The workable shape is a deterministic classifier for the common case,
+with Claude refining hard pages and writing per-site rules that then get cached, and
+Claude fully in the loop for composition and relayout, which happen on a gesture.
 
 ## Deliberately not built
 
