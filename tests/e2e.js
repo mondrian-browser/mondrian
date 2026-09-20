@@ -171,11 +171,25 @@ function spawnApp(extraArgs = []) {
     stdio: ['ignore', 'pipe', 'pipe'],
     detached: true,
   });
-  const box = { text: '' };
+  const box = { text: '', exited: false };
   child.stdout.on('data', (d) => { box.text += d; });
   child.stderr.on('data', (d) => { box.text += d; });
-  child.on('exit', (code) => { if (code !== 0 && !KEEP) console.log(`electron exited ${code}`); });
+  child.on('exit', (code) => {
+    box.exited = true;
+    if (code !== 0 && !KEEP) console.log(`electron exited ${code}`);
+  });
   return { child, box };
+}
+
+// Wait for the process itself, not for its control.json to disappear. An instance
+// unlinks that file from its own will-quit handler, so a slow exit can delete the
+// *next* instance's file after it has been written — the suite would then sit there
+// reporting "browser never wrote control.json" against a browser that had started
+// perfectly. Only matters when one run launches twice, which is why it appears here
+// and not in the older single-launch suites.
+async function waitForExit(app, timeoutMs = 15000) {
+  shutdown(app.child);
+  return until(() => app.box.exited, { timeoutMs, everyMs: 100 });
 }
 
 // control.json appearing is the app's own signal that commands are safe to send.
@@ -260,8 +274,7 @@ class Client {
     const recovered = await dc.call('navigate', { url: base });
     check('the browser can navigate away from a failed start page', recovered.tab.url.startsWith(base), recovered.tab.url);
   }
-  shutdown(dead.child);
-  await until(async () => !fs.existsSync(CONTROL), { timeoutMs: 5000 });
+  check('the browser with a failed start page shuts down cleanly', await waitForExit(dead), dead.box.text.slice(-300));
 
   // The rest of the suite boots straight to the fixture. Booting to settings.homeUrl
   // put duckduckgo.com on the critical path of all 86 hermetic checks.

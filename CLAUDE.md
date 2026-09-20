@@ -21,7 +21,7 @@ holds the honest gap between the two.
 2. Call `status`. It launches the browser if it is not running and tells you the port,
    the open tabs, the loaded rule sets and the active profile.
 3. If you are changing the app itself (not just driving it), run `npm test` before and
-   after. It is a real end-to-end run under a headless display; 92 checks, all should pass.
+   after. It is a real end-to-end run under a headless display; 93 checks, all should pass.
    `npm run test:sites` (20 live sites) and `npm run test:agent` (multi-step flows on
    live sites) are slower, need the network, and are what actually finds things — every
    bug worth fixing so far came from one of those two rather than from the fixtures.

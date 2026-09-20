@@ -24,7 +24,7 @@ should say how that was verified.
 ## Tests
 
 ```
-npm test              # 92 fixture checks, hermetic and fast
+npm test              # 93 fixture checks, hermetic and fast
 npm run test:sites    # 20 live sites, needs network
 npm run test:agent    # multi-step flows on live sites
 ```

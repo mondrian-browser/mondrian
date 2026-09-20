@@ -12,7 +12,7 @@ Notable changes. Format loosely follows Keep a Changelog. Nothing is released ye
 - Ad and tracker blocking on EasyList and EasyPrivacy, with element hiding and scriptlet
   injection, and a toolbar shield showing per-page blocked counts.
 - Composed pages: build one page from several live sites.
-- Three test suites: 92 fixture checks, 20 live sites, and multi-step agent flows.
+- Three test suites: 93 fixture checks, 20 live sites, and multi-step agent flows.
 - `destijl` theme.
 
 ### Fixed

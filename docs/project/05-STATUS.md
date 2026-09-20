@@ -43,7 +43,7 @@ zod 3.25. CommonJS, no build step. 12 commits, 44 commands.
 
 | suite | what it is | count | last result |
 |---|---|---|---|
-| `npm test` | fixtures, hermetic, fast | 92 | all passing (Linux) |
+| `npm test` | fixtures, hermetic, fast | 93 | all passing (Linux) |
 | `npm run test:sites` | 20 live sites, whole command set on each | 20 sites | 17/17 reachable clean, 3 skipped as bot walls |
 | `npm run test:agent` | multi-step flows on live sites | 24 | all passing |
 

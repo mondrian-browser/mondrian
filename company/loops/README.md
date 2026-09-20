@@ -50,7 +50,7 @@ site suite 16 of 16 reachable sites clean with github, duckduckgo, abcnews-au an
 skipped behind bot walls. Windows coverage comes from the CI workflow on every push and
 PR, not from the cloud session.
 
-Measured again 20 Sep 2026 in a Claude Code routine container: **92 passed, 0 failed**,
+Measured again 20 Sep 2026 in a Claude Code routine container: **93 passed, 0 failed**,
 with no network at all. Until that run the suite booted the browser to
 `settings.homeUrl`, so a container whose proxy refuses `CONNECT duckduckgo.com` could not
 run a single check — the whole suite died with `browser never wrote control.json`. If you
