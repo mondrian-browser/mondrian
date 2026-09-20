@@ -24,6 +24,7 @@ const { classifyAll, RULES } = require('./heuristic');
 const { loadPages, ROOT } = require('./corpus');
 const { BLOCK_TYPES } = require('../label/questions');
 const { deriveAxes } = require('../label/axes');
+const { dispositionOf } = require('../label/disposition');
 
 const OUT_DIR = path.join(ROOT, 'corpus', 'scorecard');
 
@@ -34,6 +35,8 @@ const TYPE = flag('--type');
 const PAGE = flag('--page');
 const has = (n) => { const i = argv.indexOf(n); if (i < 0) return false; argv.splice(i, 1); return true; };
 
+const pad = (s, n) => { s = String(s ?? ''); return s.length >= n ? s.slice(0, n) : s + ' '.repeat(n - s.length); };
+const pctOf = (a, n) => n ? (100 * a / n).toFixed(1) + '%' : '-';
 const STACK = has('--stack');
 const BLEND = Number(flag('--blend') || 0.7);
 
@@ -76,8 +79,41 @@ if (STACK) {
   if (oof) console.log(`  trees then rules       ${pct(tally.stackNoDir)}`);
   console.log(`  directory              covers ${pct(tally.dirCovered)}, right where covered ${(100 * tally.dirRight / Math.max(tally.dirCovered, 1)).toFixed(1)}%`);
   console.log(`  directory, trees, rules  ${pct(tally.stack)}`);
+
+  // Keep / demote / drop: the decision that has to be right. Scored for the rules, the
+  // stack, and a conservative stack that only drops on a directory hit or a confident
+  // tree call and demotes every other drop.
+  const dispo = { rules: newDispo(), stack: newDispo(), conservative: newDispo() };
+  for (const p of pages) {
+    const others = bySite[p.site].filter((q) => q !== p);
+    const blocks = others.length ? derive(others) : [];
+    for (const a of p.labels) {
+      const id = `${p.id}:${a.index}`;
+      const truth = dispositionOf(a.final);
+      const rule = calls.get(id).type;
+      const o = oof && oof.calls[id];
+      const dir = blocks.length ? lookup(blocks, p.regions[a.index]) : null;
+      const tree = o && o.conf >= BLEND ? o.type : null;
+      const stackCall = dir || tree || rule;
+      let cons = dispositionOf(stackCall);
+      if (cons === 'drop' && !dir && !(o && o.conf >= 0.8 && o.type === stackCall)) cons = 'demote';
+      count(dispo.rules, truth, dispositionOf(rule));
+      count(dispo.stack, truth, dispositionOf(stackCall));
+      count(dispo.conservative, truth, cons);
+    }
+  }
+  console.log(`\nKEEP / DEMOTE / DROP  (truth by row: keep ${dispo.rules.rows.keep}, demote ${dispo.rules.rows.demote}, drop ${dispo.rules.rows.drop})`);
+  console.log(`  ${pad('', 14)} ${pad('agree', 8)} ${pad('content lost', 14)} ${pad('chrome leaked', 14)} ${pad('kept as chrome', 16)}`);
+  for (const [name, d] of Object.entries(dispo)) {
+    if (name !== 'rules' && !oof) continue;
+    console.log(`  ${pad(name, 14)} ${pad(pctOf(d.agree, tally.n), 8)} ${pad(pctOf(d.m.keep.drop, d.rows.keep), 14)} ${pad(pctOf(d.m.drop.keep, d.rows.drop), 14)} ${pad(pctOf(d.m.keep.demote, d.rows.keep), 16)}`);
+  }
+  console.log(`  content lost = keep regions called drop; chrome leaked = drop regions called keep; kept as chrome = keep regions called demote (visible, just out of the column)`);
   process.exit(0);
 }
+function newDispo() { const m = {}; for (const a of ['keep', 'demote', 'drop']) { m[a] = { keep: 0, demote: 0, drop: 0 }; } return { m, rows: { keep: 0, demote: 0, drop: 0 }, agree: 0 }; }
+function count(d, truth, call) { d.m[truth][call]++; d.rows[truth]++; if (truth === call) d.agree++; }
+
 
 // ---------------------------------------------------------------- classify and score
 const calls = classifyAll(pages);
@@ -156,7 +192,6 @@ if (!PAGE && !TYPE) {
 }
 
 // ---------------------------------------------------------------- print
-const pad = (s, n) => { s = String(s ?? ''); return s.length >= n ? s.slice(0, n) : s + ' '.repeat(n - s.length); };
 const pct = (x) => (100 * x).toFixed(1) + '%';
 const delta = (a, b) => b == null ? '' : ` (${a - b >= 0 ? '+' : ''}${(100 * (a - b)).toFixed(1)})`;
 

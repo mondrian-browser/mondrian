@@ -338,6 +338,16 @@ limit more than the data. The final model, trained on every site, is
 `corpus/model/gbt.json` (gitignored; `npm run classify:train -- --final` remakes it in
 ten minutes).
 
+**B6.7 Keep, demote, drop.** The decision that has to be right is not the fine type but
+what the filter does with the region. `tools/label/disposition.js` gives every type a
+default: keep (content), demote (visible, out of the column) or drop (not emitted, counted,
+one click away). `npm run classify -- --stack` scores it: full stack agrees on 90.3%;
+**content lost 0.5%, and 0.1% with the conservative policy** (drop only on a directory hit
+or a tree call at 0.8 confidence, else demote); chrome leaked 30%; content demoted 3.5%.
+Lloyd asked whether 99% was necessary or possible: on the fine type neither (Jev itself
+is 84% against a human); on keep-versus-drop it is reached. The 30% leaked chrome is the
+next target and is harmless in the meantime.
+
 Where the rest of the accuracy is, in order:
 - **Runtime.** None of this runs in the browser yet. Milestone 2's first job: the
   preload applies the site's directory entry at document-start, the trees (a 3 MB
