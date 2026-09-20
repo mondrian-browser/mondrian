@@ -81,7 +81,7 @@ describe them. Owns `NEXT.md` progress, not `NEXT.md` order.
 Triggers:
 - an unchecked item in `NEXT.md` that is not blocked and not marked for Lloyd
 - the fixture suite failing on main
-- an open engineering PR with a review comment from Lloyd
+- an engineering PR that Lloyd has labelled `changes-requested` (fires within a minute)
 
 Does alone: branches, code, tests with negative cases, ADRs for expensive decisions, PRs
 with the evidence CONTRIBUTING asks for, `npm run docs`, marking NEXT items done in the

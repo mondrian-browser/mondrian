@@ -18,10 +18,14 @@ author name to say which role made the commit.
 
 | routine | prompt | triggers |
 |---|---|---|
-| Mondrian engineering | `engineering.md` | daily; GitHub pull_request (review comments on `claude/eng-*` branches) |
-| Mondrian design | `design.md` | daily |
-| Mondrian marketing | `marketing.md` | daily; GitHub release published |
-| Mondrian operations | `operations.md` | daily |
+| Mondrian engineering | `engineering.md` | daily 03:00; GitHub pull_request labeled `changes-requested`; auto-fix on for its own PRs |
+| Mondrian design | `design.md` | daily 04:00 |
+| Mondrian marketing | `marketing.md` | daily 05:00; GitHub release published |
+| Mondrian operations | `operations.md` | daily 06:00 |
+
+To wake engineering on a PR without waiting for 3am: leave your review comment, then add
+the label `changes-requested` to the PR. Auto-fix is also on for PRs engineering opens, so
+CI failures and review comments on those get picked up by the platform itself.
 
 Rules the platform imposes:
 
