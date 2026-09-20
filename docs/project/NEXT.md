@@ -318,10 +318,40 @@ blend is worth two. That is a corpus-size curve and it has not flattened. The ne
 growth batch (another 50 sites, plus Lloyd's own) is the cheapest accuracy left: an
 hour of machine time and a dollar of Jev.
 
-What the stack would give today on a solved site: the directory where it covers (94%
-right), the blend where it does not (65%), roughly 76% of regions right overall,
-against 63% from the rules alone. Runtime consumption of directory entries is
-milestone 2's first job.
+**B6.6 Second growth, 21 Sep 2026: 186 sites, 22,349 regions.** `growth-2.txt`, 100
+sites in two and a half hours, $2 of Jev. The trees crossed the rules:
+
+| sites | rules | trees alone | blend | stack (directory, trees, rules) |
+|---|---|---|---|---|
+| 45 | 68.8% | 49.7% | 69.0% | — |
+| 86 | 63.1% | 60.0% | 65.0% | — |
+| 186 | 60.8% | 63.0% | 65.3% | 73.9% |
+| 186, + bag of words | 60.8% | **64.6%** | **66.6%** | **74.8%** |
+
+All 4-fold by site; the stack is scored per region with each part judged only on
+pages it did not learn from (`npm run classify -- --stack`, from `train.js --cv`'s
+out-of-fold calls and directory entries derived from each site's other pages). The
+bag of words is 256 hashed text-token buckets and 128 class-token buckets in
+`vectors.js`, so the trees see words the hint lists never named. Gains per doubling
+of sites: +10, then +3; the words were worth +1.6 on top. The features are now the
+limit more than the data. The final model, trained on every site, is
+`corpus/model/gbt.json` (gitignored; `npm run classify:train -- --final` remakes it in
+ten minutes).
+
+Where the rest of the accuracy is, in order:
+- **Runtime.** None of this runs in the browser yet. Milestone 2's first job: the
+  preload applies the site's directory entry at document-start, the trees (a 3 MB
+  JSON of split thresholds, evaluable in the preload with no dependency) for the rest,
+  the rules under both.
+- **Better regions.** The extractor still lumps some things (a `<br><br>` essay is one
+  region, GitHub's repo header is one lump) and splits others; the classifier cannot
+  beat the regions it is given.
+- **Labels.** 22,000 regions, 3,300 reviewed. Flagged regions of the grown corpus
+  (about 14%) are Jev's choice unreviewed; reviewing them, or relabelling with a
+  sharpened `questions.js` (B2's notes), lifts the ceiling for everything trained on
+  them.
+- **More sites.** Still worth it, especially Lloyd's own, and any category the corpus
+  is thin on (applications, non-English, forums behind bot walls).
 
 Lloyd's own sites are still the missing input: twenty he uses, one per line, through
 `node tools/sites/solve.js --file`.

@@ -16,6 +16,11 @@ const TAGS = ['div', 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 
 const LANDMARKS = ['', 'header', 'nav', 'main', 'article', 'section', 'aside', 'footer', 'form', 'dialog', 'role=banner', 'role=navigation', 'role=main', 'role=contentinfo', 'role=complementary', 'role=search', 'role=form', 'role=dialog', 'role=region'];
 const TYPES = Object.keys(BLOCK_TYPES);
 const RULE_NAMES = RULES.map(([name]) => name);
+// Hashed bags of words: the region's text tokens and its class/id/aria tokens, each
+// into a fixed number of buckets, so the trees can learn from words the hint lists
+// never named. Feature hashing keeps the vector fixed-width without a vocabulary.
+const TEXT_BUCKETS = 256, HINT_BUCKETS = 128;
+function hash(str) { let h = 2166136261; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
 
 const NUMERIC = ['len', 'ltr', 'links', 'images', 'headings', 'items', 'rows', 'controls', 'paragraphs', 'repeats', 'words', 'commas', 'sentences', 'avgLine', 'capsWords', 'top', 'height', 'pos', 'index', 'repeatPages', 'repeatFrac', 'pagesOfSite'];
 const BOOLS = ['run', 'bigImage', 'iconsOnly', 'inHeader', 'inFooter', 'inNav', 'inMain', 'inAside', 'inForm', 'inDialog', 'inSearch', 'aboveFold', 'wide', 'narrow', 'first', 'lastRegion', 'repeated', 'short', 'tiny', 'prose', 'linky', 'actionWord', 'firstProse', 'prevTitleish'];
@@ -33,6 +38,8 @@ function names() {
   for (const l of LANDMARKS) out.push(`lm:${l || 'none'}`);
   for (const r of RULE_NAMES) out.push(`rule:${r}`);
   for (const t of TYPES) out.push(`heur:${t}`);
+  for (let i = 0; i < TEXT_BUCKETS; i++) out.push(`w:${i}`);
+  for (let i = 0; i < HINT_BUCKETS; i++) out.push(`c:${i}`);
   return out;
 }
 
@@ -73,6 +80,11 @@ function vectorize(page, i, index) {
   set(v, `lm:${LANDMARKS.includes(f.last) ? f.last || 'none' : 'none'}`, 1);
   set(v, `rule:${call.rule}`, 1);
   set(v, `heur:${call.type}`, 1);
+  const wBase = INDEX.get('w:0'), cBase = INDEX.get('c:0');
+  const words = (f.lower.match(/[a-zÀ-ɏ]{2,}/g) || []).slice(0, 200);
+  for (const w of words) v[wBase + hash(w) % TEXT_BUCKETS] += 1;
+  if (words.length) for (let i = 0; i < TEXT_BUCKETS; i++) v[wBase + i] /= words.length;
+  for (const t of (f.hint.match(/[a-z]{3,}/g) || [])) v[cBase + hash(t) % HINT_BUCKETS] = 1;
   return { v, call };
 }
 
