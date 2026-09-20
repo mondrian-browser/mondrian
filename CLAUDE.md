@@ -16,7 +16,8 @@ holds the honest gap between the two.
 
 ## 0. Start of every session
 
-1. Read `MEMORY.md` if present, then this file.
+1. Read `MEMORY.md` if present, then this file, then **`docs/project/NEXT.md`**, which is
+   the current ordered work list and the one file to trust about what to do next.
 2. Call `status`. It launches the browser if it is not running and tells you the port,
    the open tabs, the loaded rule sets and the active profile.
 3. If you are changing the app itself (not just driving it), run `npm test` before and

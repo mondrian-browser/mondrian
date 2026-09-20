@@ -4,7 +4,12 @@ Decisions taken, the order of work, and what would make each stage fail. Written
 argued with rather than followed.
 
 **Settled so far.** Deterministic core with Claude optional and easy to plug in. Windows
-first. First milestone is proving the classifier on 50 real sites. Licence undecided.
+first. Apache-2.0, free and open (ADR 0007). First milestone is proving the classifier on
+50 real sites, in the order set out below: rules first, measurement second, model only if
+the measurement says so (ADR 0010).
+
+The licence section below is kept as the record of how that call was made. It is settled;
+do not reopen it without a new ADR.
 
 ---
 
@@ -73,25 +78,60 @@ recipe, a PDF-in-a-viewer, a single-page app, a paywalled article, a cookie-wall
 and a few deliberately awful ones. Include at least five pages from sites that are
 genuinely applications, because the escape hatch needs testing too.
 
+### The order of work, and why it is this order
+
+Five steps. Each one can kill the milestone, and they are arranged so the cheapest
+killer fires first.
+
+**1.1 Capture the corpus.** 50 pages, several pages per site, stored as serialised DOM so
+the loop is milliseconds rather than minutes. Capture through Mondrian, not `curl`, or the
+corpus misses everything that renders client-side. Multiple pages per site is not
+optional: cross-page repetition is the strongest chrome signal available and 1.3 depends
+on it.
+
+**1.2 Label it.** Ten block types per region, on every page. This is the step most likely
+to stall the milestone, so do not do it by hand. Jev answers exactly this question and
+reports how sure it is, so it labels in bulk and you review only the cases it flags. An
+afternoon of checking rather than a week of typing. ADR 0009 records why Jev labels the
+corpus but never runs on page load.
+
+While it runs, keep the score. Nobody has published how well a decision model does
+ten-way block typing on real pages, and by the time you have finished reviewing you will
+know. TypeSafe's 76% is on unrelated generic tasks and Brave's 91% is an easier binary
+question, so neither number transfers.
+
+**1.3 Build the heuristic baseline.** Structural scoring only, no model: semantic HTML and
+ARIA, cross-page repetition, link density, text-to-markup ratio, geometry from the
+preload. Mozilla Readability (Apache-2.0) and Postlight Parser (MIT) encode years of this
+and are to be read before anything is reinvented. Neither emits typed blocks, which is
+the genuinely new part.
+
+**1.4 Score it and read the failures.** Not just the headline number. Which types get
+confused with which, and whether the confusions make sense. This is where the real risk
+surfaces, and it is not the one people expect: the likely failure is not that accuracy is
+too low, it is that **the ten types do not carve real pages at the joints**. A heuristic
+that cannot separate two types shows you the feature values and therefore the reason. A
+model would give you a slightly better number and no explanation, and you would spend
+weeks collecting more data for a taxonomy problem.
+
+**1.5 Then decide, and only then.** The failure analysis says which of three it is.
+Heuristics are close, so write per-site rules for the tail and move to milestone 2.
+Heuristics are weak but the types are sound, so train a classifier on the labels from 1.2.
+The types themselves do not hold, so revise the taxonomy and repeat from 1.3.
+
+If it is the training branch, the default should not be a language model. The task is
+classification over structural features, so gradient boosted trees train on a few thousand
+examples, run in single-digit milliseconds, ship as kilobytes, and can state which feature
+decided a call. That last property is not a nicety. The concept promises nothing is
+silently deleted and that a user can tell a bug from a decision, and an unexplainable
+classifier cannot keep that promise in software whose job is discarding parts of pages.
+
 ### Decide what "right" means before measuring
 
-This is the part that gets skipped and then poisons everything. Two levels:
+Two levels, both defined before any number is quoted.
 
-**Hand-labelled ground truth on 10 pages.** Tedious, and the thing most likely to stall
-this milestone. For each page, write down what the blocks should be.
-
-TypeSafe's Jev can carry most of this: Choice over the ten block types returns a decision
-with confidence, so it can label the corpus in bulk and route only the low-confidence
-cases to you for review. Days of labelling becomes an afternoon of checking. Doing it
-this way also produces the measurement in the next paragraph for free, and ADR 0009
-records why it stays out of the page-load path.
-
-**Measure the decision model while you are there.** Running Jev over the same corpus
-tells you how well a decision model does this specific task. Nobody has published that
-number: TypeSafe's 76% is on generic workflow evaluations, and Brave's 91% is on a binary
-readability question, which is easier than ten-way typing. If Jev turns out to be strong
-here, it changes what the heuristics have to carry and is worth knowing early. If it is
-weak, that is worth knowing earlier still.
+**Ground truth from 1.2** is the labelled corpus, and per-type precision and recall
+against it is the real measure.
 
 **Proxy metrics on all 50**, cheap enough to run on every change:
 
@@ -104,32 +144,26 @@ weak, that is worth knowing earlier still.
 | Did anything get silently lost? | kept + dropped = total, always |
 | Escape hatch correctness | apps escape, articles do not |
 
-The last two are the ones that protect the concept's promises, so they are assertions,
-not metrics: kept plus dropped must always equal total, and an article must never escape
-to raw.
+The last two protect the concept's promises, so they are assertions rather than metrics:
+kept plus dropped must always equal total, and an article must never escape to raw.
 
-### Classify with signals, not a model
+### Why not a model in the hot path
 
-The 380ms budget rules out a model in the hot path. In rough order of power:
+The 380ms budget rules it out, and so does every other consideration. ADR 0009 has the
+full reasoning for the hosted case. The short version: a hosted classifier sends every
+page you read to a third party, needs an account and a network before anything renders,
+and cannot fit the budget from Australia where a round trip alone costs 200ms. A local
+classifier removes all three objections, which is why 1.5 leaves that door open.
 
-- **Semantic HTML and ARIA.** `article`, `nav`, `table`, `figure`, `role=main`. Free and
-  often correct on sites that care.
-- **Repetition across pages of the same site.** The strongest chrome signal there is: a
-  region that appears identically on three pages of a site is navigation, header or
-  footer. Needs the corpus to hold several pages per site, so plan for that now.
-- **Link density and text-to-markup ratio.** Classic Readability heuristics, well
-  understood, MIT/Apache prior art to read rather than reinvent.
-- **Geometry.** The preload has layout information the DOM alone does not: what is
-  actually visible, what is fixed-position, what is off-screen.
-- **Per-site rules.** The existing rules engine, doing the job it is actually suited to:
-  correcting the classifier where heuristics lose.
-- **Claude, offline.** Not on page load. Claude looks at pages the heuristics scored
-  badly, and writes per-site rules that then ship or cache. This is the right use of a
-  model here: improving the deterministic path rather than standing in it.
+There is one more reason the hot path stays deterministic regardless: **per-template
+caching**. Sites keep their shape between visits, so classify a template once, cache it,
+and almost every load is a cache lookup with no classifier at all. That makes classifier
+speed close to irrelevant and classifier correctness everything, which is the opposite of
+how this problem is usually framed.
 
-Prior art worth reading before writing: Mozilla Readability (Apache-2.0), Postlight
-Parser (MIT). Neither gives typed blocks, which is the new part, but both encode years of
-learning about what counts as content.
+**Claude, offline** remains the right use of a model here: look at pages the heuristics
+scored badly and write per-site rules that then ship or cache. Improving the deterministic
+path rather than standing in it.
 
 ### Deliverable
 
