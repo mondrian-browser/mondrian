@@ -17,6 +17,7 @@ const fs = require('fs');
 const path = require('path');
 const { REVIEW_BELOW } = require('./questions');
 const { POLICIES } = require('./policies');
+const { deriveAxes } = require('./axes');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const PAGES_DIR = path.join(ROOT, 'corpus', 'pages');
@@ -127,11 +128,14 @@ function apply(file) {
         if (t && t !== a.final) { a.final = t; a.policy = name; policed++; break; }
       }
     }
+    // Then the two axes (axes.js) from the finals, in page order.
+    const axes = deriveAxes(regions, labels.regions.map((a) => a.final));
+    labels.regions.forEach((a, k) => { a.block = axes[k].block; a.slot = axes[k].slot; });
     labels.reviewedAt = new Date().toISOString();
     labels.reviewFile = path.relative(ROOT, file).split(path.sep).join('/');
     fs.writeFileSync(lf, JSON.stringify(labels, null, 1));
   }
-  console.log(`applied ${judged} judgements, ${corrected} labels corrected, ${policed} changed by policy; every region now has final`);
+  console.log(`applied ${judged} judgements, ${corrected} labels corrected, ${policed} changed by policy; every region now has final, block and slot`);
 }
 
 // ---------------------------------------------------------------- run

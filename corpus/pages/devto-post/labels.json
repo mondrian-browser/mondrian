@@ -35,6 +35,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "header",
    "final": "site_header"
   },
   {
@@ -64,6 +66,8 @@
      0.03
     ]
    ],
+   "block": "prose",
+   "slot": "comments",
    "final": "reactions"
   },
   {
@@ -93,6 +97,8 @@
      0.01
     ]
    ],
+   "block": "media",
+   "slot": "comments",
    "final": "image"
   },
   {
@@ -122,6 +128,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "byline",
    "final": "byline"
   },
   {
@@ -151,6 +159,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "comments",
    "final": "reactions"
   },
   {
@@ -180,6 +190,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "tags",
    "final": "title"
   },
   {
@@ -209,6 +221,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "tags",
    "final": "tag_cloud"
   },
   {
@@ -238,6 +252,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "final": "text"
   },
   {
@@ -267,6 +283,8 @@
      0
     ]
    ],
+   "block": "code",
+   "slot": "article",
    "final": "code"
   },
   {
@@ -296,6 +314,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "final": "text"
   },
   {
@@ -325,6 +345,8 @@
      0
     ]
    ],
+   "block": "code",
+   "slot": "article",
    "final": "code"
   },
   {
@@ -354,6 +376,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "final": "text"
   },
   {
@@ -383,6 +407,8 @@
      0.02
     ]
    ],
+   "block": "code",
+   "slot": "article",
    "final": "code"
   },
   {
@@ -412,6 +438,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "final": "text"
   },
   {
@@ -441,6 +469,8 @@
      0.02
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "final": "text"
   },
   {
@@ -470,6 +500,8 @@
      0.02
     ]
    ],
+   "block": "thread",
+   "slot": "comments",
    "final": "comments"
   },
   {
@@ -499,6 +531,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "form",
    "final": "form"
   },
   {
@@ -528,6 +562,8 @@
      0.01
     ]
    ],
+   "block": "thread",
+   "slot": "comments",
    "review": "ok",
    "final": "comments"
   },
@@ -558,6 +594,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "comments",
    "review": "either",
    "final": "text"
   },
@@ -588,6 +626,8 @@
      0.02
     ]
    ],
+   "block": "controls",
+   "slot": "comments",
    "review": "ok",
    "final": "reactions"
   },
@@ -618,6 +658,8 @@
      0
     ]
    ],
+   "block": "mixed",
+   "slot": "tools",
    "review": "ok",
    "final": "page_tools"
   },
@@ -648,6 +690,8 @@
      0.01
     ]
    ],
+   "block": "prose",
+   "slot": "promo",
    "review": "either",
    "final": "cross_promo"
   },
@@ -678,6 +722,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "comments",
    "review": "either",
    "final": "user_card"
   },
@@ -708,9 +754,11 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "footer",
    "final": "site_footer"
   }
  ],
- "reviewedAt": "2026-09-20T09:45:23.289Z",
+ "reviewedAt": "2026-09-20T10:41:51.164Z",
  "reviewFile": "tools/label/judgements/corpus-all.json"
 }

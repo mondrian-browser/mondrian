@@ -35,6 +35,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "header",
    "final": "skip_link"
   },
   {
@@ -64,6 +66,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "header",
    "final": "site_nav"
   },
   {
@@ -93,6 +97,8 @@
      0
     ]
    ],
+   "block": "mixed",
+   "slot": "header",
    "final": "site_header"
   },
   {
@@ -122,6 +128,8 @@
      0.03
     ]
    ],
+   "block": "links",
+   "slot": "header",
    "review": "either",
    "final": "site_nav"
   },
@@ -152,6 +160,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "final": "related"
   },
   {
@@ -181,6 +191,8 @@
      0.02
     ]
    ],
+   "block": "list",
+   "slot": "nav",
    "final": "filters"
   },
   {
@@ -210,6 +222,8 @@
      0.01
     ]
    ],
+   "block": "heading",
+   "slot": "nav",
    "review": "ok",
    "final": "heading"
   },
@@ -240,6 +254,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "tools",
    "final": "action_button"
   },
   {
@@ -269,6 +285,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "nav",
    "final": "filters"
   },
   {
@@ -298,6 +316,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "listing",
    "final": "product_card"
   },
   {
@@ -327,6 +347,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "nav",
    "final": "filters"
   },
   {
@@ -356,6 +378,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "listing",
    "final": "product_card"
   },
   {
@@ -385,6 +409,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "review": "ok",
    "final": "related"
   },
@@ -415,6 +441,8 @@
      0.04
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "review": "unsure",
    "final": "related"
   },
@@ -445,9 +473,11 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "footer",
    "final": "site_footer"
   }
  ],
- "reviewedAt": "2026-09-20T09:45:23.291Z",
+ "reviewedAt": "2026-09-20T10:41:51.166Z",
  "reviewFile": "tools/label/judgements/corpus-all.json"
 }

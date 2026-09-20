@@ -35,6 +35,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "header",
    "final": "site_header"
   },
   {
@@ -64,6 +66,8 @@
      0.01
     ]
    ],
+   "block": "controls",
+   "slot": "header",
    "review": "ok",
    "final": "account"
   },
@@ -94,6 +98,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "header",
    "final": "site_nav"
   },
   {
@@ -123,6 +129,8 @@
      0.02
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -152,6 +160,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "nav",
    "final": "tabs"
   },
   {
@@ -181,6 +191,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -210,6 +222,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -239,6 +253,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -268,6 +284,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -297,6 +315,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -326,6 +346,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -355,6 +377,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -384,6 +408,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "nav",
    "review": "either",
    "final": "pagination"
   },
@@ -414,6 +440,8 @@
      0.08
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "review": "wrong",
    "final": "related"
   },
@@ -444,6 +472,8 @@
      0.04
     ]
    ],
+   "block": "heading",
+   "slot": "page",
    "review": "either",
    "final": "heading"
   },
@@ -474,6 +504,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "promo",
    "final": "subscribe"
   },
   {
@@ -503,6 +535,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "footer",
    "final": "site_footer"
   },
   {
@@ -532,9 +566,11 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "footer",
    "final": "site_footer"
   }
  ],
- "reviewedAt": "2026-09-20T09:45:23.339Z",
+ "reviewedAt": "2026-09-20T10:41:51.219Z",
  "reviewFile": "tools/label/judgements/corpus-all.json"
 }

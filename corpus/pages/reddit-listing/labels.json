@@ -35,6 +35,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "header",
    "final": "site_header"
   },
   {
@@ -64,6 +66,8 @@
      0.05
     ]
    ],
+   "block": "heading",
+   "slot": "header",
    "final": "site_header"
   },
   {
@@ -93,6 +97,8 @@
      0.01
     ]
    ],
+   "block": "mixed",
+   "slot": "nav",
    "final": "filters"
   },
   {
@@ -122,6 +128,8 @@
      0.01
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "review": "ok",
    "final": "teaser_card"
   },
@@ -152,6 +160,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -181,6 +191,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -210,6 +222,8 @@
      0.02
     ]
    ],
+   "block": "empty",
+   "slot": "article",
    "final": "decoration"
   },
   {
@@ -239,6 +253,8 @@
      0
     ]
    ],
+   "block": "pairs",
+   "slot": "nav",
    "final": "infobox"
   },
   {
@@ -268,6 +284,8 @@
      0.07
     ]
    ],
+   "block": "links",
+   "slot": "nav",
    "review": "ok",
    "final": "section_nav"
   },
@@ -298,6 +316,8 @@
      0.01
     ]
    ],
+   "block": "heading",
+   "slot": "page",
    "final": "heading"
   },
   {
@@ -327,6 +347,8 @@
      0.03
     ]
    ],
+   "block": "list",
+   "slot": "page",
    "final": "list"
   },
   {
@@ -356,6 +378,8 @@
      0.05
     ]
    ],
+   "block": "heading",
+   "slot": "promo",
    "review": "ok",
    "final": "heading"
   },
@@ -386,6 +410,8 @@
      0.04
     ]
    ],
+   "block": "list",
+   "slot": "promo",
    "review": "either",
    "final": "cross_promo"
   },
@@ -416,6 +442,8 @@
      0.01
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "final": "related"
   },
   {
@@ -445,6 +473,8 @@
      0.06
     ]
    ],
+   "block": "list",
+   "slot": "promo",
    "review": "ok",
    "final": "list"
   },
@@ -475,6 +505,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "footer",
    "final": "site_footer"
   },
   {
@@ -504,6 +536,8 @@
      0.04
     ]
    ],
+   "block": "media",
+   "slot": "footer",
    "review": "ok",
    "final": "image"
   },
@@ -534,6 +568,8 @@
      0.03
     ]
    ],
+   "block": "prose",
+   "slot": "form",
    "review": "ok",
    "final": "login_form"
   },
@@ -564,6 +600,8 @@
      0
     ]
    ],
+   "block": "mixed",
+   "slot": "form",
    "review": "ok",
    "final": "login_form"
   },
@@ -594,10 +632,12 @@
      0.04
     ]
    ],
+   "block": "prose",
+   "slot": "footer",
    "review": "ok",
    "final": "legal_notice"
   }
  ],
- "reviewedAt": "2026-09-20T09:45:23.322Z",
+ "reviewedAt": "2026-09-20T10:41:51.199Z",
  "reviewFile": "tools/label/judgements/corpus-all.json"
 }

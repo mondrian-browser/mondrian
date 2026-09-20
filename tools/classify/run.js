@@ -22,6 +22,7 @@ const path = require('path');
 const { classifyAll, RULES } = require('./heuristic');
 const { loadPages, ROOT } = require('./corpus');
 const { BLOCK_TYPES } = require('../label/questions');
+const { deriveAxes } = require('../label/axes');
 
 const OUT_DIR = path.join(ROOT, 'corpus', 'scorecard');
 
@@ -38,12 +39,14 @@ const pages = loadPages();
 const calls = classifyAll(pages);
 const rows = [];
 for (const p of pages) {
+  // The two axes from the calls, derived exactly as the labels' axes were.
+  const axes = deriveAxes(p.regions, p.regions.map((_, i) => calls.get(`${p.id}:${i}`).type));
   for (const a of p.labels) {
     const r = p.regions[a.index];
-    const call = calls.get(`${p.id}:${a.index}`);
+    const call = { ...calls.get(`${p.id}:${a.index}`), ...axes[a.index] };
     const acceptable = new Set([a.final]);
     if (a.review === 'either' && a.top[1]) acceptable.add(a.top[1][0]);
-    rows.push({ id: `${p.id}:${a.index}`, page: p.id, site: p.site, split: p.split, r, a, call, strict: call.type === a.final, lenient: acceptable.has(call.type) });
+    rows.push({ id: `${p.id}:${a.index}`, page: p.id, site: p.site, split: p.split, r, a, call, strict: call.type === a.final, lenient: acceptable.has(call.type), blockOk: call.block === a.block, slotOk: call.slot === a.slot, axesOk: call.block === a.block && call.slot === a.slot });
   }
 }
 
@@ -71,7 +74,10 @@ function score(list) {
   // Macro F1 over types that occur at least 5 times, so rare types do not swing it.
   const common = Object.values(types).filter((t) => t.n >= 5);
   const macroF1 = common.length ? +(common.reduce((s, t) => s + t.f1, 0) / common.length).toFixed(3) : 0;
-  return { regions: n, strict: +(strict / n).toFixed(3), lenient: +(lenient / n).toFixed(3), macroF1, types };
+  const blockOk = list.filter((x) => x.blockOk).length, slotOk = list.filter((x) => x.slotOk).length, axesOk = list.filter((x) => x.axesOk).length;
+  const slots = {};
+  for (const x of list) { const s = slots[x.a.slot] = slots[x.a.slot] || { n: 0, ok: 0 }; s.n++; if (x.slotOk) s.ok++; }
+  return { regions: n, strict: +(strict / n).toFixed(3), lenient: +(lenient / n).toFixed(3), macroF1, block: +(blockOk / n).toFixed(3), slot: +(slotOk / n).toFixed(3), axes: +(axesOk / n).toFixed(3), types, slots };
 }
 
 const all = score(rows);
@@ -127,11 +133,13 @@ if (TYPE) {
 }
 
 console.log(`SCORECARD  ${card.at.slice(0, 16)}  ${pages.length} pages, ${card.sites} sites, ${rows.length} regions, ${RULES.length} rules`);
-console.log(`           strict          lenient         macro-F1 (types with n>=5)`);
-const line = (name, s, prev) => console.log(`${pad(name, 10)} ${pad(pct(s.strict) + delta(s.strict, prev && prev.strict), 16)}${pad(pct(s.lenient) + delta(s.lenient, prev && prev.lenient), 16)}${s.macroF1}${prev ? delta(s.macroF1, prev.macroF1) : ''}`);
+console.log(`           strict          lenient         macro-F1        block           slot            block+slot`);
+const line = (name, s, prev) => console.log(`${pad(name, 10)} ${pad(pct(s.strict) + delta(s.strict, prev && prev.strict), 16)}${pad(pct(s.lenient) + delta(s.lenient, prev && prev.lenient), 16)}${pad(s.macroF1 + (prev ? delta(s.macroF1, prev.macroF1) : ''), 16)}${pad(pct(s.block) + delta(s.block, prev && prev.block), 16)}${pad(pct(s.slot) + delta(s.slot, prev && prev.slot), 16)}${pct(s.axes)}${delta(s.axes, prev && prev.axes)}`);
 line('all', all, previous && previous.all);
 line('dev', dev, previous && previous.dev);
 line('holdout', hold, previous && previous.holdout);
+console.log(`\nper slot (all): slot n accuracy`);
+for (const [sl, s] of Object.entries(all.slots).sort((a, b) => b[1].n - a[1].n)) console.log(`  ${pad(sl, 14)} ${pad(s.n, 5)} ${pct(s.ok / s.n)}`);
 console.log(`\nper type (all), n>=5, sorted by n:  type n called P R F1`);
 for (const [t, s] of Object.entries(all.types).filter(([, s]) => s.n >= 5).sort((a, b) => b[1].n - a[1].n)) {
   const prev = previous && previous.all.types[t];

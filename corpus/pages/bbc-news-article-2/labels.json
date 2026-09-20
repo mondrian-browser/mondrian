@@ -35,6 +35,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "header",
    "final": "site_header"
   },
   {
@@ -64,6 +66,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "header",
    "final": "site_nav"
   },
   {
@@ -93,6 +97,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "related",
    "final": "title"
   },
   {
@@ -122,6 +128,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "byline",
    "final": "byline"
   },
   {
@@ -151,6 +159,8 @@
      0
     ]
    ],
+   "block": "media",
+   "slot": "related",
    "final": "image"
   },
   {
@@ -180,6 +190,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "related",
    "final": "text"
   },
   {
@@ -209,6 +221,8 @@
      0.02
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "review": "ok",
    "final": "related"
   },
@@ -239,6 +253,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "related",
    "final": "text"
   },
   {
@@ -268,6 +284,8 @@
      0.01
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "review": "either",
    "final": "teaser_card"
   },
@@ -298,6 +316,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "tags",
    "final": "tag_cloud"
   },
   {
@@ -327,6 +347,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "final": "related"
   },
   {
@@ -356,6 +378,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "final": "related"
   },
   {
@@ -385,6 +409,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -414,6 +440,8 @@
      0.01
     ]
    ],
+   "block": "cards",
+   "slot": "footer",
    "final": "site_footer"
   },
   {
@@ -443,6 +471,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "nav",
    "final": "version_switcher"
   },
   {
@@ -472,6 +502,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "footer",
    "final": "site_footer"
   },
   {
@@ -501,6 +533,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "footer",
    "final": "site_footer"
   },
   {
@@ -530,10 +564,12 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "footer",
    "review": "ok",
    "final": "site_footer"
   }
  ],
- "reviewedAt": "2026-09-20T09:45:23.283Z",
+ "reviewedAt": "2026-09-20T10:41:51.158Z",
  "reviewFile": "tools/label/judgements/corpus-all.json"
 }

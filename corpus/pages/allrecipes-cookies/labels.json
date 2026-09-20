@@ -35,6 +35,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "header",
    "final": "site_header"
   },
   {
@@ -64,6 +66,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "header",
    "final": "site_nav"
   },
   {
@@ -93,6 +97,8 @@
      0.04
     ]
    ],
+   "block": "links",
+   "slot": "header",
    "review": "ok",
    "final": "site_nav"
   },
@@ -123,6 +129,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "nav",
    "final": "breadcrumbs"
   },
   {
@@ -152,6 +160,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "reviews",
    "final": "title"
   },
   {
@@ -181,6 +191,8 @@
      0.02
     ]
    ],
+   "block": "prose",
+   "slot": "reviews",
    "final": "rating"
   },
   {
@@ -210,6 +222,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "byline",
    "final": "byline"
   },
   {
@@ -239,6 +253,8 @@
      0
     ]
    ],
+   "block": "media",
+   "slot": "reviews",
    "final": "video"
   },
   {
@@ -268,6 +284,8 @@
      0
     ]
    ],
+   "block": "media",
+   "slot": "reviews",
    "final": "video"
   },
   {
@@ -297,6 +315,8 @@
      0.03
     ]
    ],
+   "block": "media",
+   "slot": "reviews",
    "final": "gallery"
   },
   {
@@ -326,6 +346,8 @@
      0
     ]
    ],
+   "block": "pairs",
+   "slot": "reviews",
    "final": "metadata"
   },
   {
@@ -355,6 +377,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "header",
    "review": "either",
    "final": "skip_link"
   },
@@ -385,6 +409,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "reviews",
    "final": "summary"
   },
   {
@@ -414,6 +440,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "article",
    "final": "heading"
   },
   {
@@ -443,6 +471,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "review": "ok",
    "final": "text"
   },
@@ -473,6 +503,8 @@
      0
     ]
    ],
+   "block": "list",
+   "slot": "article",
    "final": "list"
   },
   {
@@ -502,6 +534,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "article",
    "final": "heading"
   },
   {
@@ -531,6 +565,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "final": "text"
   },
   {
@@ -560,6 +596,8 @@
      0
     ]
    ],
+   "block": "media",
+   "slot": "article",
    "review": "wrong",
    "final": "video"
   },
@@ -590,6 +628,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "article",
    "final": "heading"
   },
   {
@@ -619,6 +659,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "review": "ok",
    "final": "text"
   },
@@ -649,6 +691,8 @@
      0.04
     ]
    ],
+   "block": "prose",
+   "slot": "article",
    "final": "text"
   },
   {
@@ -678,6 +722,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "related",
    "final": "heading"
   },
   {
@@ -707,6 +753,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "related",
    "final": "text"
   },
   {
@@ -736,6 +784,8 @@
      0.01
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "final": "related"
   },
   {
@@ -765,6 +815,8 @@
      0.01
     ]
    ],
+   "block": "prose",
+   "slot": "related",
    "final": "text"
   },
   {
@@ -794,6 +846,8 @@
      0.01
     ]
    ],
+   "block": "list",
+   "slot": "related",
    "review": "either",
    "final": "list"
   },
@@ -824,6 +878,8 @@
      0.01
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "final": "related"
   },
   {
@@ -853,6 +909,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "testimonials",
    "final": "heading"
   },
   {
@@ -882,6 +940,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "testimonials",
    "final": "testimonial"
   },
   {
@@ -911,6 +971,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "testimonials",
    "review": "ok",
    "final": "testimonial"
   },
@@ -941,6 +1003,8 @@
      0
     ]
    ],
+   "block": "thread",
+   "slot": "reviews",
    "final": "reviews"
   },
   {
@@ -970,6 +1034,8 @@
      0.01
     ]
    ],
+   "block": "mixed",
+   "slot": "tools",
    "final": "action_button"
   },
   {
@@ -999,6 +1065,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "nav",
    "final": "heading"
   },
   {
@@ -1028,6 +1096,8 @@
      0.05
     ]
    ],
+   "block": "prose",
+   "slot": "nav",
    "review": "wrong",
    "final": "settings"
   },
@@ -1058,6 +1128,8 @@
      0
     ]
    ],
+   "block": "list",
+   "slot": "nav",
    "final": "list"
   },
   {
@@ -1087,6 +1159,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "promo",
    "review": "ok",
    "final": "heading"
   },
@@ -1117,6 +1191,8 @@
      0
     ]
    ],
+   "block": "list",
+   "slot": "promo",
    "final": "steps"
   },
   {
@@ -1146,6 +1222,8 @@
      0.01
     ]
    ],
+   "block": "pairs",
+   "slot": "promo",
    "final": "infobox"
   },
   {
@@ -1175,6 +1253,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "tools",
    "final": "action_button"
   },
   {
@@ -1204,6 +1284,8 @@
      0
     ]
    ],
+   "block": "mixed",
+   "slot": "promo",
    "final": "app_nag"
   },
   {
@@ -1233,6 +1315,8 @@
      0.01
     ]
    ],
+   "block": "controls",
+   "slot": "tools",
    "final": "action_button"
   },
   {
@@ -1262,6 +1346,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "comments",
    "review": "ok",
    "final": "heading"
   },
@@ -1292,6 +1378,8 @@
      0
     ]
    ],
+   "block": "thread",
+   "slot": "comments",
    "final": "comments"
   },
   {
@@ -1321,6 +1409,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "nav",
    "final": "pagination"
   },
   {
@@ -1350,6 +1440,8 @@
      0.02
     ]
    ],
+   "block": "prose",
+   "slot": "form",
    "review": "either",
    "final": "form"
   },
@@ -1380,6 +1472,8 @@
      0.01
     ]
    ],
+   "block": "thread",
+   "slot": "reviews",
    "review": "either",
    "final": "reviews"
   },
@@ -1410,6 +1504,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "form",
    "review": "ok",
    "final": "form"
   },
@@ -1440,6 +1536,8 @@
      0
     ]
    ],
+   "block": "mixed",
+   "slot": "reviews",
    "final": "rating"
   },
   {
@@ -1469,6 +1567,8 @@
      0
     ]
    ],
+   "block": "thread",
+   "slot": "reviews",
    "final": "reviews"
   },
   {
@@ -1498,6 +1598,8 @@
      0.05
     ]
    ],
+   "block": "heading",
+   "slot": "article",
    "review": "ok",
    "final": "heading"
   },
@@ -1528,6 +1630,8 @@
      0
     ]
    ],
+   "block": "thread",
+   "slot": "reviews",
    "final": "reviews"
   },
   {
@@ -1557,6 +1661,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "nav",
    "final": "filters"
   },
   {
@@ -1586,6 +1692,8 @@
      0
     ]
    ],
+   "block": "thread",
+   "slot": "reviews",
    "final": "reviews"
   },
   {
@@ -1615,6 +1723,8 @@
      0
     ]
    ],
+   "block": "controls",
+   "slot": "nav",
    "final": "pagination"
   },
   {
@@ -1644,6 +1754,8 @@
      0.02
     ]
    ],
+   "block": "heading",
+   "slot": "related",
    "review": "ok",
    "final": "heading"
   },
@@ -1674,6 +1786,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "review": "either",
    "final": "related",
    "policy": "related-slot"
@@ -1705,6 +1819,8 @@
      0
     ]
    ],
+   "block": "heading",
+   "slot": "related",
    "final": "heading",
    "policy": "heading-is-heading"
   },
@@ -1735,6 +1851,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "related",
    "final": "related"
   },
   {
@@ -1764,6 +1882,8 @@
      0
     ]
    ],
+   "block": "cards",
+   "slot": "teasers",
    "final": "teaser_card"
   },
   {
@@ -1793,6 +1913,8 @@
      0
     ]
    ],
+   "block": "prose",
+   "slot": "footer",
    "final": "site_footer"
   },
   {
@@ -1822,6 +1944,8 @@
      0
     ]
    ],
+   "block": "links",
+   "slot": "footer",
    "final": "site_footer"
   },
   {
@@ -1851,9 +1975,11 @@
      0
     ]
    ],
+   "block": "mixed",
+   "slot": "footer",
    "final": "site_footer"
   }
  ],
- "reviewedAt": "2026-09-20T09:45:23.279Z",
+ "reviewedAt": "2026-09-20T10:41:51.154Z",
  "reviewFile": "tools/label/judgements/corpus-all.json"
 }
