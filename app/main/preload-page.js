@@ -124,7 +124,7 @@ function applyRules(reason) {
           if (!el) {
             el = document.createElement('style');
             el.id = id;
-            el.setAttribute('data-claude-browser', 'rule');
+            el.setAttribute('data-mondrian', 'rule');
             host.appendChild(el);
           }
           if (el.textContent !== set.css) el.textContent = set.css;

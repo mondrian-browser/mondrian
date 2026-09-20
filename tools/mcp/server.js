@@ -17,7 +17,7 @@ const CONTROL_FILE = path.join(ROOT, '.runtime', 'control.json');
 const MAX_TEXT = 120000;
 const READ_ONLY = new Set(['status', 'tabs_list', 'page_text', 'page_read', 'find', 'screenshot', 'console_read', 'network_read', 'rules_list', 'rules_get', 'profiles_list', 'theme_list']);
 
-const err = (...a) => process.stderr.write(`[cbrowser-mcp] ${a.join(' ')}\n`);
+const err = (...a) => process.stderr.write(`[mondrian-mcp] ${a.join(' ')}\n`);
 
 // ---------------------------------------------------------------- connection
 class Link {
@@ -130,9 +130,9 @@ function toContent(cmdName, result) {
 
 // ---------------------------------------------------------------- server
 const server = new McpServer(
-  { name: 'cbrowser', version: require('../../package.json').version },
+  { name: 'mondrian', version: require('../../package.json').version },
   { capabilities: { tools: {} }, instructions:
-`Claude Browser — a browser built to be steered.
+`Mondrian — a browser built to be steered.
 
 Start with status (it launches the browser if it is not running) or tab_open.
 Read a page with page_text for prose, page_read for a list of elements with refs,

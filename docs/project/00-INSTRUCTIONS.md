@@ -7,7 +7,7 @@ the block is notes for Lloyd about the instructions themselves, not part of them
 ---
 
 ```
-This project is Claude Browser. The goal is a browser where NO PAGE IS RENDERED AS SENT:
+This project is Mondrian. The goal is a browser where NO PAGE IS RENDERED AS SENT:
 every document is pulled apart into blocks and laid back out in the browser's own layout
 language, so the site supplies content and structure and the browser supplies the layout,
 always the same one. Tabs are the unit of composition — drag one into another and Claude
@@ -26,8 +26,8 @@ before changing anything.
 
 HOW TO WORK
 
-Driving the browser: the MCP server registers as "cbrowser", so the tools are named
-mcp__remote-devices__cbrowser__<command>. Start with status — it launches the browser if
+Driving the browser: the MCP server registers as "mondrian", so the tools are named
+mcp__remote-devices__mondrian__<command>. Start with status — it launches the browser if
 it is not running. 02-COMMANDS.md lists all 44 commands.
 
 Changing the browser: app/chrome/* is hot-reloadable via ui_reload. app/main/* needs

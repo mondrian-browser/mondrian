@@ -1,4 +1,4 @@
-# Claude Browser
+# Mondrian
 
 A browser built from scratch so it can be steered deeply and changed quickly. Electron 44,
 Chromium under the hood, every layer open: the interface is plain HTML you can restyle at
@@ -20,9 +20,9 @@ npm run install-mcp       # register it with the Claude desktop app, then fully 
 npm test                  # 60 end-to-end checks against a real browser
 ```
 
-The server registers as **cbrowser** (not `claude-browser` — the desktop app reserves
-that name for its own built-in browser pane). After `install-mcp`, any Claude session can drive the browser, and will start it
-automatically the first time it needs it.
+The MCP server registers as **mondrian**, so its tools are named
+`mcp__remote-devices__mondrian__<command>`. After `install-mcp`, any Claude session can
+drive the browser and will start it automatically the first time it needs it.
 
 ## What it does
 
@@ -48,6 +48,10 @@ any other name on demand. Verified isolated.
 **Composed pages.** `page_create` writes a page into `pages/` and opens it. Those pages —
 and only those — may embed sites that normally refuse to be embedded, so a tutorial can sit
 beside a manual, or four shops' results in one grid.
+
+**Themes.** `default` (warm dark), `paper` (light), and `destijl` — black rules, white
+ground, the three primaries only where something is active, square corners. Themes are
+token overrides on `:root`, so a new one is about fifteen lines.
 
 **A UI that answers to code.** `ui_css` restyles the chrome live, `ui_eval` reprograms it,
 `theme_set` swaps themes, `ui_note` posts into the activity panel so you can see what Claude

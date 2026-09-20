@@ -22,6 +22,18 @@ function check(name, cond, detail) {
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Wait for a condition instead of guessing a duration. The blocked-count broadcast is
+// throttled, so a fixed sleep races it and the test fails perhaps one run in three.
+async function until(fn, { timeoutMs = 8000, everyMs = 200 } = {}) {
+  const deadline = Date.now() + timeoutMs;
+  let last;
+  while (Date.now() < deadline) {
+    try { last = await fn(); if (last) return last; } catch (e) { last = undefined; }
+    await sleep(everyMs);
+  }
+  return last;
+}
+
 function shutdown(child) {
   if (!child) return;
   for (const signal of ['SIGTERM', 'SIGKILL']) {
@@ -518,7 +530,7 @@ class Client {
     check('rule js can style the DOM from its isolated world', noeval.value.styled === 'rgb(4, 5, 6)', noeval.value.styled);
     check('rule js stays invisible to the page', noeval.value.leakedToPage === 'undefined', noeval.value.leakedToPage);
 
-    const noevalErrors = await c.call('console_read', { tabId, pattern: 'claude-browser' });
+    const noevalErrors = await c.call('console_read', { tabId, pattern: 'mondrian' });
     check('no rule errors were logged on the CSP page', noevalErrors.messages.length === 0,
       noevalErrors.messages.map((m) => m.message).join(' | ').slice(0, 250));
 
@@ -599,7 +611,7 @@ class Client {
     check('ui_note appears in the activity panel', noteShown.value >= 1, JSON.stringify(noteShown));
 
     const themes = await c.call('theme_list');
-    check('theme_list finds the bundled themes', themes.themes.includes('default') && themes.themes.includes('paper'), JSON.stringify(themes));
+    check('theme_list finds the bundled themes', ['default', 'paper', 'destijl'].every((t) => themes.themes.includes(t)), JSON.stringify(themes));
     await c.call('theme_set', { name: 'paper' });
     const themed = await c.call('ui_eval', { code: 'document.getElementById("theme-css").textContent.includes("--bg")' });
     check('theme_set swaps the chrome theme', themed.value === true);
@@ -617,14 +629,18 @@ class Client {
     // the shield reflects blocking state
     await c.call('adblock_set', { customFilters: ['/adtest.js'], allowlist: [] });
     const shieldTab = (await c.call('tab_open', { url: base, profile: 'claude' })).tab;
-    await sleep(1400);
-    const shield = await c.call('ui_eval', { code: '({ count: document.getElementById("blocked-count").textContent, off: document.getElementById("shield").classList.contains("is-off") })' });
-    check('the shield shows a blocked count for the page', shield.value.count !== '' && shield.value.off === false, JSON.stringify(shield.value));
+    const shield = await until(async () => {
+      const r = await c.call('ui_eval', { code: '({ count: document.getElementById("blocked-count").textContent, off: document.getElementById("shield").classList.contains("is-off") })' });
+      return r.value.count !== '' && r.value.off === false ? r : null;
+    });
+    check('the shield shows a blocked count for the page', !!shield, 'blocked count never appeared within 8s');
     await c.call('adblock_set', { allowlist: ['127.0.0.1'] });
     await c.call('history', { tabId: shieldTab.id, action: 'reload' });
-    await sleep(1200);
-    const shieldOff = await c.call('ui_eval', { code: 'document.getElementById("shield").classList.contains("is-off")' });
-    check('the shield dims on an allowlisted site', shieldOff.value === true, JSON.stringify(shieldOff));
+    const shieldOff = await until(async () => {
+      const r = await c.call('ui_eval', { code: 'document.getElementById("shield").classList.contains("is-off")' });
+      return r.value === true ? r : null;
+    });
+    check('the shield dims on an allowlisted site', !!shieldOff, 'shield never dimmed within 8s');
     await c.call('tab_close', { tabId: shieldTab.id });
     await c.call('adblock_set', { customFilters: [], allowlist: [] });
 

@@ -11,9 +11,9 @@ filter would sit in this structure and what it displaces.
 
 ```
   Claude session
-        │  MCP tools named mcp__remote-devices__cbrowser__<command>
+        │  MCP tools named mcp__remote-devices__mondrian__<command>
         ▼
-  tools/mcp/server.js          stdio MCP server, registered as "cbrowser".
+  tools/mcp/server.js          stdio MCP server, registered as "mondrian".
         │                      One tool per entry in shared/commands.js.
         │                      Launches the app if it is not running; reconnects if it dies.
         │

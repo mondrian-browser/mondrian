@@ -54,7 +54,7 @@ function makeHandlers(ctx) {
   // means an error was thrown. Check the renderer console for the error." There is no
   // renderer console to check from here, so catch inside the page and carry the real
   // message and stack back out.
-  const CB_ERR = '__claudeBrowserError';
+  const CB_ERR = '__mondrianError';
   function wrap(code, asExpression) {
     const body = asExpression ? `return (${code}\n);` : `${code}\n`;
     return `(async () => { try { ${body} } catch (e) {
@@ -86,7 +86,7 @@ function makeHandlers(ctx) {
     // ------------------------------------------------------------- app
     async status() {
       return {
-        app: 'claude-browser',
+        app: 'mondrian',
         version: app.getVersion?.() || require('../../package.json').version,
         electron: process.versions.electron,
         chrome: process.versions.chrome,

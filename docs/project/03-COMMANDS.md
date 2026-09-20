@@ -1,7 +1,7 @@
 # Command reference
 
 Every command the browser understands. Each is exposed as an MCP tool named
-`mcp__remote-devices__cbrowser__<name>` once the server is registered, and the browser's
+`mcp__remote-devices__mondrian__<name>` once the server is registered, and the browser's
 own interface calls the identical set.
 
 **Generated from `shared/commands.js` by `npm run docs`. Do not edit by hand.**

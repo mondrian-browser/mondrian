@@ -9,10 +9,11 @@ const path = require('path');
 const os = require('os');
 
 const ROOT = path.resolve(__dirname, '..');
-// NOT "claude-browser": the desktop app reserves that for its own built-in browser pane
-// and refuses to start a server whose name normalises onto a reserved one.
-const NAME = 'cbrowser';
-const OLD_NAMES = ['claude-browser'];
+const NAME = 'mondrian';
+// Earlier names. "claude-browser" was refused outright, because the desktop app reserves
+// it for its own built-in browser pane; "cbrowser" was the stopgap. Both are deleted from
+// the config here so nobody is left with a dead registration alongside the working one.
+const OLD_NAMES = ['claude-browser', 'cbrowser'];
 const REMOVE = process.argv.includes('--remove');
 
 function configPath() {

@@ -46,7 +46,7 @@ class Profiles {
     // Look like a normal Chrome to sites: drop the Electron and app tokens from the UA.
     const ua = ses.getUserAgent()
       .replace(/ ?Electron\/[\d.]+/g, '')
-      .replace(/ ?claude-browser\/[\d.]+/g, '')
+      .replace(/ ?mondrian\/[\d.]+/g, '')
       + (this.settings.userAgentSuffix || '');
     ses.setUserAgent(ua);
 

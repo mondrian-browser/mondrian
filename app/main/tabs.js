@@ -131,7 +131,7 @@ class TabManager {
     });
     ipcMain.on('cb:log', (e, { level, msg }) => {
       const tab = this.byWebContentsId(e.sender.id);
-      if (tab) { tab.console.push({ t: Date.now(), level, message: `[claude-browser] ${msg}` }); }
+      if (tab) { tab.console.push({ t: Date.now(), level, message: `[mondrian] ${msg}` }); }
     });
     ipcMain.on('cb:scriptlets', (e, { name, count, failed, url }) => {
       const tab = this.byWebContentsId(e.sender.id);
@@ -139,7 +139,7 @@ class TabManager {
       tab.scriptletCount += count;
       tab.scriptletFailures += failed || 0;
       const note = failed ? `${count} main-world script(s) injected, ${failed} threw` : `${count} main-world script(s) injected`;
-      tab.console.push({ t: Date.now(), level: failed ? 'warning' : 'info', message: `[claude-browser] ${name}: ${note} into ${url}` });
+      tab.console.push({ t: Date.now(), level: failed ? 'warning' : 'info', message: `[mondrian] ${name}: ${note} into ${url}` });
     });
     ipcMain.on('cb:preload-ready', () => {});
   }

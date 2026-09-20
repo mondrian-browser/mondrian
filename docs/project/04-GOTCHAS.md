@@ -152,7 +152,11 @@ ui_eval({ code: "window.browser.cmd('window', { action: 'close' })" })
 
 The desktop app reserves it for its own built-in browser pane and refuses to start a
 server whose name normalises onto it, with `Its name collides with a reserved internal
-server name`. This project registers as `cbrowser`.
+server name`. The failure is silent from the Claude side: the server appears in the
+config and simply never starts, so the tools never show up.
+
+This project registers as `mondrian`. It was briefly `cbrowser`; `install-mcp` deletes
+both older registrations when it runs.
 
 ---
 

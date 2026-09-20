@@ -1,5 +1,9 @@
 # The concept
 
+The browser is called **Mondrian**, after the obvious thing: a page is resolved into
+rectangles, each holding one kind of content, arranged for clarity rather than for the
+site's own purposes. The name is a description of the design filter, not decoration.
+
 The visual reference is `docs/concept/concept-layout.pdf`, ten pages. This is the same
 design in words, so a session that cannot see the PDF still knows what it is building.
 

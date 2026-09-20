@@ -1,7 +1,7 @@
 {
-  "name": "claude-browser",
+  "name": "mondrian",
   "version": "0.1.0",
-  "description": "A browser built for Claude to steer and for Lloyd to use. Electron shell, localhost control server, MCP bridge, hot-reloadable site rules and UI.",
+  "description": "A browser that renders no page as sent. Every document is pulled apart into blocks and laid back out in one layout language. Electron shell, localhost control server, MCP bridge, hot-reloadable site rules and UI.",
   "private": true,
   "main": "app/main/main.js",
   "type": "commonjs",

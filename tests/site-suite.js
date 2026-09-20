@@ -125,7 +125,7 @@ const HEALTH = `(() => {
     shadowRoots: roots.length - 1,
     bodyHeight: body ? Math.round(body.getBoundingClientRect().height) : 0,
     scrollHeight: document.documentElement.scrollHeight,
-    hasStyleFromRules: !!document.querySelector('style[data-claude-browser]'),
+    hasStyleFromRules: !!document.querySelector('style[data-mondrian]'),
     adIframes: vis('iframe[src*="doubleclick"], iframe[src*="googlesyndication"], ins.adsbygoogle'),
   };
 })()`;
@@ -229,10 +229,10 @@ async function checkSite(c, site, out) {
 
   // --- our own console errors (the page's own errors are its business, not ours)
   try {
-    const con = await c.call('console_read', { tabId: tab.id, pattern: 'claude-browser' });
+    const con = await c.call('console_read', { tabId: tab.id, pattern: 'mondrian' });
     const errs = con.messages.filter((m) => /error|warn/i.test(m.level));
-    note('ourConsole', con.messages.map((m) => m.message.replace('[claude-browser] ', '')));
-    if (errs.length) fail('claude-browser logged an error on this page', errs.map((m) => m.message).join(' | '));
+    note('ourConsole', con.messages.map((m) => m.message.replace('[mondrian] ', '')));
+    if (errs.length) fail('mondrian logged an error on this page', errs.map((m) => m.message).join(' | '));
   } catch (e) { fail('console_read', e.message); }
 
   // --- blocking and scriptlets
@@ -281,7 +281,7 @@ async function checkSite(c, site, out) {
   const c = await new Client(info).connect();
 
   const st = await c.call('status');
-  console.log(`claude-browser ${st.version} · electron ${st.electron} · adblock ${st.adblock.ready ? st.adblock.lists : 'NOT READY'} · ${st.adblock.scriptlets} scriptlets\n`);
+  console.log(`mondrian ${st.version} · electron ${st.electron} · adblock ${st.adblock.ready ? st.adblock.lists : 'NOT READY'} · ${st.adblock.scriptlets} scriptlets\n`);
 
   const sites = ONLY ? SITES.filter((s) => s.key.includes(ONLY)) : SITES;
   const results = [];

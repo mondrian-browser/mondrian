@@ -166,7 +166,7 @@ async function boot() {
     show: false,
     frame: false,
     backgroundColor: '#12121a',
-    title: 'Claude Browser',
+    title: 'Mondrian',
   });
 
   tabsMgr = new TabManager({ settings, profiles, onEvent: (e) => broadcast(e) });

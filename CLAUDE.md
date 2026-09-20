@@ -1,4 +1,4 @@
-# Claude Browser — Project Guide
+# Mondrian — Project Guide
 
 A real browser (Electron 44 / Chromium) built so that Claude can steer it deeply and
 Lloyd can enjoy using it. Not an automation harness bolted onto someone else's browser:
@@ -39,9 +39,9 @@ nothing to restart. This is most sessions.
 ## 2. Architecture, in one pass
 
 ```
-tools/mcp/server.js     stdio MCP server, registered as "cbrowser". One tool per entry
-      │                 in shared/commands.js. NOT "claude-browser": that name is reserved
-      │                 by the desktop app for its built-in browser pane and is refused.
+tools/mcp/server.js     stdio MCP server, registered as "mondrian". One tool per entry
+      │                 in shared/commands.js. Do not name it "claude-browser": the
+      │                 desktop app reserves that for its built-in browser pane.
       │                 Launches the app if it is not running; reconnects if it dies.
       │  ws://127.0.0.1:6510  (token in .runtime/control.json, localhost only)
       ▼
