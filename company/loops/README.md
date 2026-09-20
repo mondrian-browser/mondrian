@@ -28,5 +28,10 @@ Running the fixture suite in the cloud (Linux, no display):
 
 ```
 npm ci
+node -e "require('electron')"   # cloud npm skips postinstall; this triggers the binary download
 xvfb-run -a --server-args="-screen 0 1440x900x24" dbus-run-session -- npm test
 ```
+
+Measured 20 Sep 2026 in the Cowork cloud container: fixture suite 86 passed in 34 s,
+live site suite 16 of 16 reachable sites clean with github, duckduckgo, abcnews-au and npm
+skipped behind bot walls. Windows coverage comes from the CI workflow, not the cloud.
