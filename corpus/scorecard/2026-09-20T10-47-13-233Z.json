@@ -1,16 +1,16 @@
 {
- "at": "2026-09-20T10:45:17.948Z",
+ "at": "2026-09-20T10:47:13.233Z",
  "pages": 74,
  "sites": 45,
  "rules": 231,
  "all": {
   "regions": 3292,
-  "strict": 0.698,
-  "lenient": 0.717,
-  "macroF1": 0.491,
-  "block": 0.834,
-  "slot": 0.672,
-  "axes": 0.635,
+  "strict": 0.701,
+  "lenient": 0.72,
+  "macroF1": 0.494,
+  "block": 0.835,
+  "slot": 0.72,
+  "axes": 0.682,
   "types": {
    "title": {
     "n": 46,
@@ -28,24 +28,24 @@
    },
    "summary": {
     "n": 52,
-    "called": 33,
-    "precision": 0.394,
+    "called": 36,
+    "precision": 0.361,
     "recall": 0.25,
-    "f1": 0.306
+    "f1": 0.295
    },
    "text": {
     "n": 537,
-    "called": 594,
-    "precision": 0.776,
-    "recall": 0.858,
-    "f1": 0.815
+    "called": 611,
+    "precision": 0.769,
+    "recall": 0.875,
+    "f1": 0.819
    },
    "byline": {
     "n": 82,
-    "called": 116,
-    "precision": 0.647,
+    "called": 120,
+    "precision": 0.625,
     "recall": 0.915,
-    "f1": 0.758
+    "f1": 0.743
    },
    "author_bio": {
     "n": 6,
@@ -56,10 +56,10 @@
    },
    "metadata": {
     "n": 24,
-    "called": 23,
-    "precision": 0.087,
+    "called": 10,
+    "precision": 0.2,
     "recall": 0.083,
-    "f1": 0.085
+    "f1": 0.118
    },
    "badge": {
     "n": 3,
@@ -203,10 +203,10 @@
    },
    "accordion": {
     "n": 13,
-    "called": 10,
-    "precision": 0.2,
+    "called": 5,
+    "precision": 0.4,
     "recall": 0.154,
-    "f1": 0.174
+    "f1": 0.222
    },
    "tabs": {
     "n": 13,
@@ -259,17 +259,17 @@
    },
    "reviews": {
     "n": 12,
-    "called": 13,
+    "called": 8,
     "precision": 0,
     "recall": 0,
     "f1": 0
    },
    "rating": {
     "n": 8,
-    "called": 24,
-    "precision": 0.208,
+    "called": 14,
+    "precision": 0.357,
     "recall": 0.625,
-    "f1": 0.313
+    "f1": 0.455
    },
    "reactions": {
     "n": 3,
@@ -301,10 +301,10 @@
    },
    "teaser_card": {
     "n": 394,
-    "called": 424,
-    "precision": 0.675,
-    "recall": 0.726,
-    "f1": 0.699
+    "called": 433,
+    "precision": 0.663,
+    "recall": 0.728,
+    "f1": 0.694
    },
    "product_card": {
     "n": 10,
@@ -385,10 +385,10 @@
    },
    "settings": {
     "n": 6,
-    "called": 3,
+    "called": 4,
     "precision": 1,
-    "recall": 0.5,
-    "f1": 0.667
+    "recall": 0.667,
+    "f1": 0.8
    },
    "site_header": {
     "n": 49,
@@ -399,10 +399,10 @@
    },
    "site_nav": {
     "n": 78,
-    "called": 77,
-    "precision": 0.61,
+    "called": 79,
+    "precision": 0.595,
     "recall": 0.603,
-    "f1": 0.606
+    "f1": 0.599
    },
    "section_nav": {
     "n": 30,
@@ -427,7 +427,7 @@
    },
    "page_tools": {
     "n": 14,
-    "called": 1,
+    "called": 0,
     "precision": 0,
     "recall": 0,
     "f1": 0
@@ -581,10 +581,10 @@
    },
    "cta": {
     "n": 21,
-    "called": 3,
-    "precision": 0.333,
-    "recall": 0.048,
-    "f1": 0.083
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
    },
    "testimonial": {
     "n": 6,
@@ -658,7 +658,7 @@
    },
    "unclear": {
     "n": 0,
-    "called": 33,
+    "called": 34,
     "precision": 0,
     "recall": 0,
     "f1": 0
@@ -671,7 +671,7 @@
    },
    "article": {
     "n": 934,
-    "ok": 730
+    "ok": 757
    },
    "byline": {
     "n": 85,
@@ -679,7 +679,7 @@
    },
    "tools": {
     "n": 133,
-    "ok": 102
+    "ok": 101
    },
    "trending": {
     "n": 36,
@@ -695,7 +695,7 @@
    },
    "teasers": {
     "n": 474,
-    "ok": 352
+    "ok": 353
    },
    "footer": {
     "n": 156,
@@ -703,7 +703,7 @@
    },
    "nav": {
     "n": 203,
-    "ok": 78
+    "ok": 80
    },
    "promo": {
     "n": 84,
@@ -711,11 +711,11 @@
    },
    "cta": {
     "n": 21,
-    "ok": 1
+    "ok": 0
    },
    "comments": {
     "n": 526,
-    "ok": 352
+    "ok": 481
    },
    "testimonials": {
     "n": 16,
@@ -727,7 +727,7 @@
    },
    "reviews": {
     "n": 36,
-    "ok": 18
+    "ok": 20
    },
    "listing": {
     "n": 16,
@@ -773,12 +773,12 @@
  },
  "dev": {
   "regions": 2402,
-  "strict": 0.726,
-  "lenient": 0.744,
-  "macroF1": 0.485,
-  "block": 0.845,
-  "slot": 0.679,
-  "axes": 0.64,
+  "strict": 0.731,
+  "lenient": 0.749,
+  "macroF1": 0.486,
+  "block": 0.848,
+  "slot": 0.744,
+  "axes": 0.704,
   "types": {
    "title": {
     "n": 31,
@@ -796,24 +796,24 @@
    },
    "summary": {
     "n": 19,
-    "called": 24,
-    "precision": 0.375,
+    "called": 26,
+    "precision": 0.346,
     "recall": 0.474,
-    "f1": 0.419
+    "f1": 0.4
    },
    "text": {
     "n": 482,
-    "called": 492,
-    "precision": 0.835,
-    "recall": 0.853,
-    "f1": 0.844
+    "called": 506,
+    "precision": 0.83,
+    "recall": 0.871,
+    "f1": 0.85
    },
    "byline": {
     "n": 74,
-    "called": 107,
-    "precision": 0.673,
+    "called": 111,
+    "precision": 0.649,
     "recall": 0.973,
-    "f1": 0.796
+    "f1": 0.778
    },
    "author_bio": {
     "n": 5,
@@ -824,10 +824,10 @@
    },
    "metadata": {
     "n": 15,
-    "called": 15,
-    "precision": 0,
-    "recall": 0,
-    "f1": 0
+    "called": 9,
+    "precision": 0.222,
+    "recall": 0.133,
+    "f1": 0.167
    },
    "badge": {
     "n": 1,
@@ -964,10 +964,10 @@
    },
    "accordion": {
     "n": 7,
-    "called": 8,
-    "precision": 0.25,
+    "called": 5,
+    "precision": 0.4,
     "recall": 0.286,
-    "f1": 0.267
+    "f1": 0.333
    },
    "tabs": {
     "n": 8,
@@ -1013,17 +1013,17 @@
    },
    "reviews": {
     "n": 9,
-    "called": 13,
+    "called": 8,
     "precision": 0,
     "recall": 0,
     "f1": 0
    },
    "rating": {
     "n": 3,
-    "called": 20,
-    "precision": 0.1,
+    "called": 10,
+    "precision": 0.2,
     "recall": 0.667,
-    "f1": 0.174
+    "f1": 0.308
    },
    "reactions": {
     "n": 3,
@@ -1055,10 +1055,10 @@
    },
    "teaser_card": {
     "n": 199,
-    "called": 191,
-    "precision": 0.691,
-    "recall": 0.663,
-    "f1": 0.677
+    "called": 195,
+    "precision": 0.682,
+    "recall": 0.668,
+    "f1": 0.675
    },
    "product_card": {
     "n": 6,
@@ -1125,10 +1125,10 @@
    },
    "action_button": {
     "n": 62,
-    "called": 94,
-    "precision": 0.574,
+    "called": 95,
+    "precision": 0.568,
     "recall": 0.871,
-    "f1": 0.692
+    "f1": 0.688
    },
    "buy_box": {
     "n": 4,
@@ -1153,10 +1153,10 @@
    },
    "site_nav": {
     "n": 56,
-    "called": 59,
-    "precision": 0.593,
+    "called": 61,
+    "precision": 0.574,
     "recall": 0.625,
-    "f1": 0.609
+    "f1": 0.598
    },
    "section_nav": {
     "n": 19,
@@ -1181,7 +1181,7 @@
    },
    "page_tools": {
     "n": 11,
-    "called": 1,
+    "called": 0,
     "precision": 0,
     "recall": 0,
     "f1": 0
@@ -1314,10 +1314,10 @@
    },
    "cta": {
     "n": 12,
-    "called": 3,
-    "precision": 0.333,
-    "recall": 0.083,
-    "f1": 0.133
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
    },
    "testimonial": {
     "n": 6,
@@ -1391,7 +1391,7 @@
    },
    "unclear": {
     "n": 0,
-    "called": 25,
+    "called": 26,
     "precision": 0,
     "recall": 0,
     "f1": 0
@@ -1404,7 +1404,7 @@
    },
    "article": {
     "n": 731,
-    "ok": 580
+    "ok": 608
    },
    "byline": {
     "n": 75,
@@ -1412,7 +1412,7 @@
    },
    "tools": {
     "n": 94,
-    "ok": 68
+    "ok": 67
    },
    "trending": {
     "n": 25,
@@ -1428,7 +1428,7 @@
    },
    "teasers": {
     "n": 254,
-    "ok": 173
+    "ok": 174
    },
    "footer": {
     "n": 110,
@@ -1444,11 +1444,11 @@
    },
    "cta": {
     "n": 12,
-    "ok": 1
+    "ok": 0
    },
    "comments": {
     "n": 505,
-    "ok": 334
+    "ok": 463
    },
    "testimonials": {
     "n": 16,
@@ -1460,7 +1460,7 @@
    },
    "reviews": {
     "n": 18,
-    "ok": 11
+    "ok": 12
    },
    "listing": {
     "n": 10,
@@ -1502,12 +1502,12 @@
  },
  "holdout": {
   "regions": 890,
-  "strict": 0.624,
-  "lenient": 0.642,
-  "macroF1": 0.482,
-  "block": 0.803,
-  "slot": 0.652,
-  "axes": 0.62,
+  "strict": 0.622,
+  "lenient": 0.639,
+  "macroF1": 0.474,
+  "block": 0.799,
+  "slot": 0.654,
+  "axes": 0.621,
   "types": {
    "title": {
     "n": 15,
@@ -1525,17 +1525,17 @@
    },
    "summary": {
     "n": 33,
-    "called": 9,
-    "precision": 0.444,
+    "called": 10,
+    "precision": 0.4,
     "recall": 0.121,
-    "f1": 0.19
+    "f1": 0.186
    },
    "text": {
     "n": 55,
-    "called": 102,
-    "precision": 0.49,
+    "called": 105,
+    "precision": 0.476,
     "recall": 0.909,
-    "f1": 0.637
+    "f1": 0.625
    },
    "byline": {
     "n": 8,
@@ -1553,10 +1553,10 @@
    },
    "metadata": {
     "n": 9,
-    "called": 8,
-    "precision": 0.25,
-    "recall": 0.222,
-    "f1": 0.235
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
    },
    "badge": {
     "n": 2,
@@ -1651,7 +1651,7 @@
    },
    "accordion": {
     "n": 6,
-    "called": 2,
+    "called": 0,
     "precision": 0,
     "recall": 0,
     "f1": 0
@@ -1721,10 +1721,10 @@
    },
    "teaser_card": {
     "n": 195,
-    "called": 233,
-    "precision": 0.661,
+    "called": 238,
+    "precision": 0.647,
     "recall": 0.79,
-    "f1": 0.72
+    "f1": 0.711
    },
    "product_card": {
     "n": 4,
@@ -1784,17 +1784,17 @@
    },
    "action_button": {
     "n": 32,
-    "called": 46,
-    "precision": 0.674,
+    "called": 45,
+    "precision": 0.689,
     "recall": 0.969,
-    "f1": 0.795
+    "f1": 0.805
    },
    "settings": {
     "n": 1,
-    "called": 0,
-    "precision": 0,
-    "recall": 0,
-    "f1": 0
+    "called": 1,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
    },
    "site_header": {
     "n": 16,
@@ -2032,7 +2032,7 @@
    },
    "nav": {
     "n": 72,
-    "ok": 16
+    "ok": 18
    },
    "tools": {
     "n": 39,
@@ -2040,7 +2040,7 @@
    },
    "reviews": {
     "n": 18,
-    "ok": 7
+    "ok": 8
    },
    "byline": {
     "n": 10,
@@ -2052,7 +2052,7 @@
    },
    "article": {
     "n": 203,
-    "ok": 150
+    "ok": 149
    },
    "promo": {
     "n": 37,
@@ -2128,7 +2128,7 @@
   "abc-news-article": {
    "split": "dev",
    "regions": 68,
-   "strict": 0.82
+   "strict": 0.84
   },
   "abc-news-index": {
    "split": "dev",
@@ -2138,12 +2138,12 @@
   "allrecipes-banana": {
    "split": "dev",
    "regions": 65,
-   "strict": 0.6
+   "strict": 0.63
   },
   "allrecipes-cookies": {
    "split": "dev",
    "regions": 63,
-   "strict": 0.6
+   "strict": 0.62
   },
   "apple-iphone": {
    "split": "dev",
@@ -2183,7 +2183,7 @@
   "bbcgoodfood-victoria": {
    "split": "holdout",
    "regions": 51,
-   "strict": 0.75
+   "strict": 0.76
   },
   "bom-melbourne": {
    "split": "dev",
@@ -2288,7 +2288,7 @@
   "hn-front": {
    "split": "dev",
    "regions": 62,
-   "strict": 0.61
+   "strict": 0.63
   },
   "hn-thread": {
    "split": "dev",
@@ -2303,7 +2303,7 @@
   "imdb-title": {
    "split": "holdout",
    "regions": 48,
-   "strict": 0.27
+   "strict": 0.25
   },
   "jbhifi-listing": {
    "split": "holdout",
@@ -2353,7 +2353,7 @@
   "openstreetmap": {
    "split": "dev",
    "regions": 8,
-   "strict": 0.5
+   "strict": 0.38
   },
   "pg-essay-1": {
    "split": "dev",
@@ -2393,7 +2393,7 @@
   "raspberrypi-product": {
    "split": "dev",
    "regions": 38,
-   "strict": 0.5
+   "strict": 0.53
   },
   "reddit-listing": {
    "split": "holdout",
@@ -2423,12 +2423,12 @@
   "so-sorted-array": {
    "split": "dev",
    "regions": 354,
-   "strict": 0.88
+   "strict": 0.89
   },
   "so-yield": {
    "split": "dev",
    "regions": 375,
-   "strict": 0.91
+   "strict": 0.92
   },
   "spiegel-index": {
    "split": "holdout",
@@ -2473,7 +2473,7 @@
   "wiki-mondrian": {
    "split": "dev",
    "regions": 72,
-   "strict": 0.76
+   "strict": 0.78
   },
   "wiki-population": {
    "split": "dev",
@@ -2493,15 +2493,15 @@
   "youtube-watch": {
    "split": "holdout",
    "regions": 5,
-   "strict": 0.4
+   "strict": 0.2
   }
  },
  "confusions": {
   "summary -> text": {
-   "n": 27,
+   "n": 28,
    "rules": {
     "prose-p": 7,
-    "fallback-text": 20
+    "fallback-text": 21
    }
   },
   "related -> teaser_card": {
@@ -2521,6 +2521,13 @@
     "article-header-card": 2
    }
   },
+  "text -> summary": {
+   "n": 11,
+   "rules": {
+    "hint-summary": 1,
+    "summary-early": 10
+   }
+  },
   "site_footer -> legal_notice": {
    "n": 10,
    "rules": {
@@ -2528,11 +2535,22 @@
     "footer-legal": 5
    }
   },
-  "text -> summary": {
+  "metadata -> teaser_card": {
    "n": 10,
    "rules": {
-    "hint-summary": 1,
-    "summary-early": 9
+    "linky-run": 1,
+    "card-index": 7,
+    "card-covered": 1,
+    "linky-cards": 1
+   }
+  },
+  "teaser_card -> text": {
+   "n": 10,
+   "rules": {
+    "prose": 3,
+    "fallback-text": 3,
+    "long-text": 1,
+    "prose-p": 3
    }
   },
   "callout -> text": {
@@ -2551,12 +2569,28 @@
     "card-article": 1
    }
   },
+  "heading -> text": {
+   "n": 9,
+   "rules": {
+    "fallback-text": 2,
+    "prose-p": 7
+   }
+  },
   "site_footer -> heading": {
    "n": 8,
    "rules": {
     "h-heading": 6,
     "heading-short-div": 1,
     "h1-heading": 1
+   }
+  },
+  "text -> teaser_card": {
+   "n": 8,
+   "rules": {
+    "card-index": 3,
+    "hint-card": 1,
+    "card-run": 3,
+    "card-headed": 1
    }
   },
   "text -> list": {
@@ -2572,29 +2606,12 @@
     "fallback": 8
    }
   },
-  "heading -> text": {
-   "n": 8,
-   "rules": {
-    "fallback-text": 2,
-    "prose-p": 6
-   }
-  },
-  "metadata -> teaser_card": {
+  "infobox -> teaser_card": {
    "n": 8,
    "rules": {
     "linky-run": 1,
     "card-index": 5,
-    "card-covered": 1,
-    "linky-cards": 1
-   }
-  },
-  "teaser_card -> text": {
-   "n": 8,
-   "rules": {
-    "prose": 3,
-    "long-text": 1,
-    "fallback-text": 2,
-    "prose-p": 2
+    "linky-row": 2
    }
   },
   "text -> image": {
@@ -2609,14 +2626,6 @@
     "h-trending-head": 7
    }
   },
-  "text -> teaser_card": {
-   "n": 7,
-   "rules": {
-    "card-index": 3,
-    "hint-card": 1,
-    "card-run": 3
-   }
-  },
   "site_header -> site_nav": {
    "n": 7,
    "rules": {
@@ -2629,12 +2638,6 @@
    "n": 7,
    "rules": {
     "comments-shape": 7
-   }
-  },
-  "teaser_card -> rating": {
-   "n": 7,
-   "rules": {
-    "hint-rating": 7
    }
   },
   "teaser_card -> image": {
@@ -2656,21 +2659,6 @@
    "rules": {
     "prose-p": 5,
     "prose": 1
-   }
-  },
-  "infobox -> metadata": {
-   "n": 6,
-   "rules": {
-    "hint-metadata": 5,
-    "metadata-pairs": 1
-   }
-  },
-  "product_card -> teaser_card": {
-   "n": 6,
-   "rules": {
-    "hint-card": 4,
-    "card-ul-headed": 1,
-    "linky-cards": 1
    }
   },
   "list -> teaser_card": {
@@ -2728,10 +2716,10 @@
     "control-button": 6
    }
   },
-  "text -> reviews": {
-   "n": 5,
+  "teaser_card -> rating": {
+   "n": 6,
    "rules": {
-    "reviews-run": 5
+    "hint-rating": 6
    }
   },
   "heading -> related": {
@@ -2756,6 +2744,14 @@
    "n": 5,
    "rules": {
     "list-ul": 5
+   }
+  },
+  "product_card -> teaser_card": {
+   "n": 5,
+   "rules": {
+    "hint-card": 3,
+    "card-ul-headed": 1,
+    "linky-cards": 1
    }
   },
   "site_nav -> site_header": {
@@ -2799,14 +2795,6 @@
     "prose-p": 5
    }
   },
-  "infobox -> teaser_card": {
-   "n": 5,
-   "rules": {
-    "linky-run": 1,
-    "card-index": 2,
-    "linky-row": 2
-   }
-  },
   "cta -> teaser_card": {
    "n": 5,
    "rules": {
@@ -2825,12 +2813,6 @@
    "n": 5,
    "rules": {
     "hint-steps": 5
-   }
-  },
-  "text -> rating": {
-   "n": 4,
-   "rules": {
-    "hint-rating": 4
    }
   },
   "reviews -> teaser_card": {
@@ -2912,12 +2894,34 @@
    "rules": {
     "prose-p": 4
    }
+  },
+  "gallery -> image": {
+   "n": 4,
+   "rules": {
+    "image-only": 1,
+    "figure": 3
+   }
+  },
+  "list -> text": {
+   "n": 4,
+   "rules": {
+    "prose-p": 3,
+    "long-text": 1
+   }
+  },
+  "infobox -> text": {
+   "n": 4,
+   "rules": {
+    "prose-p": 2,
+    "long-text": 1,
+    "prose": 1
+   }
   }
  },
  "ruleUse": {
   "prose-p": {
-   "n": 530,
-   "right": 460
+   "n": 544,
+   "right": 469
   },
   "h-heading": {
    "n": 266,
@@ -2927,13 +2931,13 @@
    "n": 205,
    "right": 204
   },
-  "linky-cards": {
-   "n": 128,
-   "right": 97
-  },
   "card-index": {
-   "n": 123,
-   "right": 60
+   "n": 131,
+   "right": 61
+  },
+  "linky-cards": {
+   "n": 130,
+   "right": 98
   },
   "footer": {
    "n": 121,
@@ -2968,7 +2972,7 @@
    "right": 56
   },
   "text-answer-footer": {
-   "n": 53,
+   "n": 56,
    "right": 49
   },
   "text-comments-head": {
@@ -2979,20 +2983,20 @@
    "n": 43,
    "right": 30
   },
+  "fallback-text": {
+   "n": 37,
+   "right": 2
+  },
   "hint-related": {
    "n": 35,
    "right": 21
-  },
-  "fallback-text": {
-   "n": 35,
-   "right": 2
   },
   "header": {
    "n": 34,
    "right": 19
   },
   "fallback": {
-   "n": 33,
+   "n": 34,
    "right": 0
   },
   "text-hn-subtext": {
@@ -3002,6 +3006,10 @@
   "action-word": {
    "n": 30,
    "right": 26
+  },
+  "summary-early": {
+   "n": 29,
+   "right": 9
   },
   "ul-main-list": {
    "n": 29,
@@ -3015,41 +3023,33 @@
    "n": 26,
    "right": 24
   },
-  "summary-early": {
-   "n": 26,
-   "right": 9
-  },
-  "hint-card": {
-   "n": 26,
-   "right": 13
-  },
   "text-byline": {
-   "n": 25,
-   "right": 4
+   "n": 26,
+   "right": 5
   },
   "linky-row": {
-   "n": 25,
-   "right": 23
+   "n": 26,
+   "right": 24
   },
-  "hint-rating": {
-   "n": 24,
-   "right": 5
+  "hint-card": {
+   "n": 23,
+   "right": 11
   },
   "nav-top": {
    "n": 23,
    "right": 14
+  },
+  "prose": {
+   "n": 23,
+   "right": 2
   },
   "blockquote": {
    "n": 22,
    "right": 18
   },
   "button-like": {
-   "n": 22,
+   "n": 21,
    "right": 7
-  },
-  "prose": {
-   "n": 22,
-   "right": 2
   },
   "h-skip": {
    "n": 21,
@@ -3063,10 +3063,6 @@
    "n": 19,
    "right": 13
   },
-  "hint-metadata": {
-   "n": 18,
-   "right": 3
-  },
   "skip-link": {
    "n": 15,
    "right": 6
@@ -3079,13 +3075,17 @@
    "n": 15,
    "right": 3
   },
+  "short-link": {
+   "n": 15,
+   "right": 2
+  },
   "short-heading": {
    "n": 15,
    "right": 6
   },
-  "short-link": {
+  "hint-rating": {
    "n": 14,
-   "right": 2
+   "right": 5
   },
   "linky": {
    "n": 14,
@@ -3131,10 +3131,6 @@
    "n": 10,
    "right": 10
   },
-  "hint-accordion": {
-   "n": 10,
-   "right": 2
-  },
   "control-pagination": {
    "n": 10,
    "right": 7
@@ -3146,6 +3142,10 @@
   "legal": {
    "n": 9,
    "right": 4
+  },
+  "linky-top": {
+   "n": 9,
+   "right": 0
   },
   "footnote": {
    "n": 9,
@@ -3243,17 +3243,9 @@
    "n": 7,
    "right": 0
   },
-  "linky-top": {
-   "n": 7,
-   "right": 0
-  },
   "references": {
    "n": 7,
    "right": 7
-  },
-  "reviews-run": {
-   "n": 6,
-   "right": 0
   },
   "h-related-head": {
    "n": 6,
@@ -3262,6 +3254,10 @@
   "card-ul-headed": {
    "n": 6,
    "right": 5
+  },
+  "hint-metadata": {
+   "n": 6,
+   "right": 2
   },
   "hint-comments-form": {
    "n": 6,
@@ -3282,6 +3278,10 @@
   "hint-share": {
    "n": 5,
    "right": 4
+  },
+  "hint-accordion": {
+   "n": 5,
+   "right": 2
   },
   "footer-legal": {
    "n": 5,
@@ -3351,6 +3351,10 @@
    "n": 4,
    "right": 2
   },
+  "card-headed": {
+   "n": 4,
+   "right": 1
+  },
   "linky-run": {
    "n": 4,
    "right": 2
@@ -3387,10 +3391,6 @@
    "n": 3,
    "right": 3
   },
-  "text-cta": {
-   "n": 3,
-   "right": 1
-  },
   "hint-infobox": {
    "n": 3,
    "right": 1
@@ -3426,10 +3426,6 @@
   "control-account": {
    "n": 3,
    "right": 3
-  },
-  "card-headed": {
-   "n": 3,
-   "right": 1
   },
   "frame-consent": {
    "n": 3,
@@ -3519,11 +3515,11 @@
    "n": 2,
    "right": 1
   },
-  "hint-page-tools": {
-   "n": 1,
-   "right": 0
-  },
   "figure-video": {
+   "n": 1,
+   "right": 1
+  },
+  "hint-settings": {
    "n": 1,
    "right": 1
   },
@@ -3559,10 +3555,6 @@
    "n": 1,
    "right": 0
   },
-  "text-nutrition": {
-   "n": 1,
-   "right": 0
-  },
   "hint-sticky": {
    "n": 1,
    "right": 0
@@ -3576,6 +3568,10 @@
    "right": 1
   },
   "text-contact": {
+   "n": 1,
+   "right": 0
+  },
+  "reviews-run": {
    "n": 1,
    "right": 0
   },
