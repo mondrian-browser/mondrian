@@ -1,14 +1,28 @@
 # Mondrian
 
-A browser built from scratch so it can be steered deeply and changed quickly. Electron 44,
-Chromium under the hood, every layer open: the interface is plain HTML you can restyle at
-runtime, the network layer takes per-site rules, and pages can be composed out of other pages.
+Mondrian is an experimental browser with the aim of enabling AI (at this stage intended for use with Claude models) to deeply control and customise the user's browsing experience. 
 
-**Where it is going:** a design filter in front of paint, so no page is rendered as sent —
-every document pulled apart into blocks and laid back out in one layout language, with
-tabs as the unit you compose with. See `docs/project/01-CONCEPT.md` and
-`docs/concept/concept-layout.pdf`. What is in this repo today is the foundation for that,
-not the thing itself.
+Imagine your top ten most visited websites (with the exception of any "adult" content sites) are merged into one page. Chaotic? Impossible? Not anymore. 
+
+The fact is, many UI elements are only necessary for a fraction of the userbase. Many parts of a website are completely unnecessary for many users. If only the useful parts of each of your top ten sites were separated into distinct "blocks", codified, and intelligently laid out in one style, we propose that you could quite easily complete all of your daily browsing from a single tab. Now imagine that every aspect of this tab is customisable because Claude plugs directly into your browser with a heretofore unseen level of deep control. 
+
+Bad opsec? Maybe (if done poorly), but the payoff could be HUGE. With the necessary security measures in place, this could safely revolutionise the web browsing experience. 
+
+Some of the proposed features:
+
+Page composition:
+
+every single webpage is first put through the design filter, which means that it fits into the layout language of the browser. The layout language is blocks - boxes for text, headings, videos, - every element has a block and they are arranged for maximum clarity for the reader. 
+
+the processing of every page should be automatic and seamless, with a quick loading animation things should be loaded into this layout upon visiting any page. once the page has been loaded once, it will be instant to load it the second time. 
+
+Then, you can drag two pages into each other and it will quickly reformat into the composed page. You can compose a maximum of four pages at a time . 
+
+Composition is an automatic process driven by claude, the user doesn't need to select options, claude just makes the decision for them. As soon as you drag one tab into another it will happen. Alternatively you can then request a change to the page composition in the claude bar if you want some other layout.  
+
+this way every website shares the same seamless design language and layout system.
+
+The overall aim of Mondrian is to unify web design under one rule - the rule of the grid system. Too long has mankind been plagued by disparate formatting, urls, tabs - a web browsing experience hardly changed from last century. Mondrian aims to make the leap from traditional browsing to true AI-enabled web use; a browser experience for the twenty-first century. We know this is not an easy goal, but with the newfound technology that is rapidly evolving in front of us, we truly believe that it is an achievable one. 
 
 ## Setup
 
