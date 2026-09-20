@@ -143,6 +143,11 @@ special case — **not having a correctly configured sandbox helper is the norma
 Electron out of node_modules**, and that is true of every non-root Linux box, not just
 CI. All three harnesses now pass `--no-sandbox` on Linux unconditionally.
 
+`--disable-gpu` was keyed on the same wrong condition and is the same bug one layer
+down: without it the runner has no working viz compositor, so `capturePage` fails with
+`UnknownVizError` and clicks miss their target. Both flags are about **headless Linux**,
+not about root, and all three harnesses now pass both on Linux unconditionally.
+
 Two lessons, both about the shape of the mistake rather than the flag:
 
 - The symptom was `browser never wrote control.json`, which says nothing about sandboxes.

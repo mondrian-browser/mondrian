@@ -283,11 +283,9 @@ const FLOWS = {
   // Argv, not appendSwitch: the SUID check happens first (gotcha 8), and a Linux box
   // that is not root has no usable sandbox helper in node_modules. See tests/e2e.js.
   const isLinux = process.platform === 'linux';
-  const asRoot = isLinux && typeof process.getuid === 'function' && process.getuid() === 0;
   const needXvfb = !process.env.DISPLAY && process.platform === 'linux';
   const extra = [
-    ...(isLinux ? ['--no-sandbox'] : []),
-    ...(asRoot ? ['--disable-gpu'] : []),
+    ...(isLinux ? ['--no-sandbox', '--disable-gpu'] : []),
     ...(proxy ? [`--proxy-server=${proxy}`, '--ignore-certificate-errors'] : []),
   ];
   const child = spawn(

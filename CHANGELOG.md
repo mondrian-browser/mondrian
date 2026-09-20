@@ -35,10 +35,12 @@ Notable changes. Format loosely follows Keep a Changelog. Nothing is released ye
 - The fixture suite was not hermetic despite being documented as such: it booted to
   `settings.homeUrl` and so could not run without reaching duckduckgo.com. It now boots
   to its own fixture server.
-- The fixture suite passed `--no-sandbox` only when running as root, so on any other
-  Linux machine Chromium aborted before boot with the SUID sandbox error. CI had been
-  red on `main` for nine consecutive runs because of it. All three harnesses now pass
-  the flag on Linux unconditionally. See gotcha 8.
+- The test harnesses passed `--no-sandbox` and `--disable-gpu` only when running as
+  root, so on any other Linux machine Chromium aborted before boot with the SUID
+  sandbox error, and screenshots failed with `UnknownVizError` once it did boot. CI had
+  been red on `main` for nine consecutive runs because of it. Both flags are about
+  headless Linux rather than root, and all three harnesses now pass them on Linux
+  unconditionally. See gotcha 8.
 
 ### Changed
 - Renamed from Claude Browser to Mondrian. The MCP server registers as `mondrian`.
