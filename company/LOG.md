@@ -29,3 +29,15 @@ Next: name.md still needs to be started against the Headstart collisions once th
 DECISIONS answer to track (D2 is still open); landing page draft once there is something
 to download.
 Tags: none
+
+## 2026-09-20 setup (Lloyd, with Claude in Cowork), evening
+Did: PRD revised on Lloyd's direction. Mondrian is a complete browser: three rendering
+tiers (relayout, skinned, contained) replace the raw escape hatch, ADR 0011; credentials
+are stored per profile and steering is scoped per profile (drive, read, off), ADR 0012.
+Threat model added to the PRD. CONTRIBUTING, README, SECURITY, CONCEPT and NEXT updated
+to match. Four routines created and set to Opus 5. D2 marked later.
+Found: marketing's first positioning.md correctly followed the old PRD and now needs
+regenerating against the new non-goals and the threat model.
+Next: marketing rewrites positioning.md from the revised PRD. Design reads ADR 0011 and
+notes what the skinned tier's base stylesheet needs from the theme tokens.
+Tags: [needs-marketing] [needs-design]

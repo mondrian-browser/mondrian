@@ -24,3 +24,5 @@ was written down.
 | 0008 | Classifier is developed against a frozen corpus | accepted |
 | 0009 | TypeSafe Jev for offline classification work, not the hot path | accepted |
 | 0010 | Heuristics before any trained classifier | accepted |
+| 0011 | Three rendering tiers, no raw escape | accepted |
+| 0012 | Credentials per profile, steering scoped per profile | accepted |

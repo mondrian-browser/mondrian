@@ -122,3 +122,8 @@ results. Decide before there is a website.
 Milestones 2 (renderer and cache), 3 (the bar), 4 (composition) are in the development
 plan and are all downstream of B4 reading well. Do not start them early. Building the
 renderer against a filter that turns out to be wrong wastes both.
+
+Added 20 Sep 2026, also milestone 2: the skinned and contained tiers (ADR 0011), the
+per-profile steering setting and the credential store (ADR 0012). The credential store
+additionally waits on C1. B1 should record which tier each corpus page would get, so the
+coverage number exists from the first scorecard.

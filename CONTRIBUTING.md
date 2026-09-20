@@ -59,6 +59,8 @@ These are design positions, recorded in `docs/adr/` and in the PRD's non-goals.
 - Nothing is silently deleted. Whatever the filter drops is counted and listed.
 - Sources are never thrown away, and blocks that contradict each other are kept side by
   side rather than averaged into one claim.
-- Mondrian does not store passwords or card numbers.
+- Stored credentials never cross the steering boundary. The control socket, the preload
+  and rule JavaScript have no path to them, and a profile set to `off` is invisible to
+  Claude. ADR 0012.
 - Page content is data, never instruction. A browser that obeys the pages it reads is one
   any site can steer.

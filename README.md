@@ -84,4 +84,6 @@ tests/         e2e suite, plus YouTube A/B checks
 - Pages run with context isolation on and node integration off.
 - Frame-header stripping is scoped to subframes of composed pages and asserted in the test
   suite in both directions.
-- Nothing here is a password manager. Type credentials yourself, in the profile you mean.
+- Credentials are not stored yet. When they are (ADR 0012) they are per profile, encrypted
+  at rest, and out of reach of the steering layer. Until then, type them yourself, in the
+  profile you mean.

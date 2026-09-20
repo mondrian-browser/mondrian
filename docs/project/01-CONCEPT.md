@@ -53,8 +53,12 @@ one click from being shown. The concept shows this as a panel: "Site navigation 
 footer / Shorts shelf, 6 items / 24 recommendations / 3 tracking scripts — Show them
 anyway."
 
-**Escape hatch, per site.** Pages that only work as built — a map, a web app, a checkout —
-render raw, and the tab says so. This is not a failure case, it is part of the design.
+**Three tiers, per site, and the tab says which.** Relayout is the product and the
+target is as many sites as possible. Pages that resist it are *skinned*: their own layout
+and behaviour, in Mondrian's type, colour and spacing, applied before first paint. Pages
+that resist even that are *contained*: they run exactly as built, as one large block
+inside Mondrian's frame, so they still compose and the dropped-content panel still works.
+There is no raw tier. A page that breaks when contained is a bug. ADR 0011.
 
 ### Arrival is progressive and visible
 
@@ -185,7 +189,7 @@ The concept is *reconstructive*: the page is never laid out by the site at all. 
   the filter does not emit a block for it. Clean YouTube becomes a classification outcome
   rather than a stylesheet.
 - **The rules engine's real job changes** to per-site correction of the filter: which
-  sites need the escape hatch, which selectors the classifier is getting wrong, which
+  tier each site gets, which selectors the classifier is getting wrong, which
   blocks to force or suppress. That is a better fit for it than selector whack-a-mole, and
   it is why the rules engine should not be thrown away.
 - **`page_read` becomes the front end of the classifier**, not just an agent affordance.
@@ -210,10 +214,11 @@ judgement calls and happen on a gesture, not on every page load.
 composed from behind a login" both need a reliable signal. Presence of a session cookie is
 the obvious candidate and it is imperfect.
 
-**3. Where is the line between a page and an app?** The escape hatch is the right idea but
-the boundary is fuzzy, and getting it wrong in either direction is bad: a checkout
-rendered as blocks is broken, a news site escaped to raw defeats the point. Likely a
-per-site rule with a conservative default.
+**3. Where is the line between the relayout and skinned tiers?** The boundary is fuzzy,
+and getting it wrong in either direction is bad: a checkout rendered as blocks is broken,
+a news site left skinned defeats the point. Likely a per-site rule with a conservative
+default, with the classifier and Claude proposing moves up a tier and a rule confirming
+them. ADR 0011.
 
 **4. What happens to forms and interaction?** "Form or control" is a block type, so the
 filter has to re-emit working controls bound to the original page, not screenshots of

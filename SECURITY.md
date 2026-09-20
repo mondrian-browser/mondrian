@@ -24,6 +24,14 @@ consumer build at all.
 Until that lands, treat a Mondrian install as equivalent to granting local code execution
 to anything already running on the machine.
 
+**Steering and credentials.** Mondrian is designed to let an agent read and act in the
+pages you browse. Once credentials are stored (ADR 0012, not yet built) that makes a
+`drive` profile a prompt-injection target: a page can mislead the agent into acting, as
+you, inside that profile. The boundary is the profile: credentials never reach the
+steering layer, an `off` profile is invisible to it, and nothing on the control socket
+can change a profile's setting. The credential store does not ship before the control
+socket above is OS-permissioned.
+
 **Frame-header stripping.** Composed pages in `pages/` may frame sites that send
 `X-Frame-Options` or `frame-ancestors`. The scope is subframes of those files only, and
 the test suite asserts both halves: a composed page may frame a site that refuses, a
