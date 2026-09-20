@@ -22,3 +22,4 @@ was written down.
 | 0006 | Deterministic core, Claude optional | accepted |
 | 0007 | Apache-2.0, free and open source | accepted |
 | 0008 | Classifier is developed against a frozen corpus | accepted |
+| 0009 | TypeSafe Jev for offline classification work, not the hot path | accepted |

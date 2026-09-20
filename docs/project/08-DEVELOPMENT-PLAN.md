@@ -77,8 +77,21 @@ genuinely applications, because the escape hatch needs testing too.
 
 This is the part that gets skipped and then poisons everything. Two levels:
 
-**Hand-labelled ground truth on 10 pages.** Tedious, unavoidable, and worth it. For each,
-write down what the blocks should be. This is the only honest measure of the ten types.
+**Hand-labelled ground truth on 10 pages.** Tedious, and the thing most likely to stall
+this milestone. For each page, write down what the blocks should be.
+
+TypeSafe's Jev can carry most of this: Choice over the ten block types returns a decision
+with confidence, so it can label the corpus in bulk and route only the low-confidence
+cases to you for review. Days of labelling becomes an afternoon of checking. Doing it
+this way also produces the measurement in the next paragraph for free, and ADR 0009
+records why it stays out of the page-load path.
+
+**Measure the decision model while you are there.** Running Jev over the same corpus
+tells you how well a decision model does this specific task. Nobody has published that
+number: TypeSafe's 76% is on generic workflow evaluations, and Brave's 91% is on a binary
+readability question, which is easier than ten-way typing. If Jev turns out to be strong
+here, it changes what the heuristics have to carry and is worth knowing early. If it is
+weak, that is worth knowing earlier still.
 
 **Proxy metrics on all 50**, cheap enough to run on every change:
 
