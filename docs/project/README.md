@@ -21,6 +21,22 @@ is deliberately written to work without it, but the pages carry detail that pros
 `03-COMMANDS.md` is generated. Run `npm run docs` after changing `shared/commands.js`
 and re-upload it, or it will drift from the browser.
 
+## Where the rest of the project documentation lives
+
+This bundle is for Claude sessions. The repository also carries the documents a
+contributor expects, and they are the authority for anything they cover:
+
+| file | what it is |
+|---|---|
+| `docs/PRD.md` | the guiding document: goals, non-goals, success criteria, risks |
+| `docs/adr/` | architecture decision records, one per decision worth not rediscovering |
+| `CONTRIBUTING.md` | the standard of evidence, how to test, what is not negotiable |
+| `SECURITY.md` | known exposure, stated plainly, including the control socket |
+| `CHANGELOG.md` | what changed |
+
+`docs/PRD.md` outranks everything in this bundle on questions of scope. If they disagree,
+the PRD is right and the bundle needs updating.
+
 ## What to keep current
 
 `05-STATUS.md` goes stale fastest and is the most misleading when it does. Update it when

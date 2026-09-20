@@ -1,0 +1,18 @@
+Mondrian
+Copyright 2026 Lloyd Collidge
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+This product bundles third-party software:
+
+  Electron (MIT) — https://electronjs.org
+    Includes Chromium (BSD-3-Clause and others) and FFmpeg (LGPL-2.1 components).
+    See the Electron distribution for its full licence manifest.
+
+  @ghostery/adblocker (MPL-2.0) — https://github.com/ghostery/adblocker
+    Used as a library. Ghostery's own source files are unmodified.
+
+  @modelcontextprotocol/sdk (MIT), ws (MIT), zod (MIT), tldts (MIT)
+
+Filter lists (EasyList, EasyPrivacy) are fetched at runtime from Ghostery's
+distribution and are not bundled with this software. They carry their own licences.

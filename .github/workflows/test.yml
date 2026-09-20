@@ -1,0 +1,37 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  fixtures:
+    name: fixture suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Electron needs a display and a working dbus session; xvfb provides the first and
+      # dbus-run-session stops Chromium spending 30s failing to find the second.
+      - name: run fixture suite
+        run: xvfb-run -a --server-args="-screen 0 1440x900x24" dbus-run-session -- npm test
+
+  windows:
+    name: fixture suite (windows)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Windows has caught a platform-specific bug that Linux passed clean: file:// URLs
+      # need three slashes for a drive letter, and the check that depended on it was
+      # silently disabled. Worth the extra runner.
+      - run: npm test
