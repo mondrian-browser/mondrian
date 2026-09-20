@@ -2,8 +2,12 @@
 // separate the easy regions from the hard ones? Answers that on a handful of live pages
 // before B1 commits to capturing fifty of them. ADR 0009, NEXT.md B2.
 //
-//   node tools/label/trial.js            six pages of six kinds
-//   node tools/label/trial.js <url>...   your own
+//   node tools/label/trial.js                        the default page set
+//   node tools/label/trial.js <url>...               your own pages
+//   --types <module>   use another type list (tools/label/taxonomies/*.js) instead of questions.js
+//   --label <name>     name the run; the results file is <timestamp>-<name>.json
+//   --quiet            summary only
+//   Compare two runs with tools/label/compare.js.
 //
 // Drives the running browser over its control socket (launch it first: `status` from
 // the MCP, or `npm start`), extracts regions with extract.js, asks Jev one question per
@@ -17,7 +21,18 @@ const path = require('path');
 const WebSocket = require('ws');
 const { ask, MODEL } = require('./jev');
 const { EXTRACT_SOURCE } = require('./extract');
-const { REVIEW_BELOW, regionQuestion, applicationQuestion } = require('./questions');
+const questions = require('./questions');
+const { REVIEW_BELOW, applicationQuestion } = questions;
+
+// ---------------------------------------------------------------- arguments
+const argv = process.argv.slice(2);
+const flag = (name) => { const i = argv.indexOf(name); if (i < 0) return null; const v = argv[i + 1]; argv.splice(i, 2); return v; };
+const has = (name) => { const i = argv.indexOf(name); if (i < 0) return false; argv.splice(i, 1); return true; };
+const TYPES_MODULE = flag('--types');
+const LABEL = flag('--label') || (TYPES_MODULE ? path.basename(TYPES_MODULE, '.js') : 'questions');
+const QUIET = has('--quiet');
+const BLOCK_TYPES = TYPES_MODULE ? require(path.resolve(TYPES_MODULE)) : questions.BLOCK_TYPES;
+const regionQuestion = () => ({ ...questions.regionQuestion(), criteria: BLOCK_TYPES });
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const CONTROL = path.join(ROOT, '.runtime', 'control.json');
@@ -28,9 +43,22 @@ const CONCURRENCY = 4;
 const DEFAULT_PAGES = [
   'https://en.wikipedia.org/wiki/Piet_Mondrian',                              // reference
   'https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText',   // documentation
+  'https://docs.python.org/3/library/json.html',                              // documentation, versioned
   'https://news.ycombinator.com/item?id=3078128',                             // forum thread
+  'https://old.reddit.com/r/programming/',                                    // forum listing
+  'https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array', // Q&A
   'https://www.bbcgoodfood.com/recipes/classic-victoria-sandwich-recipe',     // recipe
-  'https://www.bbc.com/news/technology',                                      // listing
+  'https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/',     // recipe, ad-heavy
+  'https://www.bbc.com/news/technology',                                      // news index
+  'https://www.economist.com/',                                               // news front, paywall
+  'https://www.nhs.uk/conditions/flu/',                                       // health information
+  'https://www.gov.uk/renew-driving-licence',                                 // government service
+  'https://www.imdb.com/title/tt0111161/',                                    // entity page, ratings, reviews
+  'https://www.ebay.com/sch/i.html?_nkw=usb+c+cable',                         // shop listing
+  'https://www.raspberrypi.com/products/raspberry-pi-5/',                     // product page
+  'https://stripe.com/',                                                      // marketing landing
+  'https://github.com/electron/electron',                                     // repository
+  'https://duckduckgo.com/?q=piet+mondrian&ia=web',                           // search results
   'https://excalidraw.com/',                                                  // application
 ];
 
@@ -88,6 +116,7 @@ async function labelPage(client, url) {
     await new Promise((r) => setTimeout(r, 1500)); // let late hydration settle
     const { value: page } = await client.call('eval_js', { tabId, code: EXTRACT_SOURCE });
     if (!page || !Array.isArray(page.regions)) throw new Error(`extractor returned ${JSON.stringify(page).slice(0, 200)}`);
+    if (page.regions.length === 0 && page.viewport.width === 0) throw new Error('viewport is 0x0: the browser window is minimised or hidden');
     const regions = page.regions;
 
     const pageState = {
@@ -119,13 +148,13 @@ function report(result) {
   const { url, title, regions, answers, application } = result;
   console.log(`\n${'='.repeat(110)}\n${title}\n${url}\napplication: ${application.toFixed(2)}   regions: ${regions.length}`);
   console.log(`${'-'.repeat(110)}`);
-  console.log(`${pad('#', 3)} ${pad('type', 18)} ${pad('conf', 5)} ${pad('runner-up', 20)} ${pad('tag', 12)} ${pad('where', 18)} text`);
+  console.log(`${pad('#', 3)} ${pad('type', 20)} ${pad('conf', 5)} ${pad('runner-up', 20)} ${pad('tag', 12)} ${pad('where', 18)} text`);
   for (const a of answers) {
     const r = regions[a.index];
     const flag = a.confidence < REVIEW_BELOW ? '?' : ' ';
     const runnerUp = a.top2[1] ? `${a.top2[1][0]} ${a.top2[1][1].toFixed(2)}` : '';
     const where = r.landmarks.join('>') || (r.geometry.aboveFold ? 'above fold' : `${Math.round(r.geometry.pageFraction * 100)}% down`);
-    console.log(`${pad(a.index, 3)} ${pad(a.choice + flag, 18)} ${pad(a.confidence.toFixed(2), 5)} ${pad(runnerUp, 20)} ${pad(r.tag, 12)} ${pad(where, 18)} ${r.text.slice(0, 40).replace(/\n/g, ' ')}`);
+    console.log(`${pad(a.index, 3)} ${pad(a.choice + flag, 20)} ${pad(a.confidence.toFixed(2), 5)} ${pad(runnerUp, 20)} ${pad(r.tag, 12)} ${pad(where, 18)} ${r.text.slice(0, 40).replace(/\n/g, ' ')}`);
   }
 }
 
@@ -138,7 +167,7 @@ function summarise(results) {
   const flagged = all.filter((a) => a.confidence < REVIEW_BELOW).length;
   const ms = all.map((a) => a.ms).sort((a, b) => a - b);
   const tokens = all.reduce((n, a) => n + (a.usage ? a.usage.input_tokens : 0), 0);
-  console.log(`\n${'='.repeat(110)}\nSUMMARY  model ${results[0] && results[0].model || MODEL}`);
+  console.log(`\n${'='.repeat(110)}\nSUMMARY  model ${results[0] && results[0].model || MODEL}   types ${Object.keys(BLOCK_TYPES).length} (${LABEL})`);
   console.log(`regions ${all.length}   flagged for review (<${REVIEW_BELOW}) ${flagged} (${Math.round(100 * flagged / all.length)}%)`);
   console.log(`confidence  min ${q(0).toFixed(2)}  p25 ${q(0.25).toFixed(2)}  median ${q(0.5).toFixed(2)}  p75 ${q(0.75).toFixed(2)}  max ${conf[conf.length - 1].toFixed(2)}`);
   console.log(`latency ms  median ${ms[Math.floor(ms.length / 2)]}  p90 ${ms[Math.floor(ms.length * 0.9)]}   input tokens ${tokens}   est. cost $${(tokens * 0.042 / 1e6).toFixed(4)}`);
@@ -148,12 +177,16 @@ function summarise(results) {
 
 // ---------------------------------------------------------------- run
 (async () => {
-  const pages = process.argv.slice(2).length ? process.argv.slice(2) : DEFAULT_PAGES;
+  const pages = argv.length ? argv : DEFAULT_PAGES;
+  console.log(`types: ${Object.keys(BLOCK_TYPES).length} (${LABEL})   pages: ${pages.length}`);
   if (!fs.existsSync(CONTROL)) {
     console.error('Browser is not running (no .runtime/control.json). Start it with `npm start` or the MCP `status` tool.');
     process.exit(1);
   }
   const client = await new Client(JSON.parse(fs.readFileSync(CONTROL, 'utf8'))).connect();
+  // A minimised window has a 0x0 viewport and every region is invisible; refuse rather than label nothing.
+  const win = await client.call('window', { action: 'get' });
+  if (win.minimized) { await client.call('window', { action: 'restore' }); console.log('browser window was minimised; restored it'); }
   await client.call('ui_note', { text: `Jev trial: labelling ${pages.length} pages in the ${PROFILE} profile.` }).catch(() => {});
 
   const results = [];
@@ -162,8 +195,8 @@ function summarise(results) {
     try {
       const r = await labelPage(client, url);
       results.push(r);
-      process.stdout.write(`${r.regions.length} regions`);
-      report(r);
+      process.stdout.write(`${r.regions.length} regions, ${r.answers.filter((a) => a.confidence < REVIEW_BELOW).length} flagged`);
+      if (!QUIET) report(r);
     } catch (e) {
       process.stdout.write(`FAILED: ${e.message}`);
       results.push({ url, error: e.message, answers: [], regions: [] });
@@ -173,8 +206,8 @@ function summarise(results) {
   if (ok.length) summarise(ok);
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  const out = path.join(OUT_DIR, new Date().toISOString().replace(/[:.]/g, '-') + '.json');
-  fs.writeFileSync(out, JSON.stringify({ model: MODEL, reviewBelow: REVIEW_BELOW, results }, null, 2));
+  const out = path.join(OUT_DIR, new Date().toISOString().replace(/[:.]/g, '-') + '-' + LABEL + '.json');
+  fs.writeFileSync(out, JSON.stringify({ model: MODEL, label: LABEL, types: Object.keys(BLOCK_TYPES), reviewBelow: REVIEW_BELOW, results }, null, 2));
   console.log(`\nwritten ${path.relative(ROOT, out)}`);
   await client.call('ui_note', { text: `Jev trial done: ${ok.length}/${pages.length} pages, results in .runtime/label-trial/.`, level: 'success' }).catch(() => {});
   client.close();

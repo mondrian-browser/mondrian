@@ -88,6 +88,16 @@ supply that the trial pages lacked: plain data tables (`table` was never chosen)
 pages with paywalls, newsletter prompts, app nags and footnotes. The extractor in
 `tools/label/extract.js` is the capture format to start from; drop its 40-region cap.
 
+*Width search, same day* (19 pages, ~500 regions, `tools/label/compare.js` between runs):
+49 types 10% flagged, median margin 0.82; 109 types 13%, with nine types that only stole
+probability from common ones; 100 types after dropping those and sharpening six definitions
+11%, median margin 0.83, true ties (top two within 0.1) 7% at every width. So width costs
+nothing at the median and about five points of margin in the lower quartile, where a
+second plausible type now exists; it buys reviews, filters, feedback, vote_controls, hero,
+cta, testimonial, settings and forty more that had no name. The current list is the
+100 in `questions.js`; `taxonomies/v49.js` and `v109.js` are kept for comparison.
+Review routing should use the top-two margin, not raw confidence, once B2 calibrates it.
+
 **B3. Heuristic baseline, no model.** Semantic HTML and ARIA, cross-page repetition, link
 density, text-to-markup ratio, geometry from the preload. Read Mozilla Readability
 (Apache-2.0) and Postlight Parser (MIT) first; both encode years of learning about what
