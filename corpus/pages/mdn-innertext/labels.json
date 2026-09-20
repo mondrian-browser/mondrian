@@ -6,7 +6,7 @@
  "labelledAt": "2026-09-20T08:49:01.389Z",
  "tier": "relayout",
  "application": 0.03,
- "inputTokens": 63871,
+ "inputTokens": 68367,
  "regions": [
   {
    "index": 0,
@@ -414,8 +414,39 @@
     ]
    ],
    "final": "site_footer"
+  },
+  {
+   "index": 14,
+   "choice": "embed",
+   "confidence": 0.94,
+   "margin": 0.93,
+   "top": [
+    [
+     "embed",
+     0.95
+    ],
+    [
+     "empty_state",
+     0.02
+    ],
+    [
+     "site_footer",
+     0.02
+    ],
+    [
+     "decoration",
+     0.01
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "embed"
   }
  ],
- "reviewedAt": "2026-09-20T09:04:29.603Z",
- "reviewFile": "tools/label/judgements/corpus-all.json"
+ "reviewedAt": "2026-09-20T09:22:37.293Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json",
+ "appendedAt": "2026-09-20T09:22:14.554Z"
 }

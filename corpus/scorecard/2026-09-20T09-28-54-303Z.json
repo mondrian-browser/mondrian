@@ -1,0 +1,3183 @@
+{
+ "at": "2026-09-20T09:28:54.303Z",
+ "pages": 74,
+ "sites": 45,
+ "rules": 203,
+ "all": {
+  "regions": 3292,
+  "strict": 0.597,
+  "lenient": 0.615,
+  "macroF1": 0.435,
+  "types": {
+   "title": {
+    "n": 46,
+    "called": 52,
+    "precision": 0.673,
+    "recall": 0.761,
+    "f1": 0.714
+   },
+   "heading": {
+    "n": 361,
+    "called": 409,
+    "precision": 0.775,
+    "recall": 0.878,
+    "f1": 0.823
+   },
+   "summary": {
+    "n": 52,
+    "called": 13,
+    "precision": 0.538,
+    "recall": 0.135,
+    "f1": 0.215
+   },
+   "text": {
+    "n": 537,
+    "called": 717,
+    "precision": 0.625,
+    "recall": 0.834,
+    "f1": 0.715
+   },
+   "byline": {
+    "n": 82,
+    "called": 52,
+    "precision": 0.5,
+    "recall": 0.317,
+    "f1": 0.388
+   },
+   "author_bio": {
+    "n": 6,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.167,
+    "f1": 0.286
+   },
+   "metadata": {
+    "n": 24,
+    "called": 23,
+    "precision": 0.087,
+    "recall": 0.083,
+    "f1": 0.085
+   },
+   "badge": {
+    "n": 3,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "correction": {
+    "n": 2,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "disclosure": {
+    "n": 2,
+    "called": 7,
+    "precision": 0.286,
+    "recall": 1,
+    "f1": 0.444
+   },
+   "image": {
+    "n": 111,
+    "called": 145,
+    "precision": 0.717,
+    "recall": 0.937,
+    "f1": 0.813
+   },
+   "gallery": {
+    "n": 29,
+    "called": 23,
+    "precision": 0.565,
+    "recall": 0.448,
+    "f1": 0.5
+   },
+   "chart": {
+    "n": 3,
+    "called": 34,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "video": {
+    "n": 11,
+    "called": 8,
+    "precision": 0.625,
+    "recall": 0.455,
+    "f1": 0.526
+   },
+   "audio": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "transcript": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "table": {
+    "n": 19,
+    "called": 15,
+    "precision": 0.8,
+    "recall": 0.632,
+    "f1": 0.706
+   },
+   "list": {
+    "n": 86,
+    "called": 153,
+    "precision": 0.327,
+    "recall": 0.581,
+    "f1": 0.418
+   },
+   "steps": {
+    "n": 9,
+    "called": 8,
+    "precision": 0.25,
+    "recall": 0.222,
+    "f1": 0.235
+   },
+   "definition_list": {
+    "n": 3,
+    "called": 4,
+    "precision": 0.5,
+    "recall": 0.667,
+    "f1": 0.571
+   },
+   "quote": {
+    "n": 21,
+    "called": 22,
+    "precision": 0.727,
+    "recall": 0.762,
+    "f1": 0.744
+   },
+   "code": {
+    "n": 212,
+    "called": 209,
+    "precision": 0.981,
+    "recall": 0.967,
+    "f1": 0.974
+   },
+   "callout": {
+    "n": 23,
+    "called": 12,
+    "precision": 0.583,
+    "recall": 0.304,
+    "f1": 0.4
+   },
+   "infobox": {
+    "n": 25,
+    "called": 4,
+    "precision": 0.5,
+    "recall": 0.08,
+    "f1": 0.138
+   },
+   "footnote": {
+    "n": 5,
+    "called": 9,
+    "precision": 0.222,
+    "recall": 0.4,
+    "f1": 0.286
+   },
+   "references": {
+    "n": 11,
+    "called": 7,
+    "precision": 1,
+    "recall": 0.636,
+    "f1": 0.778
+   },
+   "table_of_contents": {
+    "n": 11,
+    "called": 5,
+    "precision": 1,
+    "recall": 0.455,
+    "f1": 0.625
+   },
+   "accordion": {
+    "n": 13,
+    "called": 10,
+    "precision": 0.2,
+    "recall": 0.154,
+    "f1": 0.174
+   },
+   "tabs": {
+    "n": 13,
+    "called": 5,
+    "precision": 1,
+    "recall": 0.385,
+    "f1": 0.556
+   },
+   "embed": {
+    "n": 9,
+    "called": 9,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+   },
+   "map": {
+    "n": 4,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.25,
+    "f1": 0.4
+   },
+   "poll": {
+    "n": 1,
+    "called": 4,
+    "precision": 0.25,
+    "recall": 1,
+    "f1": 0.4
+   },
+   "contact_details": {
+    "n": 1,
+    "called": 29,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "download": {
+    "n": 0,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "comments": {
+    "n": 118,
+    "called": 84,
+    "precision": 0.81,
+    "recall": 0.576,
+    "f1": 0.673
+   },
+   "reviews": {
+    "n": 12,
+    "called": 14,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "rating": {
+    "n": 8,
+    "called": 24,
+    "precision": 0.208,
+    "recall": 0.625,
+    "f1": 0.313
+   },
+   "reactions": {
+    "n": 3,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "vote_controls": {
+    "n": 59,
+    "called": 60,
+    "precision": 0.933,
+    "recall": 0.949,
+    "f1": 0.941
+   },
+   "user_card": {
+    "n": 3,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "related": {
+    "n": 73,
+    "called": 42,
+    "precision": 0.548,
+    "recall": 0.315,
+    "f1": 0.4
+   },
+   "teaser_card": {
+    "n": 401,
+    "called": 275,
+    "precision": 0.647,
+    "recall": 0.444,
+    "f1": 0.527
+   },
+   "product_card": {
+    "n": 10,
+    "called": 8,
+    "precision": 0.5,
+    "recall": 0.4,
+    "f1": 0.444
+   },
+   "trending": {
+    "n": 31,
+    "called": 6,
+    "precision": 0.5,
+    "recall": 0.097,
+    "f1": 0.162
+   },
+   "tag_cloud": {
+    "n": 16,
+    "called": 4,
+    "precision": 1,
+    "recall": 0.25,
+    "f1": 0.4
+   },
+   "pagination": {
+    "n": 23,
+    "called": 21,
+    "precision": 0.667,
+    "recall": 0.609,
+    "f1": 0.636
+   },
+   "external_links": {
+    "n": 9,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "form": {
+    "n": 8,
+    "called": 9,
+    "precision": 0.556,
+    "recall": 0.625,
+    "f1": 0.588
+   },
+   "login_form": {
+    "n": 8,
+    "called": 5,
+    "precision": 0.4,
+    "recall": 0.25,
+    "f1": 0.308
+   },
+   "search": {
+    "n": 15,
+    "called": 19,
+    "precision": 0.526,
+    "recall": 0.667,
+    "f1": 0.588
+   },
+   "filters": {
+    "n": 21,
+    "called": 3,
+    "precision": 0.667,
+    "recall": 0.095,
+    "f1": 0.167
+   },
+   "action_button": {
+    "n": 94,
+    "called": 118,
+    "precision": 0.492,
+    "recall": 0.617,
+    "f1": 0.547
+   },
+   "buy_box": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "settings": {
+    "n": 6,
+    "called": 3,
+    "precision": 1,
+    "recall": 0.5,
+    "f1": 0.667
+   },
+   "site_header": {
+    "n": 49,
+    "called": 46,
+    "precision": 0.457,
+    "recall": 0.429,
+    "f1": 0.442
+   },
+   "site_nav": {
+    "n": 78,
+    "called": 86,
+    "precision": 0.57,
+    "recall": 0.628,
+    "f1": 0.598
+   },
+   "section_nav": {
+    "n": 30,
+    "called": 54,
+    "precision": 0.185,
+    "recall": 0.333,
+    "f1": 0.238
+   },
+   "breadcrumbs": {
+    "n": 19,
+    "called": 24,
+    "precision": 0.625,
+    "recall": 0.789,
+    "f1": 0.698
+   },
+   "version_switcher": {
+    "n": 26,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "page_tools": {
+    "n": 14,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "feedback": {
+    "n": 9,
+    "called": 8,
+    "precision": 0.625,
+    "recall": 0.556,
+    "f1": 0.588
+   },
+   "account": {
+    "n": 16,
+    "called": 4,
+    "precision": 1,
+    "recall": 0.25,
+    "f1": 0.4
+   },
+   "share": {
+    "n": 13,
+    "called": 10,
+    "precision": 0.7,
+    "recall": 0.538,
+    "f1": 0.609
+   },
+   "site_footer": {
+    "n": 130,
+    "called": 103,
+    "precision": 0.612,
+    "recall": 0.485,
+    "f1": 0.541
+   },
+   "legal_notice": {
+    "n": 15,
+    "called": 37,
+    "precision": 0.108,
+    "recall": 0.267,
+    "f1": 0.154
+   },
+   "skip_link": {
+    "n": 24,
+    "called": 15,
+    "precision": 0.4,
+    "recall": 0.25,
+    "f1": 0.308
+   },
+   "site_notice": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "cookie_banner": {
+    "n": 15,
+    "called": 34,
+    "precision": 0.353,
+    "recall": 0.8,
+    "f1": 0.49
+   },
+   "consent_gate": {
+    "n": 3,
+    "called": 3,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+   },
+   "popup": {
+    "n": 0,
+    "called": 3,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "sticky_bar": {
+    "n": 0,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "chat_widget": {
+    "n": 5,
+    "called": 4,
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1": 0.667
+   },
+   "ad": {
+    "n": 21,
+    "called": 9,
+    "precision": 0.889,
+    "recall": 0.381,
+    "f1": 0.533
+   },
+   "sponsored": {
+    "n": 4,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "newsletter": {
+    "n": 12,
+    "called": 7,
+    "precision": 0.857,
+    "recall": 0.5,
+    "f1": 0.632
+   },
+   "subscribe": {
+    "n": 13,
+    "called": 16,
+    "precision": 0.313,
+    "recall": 0.385,
+    "f1": 0.345
+   },
+   "paywall": {
+    "n": 8,
+    "called": 19,
+    "precision": 0.105,
+    "recall": 0.25,
+    "f1": 0.148
+   },
+   "app_nag": {
+    "n": 3,
+    "called": 6,
+    "precision": 0.333,
+    "recall": 0.667,
+    "f1": 0.444
+   },
+   "cross_promo": {
+    "n": 32,
+    "called": 2,
+    "precision": 1,
+    "recall": 0.063,
+    "f1": 0.118
+   },
+   "hero": {
+    "n": 4,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "feature_grid": {
+    "n": 14,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "cta": {
+    "n": 21,
+    "called": 3,
+    "precision": 0.333,
+    "recall": 0.048,
+    "f1": 0.083
+   },
+   "testimonial": {
+    "n": 6,
+    "called": 6,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5
+   },
+   "logo_cloud": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "stats": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "team": {
+    "n": 2,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "toolbar": {
+    "n": 12,
+    "called": 2,
+    "precision": 0.5,
+    "recall": 0.083,
+    "f1": 0.143
+   },
+   "canvas": {
+    "n": 4,
+    "called": 5,
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1": 0.667
+   },
+   "status_message": {
+    "n": 0,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "empty_state": {
+    "n": 7,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "progress": {
+    "n": 3,
+    "called": 4,
+    "precision": 0.25,
+    "recall": 0.333,
+    "f1": 0.286
+   },
+   "decoration": {
+    "n": 9,
+    "called": 8,
+    "precision": 0.625,
+    "recall": 0.556,
+    "f1": 0.588
+   },
+   "unclear": {
+    "n": 0,
+    "called": 80,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   }
+  }
+ },
+ "dev": {
+  "regions": 2402,
+  "strict": 0.634,
+  "lenient": 0.653,
+  "macroF1": 0.431,
+  "types": {
+   "title": {
+    "n": 31,
+    "called": 37,
+    "precision": 0.622,
+    "recall": 0.742,
+    "f1": 0.676
+   },
+   "heading": {
+    "n": 258,
+    "called": 288,
+    "precision": 0.809,
+    "recall": 0.903,
+    "f1": 0.853
+   },
+   "summary": {
+    "n": 19,
+    "called": 10,
+    "precision": 0.5,
+    "recall": 0.263,
+    "f1": 0.345
+   },
+   "text": {
+    "n": 482,
+    "called": 579,
+    "precision": 0.682,
+    "recall": 0.82,
+    "f1": 0.745
+   },
+   "byline": {
+    "n": 74,
+    "called": 47,
+    "precision": 0.489,
+    "recall": 0.311,
+    "f1": 0.38
+   },
+   "author_bio": {
+    "n": 5,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.2,
+    "f1": 0.333
+   },
+   "metadata": {
+    "n": 15,
+    "called": 15,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "badge": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "correction": {
+    "n": 2,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "disclosure": {
+    "n": 2,
+    "called": 4,
+    "precision": 0.5,
+    "recall": 1,
+    "f1": 0.667
+   },
+   "image": {
+    "n": 83,
+    "called": 100,
+    "precision": 0.78,
+    "recall": 0.94,
+    "f1": 0.852
+   },
+   "gallery": {
+    "n": 19,
+    "called": 22,
+    "precision": 0.545,
+    "recall": 0.632,
+    "f1": 0.585
+   },
+   "chart": {
+    "n": 3,
+    "called": 34,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "video": {
+    "n": 8,
+    "called": 6,
+    "precision": 0.833,
+    "recall": 0.625,
+    "f1": 0.714
+   },
+   "audio": {
+    "n": 3,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "table": {
+    "n": 19,
+    "called": 15,
+    "precision": 0.8,
+    "recall": 0.632,
+    "f1": 0.706
+   },
+   "list": {
+    "n": 48,
+    "called": 112,
+    "precision": 0.348,
+    "recall": 0.813,
+    "f1": 0.488
+   },
+   "steps": {
+    "n": 7,
+    "called": 5,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "definition_list": {
+    "n": 2,
+    "called": 4,
+    "precision": 0.5,
+    "recall": 1,
+    "f1": 0.667
+   },
+   "quote": {
+    "n": 17,
+    "called": 18,
+    "precision": 0.778,
+    "recall": 0.824,
+    "f1": 0.8
+   },
+   "code": {
+    "n": 212,
+    "called": 209,
+    "precision": 0.981,
+    "recall": 0.967,
+    "f1": 0.974
+   },
+   "callout": {
+    "n": 23,
+    "called": 12,
+    "precision": 0.583,
+    "recall": 0.304,
+    "f1": 0.4
+   },
+   "infobox": {
+    "n": 19,
+    "called": 4,
+    "precision": 0.5,
+    "recall": 0.105,
+    "f1": 0.174
+   },
+   "footnote": {
+    "n": 5,
+    "called": 9,
+    "precision": 0.222,
+    "recall": 0.4,
+    "f1": 0.286
+   },
+   "references": {
+    "n": 11,
+    "called": 7,
+    "precision": 1,
+    "recall": 0.636,
+    "f1": 0.778
+   },
+   "table_of_contents": {
+    "n": 9,
+    "called": 4,
+    "precision": 1,
+    "recall": 0.444,
+    "f1": 0.615
+   },
+   "accordion": {
+    "n": 7,
+    "called": 8,
+    "precision": 0.25,
+    "recall": 0.286,
+    "f1": 0.267
+   },
+   "tabs": {
+    "n": 8,
+    "called": 3,
+    "precision": 1,
+    "recall": 0.375,
+    "f1": 0.545
+   },
+   "map": {
+    "n": 4,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.25,
+    "f1": 0.4
+   },
+   "poll": {
+    "n": 0,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "contact_details": {
+    "n": 0,
+    "called": 22,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "download": {
+    "n": 0,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "comments": {
+    "n": 109,
+    "called": 74,
+    "precision": 0.878,
+    "recall": 0.596,
+    "f1": 0.71
+   },
+   "reviews": {
+    "n": 9,
+    "called": 13,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "rating": {
+    "n": 3,
+    "called": 20,
+    "precision": 0.1,
+    "recall": 0.667,
+    "f1": 0.174
+   },
+   "reactions": {
+    "n": 3,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "vote_controls": {
+    "n": 59,
+    "called": 60,
+    "precision": 0.933,
+    "recall": 0.949,
+    "f1": 0.941
+   },
+   "user_card": {
+    "n": 2,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "related": {
+    "n": 46,
+    "called": 30,
+    "precision": 0.6,
+    "recall": 0.391,
+    "f1": 0.474
+   },
+   "teaser_card": {
+    "n": 205,
+    "called": 106,
+    "precision": 0.632,
+    "recall": 0.327,
+    "f1": 0.431
+   },
+   "product_card": {
+    "n": 6,
+    "called": 4,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "trending": {
+    "n": 20,
+    "called": 3,
+    "precision": 0.333,
+    "recall": 0.05,
+    "f1": 0.087
+   },
+   "tag_cloud": {
+    "n": 15,
+    "called": 4,
+    "precision": 1,
+    "recall": 0.267,
+    "f1": 0.421
+   },
+   "pagination": {
+    "n": 17,
+    "called": 18,
+    "precision": 0.722,
+    "recall": 0.765,
+    "f1": 0.743
+   },
+   "external_links": {
+    "n": 9,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "form": {
+    "n": 7,
+    "called": 8,
+    "precision": 0.5,
+    "recall": 0.571,
+    "f1": 0.533
+   },
+   "login_form": {
+    "n": 4,
+    "called": 4,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5
+   },
+   "search": {
+    "n": 8,
+    "called": 11,
+    "precision": 0.455,
+    "recall": 0.625,
+    "f1": 0.526
+   },
+   "filters": {
+    "n": 12,
+    "called": 2,
+    "precision": 0.5,
+    "recall": 0.083,
+    "f1": 0.143
+   },
+   "action_button": {
+    "n": 62,
+    "called": 90,
+    "precision": 0.567,
+    "recall": 0.823,
+    "f1": 0.671
+   },
+   "buy_box": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "settings": {
+    "n": 5,
+    "called": 3,
+    "precision": 1,
+    "recall": 0.6,
+    "f1": 0.75
+   },
+   "site_header": {
+    "n": 33,
+    "called": 29,
+    "precision": 0.345,
+    "recall": 0.303,
+    "f1": 0.323
+   },
+   "site_nav": {
+    "n": 56,
+    "called": 68,
+    "precision": 0.544,
+    "recall": 0.661,
+    "f1": 0.597
+   },
+   "section_nav": {
+    "n": 19,
+    "called": 24,
+    "precision": 0.25,
+    "recall": 0.316,
+    "f1": 0.279
+   },
+   "breadcrumbs": {
+    "n": 10,
+    "called": 13,
+    "precision": 0.692,
+    "recall": 0.9,
+    "f1": 0.783
+   },
+   "version_switcher": {
+    "n": 19,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "page_tools": {
+    "n": 11,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "feedback": {
+    "n": 5,
+    "called": 4,
+    "precision": 0.25,
+    "recall": 0.2,
+    "f1": 0.222
+   },
+   "account": {
+    "n": 11,
+    "called": 3,
+    "precision": 1,
+    "recall": 0.273,
+    "f1": 0.429
+   },
+   "share": {
+    "n": 9,
+    "called": 8,
+    "precision": 0.625,
+    "recall": 0.556,
+    "f1": 0.588
+   },
+   "site_footer": {
+    "n": 89,
+    "called": 70,
+    "precision": 0.671,
+    "recall": 0.528,
+    "f1": 0.591
+   },
+   "legal_notice": {
+    "n": 12,
+    "called": 27,
+    "precision": 0.148,
+    "recall": 0.333,
+    "f1": 0.205
+   },
+   "skip_link": {
+    "n": 5,
+    "called": 7,
+    "precision": 0.286,
+    "recall": 0.4,
+    "f1": 0.333
+   },
+   "cookie_banner": {
+    "n": 6,
+    "called": 19,
+    "precision": 0.263,
+    "recall": 0.833,
+    "f1": 0.4
+   },
+   "popup": {
+    "n": 0,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "chat_widget": {
+    "n": 5,
+    "called": 3,
+    "precision": 1,
+    "recall": 0.6,
+    "f1": 0.75
+   },
+   "ad": {
+    "n": 1,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "sponsored": {
+    "n": 3,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "newsletter": {
+    "n": 9,
+    "called": 6,
+    "precision": 0.833,
+    "recall": 0.556,
+    "f1": 0.667
+   },
+   "subscribe": {
+    "n": 7,
+    "called": 7,
+    "precision": 0.143,
+    "recall": 0.143,
+    "f1": 0.143
+   },
+   "paywall": {
+    "n": 5,
+    "called": 17,
+    "precision": 0.059,
+    "recall": 0.2,
+    "f1": 0.091
+   },
+   "app_nag": {
+    "n": 2,
+    "called": 5,
+    "precision": 0.4,
+    "recall": 1,
+    "f1": 0.571
+   },
+   "cross_promo": {
+    "n": 15,
+    "called": 2,
+    "precision": 1,
+    "recall": 0.133,
+    "f1": 0.235
+   },
+   "hero": {
+    "n": 3,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "feature_grid": {
+    "n": 14,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "cta": {
+    "n": 12,
+    "called": 3,
+    "precision": 0.333,
+    "recall": 0.083,
+    "f1": 0.133
+   },
+   "testimonial": {
+    "n": 6,
+    "called": 6,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5
+   },
+   "logo_cloud": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "stats": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "team": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "toolbar": {
+    "n": 12,
+    "called": 2,
+    "precision": 0.5,
+    "recall": 0.083,
+    "f1": 0.143
+   },
+   "canvas": {
+    "n": 4,
+    "called": 5,
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1": 0.667
+   },
+   "status_message": {
+    "n": 0,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "empty_state": {
+    "n": 3,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "progress": {
+    "n": 1,
+    "called": 2,
+    "precision": 0.5,
+    "recall": 1,
+    "f1": 0.667
+   },
+   "decoration": {
+    "n": 5,
+    "called": 3,
+    "precision": 0.667,
+    "recall": 0.4,
+    "f1": 0.5
+   },
+   "unclear": {
+    "n": 0,
+    "called": 31,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   }
+  }
+ },
+ "holdout": {
+  "regions": 890,
+  "strict": 0.496,
+  "lenient": 0.513,
+  "macroF1": 0.398,
+  "types": {
+   "title": {
+    "n": 15,
+    "called": 15,
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1": 0.8
+   },
+   "heading": {
+    "n": 103,
+    "called": 121,
+    "precision": 0.694,
+    "recall": 0.816,
+    "f1": 0.75
+   },
+   "summary": {
+    "n": 33,
+    "called": 3,
+    "precision": 0.667,
+    "recall": 0.061,
+    "f1": 0.111
+   },
+   "text": {
+    "n": 55,
+    "called": 138,
+    "precision": 0.384,
+    "recall": 0.964,
+    "f1": 0.549
+   },
+   "byline": {
+    "n": 8,
+    "called": 5,
+    "precision": 0.6,
+    "recall": 0.375,
+    "f1": 0.462
+   },
+   "author_bio": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "metadata": {
+    "n": 9,
+    "called": 8,
+    "precision": 0.25,
+    "recall": 0.222,
+    "f1": 0.235
+   },
+   "badge": {
+    "n": 2,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "disclosure": {
+    "n": 0,
+    "called": 3,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "image": {
+    "n": 28,
+    "called": 45,
+    "precision": 0.578,
+    "recall": 0.929,
+    "f1": 0.712
+   },
+   "gallery": {
+    "n": 10,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.1,
+    "f1": 0.182
+   },
+   "video": {
+    "n": 3,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "audio": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "transcript": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "list": {
+    "n": 38,
+    "called": 41,
+    "precision": 0.268,
+    "recall": 0.289,
+    "f1": 0.278
+   },
+   "steps": {
+    "n": 2,
+    "called": 3,
+    "precision": 0.667,
+    "recall": 1,
+    "f1": 0.8
+   },
+   "definition_list": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "quote": {
+    "n": 4,
+    "called": 4,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5
+   },
+   "infobox": {
+    "n": 6,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "table_of_contents": {
+    "n": 2,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.5,
+    "f1": 0.667
+   },
+   "accordion": {
+    "n": 6,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "tabs": {
+    "n": 5,
+    "called": 2,
+    "precision": 1,
+    "recall": 0.4,
+    "f1": 0.571
+   },
+   "embed": {
+    "n": 9,
+    "called": 9,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+   },
+   "poll": {
+    "n": 1,
+    "called": 3,
+    "precision": 0.333,
+    "recall": 1,
+    "f1": 0.5
+   },
+   "contact_details": {
+    "n": 1,
+    "called": 7,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "comments": {
+    "n": 9,
+    "called": 10,
+    "precision": 0.3,
+    "recall": 0.333,
+    "f1": 0.316
+   },
+   "reviews": {
+    "n": 3,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "rating": {
+    "n": 5,
+    "called": 4,
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1": 0.667
+   },
+   "user_card": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "related": {
+    "n": 27,
+    "called": 12,
+    "precision": 0.417,
+    "recall": 0.185,
+    "f1": 0.256
+   },
+   "teaser_card": {
+    "n": 196,
+    "called": 169,
+    "precision": 0.657,
+    "recall": 0.566,
+    "f1": 0.608
+   },
+   "product_card": {
+    "n": 4,
+    "called": 4,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+   },
+   "trending": {
+    "n": 11,
+    "called": 3,
+    "precision": 0.667,
+    "recall": 0.182,
+    "f1": 0.286
+   },
+   "tag_cloud": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "pagination": {
+    "n": 6,
+    "called": 3,
+    "precision": 0.333,
+    "recall": 0.167,
+    "f1": 0.222
+   },
+   "form": {
+    "n": 1,
+    "called": 1,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+   },
+   "login_form": {
+    "n": 4,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "search": {
+    "n": 7,
+    "called": 8,
+    "precision": 0.625,
+    "recall": 0.714,
+    "f1": 0.667
+   },
+   "filters": {
+    "n": 9,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.111,
+    "f1": 0.2
+   },
+   "action_button": {
+    "n": 32,
+    "called": 28,
+    "precision": 0.25,
+    "recall": 0.219,
+    "f1": 0.233
+   },
+   "settings": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "site_header": {
+    "n": 16,
+    "called": 17,
+    "precision": 0.647,
+    "recall": 0.688,
+    "f1": 0.667
+   },
+   "site_nav": {
+    "n": 22,
+    "called": 18,
+    "precision": 0.667,
+    "recall": 0.545,
+    "f1": 0.6
+   },
+   "section_nav": {
+    "n": 11,
+    "called": 30,
+    "precision": 0.133,
+    "recall": 0.364,
+    "f1": 0.195
+   },
+   "breadcrumbs": {
+    "n": 9,
+    "called": 11,
+    "precision": 0.545,
+    "recall": 0.667,
+    "f1": 0.6
+   },
+   "version_switcher": {
+    "n": 7,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "page_tools": {
+    "n": 3,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "feedback": {
+    "n": 4,
+    "called": 4,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+   },
+   "account": {
+    "n": 5,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.2,
+    "f1": 0.333
+   },
+   "share": {
+    "n": 4,
+    "called": 2,
+    "precision": 1,
+    "recall": 0.5,
+    "f1": 0.667
+   },
+   "site_footer": {
+    "n": 41,
+    "called": 33,
+    "precision": 0.485,
+    "recall": 0.39,
+    "f1": 0.432
+   },
+   "legal_notice": {
+    "n": 3,
+    "called": 10,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "skip_link": {
+    "n": 19,
+    "called": 8,
+    "precision": 0.5,
+    "recall": 0.211,
+    "f1": 0.296
+   },
+   "site_notice": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "cookie_banner": {
+    "n": 9,
+    "called": 15,
+    "precision": 0.467,
+    "recall": 0.778,
+    "f1": 0.583
+   },
+   "consent_gate": {
+    "n": 3,
+    "called": 3,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+   },
+   "popup": {
+    "n": 0,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "sticky_bar": {
+    "n": 0,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "chat_widget": {
+    "n": 0,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "ad": {
+    "n": 20,
+    "called": 8,
+    "precision": 1,
+    "recall": 0.4,
+    "f1": 0.571
+   },
+   "sponsored": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "newsletter": {
+    "n": 3,
+    "called": 1,
+    "precision": 1,
+    "recall": 0.333,
+    "f1": 0.5
+   },
+   "subscribe": {
+    "n": 6,
+    "called": 9,
+    "precision": 0.444,
+    "recall": 0.667,
+    "f1": 0.533
+   },
+   "paywall": {
+    "n": 3,
+    "called": 2,
+    "precision": 0.5,
+    "recall": 0.333,
+    "f1": 0.4
+   },
+   "app_nag": {
+    "n": 1,
+    "called": 1,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "cross_promo": {
+    "n": 17,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "hero": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "cta": {
+    "n": 9,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "team": {
+    "n": 1,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "empty_state": {
+    "n": 4,
+    "called": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "progress": {
+    "n": 2,
+    "called": 2,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   },
+   "decoration": {
+    "n": 4,
+    "called": 5,
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1": 0.667
+   },
+   "unclear": {
+    "n": 0,
+    "called": 49,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0
+   }
+  }
+ },
+ "perPage": {
+  "abc-news-article": {
+   "split": "dev",
+   "regions": 68,
+   "strict": 0.53
+  },
+  "abc-news-index": {
+   "split": "dev",
+   "regions": 60,
+   "strict": 0.67
+  },
+  "allrecipes-banana": {
+   "split": "dev",
+   "regions": 65,
+   "strict": 0.54
+  },
+  "allrecipes-cookies": {
+   "split": "dev",
+   "regions": 63,
+   "strict": 0.54
+  },
+  "apple-iphone": {
+   "split": "dev",
+   "regions": 25,
+   "strict": 0.32
+  },
+  "arxiv-pdf": {
+   "split": "dev",
+   "regions": 0,
+   "strict": null
+  },
+  "ato-index": {
+   "split": "dev",
+   "regions": 16,
+   "strict": 0.31
+  },
+  "bbc-news-article": {
+   "split": "dev",
+   "regions": 22,
+   "strict": 0.55
+  },
+  "bbc-news-article-2": {
+   "split": "dev",
+   "regions": 18,
+   "strict": 0.67
+  },
+  "bbc-news-index": {
+   "split": "dev",
+   "regions": 30,
+   "strict": 0.4
+  },
+  "bbc-news-tech": {
+   "split": "dev",
+   "regions": 30,
+   "strict": 0.67
+  },
+  "bbcgoodfood-victoria": {
+   "split": "holdout",
+   "regions": 51,
+   "strict": 0.69
+  },
+  "bom-melbourne": {
+   "split": "dev",
+   "regions": 25,
+   "strict": 0.4
+  },
+  "ddg-web": {
+   "split": "dev",
+   "regions": 8,
+   "strict": 0.38
+  },
+  "ddg-web-2": {
+   "split": "dev",
+   "regions": 7,
+   "strict": 0.43
+  },
+  "devto-article": {
+   "split": "dev",
+   "regions": 14,
+   "strict": 0.43
+  },
+  "devto-post": {
+   "split": "dev",
+   "regions": 24,
+   "strict": 0.54
+  },
+  "diagrams-net": {
+   "split": "dev",
+   "regions": 15,
+   "strict": 0.07
+  },
+  "ebay-item": {
+   "split": "dev",
+   "regions": 6,
+   "strict": 0.5
+  },
+  "ebay-search": {
+   "split": "dev",
+   "regions": 15,
+   "strict": 0.4
+  },
+  "economist-article": {
+   "split": "holdout",
+   "regions": 17,
+   "strict": 0.53
+  },
+  "economist-index": {
+   "split": "holdout",
+   "regions": 25,
+   "strict": 0.48
+  },
+  "excalidraw": {
+   "split": "dev",
+   "regions": 6,
+   "strict": 0.33
+  },
+  "forbes-article": {
+   "split": "dev",
+   "regions": 83,
+   "strict": 0.58
+  },
+  "genius-lyrics": {
+   "split": "dev",
+   "regions": 48,
+   "strict": 0.48
+  },
+  "github-file": {
+   "split": "dev",
+   "regions": 39,
+   "strict": 0.74
+  },
+  "github-issues": {
+   "split": "dev",
+   "regions": 11,
+   "strict": 0.27
+  },
+  "github-repo": {
+   "split": "dev",
+   "regions": 48,
+   "strict": 0.63
+  },
+  "govuk-licence": {
+   "split": "holdout",
+   "regions": 44,
+   "strict": 0.82
+  },
+  "govuk-start": {
+   "split": "holdout",
+   "regions": 29,
+   "strict": 0.69
+  },
+  "guardian-article": {
+   "split": "holdout",
+   "regions": 19,
+   "strict": 0.53
+  },
+  "guardian-index": {
+   "split": "holdout",
+   "regions": 63,
+   "strict": 0.3
+  },
+  "hn-front": {
+   "split": "dev",
+   "regions": 62,
+   "strict": 0.26
+  },
+  "hn-thread": {
+   "split": "dev",
+   "regions": 5,
+   "strict": 0.4
+  },
+  "imdb-name": {
+   "split": "holdout",
+   "regions": 49,
+   "strict": 0.24
+  },
+  "imdb-title": {
+   "split": "holdout",
+   "regions": 48,
+   "strict": 0.21
+  },
+  "jbhifi-listing": {
+   "split": "holdout",
+   "regions": 43,
+   "strict": 0.58
+  },
+  "mdn-flexbox": {
+   "split": "holdout",
+   "regions": 21,
+   "strict": 0.86
+  },
+  "mdn-innertext": {
+   "split": "holdout",
+   "regions": 15,
+   "strict": 0.67
+  },
+  "medium-post": {
+   "split": "dev",
+   "regions": 13,
+   "strict": 0.38
+  },
+  "medium-tag": {
+   "split": "dev",
+   "regions": 12,
+   "strict": 0.67
+  },
+  "nhs-flu": {
+   "split": "holdout",
+   "regions": 8,
+   "strict": 0.88
+  },
+  "nhs-index": {
+   "split": "holdout",
+   "regions": 55,
+   "strict": 0.25
+  },
+  "nytimes-article": {
+   "split": "holdout",
+   "regions": 31,
+   "strict": 0.68
+  },
+  "nytimes-index": {
+   "split": "holdout",
+   "regions": 38,
+   "strict": 0.26
+  },
+  "openstreetmap": {
+   "split": "dev",
+   "regions": 8,
+   "strict": 0.5
+  },
+  "pg-essay-1": {
+   "split": "dev",
+   "regions": 2,
+   "strict": 1
+  },
+  "pg-essay-2": {
+   "split": "dev",
+   "regions": 4,
+   "strict": 0.5
+  },
+  "pg-index": {
+   "split": "dev",
+   "regions": 4,
+   "strict": 0.25
+  },
+  "photopea": {
+   "split": "dev",
+   "regions": 9,
+   "strict": 0.56
+  },
+  "premierleague-table": {
+   "split": "dev",
+   "regions": 16,
+   "strict": 0.63
+  },
+  "python-json": {
+   "split": "dev",
+   "regions": 46,
+   "strict": 0.8
+  },
+  "python-tutorial": {
+   "split": "dev",
+   "regions": 152,
+   "strict": 0.91
+  },
+  "raspberrypi-product": {
+   "split": "dev",
+   "regions": 38,
+   "strict": 0.47
+  },
+  "reddit-listing": {
+   "split": "holdout",
+   "regions": 20,
+   "strict": 0.4
+  },
+  "reddit-login-wall": {
+   "split": "dev",
+   "regions": 8,
+   "strict": 0.5
+  },
+  "reddit-thread": {
+   "split": "holdout",
+   "regions": 30,
+   "strict": 0.53
+  },
+  "sallys-recipe": {
+   "split": "dev",
+   "regions": 73,
+   "strict": 0.53
+  },
+  "services-australia": {
+   "split": "dev",
+   "regions": 12,
+   "strict": 0.58
+  },
+  "so-sorted-array": {
+   "split": "dev",
+   "regions": 354,
+   "strict": 0.78
+  },
+  "so-yield": {
+   "split": "dev",
+   "regions": 375,
+   "strict": 0.8
+  },
+  "spiegel-index": {
+   "split": "holdout",
+   "regions": 270,
+   "strict": 0.54
+  },
+  "squoosh": {
+   "split": "dev",
+   "regions": 7,
+   "strict": 0.29
+  },
+  "stripe-home": {
+   "split": "dev",
+   "regions": 40,
+   "strict": 0.15
+  },
+  "substack-index": {
+   "split": "dev",
+   "regions": 18,
+   "strict": 0.28
+  },
+  "substack-post": {
+   "split": "dev",
+   "regions": 9,
+   "strict": 0.44
+  },
+  "tomshardware-article": {
+   "split": "dev",
+   "regions": 55,
+   "strict": 0.6
+  },
+  "tomshardware-index": {
+   "split": "dev",
+   "regions": 69,
+   "strict": 0.33
+  },
+  "wiki-melbourne": {
+   "split": "dev",
+   "regions": 158,
+   "strict": 0.72
+  },
+  "wiki-mondrian": {
+   "split": "dev",
+   "regions": 72,
+   "strict": 0.72
+  },
+  "wiki-population": {
+   "split": "dev",
+   "regions": 27,
+   "strict": 0.52
+  },
+  "worldometers": {
+   "split": "dev",
+   "regions": 8,
+   "strict": 0.5
+  },
+  "youtube-results": {
+   "split": "holdout",
+   "regions": 9,
+   "strict": 0.22
+  },
+  "youtube-watch": {
+   "split": "holdout",
+   "regions": 5,
+   "strict": 0.4
+  }
+ },
+ "confusions": {
+  "byline -> text": {
+   "n": 51,
+   "rules": {
+    "prose": 50,
+    "prose-p": 1
+   }
+  },
+  "teaser_card -> text": {
+   "n": 49,
+   "rules": {
+    "long-text": 8,
+    "prose-p": 22,
+    "prose": 9,
+    "fallback-text": 10
+   }
+  },
+  "teaser_card -> list": {
+   "n": 46,
+   "rules": {
+    "text-weather": 4,
+    "list-ul": 16,
+    "linky": 26
+   }
+  },
+  "summary -> text": {
+   "n": 35,
+   "rules": {
+    "prose-p": 13,
+    "fallback-text": 22
+   }
+  },
+  "text -> chart": {
+   "n": 32,
+   "rules": {
+    "hint-chart": 32
+   }
+  },
+  "site_footer -> legal_notice": {
+   "n": 30,
+   "rules": {
+    "legal": 30
+   }
+  },
+  "action_button -> unclear": {
+   "n": 26,
+   "rules": {
+    "fallback": 26
+   }
+  },
+  "site_footer -> cookie_banner": {
+   "n": 22,
+   "rules": {
+    "cookie-text": 22
+   }
+  },
+  "comments -> text": {
+   "n": 21,
+   "rules": {
+    "prose-p": 10,
+    "prose": 11
+   }
+  },
+  "list -> section_nav": {
+   "n": 16,
+   "rules": {
+    "linky-tags": 2,
+    "linky": 13,
+    "table-navbox": 1
+   }
+  },
+  "teaser_card -> unclear": {
+   "n": 15,
+   "rules": {
+    "fallback": 15
+   }
+  },
+  "comments -> contact_details": {
+   "n": 14,
+   "rules": {
+    "text-contact": 14
+   }
+  },
+  "related -> teaser_card": {
+   "n": 13,
+   "rules": {
+    "linky-cards": 8,
+    "hint-card": 4,
+    "card-single": 1
+   }
+  },
+  "version_switcher -> action_button": {
+   "n": 12,
+   "rules": {
+    "control-button": 12
+   }
+  },
+  "skip_link -> heading": {
+   "n": 12,
+   "rules": {
+    "h-skip": 12
+   }
+  },
+  "site_header -> site_nav": {
+   "n": 11,
+   "rules": {
+    "top-linky": 4,
+    "header-linky": 5,
+    "nav-top": 1,
+    "header-nav": 1
+   }
+  },
+  "trending -> teaser_card": {
+   "n": 11,
+   "rules": {
+    "linky-cards": 11
+   }
+  },
+  "heading -> teaser_card": {
+   "n": 10,
+   "rules": {
+    "card-single": 10
+   }
+  },
+  "teaser_card -> paywall": {
+   "n": 10,
+   "rules": {
+    "paywall": 10
+   }
+  },
+  "callout -> text": {
+   "n": 9,
+   "rules": {
+    "prose-p": 3,
+    "prose": 5,
+    "long-text": 1
+   }
+  },
+  "related -> heading": {
+   "n": 9,
+   "rules": {
+    "h-heading": 9
+   }
+  },
+  "text -> list": {
+   "n": 9,
+   "rules": {
+    "list-ul": 7,
+    "linky": 1,
+    "text-weather": 1
+   }
+  },
+  "heading -> text": {
+   "n": 9,
+   "rules": {
+    "fallback-text": 3,
+    "prose-p": 6
+   }
+  },
+  "text -> unclear": {
+   "n": 8,
+   "rules": {
+    "fallback": 8
+   }
+  },
+  "teaser_card -> comments": {
+   "n": 8,
+   "rules": {
+    "comments-run": 5,
+    "comments-shape": 3
+   }
+  },
+  "teaser_card -> image": {
+   "n": 8,
+   "rules": {
+    "figure": 7,
+    "image-only": 1
+   }
+  },
+  "text -> image": {
+   "n": 8,
+   "rules": {
+    "figure": 8
+   }
+  },
+  "site_footer -> heading": {
+   "n": 7,
+   "rules": {
+    "h-heading": 6,
+    "h1-heading": 1
+   }
+  },
+  "cta -> text": {
+   "n": 7,
+   "rules": {
+    "prose-p": 4,
+    "prose": 1,
+    "fallback-text": 2
+   }
+  },
+  "teaser_card -> contact_details": {
+   "n": 7,
+   "rules": {
+    "text-contact": 7
+   }
+  },
+  "teaser_card -> rating": {
+   "n": 7,
+   "rules": {
+    "hint-rating": 7
+   }
+  },
+  "site_nav -> site_header": {
+   "n": 6,
+   "rules": {
+    "header": 6
+   }
+  },
+  "list -> text": {
+   "n": 6,
+   "rules": {
+    "prose": 2,
+    "prose-p": 3,
+    "long-text": 1
+   }
+  },
+  "cross_promo -> text": {
+   "n": 6,
+   "rules": {
+    "prose-p": 5,
+    "long-text": 1
+   }
+  },
+  "trending -> heading": {
+   "n": 6,
+   "rules": {
+    "heading-like": 4,
+    "h-heading": 2
+   }
+  },
+  "section_nav -> heading": {
+   "n": 6,
+   "rules": {
+    "short-heading": 2,
+    "h-heading": 3,
+    "heading-like": 1
+   }
+  },
+  "heading -> title": {
+   "n": 6,
+   "rules": {
+    "h1-title": 4,
+    "hint-title": 2
+   }
+  },
+  "metadata -> teaser_card": {
+   "n": 6,
+   "rules": {
+    "linky-run": 1,
+    "card-single": 4,
+    "linky-cards": 1
+   }
+  },
+  "legal_notice -> text": {
+   "n": 6,
+   "rules": {
+    "prose-p": 6
+   }
+  },
+  "teaser_card -> footnote": {
+   "n": 6,
+   "rules": {
+    "footnote": 6
+   }
+  },
+  "gallery -> teaser_card": {
+   "n": 6,
+   "rules": {
+    "linky-cards": 3,
+    "card-single": 3
+   }
+  },
+  "trending -> site_nav": {
+   "n": 6,
+   "rules": {
+    "top-linky": 2,
+    "linky-top": 2,
+    "nav-top": 2
+   }
+  },
+  "feature_grid -> action_button": {
+   "n": 6,
+   "rules": {
+    "control-button": 6
+   }
+  },
+  "site_nav -> site_footer": {
+   "n": 5,
+   "rules": {
+    "footer": 5
+   }
+  },
+  "steps -> list": {
+   "n": 5,
+   "rules": {
+    "list-ul": 5
+   }
+  },
+  "infobox -> metadata": {
+   "n": 5,
+   "rules": {
+    "hint-metadata": 5
+   }
+  },
+  "reviews -> teaser_card": {
+   "n": 5,
+   "rules": {
+    "hint-card": 4,
+    "card-single": 1
+   }
+  },
+  "product_card -> teaser_card": {
+   "n": 5,
+   "rules": {
+    "hint-card": 4,
+    "linky-cards": 1
+   }
+  },
+  "teaser_card -> reviews": {
+   "n": 5,
+   "rules": {
+    "reviews-run": 1,
+    "hint-reviews": 4
+   }
+  },
+  "site_header -> title": {
+   "n": 5,
+   "rules": {
+    "h1-site": 2,
+    "h1-title": 3
+   }
+  },
+  "version_switcher -> text": {
+   "n": 5,
+   "rules": {
+    "prose-p": 4,
+    "long-text": 1
+   }
+  },
+  "external_links -> list": {
+   "n": 5,
+   "rules": {
+    "list-ul": 5
+   }
+  },
+  "pagination -> action_button": {
+   "n": 5,
+   "rules": {
+    "control-button": 5
+   }
+  },
+  "related -> list": {
+   "n": 5,
+   "rules": {
+    "linky": 3,
+    "linky-list": 2
+   }
+  },
+  "teaser_card -> steps": {
+   "n": 5,
+   "rules": {
+    "hint-steps": 5
+   }
+  },
+  "ad -> teaser_card": {
+   "n": 5,
+   "rules": {
+    "card-single": 2,
+    "linky": 1,
+    "linky-cards": 2
+   }
+  },
+  "feature_grid -> text": {
+   "n": 5,
+   "rules": {
+    "prose-p": 5
+   }
+  },
+  "infobox -> list": {
+   "n": 4,
+   "rules": {
+    "text-weather": 2,
+    "list-items": 1,
+    "linky": 1
+   }
+  },
+  "text -> rating": {
+   "n": 4,
+   "rules": {
+    "hint-rating": 4
+   }
+  },
+  "teaser_card -> gallery": {
+   "n": 4,
+   "rules": {
+    "gallery": 4
+   }
+  }
+ },
+ "ruleUse": {
+  "prose-p": {
+   "n": 555,
+   "right": 447
+  },
+  "h-heading": {
+   "n": 279,
+   "right": 244
+  },
+  "pre-code": {
+   "n": 205,
+   "right": 204
+  },
+  "linky-cards": {
+   "n": 124,
+   "right": 84
+  },
+  "figure": {
+   "n": 109,
+   "right": 83
+  },
+  "prose": {
+   "n": 96,
+   "right": 2
+  },
+  "list-ul": {
+   "n": 94,
+   "right": 49
+  },
+  "footer": {
+   "n": 87,
+   "right": 65
+  },
+  "control-button": {
+   "n": 86,
+   "right": 52
+  },
+  "fallback": {
+   "n": 80,
+   "right": 0
+  },
+  "heading-like": {
+   "n": 73,
+   "right": 62
+  },
+  "card-article": {
+   "n": 65,
+   "right": 61
+  },
+  "hint-vote": {
+   "n": 60,
+   "right": 56
+  },
+  "linky": {
+   "n": 59,
+   "right": 9
+  },
+  "card-single": {
+   "n": 50,
+   "right": 19
+  },
+  "fallback-text": {
+   "n": 50,
+   "right": 2
+  },
+  "text-comments-head": {
+   "n": 44,
+   "right": 44
+  },
+  "h1-title": {
+   "n": 43,
+   "right": 30
+  },
+  "hint-related": {
+   "n": 42,
+   "right": 25
+  },
+  "header": {
+   "n": 38,
+   "right": 19
+  },
+  "legal": {
+   "n": 37,
+   "right": 4
+  },
+  "hint-chart": {
+   "n": 34,
+   "right": 0
+  },
+  "text-hn-subtext": {
+   "n": 31,
+   "right": 29
+  },
+  "hint-card": {
+   "n": 30,
+   "right": 12
+  },
+  "text-contact": {
+   "n": 29,
+   "right": 0
+  },
+  "button-like": {
+   "n": 27,
+   "right": 8
+  },
+  "img": {
+   "n": 27,
+   "right": 23
+  },
+  "header-nav": {
+   "n": 26,
+   "right": 24
+  },
+  "cookie-text": {
+   "n": 25,
+   "right": 3
+  },
+  "hint-rating": {
+   "n": 24,
+   "right": 5
+  },
+  "nav-top": {
+   "n": 23,
+   "right": 14
+  },
+  "blockquote": {
+   "n": 22,
+   "right": 18
+  },
+  "comments-shape": {
+   "n": 22,
+   "right": 17
+  },
+  "short-heading": {
+   "n": 22,
+   "right": 6
+  },
+  "h-skip": {
+   "n": 21,
+   "right": 9
+  },
+  "gallery": {
+   "n": 19,
+   "right": 13
+  },
+  "paywall": {
+   "n": 19,
+   "right": 2
+  },
+  "hint-metadata": {
+   "n": 18,
+   "right": 3
+  },
+  "nav": {
+   "n": 17,
+   "right": 3
+  },
+  "long-text": {
+   "n": 16,
+   "right": 1
+  },
+  "skip-link": {
+   "n": 15,
+   "right": 6
+  },
+  "breadcrumbs": {
+   "n": 15,
+   "right": 15
+  },
+  "text-weather": {
+   "n": 14,
+   "right": 2
+  },
+  "text-byline": {
+   "n": 14,
+   "right": 4
+  },
+  "table": {
+   "n": 14,
+   "right": 13
+  },
+  "top-linky": {
+   "n": 13,
+   "right": 4
+  },
+  "control-search": {
+   "n": 12,
+   "right": 9
+  },
+  "hint-subscribe": {
+   "n": 12,
+   "right": 3
+  },
+  "hint-callout": {
+   "n": 12,
+   "right": 7
+  },
+  "image-only": {
+   "n": 12,
+   "right": 7
+  },
+  "h1-heading": {
+   "n": 11,
+   "right": 6
+  },
+  "hint-accordion": {
+   "n": 10,
+   "right": 2
+  },
+  "control-pagination": {
+   "n": 10,
+   "right": 7
+  },
+  "hint-comments": {
+   "n": 10,
+   "right": 6
+  },
+  "nav-section": {
+   "n": 10,
+   "right": 0
+  },
+  "linky-top": {
+   "n": 10,
+   "right": 0
+  },
+  "footnote": {
+   "n": 9,
+   "right": 2
+  },
+  "hint-ad": {
+   "n": 9,
+   "right": 8
+  },
+  "header-linky": {
+   "n": 9,
+   "right": 3
+  },
+  "cookie": {
+   "n": 9,
+   "right": 9
+  },
+  "breadcrumbs-shape": {
+   "n": 9,
+   "right": 0
+  },
+  "frame-embed": {
+   "n": 9,
+   "right": 9
+  },
+  "hint-reviews": {
+   "n": 8,
+   "right": 1
+  },
+  "hint-steps": {
+   "n": 8,
+   "right": 2
+  },
+  "comments-run": {
+   "n": 8,
+   "right": 1
+  },
+  "feedback": {
+   "n": 8,
+   "right": 5
+  },
+  "hint-product": {
+   "n": 8,
+   "right": 4
+  },
+  "hint-byline": {
+   "n": 7,
+   "right": 7
+  },
+  "hint-summary": {
+   "n": 7,
+   "right": 4
+  },
+  "pagination-hint": {
+   "n": 7,
+   "right": 6
+  },
+  "h1-site": {
+   "n": 7,
+   "right": 5
+  },
+  "bottom-footer": {
+   "n": 7,
+   "right": 6
+  },
+  "disclosure": {
+   "n": 7,
+   "right": 2
+  },
+  "references": {
+   "n": 7,
+   "right": 7
+  },
+  "app-nag": {
+   "n": 6,
+   "right": 2
+  },
+  "hint-comments-form": {
+   "n": 6,
+   "right": 2
+  },
+  "reviews-run": {
+   "n": 6,
+   "right": 0
+  },
+  "summary-early": {
+   "n": 6,
+   "right": 3
+  },
+  "hint-trending": {
+   "n": 6,
+   "right": 3
+  },
+  "linky-bottom": {
+   "n": 6,
+   "right": 0
+  },
+  "table-navbox": {
+   "n": 6,
+   "right": 3
+  },
+  "blockquote-testimonial": {
+   "n": 5,
+   "right": 3
+  },
+  "hint-share": {
+   "n": 5,
+   "right": 4
+  },
+  "control-share": {
+   "n": 5,
+   "right": 3
+  },
+  "linky-tags": {
+   "n": 5,
+   "right": 2
+  },
+  "canvas": {
+   "n": 5,
+   "right": 4
+  },
+  "hint-caption": {
+   "n": 5,
+   "right": 0
+  },
+  "toc": {
+   "n": 5,
+   "right": 5
+  },
+  "hint-poll": {
+   "n": 4,
+   "right": 1
+  },
+  "repeated-chrome": {
+   "n": 4,
+   "right": 0
+  },
+  "hint-gallery": {
+   "n": 4,
+   "right": 0
+  },
+  "top-header": {
+   "n": 4,
+   "right": 1
+  },
+  "header-search": {
+   "n": 4,
+   "right": 1
+  },
+  "hint-nav": {
+   "n": 4,
+   "right": 2
+  },
+  "hint-tags": {
+   "n": 4,
+   "right": 4
+  },
+  "pagination-shape": {
+   "n": 4,
+   "right": 1
+  },
+  "header-subscribe": {
+   "n": 4,
+   "right": 2
+  },
+  "code-hint": {
+   "n": 4,
+   "right": 2
+  },
+  "short-link": {
+   "n": 4,
+   "right": 0
+  },
+  "loading": {
+   "n": 4,
+   "right": 1
+  },
+  "metadata-pairs": {
+   "n": 4,
+   "right": 0
+  },
+  "dl": {
+   "n": 4,
+   "right": 2
+  },
+  "control-newsletter": {
+   "n": 4,
+   "right": 3
+  },
+  "hint-login": {
+   "n": 3,
+   "right": 1
+  },
+  "hint-popup": {
+   "n": 3,
+   "right": 0
+  },
+  "hint-ingredients": {
+   "n": 3,
+   "right": 3
+  },
+  "text-cta": {
+   "n": 3,
+   "right": 1
+  },
+  "hint-infobox": {
+   "n": 3,
+   "right": 1
+  },
+  "hint-video": {
+   "n": 3,
+   "right": 0
+  },
+  "hint-tabs": {
+   "n": 3,
+   "right": 3
+  },
+  "hint-newsletter": {
+   "n": 3,
+   "right": 3
+  },
+  "h-comments": {
+   "n": 3,
+   "right": 0
+  },
+  "control-form": {
+   "n": 3,
+   "right": 3
+  },
+  "hint-header": {
+   "n": 3,
+   "right": 2
+  },
+  "hint-filters": {
+   "n": 3,
+   "right": 2
+  },
+  "control-account": {
+   "n": 3,
+   "right": 3
+  },
+  "list-items": {
+   "n": 3,
+   "right": 0
+  },
+  "frame-consent": {
+   "n": 3,
+   "right": 3
+  },
+  "hint-chat": {
+   "n": 3,
+   "right": 2
+  },
+  "nav-settings": {
+   "n": 3,
+   "right": 3
+  },
+  "hint-promo": {
+   "n": 2,
+   "right": 2
+  },
+  "video-tag": {
+   "n": 2,
+   "right": 2
+  },
+  "error-state": {
+   "n": 2,
+   "right": 0
+  },
+  "control-login": {
+   "n": 2,
+   "right": 1
+  },
+  "hint-toolbar": {
+   "n": 2,
+   "right": 1
+  },
+  "frame-video": {
+   "n": 2,
+   "right": 2
+  },
+  "hint-search": {
+   "n": 2,
+   "right": 1
+  },
+  "hint-download": {
+   "n": 2,
+   "right": 0
+  },
+  "hint-title": {
+   "n": 2,
+   "right": 0
+  },
+  "nav-tabs": {
+   "n": 2,
+   "right": 2
+  },
+  "linky-list": {
+   "n": 2,
+   "right": 0
+  },
+  "hint-page-tools": {
+   "n": 1,
+   "right": 0
+  },
+  "figure-video": {
+   "n": 1,
+   "right": 1
+  },
+  "hint-map": {
+   "n": 1,
+   "right": 1
+  },
+  "hint-sponsored": {
+   "n": 1,
+   "right": 0
+  },
+  "linky-run": {
+   "n": 1,
+   "right": 0
+  },
+  "h-related": {
+   "n": 1,
+   "right": 1
+  },
+  "controls-only": {
+   "n": 1,
+   "right": 0
+  },
+  "top-search": {
+   "n": 1,
+   "right": 0
+  },
+  "hint-account": {
+   "n": 1,
+   "right": 1
+  },
+  "hint-author-bio": {
+   "n": 1,
+   "right": 1
+  },
+  "text-nutrition": {
+   "n": 1,
+   "right": 0
+  },
+  "hint-sticky": {
+   "n": 1,
+   "right": 0
+  },
+  "hint-hero": {
+   "n": 1,
+   "right": 0
+  },
+  "hint-testimonial": {
+   "n": 1,
+   "right": 1
+  },
+  "frame-chat": {
+   "n": 1,
+   "right": 1
+  },
+  "hint-version": {
+   "n": 1,
+   "right": 0
+  },
+  "table-infobox": {
+   "n": 1,
+   "right": 1
+  }
+ }
+}

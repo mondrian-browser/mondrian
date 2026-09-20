@@ -3,6 +3,9 @@
 //   node tools/label/label.js              label every captured page not yet labelled
 //   node tools/label/label.js <id>...      only these pages
 //   --force                                relabel even if labels exist
+//   --new                                  label only regions appended since the page was
+//                                          labelled (tools/corpus/add-iframes.js); existing
+//                                          labels, reviews and finals are kept
 //   --types <module>                       another type list (tools/label/taxonomies/*.js)
 //
 // Reads corpus/pages/<id>/regions.json (no browser involved), asks Jev one question per
@@ -37,6 +40,7 @@ const argv = process.argv.slice(2);
 const flag = (name) => { const i = argv.indexOf(name); if (i < 0) return null; const v = argv[i + 1]; argv.splice(i, 2); return v; };
 const has = (name) => { const i = argv.indexOf(name); if (i < 0) return false; argv.splice(i, 1); return true; };
 const FORCE = has('--force');
+const NEW = has('--new');
 const TYPES_MODULE = flag('--types');
 const ONLY = new Set(argv);
 const BLOCK_TYPES = TYPES_MODULE ? require(path.resolve(TYPES_MODULE)) : questions.BLOCK_TYPES;
@@ -66,7 +70,13 @@ async function labelPage(id) {
   const pageState = { page: { url: page.url, title: page.title } };
   let tokens = 0;
 
-  const labelled = await mapLimit(regions, CONCURRENCY, async (r, i) => {
+  const labelsFile = path.join(dir, 'labels.json');
+  const existing = NEW && fs.existsSync(labelsFile) ? JSON.parse(fs.readFileSync(labelsFile, 'utf8')) : null;
+  const from = existing ? existing.regions.length : 0;
+  if (existing && from >= regions.length) return existing;
+
+  const labelled = await mapLimit(regions.slice(from), CONCURRENCY, async (r, j) => {
+    const i = from + j;
     const { index, ...region } = r;
     const state = { ...pageState, region: { ...region, before: brief(regions[i - 1]), after: brief(regions[i + 1]) } };
     const res = await ask(state, { type: regionQuestion() });
@@ -74,8 +84,18 @@ async function labelPage(id) {
     tokens += res.usage ? res.usage.input_tokens : 0;
     const ranked = Object.entries(a.probabilities).sort((x, y) => y[1] - x[1]);
     const margin = ranked.length > 1 ? +(ranked[0][1] - ranked[1][1]).toFixed(3) : 1;
-    return { index: i, choice: a.choice, confidence: +a.confidence.toFixed(3), margin, top: ranked.slice(0, 5).map(([t, p]) => [t, +p.toFixed(3)]) };
+    const out = { index: i, choice: a.choice, confidence: +a.confidence.toFixed(3), margin, top: ranked.slice(0, 5).map(([t, p]) => [t, +p.toFixed(3)]) };
+    if (existing) out.final = a.choice;
+    return out;
   });
+
+  if (existing) {
+    existing.regions.push(...labelled);
+    existing.inputTokens += tokens;
+    existing.appendedAt = new Date().toISOString();
+    fs.writeFileSync(labelsFile, JSON.stringify(existing, null, 1));
+    return existing;
+  }
 
   let application = null;
   if (regions.length) {
@@ -133,7 +153,13 @@ const pct = (n, d) => d ? Math.round(100 * n / d) + '%' : '-';
 // ---------------------------------------------------------------- run
 (async () => {
   const ids = fs.readdirSync(PAGES_DIR).filter((id) => fs.existsSync(path.join(PAGES_DIR, id, 'regions.json')));
-  const todo = ids.filter((id) => (ONLY.size === 0 || ONLY.has(id)) && (FORCE || !fs.existsSync(path.join(PAGES_DIR, id, 'labels.json'))));
+  const unlabelled = (id) => {
+    const lf = path.join(PAGES_DIR, id, 'labels.json');
+    if (!fs.existsSync(lf)) return true;
+    if (!NEW) return FORCE;
+    return JSON.parse(fs.readFileSync(lf, 'utf8')).regions.length < JSON.parse(fs.readFileSync(path.join(PAGES_DIR, id, 'regions.json'), 'utf8')).regions.length;
+  };
+  const todo = ids.filter((id) => (ONLY.size === 0 || ONLY.has(id)) && unlabelled(id));
   const total = todo.reduce((n, id) => n + JSON.parse(fs.readFileSync(path.join(PAGES_DIR, id, 'regions.json'), 'utf8')).regions.length, 0);
   console.log(`types: ${Object.keys(BLOCK_TYPES).length} (${LABEL})   pages: ${todo.length} of ${ids.length}   regions: ${total}`);
   const failures = [];

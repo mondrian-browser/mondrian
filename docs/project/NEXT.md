@@ -165,22 +165,64 @@ flagged, so flag-then-review works. Of the eleven wrong, seven were the extracto
 from their reviews, page headers merged into one lump: GitHub, Allrecipes, HN) or a definition overlap, four the
 model. Image-only regions with no text are a blind spot: capture alt text and dimensions.
 
-**B3. Heuristic baseline, no model.** Semantic HTML and ARIA, cross-page repetition, link
-density, text-to-markup ratio, geometry from the preload. Read Mozilla Readability
-(Apache-2.0) and Postlight Parser (MIT) first; both encode years of learning about what
-counts as content. Neither emits typed blocks, which is the new part.
+**B3. Done 20 Sep 2026: 68.7% strict, 61.9% on held-out sites.** `tools/classify/`:
+`features.js` (what the extractor recorded, plus cross-page repetition per site and
+position among the page's regions; Readability's link density, comma and length bands
+and byline regex, Postlight's class hint lists, widened to ~90 hint groups), and
+`heuristic.js`, 227 ordered rules, each returning a type or passing, the first answer
+wins and its name is recorded. Read Readability and Postlight first as instructed; the
+lists are theirs, the types are ours.
 
-**B4. Scorecard.** `npm run classify` over the corpus: per-type precision and recall
-against B2's labels, proxy metrics on the rest, and a diff against the previous run so
-regressions show. The scorecard is the milestone deliverable.
+Two things learned that the plan did not know:
+- **Link density is blind to modern cards.** BBC and Guardian teasers link the whole
+  card through one overlay anchor with an aria-label, so counted link text is zero. What
+  works is shape: a run of siblings each with one heading and one paragraph is a row of
+  cards. The extractor should also count `a[href]` that wrap or overlay a region, not
+  only descendants with text.
+- **Cross-page repetition was weak here** because most sites have two or three pages
+  and the signature is exact; it fires on footers and navs it did not need to. Worth
+  redoing with a fuzzier signature when there are more pages per site.
 
-Then read the failures, not just the number. Which types get confused with which, and
-whether those confusions make sense.
+**B4. Scorecard exists: `npm run classify`.** Strict and lenient accuracy (lenient counts
+Jev's runner-up where the review said "either"), macro-F1, per-type P/R/F1, the top
+confusions with the rule that made each call, per-page scores, rule reliability, and a
+diff against the previous run with regressions named. Pages are split by a hash of the
+site: three quarters dev, one quarter holdout; the holdout number is the honest one.
+`--failures N` prints examples, `--type T` every miss of one type, `--page id` a page.
+Written to `corpus/scorecard/latest.json`; the first run (59.7% / 49.6%) is kept
+alongside so the distance travelled is on disk.
 
-**B5. Decide.** Three branches, and B4 says which. Heuristics close, so write per-site
+The reading, which is B4's real deliverable:
+- Strong where structure speaks (F1): code .97, embed 1.0, vote_controls .94, comments
+  .85, cookie_banner .85, heading .84, text .81, image .81, references .78, byline .76,
+  newsletter .76, site_footer .75, quote .74, action_button .72, title .71, table .71.
+- Weak where purpose matters and structure does not: summary .30 (vs text), related .50
+  and trending .56 (vs teaser_card: the same cards, in a slot with a different heading),
+  section_nav .21 (vs list and site_nav), site_header .51 (vs site_nav), legal_notice
+  .28 (vs site_footer), metadata .09, cross_promo .12, cta .08, filters .17, infobox .14,
+  feature_grid, reviews, page_tools 0.
+- Most remaining confusions are between types the labels themselves keep apart only by
+  context: a "Related stories" h2 is `heading` on one page and `related` on another; a
+  copyright line is `site_footer` or `legal_notice`. Those pairs should either merge or
+  get a rule in the definition, before any model is trained on them.
+- The ten worst pages are applications, the two IMDb pages, Stripe, YouTube results and
+  HN: pages where the regions are chrome with no prose and the hints are minified class
+  names. Nothing in the heuristics can read `sc-86fcb06b-2`.
+
+**B5. Decide.** Next, and Lloyd's call. Three branches, and B4 says which. Heuristics close, so write per-site
 rules for the tail and go to milestone 2. Heuristics weak but the types sound, so train on
 B2's labels, defaulting to gradient boosted trees rather than a neural model. The types do
 not hold, so revise the taxonomy and repeat from B3. ADR 0010.
+
+Claude's reading of B4, 20 Sep 2026: the types hold (Jev 84% / 97% on them, and the
+heuristic confusions are between neighbours, not nonsense), and the heuristics are not
+close on the types that decide what a page looks like — summary, related, cross_promo,
+cta, the nav family. That is branch two. Concretely: merge or sharpen the five pairs
+named under B4 (and relabel only those, cheaply), then train gradient boosted trees on
+the features in `features.js` plus the rule that fired, over the 3,292 finals, scored
+on the same site-hashed holdout. The heuristics stay as the deterministic floor (ADR
+0006) and the trained model only overrides a rule when it is confident. A model that
+cannot beat 62% on holdout is not worth shipping; one that reaches 80% probably is.
 
 ---
 

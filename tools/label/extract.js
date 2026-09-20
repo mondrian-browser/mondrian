@@ -233,6 +233,16 @@ const EXTRACT_SOURCE = `(() => {
     const own = (name) => (main.getAttribute(name) || '').slice(0, 80);
     const cls = (main.className && typeof main.className === 'string') ? main.className.trim().split(/\\s+/).slice(0, 4).join(' ') : '';
     const imgs = images(els);
+    // A cross-origin frame has no text or pictures of its own; its host and size are
+    // all there is to go on (consent walls, video embeds, live examples, chat bots).
+    const frameEl = els.find((e) => e.tagName === 'IFRAME') || (els.length === 1 ? els[0].querySelector('iframe') : null);
+    let frame;
+    if (frameEl) {
+      const fr = frameEl.getBoundingClientRect();
+      let host = '';
+      try { host = new URL(frameEl.src, location.href).host.replace(/^www[.]/, ''); } catch (_) {}
+      frame = { host, width: Math.round(fr.width), height: Math.round(fr.height), title: (frameEl.title || '').slice(0, 80) || undefined };
+    }
     return {
       index,
       tag: m.run ? main.tagName.toLowerCase() + '\\u00d7' + els.length : main.tagName.toLowerCase(),
@@ -254,6 +264,7 @@ const EXTRACT_SOURCE = `(() => {
         repeats: m.tops.length,
       },
       images: imgs.count ? imgs.list : undefined,
+      frame,
       linkTextRatio: t.length ? +(linkText / t.length).toFixed(2) : 0,
       geometry: {
         top: Math.round(top),
@@ -268,7 +279,7 @@ const EXTRACT_SOURCE = `(() => {
 
   let regions = merged.map(describe);
   // Drop empty decorative bits. No cap: the corpus wants every region (NEXT.md B2).
-  regions = regions.filter((r) => r.textLength > 0 || r.counts.images > 0 || r.counts.controls > 0);
+  regions = regions.filter((r) => r.textLength > 0 || r.counts.images > 0 || r.counts.controls > 0 || (r.frame && r.frame.width >= 80 && r.frame.height >= 80));
   regions.forEach((r, i) => { r.index = i; });
 
   return {

@@ -31,3 +31,11 @@ Cost: 15.0M input tokens, $0.63.
 ## Known gap
 
 Cross-origin iframes (consent walls, embeds, ad frames) are not in `regions.json`: the extractor drops a region with no text and no images. Spiegel's consent wall is the visible case. Fix in the extractor under B3, then recapture and relabel the affected pages and record it here.
+
+**Closed 20 Sep 2026, same day.** `tools/corpus/add-iframes.js` appended the 15 visible
+frames (≥80px) from `dom.html` to the 8 pages that have them, after the existing regions
+so no index moved; `node tools/label/label.js --new` labelled them (3,292 regions now).
+Jev: 9 `embed` (MDN live examples), 2 `video` (YouTube), 1 `chat_widget`, and the three
+full-viewport consent frames as `cookie_banner`, corrected to `consent_gate` in review.
+The extractor now emits frames itself (`frame: { host, width, height }`), so a future
+capture does not need this pass.

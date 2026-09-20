@@ -6,7 +6,7 @@
  "labelledAt": "2026-09-20T08:47:33.923Z",
  "tier": "relayout",
  "application": 0.03,
- "inputTokens": 82198,
+ "inputTokens": 86689,
  "regions": [
   {
    "index": 0,
@@ -533,8 +533,39 @@
     ]
    ],
    "final": "site_footer"
+  },
+  {
+   "index": 18,
+   "choice": "cookie_banner",
+   "confidence": 0.81,
+   "margin": 0.66,
+   "top": [
+    [
+     "cookie_banner",
+     0.82
+    ],
+    [
+     "consent_gate",
+     0.16
+    ],
+    [
+     "popup",
+     0.01
+    ],
+    [
+     "disclosure",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "review": "wrong",
+   "final": "consent_gate"
   }
  ],
- "reviewedAt": "2026-09-20T09:04:29.598Z",
- "reviewFile": "tools/label/judgements/corpus-all.json"
+ "reviewedAt": "2026-09-20T09:22:37.289Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json",
+ "appendedAt": "2026-09-20T09:22:10.424Z"
 }
