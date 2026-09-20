@@ -73,10 +73,20 @@ Freeze it when it is captured. ADR 0008.
 choice with a confidence number, so it labels in bulk and flags what it is unsure of.
 Review only the flagged cases. An afternoon rather than a week.
 
-Keep score while it runs. How well a decision model does ten-way block typing on real
-pages is not a published number, and reviewing the output produces it for free.
+Keep score while it runs. How well a decision model does block typing on real pages is
+not a published number, and reviewing the output produces it for free.
 
 Jev never runs on page load. ADR 0009 says why.
+
+*Trial run 20 Sep 2026* (`node tools/label/trial.js`, six live pages, 137 regions): with
+the ten types, 12% of regions fell below 0.5 confidence and the flagged ones were regions
+with no fitting type, not confused ones. With 49 types (`tools/label/questions.js`), 7%
+flagged, first-quartile confidence 0.80, median 0.94, 20 cents per fifty pages. The
+document/application Noul separated Excalidraw (0.97) from five documents (0.02 to 0.05).
+So the taxonomy is wide and the corpus decides its width, ADR 0013. Two things B1 must
+supply that the trial pages lacked: plain data tables (`table` was never chosen) and
+pages with paywalls, newsletter prompts, app nags and footnotes. The extractor in
+`tools/label/extract.js` is the capture format to start from; drop its 40-region cap.
 
 **B3. Heuristic baseline, no model.** Semantic HTML and ARIA, cross-page repetition, link
 density, text-to-markup ratio, geometry from the preload. Read Mozilla Readability

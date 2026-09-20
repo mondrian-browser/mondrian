@@ -27,6 +27,10 @@ CSS never reaches the screen at all.
 
 ### Ten block types cover the web you actually read
 
+*Superseded as a specification by ADR 0013 (20 Sep 2026): the taxonomy is wide and the
+corpus decides its width; the current list is `tools/label/questions.js`. The ten below
+stand as the original sketch.*
+
 | block | what it holds |
 |---|---|
 | Heading | |

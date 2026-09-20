@@ -26,3 +26,4 @@ was written down.
 | 0010 | Heuristics before any trained classifier | accepted |
 | 0011 | Three rendering tiers, no raw escape | accepted |
 | 0012 | Credentials per profile, steering scoped per profile | accepted |
+| 0013 | The block taxonomy is wide, and the corpus decides its width | accepted |
