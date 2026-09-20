@@ -4,6 +4,7 @@
 //   node tools/classify/run.js --failures 40   also list the biggest confusions with examples
 //   node tools/classify/run.js --type comments list every miss for one type
 //   node tools/classify/run.js --page <id>     print every region of one page with its call
+//   node tools/classify/run.js --stack         directory, then trees (out-of-fold), then rules
 //
 // Scores tools/classify/heuristic.js against `final` in corpus/pages/*/labels.json.
 // Two numbers matter: strict (the call equals the final label) and lenient (the call
@@ -31,9 +32,52 @@ const flag = (n) => { const i = argv.indexOf(n); if (i < 0) return null; const v
 const FAILURES = Number(flag('--failures') || 0);
 const TYPE = flag('--type');
 const PAGE = flag('--page');
+const has = (n) => { const i = argv.indexOf(n); if (i < 0) return false; argv.splice(i, 1); return true; };
+
+const STACK = has('--stack');
+const BLEND = Number(flag('--blend') || 0.7);
 
 // ---------------------------------------------------------------- load
 const pages = loadPages();
+
+// --stack: directory where it covers (derived from the site's other pages), then the
+// trees' out-of-fold call where confident (corpus/model/oof.json from train.js --cv),
+// then the rules. Every part is judged only on pages it did not learn from.
+if (STACK) {
+  const { derive, lookup } = require('../sites/derive');
+  const oofFile = path.join(ROOT, 'corpus', 'model', 'oof.json');
+  const oof = fs.existsSync(oofFile) ? JSON.parse(fs.readFileSync(oofFile, 'utf8')) : null;
+  if (!oof) console.log('no corpus/model/oof.json: run `node tools/classify/train.js --cv 4` first; scoring directory then rules only');
+  const calls = classifyAll(pages);
+  const bySite = {};
+  for (const p of pages) (bySite[p.site] = bySite[p.site] || []).push(p);
+  const tally = { n: 0, rules: 0, trees: 0, dir: 0, dirCovered: 0, dirRight: 0, stack: 0, stackNoDir: 0 };
+  for (const p of pages) {
+    const others = bySite[p.site].filter((q) => q !== p);
+    const blocks = others.length ? derive(others) : [];
+    for (const a of p.labels) {
+      const id = `${p.id}:${a.index}`;
+      const rule = calls.get(id).type;
+      const o = oof && oof.calls[id];
+      const tree = o && o.conf >= BLEND ? o.type : null;
+      const dir = blocks.length ? lookup(blocks, p.regions[a.index]) : null;
+      tally.n++;
+      if (rule === a.final) tally.rules++;
+      if ((o ? o.type : rule) === a.final) tally.trees++;
+      if (dir) { tally.dirCovered++; if (dir === a.final) tally.dirRight++; }
+      if ((tree || rule) === a.final) tally.stackNoDir++;
+      if ((dir || tree || rule) === a.final) tally.stack++;
+    }
+  }
+  const pct = (x) => (100 * x / tally.n).toFixed(1) + '%';
+  console.log(`STACK  ${pages.length} pages, ${Object.keys(bySite).length} sites, ${tally.n} regions${oof ? `, trees from ${oof.folds}-fold out-of-fold calls at confidence ${BLEND}` : ''}`);
+  console.log(`  rules alone            ${pct(tally.rules)}`);
+  if (oof) console.log(`  trees alone            ${pct(tally.trees)}`);
+  if (oof) console.log(`  trees then rules       ${pct(tally.stackNoDir)}`);
+  console.log(`  directory              covers ${pct(tally.dirCovered)}, right where covered ${(100 * tally.dirRight / Math.max(tally.dirCovered, 1)).toFixed(1)}%`);
+  console.log(`  directory, trees, rules  ${pct(tally.stack)}`);
+  process.exit(0);
+}
 
 // ---------------------------------------------------------------- classify and score
 const calls = classifyAll(pages);

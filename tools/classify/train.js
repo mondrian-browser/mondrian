@@ -1,7 +1,9 @@
 // Train the trees on the labelled corpus and say whether they beat the rules. NEXT.md B5.
 //
 //   node tools/classify/train.js              train on dev sites, score holdout, save model
-//   node tools/classify/train.js --cv 4       4-fold cross-validation by site instead
+//   node tools/classify/train.js --cv 4       4-fold cross-validation by site instead; also writes
+//                                            corpus/model/oof.json, every region's out-of-fold call,
+//                                            which run.js --stack scores honestly
 //   node tools/classify/train.js --rounds 80 --depth 5 --lr 0.1   hyperparameters
 //   node tools/classify/train.js --final      train on every site and save (after --cv says it is worth it)
 //
@@ -30,6 +32,7 @@ const FINAL = has('--final');
 const OPTS = { rounds: Number(flag('--rounds', 60)), depth: Number(flag('--depth', 4)), learningRate: Number(flag('--lr', 0.15)), minLeaf: Number(flag('--min-leaf', 4)), lambda: Number(flag('--lambda', 1)), colSample: Number(flag('--col', 0.5)) };
 const THRESHOLDS = [0, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9];
 const MODEL_FILE = path.join(ROOT, 'corpus', 'model', 'gbt.json');
+const OOF_FILE = path.join(ROOT, 'corpus', 'model', 'oof.json');
 
 const pages = loadPages();
 const rows = [];
@@ -47,6 +50,7 @@ function matrix(list) {
   return { X, y };
 }
 
+const oof = {};
 function evaluate(model, list) {
   const out = { rules: 0, trees: 0, blend: Object.fromEntries(THRESHOLDS.map((t) => [t, 0])), n: list.length, perType: {} };
   for (const r of list) {
@@ -54,6 +58,7 @@ function evaluate(model, list) {
     let bk = 0;
     for (let k = 1; k < K; k++) if (p[k] > p[bk]) bk = k;
     const tree = TYPES[bk], conf = p[bk];
+    oof[r.id] = { type: tree, conf: +conf.toFixed(3) };
     if (r.call.type === r.final) out.rules++;
     if (tree === r.final) out.trees++;
     for (const t of THRESHOLDS) if ((conf >= t ? tree : r.call.type) === r.final) out.blend[t]++;
@@ -86,6 +91,9 @@ if (CV) {
     for (const t of THRESHOLDS) totals.blend[t] += e.blend[t];
   }
   report(`\n${CV}-fold total`, totals);
+  fs.mkdirSync(path.dirname(OOF_FILE), { recursive: true });
+  fs.writeFileSync(OOF_FILE, JSON.stringify({ at: new Date().toISOString(), folds: CV, opts: OPTS, calls: oof }));
+  console.log(`written corpus/model/oof.json (${Object.keys(oof).length} out-of-fold calls)`);
 } else {
   const train = rows.filter((r) => r.split === (FINAL ? r.split : 'dev'));
   const test = rows.filter((r) => r.split === 'holdout');
