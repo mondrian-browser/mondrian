@@ -304,14 +304,27 @@ sites, and by far more on a solved site's own pages. Not yet consumed at runtime
 preload should apply a site's selectors at document-start and mark elements with the
 type, which is milestone 2's first job.
 
-**B6.5 Corpus growth. In progress.** `tools/corpus/growth-1.txt`, 45 sites × 4 pages via
-`solve.js --file`, chosen so the rarer types land on several sites each. Pages join
-the corpus and the scorecard. When done: review the flagged regions, rerun the hint
-audit, rerun the scorecard, and try the trees again (`npm run classify:train --cv 4`)
-now that a site-held-out split no longer removes a type's whole training set.
+**B6.5 Corpus growth. Done once; do it again.** `tools/corpus/growth-1.txt`, 45 sites
+× 4 pages through `solve.js --file`: 44 solved in 55 minutes, four dropped as bot walls
+or app shells. **236 pages, 86 sites, 7,996 regions**, 45 directory entries. On the
+grown corpus the rules score 63.4% strict (block 80%, slot 63%): the 70% before was
+fitted to the first 45 sites, and the old holdout had said 62%. Directory then rules
+by leave-one-page-out: 73% against 64%.
 
-Lloyd's own sites are the missing input for the directory: twenty he uses, in a text
-file, through `solve.js --file`.
+The trees, 4-fold by site, 40 rounds depth 4: **rules 63.1%, trees 60.0%, blend at
+0.7 confidence 65.0%.** On 45 sites the trees had 49.7%. Doubling the sites bought
+ten points on unseen sites, one fold now has the trees six ahead of the rules, and the
+blend is worth two. That is a corpus-size curve and it has not flattened. The next
+growth batch (another 50 sites, plus Lloyd's own) is the cheapest accuracy left: an
+hour of machine time and a dollar of Jev.
+
+What the stack would give today on a solved site: the directory where it covers (94%
+right), the blend where it does not (65%), roughly 76% of regions right overall,
+against 63% from the rules alone. Runtime consumption of directory entries is
+milestone 2's first job.
+
+Lloyd's own sites are still the missing input: twenty he uses, one per line, through
+`node tools/sites/solve.js --file`.
 
 ## C. Parallel, do not leave to the end
 
