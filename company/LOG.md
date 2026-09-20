@@ -41,3 +41,30 @@ regenerating against the new non-goals and the threat model.
 Next: marketing rewrites positioning.md from the revised PRD. Design reads ADR 0011 and
 notes what the skinned tier's base stylesheet needs from the theme tokens.
 Tags: [needs-marketing] [needs-design]
+
+## 2026-09-20 engineering
+Did: fixed the fixture suite failing on main, opened PR #1. The suite died before a
+single check in the routine's container with "browser never wrote control.json". Root
+cause was a product bug, not test plumbing: webContents.loadURL rejects on any main-frame
+navigation failure, boot() awaited the start-page tab_open without catching, and the
+rejection reached the boot catch and called app.exit(1). Offline, behind a captive
+portal, behind a proxy that refuses CONNECT, or with a typo in homeUrl, Mondrian would
+not start at all — no window, no control socket, no omnibox to type a working URL into.
+Boot now records the failure on the tab (Chromium paints its own error page, did-fail-load
+sets tab.lastError) and opens anyway; control.start() still runs last so control.json
+keeps meaning "ready for commands". The suite also boots to its own fixture server now
+instead of settings.homeUrl. Six new checks with the negative case; 92 passed, 0 failed
+in 25 s with no network, twice. Reverting only the main.js change turns the new check red,
+so the test fails without the fix. Gotcha 12 written up, counts 86 -> 92 across the docs,
+CHANGELOG entry.
+Found: two things worth knowing. The live suites (site-suite.js, agent-suite.js) launch
+the same way with no --url=, so the same bug stopped them booting too — after the fix
+npm run test:sites reaches its own reporting. And this container cannot reach any of the
+20 live sites (proxy blocks them all: 0/0 tested, 20 skipped), so no cloud run can give
+real-IP evidence; that has to come from Lloyd's machine.
+Next: nothing in NEXT.md is ticked by this — it came from the fixture-suite trigger, not
+a NEXT item. The unchecked work is B6.5's next corpus growth batch (needs network and a
+dollar of Jev, so probably not from this container) and C1, the control socket, which is
+the largest unblocked engineering item and is pure local work. C1 next run unless a PR
+event fires. Lloyd's twenty own sites are still the missing input for B6.5.
+Tags: none
