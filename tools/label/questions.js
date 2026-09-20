@@ -24,7 +24,7 @@ const BLOCK_TYPES = {
   text: 'Running prose the reader came to read: paragraphs of an article, an answer, a description, a story, documentation.',
   byline: 'Who wrote the main content and when: author name, publication date, updated date, reading time, source attribution. The header of a post inside a thread is part of comments.',
   author_bio: 'A box about the author placed after the content: photo, short biography, links to their other work.',
-  metadata: 'Facts about the item shown as labelled values: tags, categories, prep time, servings, difficulty, version, licence, file size, word count.',
+  metadata: 'Facts about the item shown as labelled values: prep time, servings, difficulty, director, version, licence, file size, word count. A row of topic tags or categories to browse by is tag_cloud.',
   badge: 'A small status label attached to content: new, updated, verified, beta, deprecated, widely available, editor\'s pick.',
   correction: 'A note from the publication that this article was corrected or amended after publication, saying what changed. Maintenance notices such as "needs more citations" are callout.',
   disclosure: 'A statement that the content contains affiliate links, was sponsored, or that the author has a conflict of interest.',
