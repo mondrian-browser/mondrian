@@ -1,0 +1,3678 @@
+{
+ "url": "https://react.dev/blog/2026/09/09/react-19-3",
+ "title": "React 19.3 – React",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 18750,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "class": "duration-300 backdrop-filter backdrop-blur-lg backdrop-saturate-200",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 55,
+   "text": "React\nv19.3\nSearch⌘CtrlK\nLearn\nReference\nCommunity\nBlog",
+   "counts": {
+    "links": 9,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "flex justify-between items-start",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 19,
+   "text": "Blog\n Copy pageCopy",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 78,
+    "height": 44,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "class": "mdx-heading mt-0 text-primary dark:text-primary-dark",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 10,
+   "text": "React 19.3",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 122,
+    "height": 50,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 35,
+   "text": "September 9, 2026 by The React Team",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 188,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 208,
+   "text": "React 19.3 is now available on npm!\nLast year, we shared View Transitions and Fragment Refs as new experimental APIs coming to React. We’re excited to announce that both of these are now stable in React 19.3!",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 267,
+    "height": 109,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 101,
+   "text": "In this post, we’ll go over how they work, and also cover some other notable changes in this release.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 392,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 210,
+   "text": "New React Features View Transitions \nFragment Refs \nNew React DOM Features browser \nTrusted Types support \nNew React Server Components Features <Context> can be rendered directly in Server Components \nChangelog",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.94,
+   "geometry": {
+    "top": 438,
+    "height": 329,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "id": "new-react-features",
+   "class": "mdx-heading text-3xl font-display leading-10",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 18,
+   "text": "New React Features",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 815,
+    "height": 40,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h3",
+   "id": "view-transition",
+   "class": "mdx-heading text-2xl font-display leading-9",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "View Transitions",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 879,
+    "height": 36,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 284,
+   "text": "The new <ViewTransition> component lets you animate elements as they enter, exit, move, or resize using the browser’s View Transition API. We shared it as an experimental API last year, and in 19.3 it’s stable and ready to use.\nTo animate part of your UI, wrap it in <ViewTransition>:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 939,
+    "height": 138,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 110,
+   "text": "import { ViewTransition } from 'react';\n{isShowing && (\n <ViewTransition>\n <Component />\n </ViewTransition>\n)}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1109,
+    "height": 204,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 240,
+   "text": "Now, whenever an update marked as a Transition changes the child component’s style, or causes the ViewTransition to be mounted or unmounted, React will animate that update.\nReact chooses which animation to run based on how the tree changed:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1345,
+    "height": 107,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 222,
+   "text": "enter: the <ViewTransition> is added.\nexit: the <ViewTransition> is removed.\nupdate: the children of a <ViewTransition> change style or content.\nshare: a named <ViewTransition> is removed in one place and added in another.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1468,
+    "height": 123,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 327,
+   "text": "Note that updates not marked as Transitions don’t trigger animations, as those are meant to be urgent and reflected immediately in the UI. State updates inside of startTransition, a <Suspense> reveal, or an update from useDeferredValue all cause a View Transition to animate.\nHere’s a simple example of an enter/exit animation:",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 1607,
+    "height": 136,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "App.js\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1791,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "sp-layout",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 540,
+   "text": "99\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\nimport { ViewTransition, useState, startTransition } from 'react';\nimport { Video } from './Video';\nimport videos from './data';\nexport default function Component() {\n const [showItem, setShowItem] = useState(false);\n return (\n <>\n <button\n onClick={() => {\n startTransition(() => {\n setShowItem((prev) => !prev);\n });\n }}>\n ",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "frame": {
+    "host": "786946de.sandpack-bundler-4bw.pages.dev",
+    "width": 576,
+    "height": 15,
+    "title": "Sandbox Preview"
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1831,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p×3",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 461,
+   "text": "By default, <ViewTransition> animates with a smooth cross-fade. You can customize each kind of animation by passing a View Transition Class and defining the animation in CSS, or you can use the Web Animations API to trigger animations imperatively with the event props (onEnter, onExit, onShare, onUpdate).\nCurrently, <ViewTransition> only works in the DOM. We’re working on support for React Native ",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 2330,
+    "height": 215,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h4",
+   "id": "add-transition-type",
+   "class": "mdx-heading text-xl font-display font-bold",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 17,
+   "text": "addTransitionType",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2594,
+    "height": 37,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 501,
+   "text": "Sometimes, you’ll want to customize which animation is used for the same state update. For example, navigating a carousel forward to the third slide should animate the slides right-to-left, while navigating it backward should animate them left-to-right, even though both actions set the currentSlide to 3.\nYou can customize the animation for a given View Transition by calling addTransitionType along",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2647,
+    "height": 167,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 233,
+   "text": "function nextSlide() {\n startTransition(() => {\n addTransitionType('next');\n setCurrentSlide(c => c + 1);\n });\n}\nfunction previousSlide() {\n startTransition(() => {\n addTransitionType('previous');\n setCurrentSlide(c => c - 1);\n });\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2846,
+    "height": 348,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 73,
+   "text": "Then, you can specify different animations based on that transition type:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3226,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 166,
+   "text": "<ViewTransition\n enter={{\n 'next': 'from-right',\n 'previous': 'from-left',\n }}\n exit={{\n 'next': 'to-left',\n 'previous': 'to-right',\n }}\n>\n <Page />\n</ViewTransition>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3288,
+    "height": 324,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 18,
+   "text": "Here’s an example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3644,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 43,
+   "text": "App.jsanimations.css\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 9,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3722,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "div×36",
+   "class": "cm-gutterElement",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 98,
+   "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 36,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3780,
+    "height": 864,
+    "widthFraction": 0.01,
+    "leftFraction": 0.06,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "div",
+   "class": "cm-activeLine cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 24,
+   "text": "import {\nViewTransition,",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3780,
+    "height": 48,
+    "widthFraction": 0.11,
+    "leftFraction": 0.08,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div×34",
+   "class": "cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 625,
+   "text": "addTransitionType,\nuseState,\nstartTransition,\nFragment\n} from 'react';\nimport { Video } from './Video';\nimport videos from './data';\nimport './animations.css';\n\nexport default function Component() {\nconst [selected, setSelected] = useState(0)\nconst video = videos[selected];\n\nreturn (\n<>\n<div className=\"button-container\">\n<button\nonClick={() => {\nstartTransition(() => {\naddTransitionType('previous'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 34,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3828,
+    "height": 816,
+    "widthFraction": 0.13,
+    "leftFraction": 0.08,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "div",
+   "class": "p-0 sm:p-2 md:p-4 lg:p-8",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 9,
+   "text": "Show more",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3762,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 209,
+   "text": "React also adds every Transition Type to the element as a browser view transition type, so you can scope animations in CSS with :active-view-transition-type(...).\nTo learn more, see the addTransitionType docs.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 4261,
+    "height": 107,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h4",
+   "id": "animating-fallbacks-images-and-fonts-with-suspense",
+   "class": "mdx-heading text-xl font-display font-bold",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 52,
+   "text": "Animating fallbacks, images, and fonts with Suspense",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4417,
+    "height": 36,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 199,
+   "text": "One of the most exciting things about View Transitions in React is how they integrate with Suspense.\nYou can animate a Suspense boundary as it reveals its children by wrapping it in <ViewTransition>:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4469,
+    "height": 77,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 97,
+   "text": "<ViewTransition>\n <Suspense fallback={<Loading />}>\n <Component />\n </Suspense>\n</ViewTransition>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4578,
+    "height": 156,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 212,
+   "text": "When the children finish loading, React will trigger an update animation from the fallback to the final content.\nHere’s an example. Try pressing ➕ to render a LazyVideo that suspends the first time it’s rendered:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4766,
+    "height": 76,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "App.js\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4890,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "div×36",
+   "class": "cm-gutterElement",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 98,
+   "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 36,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4948,
+    "height": 864,
+    "widthFraction": 0.01,
+    "leftFraction": 0.06,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "div",
+   "class": "cm-activeLine cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 81,
+   "text": "import { Suspense, useState, startTransition, use, ViewTransition } from 'react';",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4948,
+    "height": 24,
+    "widthFraction": 0.48,
+    "leftFraction": 0.08,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "div×35",
+   "class": "cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 533,
+   "text": "import { Video, VideoPlaceholder } from './Video';\nimport { fetchVideo } from './data';\n\nexport default function Component() {\nconst [showItem, setShowItem] = useState(false);\n\nreturn (\n<>\n<button\nonClick={() => {\nstartTransition(() => {\nsetShowItem((prev) => !prev);\n});\n}}\n>\n{showItem ? '➖' : '➕'}\n</button>\n\n{showItem && (\n<ViewTransition>\n<Suspense fallback={<VideoPlaceholder />}>\n<LazyVideo />\n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 35,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4972,
+    "height": 840,
+    "widthFraction": 0.3,
+    "leftFraction": 0.08,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "div",
+   "class": "p-0 sm:p-2 md:p-4 lg:p-8",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 9,
+   "text": "Show more",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4930,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p×3",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 428,
+   "text": "While this works, you’ll notice that the video also animates in and out on subsequent reveals, even though it’s already been loaded. (You might also notice that the fallback fades in the first time it’s shown.)\nIn general, animations with Suspense work best when they’re used sparingly, and avoided for cached UI that would otherwise appear instantly.\nHere are some principles for achieving good UX w",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5429,
+    "height": 182,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 186,
+   "text": "Fallbacks should appear immediately without animation\nA fallback should update to its final content with animation\nChildren that don’t suspend should appear immediately without animation",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5627,
+    "height": 91,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 231,
+   "text": "This keeps your app feeling snappy when things are already loaded, and only uses animation to make the update from fallback to final content more seamless.\nTo fix our example above, we can disable all animations other than updates:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5734,
+    "height": 106,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 127,
+   "text": "<ViewTransition update=\"auto\" default=\"none\">\n <Suspense fallback={<Fallback />}>\n <Component />\n </Suspense>\n</ViewTransition>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5872,
+    "height": 156,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "Let’s see how it behaves now:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6060,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "App.js\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6138,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "div×36",
+   "class": "cm-gutterElement",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 98,
+   "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 36,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6196,
+    "height": 864,
+    "widthFraction": 0.01,
+    "leftFraction": 0.06,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "div",
+   "class": "cm-activeLine cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 81,
+   "text": "import { Suspense, useState, startTransition, use, ViewTransition } from 'react';",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6196,
+    "height": 24,
+    "widthFraction": 0.48,
+    "leftFraction": 0.08,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "div×35",
+   "class": "cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 562,
+   "text": "import { Video, VideoPlaceholder } from './Video';\nimport { fetchVideo } from './data';\n\nexport default function Component() {\nconst [showItem, setShowItem] = useState(false);\n\nreturn (\n<>\n<button\nonClick={() => {\nstartTransition(() => {\nsetShowItem((prev) => !prev);\n});\n}}\n>\n{showItem ? '➖' : '➕'}\n</button>\n\n{showItem && (\n<ViewTransition update=\"auto\" default=\"none\">\n<Suspense fallback={<VideoPl",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 35,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6220,
+    "height": 840,
+    "widthFraction": 0.3,
+    "leftFraction": 0.08,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "div",
+   "class": "p-0 sm:p-2 md:p-4 lg:p-8",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 9,
+   "text": "Show more",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6178,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 338,
+   "text": "Notice how the fallback appears immediately when tapping the button, which keeps our UI feeling responsive to user actions. Additionally, once the video has been loaded, toggling it is instant.\nThere are other patterns you can use depending on what effect you want to achieve. To learn more, check out the docs on animating with Suspense.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 6677,
+    "height": 136,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p×3",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 437,
+   "text": "In addition to animating fallbacks, View Transitions act as a way to opt images or fonts into triggering Suspense while they load.\nThis lets you avoid the browser’s default behavior where images or fonts may flicker in whenever they happen to finish loading, and instead build coordinated loading sequences that consider all of a component’s resources.\nWrap images or fonts inside of <ViewTransition>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6862,
+    "height": 213,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 269,
+   "text": "<ViewTransition>\n <Suspense fallback={<Fallback />}>\n <img src={imageSrc} />\n <style href={fontSrc} precedence=\"default\">\n {`@font-face {\n font-family: 'Fancy';\n src: url(${fontSrc}) format('truetype');\n font-display: swap;\n }`}\n </style>\n </Suspense>\n</ViewTransition>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7107,
+    "height": 348,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 95,
+   "text": "Here’s an example of a component that suspends until its data, image, and font have all loaded:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7487,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 64,
+   "text": "App.jsProfileCard.jsVanillaProfileCard.js\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 10,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7565,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "div×36",
+   "class": "cm-gutterElement",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 98,
+   "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 36,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7623,
+    "height": 864,
+    "widthFraction": 0.01,
+    "leftFraction": 0.06,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "div",
+   "class": "cm-activeLine cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 81,
+   "text": "import { ViewTransition, Suspense, use, useState, startTransition } from 'react';",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7623,
+    "height": 24,
+    "widthFraction": 0.48,
+    "leftFraction": 0.08,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "div×34",
+   "class": "cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 732,
+   "text": "import { fetchQuote } from './data.js';\nimport { freshStylesheetUrl, freshImageUrl } from './resources.js';\nimport { ProfileCard, ProfileCardLoading } from './ProfileCard.js';\nimport { VanillaProfileCard } from './VanillaProfileCard.js';\n\nexport default function App() {\nconst [resources, setResources] = useState(null);\nreturn (\n<>\n<button\nonClick={() => {\nstartTransition(() => {\nsetResources({\nquo",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 34,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7647,
+    "height": 816,
+    "widthFraction": 0.24,
+    "leftFraction": 0.08,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "div",
+   "class": "cm-line",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2,
+   "text": ");",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8463,
+    "height": 72,
+    "widthFraction": 0.48,
+    "leftFraction": 0.08,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "div",
+   "class": "p-0 sm:p-2 md:p-4 lg:p-8",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 9,
+   "text": "Show more",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7605,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 93,
+   "text": "To learn more about waiting for images, fonts, or stylesheets to load, see the Suspense docs.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 8104,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "h3",
+   "id": "fragment-refs",
+   "class": "mdx-heading text-2xl font-display leading-9",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 13,
+   "text": "Fragment Refs",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8183,
+    "height": 36,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 219,
+   "text": "When you need lower-level control over a component’s DOM nodes—for example to attach an event listener, observe visibility, or move focus—you can usually use a ref. But there are some situations where this is difficult:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8243,
+    "height": 60,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 131,
+   "text": "Components that render a group of siblings with no single parent\nComponents that don’t pass along their ref prop to another element",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8319,
+    "height": 59,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 190,
+   "text": "function Component() {\n // How can we work with the list of DOM nodes rendered by this component?\n return (\n {posts.map(post => (\n <Heading key={post.id}>\n {post.title}\n </Heading>\n ))}\n )\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8410,
+    "height": 276,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "p×3",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 625,
+   "text": "Adding a wrapper <div> just to hold a ref sometimes works, but it can also interfere with your component’s styling or layout. Moreover, if a component doesn’t expose a ref prop, you would need to modify that component to do so, which might be impossible if it comes from a library you don’t control.\nFragment Refs solve these problems by providing a limited set of commonly used DOM methods that work",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 8718,
+    "height": 245,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 295,
+   "text": "function Component() {\n const fragmentRef = useRef(null);\n useEffect(() => {\n const fragmentInstance = fragmentRef.current;\n fragmentInstance.focus();\n }, []);\n return (\n <Fragment ref={fragmentRef}>\n {posts.map(post => (\n <Heading key={post.id}>\n {post.title}\n </Heading>\n ))}\n </Fragment>\n )\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8995,
+    "height": 468,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 95,
+   "text": "The FragmentInstance operates on the children’s DOM as a group, without changing its structure:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9495,
+    "height": 31,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 394,
+   "text": "addEventListener, removeEventListener, and dispatchEvent manage events for first-level children.\nfocus, focusLast, and blur move focus across nested children, depth-first.\nobserveUsing and unobserveUsing connect an IntersectionObserver or ResizeObserver.\ngetClientRects, getRootNode, compareDocumentPosition, and scrollIntoView let you measure and scroll to the fragment’s first-level children.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9542,
+    "height": 150,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 311,
+   "text": "Thus, Fragment Refs let you attach behavior to other components without requiring you to modify those component’s internals, or without changing the DOM structure that they already produce.\nThis example shows an InView component with an onChange prop that fires whenever its children enter or exit the viewport:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9708,
+    "height": 137,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 45,
+   "text": "App.jsCard.jsInView.js\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 10,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9893,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "div",
+   "class": "sp-layout",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 514,
+   "text": "99\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\nimport { useState } from 'react';\nimport Card from './Card';\nimport InView from './InView';\nexport default function App() {\n const [isVisible, setIsVisible] = useState(true);\n return (\n <div className={isVisible ? 'page visible' : 'page'}>\n <div className=\"filler\">Scroll down</div>\n <InView onChange={setIsVisible}>\n <Card title=\"First sectio",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "frame": {
+    "host": "react.dev",
+    "width": 576,
+    "height": 15,
+    "title": "Sandbox Preview"
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9933,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 227,
+   "text": "Notice how InView is able to add behavior to its children, even though there’s no single parent DOM element, and in spite of Card not exposing a ref prop.\nTo learn more about working with Fragment Refs, see the <Fragment> docs.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 10432,
+    "height": 108,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "h2",
+   "id": "new-react-dom-features",
+   "class": "mdx-heading text-3xl font-display leading-10",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 22,
+   "text": "New React DOM Features",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10589,
+    "height": 40,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "h3",
+   "id": "browser",
+   "class": "mdx-heading text-2xl font-display leading-9",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 7,
+   "text": "browser",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10653,
+    "height": 38,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 93,
+   "text": "If your app uses server rendering, your components will render in two different environments:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10715,
+    "height": 30,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 133,
+   "text": "On the server, components render to produce the initial HTML\nOn the client, components render to enrich that HTML with event handlers",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10761,
+    "height": 59,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "p×3",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 658,
+   "text": "Most of time, your components should be able to produce HTML that matches their initial client-rendered output, ensuring they hydrate correctly while still letting users see as much content as possible on the initial load.\nBut in rare cases, a component may not be able to produce meaningful UI on the server. For example, it might depend on a browser-only API like localStorage, or it might read fro",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10836,
+    "height": 274,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 208,
+   "text": "function Component() {\n const [mounted, setMounted] = useState(false);\n useEffect(() => {\n setMounted(true)\n }, [])\n // ...\n}\nfunction Component() {\n const isBrowser = typeof window !== 'undefined';\n // ...\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11142,
+    "height": 396,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 138,
+   "text": "In 19.3, React now includes a first-class API for this technique.\nA component can call use(browser()) to opt out of server-side rendering:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11570,
+    "height": 77,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 115,
+   "text": "import { use } from 'react';\nimport { browser } from 'react-dom';\nfunction Component() {\n use(browser());\n // ...\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11679,
+    "height": 228,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 462,
+   "text": "This will trigger Suspense on the server, but not in the client. During server-side rendering, the nearest Suspense boundary’s fallback will show in the HTML. Once the component is hydrated on the client, use(browser()) does not suspend, allowing the component to continue rendering as normal.\nHere’s an example of a component that renders the local time zone from your device. Press Reload to see th",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11939,
+    "height": 167,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "App.js\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12154,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "div",
+   "class": "sp-layout",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 434,
+   "text": "99\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\nimport { Suspense, use } from 'react';\nimport { browser } from 'react-dom';\nfunction TimeZone() {\n use(browser());\n const timeZone = new Intl.DateTimeFormat().resolvedOptions().timeZone;\n return <p>{timeZone}</p>\n}\nexport default function App() {\n return (\n <>\n <p>Your current time zone is:</p>\n <Suspense fallback=\"Loading...\">\n <TimeZone />",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "frame": {
+    "host": "react.dev",
+    "width": 576,
+    "height": 15,
+    "title": "Sandbox Preview"
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12194,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 436,
+   "text": "Because TimeZone suspends on the server, the initial HTML includes the Suspense fallback. After a small artificial delay, React hydrates the page, allowing the component to render as normal in the browser.\nThus, for components that cannot produce meaningful UI during server rendering, browser lets you use Suspense for their loading states, allowing them to participate with other components that su",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12693,
+    "height": 167,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 392,
+   "text": "Like other calls to use, use(browser()) can be called inside a conditional statement or after an early return. This lets you write components or custom Hooks that can opt out of server rendering based on a condition, such as the value of a prop.\nHere’s the same example from above, except now our TimeZone component accepts an optional default value it can render as part of the initial HTML:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12909,
+    "height": 167,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "div",
+   "class": "bg-wash dark:bg-card-dark flex justify-between",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "App.js\nApp.js\nReloadClearFork",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13124,
+    "height": 40,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "div",
+   "class": "sp-layout",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 672,
+   "text": "99\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\nimport { Suspense, use } from 'react';\nimport { browser } from 'react-dom';\nfunction TimeZone({ defaultValue }) {\n if (defaultValue) {\n return <p>{defaultValue}</p>;\n }\n use(browser());\n const localTimeZone = new Intl.DateTimeFormat().resolvedOptions().timeZone;\n return <p>{localTimeZone}</p>\n}\nexport d",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "frame": {
+    "host": "react.dev",
+    "width": 576,
+    "height": 15,
+    "title": "Sandbox Preview"
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13164,
+    "height": 451,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 308,
+   "text": "Notice how TimeZone only suspends in the second case, when no default is provided.\nAnother useful example of this pattern is opting a data-fetching Hook like useQuery out of server rendering, unless that query’s initial data was passed in (for example from a Server Component or framework’s loader function):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13663,
+    "height": 137,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "pre",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 313,
+   "text": "function useBrowserQuery(query, options) {\n if (options.initialData === undefined) {\n use(browser());\n }\n return useQuery(query, options);\n}\nfunction ProductDetails({ productId, initialData }) {\n const product = useBrowserQuery(`/api/products/${productId}`, {\n initialData,\n });\n return <h1>{product.name}</h1>;\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13832,
+    "height": 396,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 256,
+   "text": "Now, the ProductDetails component can be included in the HTML, provided it receives initialData during server rendering. If not, it suspends until it gets rendered in the browser, at which point useQuery can fetch the data or read from its cache as normal.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14260,
+    "height": 92,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "h3",
+   "id": "trusted-types-support",
+   "class": "mdx-heading text-2xl font-display leading-9",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 70,
+   "text": "To learn more about browser, check out the docs.\nTrusted Types support",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 14368,
+    "height": 116,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 752,
+   "text": "React 19.3 integrates with the browser Trusted Types API, a security feature that helps prevent DOM-based XSS attacks. When a site enforces Trusted Types with Content-Security-Policy: require-trusted-types-for 'script', the browser requires that values passed to injection sinks like innerHTML are typed objects (TrustedHTML, TrustedScript, TrustedScriptURL) created through your sanitization policie",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 14508,
+    "height": 260,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "h2",
+   "id": "new-react-server-components-features",
+   "class": "mdx-heading text-3xl font-display leading-10",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 36,
+   "text": "New React Server Components Features",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14817,
+    "height": 40,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "h3",
+   "id": "context-can-be-rendered-directly-in-server-components",
+   "class": "mdx-heading text-2xl font-display leading-9",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 55,
+   "text": "<Context> can be rendered directly in Server Components",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14881,
+    "height": 38,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 222,
+   "text": "While Server Components can’t create Context, they can render Context by importing it from a 'use client' module.\nPreviously, this required the client module to export a separate wrapper component, often called a Provider:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14943,
+    "height": 107,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "pre×2",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 492,
+   "text": "// user-context.js\n'use client';\nimport { createContext } from 'react';\nexport const UserContext = createContext(null);\nexport function UserProvider({ currentUser, children }) {\n return <UserContext value={currentUser}>{children}</UserContext>;\n}\n// server-component.js\nimport { UserProvider } from './user-context';\nexport async function Layout({ children }) {\n const currentUser = await getCurrentU",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15082,
+    "height": 608,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "p×2",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 272,
+   "text": "Notice that in this example, the provider does nothing other than pass the prop from the Server Component directly to the Context.\nIn React 19.3, Server Components can import and render Context directly from a 'use client' module, without an additional wrapping component:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15722,
+    "height": 137,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "pre×2",
+   "class": "sp-cm sp-pristine sp-javascript flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 356,
+   "text": "// user-context.js\n'use client';\nimport { createContext } from 'react';\nexport const UserContext = createContext(null);\n// server-component.js\nimport { UserContext } from './user-context';\nexport async function Layout({ children }) {\n const currentUser = await getCurrentUser();\n return (\n <UserContext value={currentUser}>\n {children}\n </UserContext>\n )\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15891,
+    "height": 512,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 136,
+   "text": "This is especially useful for Contexts that solely exist to allow Server Components to share some data with the rest of the client tree.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16435,
+    "height": 60,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "h2",
+   "id": "changelog",
+   "class": "mdx-heading text-3xl font-display leading-10",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 9,
+   "text": "Changelog",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16544,
+    "height": 40,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1084,
+   "text": "Other notable changes\nreact: Render Transitions independently instead of entangling them into a single render, so a slow Transition no longer holds up unrelated ones #37290\nreact-dom: Double invoke Effects in Strict Mode during hydration, matching client-rendered roots #35961\nreact: Add a warning when use is used incorrectly in a conditional #37104\nreact: Rename “form state” to “action state” in u",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 16608,
+    "height": 481,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "ul",
+   "class": "ms-6 my-3 list-disc",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1831,
+   "text": "Notable bug fixes\nreact: Fix useDeferredValue getting stuck on an old value #36134\nreact: Fix context propagation into Suspense fallbacks #36160 and through suspended Suspense boundaries #35839\nreact: Fix a hang when updating a dehydrated Suspense boundary inside a hidden tree #37135\nreact: Fix useSyncExternalStore missing store mutations that happened while an <Activity> tree was hidden #36947\nre",
+   "counts": {
+    "links": 26,
+    "images": 0,
+    "headings": 0,
+    "listItems": 21,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 17105,
+    "height": 844,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "p",
+   "class": "whitespace-pre-wrap my-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 175,
+   "text": "For a full list of changes, please see the Changelog.\nThanks to Sam Selikoff for writing this post, and to Matt Carroll, Dan Abramov, and Andrew Clark for reviewing this post.",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 17965,
+    "height": 139,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "div",
+   "class": "grid grid-cols-1 gap-4 py-4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 90,
+   "text": "PreviousBlog\nNextThe React Foundation: A New Home for React Hosted by the Linux Foundation",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 18120,
+    "height": 238,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "div",
+   "class": "self-stretch w-full",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 329,
+   "text": "Copyright © Meta Platforms, Inc\nno uwu plz\nuwu?\nLogo by@sawaratsuki1004\nLearn React\nQuick Start\nInstallation\nDescribing the UI\nAdding Interactivity\nManaging State\nEscape Hatches\nAPI Reference\nReact APIs\nReact DOM APIs\nCommunity\nCode of Conduct\nMeet the Team\nDocs Contributors\nAcknowledgements\nMore\nBlog\nReact Native\nPrivacy\nTerms",
+   "counts": {
+    "links": 25,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 160,
+     "height": 19
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 26,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 23,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 22,
+     "height": 22
+    }
+   ],
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 18358,
+    "height": 392,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

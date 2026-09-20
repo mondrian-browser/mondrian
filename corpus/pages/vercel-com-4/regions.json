@@ -1,0 +1,4537 @@
+{
+ "url": "https://vercel.com/docs/frameworks/full-stack/sveltekit",
+ "title": "SvelteKit on Vercel",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 16807,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "span",
+   "class": "flex items-center gap-2",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 65,
+   "text": "Copy WordmarkCopy Logo\nDownload Brand AssetsBrand Guidelines\nDocs",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 21,
+     "height": 18
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 15,
+    "height": 34,
+    "widthFraction": 0.07,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "nav",
+   "class": "flex h-full items-center max-[880px]:hidden",
+   "ariaLabel": "Main navigation",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 431,
+   "text": "BuildBuild with AI\nAI Gateway\nAI SDK\nSandbox\nContainer Registry\nWorkflow\nVercel Agent\nv0↗\nVercel MCP\nAI Integrations\nDeploy & scale\nDeployments\nCLI\nFunctions\nDelivery Network\nStorage\nIntegrations\nMicrofrontends\nDomains\nOperate & protect\nFirewall\nObservability\nFeature Flags\nToolbar\nBot Management\nBotID\nDeployment Protection\nCompliance\nLearnResources\nChangelog↗\nBlog↗\nCommunity↗\nKnowledge Base\nAPIs &",
+   "counts": {
+    "links": 32,
+    "images": 2,
+    "headings": 0,
+    "listItems": 31,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 0.18,
+    "leftFraction": 0.09,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "div",
+   "class": "ml-auto flex shrink-0 items-center",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 471,
+   "text": "Ask AILog InSign Up\nBuildBuild with AI\nAI Gateway\nAI SDK\nSandbox\nContainer Registry\nWorkflow\nVercel Agent\nv0↗\nVercel MCP\nAI Integrations\nDeploy & scale\nDeployments\nCLI\nFunctions\nDelivery Network\nStorage\nIntegrations\nMicrofrontends\nDomains\nOperate & protect\nFirewall\nObservability\nFeature Flags\nToolbar\nBot Management\nBotID\nDeployment Protection\nCompliance\nLearnResources\nChangelog↗\nBlog↗\nCommunity↗\nK",
+   "counts": {
+    "links": 36,
+    "images": 2,
+    "headings": 0,
+    "listItems": 31,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 16,
+    "height": 32,
+    "widthFraction": 0.16,
+    "leftFraction": 0.81,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "button",
+   "class": "relative h-9 w-full cursor-pointer",
+   "ariaLabel": "Search Docs",
+   "landmarks": [
+    "main",
+    "aside",
+    "nav"
+   ],
+   "textLength": 14,
+   "text": "Search Docs⌘ K",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 76,
+    "height": 36,
+    "widthFraction": 0.18,
+    "leftFraction": 0.01,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "button",
+   "class": "flex w-full flex-row items-center",
+   "ariaLabel": "Back to all documentation sections",
+   "landmarks": [
+    "main",
+    "aside",
+    "nav"
+   ],
+   "textLength": 10,
+   "text": "Frameworks",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 124,
+    "height": 36,
+    "widthFraction": 0.18,
+    "leftFraction": 0.01,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "class": "relative list-none m-0 p-0",
+   "landmarks": [
+    "main",
+    "aside",
+    "nav"
+   ],
+   "textLength": 266,
+   "text": "Overview\nFull-stackExpand menu\nNext.js\nSvelteKit\nNuxt\nRemix\nTanStack Start\nVite + Nitro\nDjango\nFrontendsExpand menu\nAstro\nVite\nReact Router\nCreate React App\nBackendsExpand menu\nNitro\nExpress\nCelery\nDramatiq\nElysia\nFastAPI\nFastify\nFlask\nHono\nKoa\nNestJS\nAll Frameworks",
+   "counts": {
+    "links": 27,
+    "images": 3,
+    "headings": 0,
+    "listItems": 27,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 168,
+    "height": 1010,
+    "widthFraction": 0.19,
+    "leftFraction": 0,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "relative flex max-w-full shrink-0",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 31,
+   "text": "Frameworks\nFull-stack\nSvelteKit",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 90,
+    "height": 20,
+    "widthFraction": 0.17,
+    "leftFraction": 0.23,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h1",
+   "class": "rvMliW_header text-heading-24 sm:text-heading-40",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "SvelteKit on Vercel",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 136,
+    "height": 48,
+    "widthFraction": 0.41,
+    "leftFraction": 0.23,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "flex relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 18,
+   "text": "Copy pageCopy page",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 150,
+    "height": 32,
+    "widthFraction": 0.11,
+    "leftFraction": 0.65,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p×2",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 340,
+   "text": "SvelteKit is a frontend framework that enables you to build Svelte applications with modern techniques, such as Server-Side Rendering, automatic code splitting, and advanced routing.\nYou can deploy your SvelteKit projects to Vercel with zero configuration, enabling you to use Preview Deployments, Web Analytics, Vercel functions, and more.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 192,
+    "height": 129,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 36,
+   "text": "Get started with SvelteKit on Vercel",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 357,
+    "height": 32,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "class": "geist-text p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 40,
+   "text": "To get started with SvelteKit on Vercel:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 401,
+    "height": 26,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 244,
+   "text": "If you already have a project with SvelteKit, install Vercel CLI and run the vercel command from your project's root directory\nClone one of our SvelteKit example repos to your favorite git provider and deploy it on Vercel with the button below:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 442,
+    "height": 115,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "article",
+   "class": "qo07oa_quickstart",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 83,
+   "text": "Deploy our SvelteKit template, or view a live example.DeployLive Example\nOpen in v0",
+   "counts": {
+    "links": 3,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 44,
+     "height": 44
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 570,
+    "height": 272,
+    "widthFraction": 0.26,
+    "leftFraction": 0.25,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 464,
+   "text": "Or, choose a template from Vercel's marketplace:Get started in minutes\nDeploy a new SvelteKit project with a template\nView All Templates\nSvelteKit Boilerplate\nA SvelteKit app including nested routes, layouts, and page endpoints.\nOpen in v0\nSvelteKit Commerce\nAn all-in-one starter kit for high-performance e-commerce sites built with SvelteKit.\nOpen in v0\nSvelteKit Flags SDK Starter\nA SvelteKit app ",
+   "counts": {
+    "links": 5,
+    "images": 9,
+    "headings": 1,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "SvelteKit Boilerplate",
+     "width": 235,
+     "height": 180
+    },
+    {
+     "kind": "img",
+     "alt": "SvelteKit Commerce",
+     "width": 235,
+     "height": 180
+    },
+    {
+     "kind": "img",
+     "alt": "SvelteKit Flags SDK Starter",
+     "width": 235,
+     "height": 180
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.66,
+   "geometry": {
+    "top": 858,
+    "height": 539,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "class": "geist-text p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 138,
+   "text": "Vercel deployments can integrate with your git provider to generate preview URLs for each pull request you make to your SvelteKit project.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.38,
+   "geometry": {
+    "top": 1416,
+    "height": 51,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 31,
+   "text": "Use Vercel features with Svelte",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1504,
+    "height": 32,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p×3",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 568,
+   "text": "When you create a new SvelteKit project with npm create svelte@latest, it installs adapter-auto by default. This adapter detects that you're deploying on Vercel and installs the @sveltejs/adapter-vercel plugin for you at build time.\nWe recommend installing the @sveltejs/adapter-vercel package yourself. Doing so will ensure version stability, slightly speed up your CI process, and allows you to con",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 1548,
+    "height": 230,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "ol",
+   "class": "mt-[1.5rem] p-0 [counter-reset:steps_var(--start)]",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 959,
+   "text": "Install SvelteKit's Vercel adapter plugin\nYou can add the Vercel adapter to your SvelteKit project by running the following command:\npnpmyarnnpmbun\nTerminal\npnpm i @sveltejs/adapter-vercel\nTerminal\nyarn add @sveltejs/adapter-vercel\nTerminal\nnpm i @sveltejs/adapter-vercel\nTerminal\nbun add @sveltejs/adapter-vercel\nAdd the Vercel adapter to your Svelte config\nAdd the Vercel adapter to your svelte.con",
+   "counts": {
+    "links": 8,
+    "images": 9,
+    "headings": 2,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 9,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 1794,
+    "height": 989,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 35,
+   "text": "Configure your SvelteKit deployment",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2819,
+    "height": 32,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p×3",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 452,
+   "text": "You can configure how your SvelteKit project gets deployed to Vercel at the project-level and at the route-level.\nChanges to the config object you define in svelte.config.js will affect the default settings for routes across your whole project. To override this, you can export a config object in any route file.\nThe following is an example of a svelte.config.js file that will deploy using server-si",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2863,
+    "height": 203,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 214,
+   "text": "svelte.config.js\nimport adapter from '@sveltejs/adapter-vercel';\n/** @type {import('@sveltejs/kit').Config} */\nconst config = {\n kit: {\n adapter: adapter({\n runtime: 'nodejs20.x',\n }),\n },\n};\nexport default config;",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 17,
+     "height": 17
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3082,
+    "height": 313,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 163,
+   "text": "You can also configure how individual routes deploy by exporting a config object. The following is an example of a route that will deploy on Vercel's Edge runtime:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3415,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 230,
+   "text": "+page.server.ts\nTypeScript\nTypeScriptJavaScriptBash\nimport { PageServerLoad } from './$types';\nexport const config = {\n runtime: 'edge',\n};\nexport const load = ({ cookies }): PageServerLoad<any> => {\n // Load function code here\n};",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3486,
+    "height": 253,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 164,
+   "text": "Learn about all the config options available in the SvelteKit docs. You can also see the type definitions for config object properties in the SvelteKit source code.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 3759,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "h3",
+   "class": "rvMliW_header text-heading-16 sm:text-heading-20",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 21,
+   "text": "Configuration options",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3841,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 173,
+   "text": "SvelteKit's docs have a comprehensive list of all config options available to you. This section will cover a select few options which may be easier to use with more context.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.34,
+   "geometry": {
+    "top": 3880,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h4",
+   "class": "rvMliW_header text-heading-14 sm:text-heading-16",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "split",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3954,
+    "height": 25,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 184,
+   "text": "By default, your SvelteKit routes get bundled into one Function when you deploy your project to Vercel. This configuration typically reduces how often your users encounter cold starts.",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 3991,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 184,
+   "text": "In most cases, there is no need to modify this option.\nSetting split: true in your Svelte config will cause your SvelteKit project's routes to get split into separate Vercel Functions.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4065,
+    "height": 102,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 168,
+   "text": "Splitting your Functions is not typically better than bundling them. You may want to consider setting split: true if you're experiencing either of the following issues:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4187,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 621,
+   "text": "You have exceeded the Function size limit for the runtime you're using. Batching too many routes into a single Function could cause you to exceed Function size limits for your Vercel account. See our Function size limits to learn more.\nYour app is experiencing abnormally long cold start times. Batching Vercel functions into one Function will reduce how often users experience cold starts. It can al",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4257,
+    "height": 198,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "h4",
+   "class": "rvMliW_header text-heading-14 sm:text-heading-16",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 7,
+   "text": "regions",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4475,
+    "height": 25,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p×2",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 451,
+   "text": "Choosing a region allows you to reduce latency for requests to functions. If you choose a Function region geographically near dependencies, or nearest to your visitor, you can reduce your Functions' latency.\nBy default, your Vercel Functions will be deployed in Washington, D.C., USA, or iad1. Adding a region ID to the regions array will deploy your Vercel functions there. See our Vercel Function r",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 4512,
+    "height": 156,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 9,
+   "text": "Streaming",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4704,
+    "height": 32,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 299,
+   "text": "Vercel supports streaming API responses over time with SvelteKit, allowing you to render parts of the UI early, then render the rest as data becomes available. Doing so lets users interact with your app before the full page loads, improving their perception of your app's speed. Here's how it works:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4748,
+    "height": 82,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 379,
+   "text": "SvelteKit enables you to use a +page.server.ts file to fetch data on the server, which you can access from a +page.svelte file located in the same folder\nYou fetch data in a load function defined in +page.server.ts. This function returns an object\nTop-level properties that return a promise will resolve before the page renders\nNested properties that return a promise will stream",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 4846,
+    "height": 164,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 169,
+   "text": "The following example demonstrates a load function that will stream its response to the client. To simulate delayed data returned from a promise, it uses a sleep method.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5029,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "div",
+   "class": "py-0 pl-4 rounded-t-lg border-gray-400",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 80,
+   "text": "src/routes/streaming-example/+page.server.ts\nTypeScript\nTypeScriptJavaScriptBash",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5100,
+    "height": 40,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "pre",
+   "class": "vF3MAa_pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 612,
+   "text": "function sleep(value: any, ms: number) {\n // Use this sleep function to simulate\n // a delayed API response.\n return new Promise((fulfill) => {\n setTimeout(() => {\n fulfill(value);\n }, ms);\n });\n}\nexport function load(event): PageServerLoad<any> {\n // Get some location data about the visitor\n const ip = event.getClientAddress();\n const city = decodeURIComponent(\n event.request.headers.get('x-verce",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5140,
+    "height": 492,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 99,
+   "text": "You could then display this data by creating the following +page.svelte file in the same directory:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5653,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 423,
+   "text": "src/routes/streaming-example/+page.svelte\nTypeScript\nTypeScriptJavaScriptBash\n<script lang=\"ts\">\n import type { PageData } from './$types'\n export let data: PageData;\n</script>\n<h1><span>Hello!</span></h1>\n<div class=\"info\">\n {#await data.locationData.details}\n <p>streaming delayed data from the server...</p>\n {:then details}\n <div>\n <p>City is {details.city}</p>\n <p>And IP is: {details.ip} </p>\n ",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5696,
+    "height": 413,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 49,
+   "text": "To summarize, Streaming with SvelteKit on Vercel:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6129,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 128,
+   "text": "Enables you to stream UI elements as data loads\nSupports streaming through Vercel Functions\nImproves perceived speed of your app",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6172,
+    "height": 98,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 59,
+   "text": "Learn more about Streaming on Vercel.\nServer-Side Rendering",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 6290,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p×4",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 876,
+   "text": "Server-Side Rendering (SSR) allows you to render pages dynamically on the server. This is useful for pages where the rendered data needs to be unique on every request. For example, verifying authentication or checking the geolocation of an incoming request.\nVercel offers SSR that scales down resource consumption when traffic is low, and scales up with traffic surges. This protects your site from a",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6397,
+    "height": 359,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 97,
+   "text": "See the SvelteKit docs on prerendering to learn more.\nTo summarize, SSR with SvelteKit on Vercel:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.54,
+   "geometry": {
+    "top": 6776,
+    "height": 74,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 165,
+   "text": "Scales to zero when not in use\nScales automatically with traffic increases\nHas zero-configuration support for Cache-Control headers, including stale-while-revalidate",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 6866,
+    "height": 98,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 42,
+   "text": "Learn more about SSR\nEnvironment variables",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 6984,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p×2",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 416,
+   "text": "Vercel provides a set of System Environment Variables that our platform automatically populates. For example, the VERCEL_GIT_PROVIDER variable exposes the Git provider that triggered your project's deployment on Vercel.\nThese environment variables will be available to your project automatically, and you can enable or disable them in your project settings on Vercel. See our Environment Variables do",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 7091,
+    "height": 156,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h3",
+   "class": "rvMliW_header text-heading-16 sm:text-heading-20",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 47,
+   "text": "Use Vercel environment variables with SvelteKit",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 7275,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p×3",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 676,
+   "text": "SvelteKit allows you to import environment variables, but separates them into different modules based on whether they're dynamic or static, and whether they're private or public. For example, the '$env/static/private' module exposes environment variables that don't change, and that you should not share publicly.\nSystem Environment Variables are private and you should never expose them to the front",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 7314,
+    "height": 258,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 316,
+   "text": "+layout.server.ts\nTypeScript\nTypeScriptJavaScriptBash\nimport { LayoutServerLoad } from './types';\nimport { VERCEL_COMMIT_REF } from '$env/static/private';\ntype DeploymentInfo = {\n deploymentGitBranch: string;\n};\nexport function load(): LayoutServerLoad<DeploymentInfo> {\n return {\n deploymentGitBranch: 'Test',\n };\n}",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7587,
+    "height": 313,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 75,
+   "text": "You could reference that variable in a corresponding layout as shown below:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 7920,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 175,
+   "text": "+layout.svelte\n<script>\n /** @type {import('./$types').LayoutData} */\n export let data;\n</script>\n<p>This staging environment was deployed from {data.deploymentGitBranch}.</p>",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7963,
+    "height": 193,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 91,
+   "text": "To summarize, the benefits of using Environment Variables with SvelteKit on Vercel include:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8176,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 321,
+   "text": "Access to vercel deployment information, dynamically or statically, with our preconfigured System Environment Variables\nAccess to automatically-configured environment variables provided by integrations for your preferred services\nSearching and filtering environment variables by name and environment in Vercel's dashboard",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 8220,
+    "height": 152,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 76,
+   "text": "Learn more about Environment Variables\nIncremental Static Regeneration (ISR)",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 8392,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 352,
+   "text": "Incremental Static Regeneration allows you to create or update content without redeploying your site. When you deploy a route with ISR, Vercel caches the page to serve it to visitors statically, and rebuilds it on a time interval of your choice. ISR has three main benefits for developers: better performance, improved security, and faster build times.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8499,
+    "height": 109,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 468,
+   "text": "See our ISR docs to learn more.\nTo deploy a SvelteKit route with ISR:\nExport a config object with an isr property. Its value will be the number of seconds to wait before revalidating\nTo enable on-demand revalidation, add the bypassToken property to the config object. Its value gets checked when GET or HEAD requests get sent to the route. If the request has a x-prerender-revalidate header with the ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 8627,
+    "height": 234,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 163,
+   "text": "The following example demonstrates a SvelteKit route that Vercel will deploy with ISR, revalidating the page every 60 seconds, with on-demand revalidation enabled:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8882,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 167,
+   "text": "example-route/+page.server.ts\nTypeScript\nTypeScriptJavaScriptBash\nexport const config = {\n isr: {\n expiration: 60,\n bypassToken: 'REPLACE_ME_WITH_SECRET_VALUE',\n },\n};",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8952,
+    "height": 193,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 110,
+   "text": "Learn more about ISR with SvelteKit.\nTo summarize, the benefits of using ISR with SvelteKit on Vercel include:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 9165,
+    "height": 74,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 238,
+   "text": "Better performance with our global CDN\nZero-downtime rollouts to previously statically generated pages\nFramework-aware infrastructure enables global content updates in 300ms\nGenerated pages are both cached and persisted to durable storage",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 9256,
+    "height": 133,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 36,
+   "text": "Learn more about ISR\nSkew Protection",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 9408,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p×2",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 722,
+   "text": "New project deployments can lead to version skew. This can happen when your users are using your app and a new version gets deployed. Their deployment version requests assets from an older version. And those assets from the previous version got replaced. This can cause errors when those active users navigate or interact with your project.\nSvelteKit has a skew protection solution. When it detects v",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9515,
+    "height": 238,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 122,
+   "text": "Learn more about skew protection with SvelteKit.\nTo summarize, the benefits of using ISR with SvelteKit on Vercel include:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.39,
+   "geometry": {
+    "top": 9773,
+    "height": 74,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 126,
+   "text": "Mitigates the risk of your active users encountering version skew\nAvoids hard reloads for current active users on your project",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9863,
+    "height": 62,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 62,
+   "text": "Learn more about skew protection on Vercel.\nImage Optimization",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 9946,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p×3",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 397,
+   "text": "Image Optimization helps you achieve faster page loads by reducing the size of images and using modern image formats.\nWhen deploying to Vercel, you can optimize your images on demand, keeping your build times fast while improving your page load performance and Core Web Vitals.\nTo use Image Optimization with SvelteKit on Vercel, use the @sveltejs/adapter-vercel within your svelte.config.ts file.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 10053,
+    "height": 203,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 299,
+   "text": "svelte.config.ts\nTypeScript\nTypeScriptJavaScriptBash\nimport adapter from '@sveltejs/adapter-vercel';\nexport default {\n kit: {\n adapter({\n images: {\n sizes: [640, 828, 1200, 1920, 3840],\n formats: ['image/avif', 'image/webp'],\n minimumCacheTTL: 300,\n domains: ['example-app.vercel.app'],\n }\n })\n }\n};",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10272,
+    "height": 353,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "p×2",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 276,
+   "text": "This allows you to specify configuration options for Vercel's native image optimization API.\nTo use image optimization with SvelteKit, you have to construct your own srcset URLs. You can create a library function that will optimize srcset URLs in production for you like this:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 10645,
+    "height": 102,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 461,
+   "text": "src/lib/image.ts\nTypeScript\nTypeScriptJavaScriptBash\nimport { dev } from '$app/environment';\nexport function optimize(src: string, widths = [640, 960, 1280], quality = 90) {\n if (dev) return src;\n return widths\n .slice()\n .sort((a, b) => a - b)\n .map((width, i) => {\n const url = `/_vercel/image?url=${encodeURIComponent(src)}&w=${width}&q=${quality}`;\n const descriptor = i < widths.length - 1 ? ` $",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10763,
+    "height": 373,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 100,
+   "text": "Use an img or any other image component with an optimized srcset generated by the optimize function:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11156,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 308,
+   "text": "src/components/image.svelte\nTypeScript\nTypeScriptJavaScriptBash\n<script lang=\"ts\">\n import { optimize } from '$lib/image';\n import type { Photo } from '$lib/types';\n export let photo: Photo;\n</script>\n<img\n class=\"absolute left-0 top-0 w-full h-full\"\n srcset={optimize(photo.url)}\n alt={photo.description}\n/>",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11226,
+    "height": 313,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "To summarize, using Image Optimization with SvelteKit on Vercel:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11559,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 253,
+   "text": "Configure image optimization with @sveltejs/adapter-vercel\nOptimize for production with a function that constructs optimized srcset for your images\nHelps your team ensure great performance by default\nKeeps your builds fast by optimizing images on-demand",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11602,
+    "height": 133,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 49,
+   "text": "Learn more about Image Optimization\nWeb Analytics",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 11755,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "p×3",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 574,
+   "text": "Vercel's Web Analytics features enable you to visualize and monitor your application's performance over time. Analytics in your project sidebar's dashboard offers detailed insights into your website's visitors, with metrics like top pages, top referrers, and user demographics.\nTo use Web Analytics, open Analytics in your project sidebar on Vercel and select Enable in the modal that appears.\nTo tra",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11862,
+    "height": 230,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "div",
+   "class": "JKwH5a_root",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 152,
+   "text": "pnpmyarnnpmbun\nTerminal\npnpm i @vercel/analytics\nTerminal\nyarn add @vercel/analytics\nTerminal\nnpm i @vercel/analytics\nTerminal\nbun add @vercel/analytics",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12116,
+    "height": 160,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "p×4",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 540,
+   "text": "In your SvelteKit project's main +layout.svelte file, add the following <script>:\nWith the above script added to your project, you'll be able to view detailed user insights in your dashboard on Vercel under Analytics in the sidebar. See our docs to learn more about the user metrics you can track with Vercel's Web Analytics.\nYour project must be deployed on Vercel to take advantage of the Web Analy",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 12300,
+    "height": 250,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 169,
+   "text": "Enables you to track traffic and see your top-performing pages\nOffers you detailed breakdowns of visitor demographics, including their OS, browser, geolocation, and more",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12567,
+    "height": 90,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 45,
+   "text": "Learn more about Web Analytics\nSpeed Insights",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 12676,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 242,
+   "text": "You can see data about your project's Core Web Vitals performance in your dashboard on Vercel. Doing so will allow you to track your web application's loading speed, responsiveness, and visual stability so you can improve the user experience.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 12783,
+    "height": 82,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 103,
+   "text": "See our Speed Insights docs to learn more.\nTo summarize, using Speed Insights with SvelteKit on Vercel:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 12885,
+    "height": 74,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 315,
+   "text": "Enables you to track traffic performance metrics, such as First Contentful Paint, or First Input Delay\nEnables you to view performance metrics by page name and URL for more\ngranular analysis\nShows you a score for your app's performance on each recorded metric, which you can use to track improvements or regressions",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.23,
+   "geometry": {
+    "top": 12975,
+    "height": 125,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 42,
+   "text": "Learn more about Speed Insights\nDraft Mode",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 13120,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 135,
+   "text": "Draft Mode enables you to view draft content from your Headless CMS immediately, while still statically generating pages in production.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 13227,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "ol",
+   "class": "my-3 list-decimal pl-6",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 153,
+   "text": "To use a SvelteKit route in Draft Mode, you must:\nExport a config object that enables Incremental Static Regeneration from the route's +page.server file:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 13302,
+    "height": 98,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "div",
+   "class": "my-4 rounded-lg group/copy relative",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 549,
+   "text": "blog/[slug]/+page.server.ts\nTypeScript\nTypeScriptJavaScriptBash\nimport { BYPASS_TOKEN } from '$env/static/private';\nexport const config = {\n isr: {\n // Random token that can be provided to bypass the cached version of the page with a __prerender_bypass=<token> cookie. Allows rendering content at request time for this route.\n bypassToken: BYPASS_TOKEN,\n // Expiration time (in seconds) before the ca",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13415,
+    "height": 323,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "ol",
+   "class": "my-3 list-decimal pl-6",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 83,
+   "text": "Send a __prerender_bypass cookie with the same value as bypassToken in your config.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13754,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 197,
+   "text": "To render the draft content, SvelteKit will check for __prerender_bypass. If its value matches the value of bypassToken, it will render content fetched at request time rather than prebuilt content.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13801,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "div",
+   "class": "min-w-0 gap-3 flex flex-1",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 197,
+   "text": "We recommend using a cryptographically secure random number generator at build\ntime as your bypassToken value. If a malicious actor guesses your\nbypassToken, they can view your pages in Draft Mode.",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13880,
+    "height": 48,
+    "widthFraction": 0.52,
+    "leftFraction": 0.24,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "h3",
+   "class": "rvMliW_header text-heading-16 sm:text-heading-20",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Draft Mode security",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 13963,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 308,
+   "text": "Deployments on Vercel automatically secure Draft Mode behind the same authentication used for Preview Comments. To enable or disable Draft Mode, the viewer must be logged in as a member of the Team. Once enabled, Vercel's CDN will bypass the ISR cache automatically and invoke the underlying Vercel Function.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 14002,
+    "height": 109,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "h3",
+   "class": "rvMliW_header text-heading-16 sm:text-heading-20",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 42,
+   "text": "Enabling Draft Mode in Preview Deployments",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 14138,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 201,
+   "text": "You and your team members can toggle Draft Mode in the Vercel Toolbar in production, localhost, and Preview Deployments. When you do so, the toolbar will become purple to indicate Draft Mode is active.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 14177,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "figure",
+   "class": "m-0 flex flex-col items-center",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 46,
+   "text": "The Vercel toolbar when Draft Mode is enabled.",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Vercel toolbar when Draft Mode is enabled.",
+     "width": 412,
+     "height": 81
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14271,
+    "height": 114,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 137,
+   "text": "Users outside your Vercel team cannot toggle Draft Mode.\nTo summarize, the benefits of using Draft Mode with SvelteKit on Vercel include:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14426,
+    "height": 74,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 233,
+   "text": "Easily server-render previews of static pages\nAdds security measures to prevent malicious usage\nIntegrates with any headless provider of your choice\nYou can enable and disable Draft Mode in the comments toolbar on Preview Deployments",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 14516,
+    "height": 133,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 46,
+   "text": "Learn more about Draft Mode\nRouting Middleware",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 14669,
+    "height": 95,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 249,
+   "text": "Routing Middleware is useful for modifying responses before they're sent to a user. We recommend using SvelteKit's server hooks to modify responses. Due to SvelteKit's client-side rendering, you cannot use Vercel's Routing Middleware with SvelteKit.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 14776,
+    "height": 82,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "Rewrites",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 14894,
+    "height": 32,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "p×3",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 359,
+   "text": "Adding a vercel.json file to the root directory of your project enables you to rewrite your app's routes.\nWe do not recommend using vercel.json rewrites with SvelteKit.\nRewrites from vercel.json only apply to the Vercel proxy. At runtime, SvelteKit doesn't have access to the rewritten URL, which means it has no way of rendering the intended rewritten route.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 14938,
+    "height": 149,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "More benefits",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 15122,
+    "height": 32,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 120,
+   "text": "See our Frameworks documentation page to learn about the benefits available to all frameworks when you deploy on Vercel.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 15166,
+    "height": 54,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "h2",
+   "class": "rvMliW_header text-heading-20 sm:text-heading-24",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 14,
+   "text": "More resources",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 15257,
+    "height": 32,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "p",
+   "class": "my-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 85,
+   "text": "Learn more about deploying SvelteKit projects on Vercel with the following resources:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15301,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "ul",
+   "class": "my-3 list-disc pl-6 [&>li::marker]:text-gray-500",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 58,
+   "text": "Learn about the Build Output API\nSvelteKit's official docs",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 15344,
+    "height": 62,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 109,
+   "tag": "h2",
+   "id": "cross-link-map-sveltekit-on-vercel-docsframeworksfull-stacksveltekit",
+   "class": "mb-3 text-heading-20 text-gray-1000",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 133,
+   "text": "Last updated August 26, 2026\nRelated Vercel documentation\nCross-link map: SvelteKit on Vercel (/docs/frameworks/full-stack/sveltekit)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15454,
+    "height": 152,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 110,
+   "tag": "blockquote",
+   "class": "my-4 border-l border-gray-alpha-600 pl-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 208,
+   "text": "From the Vercel docs graph (built 2026-09-20T05:21:37.343Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: https://vercel.com/docs/graph.json",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 15622,
+    "height": 40,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 111,
+   "tag": "h3",
+   "id": "semantically-closest-pages",
+   "class": "mb-3 mt-6 text-heading-16 text-gray-1000",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Semantically closest pages",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15686,
+    "height": 24,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 112,
+   "tag": "ul",
+   "class": "my-3 list-disc space-y-2 pl-5",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 589,
+   "text": "New features for SvelteKit: Optimize your application with ease\nNuxt on Vercel — Deploy Nuxt applications to Vercel and configure rendering, functions, middleware, routing, image optimization, and cach\nAstro on Vercel — Deploy Astro sites to Vercel and configure server-side rendering, ISR, Web Analytics, Image Optimization, and Routing Mi\nNext.js on Vercel — Vercel is the native Next.js platform, ",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 15722,
+    "height": 192,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 113,
+   "tag": "h3",
+   "id": "this-page-links-to-27",
+   "class": "mb-3 mt-6 text-heading-16 text-gray-1000",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 23,
+   "text": "This page links to (27)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15938,
+    "height": 24,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 114,
+   "tag": "ul",
+   "class": "my-3 list-disc space-y-2 pl-5",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 3388,
+   "text": "Account Management — Learn how to manage your Vercel account and team members.\nVercel Web Analytics — With Web Analytics, you can get detailed insights into your website's visitors with new metrics like top pages, top refe\nBuild Output API — The Build Output API is a file-system-based specification for a directory structure that can produce a Vercel deployment\nBuild Output Configuration — Learn ab",
+   "counts": {
+    "links": 27,
+    "images": 0,
+    "headings": 0,
+    "listItems": 27,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 15974,
+    "height": 1168,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 115,
+   "tag": "h3",
+   "id": "pages-that-link-here-9",
+   "class": "mb-3 mt-6 text-heading-16 text-gray-1000",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 24,
+   "text": "Pages that link here (9)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17166,
+    "height": 24,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 1.02,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 116,
+   "tag": "ul",
+   "class": "my-3 list-disc space-y-2 pl-5",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1147,
+   "text": "By site: vercel-docs (9)\nDraft Mode — Vercel's Draft Mode enables you to view your unpublished headless CMS content on your site before publishing it.\nVite on Vercel — Deploy Vite projects to Vercel and configure environment variables, Vercel Functions, server-side rendering, and SPA rew\nFull-stack frameworks on Vercel — Vercel supports a wide range of the most popular backend frameworks, optimizi",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 17202,
+    "height": 416,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 1.02,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 117,
+   "tag": "div",
+   "class": "P3AUTG_container",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Previous\nNext.js\nNext\nNuxt",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 15636,
+    "height": 50,
+    "widthFraction": 0.53,
+    "leftFraction": 0.23,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 118,
+   "tag": "div",
+   "class": "shadow-(--ds-shadow-border-small) w-fit overflow-hidden transition-[height,width,border-radius,transform,background-color]",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 33,
+   "text": "Was this helpful?\nsupported.\nSend",
+   "counts": {
+    "links": 0,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 22,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15734,
+    "height": 48,
+    "widthFraction": 0.19,
+    "leftFraction": 0.4,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 119,
+   "tag": "h2",
+   "id": "toc-heading",
+   "class": "m-0 pb-2 text-label-14 font-normal",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 12,
+   "text": "On this page",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 88,
+    "height": 28,
+    "widthFraction": 0.17,
+    "leftFraction": 0.81,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 120,
+   "tag": "ul",
+   "class": "max-h-[calc(100vh-35vh)] relative overflow-y-auto min-w-0",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 562,
+   "text": "Get started with SvelteKit on Vercel\nUse Vercel features with Svelte\nInstall SvelteKit's Vercel adapter plugin\nAdd the Vercel adapter to your Svelte config\nConfigure your SvelteKit deployment\nConfiguration options\nsplit\nregions\nStreaming\nServer-Side Rendering\nEnvironment variables\nUse Vercel environment variables with SvelteKit\nIncremental Static Regeneration (ISR)\nSkew Protection\nImage Optimizati",
+   "counts": {
+    "links": 24,
+    "images": 0,
+    "headings": 0,
+    "listItems": 24,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 116,
+    "height": 530,
+    "widthFraction": 0.17,
+    "leftFraction": 0.81,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 121,
+   "tag": "div×12",
+   "landmarks": [
+    "footer",
+    "nav"
+   ],
+   "textLength": 980,
+   "text": "Agent Stack\nAI SDK\nAI Gateway\nSandbox\nWorkflows\nConnectNew\nPassportNew\neveNew\nCore Platform\nCI/CD\nContent Delivery\nFluid Compute\nObservability\nSecurity\nPlatform Security\nWAF\nBot Management\nBotID\nTools\nVercel DropNew\nVercel Agent\nVercel PluginNew\nAgent Skills\nDomains\nv0\nFrameworks\neveNew\nNext.js\nNuxt\nSvelteKit\nNitro\nTurborepo\nTanstack Start\nFastAPI\nAll frameworks\nSDKs\nVercel SDK\nWorkflow SDKNew\nFla",
+   "counts": {
+    "links": 79,
+    "images": 0,
+    "headings": 12,
+    "listItems": 80,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 12,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 16001,
+    "height": 644,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 122,
+   "tag": "ul",
+   "class": "list-none m-0 p-0",
+   "landmarks": [
+    "footer",
+    "nav"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Vercel",
+     "width": 16,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16669,
+    "height": 32,
+    "widthFraction": 0.15,
+    "leftFraction": 0.02,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 123,
+   "tag": "div",
+   "class": "flex items-center justify-between mt-8",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 58,
+   "text": "All systems normal.\nSelect a display theme:systemlightdark",
+   "counts": {
+    "links": 1,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.33,
+   "geometry": {
+    "top": 16733,
+    "height": 34,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 124,
+   "tag": "div",
+   "id": "fides-banner-inner",
+   "role": "document",
+   "landmarks": [],
+   "textLength": 156,
+   "text": "Your Privacy\nThis site uses tracking technologies. You may opt in or opt out of the use of these technologies.\nDenyAccept all\nConsent SettingsPrivacy Policy",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 682,
+    "height": 118,
+    "widthFraction": 0.29,
+    "leftFraction": 0.01,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  }
+ ]
+}

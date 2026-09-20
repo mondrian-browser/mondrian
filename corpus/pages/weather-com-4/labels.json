@@ -1,0 +1,355 @@
+{
+ "id": "weather-com-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:45:41.297Z",
+ "tier": "relayout",
+ "application": 0.11,
+ "inputTokens": 51240,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.69,
+   "margin": 0.59,
+   "top": [
+    [
+     "site_nav",
+     0.71
+    ],
+    [
+     "tabs",
+     0.12
+    ],
+    [
+     "site_header",
+     0.07
+    ],
+    [
+     "section_nav",
+     0.06
+    ],
+    [
+     "account",
+     0.03
+    ]
+   ],
+   "final": "site_nav",
+   "block": "links",
+   "slot": "header"
+  },
+  {
+   "index": 1,
+   "choice": "site_header",
+   "confidence": 0.79,
+   "margin": 0.71,
+   "top": [
+    [
+     "site_header",
+     0.81
+    ],
+    [
+     "site_nav",
+     0.1
+    ],
+    [
+     "tabs",
+     0.04
+    ],
+    [
+     "sticky_bar",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "final": "site_header",
+   "block": "controls",
+   "slot": "header"
+  },
+  {
+   "index": 2,
+   "choice": "ad",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "ad",
+     1
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ],
+    [
+     "site_footer",
+     0
+    ]
+   ],
+   "final": "ad",
+   "block": "mixed",
+   "slot": "ad"
+  },
+  {
+   "index": 3,
+   "choice": "heading",
+   "confidence": 0.66,
+   "margin": 0.4,
+   "top": [
+    [
+     "heading",
+     0.67
+    ],
+    [
+     "title",
+     0.27
+    ],
+    [
+     "hero",
+     0.04
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "final": "heading",
+   "block": "heading",
+   "slot": "article"
+  },
+  {
+   "index": 4,
+   "choice": "table",
+   "confidence": 0.67,
+   "margin": 0.55,
+   "top": [
+    [
+     "table",
+     0.69
+    ],
+    [
+     "accordion",
+     0.14
+    ],
+    [
+     "teaser_card",
+     0.12
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "infobox",
+     0.01
+    ]
+   ],
+   "final": "table",
+   "block": "table",
+   "slot": "article"
+  },
+  {
+   "index": 5,
+   "choice": "table",
+   "confidence": 0.51,
+   "margin": 0.3,
+   "top": [
+    [
+     "table",
+     0.53
+    ],
+    [
+     "list",
+     0.23
+    ],
+    [
+     "teaser_card",
+     0.1
+    ],
+    [
+     "accordion",
+     0.1
+    ],
+    [
+     "calendar",
+     0.03
+    ]
+   ],
+   "final": "table",
+   "block": "table",
+   "slot": "article"
+  },
+  {
+   "index": 6,
+   "choice": "ad",
+   "confidence": 0.97,
+   "margin": 0.98,
+   "top": [
+    [
+     "ad",
+     0.99
+    ],
+    [
+     "map",
+     0.01
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "final": "ad",
+   "block": "prose",
+   "slot": "ad"
+  },
+  {
+   "index": 7,
+   "choice": "ad",
+   "confidence": 0.84,
+   "margin": 0.74,
+   "top": [
+    [
+     "ad",
+     0.85
+    ],
+    [
+     "infobox",
+     0.11
+    ],
+    [
+     "sponsored",
+     0.02
+    ],
+    [
+     "metadata",
+     0.02
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "final": "ad",
+   "block": "prose",
+   "slot": "ad"
+  },
+  {
+   "index": 8,
+   "choice": "teaser_card",
+   "confidence": 0.59,
+   "margin": 0.53,
+   "top": [
+    [
+     "teaser_card",
+     0.61
+    ],
+    [
+     "infobox",
+     0.08
+    ],
+    [
+     "ad",
+     0.06
+    ],
+    [
+     "accordion",
+     0.06
+    ],
+    [
+     "callout",
+     0.06
+    ]
+   ],
+   "final": "teaser_card",
+   "block": "cards",
+   "slot": "teasers"
+  },
+  {
+   "index": 9,
+   "choice": "ad",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "ad",
+     1
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "final": "ad",
+   "block": "mixed",
+   "slot": "ad"
+  },
+  {
+   "index": 10,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "final": "site_footer",
+   "block": "prose",
+   "slot": "footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:42.067Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

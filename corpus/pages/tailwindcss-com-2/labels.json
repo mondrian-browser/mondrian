@@ -1,0 +1,758 @@
+{
+ "id": "tailwindcss-com-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:10:53.373Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 108724,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.48,
+   "margin": 0.03,
+   "top": [
+    [
+     "site_header",
+     0.5
+    ],
+    [
+     "site_nav",
+     0.47
+    ],
+    [
+     "version_switcher",
+     0.03
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "section_nav",
+   "confidence": 0.81,
+   "margin": 0.72,
+   "top": [
+    [
+     "section_nav",
+     0.82
+    ],
+    [
+     "site_nav",
+     0.1
+    ],
+    [
+     "list",
+     0.04
+    ],
+    [
+     "table_of_contents",
+     0.02
+    ],
+    [
+     "text",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.66,
+   "margin": 0.36,
+   "top": [
+    [
+     "title",
+     0.67
+    ],
+    [
+     "heading",
+     0.31
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "page",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "text",
+   "confidence": 0.96,
+   "margin": 0.92,
+   "top": [
+    [
+     "text",
+     0.96
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "byline",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "page",
+   "final": "text"
+  },
+  {
+   "index": 4,
+   "choice": "section_nav",
+   "confidence": 0.54,
+   "margin": 0.41,
+   "top": [
+    [
+     "section_nav",
+     0.55
+    ],
+    [
+     "tabs",
+     0.14
+    ],
+    [
+     "site_nav",
+     0.12
+    ],
+    [
+     "hero",
+     0.04
+    ],
+    [
+     "table_of_contents",
+     0.03
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 5,
+   "choice": "text",
+   "confidence": 0.88,
+   "margin": 0.78,
+   "top": [
+    [
+     "text",
+     0.89
+    ],
+    [
+     "summary",
+     0.11
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "text"
+  },
+  {
+   "index": 6,
+   "choice": "steps",
+   "confidence": 0.73,
+   "margin": 0.59,
+   "top": [
+    [
+     "steps",
+     0.74
+    ],
+    [
+     "code",
+     0.15
+    ],
+    [
+     "unclear",
+     0.04
+    ],
+    [
+     "progress",
+     0.03
+    ],
+    [
+     "pagination",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "steps"
+  },
+  {
+   "index": 7,
+   "choice": "text",
+   "confidence": 0.43,
+   "margin": 0.15,
+   "top": [
+    [
+     "text",
+     0.45
+    ],
+    [
+     "steps",
+     0.3
+    ],
+    [
+     "heading",
+     0.16
+    ],
+    [
+     "summary",
+     0.07
+    ],
+    [
+     "code",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "text"
+  },
+  {
+   "index": 8,
+   "choice": "code",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "code",
+     0.99
+    ],
+    [
+     "steps",
+     0.01
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ],
+    [
+     "definition_list",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "nav",
+   "final": "code"
+  },
+  {
+   "index": 9,
+   "choice": "steps",
+   "confidence": 0.47,
+   "margin": 0.11,
+   "top": [
+    [
+     "steps",
+     0.49
+    ],
+    [
+     "progress",
+     0.38
+    ],
+    [
+     "code",
+     0.09
+    ],
+    [
+     "pagination",
+     0.01
+    ],
+    [
+     "unclear",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "steps"
+  },
+  {
+   "index": 10,
+   "choice": "text",
+   "confidence": 0.6,
+   "margin": 0.42,
+   "top": [
+    [
+     "text",
+     0.61
+    ],
+    [
+     "steps",
+     0.19
+    ],
+    [
+     "heading",
+     0.17
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "code",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "text"
+  },
+  {
+   "index": 11,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "nav",
+   "final": "code"
+  },
+  {
+   "index": 12,
+   "choice": "steps",
+   "confidence": 0.63,
+   "margin": 0.38,
+   "top": [
+    [
+     "steps",
+     0.64
+    ],
+    [
+     "progress",
+     0.26
+    ],
+    [
+     "code",
+     0.06
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "pagination",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "steps"
+  },
+  {
+   "index": 13,
+   "choice": "text",
+   "confidence": 0.42,
+   "margin": 0.16,
+   "top": [
+    [
+     "text",
+     0.44
+    ],
+    [
+     "steps",
+     0.28
+    ],
+    [
+     "heading",
+     0.27
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "team",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "text"
+  },
+  {
+   "index": 14,
+   "choice": "code",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "toolbar",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "nav",
+   "final": "code"
+  },
+  {
+   "index": 15,
+   "choice": "steps",
+   "confidence": 0.65,
+   "margin": 0.44,
+   "top": [
+    [
+     "steps",
+     0.66
+    ],
+    [
+     "progress",
+     0.22
+    ],
+    [
+     "code",
+     0.04
+    ],
+    [
+     "unclear",
+     0.03
+    ],
+    [
+     "text",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "steps"
+  },
+  {
+   "index": 16,
+   "choice": "text",
+   "confidence": 0.48,
+   "margin": 0.04,
+   "top": [
+    [
+     "text",
+     0.49
+    ],
+    [
+     "steps",
+     0.45
+    ],
+    [
+     "heading",
+     0.05
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "text"
+  },
+  {
+   "index": 17,
+   "choice": "code",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "code",
+     0.98
+    ],
+    [
+     "steps",
+     0.02
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "nav",
+   "final": "code"
+  },
+  {
+   "index": 18,
+   "choice": "steps",
+   "confidence": 0.46,
+   "margin": 0.24,
+   "top": [
+    [
+     "steps",
+     0.47
+    ],
+    [
+     "progress",
+     0.23
+    ],
+    [
+     "code",
+     0.23
+    ],
+    [
+     "pagination",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "steps"
+  },
+  {
+   "index": 19,
+   "choice": "text",
+   "confidence": 0.81,
+   "margin": 0.76,
+   "top": [
+    [
+     "text",
+     0.83
+    ],
+    [
+     "steps",
+     0.07
+    ],
+    [
+     "heading",
+     0.04
+    ],
+    [
+     "summary",
+     0.03
+    ],
+    [
+     "callout",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "text"
+  },
+  {
+   "index": 20,
+   "choice": "code",
+   "confidence": 0.86,
+   "margin": 0.81,
+   "top": [
+    [
+     "code",
+     0.87
+    ],
+    [
+     "embed",
+     0.06
+    ],
+    [
+     "callout",
+     0.05
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "table_of_contents",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "nav",
+   "final": "code"
+  },
+  {
+   "index": 21,
+   "choice": "callout",
+   "confidence": 0.53,
+   "margin": 0.26,
+   "top": [
+    [
+     "callout",
+     0.54
+    ],
+    [
+     "related",
+     0.28
+    ],
+    [
+     "cta",
+     0.12
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "callout"
+  },
+  {
+   "index": 22,
+   "choice": "site_footer",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "site_footer",
+     0.97
+    ],
+    [
+     "site_nav",
+     0.03
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 23,
+   "choice": "site_footer",
+   "confidence": 0.88,
+   "margin": 0.78,
+   "top": [
+    [
+     "site_footer",
+     0.89
+    ],
+    [
+     "legal_notice",
+     0.11
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "audio",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:42.019Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

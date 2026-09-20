@@ -269,6 +269,50 @@ cannot beat 62% on holdout is not worth shipping; one that reaches 80% probably 
 
 ---
 
+## B6. Accuracy: the site directory and the generic number
+
+Lloyd, 20 Sep 2026: a directory of solved sites, and the generic accuracy up. Both.
+The order and the state:
+
+**B6.1 Two axes per region. Done.** `tools/label/axes.js`: `block` is what a region is
+(heading, prose, list, cards, media, controls, links, table, code, quote, pairs, thread,
+frame, empty, mixed), `slot` is what its section is for (article, related, trending,
+comments, header, footer, nav, promo, ad, gate, byline, tools, …). Structural types take
+their section's slot; a section starts at every heading and landmark change and is
+named by the first section-opening type in it. Labels and calls go through the same
+function. `npm run classify` scores both: **block 83%, slot 72%, both 68%** (holdout
+80 / 65 / 62). The slot axis is the weak one, which is the useful thing to know; the
+predicted jump in the headline number did not happen, because the confusions were
+real, not naming.
+
+**B6.2 Extractor. Done.** Anchors that wrap or overlay a region count as links and their
+aria-label is kept (`counts.coverLinks`, `coverLabel`); the frozen corpus got the same
+from `dom.html` geometry. A Hacker News title row is a card; a standfirst under a card
+header is a summary. Small gain on the frozen corpus, a raised ceiling for new captures.
+
+**B6.3 Hints audited. Done.** `node tools/classify/audit-hints.js` scores every hint and
+text regex by the precision of its top type. Eight were firing on the wrong word and
+were tightened. Slot +4.8. Run the audit again after every corpus growth; hints that
+were fine on 45 sites may not be on 90.
+
+**B6.4 Site directory. Done, growing.** `directory/<host>.json` per site: stable
+selectors → types, made by `node tools/sites/solve.js <url>` (four pages, Jev, derive:
+80 seconds, two cents) or `derive.js` from corpus pages. Leave-one-page-out over the
+corpus: 93% right where covered, coverage 35% from 1–3 other pages, 84% of regions on a
+four-page site. Directory then rules beats rules alone by four points on the corpus
+sites, and by far more on a solved site's own pages. Not yet consumed at runtime: the
+preload should apply a site's selectors at document-start and mark elements with the
+type, which is milestone 2's first job.
+
+**B6.5 Corpus growth. In progress.** `tools/corpus/growth-1.txt`, 45 sites × 4 pages via
+`solve.js --file`, chosen so the rarer types land on several sites each. Pages join
+the corpus and the scorecard. When done: review the flagged regions, rerun the hint
+audit, rerun the scorecard, and try the trees again (`npm run classify:train --cv 4`)
+now that a site-held-out split no longer removes a type's whole training set.
+
+Lloyd's own sites are the missing input for the directory: twenty he uses, in a text
+file, through `solve.js --file`.
+
 ## C. Parallel, do not leave to the end
 
 **C1. Control socket.** `eval_js` and `ui_eval` are remote code execution by design, and

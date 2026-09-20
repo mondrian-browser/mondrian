@@ -1,0 +1,55 @@
+{
+ "site": "mayoclinic.org",
+ "pages": 4,
+ "pageIds": [
+  "mayoclinic-org-1",
+  "mayoclinic-org-2",
+  "mayoclinic-org-3",
+  "mayoclinic-org-4"
+ ],
+ "derivedAt": "2026-09-20T11:27:21.290Z",
+ "blocks": [
+  {
+   "selector": "nav > div.aem-GridColumn",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header nav > ul.cmp-tabs",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header nav > ul#header__content-right",
+   "type": "account",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div#top-advertisement",
+   "type": "subscribe",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav > ul.cmp-list__container",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > footer#cmp-footer",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  }
+ ]
+}

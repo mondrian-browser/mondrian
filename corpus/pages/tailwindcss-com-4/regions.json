@@ -1,0 +1,382 @@
+{
+ "url": "https://tailwindcss.com/docs/installation/framework-guides",
+ "title": "Framework guides - Tailwind CSS",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 2167,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "div",
+   "class": "flex h-14 items-center justify-between",
+   "landmarks": [],
+   "textLength": 45,
+   "text": "v4.3\n⌘KCtrl KDocsPlayBlogShowcasePartnersPlus",
+   "counts": {
+    "links": 8,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 159,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.71,
+   "geometry": {
+    "top": 0,
+    "height": 56,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div×18",
+   "class": "flex flex-col gap-3",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 2827,
+   "text": "Getting started\nInstallation\nEditor setup\nCompatibility\nUpgrade guide\nCore concepts\nStyling with utility classes\nHover, focus, and other states\nResponsive design\nDark mode\nTheme variables\nColors\nAdding custom styles\nDetecting classes in source files\nFunctions and directives\nBase styles\nPreflight\nLayout\naspect-ratio\ncolumns\nbreak-after\nbreak-before\nbreak-inside\nbox-decoration-break\nbox-sizing\ndispl",
+   "counts": {
+    "links": 198,
+    "images": 0,
+    "headings": 18,
+    "listItems": 198,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 18,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 81,
+    "height": 7408,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "class": "mt-2 text-3xl font-medium tracking-tight",
+   "landmarks": [],
+   "textLength": 42,
+   "text": "Installation\nGet started with Tailwind CSS",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 97,
+    "height": 68,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "mt-6 text-base/7 text-gray-700 dark:text-gray-300",
+   "landmarks": [],
+   "textLength": 198,
+   "text": "Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 189,
+    "height": 56,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "relative z-10",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 131,
+   "text": "It's fast, flexible, and reliable — with zero-runtime.\nInstallation\nUsing Vite\nUsing PostCSS\nTailwind CLI\nFramework Guides\nPlay CDN",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 6,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.45,
+   "geometry": {
+    "top": 261,
+    "height": 158,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 125,
+   "text": "Framework-specific guides that cover our recommended approach to installing Tailwind CSS in a number of popular environments.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 443,
+    "height": 56,
+    "widthFraction": 0.53,
+    "leftFraction": 0.26,
+    "pageFraction": 0.2,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "class": "grid grid-cols-1 gap-x-6 gap-y-10",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 1262,
+   "text": "Next.js\nFull-featured React framework with great developer experience.\nLaravel\nPHP web application framework with expressive, elegant syntax.\nNuxt\nIntuitive Vue framework for building universal applications.\nSolidJS\nA tool for building simple, performant, and reactive user interfaces.\nSvelteKit\nThe fastest way to build apps of all sizes with Svelte.js.\nGatsby\nFramework for building static sites wi",
+   "counts": {
+    "links": 19,
+    "images": 19,
+    "headings": 19,
+    "listItems": 19,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 19,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 539,
+    "height": 872,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.25,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "class": "grid grid-cols-[auto_1fr_auto] gap-3 gap-y-6",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 111,
+   "text": "Don't see your framework of choice? Try using the Tailwind CLI, the Vite plugin, or the PostCSS plugin instead.",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 22,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 0.33,
+   "geometry": {
+    "top": 1475,
+    "height": 76,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "footer",
+   "class": "bg-white text-sm/loose text-gray-950 dark:bg-gray-950",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 263,
+   "text": "Tailwind CSS\nDocumentation\nPlayground\nBlog\nShowcase\nResources\nRefactoring UI\nHeadless UI\nHeroicons\nHero Patterns\nCommunity\nGitHub\nX\nTailwind CSS\nDocumentation\nPlayground\nBlog\nShowcase\nResources\nRefactoring UI\nHeadless UI\nHeroicons\nHero Patterns\nCommunity\nGitHub\nX",
+   "counts": {
+    "links": 20,
+    "images": 0,
+    "headings": 6,
+    "listItems": 20,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 1712,
+    "height": 284,
+    "widthFraction": 0.73,
+    "leftFraction": 0.23,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "mx-auto flex w-full flex-col",
+   "landmarks": [],
+   "textLength": 52,
+   "text": "Copyright © 2026 Tailwind Labs Inc.·Trademark Policy",
+   "counts": {
+    "links": 1,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 2037,
+    "height": 34,
+    "widthFraction": 0.71,
+    "leftFraction": 0.24,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,950 @@
+{
+ "url": "https://tailwindcss.com/docs/installation/using-vite",
+ "title": "Installing Tailwind CSS with Vite - Tailwind CSS",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 2562,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "div",
+   "class": "flex h-14 items-center justify-between",
+   "landmarks": [],
+   "textLength": 45,
+   "text": "v4.3\n⌘KCtrl KDocsPlayBlogShowcasePartnersPlus",
+   "counts": {
+    "links": 8,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 159,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.71,
+   "geometry": {
+    "top": 0,
+    "height": 56,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div×18",
+   "class": "flex flex-col gap-3",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 2827,
+   "text": "Getting started\nInstallation\nEditor setup\nCompatibility\nUpgrade guide\nCore concepts\nStyling with utility classes\nHover, focus, and other states\nResponsive design\nDark mode\nTheme variables\nColors\nAdding custom styles\nDetecting classes in source files\nFunctions and directives\nBase styles\nPreflight\nLayout\naspect-ratio\ncolumns\nbreak-after\nbreak-before\nbreak-inside\nbox-decoration-break\nbox-sizing\ndispl",
+   "counts": {
+    "links": 198,
+    "images": 0,
+    "headings": 18,
+    "listItems": 198,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 18,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 81,
+    "height": 7408,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "class": "mt-2 text-3xl font-medium tracking-tight",
+   "landmarks": [],
+   "textLength": 42,
+   "text": "Installation\nGet started with Tailwind CSS",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 97,
+    "height": 68,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "mt-6 text-base/7 text-gray-700 dark:text-gray-300",
+   "landmarks": [],
+   "textLength": 198,
+   "text": "Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 189,
+    "height": 56,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "relative z-10",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 131,
+   "text": "It's fast, flexible, and reliable — with zero-runtime.\nInstallation\nUsing Vite\nUsing PostCSS\nTailwind CLI\nFramework Guides\nPlay CDN",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 6,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.45,
+   "geometry": {
+    "top": 261,
+    "height": 158,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 155,
+   "text": "Installing Tailwind CSS as a Vite plugin is the most seamless way to integrate it with frameworks like Laravel, SvelteKit, React Router, Nuxt, and SolidJS.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 443,
+    "height": 56,
+    "widthFraction": 0.53,
+    "leftFraction": 0.26,
+    "pageFraction": 0.17,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "01",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 539,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 142,
+   "text": "Create your project\nStart by creating a new Vite project if you don’t have one set up already. The most common approach is to use Create Vite.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 539,
+    "height": 116,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 55,
+   "text": "Terminal\nnpm create vite@latest my-projectcd my-project",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 539,
+    "height": 116,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "02",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 695,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.27,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 71,
+   "text": "Install Tailwind CSS\nInstall tailwindcss and @tailwindcss/vite via npm.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 695,
+    "height": 96,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.27,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 50,
+   "text": "Terminal\nnpm install tailwindcss @tailwindcss/vite",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 695,
+    "height": 96,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.27,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "03",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 831,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 86,
+   "text": "Configure the Vite plugin\nAdd the @tailwindcss/vite plugin to your Vite configuration.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 831,
+    "height": 236,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 153,
+   "text": "vite.config.ts\nimport { defineConfig } from 'vite'import tailwindcss from '@tailwindcss/vite'export default defineConfig({ plugins: [ tailwindcss(), ],})",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 831,
+    "height": 236,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "04",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1107,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 78,
+   "text": "Import Tailwind CSS\nAdd an @import to your CSS file that imports Tailwind CSS.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1107,
+    "height": 96,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 26,
+   "text": "CSS\n@import \"tailwindcss\";",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1107,
+    "height": 96,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "05",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1243,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 125,
+   "text": "Start your build process\nRun your build process with npm run dev or whatever command is configured in your package.json file.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1243,
+    "height": 116,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 20,
+   "text": "Terminal\nnpm run dev",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1243,
+    "height": 96,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "06",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1399,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 198,
+   "text": "Start using Tailwind in your HTML\nMake sure your compiled CSS is included in the <head> (your framework might handle this for you), then start using Tailwind’s utility classes to style your content.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1399,
+    "height": 351,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 260,
+   "text": "HTML\n<!doctype html><html><head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <link href=\"/src/style.css\" rel=\"stylesheet\"></head><body> <h1 class=\"text-3xl font-bold underline\"> Hello world! </h1></body></html>",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1399,
+    "height": 351,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "div",
+   "class": "grid grid-cols-[auto_1fr_auto] gap-3 gap-y-6",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 225,
+   "text": "Are you stuck? Setting up Tailwind with Vite can be a bit different across different build tools. Check our framework guides to see if we have more specific instructions for your particular setup.\nExplore our framework guides",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 22,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 1814,
+    "height": 132,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "footer",
+   "class": "bg-white text-sm/loose text-gray-950 dark:bg-gray-950",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 263,
+   "text": "Tailwind CSS\nDocumentation\nPlayground\nBlog\nShowcase\nResources\nRefactoring UI\nHeadless UI\nHeroicons\nHero Patterns\nCommunity\nGitHub\nX\nTailwind CSS\nDocumentation\nPlayground\nBlog\nShowcase\nResources\nRefactoring UI\nHeadless UI\nHeroicons\nHero Patterns\nCommunity\nGitHub\nX",
+   "counts": {
+    "links": 20,
+    "images": 0,
+    "headings": 6,
+    "listItems": 20,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 2107,
+    "height": 284,
+    "widthFraction": 0.73,
+    "leftFraction": 0.23,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div",
+   "class": "mx-auto flex w-full flex-col",
+   "landmarks": [],
+   "textLength": 52,
+   "text": "Copyright © 2026 Tailwind Labs Inc.·Trademark Policy",
+   "counts": {
+    "links": 1,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 2432,
+    "height": 34,
+    "widthFraction": 0.71,
+    "leftFraction": 0.24,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  }
+ ]
+}

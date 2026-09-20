@@ -1,0 +1,107 @@
+{
+ "id": "lobste-rs-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:16:08.162Z",
+ "tier": "relayout",
+ "application": 0.09,
+ "inputTokens": 14050,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.75,
+   "margin": 0.52,
+   "top": [
+    [
+     "site_header",
+     0.76
+    ],
+    [
+     "site_nav",
+     0.24
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "unclear",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "teaser_card",
+   "confidence": 0.88,
+   "margin": 0.83,
+   "top": [
+    [
+     "teaser_card",
+     0.89
+    ],
+    [
+     "trending",
+     0.06
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 2,
+   "choice": "site_footer",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "site_footer",
+     0.97
+    ],
+    [
+     "site_nav",
+     0.03
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "byline",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.892Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

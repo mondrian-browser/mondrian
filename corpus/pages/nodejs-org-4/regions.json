@@ -1,0 +1,256 @@
+{
+ "url": "https://nodejs.org/docs/latest-v25.x/api/index.html",
+ "title": "Index | Node.js v25.9.0 Documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 2222,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 860,
+   "text": "Skip to content\nNode.js\nAbout this documentation\nUsage and example\nAssertion testing\nAsynchronous context tracking\nAsync hooks\nBuffer\nC++ addons\nC/C++ addons with Node-API\nC++ embedder API\nChild processes\nCluster\nCommand-line options\nConsole\nCrypto\nDebugger\nDeprecated APIs\nDiagnostics Channel\nDNS\nDomain\nEnvironment Variables\nErrors\nEvents\nFile system\nGlobals\nHTTP\nHTTP/2\nHTTPS\nInspector\nInternation",
+   "counts": {
+    "links": 67,
+    "images": 0,
+    "headings": 0,
+    "listItems": 66,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": -2448,
+    "height": 3180,
+    "widthFraction": 0.15,
+    "leftFraction": 0,
+    "pageFraction": -1.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 33,
+   "text": "Code repository and issue tracker",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 734,
+    "height": 82,
+    "widthFraction": 0.15,
+    "leftFraction": 0,
+    "pageFraction": 0.33,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 29,
+   "text": "Node.js v25.9.0 documentation",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16,
+    "height": 48,
+    "widthFraction": 0.79,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 1112,
+   "text": "Node.js v25.9.0\n Table of contents\nIndex\n IndexIndex\nAbout this documentation\nUsage and example\nAssertion testing\nAsynchronous context tracking\nAsync hooks\nBuffer\nC++ addons\nC/C++ addons with Node-API\nC++ embedder API\nChild processes\nCluster\nCommand-line options\nConsole\nCrypto\nDebugger\nDeprecated APIs\nDiagnostics Channel\nDNS\nDomain\nEnvironment Variables\nErrors\nEvents\nFile system\nGlobals\nHTTP\nHTTP/",
+   "counts": {
+    "links": 99,
+    "images": 0,
+    "headings": 0,
+    "listItems": 100,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 80,
+    "height": 24,
+    "widthFraction": 0.79,
+    "leftFraction": 0.18,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "details",
+   "id": "toc",
+   "role": "navigation",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 23,
+   "text": "Table of contents\nIndex",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 137,
+    "height": 62,
+    "widthFraction": 0.79,
+    "leftFraction": 0.18,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 6,
+   "text": "Index#",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 250,
+    "height": 39,
+    "widthFraction": 0.79,
+    "leftFraction": 0.18,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 42,
+   "text": "About this documentation\nUsage and example",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 305,
+    "height": 46,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 827,
+   "text": "Assertion testing\nAsynchronous context tracking\nAsync hooks\nBuffer\nC++ addons\nC/C++ addons with Node-API\nC++ embedder API\nChild processes\nCluster\nCommand-line options\nConsole\nCrypto\nDebugger\nDeprecated APIs\nDiagnostics Channel\nDNS\nDomain\nEnvironment Variables\nErrors\nEvents\nFile system\nGlobals\nHTTP\nHTTP/2\nHTTPS\nInspector\nInternationalization\nModules: CommonJS modules\nModules: ECMAScript modules\nMod",
+   "counts": {
+    "links": 65,
+    "images": 0,
+    "headings": 0,
+    "listItems": 65,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 384,
+    "height": 1777,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.17,
+    "aboveFold": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "id": "goodreads-com-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:37:41.198Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 41476,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.51,
+   "margin": 0.06,
+   "top": [
+    [
+     "site_header",
+     0.53
+    ],
+    [
+     "site_nav",
+     0.47
+    ],
+    [
+     "calendar",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "cta",
+   "confidence": 0.86,
+   "margin": 0.82,
+   "top": [
+    [
+     "cta",
+     0.87
+    ],
+    [
+     "site_header",
+     0.05
+    ],
+    [
+     "share",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0.03
+    ],
+    [
+     "account",
+     0.01
+    ]
+   ],
+   "block": "mixed",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.61,
+   "margin": 0.24,
+   "top": [
+    [
+     "title",
+     0.62
+    ],
+    [
+     "heading",
+     0.38
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "reviews",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "rating",
+   "confidence": 0.62,
+   "margin": 0.35,
+   "top": [
+    [
+     "rating",
+     0.64
+    ],
+    [
+     "action_button",
+     0.29
+    ],
+    [
+     "buy_box",
+     0.03
+    ],
+    [
+     "form",
+     0.01
+    ],
+    [
+     "tabs",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "reviews",
+   "final": "rating"
+  },
+  {
+   "index": 4,
+   "choice": "image",
+   "confidence": 0.84,
+   "margin": 0.79,
+   "top": [
+    [
+     "image",
+     0.85
+    ],
+    [
+     "product_card",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "action_button",
+     0.03
+    ],
+    [
+     "infobox",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "reviews",
+   "final": "image"
+  },
+  {
+   "index": 5,
+   "choice": "quote",
+   "confidence": 0.93,
+   "margin": 0.9,
+   "top": [
+    [
+     "quote",
+     0.95
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "rating",
+     0
+    ]
+   ],
+   "block": "quote",
+   "slot": "reviews",
+   "final": "quote"
+  },
+  {
+   "index": 6,
+   "choice": "quote",
+   "confidence": 0.93,
+   "margin": 0.88,
+   "top": [
+    [
+     "quote",
+     0.94
+    ],
+    [
+     "list",
+     0.06
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "quote",
+   "slot": "reviews",
+   "final": "quote"
+  },
+  {
+   "index": 7,
+   "choice": "tabs",
+   "confidence": 0.4,
+   "margin": 0.16,
+   "top": [
+    [
+     "tabs",
+     0.42
+    ],
+    [
+     "section_nav",
+     0.26
+    ],
+    [
+     "heading",
+     0.06
+    ],
+    [
+     "breadcrumbs",
+     0.06
+    ],
+    [
+     "filters",
+     0.05
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "stats",
+     0
+    ],
+    [
+     "image",
+     0
+    ],
+    [
+     "cart",
+     0
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.859Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

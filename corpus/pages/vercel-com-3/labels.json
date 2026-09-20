@@ -1,0 +1,138 @@
+{
+ "id": "vercel-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:32:03.195Z",
+ "tier": "relayout",
+ "application": 0.52,
+ "inputTokens": 18425,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.86,
+   "margin": 0.77,
+   "top": [
+    [
+     "site_header",
+     0.87
+    ],
+    [
+     "account",
+     0.1
+    ],
+    [
+     "site_nav",
+     0.02
+    ],
+    [
+     "cta",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "title",
+   "confidence": 0.53,
+   "margin": 0.19,
+   "top": [
+    [
+     "title",
+     0.54
+    ],
+    [
+     "heading",
+     0.35
+    ],
+    [
+     "login_form",
+     0.09
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "login_form",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "login_form",
+     1
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "empty_state",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "form",
+   "final": "login_form"
+  },
+  {
+   "index": 3,
+   "choice": "site_footer",
+   "confidence": 0.92,
+   "margin": 0.86,
+   "top": [
+    [
+     "site_footer",
+     0.93
+    ],
+    [
+     "legal_notice",
+     0.07
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:42.051Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

@@ -1,0 +1,1440 @@
+{
+ "id": "react-dev-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:06:02.423Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 210449,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.74,
+   "margin": 0.51,
+   "top": [
+    [
+     "site_header",
+     0.75
+    ],
+    [
+     "site_nav",
+     0.24
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "section_nav",
+   "confidence": 0.71,
+   "margin": 0.45,
+   "top": [
+    [
+     "section_nav",
+     0.72
+    ],
+    [
+     "site_nav",
+     0.27
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 2,
+   "choice": "page_tools",
+   "confidence": 0.37,
+   "margin": 0.01,
+   "top": [
+    [
+     "page_tools",
+     0.38
+    ],
+    [
+     "site_header",
+     0.37
+    ],
+    [
+     "share",
+     0.12
+    ],
+    [
+     "action_button",
+     0.07
+    ],
+    [
+     "version_switcher",
+     0.03
+    ]
+   ],
+   "block": "mixed",
+   "slot": "tools",
+   "final": "page_tools"
+  },
+  {
+   "index": 3,
+   "choice": "title",
+   "confidence": 0.93,
+   "margin": 0.88,
+   "top": [
+    [
+     "title",
+     0.94
+    ],
+    [
+     "heading",
+     0.06
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 4,
+   "choice": "text",
+   "confidence": 0.74,
+   "margin": 0.52,
+   "top": [
+    [
+     "text",
+     0.75
+    ],
+    [
+     "summary",
+     0.23
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 5,
+   "choice": "heading",
+   "confidence": 0.81,
+   "margin": 0.75,
+   "top": [
+    [
+     "heading",
+     0.83
+    ],
+    [
+     "version_switcher",
+     0.08
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "metadata",
+     0.03
+    ],
+    [
+     "infobox",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 6,
+   "choice": "heading",
+   "confidence": 0.87,
+   "margin": 0.8,
+   "top": [
+    [
+     "heading",
+     0.88
+    ],
+    [
+     "version_switcher",
+     0.08
+    ],
+    [
+     "title",
+     0.01
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "heading"
+  },
+  {
+   "index": 7,
+   "choice": "version_switcher",
+   "confidence": 0.93,
+   "margin": 0.9,
+   "top": [
+    [
+     "version_switcher",
+     0.95
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "version_switcher"
+  },
+  {
+   "index": 8,
+   "choice": "callout",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "callout",
+     0.98
+    ],
+    [
+     "accordion",
+     0.02
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "toolbar",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "callout"
+  },
+  {
+   "index": 9,
+   "choice": "heading",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "heading",
+     0.99
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "rating",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 10,
+   "choice": "heading",
+   "confidence": 0.98,
+   "margin": 0.97,
+   "top": [
+    [
+     "heading",
+     0.98
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 11,
+   "choice": "list",
+   "confidence": 0.53,
+   "margin": 0.15,
+   "top": [
+    [
+     "list",
+     0.55
+    ],
+    [
+     "related",
+     0.4
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 12,
+   "choice": "list",
+   "confidence": 0.61,
+   "margin": 0.3,
+   "top": [
+    [
+     "list",
+     0.63
+    ],
+    [
+     "related",
+     0.33
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 13,
+   "choice": "list",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "list",
+     0.97
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "metadata",
+     0.01
+    ],
+    [
+     "table",
+     0.01
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 14,
+   "choice": "heading",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "heading",
+     0.98
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 15,
+   "choice": "list",
+   "confidence": 0.59,
+   "margin": 0.28,
+   "top": [
+    [
+     "list",
+     0.6
+    ],
+    [
+     "related",
+     0.32
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "team",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 16,
+   "choice": "list",
+   "confidence": 0.7,
+   "margin": 0.45,
+   "top": [
+    [
+     "list",
+     0.71
+    ],
+    [
+     "related",
+     0.26
+    ],
+    [
+     "cross_promo",
+     0.03
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 17,
+   "choice": "list",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "list",
+     0.96
+    ],
+    [
+     "version_switcher",
+     0.03
+    ],
+    [
+     "metadata",
+     0.01
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 18,
+   "choice": "heading",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "heading",
+     0.98
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 19,
+   "choice": "list",
+   "confidence": 0.51,
+   "margin": 0.15,
+   "top": [
+    [
+     "list",
+     0.53
+    ],
+    [
+     "related",
+     0.38
+    ],
+    [
+     "teaser_card",
+     0.08
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "rating",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 20,
+   "choice": "list",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "list",
+     0.96
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "metadata",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 21,
+   "choice": "heading",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "heading",
+     0.98
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "code",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 22,
+   "choice": "list",
+   "confidence": 0.66,
+   "margin": 0.4,
+   "top": [
+    [
+     "list",
+     0.67
+    ],
+    [
+     "related",
+     0.27
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "references",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 23,
+   "choice": "list",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "list",
+     0.98
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 24,
+   "choice": "heading",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "heading",
+     0.99
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "account",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 25,
+   "choice": "list",
+   "confidence": 0.85,
+   "margin": 0.78,
+   "top": [
+    [
+     "list",
+     0.86
+    ],
+    [
+     "related",
+     0.08
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 26,
+   "choice": "list",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "list",
+     0.96
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 27,
+   "choice": "heading",
+   "confidence": 0.95,
+   "margin": 0.95,
+   "top": [
+    [
+     "heading",
+     0.96
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "accordion",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 28,
+   "choice": "list",
+   "confidence": 0.81,
+   "margin": 0.71,
+   "top": [
+    [
+     "list",
+     0.82
+    ],
+    [
+     "related",
+     0.11
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "references",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 29,
+   "choice": "list",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "list",
+     0.96
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 30,
+   "choice": "heading",
+   "confidence": 0.96,
+   "margin": 0.96,
+   "top": [
+    [
+     "heading",
+     0.97
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "ad",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 31,
+   "choice": "list",
+   "confidence": 0.81,
+   "margin": 0.73,
+   "top": [
+    [
+     "list",
+     0.82
+    ],
+    [
+     "section_nav",
+     0.09
+    ],
+    [
+     "related",
+     0.05
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 32,
+   "choice": "list",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "list",
+     0.98
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "feedback",
+     0
+    ],
+    [
+     "callout",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 33,
+   "choice": "heading",
+   "confidence": 0.94,
+   "margin": 0.93,
+   "top": [
+    [
+     "heading",
+     0.95
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 34,
+   "choice": "list",
+   "confidence": 0.68,
+   "margin": 0.49,
+   "top": [
+    [
+     "list",
+     0.7
+    ],
+    [
+     "related",
+     0.21
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 35,
+   "choice": "list",
+   "confidence": 0.94,
+   "margin": 0.93,
+   "top": [
+    [
+     "list",
+     0.95
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 36,
+   "choice": "heading",
+   "confidence": 0.94,
+   "margin": 0.93,
+   "top": [
+    [
+     "heading",
+     0.95
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 37,
+   "choice": "list",
+   "confidence": 0.61,
+   "margin": 0.33,
+   "top": [
+    [
+     "list",
+     0.62
+    ],
+    [
+     "related",
+     0.29
+    ],
+    [
+     "section_nav",
+     0.07
+    ],
+    [
+     "references",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 38,
+   "choice": "list",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "list",
+     0.97
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 39,
+   "choice": "heading",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "heading",
+     0.99
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 40,
+   "choice": "list",
+   "confidence": 0.91,
+   "margin": 0.88,
+   "top": [
+    [
+     "list",
+     0.92
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "related",
+     0.02
+    ],
+    [
+     "references",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 41,
+   "choice": "list",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "list",
+     0.98
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "table",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 42,
+   "choice": "heading",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "heading",
+     0.97
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 43,
+   "choice": "text",
+   "confidence": 0.93,
+   "margin": 0.89,
+   "top": [
+    [
+     "text",
+     0.93
+    ],
+    [
+     "metadata",
+     0.04
+    ],
+    [
+     "code",
+     0.02
+    ],
+    [
+     "stats",
+     0
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 44,
+   "choice": "video",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "video",
+     0.95
+    ],
+    [
+     "embed",
+     0.02
+    ],
+    [
+     "transcript",
+     0.02
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "video"
+  },
+  {
+   "index": 45,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.954Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

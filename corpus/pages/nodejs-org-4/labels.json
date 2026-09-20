@@ -1,0 +1,262 @@
+{
+ "id": "nodejs-org-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:10:06.687Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 36441,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "section_nav",
+   "confidence": 0.84,
+   "margin": 0.76,
+   "top": [
+    [
+     "section_nav",
+     0.85
+    ],
+    [
+     "table_of_contents",
+     0.09
+    ],
+    [
+     "site_nav",
+     0.06
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 1,
+   "choice": "external_links",
+   "confidence": 0.46,
+   "margin": 0.29,
+   "top": [
+    [
+     "external_links",
+     0.47
+    ],
+    [
+     "site_footer",
+     0.18
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "site_nav",
+     0.1
+    ],
+    [
+     "skip_link",
+     0.06
+    ]
+   ],
+   "block": "links",
+   "slot": "related",
+   "final": "external_links"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.9,
+   "margin": 0.83,
+   "top": [
+    [
+     "title",
+     0.91
+    ],
+    [
+     "site_header",
+     0.08
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "table_of_contents",
+   "confidence": 0.69,
+   "margin": 0.45,
+   "top": [
+    [
+     "table_of_contents",
+     0.7
+    ],
+    [
+     "section_nav",
+     0.25
+    ],
+    [
+     "list",
+     0.04
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 4,
+   "choice": "table_of_contents",
+   "confidence": 0.82,
+   "margin": 0.76,
+   "top": [
+    [
+     "table_of_contents",
+     0.83
+    ],
+    [
+     "site_nav",
+     0.07
+    ],
+    [
+     "section_nav",
+     0.06
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "heading",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 5,
+   "choice": "heading",
+   "confidence": 0.59,
+   "margin": 0.32,
+   "top": [
+    [
+     "heading",
+     0.61
+    ],
+    [
+     "title",
+     0.29
+    ],
+    [
+     "table_of_contents",
+     0.07
+    ],
+    [
+     "skip_link",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "heading"
+  },
+  {
+   "index": 6,
+   "choice": "list",
+   "confidence": 0.45,
+   "margin": 0.17,
+   "top": [
+    [
+     "list",
+     0.46
+    ],
+    [
+     "table_of_contents",
+     0.29
+    ],
+    [
+     "section_nav",
+     0.12
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "skip_link",
+     0.02
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "list"
+  },
+  {
+   "index": 7,
+   "choice": "section_nav",
+   "confidence": 0.5,
+   "margin": 0.17,
+   "top": [
+    [
+     "section_nav",
+     0.52
+    ],
+    [
+     "table_of_contents",
+     0.35
+    ],
+    [
+     "list",
+     0.12
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.927Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

@@ -1,0 +1,223 @@
+{
+ "site": "coinmarketcap.com",
+ "pages": 4,
+ "pageIds": [
+  "coinmarketcap-com-1",
+  "coinmarketcap-com-2",
+  "coinmarketcap-com-3",
+  "coinmarketcap-com-4"
+ ],
+ "derivedAt": "2026-09-20T11:40:31.062Z",
+ "blocks": [
+  {
+   "selector": "main main section section > p",
+   "type": "text",
+   "n": 8,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "aside main > div.post-user-header",
+   "type": "comments",
+   "n": 5,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "aside main > img",
+   "type": "gallery",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 2
+  },
+  {
+   "selector": "> img",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div[class*=\"HeaderV3_main-header-right__\"]",
+   "type": "account",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div[class*=\"CollapsedInput_collapsedInput__\"]",
+   "type": "chat_widget",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=dialog] > div.ot-sdk-row",
+   "type": "cookie_banner",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > div",
+   "type": "infobox",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > ol",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main main section aside > aside.post-follow",
+   "type": "user_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside > div.nft-info-header-avatar-info",
+   "type": "infobox",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "aside > h1.base-text",
+   "type": "title",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "aside > div[class*=\"NewTabs_container__\"]",
+   "type": "tabs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "aside main > div.post-container-v2",
+   "type": "comments",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> ul.c-YxQoA",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div[class*=\"SliderV2_with-arrow__\"]",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div[class*=\"TableControl_table-control__\"]",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> table.cmc-table",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.seo-text__title",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > button.c-gaHTWb",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > a.cmc-sponsor",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div[class*=\"CoinInfoLinks_info-items-wrapper__\"]",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div.coin-converter",
+   "type": "embed",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div.coin-tags",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div.update-coin-info-tip",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#cdp-global-nav-wrapper",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div[class*=\"CmcAiInsights_desktopWrapper__\"]",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > table.cmc-table",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div#cmc-editor",
+   "type": "chat_widget",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div[class*=\"BlockTitlePro_base__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

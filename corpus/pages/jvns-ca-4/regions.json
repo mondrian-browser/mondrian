@@ -1,0 +1,2082 @@
+{
+ "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+ "title": "Moving away from Tailwind, and learning to structure my CSS",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 7353,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 32,
+   "text": "Skip to main content\nJulia Evans",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 0,
+    "height": 68,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "header-links",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 44,
+   "text": "About\nTalks\nProjects\nMastodon\nBluesky\nGithub",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 16,
+    "height": 120,
+    "widthFraction": 0.06,
+    "leftFraction": 0.63,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "nav",
+   "class": "header-nav",
+   "role": "navigation",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 23,
+   "text": "Favorites\nTIL\nZines\nRSS",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 152,
+    "height": 35,
+    "widthFraction": 0.45,
+    "leftFraction": 0.27,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "class": "entry-title",
+   "landmarks": [
+    "article",
+    "header"
+   ],
+   "textLength": 81,
+   "text": "Moving away from Tailwind, and learning to structure my CSS\n•\n css •\nMay 15, 2026",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 219,
+    "height": 105,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p×4",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 595,
+   "text": "Hello! 8 years ago, I wrote excitedly about discovering Tailwind.\nAt that time I really had no idea how to structure my CSS code and given the\nchoice between a pile of complete chaos and Tailwind, I was really happy to choose\nTailwind. It helped me make a lot of tiny sites!\nI spent the last week or so migrating a couple of sites away from Tailwind and\ntowards more semantic HTML + vanilla CSS, and ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 341,
+    "height": 216,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h3",
+   "id": "it-turns-out-tailwind-taught-me-a-lot",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 37,
+   "text": "it turns out Tailwind taught me a lot",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 585,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 283,
+   "text": "When I started thinking about structuring CSS, I was intimidated at first: I’m\nnot very good at structuring my CSS! But then I started reading blog posts\ntalking about how to structure CSS (like A whole cascade of layers or How I write CSS in 2024)\nand I realized a couple of things:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 621,
+    "height": 80,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ol",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 340,
+   "text": "Every CSS code base has a bunch of different things going on (layouts! fonts! colours! common components!)\nIt’s extremely useful to have systems or guidelines to manage each of those things, otherwise things descend into chaos\nTailwind has systems for some of these, and I already know those systems! Maybe I can imitate the systems I like!",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 713,
+    "height": 136,
+    "widthFraction": 0.37,
+    "leftFraction": 0.32,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 75,
+   "text": "For example, Tailwind has:\na reset stylesheet\na colour palette\na font scale",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 861,
+    "height": 108,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h3",
+   "id": "the-systems-i-m-going-to-talk-about",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 35,
+   "text": "the systems I’m going to talk about",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 997,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 200,
+   "text": "I’m going to talk about a few aspects of my CSS codebase and my thoughts so far\nwhat kind of rules I want to impose on the codebase for each one. Some of them\nare copied from Tailwind and some aren’t.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1033,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "ol",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 103,
+   "text": "reset\ncomponents\ncolours\nfont sizes\nutility classes\nthe base\nspacing\nresponsive design\nthe build system",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1105,
+    "height": 244,
+    "widthFraction": 0.37,
+    "leftFraction": 0.32,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h3",
+   "id": "1-reset",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 8,
+   "text": "1. reset",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1377,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 328,
+   "text": "I just copied Tailwind’s “preflight styles”\nby going into tailwind.css and copying the first 200 lines or so.\nI noticed that I’ve developed a relationship with Tailwind’s CSS reset over time,\nfor example Tailwind sets box-sizing: border-box on every element (which means\nthat an element’s width includes its padding and border):",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 1413,
+    "height": 114,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 278,
+   "text": "* { box-sizing: border-box; }\nI think it would be a real adjustment for me to switch to writing CSS without\nthese, and I’m sure there are lots of other things in the Tailwind reset (like\nhtml {line-height: 1.5;}) that I’m subconsciously used to and don’t even realize are\nthere.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1539,
+    "height": 135,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "h3",
+   "id": "2-components",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 13,
+   "text": "2. components",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1702,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 223,
+   "text": "This next part is the bulk of the CSS!\nThe idea here is to organize CSS by “components”, in a way that’s spiritually\nrelated to Vue or React components. (though there might not actually be any Javascript at all in the site)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1738,
+    "height": 92,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "ol",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 173,
+   "text": "Basically the idea is that:\nEach “component” has a unique class\nThe CSS for one component never overrides the CSS for any other component\nEach component has its own CSS file",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1842,
+    "height": 128,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 317,
+   "text": "So editing the CSS for one component won’t mysteriously break something in\nanother component. And probably like 80% of the CSS that I would actually want\nto change is in various component files, so if I’m editing a 100-line component,\nI just have to think about those 100 lines. It’s way easier for me to think\nabout.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1982,
+    "height": 100,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 123,
+   "text": "For example, this HTML might be the .zine “component”.\n<figure class=\"zine horizontal\">\n <img src=\"whatever.jpg\">\n</figure>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2094,
+    "height": 113,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 62,
+   "text": "And the CSS looks something like this, using nested selectors:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2218,
+    "height": 20,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 79,
+   "text": ".zine {\n ...\n &.horizontal {\n ...\n }\n &.vertical {\n ...\n }\n &:hover {\n ...\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2250,
+    "height": 249,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 330,
+   "text": "I haven’t done anything programmatic (like web components or\n@scope)\nthat ensures that components won’t interfere with each other, but just having a\nconvention and trying my best already feels like a big improvement.\nNext: conventions to maintain some consistency across the site and keep these\ncomponents in line with each other!",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 2511,
+    "height": 112,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h3",
+   "id": "3-colours",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 10,
+   "text": "3. colours",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2651,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 292,
+   "text": "colours.css has a bunch of variables like this which I can use as necessary.\nColour is really hard and I didn’t want to revisit my use of colour in this\nrefactor, so I left this alone.\nThe only guideline I’m trying to enforce here is that all colours used in the\nsite are listed in this file.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2687,
+    "height": 113,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 103,
+   "text": ":root {\n --pink: #fea0c2;\n --pink-light: #F9B9B9;\n --red: #f91a55;\n --orange: rgb(222, 117, 31);\n ...\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2812,
+    "height": 155,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "h3",
+   "id": "4-font-sizes",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 13,
+   "text": "4. font sizes",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2995,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 351,
+   "text": "One thing I appreciated about Tailwind was that if I wanted to set a font\nsize, I could just think “hm, I want the text to be big”, write text-lg, and\nbe done with it! And maybe if it’s not big enough I’d use xl or 2xl instead.\nNo trying to remember whether I’m using em or px or rem.\nSo I defined a bunch of variables, taken from Tailwind, like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3031,
+    "height": 116,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 94,
+   "text": "--size-xs: 0.75rem;\n --line-height-xs: 1rem;\n --size-sm: 0.875rem;\n --line-height-sm: 1.25rem;",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3159,
+    "height": 117,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 129,
+   "text": "Then if I want to set a font size, I can do it like this. It’s a little more\nverbose than Tailwind but I’m happy with it for now.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3288,
+    "height": 40,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 71,
+   "text": "h3 {\n font-size: var(--size-lg);\n line-height: var(--line-height-lg);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3340,
+    "height": 98,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h3",
+   "id": "5-utilities",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 12,
+   "text": "5. utilities",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3466,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p×3",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 306,
+   "text": "There are some things like buttons that appear in many different components.\nI’m calling these “utilities”.\nI copied some utility classes from Tailwind (like .sr-only for things that\nshould only appear for screenreader users).\nThis section is pretty small and I try to be careful about making changes here.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3502,
+    "height": 125,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h3",
+   "id": "6-the-base",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 11,
+   "text": "6. the base",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3655,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 292,
+   "text": "“base” styles are styles that apply across the whole site that I chose myself. I\nhave to keep this section really small because I’m not confident enough to\nenforce a lot of styles across the whole site. These are the only two I feel\nokay about right now, and I might change the <section> one:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3691,
+    "height": 81,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 177,
+   "text": "/* put a 950px column in the middle of each <section> */\nsection {\n --inner-width: 950px;\n padding: 3rem max(1rem, (100% - var(--inner-width))/2);\n}\na {\n color: var(--orange);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3784,
+    "height": 192,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 238,
+   "text": "I think for the base styles it’s going to be easiest for me to work kind of\nbottom up – first start with almost nothing in the base styles, and then move\nsome styles from the components into base styles as I identify common things\nI want.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3989,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h3",
+   "id": "7-spacing",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 10,
+   "text": "7. spacing",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4077,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 521,
+   "text": "I haven’t completely worked out an approach to managing padding and margins yet.\nI’m definitely trying to be more principled than how I was doing it in Tailwind\nthough, where I would just haphazardly put padding and margins everywhere until\nit looked the way I wanted.\nRight now I’m working towards making the outer layout components in charge of\nspacing as much as possible. For example if I have a ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4113,
+    "height": 173,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 36,
+   "text": "section > *+* {\n margin-top: 1rem;\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4298,
+    "height": 79,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 63,
+   "text": "Some inspiration blog posts:\nthe owl selector\n“no outer margin”",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.52,
+   "geometry": {
+    "top": 4389,
+    "height": 80,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "h3",
+   "id": "8-responsive-design-use-more-grid",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 36,
+   "text": "8. responsive design: use more grid!",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4497,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p×3",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 621,
+   "text": "The way I was doing responsive design in Tailwind was to use a lot of media\nqueries. Tailwind has this md:text-xl syntax that means “apply the text-xl\nstyle at sizes md or larger”.\nI’m trying something pretty different now, which is to make more flexible CSS\ngrid layouts that don’t need as many breakpoints. This is hard but it’s really\ninteresting to learn about what’s possible with grid, and it’s",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4533,
+    "height": 208,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 121,
+   "text": "display: grid;\n grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), max-content));\n justify-content: center;",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4753,
+    "height": 85,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 111,
+   "text": "I also used grid-template-areas a lot which is an amazing feature that I don’t think you can use with Tailwind.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 4850,
+    "height": 41,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 80,
+   "text": "Some inspiration:\nA responsive grid layout with no media queries from CSS Tricks",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 4903,
+    "height": 52,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "h3",
+   "id": "9-the-build-system-esbuild",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 28,
+   "text": "9. the build system: esbuild",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4983,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 100,
+   "text": "In development, I don’t need a build system: CSS now has both built in import statements, like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5019,
+    "height": 40,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 68,
+   "text": "@import \"reset.css\";\n@import \"typography.css\";\n@import \"colors.css\";",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5071,
+    "height": 79,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 62,
+   "text": "and built in nested selectors, like this:\n.page {\n h2 { ...}\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5163,
+    "height": 111,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 99,
+   "text": "If I want, I can use esbuild to bundle the CSS file for production. That looks something like this.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5286,
+    "height": 41,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 92,
+   "text": "esbuild style.css --bundle --loader:.svg=dataurl --loader:.woff2=file --outfile=/tmp/out.css",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5339,
+    "height": 48,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 194,
+   "text": "Even though I usually avoid using CSS and JS build systems, I don’t mind using esbuild\n(which I wrote about in 2021 here)\nbecause it’s based on web standards and because it’s a static Go binary.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 5399,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "h3",
+   "id": "why-migrate-away-from-tailwind",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 31,
+   "text": "why migrate away from Tailwind?",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 5487,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 94,
+   "text": "A few people asked why I was migrating away from Tailwind. A few factors that\ncontributed are:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5523,
+    "height": 40,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 992,
+   "text": "Tailwind has become much more reliant on a build system since 2018, I think it’s\nimpossible (?) to use newer versions of Tailwind without using a build system.\nSo I’ve been using Tailwind v2 for years. (there’s also litewind apparently)\nIt’s always been true that you’re supposed to use Tailwind with a build\nsystem, but I’ve never really done that, so I have 2.8MB tailwind.min.css\nfiles (270K gzipp",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 5575,
+    "height": 341,
+    "widthFraction": 0.37,
+    "leftFraction": 0.32,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "h3",
+   "id": "css-features-i-m-curious-about",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 30,
+   "text": "CSS features I’m curious about",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 5944,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 117,
+   "text": "While doing this I learned about a lot of CSS features that I didn’t use but am\ncurious about learning about one day:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5980,
+    "height": 40,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 172,
+   "text": "@layer (from A Whole Cascade of Layers)\n@scope) (especially this example of how to use @scope in a “component” CSS design from the specification!)\ncontainer queries\nsubgrid",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 6032,
+    "height": 125,
+    "widthFraction": 0.37,
+    "leftFraction": 0.32,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "h3",
+   "id": "one-last-reason-i-moved-away-from-tailwind",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 42,
+   "text": "one last reason I moved away from Tailwind",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6185,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 297,
+   "text": "I’ve been talking a lot in this post about what I learned from using Tailwind,\nand that’s all true.\nBut I read this post 3 years ago called Tailwind and the Femininity of CSS\nthat really stuck with me. I honestly probably started out with an attitude\ntowards CSS a little like that post describes:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 6221,
+    "height": 112,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "blockquote",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 213,
+   "text": "They’ve heard it’s simple, so they assume it’s easy. But then when they try to\nuse it, it doesn’t work. It must be the fault of the language, because they know\nthat they are smart, and this is supposed to be easy.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6345,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p×4",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 1123,
+   "text": "But in the last 10 years I’ve learned to really love and respect CSS as a\ntechnology.\nSo I decided years ago that I wanted to react to “CSS is hard” by getting\nbetter at CSS and taking it seriously as a technology, instead of devaluing it.\nDoing that changed everything for me: I learned that so many of my frustrations\n(“centering is impossible”) had been addressed in CSS a long time ago, and that\n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6417,
+    "height": 356,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 119,
+   "text": "Another blog post criticizing Tailwind that influenced me:\nClassic rock, Mario Kart, and why we can’t agree on Tailwind",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.5,
+   "geometry": {
+    "top": 6785,
+    "height": 52,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h3",
+   "id": "that-s-all-for-now",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 19,
+   "text": "that’s all for now!",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6865,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 406,
+   "text": "Thanks to Melody Starling who originally designed and wrote the CSS for\nwizardzines.com, everything cool and fun\nabout the site is thanks to Melody.\nAlso I read so many incredible blog posts about CSS while working on this (from CSS Tricks, Smashing Magazine, and more), I’ve tried to link some of them\nthroughout this post and I really appreciate how much folks in the CSS community share their prac",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 6901,
+    "height": 132,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "footer",
+   "landmarks": [
+    "article",
+    "footer"
+   ],
+   "textLength": 119,
+   "text": "Want a weekly digest of this blog?\n Subscribe\n Links to CSS colour palettes\n Learning a few things about running SQLite",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.59,
+   "geometry": {
+    "top": 7057,
+    "height": 97,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "footer",
+   "role": "contentinfo",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 235,
+   "text": "Archives\n© Julia Evans. \n If you like this, you may like Ulia Ea or, more seriously, this list of blogs I love or some books I've read. \nYou might also like the Recurse Center, my very favorite programming community (my posts about it)",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 7186,
+    "height": 167,
+    "widthFraction": 0.45,
+    "leftFraction": 0.27,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

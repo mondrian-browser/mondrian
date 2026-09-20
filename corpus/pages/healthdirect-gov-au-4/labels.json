@@ -1,0 +1,510 @@
+{
+ "id": "healthdirect-gov-au-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:28:40.227Z",
+ "tier": "relayout",
+ "application": 0.06,
+ "inputTokens": 72994,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.97,
+   "margin": 0.94,
+   "top": [
+    [
+     "site_header",
+     0.97
+    ],
+    [
+     "image",
+     0.03
+    ],
+    [
+     "consent_gate",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_header",
+   "confidence": 0.91,
+   "margin": 0.88,
+   "top": [
+    [
+     "site_header",
+     0.92
+    ],
+    [
+     "heading",
+     0.04
+    ],
+    [
+     "title",
+     0.02
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "site_notice",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 2,
+   "choice": "account",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "account",
+     1
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "empty_state",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "account"
+  },
+  {
+   "index": 3,
+   "choice": "site_nav",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "site_nav",
+     0.98
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 4,
+   "choice": "title",
+   "confidence": 0.61,
+   "margin": 0.29,
+   "top": [
+    [
+     "title",
+     0.63
+    ],
+    [
+     "heading",
+     0.34
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 5,
+   "choice": "summary",
+   "confidence": 0.61,
+   "margin": 0.32,
+   "top": [
+    [
+     "summary",
+     0.63
+    ],
+    [
+     "text",
+     0.31
+    ],
+    [
+     "definition_list",
+     0.03
+    ],
+    [
+     "callout",
+     0.02
+    ],
+    [
+     "vote_controls",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 6,
+   "choice": "site_nav",
+   "confidence": 0.4,
+   "margin": 0.09,
+   "top": [
+    [
+     "site_nav",
+     0.42
+    ],
+    [
+     "section_nav",
+     0.33
+    ],
+    [
+     "tabs",
+     0.08
+    ],
+    [
+     "tag_cloud",
+     0.06
+    ],
+    [
+     "filters",
+     0.04
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 7,
+   "choice": "list",
+   "confidence": 0.55,
+   "margin": 0.26,
+   "top": [
+    [
+     "list",
+     0.56
+    ],
+    [
+     "section_nav",
+     0.3
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "table_of_contents",
+     0.05
+    ],
+    [
+     "site_nav",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "header",
+   "final": "list"
+  },
+  {
+   "index": 8,
+   "choice": "list",
+   "confidence": 0.65,
+   "margin": 0.49,
+   "top": [
+    [
+     "list",
+     0.66
+    ],
+    [
+     "section_nav",
+     0.17
+    ],
+    [
+     "table_of_contents",
+     0.16
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "table",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "header",
+   "final": "list"
+  },
+  {
+   "index": 9,
+   "choice": "cta",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "cta",
+     0.97
+    ],
+    [
+     "embed",
+     0.02
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 10,
+   "choice": "search",
+   "confidence": 0.44,
+   "margin": 0.05,
+   "top": [
+    [
+     "search",
+     0.46
+    ],
+    [
+     "form",
+     0.41
+    ],
+    [
+     "filters",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 11,
+   "choice": "contact_details",
+   "confidence": 0.81,
+   "margin": 0.67,
+   "top": [
+    [
+     "contact_details",
+     0.81
+    ],
+    [
+     "cta",
+     0.14
+    ],
+    [
+     "cross_promo",
+     0.02
+    ],
+    [
+     "sticky_bar",
+     0.01
+    ],
+    [
+     "site_footer",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "contact",
+   "final": "contact_details"
+  },
+  {
+   "index": 12,
+   "choice": "site_footer",
+   "confidence": 0.51,
+   "margin": 0.41,
+   "top": [
+    [
+     "site_footer",
+     0.52
+    ],
+    [
+     "legal_notice",
+     0.11
+    ],
+    [
+     "site_header",
+     0.1
+    ],
+    [
+     "text",
+     0.09
+    ],
+    [
+     "site_notice",
+     0.08
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 13,
+   "choice": "logo_cloud",
+   "confidence": 0.5,
+   "margin": 0.06,
+   "top": [
+    [
+     "logo_cloud",
+     0.52
+    ],
+    [
+     "site_footer",
+     0.46
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "video",
+     0.01
+    ],
+    [
+     "chart",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "logo_cloud"
+  },
+  {
+   "index": 14,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "code",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 15,
+   "choice": "site_footer",
+   "confidence": 0.74,
+   "margin": 0.52,
+   "top": [
+    [
+     "site_footer",
+     0.76
+    ],
+    [
+     "legal_notice",
+     0.24
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.870Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

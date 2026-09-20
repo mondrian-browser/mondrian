@@ -1,0 +1,293 @@
+{
+ "id": "aljazeera-com-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:03:21.985Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 42397,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.66,
+   "margin": 0.34,
+   "top": [
+    [
+     "site_nav",
+     0.67
+    ],
+    [
+     "site_header",
+     0.33
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "summary",
+   "confidence": 0.37,
+   "margin": 0.12,
+   "top": [
+    [
+     "summary",
+     0.39
+    ],
+    [
+     "hero",
+     0.27
+    ],
+    [
+     "text",
+     0.26
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "title",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 2,
+   "choice": "share",
+   "confidence": 0.62,
+   "margin": 0.4,
+   "top": [
+    [
+     "share",
+     0.63
+    ],
+    [
+     "byline",
+     0.23
+    ],
+    [
+     "action_button",
+     0.07
+    ],
+    [
+     "unclear",
+     0.04
+    ],
+    [
+     "page_tools",
+     0.02
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "share"
+  },
+  {
+   "index": 3,
+   "choice": "cta",
+   "confidence": 0.34,
+   "margin": 0.17,
+   "top": [
+    [
+     "cta",
+     0.36
+    ],
+    [
+     "action_button",
+     0.19
+    ],
+    [
+     "cross_promo",
+     0.1
+    ],
+    [
+     "app_nag",
+     0.1
+    ],
+    [
+     "sticky_bar",
+     0.07
+    ]
+   ],
+   "block": "controls",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 4,
+   "choice": "text",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "gallery",
+     0.03
+    ],
+    [
+     "chart",
+     0
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "canvas",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 5,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "feature_grid",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 6,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ],
+    [
+     "site_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 7,
+   "choice": "action_button",
+   "confidence": 0.74,
+   "margin": 0.55,
+   "top": [
+    [
+     "action_button",
+     0.75
+    ],
+    [
+     "ad",
+     0.2
+    ],
+    [
+     "cookie_banner",
+     0.03
+    ],
+    [
+     "popup",
+     0.02
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "action_button"
+  },
+  {
+   "index": 8,
+   "choice": "cookie_banner",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "cookie_banner",
+     0.97
+    ],
+    [
+     "popup",
+     0.03
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "gate",
+   "final": "cookie_banner"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.761Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

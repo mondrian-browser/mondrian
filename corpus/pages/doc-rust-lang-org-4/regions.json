@@ -1,0 +1,293 @@
+{
+ "url": "https://doc.rust-lang.org/book/foreword.html",
+ "title": "Foreword - The Rust Programming Language",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 1018,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ol",
+   "class": "chapter",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 3906,
+   "text": "The Rust Programming Language\nForeword\nIntroduction\n1. Getting Started1.1. Installation\n1.2. Hello, World!\n1.3. Hello, Cargo!\n2. Programming a Guessing Game\n3. Common Programming Concepts3.1. Variables and Mutability\n3.2. Data Types\n3.3. Functions\n3.4. Comments\n3.5. Control Flow\n4. Understanding Ownership4.1. What is Ownership?\n4.2. References and Borrowing\n4.3. The Slice Type\n5. Using Structs to ",
+   "counts": {
+    "links": 111,
+    "images": 0,
+    "headings": 0,
+    "listItems": 111,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 24,
+    "height": 4325,
+    "widthFraction": 0.18,
+    "leftFraction": 0.01,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "left-buttons",
+   "landmarks": [],
+   "textLength": 34,
+   "text": "Auto\n Light\n Rust\n Coal\n Navy\n Ayu",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 50,
+    "widthFraction": 0.78,
+    "leftFraction": 0.21,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "class": "menu-title",
+   "landmarks": [],
+   "textLength": 29,
+   "text": "The Rust Programming Language",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 50,
+    "widthFraction": 0.6,
+    "leftFraction": 0.32,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "right-buttons",
+   "landmarks": [],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 50,
+    "widthFraction": 0.05,
+    "leftFraction": 0.93,
+    "pageFraction": 0,
+    "aboveFold": true
+   },
+   "coverLabel": "Next chapter"
+  },
+  {
+   "index": 4,
+   "tag": "h1",
+   "id": "foreword",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "Foreword",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 72,
+    "height": 43,
+    "widthFraction": 0.52,
+    "leftFraction": 0.34,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2169,
+   "text": "The Rust programming language has come a long way in a few short years, from\nits creation and incubation by a small and nascent community of enthusiasts, to\nbecoming one of the most loved and in-demand programming languages in the\nworld. Looking back, it was inevitable that the power and promise of Rust would\nturn heads and gain a foothold in systems programming. What was not inevitable\nwas the gl",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 137,
+    "height": 582,
+    "widthFraction": 0.52,
+    "leftFraction": 0.34,
+    "pageFraction": 0.13,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 589,
+   "text": "The Rust journey has been one of collaboration, learning, and iteration. The\ngrowth of the language and its ecosystem is a direct reflection of the vibrant,\ndiverse community behind it. The contributions of thousands of developers, from\ncore language designers to casual contributors, are what make Rust such a\nunique and powerful tool. By picking up this book, you’re not just learning a\nnew program",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 735,
+    "height": 218,
+    "widthFraction": 0.52,
+    "leftFraction": 0.34,
+    "pageFraction": 0.72,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "nav",
+   "class": "nav-wide-wrapper",
+   "ariaLabel": "Page navigation",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1018,
+    "height": 0,
+    "widthFraction": 0.78,
+    "leftFraction": 0.21,
+    "pageFraction": 1,
+    "aboveFold": false
+   }
+  }
+ ]
+}

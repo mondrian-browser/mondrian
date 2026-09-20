@@ -1,0 +1,2354 @@
+{
+ "url": "https://docs.djangoproject.com/en/5.2/ref/contrib/admin/actions/",
+ "title": "Admin actions | Django documentation | Django",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 10678,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "a",
+   "class": "skip-link",
+   "landmarks": [],
+   "textLength": 20,
+   "text": "Skip to main content",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": -90,
+    "height": 65,
+    "widthFraction": 0.18,
+    "leftFraction": 0,
+    "pageFraction": -0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "header",
+   "id": "top",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 345,
+   "text": "Django\n The web framework for perfectionists with deadlines.\n Menu\n Main navigation\n Overview\n Download\n Documentation\n News\n Code\n Issues\n Community\n Foundation\n ♥ Donate\n Sponsor\n Search\n Submit\n Toggle theme (current theme: auto)\n Toggle theme (current theme: light)\n Toggle theme (current theme: dark)\n Toggle Light / Dark / Auto color theme",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 0,
+    "height": 82,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "section",
+   "class": "copy-banner",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Documentation",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 82,
+    "height": 73,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "id": "version-switcher",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 199,
+   "text": "Getting Help\n Language: en\n zh-hans\n sv\n pt-br\n pl\n ko\n ja\n it\n id\n fr\n es\n el\n Documentation version:\n 5.2\n dev\n 6.1\n 6.0\n 5.1\n 5.0\n 4.2\n 4.1\n 4.0\n 3.2\n 3.1\n 3.0\n 2.2\n 2.1\n 2.0\n 1.11\n 1.10\n 1.9\n 1.8",
+   "counts": {
+    "links": 31,
+    "images": 0,
+    "headings": 0,
+    "listItems": 33,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.49,
+   "geometry": {
+    "top": 620,
+    "height": 181,
+    "widthFraction": 0.13,
+    "leftFraction": 0.85,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Admin actions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 176,
+    "height": 37,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 638,
+   "text": "The basic workflow of Django’s admin is, in a nutshell, “select an object,\nthen change it.” This works well for a majority of use cases. However, if you\nneed to make the same change to many objects at once, this workflow can be\nquite tedious.\nIn these cases, Django’s admin lets you write and register “actions” –\nfunctions that get called with a list of objects selected on the change list\npage.\nIf ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 233,
+    "height": 154,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "img",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "../../../../_images/admin-actions.png",
+     "width": 784,
+     "height": 351
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 401,
+    "height": 351,
+    "widthFraction": 0.54,
+    "leftFraction": 0.04,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "class": "admonition warning",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 479,
+   "text": "Warning\nThe “delete selected objects” action uses QuerySet.delete() for efficiency reasons, which\nhas an important caveat: your model’s delete() method will not be\ncalled.\nIf you wish to override this behavior, you can override\nModelAdmin.delete_queryset() or write a custom action which does\ndeletion in your preferred manner – for example, by calling\nModel.delete() for each of the selected items.\n",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 777,
+    "height": 235,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 61,
+   "text": "Read on to find out how to add your own actions to this list.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1036,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 16,
+   "text": "Writing actions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1072,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 186,
+   "text": "The easiest way to explain actions is by example, so let’s dive in.\nA common use case for admin actions is the bulk updating of a model. Imagine a\nnews application with an Article model:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1115,
+    "height": 56,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 304,
+   "text": "from django.db import models\nSTATUS_CHOICES = {\n \"d\": \"Draft\",\n \"p\": \"Published\",\n \"w\": \"Withdrawn\",\n}\nclass Article(models.Model):\n title = models.CharField(max_length=100)\n body = models.TextField()\n status = models.CharField(max_length=1, choices=STATUS_CHOICES)\n def __str__(self):\n return self.title",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1212,
+    "height": 336,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 328,
+   "text": "A common task we might perform with a model like this is to update an\narticle’s status from “draft” to “published”. We could easily do this in the\nadmin one article at a time, but if we wanted to bulk-publish a group of\narticles, it’d be tedious. So, let’s write an action that lets us change an\narticle’s status to “published.”",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1589,
+    "height": 63,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 25,
+   "text": "Writing action functions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1666,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 165,
+   "text": "First, we’ll need to write a function that gets called when the action is\ntriggered from the admin. Action functions are regular functions that take\nthree arguments:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1704,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 134,
+   "text": "The current ModelAdmin\nAn HttpRequest representing the current request,\nA QuerySet containing the set of\nobjects selected by the user.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 1760,
+    "height": 91,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 114,
+   "text": "Our publish-these-articles function won’t need the ModelAdmin or the\nrequest object, but we will use the queryset:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1865,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 79,
+   "text": "def make_published(modeladmin, request, queryset):\n queryset.update(status=\"p\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1927,
+    "height": 42,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 237,
+   "text": "Note\nFor the best performance, we’re using the queryset’s update method. Other types of actions might need to deal\nwith each object individually; in these cases we’d iterate over the\nqueryset:\nfor obj in queryset:\n do_something_with(obj)",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 2010,
+    "height": 216,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 418,
+   "text": "That’s actually all there is to writing an action! However, we’ll take one\nmore optional-but-useful step and give the action a “nice” title in the admin.\nBy default, this action would appear in the action list as “Make published” –\nthe function name, with underscores replaced by spaces. That’s fine, but we\ncan provide a better, more human-friendly name by using the\naction() decorator on the make_p",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 2251,
+    "height": 84,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 180,
+   "text": "from django.contrib import admin\n...\n@admin.action(description=\"Mark selected stories as published\")\ndef make_published(modeladmin, request, queryset):\n queryset.update(status=\"p\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2376,
+    "height": 168,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 201,
+   "text": "Note\nThis might look familiar; the admin’s\nlist_display option uses a similar\ntechnique with the display() decorator to\nprovide human-readable descriptions for callback functions registered\nthere, too.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 2585,
+    "height": 129,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "Adding actions to the ModelAdmin¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.33,
+   "geometry": {
+    "top": 2739,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 189,
+   "text": "Next, we’ll need to inform our ModelAdmin of the action. This works\njust like any other configuration option. So, the complete admin.py with\nthe action and its registration would look like:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 2777,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 376,
+   "text": "from django.contrib import admin\nfrom myapp.models import Article\n@admin.action(description=\"Mark selected stories as published\")\ndef make_published(modeladmin, request, queryset):\n queryset.update(status=\"p\")\nclass ArticleAdmin(admin.ModelAdmin):\n list_display = [\"title\", \"status\"]\n ordering = [\"title\"]\n actions = [make_published]\nadmin.site.register(Article, ArticleAdmin)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2860,
+    "height": 336,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 75,
+   "text": "That code will give us an admin change list that looks something like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3237,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "img",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "../../../../_images/adding-actions-to-the-modeladmin.png",
+     "width": 765,
+     "height": 363
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3272,
+    "height": 363,
+    "widthFraction": 0.53,
+    "leftFraction": 0.04,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 173,
+   "text": "That’s really all there is to it! If you’re itching to write your own actions,\nyou now know enough to get started. The rest of this document covers more\nadvanced techniques.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3649,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "section",
+   "id": "s-handling-errors-in-actions",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 324,
+   "text": "Handling errors in actions¶\nIf there are foreseeable error conditions that may occur while running your\naction, you should gracefully inform the user of the problem. This means\nhandling exceptions and using\ndjango.contrib.admin.ModelAdmin.message_user() to display a user friendly\ndescription of the problem in the response.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 3705,
+    "height": 101,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "Advanced action techniques¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 3820,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 94,
+   "text": "There’s a couple of extra options and possibilities you can exploit for more\nadvanced options.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3863,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 30,
+   "text": "Actions as ModelAdmin methods¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.37,
+   "geometry": {
+    "top": 3898,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 278,
+   "text": "The example above shows the make_published action defined as a function.\nThat’s perfectly fine, but it’s not perfect from a code design point of view:\nsince the action is tightly coupled to the Article object, it makes sense\nto hook the action to the ArticleAdmin object itself.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3936,
+    "height": 63,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 237,
+   "text": "You can do it like this:\nclass ArticleAdmin(admin.ModelAdmin):\n ...\n actions = [\"make_published\"]\n @admin.action(description=\"Mark selected stories as published\")\n def make_published(self, request, queryset):\n queryset.update(status=\"p\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4013,
+    "height": 230,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 544,
+   "text": "Notice first that we’ve moved make_published into a method and renamed the\nmodeladmin parameter to self, and second that we’ve now put the string\n'make_published' in actions instead of a direct function reference. This\ntells the ModelAdmin to look up the action as a method.\nDefining actions as methods gives the action more idiomatic access to the\nModelAdmin itself, allowing the action to call any ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 4284,
+    "height": 154,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 402,
+   "text": "from django.contrib import messages\nfrom django.utils.translation import ngettext\nclass ArticleAdmin(admin.ModelAdmin):\n ...\n def make_published(self, request, queryset):\n updated = queryset.update(status=\"p\")\n self.message_user(\n request,\n ngettext(\n \"%d story was successfully marked as published.\",\n \"%d stories were successfully marked as published.\",\n updated,\n )\n % updated,\n messages.SUCCESS,\n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4479,
+    "height": 399,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 94,
+   "text": "This make the action match what the admin itself does after successfully\nperforming an action:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4919,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "img",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "../../../../_images/actions-as-modeladmin-methods.png",
+     "width": 810,
+     "height": 420
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4954,
+    "height": 420,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 40,
+   "text": "Actions that provide intermediate pages¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5386,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 513,
+   "text": "By default, after an action is performed the user is redirected back to the\noriginal change list page. However, some actions, especially more complex ones,\nwill need to return intermediate pages. For example, the built-in delete action\nasks for confirmation before deleting the selected objects.\nTo provide an intermediary page, return an HttpResponse\n(or subclass) from your action. For example, you",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 5424,
+    "height": 119,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 256,
+   "text": "from django.core import serializers\nfrom django.http import HttpResponse\ndef export_as_json(modeladmin, request, queryset):\n response = HttpResponse(content_type=\"application/json\")\n serializers.serialize(\"json\", queryset, stream=response)\n return response",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5584,
+    "height": 168,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 602,
+   "text": "Generally, something like the above isn’t considered a great idea. Most of the\ntime, the best practice will be to return an\nHttpResponseRedirect and redirect the user to a view\nyou’ve written, passing the list of selected objects in the GET query string.\nThis allows you to provide complex interaction logic on the intermediary\npages. For example, if you wanted to provide a more complete export func",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5793,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 382,
+   "text": "from django.contrib.contenttypes.models import ContentType\nfrom django.http import HttpResponseRedirect\ndef export_selected_objects(modeladmin, request, queryset):\n selected = queryset.values_list(\"pk\", flat=True)\n ct = ContentType.objects.get_for_model(queryset.model)\n return HttpResponseRedirect(\n \"/export/?ct=%s&ids=%s\"\n % (\n ct.pk,\n \",\".join(str(pk) for pk in selected),\n )\n )",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5939,
+    "height": 294,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 246,
+   "text": "As you can see, the action is rather short; all the complex logic would belong\nin your export view. This would need to deal with objects of any type, hence\nthe business with the ContentType.\nWriting this view is left as an exercise to the reader.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6274,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 35,
+   "text": "Making actions available site-wide¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 6365,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "dl",
+   "class": "py method",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 694,
+   "text": "AdminSite.add_action(action, name=None)[source]¶\nSome actions are best if they’re made available to any object in the admin\nsite – the export action defined above would be a good candidate. You can\nmake an action globally available using AdminSite.add_action(). For\nexample:\nfrom django.contrib import admin\nadmin.site.add_action(export_selected_objects)\nThis makes the export_selected_objects action",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 6409,
+    "height": 364,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "Disabling actions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 6798,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 155,
+   "text": "Sometimes you need to disable certain actions – especially those\nregistered site-wide – for particular objects.\nThere’s a few ways you can disable actions:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 6836,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "section×3",
+   "id": "s-disabling-a-site-wide-action",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1840,
+   "text": "Disabling a site-wide action¶\nAdminSite.disable_action(name)[source]¶\nIf you need to disable a site-wide action you can\ncall AdminSite.disable_action().\nFor example, you can use this method to remove the built-in “delete selected\nobjects” action:\nadmin.site.disable_action(\"delete_selected\")\nOnce you’ve done the above, that action will no longer be available\nsite-wide.\nIf, however, you need to reen",
+   "counts": {
+    "links": 15,
+    "images": 0,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 9,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 6892,
+    "height": 1353,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 32,
+   "text": "Setting permissions for actions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 8269,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 169,
+   "text": "Actions may limit their availability to users with specific permissions by\nwrapping the action function with the action()\ndecorator and passing the permissions argument:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 8307,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 117,
+   "text": "@admin.action(permissions=[\"change\"])\ndef make_published(modeladmin, request, queryset):\n queryset.update(status=\"p\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8390,
+    "height": 63,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 318,
+   "text": "The make_published() action will only be available to users that pass the\nModelAdmin.has_change_permission() check.\nIf permissions has more than one permission, the action will be available\nas long as the user passes at least one of the checks.\nAvailable values for permissions and the corresponding method checks are:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 8494,
+    "height": 91,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 169,
+   "text": "'add': ModelAdmin.has_add_permission()\n'change': ModelAdmin.has_change_permission()\n'delete': ModelAdmin.has_delete_permission()\n'view': ModelAdmin.has_view_permission()",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 8599,
+    "height": 126,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 136,
+   "text": "You can specify any other value as long as you implement a corresponding\nhas_<value>_permission(self, request) method on the ModelAdmin.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8739,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 517,
+   "text": "For example:\nfrom django.contrib import admin\nfrom django.contrib.auth import get_permission_codename\nclass ArticleAdmin(admin.ModelAdmin):\n actions = [\"make_published\"]\n @admin.action(permissions=[\"publish\"])\n def make_published(self, request, queryset):\n queryset.update(status=\"p\")\n def has_publish_permission(self, request):\n \"\"\"Does the user have the publish permission?\"\"\"\n opts = self.opts\n co",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8795,
+    "height": 398,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "The action decorator¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 9234,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "dl",
+   "class": "py function",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1175,
+   "text": "action(*, permissions=None, description=None)[source]¶\nThis decorator can be used for setting specific attributes on custom action\nfunctions that can be used with\nactions:\n@admin.action(\n permissions=[\"publish\"],\n description=\"Mark selected stories as published\",\n)\ndef make_published(self, request, queryset):\n queryset.update(status=\"p\")\nThis is equivalent to setting some attributes (with the orig",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 9283,
+    "height": 758,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "nav",
+   "class": "browse-horizontal",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 75,
+   "text": "Previous page and next page\n The Django admin site\n ModelAdmin List Filters",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.59,
+   "geometry": {
+    "top": 10069,
+    "height": 64,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "div",
+   "class": "fundraising-sidebar",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 116,
+   "text": "Support Django!\n Michal Hodur donated to the Django Software Foundation to support Django development. Donate today!",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Support Django!",
+     "width": 64,
+     "height": 55
+    }
+   ],
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 196,
+    "height": 40,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 60,
+   "tag": "h3",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 8,
+   "text": "Contents",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 256,
+    "height": 155,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 61,
+   "tag": "ul",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 440,
+   "text": "Admin actions\nWriting actions\nWriting action functions\nAdding actions to the ModelAdmin\nHandling errors in actions\nAdvanced action techniques\nActions as ModelAdmin methods\nActions that provide intermediate pages\nMaking actions available site-wide\nDisabling actions\nDisabling a site-wide action\nDisabling all actions for a particular ModelAdmin\nConditionally enabling or disabling actions\nSetting perm",
+   "counts": {
+    "links": 15,
+    "images": 0,
+    "headings": 0,
+    "listItems": 15,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 431,
+    "height": 476,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 62,
+   "tag": "nav",
+   "landmarks": [
+    "role=complementary",
+    "nav"
+   ],
+   "textLength": 121,
+   "text": "Browse\n Prev: The Django admin site\n Next: ModelAdmin List Filters\n Table of contents\n General Index\n Python Module Index",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 1,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 927,
+    "height": 212,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "h3",
+   "id": "breadcrumbs-header",
+   "landmarks": [
+    "role=complementary",
+    "nav"
+   ],
+   "textLength": 13,
+   "text": "You are here:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1159,
+    "height": 40,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "ul",
+   "landmarks": [
+    "role=complementary",
+    "nav"
+   ],
+   "textLength": 95,
+   "text": "Django 5.2 documentation\n API Reference\n contrib packages\n The Django admin site\n Admin actions",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 1219,
+    "height": 152,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "section×2",
+   "landmarks": [
+    "role=complementary",
+    "section"
+   ],
+   "textLength": 457,
+   "text": "Getting help\n FAQ\n Try the FAQ — it's got answers to many common questions.\n Index, Module Index, or Table of Contents\n Handy when looking for specific information.\n Django Discord Server\n Join the Django Discord Community.\n Official Django Forum\n Join the community on the Django Forum.\n Ticket tracker\n Report bugs with Django or Django documentation in our ticket tracker.\nDownload:\n Offline (Djan",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 1391,
+    "height": 570,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "h3",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 46,
+   "text": "Sponsored Fellow, Diamond and Platinum Members",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1981,
+    "height": 64,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "div×3",
+   "class": "clearfix",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 928,
+   "text": "Sentry\n Monitor your Django Code\nResolve performance bottlenecks and errors using monitoring, replays, logs and Seer an AI agent for debugging.\nJetBrains\n JetBrains delivers intelligent software solutions that make developers more productive by simplifying their challenging tasks, automating the routine, and helping them adopt the best development practices. PyCharm is the Python IDE for Professio",
+   "counts": {
+    "links": 6,
+    "images": 3,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 3,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "JetBrains",
+     "width": 75,
+     "height": 75
+    },
+    {
+     "kind": "img",
+     "alt": "Kraken Tech",
+     "width": 75,
+     "height": 75
+    },
+    {
+     "kind": "img",
+     "alt": "Sentry",
+     "width": 75,
+     "height": 69
+    }
+   ],
+   "coverLabel": "JetBrains",
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 2065,
+    "height": 756,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "div",
+   "class": "clearfix",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 405,
+   "text": "PostHog\n PostHog is an all-in-one developer platform for building successful products. We provide product analytics, web analytics, session replay, error tracking, feature flags, experiments, surveys, LLM observability, data warehouse, CDP, workflows, logs, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.\nBecome a sp",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "PostHog",
+     "width": 75,
+     "height": 69
+    }
+   ],
+   "coverLabel": "PostHog",
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 2821,
+    "height": 318,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "div",
+   "class": "column-container",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 541,
+   "text": "Learn More\n About Django\n Getting Started with Django\n Team Organization\n Django Software Foundation\n Code of Conduct\n Diversity Statement\n Get Involved\n Join a Group\n Contribute\n to Django\n Submit\n a Bug\n Report\n a Security Issue\n Individual membership\n Get Help\n Getting Help FAQ\n Django Discord\n Official Django Forum\n Follow Us\n GitHub\n X\n Fediverse (Mastodon)\n Bluesky\n LinkedIn\n News RSS\n Suppo",
+   "counts": {
+    "links": 26,
+    "images": 0,
+    "headings": 5,
+    "listItems": 26,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 10213,
+    "height": 294,
+    "widthFraction": 0.91,
+    "leftFraction": 0.04,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "div",
+   "class": "container",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 207,
+   "text": "Django\n Hosting by In-kind\n donors\n Design by Threespot\n & andrevv\n © 2005-2026\n Django Software\n Foundation and individual contributors. Django is a\n registered\n trademark of the Django Software Foundation.",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 10537,
+    "height": 111,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

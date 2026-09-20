@@ -1,128 +1,128 @@
 {
-  "updatedAt": "2026-09-20T10:53:25.036Z",
+  "updatedAt": "2026-09-20T11:45:41.459Z",
   "model": "jev-latest",
   "types": "questions",
   "typeCount": 100,
-  "pages": 78,
-  "regions": 3415,
+  "pages": 244,
+  "regions": 8094,
   "flagged": {
-    "lowConfidence": 455,
-    "ties": 213,
-    "either": 475,
+    "lowConfidence": 1039,
+    "ties": 510,
+    "either": 1087,
     "reviewBelow": 0.5,
     "tieMargin": 0.1
   },
   "confidence": {
     "min": 0.14,
-    "p25": 0.64,
-    "median": 0.9,
-    "p75": 0.99,
+    "p25": 0.65,
+    "median": 0.89,
+    "p75": 0.98,
     "max": 1
   },
-  "inputTokens": 15628329,
-  "estimatedCostUsd": 0.656,
+  "inputTokens": 37076073,
+  "estimatedCostUsd": 1.557,
   "byType": {
-    "text": 591,
-    "teaser_card": 410,
-    "heading": 363,
-    "code": 212,
-    "site_footer": 142,
-    "comments": 124,
-    "image": 110,
-    "list": 92,
-    "action_button": 88,
-    "byline": 86,
-    "site_nav": 81,
-    "related": 72,
-    "vote_controls": 58,
-    "summary": 55,
-    "site_header": 53,
-    "title": 43,
-    "trending": 36,
-    "gallery": 35,
-    "cross_promo": 31,
-    "version_switcher": 30,
-    "section_nav": 30,
-    "pagination": 26,
-    "skip_link": 25,
-    "metadata": 24,
-    "callout": 23,
-    "infobox": 23,
-    "quote": 21,
-    "filters": 21,
-    "cta": 20,
-    "ad": 20,
-    "breadcrumbs": 19,
-    "table": 19,
-    "account": 18,
-    "cookie_banner": 18,
-    "legal_notice": 16,
-    "search": 16,
-    "tag_cloud": 15,
-    "subscribe": 15,
-    "feature_grid": 14,
-    "accordion": 14,
-    "tabs": 14,
-    "decoration": 14,
-    "share": 13,
-    "newsletter": 12,
-    "reviews": 12,
-    "toolbar": 12,
-    "page_tools": 11,
-    "external_links": 11,
-    "table_of_contents": 11,
-    "references": 11,
-    "video": 10,
-    "product_card": 10,
-    "steps": 9,
-    "form": 9,
-    "feedback": 9,
-    "embed": 9,
-    "rating": 8,
-    "settings": 8,
-    "author_bio": 8,
-    "paywall": 8,
-    "login_form": 8,
-    "empty_state": 7,
-    "hero": 7,
-    "testimonial": 6,
-    "chat_widget": 5,
-    "badge": 4,
-    "audio": 4,
-    "map": 4,
-    "canvas": 4,
-    "logo_cloud": 4,
+    "text": 1256,
+    "teaser_card": 1172,
+    "heading": 873,
+    "site_footer": 499,
+    "code": 359,
+    "site_nav": 272,
+    "image": 241,
+    "list": 224,
+    "site_header": 198,
+    "comments": 196,
+    "title": 139,
+    "action_button": 136,
+    "related": 130,
+    "byline": 124,
+    "trending": 117,
+    "summary": 111,
+    "section_nav": 106,
+    "ad": 91,
+    "cta": 79,
+    "gallery": 66,
+    "vote_controls": 65,
+    "pagination": 64,
+    "cross_promo": 62,
+    "video": 59,
+    "search": 56,
+    "account": 53,
+    "quote": 50,
+    "breadcrumbs": 50,
+    "cookie_banner": 47,
+    "version_switcher": 46,
+    "subscribe": 45,
+    "table": 45,
+    "filters": 44,
+    "callout": 42,
+    "infobox": 42,
+    "share": 41,
+    "legal_notice": 39,
+    "skip_link": 37,
+    "chart": 36,
+    "tabs": 35,
+    "tag_cloud": 33,
+    "product_card": 33,
+    "newsletter": 32,
+    "feature_grid": 32,
+    "table_of_contents": 32,
+    "steps": 31,
+    "calendar": 30,
+    "hero": 29,
+    "metadata": 28,
+    "accordion": 25,
+    "testimonial": 22,
+    "embed": 22,
+    "external_links": 22,
+    "logo_cloud": 20,
+    "toolbar": 19,
+    "feedback": 16,
+    "decoration": 16,
+    "author_bio": 15,
+    "empty_state": 15,
+    "form": 14,
+    "page_tools": 14,
+    "reviews": 13,
+    "rating": 13,
+    "paywall": 13,
+    "references": 13,
+    "app_nag": 12,
+    "site_notice": 12,
+    "user_card": 12,
+    "sponsored": 12,
+    "settings": 11,
+    "chat_widget": 11,
+    "login_form": 11,
+    "contact_details": 11,
+    "cart": 9,
+    "stats": 8,
+    "poll": 8,
+    "badge": 7,
+    "audio": 7,
+    "reactions": 7,
+    "map": 6,
+    "status_message": 5,
+    "canvas": 5,
+    "definition_list": 5,
+    "transcript": 5,
+    "team": 5,
+    "footnote": 4,
     "buy_box": 4,
-    "stats": 4,
-    "sponsored": 4,
-    "app_nag": 3,
-    "reactions": 3,
-    "user_card": 3,
-    "definition_list": 3,
-    "footnote": 3,
-    "chart": 3,
-    "poll": 2,
+    "sticky_bar": 3,
+    "popup": 3,
+    "pricing_table": 2,
     "progress": 2,
-    "team": 2,
+    "disclosure": 2,
     "correction": 2,
-    "sticky_bar": 1,
-    "contact_details": 1,
-    "site_notice": 1,
-    "status_message": 1,
-    "disclosure": 1,
-    "transcript": 1
+    "content_warning": 2,
+    "download": 1,
+    "checkout": 1
   },
   "unusedTypes": [
-    "content_warning",
     "math",
-    "calendar",
-    "download",
-    "cart",
-    "checkout",
-    "pricing_table",
     "consent_gate",
     "age_gate",
-    "popup",
     "unclear"
   ],
   "application": [
@@ -152,6 +152,16 @@
       "application": 0.85
     },
     {
+      "id": "meta-discourse-org-3",
+      "tier": "relayout",
+      "application": 0.54
+    },
+    {
+      "id": "vercel-com-3",
+      "tier": "relayout",
+      "application": 0.52
+    },
+    {
       "id": "youtube-watch",
       "tier": "skinned",
       "application": 0.5
@@ -162,9 +172,54 @@
       "application": 0.27
     },
     {
+      "id": "coinmarketcap-com-1",
+      "tier": "relayout",
+      "application": 0.2
+    },
+    {
+      "id": "figma-com-1",
+      "tier": "relayout",
+      "application": 0.2
+    },
+    {
+      "id": "goodreads-com-1",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
+      "id": "notion-so-1",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
+      "id": "reuters-com-4",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
+      "id": "weather-com-2",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
+      "id": "wikihow-com-3",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
       "id": "bom-melbourne",
       "tier": "relayout",
       "application": 0.14
+    },
+    {
+      "id": "figma-com-3",
+      "tier": "relayout",
+      "application": 0.14
+    },
+    {
+      "id": "figma-com-4",
+      "tier": "relayout",
+      "application": 0.13
     },
     {
       "id": "govuk-start",
@@ -172,7 +227,32 @@
       "application": 0.13
     },
     {
+      "id": "meta-discourse-org-2",
+      "tier": "relayout",
+      "application": 0.13
+    },
+    {
+      "id": "notion-so-3",
+      "tier": "relayout",
+      "application": 0.13
+    },
+    {
+      "id": "buzzfeed-com-2",
+      "tier": "relayout",
+      "application": 0.12
+    },
+    {
+      "id": "healthdirect-gov-au-1",
+      "tier": "relayout",
+      "application": 0.12
+    },
+    {
       "id": "premierleague-table",
+      "tier": "relayout",
+      "application": 0.12
+    },
+    {
+      "id": "weather-com-1",
       "tier": "relayout",
       "application": 0.12
     },
@@ -182,9 +262,79 @@
       "application": 0.11
     },
     {
+      "id": "buzzfeed-com-4",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "coinmarketcap-com-3",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
       "id": "ebay-item",
       "tier": "relayout",
       "application": 0.11
+    },
+    {
+      "id": "vic-gov-au-3",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "weather-com-4",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "buzzfeed-com-3",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "coinmarketcap-com-2",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "etsy-com-1",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "fbref-com-1",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "figma-com-2",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "meta-discourse-org-1",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "msn-com-1",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "notion-so-2",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "vercel-com-1",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "weather-com-3",
+      "tier": "relayout",
+      "application": 0.1
     },
     {
       "id": "youtube-results",
@@ -192,12 +342,42 @@
       "application": 0.1
     },
     {
+      "id": "coinmarketcap-com-4",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
       "id": "github-issues",
       "tier": "skinned",
       "application": 0.09
     },
     {
+      "id": "lobste-rs-1",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "merriam-webster-com-1",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "superuser-com-4",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
       "id": "ato-index",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "english-stackexchange-com-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "etsy-com-3",
       "tier": "relayout",
       "application": 0.08
     },
@@ -207,9 +387,49 @@
       "application": 0.08
     },
     {
+      "id": "notion-so-4",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "rottentomatoes-com-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "usa-gov-2",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "vic-gov-au-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "vic-gov-au-4",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "wikihow-com-2",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
       "id": "worldometers",
       "tier": "relayout",
       "application": 0.08
+    },
+    {
+      "id": "bestbuy-com-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "etsy-com-4",
+      "tier": "relayout",
+      "application": 0.07
     },
     {
       "id": "hn-front",
@@ -217,7 +437,32 @@
       "application": 0.07
     },
     {
+      "id": "mayoclinic-org-2",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "mayoclinic-org-4",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
       "id": "reddit-listing",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "rottentomatoes-com-2",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "rottentomatoes-com-3",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "rottentomatoes-com-4",
       "tier": "relayout",
       "application": 0.07
     },
@@ -232,6 +477,36 @@
       "application": 0.07
     },
     {
+      "id": "superuser-com-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "usa-gov-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "apnews-com-2",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "bunnings-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "canada-ca-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "healthdirect-gov-au-4",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
       "id": "imdb-name",
       "tier": "relayout",
       "application": 0.06
@@ -242,7 +517,37 @@
       "application": 0.06
     },
     {
+      "id": "taste-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "usa-gov-4",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "vic-gov-au-2",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
       "id": "apple-iphone",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "bestbuy-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "canada-ca-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "canada-ca-4",
       "tier": "relayout",
       "application": 0.05
     },
@@ -267,6 +572,16 @@
       "application": 0.05
     },
     {
+      "id": "english-stackexchange-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "english-stackexchange-com-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "forbes-article",
       "tier": "relayout",
       "application": 0.05
@@ -274,6 +589,11 @@
     {
       "id": "github-repo",
       "tier": "skinned",
+      "application": 0.05
+    },
+    {
+      "id": "goodreads-com-2",
+      "tier": "relayout",
       "application": 0.05
     },
     {
@@ -287,7 +607,57 @@
       "application": 0.05
     },
     {
+      "id": "kottke-org-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "lobste-rs-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "lobste-rs-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "merriam-webster-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "merriam-webster-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "merriam-webster-com-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "react-dev-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "reddit-thread",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "seriouseats-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "seriouseats-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "seriouseats-com-4",
       "tier": "relayout",
       "application": 0.05
     },
@@ -297,7 +667,42 @@
       "application": 0.05
     },
     {
+      "id": "superuser-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "wikihow-com-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "wired-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "wired-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "abc-news-index",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "aljazeera-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "aljazeera-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "apnews-com-1",
       "tier": "relayout",
       "application": 0.04
     },
@@ -312,12 +717,107 @@
       "application": 0.04
     },
     {
+      "id": "britannica-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "britannica-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "britannica-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "britannica-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bunnings-com-au-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bunnings-com-au-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "buzzfeed-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "canada-ca-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "docs-djangoproject-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "english-stackexchange-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "etsy-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "genius-lyrics",
       "tier": "relayout",
       "application": 0.04
     },
     {
+      "id": "goodreads-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "goodreads-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "healthdirect-gov-au-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "jvns-ca-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "lobste-rs-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "mayoclinic-org-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "mayoclinic-org-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "medium-tag",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "meta-discourse-org-4",
       "tier": "relayout",
       "application": 0.04
     },
@@ -337,9 +837,69 @@
       "application": 0.04
     },
     {
+      "id": "react-dev-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "recipetineats-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "recipetineats-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "seriouseats-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "superuser-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "tailwindcss-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "theverge-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "tomshardware-index",
       "tier": "relayout",
       "application": 0.04
+    },
+    {
+      "id": "usa-gov-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "vercel-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "wikihow-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "aljazeera-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "aljazeera-com-4",
+      "tier": "relayout",
+      "application": 0.03
     },
     {
       "id": "allrecipes-banana",
@@ -348,6 +908,16 @@
     },
     {
       "id": "allrecipes-cookies",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "apnews-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "apnews-com-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -372,7 +942,57 @@
       "application": 0.03
     },
     {
+      "id": "bunnings-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "dailymail-co-uk-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "dailymail-co-uk-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "daringfireball-net-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "daringfireball-net-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "daringfireball-net-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "daringfireball-net-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "devto-post",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "doc-rust-lang-org-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "doc-rust-lang-org-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "docs-djangoproject-com-1",
       "tier": "relayout",
       "application": 0.03
     },
@@ -402,6 +1022,36 @@
       "application": 0.03
     },
     {
+      "id": "healthdirect-gov-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "jvns-ca-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "jvns-ca-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "kottke-org-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "kottke-org-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "kottke-org-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "mdn-flexbox",
       "tier": "relayout",
       "application": 0.03
@@ -417,7 +1067,42 @@
       "application": 0.03
     },
     {
+      "id": "news-com-au-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "news-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "news-com-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "nhs-flu",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nodejs-org-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nodejs-org-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nodejs-org-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nodejs-org-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -442,7 +1127,47 @@
       "application": 0.03
     },
     {
+      "id": "react-dev-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "react-dev-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "recipetineats-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "reuters-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "reuters-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "reuters-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "sallys-recipe",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "smh-com-au-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "smh-com-au-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -462,12 +1187,72 @@
       "application": 0.03
     },
     {
+      "id": "tailwindcss-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "tailwindcss-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "tailwindcss-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "taste-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "taste-com-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "taste-com-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theverge-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theverge-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theverge-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "tomshardware-article",
       "tier": "relayout",
       "application": 0.03
     },
     {
+      "id": "vercel-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "wiki-population",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "wired-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "wired-com-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -487,12 +1272,57 @@
       "application": 0.02
     },
     {
+      "id": "dailymail-co-uk-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "dailymail-co-uk-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "doc-rust-lang-org-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "docs-djangoproject-com-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "docs-djangoproject-com-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "jvns-ca-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "news-com-au-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
       "id": "python-json",
       "tier": "relayout",
       "application": 0.02
     },
     {
       "id": "python-tutorial",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "smh-com-au-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "smh-com-au-3",
       "tier": "relayout",
       "application": 0.02
     },

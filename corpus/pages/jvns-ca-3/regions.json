@@ -1,0 +1,866 @@
+{
+ "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+ "title": "Learning a few things about running SQLite",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 3111,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 32,
+   "text": "Skip to main content\nJulia Evans",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 0,
+    "height": 68,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "header-links",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 44,
+   "text": "About\nTalks\nProjects\nMastodon\nBluesky\nGithub",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 16,
+    "height": 120,
+    "widthFraction": 0.06,
+    "leftFraction": 0.63,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "nav",
+   "class": "header-nav",
+   "role": "navigation",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 23,
+   "text": "Favorites\nTIL\nZines\nRSS",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 152,
+    "height": 35,
+    "widthFraction": 0.45,
+    "leftFraction": 0.27,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "class": "entry-title",
+   "landmarks": [
+    "article",
+    "header"
+   ],
+   "textLength": 68,
+   "text": "Learning a few things about running SQLite\n•\n sqlite •\nJuly 17, 2026",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 219,
+    "height": 73,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p×3",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 822,
+   "text": "Hello! I’ve been working on a Django site recently, and I decided to use SQLite\nas the database.\nWhen I was getting started with using SQLite as database for a website I read a bunch\nof blog posts about how it is totally fine to use SQLite in production for a\nsmall site and I think it is totally fine, but what I did not fully appreciate\nis that SQLite is still a database, databases are complicated",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 309,
+    "height": 264,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h3",
+   "id": "analyze-is-apparently-important",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 31,
+   "text": "ANALYZE is apparently important",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 601,
+    "height": 26,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.19,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p×3",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 679,
+   "text": "Today I was running a query (using SQLite’s FTS5 for\nfull-text search) on a table with 4000 rows and it took 5 seconds. That seemed\nwrong to me: computers are fast!\nIt turned out that what I needed to do was to run ANALYZE!\nImmediately the problem query went from taking 5 seconds to like 0.05 seconds\n(or some other number small enough that I didn’t care to investigate further).\nI still don’t know ",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 639,
+    "height": 246,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h3",
+   "id": "cleaning-up-the-database-is-tricky",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 81,
+   "text": "Maybe one day I’ll learn to read a query plan.\ncleaning up the database is tricky",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.42,
+   "geometry": {
+    "top": 898,
+    "height": 72,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 204,
+   "text": "Occasionally I’ve run into situations where I accidentally put a bunch of rows\nin my database that I don’t want to be there (for example completed tasks from\ndjango-tasks-db), and I want to clean them up.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 982,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "ol",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 567,
+   "text": "What’s happened to me a few times in this case is:\nI run some kind of command to clean up the rows\nThe command takes more than 5 seconds, since there are a lot of rows (though I still have some questions about why these DELETE statements are so slow honestly, maybe there’s a bunch of Python code running inside a transaction, I’m not sure)\nOne of the other workers tries to write the database while ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1054,
+    "height": 236,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 520,
+   "text": "My approach so far has been to just do these cleanup operations in small batches\nso that I don’t need to do database queries that take more than 5 seconds to\nrun. This whole experience has given me more of an appreciation for why someone\nmight want to use a “real” database like Postgres which can have more than one\nwriter at the same time though.\nMaybe in the future I’ll just take the site down fo",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1302,
+    "height": 172,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h3",
+   "id": "no-notes-on-performance-of-orm-queries-yet",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 42,
+   "text": "no notes on performance of ORM queries yet",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1502,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 322,
+   "text": "So far I’ve been using Django’s ORM to make any query I want without paying any\nattention at all to query performance and it’s mostly been going okay other\nthan the ANALYZE thing. The database is pretty small (maybe 10000 rows?) and\nI expect it to stay pretty small forever, so I’m hoping that that plan will\nkeep working.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1538,
+    "height": 101,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h3",
+   "id": "backing-up-sqlite",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 17,
+   "text": "backing up sqlite",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1667,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 166,
+   "text": "I’ve done SQLite backups a couple of ways. I don’t think I’ve actually tested\nrestoring from my backups but I do usually try to monitor them with a dead man’s\nswitch.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1703,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 552,
+   "text": "way 1: restic\nsqlite3 /data/calendar.db \"VACUUM INTO '/tmp/calendar.sqlite'\"\ngzip /tmp/calendar.sqlite\n# Upload backup to S3\n# Sometimes the backup gets OOM killed and so it stays locked, do an unlock\nrestic -r s3://s3.amazonaws.com/some_bucket/ unlock\n# Do the backup & prune old backups\nrestic -r s3://s3.amazonaws.com/some_bucket/ backup /tmp/calendar.sqlite.gz\nrestic -r s3://s3.amazonaws.com/som",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1775,
+    "height": 268,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 257,
+   "text": "way 2: litestream\nI started trying out Litestream recently because I felt like doing incremental backups might\nbe more efficient: my restic backups were sometimes getting OOM killed, and I\nwas a bit tired of it. Basically I just write a config file and run:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2055,
+    "height": 92,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 178,
+   "text": "litestream replicate -config litestream.yml\nI set retention: 400h in my config file in an attempt to\nretain some amount of history of the database but I have no idea if it works.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2159,
+    "height": 95,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 196,
+   "text": "I’ve been backing up to AWS, which is always a pain because it’s annoying to\nnavigate the AWS console to generate credentials. Maybe one day I’ll move away\nto some other S3-compatible alternative.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2266,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h3",
+   "id": "you-can-use-multiple-databases",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 30,
+   "text": "you can use multiple databases",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2354,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 386,
+   "text": "My current project only has one database, but one trick I used with\nMess with DNS was to split the tables into three separate\ndatabase files because I didn’t actually need my tables to be in the same db. I think it was helpful.\nMess with DNS has been running on SQLite for 4 years now (since 2022) and it’s\nbeen great, I think the move from Postgres was a great choice for that project.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 2390,
+    "height": 112,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "h3",
+   "id": "that-s-all",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 11,
+   "text": "that’s all!",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2530,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 310,
+   "text": "It’s always kind of fun to see how long it takes me to learn sort of basic\nthings about the technologies I’m using. I think I used SQLite for a web project\nfor the first time in 2022 and I only learned that ANALYZE existed today!\nI imagine in a year or two I’ll be learning about some other very basic feature.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2566,
+    "height": 81,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h3",
+   "id": "some-references",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 15,
+   "text": "some references",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2675,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 61,
+   "text": "Some blog posts I’ve looked at, other than the official docs:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2711,
+    "height": 20,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 98,
+   "text": "The definitive guide to using Django with SQLite in production\na gist on sqlite performance tuning",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 2743,
+    "height": 48,
+    "widthFraction": 0.37,
+    "leftFraction": 0.32,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "footer",
+   "landmarks": [
+    "article",
+    "footer"
+   ],
+   "textLength": 156,
+   "text": "Want a weekly digest of this blog?\n Subscribe\n Moving away from Tailwind, and learning to structure my CSS\n Some more things about Django I've been enjoying",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.69,
+   "geometry": {
+    "top": 2815,
+    "height": 97,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "footer",
+   "role": "contentinfo",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 235,
+   "text": "Archives\n© Julia Evans. \n If you like this, you may like Ulia Ea or, more seriously, this list of blogs I love or some books I've read. \nYou might also like the Recurse Center, my very favorite programming community (my posts about it)",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 2944,
+    "height": 167,
+    "widthFraction": 0.45,
+    "leftFraction": 0.27,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,417 @@
+{
+ "id": "wired-com-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:04:14.736Z",
+ "tier": "relayout",
+ "application": 0.05,
+ "inputTokens": 59972,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "app_nag",
+   "confidence": 0.78,
+   "margin": 0.72,
+   "top": [
+    [
+     "app_nag",
+     0.8
+    ],
+    [
+     "subscribe",
+     0.08
+    ],
+    [
+     "cta",
+     0.06
+    ],
+    [
+     "hero",
+     0.06
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "app_nag"
+  },
+  {
+   "index": 1,
+   "choice": "subscribe",
+   "confidence": 0.74,
+   "margin": 0.52,
+   "top": [
+    [
+     "subscribe",
+     0.75
+    ],
+    [
+     "pricing_table",
+     0.23
+    ],
+    [
+     "buy_box",
+     0.02
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 2,
+   "choice": "heading",
+   "confidence": 0.9,
+   "margin": 0.85,
+   "top": [
+    [
+     "heading",
+     0.91
+    ],
+    [
+     "feature_grid",
+     0.06
+    ],
+    [
+     "subscribe",
+     0.03
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "promo",
+   "final": "heading"
+  },
+  {
+   "index": 3,
+   "choice": "image",
+   "confidence": 0.43,
+   "margin": 0.09,
+   "top": [
+    [
+     "image",
+     0.45
+    ],
+    [
+     "gallery",
+     0.36
+    ],
+    [
+     "feature_grid",
+     0.07
+    ],
+    [
+     "subscribe",
+     0.07
+    ],
+    [
+     "decoration",
+     0.03
+    ]
+   ],
+   "block": "media",
+   "slot": "promo",
+   "final": "image"
+  },
+  {
+   "index": 4,
+   "choice": "subscribe",
+   "confidence": 0.67,
+   "margin": 0.55,
+   "top": [
+    [
+     "subscribe",
+     0.69
+    ],
+    [
+     "teaser_card",
+     0.14
+    ],
+    [
+     "cta",
+     0.06
+    ],
+    [
+     "product_card",
+     0.05
+    ],
+    [
+     "buy_box",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 5,
+   "choice": "feature_grid",
+   "confidence": 0.88,
+   "margin": 0.82,
+   "top": [
+    [
+     "feature_grid",
+     0.89
+    ],
+    [
+     "subscribe",
+     0.07
+    ],
+    [
+     "cross_promo",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "app_nag",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 6,
+   "choice": "cta",
+   "confidence": 0.59,
+   "margin": 0.35,
+   "top": [
+    [
+     "cta",
+     0.61
+    ],
+    [
+     "subscribe",
+     0.26
+    ],
+    [
+     "cross_promo",
+     0.12
+    ],
+    [
+     "ad",
+     0.01
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 7,
+   "choice": "heading",
+   "confidence": 0.74,
+   "margin": 0.53,
+   "top": [
+    [
+     "heading",
+     0.76
+    ],
+    [
+     "accordion",
+     0.23
+    ],
+    [
+     "subscribe",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 8,
+   "choice": "accordion",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "accordion",
+     1
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "legal_notice",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "accordion"
+  },
+  {
+   "index": 9,
+   "choice": "account",
+   "confidence": 0.52,
+   "margin": 0.1,
+   "top": [
+    [
+     "account",
+     0.53
+    ],
+    [
+     "site_footer",
+     0.43
+    ],
+    [
+     "cta",
+     0.04
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "account"
+  },
+  {
+   "index": 10,
+   "choice": "subscribe",
+   "confidence": 0.35,
+   "margin": 0.07,
+   "top": [
+    [
+     "subscribe",
+     0.37
+    ],
+    [
+     "legal_notice",
+     0.3
+    ],
+    [
+     "site_footer",
+     0.21
+    ],
+    [
+     "buy_box",
+     0.05
+    ],
+    [
+     "text",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 11,
+   "choice": "legal_notice",
+   "confidence": 0.61,
+   "margin": 0.32,
+   "top": [
+    [
+     "legal_notice",
+     0.63
+    ],
+    [
+     "site_footer",
+     0.31
+    ],
+    [
+     "subscribe",
+     0.04
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "disclosure",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "legal_notice"
+  },
+  {
+   "index": 12,
+   "choice": "site_footer",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:42.085Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

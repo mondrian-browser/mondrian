@@ -1,0 +1,262 @@
+{
+ "id": "nodejs-org-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:09:59.315Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 36402,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "section_nav",
+   "confidence": 0.83,
+   "margin": 0.77,
+   "top": [
+    [
+     "section_nav",
+     0.85
+    ],
+    [
+     "table_of_contents",
+     0.08
+    ],
+    [
+     "site_nav",
+     0.07
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 1,
+   "choice": "external_links",
+   "confidence": 0.41,
+   "margin": 0.16,
+   "top": [
+    [
+     "external_links",
+     0.43
+    ],
+    [
+     "site_footer",
+     0.27
+    ],
+    [
+     "site_nav",
+     0.1
+    ],
+    [
+     "skip_link",
+     0.08
+    ],
+    [
+     "section_nav",
+     0.06
+    ]
+   ],
+   "block": "links",
+   "slot": "related",
+   "final": "external_links"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.9,
+   "margin": 0.83,
+   "top": [
+    [
+     "title",
+     0.91
+    ],
+    [
+     "site_header",
+     0.08
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "table_of_contents",
+   "confidence": 0.61,
+   "margin": 0.3,
+   "top": [
+    [
+     "table_of_contents",
+     0.62
+    ],
+    [
+     "section_nav",
+     0.32
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 4,
+   "choice": "table_of_contents",
+   "confidence": 0.86,
+   "margin": 0.84,
+   "top": [
+    [
+     "table_of_contents",
+     0.88
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "heading",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 5,
+   "choice": "heading",
+   "confidence": 0.54,
+   "margin": 0.17,
+   "top": [
+    [
+     "heading",
+     0.55
+    ],
+    [
+     "title",
+     0.38
+    ],
+    [
+     "table_of_contents",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "skip_link",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "heading"
+  },
+  {
+   "index": 6,
+   "choice": "list",
+   "confidence": 0.4,
+   "margin": 0.16,
+   "top": [
+    [
+     "list",
+     0.42
+    ],
+    [
+     "table_of_contents",
+     0.26
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "summary",
+     0.06
+    ],
+    [
+     "external_links",
+     0.04
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "list"
+  },
+  {
+   "index": 7,
+   "choice": "section_nav",
+   "confidence": 0.51,
+   "margin": 0.23,
+   "top": [
+    [
+     "section_nav",
+     0.52
+    ],
+    [
+     "table_of_contents",
+     0.29
+    ],
+    [
+     "list",
+     0.19
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.925Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

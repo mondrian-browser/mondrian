@@ -1,0 +1,262 @@
+{
+ "id": "notion-so-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:29:21.684Z",
+ "tier": "relayout",
+ "application": 0.1,
+ "inputTokens": 37079,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "version_switcher",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "version_switcher",
+     0.96
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "settings",
+     0.01
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "nav",
+   "final": "version_switcher"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.96,
+   "margin": 0.93,
+   "top": [
+    [
+     "site_nav",
+     0.96
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "feature_grid",
+     0.01
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.49,
+   "margin": 0.3,
+   "top": [
+    [
+     "title",
+     0.51
+    ],
+    [
+     "hero",
+     0.21
+    ],
+    [
+     "heading",
+     0.16
+    ],
+    [
+     "breadcrumbs",
+     0.04
+    ],
+    [
+     "site_header",
+     0.03
+    ]
+   ],
+   "block": "heading",
+   "slot": "hero",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "hero",
+   "confidence": 0.62,
+   "margin": 0.36,
+   "top": [
+    [
+     "hero",
+     0.63
+    ],
+    [
+     "summary",
+     0.27
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "heading",
+     0.03
+    ],
+    [
+     "teaser_card",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "hero",
+   "final": "hero"
+  },
+  {
+   "index": 4,
+   "choice": "accordion",
+   "confidence": 0.71,
+   "margin": 0.51,
+   "top": [
+    [
+     "accordion",
+     0.72
+    ],
+    [
+     "teaser_card",
+     0.21
+    ],
+    [
+     "text",
+     0.03
+    ],
+    [
+     "embed",
+     0.01
+    ],
+    [
+     "cta",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "accordion"
+  },
+  {
+   "index": 5,
+   "choice": "video",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "video",
+     1
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "video"
+  },
+  {
+   "index": 6,
+   "choice": "teaser_card",
+   "confidence": 0.64,
+   "margin": 0.5,
+   "top": [
+    [
+     "teaser_card",
+     0.65
+    ],
+    [
+     "feature_grid",
+     0.15
+    ],
+    [
+     "text",
+     0.1
+    ],
+    [
+     "product_card",
+     0.07
+    ],
+    [
+     "summary",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 7,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.929Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

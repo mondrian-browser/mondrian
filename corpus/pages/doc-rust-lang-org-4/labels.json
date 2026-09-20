@@ -1,0 +1,262 @@
+{
+ "id": "doc-rust-lang-org-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:07:25.213Z",
+ "tier": "relayout",
+ "application": 0.02,
+ "inputTokens": 36448,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "section_nav",
+   "confidence": 0.9,
+   "margin": 0.82,
+   "top": [
+    [
+     "section_nav",
+     0.91
+    ],
+    [
+     "table_of_contents",
+     0.09
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 1,
+   "choice": "settings",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "settings",
+     0.97
+    ],
+    [
+     "tabs",
+     0.02
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "settings"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "title",
+     0.96
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "section_nav",
+   "confidence": 0.84,
+   "margin": 0.76,
+   "top": [
+    [
+     "section_nav",
+     0.85
+    ],
+    [
+     "pagination",
+     0.09
+    ],
+    [
+     "action_button",
+     0.05
+    ],
+    [
+     "page_tools",
+     0.01
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 4,
+   "choice": "heading",
+   "confidence": 0.54,
+   "margin": 0.12,
+   "top": [
+    [
+     "heading",
+     0.56
+    ],
+    [
+     "title",
+     0.44
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "table",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 5,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 6,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.94,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "summary",
+     0.03
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 7,
+   "choice": "section_nav",
+   "confidence": 0.7,
+   "margin": 0.57,
+   "top": [
+    [
+     "section_nav",
+     0.71
+    ],
+    [
+     "site_nav",
+     0.14
+    ],
+    [
+     "pagination",
+     0.06
+    ],
+    [
+     "table_of_contents",
+     0.04
+    ],
+    [
+     "site_footer",
+     0.03
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.825Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

@@ -1,0 +1,1080 @@
+{
+ "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
+ "title": "Some more things about Django I've been enjoying",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 4608,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 32,
+   "text": "Skip to main content\nJulia Evans",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 0,
+    "height": 68,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "header-links",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 44,
+   "text": "About\nTalks\nProjects\nMastodon\nBluesky\nGithub",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 16,
+    "height": 120,
+    "widthFraction": 0.06,
+    "leftFraction": 0.63,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "nav",
+   "class": "header-nav",
+   "role": "navigation",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 23,
+   "text": "Favorites\nTIL\nZines\nRSS",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 152,
+    "height": 35,
+    "widthFraction": 0.45,
+    "leftFraction": 0.27,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "class": "entry-title",
+   "landmarks": [
+    "article",
+    "header"
+   ],
+   "textLength": 62,
+   "text": "Some more things about Django I've been enjoying\nJuly 21, 2026",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 219,
+    "height": 84,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p×3",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 610,
+   "text": "Hello! I’m on a funny journey right now where I’m trying to learn how to make\nwebsites in a sort of 2010 style, where I have an SQL database and render some\nHTML on the backend.\nIt’s kind of an interesting journey because it doesn’t necessarily feel “easy”\nto me to make websites in this way: I never learned how to do it in the 2000s or\n2010s, and there’s a lot I need to learn.\nSo here are some Dja",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 320,
+    "height": 204,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h3",
+   "id": "why-learn-to-make-websites-like-it-s-2010",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 42,
+   "text": "why learn to make websites like it’s 2010?",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 552,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 69,
+   "text": "Previously the toolkit I felt confident with for making websites was:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 588,
+    "height": 20,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.13,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 224,
+   "text": "static site generators (like for this blog)\nstatic sites that do some fun stuff with Javascript (like this sql playground)\nsimple Vue.js single page apps with either a Lambda as a backend or a Go backend (like mess with dns)",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 620,
+    "height": 96,
+    "widthFraction": 0.37,
+    "leftFraction": 0.32,
+    "pageFraction": 0.13,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 628,
+   "text": "I really liked this frontend-heavy approach for these super simple applications\nbut when I started thinking about making something with a lot of different pages\n(instead of literally just one page), I didn’t feel so excited about the options\nI saw that involved a lot of frontend code. So I figured I’d try the backend.\nWriting a backend-focused site that uses as little JS as possible feels\nthe same",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 728,
+    "height": 172,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h3",
+   "id": "i-m-enjoying-query-builders",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 63,
+   "text": "Now for some thoughts about Django!\nI’m enjoying query builders",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.43,
+   "geometry": {
+    "top": 912,
+    "height": 72,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 242,
+   "text": "I learned that I can define a “query set” class in Django with a bunch of\nmethods with different WHERE statements I might want to use while constructing\na query:\nHere’s how I use it in my view code once I’ve defined what all the methods mean:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 996,
+    "height": 93,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 146,
+   "text": "Events.objects.approved()\n .for_tab(tab)\n .with_festivals(tab_params.festival_slugs)\n .is_free(tab_params.free)\n .is_outdoors(tab_params.outdoors)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1101,
+    "height": 117,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "pre",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 370,
+   "text": "and here’s how I define the methods:\nclass EventQuerySet(SearchableQuerySetMixin, models.QuerySet):\n def approved(self):\n return self.filter(approved_at__isnull=False)\n def future(self):\n today = timezone.localdate()\n return self.filter(end__gt=self._midnight(today))\n def with_tags(self, tags):\n if tags:\n return self.filter(tags__name__in=tags).distinct()\n return self",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1230,
+    "height": 281,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 537,
+   "text": "The syntax for defining the filters isn’t my favourite, but I spend most of my\ntime just using the methods, and it feels super readable and nice to use, and\nit makes me want to look into other query builder libraries in the future. In\nthe past I thought “I know SQL, who needs a query builder?”, but this kind of\nstructure does make it really nice to read.\nI found an example of someone who wrote the",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 1523,
+    "height": 172,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h3",
+   "id": "the-template-filters-are-awesome",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 32,
+   "text": "the template filters are awesome",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1723,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 155,
+   "text": "There are a bunch of little quality of life\nfilters available in Django templates that are super useful for generating HTML. The ones I’ve used so far are:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 1759,
+    "height": 40,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 300,
+   "text": "translating plain text URLs into links, or line breaks into <br> ({{ event.description|urlize|linebreaksbr }} )\nformatting dates ({{ row.date|date:\"M j\" }})\njson_script, which takes a Python dictionary and automatically converts it to JSON and inserts it into the HTML as a <script> tag in a safe way",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1811,
+    "height": 122,
+    "widthFraction": 0.37,
+    "leftFraction": 0.32,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 118,
+   "text": "These are all small things individually but I feel like it makes a big difference somehow to just have them available.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1945,
+    "height": 40,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h3",
+   "id": "querystring-is-cool",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 19,
+   "text": "querystring is cool",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2013,
+    "height": 26,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 256,
+   "text": "I think my favourite template filter is querystring: in this site sometimes\nwe use filters like ?date=2026-06-01 to decide what’s displayed. querystring\nthat will make a link to the same query string with one change, like this to\nlink to the previous date:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2051,
+    "height": 82,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h3",
+   "id": "automatic-database-migrations-are-still-great",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 172,
+   "text": "<a href=\"{% querystring date=nav.prev_date%}\">\nOr to remove the outdoors parameter:\n<a href=\"{% querystring outdoors=None %}\">\nautomatic database migrations are still great",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 2145,
+    "height": 180,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p×2",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 395,
+   "text": "I still really love Django’s automatic database system. It’s amazing to be\nable to just edit a model to add a new field or whatever, and then Django\nautomatically generates the migration.\nSo far we have done 19 database migrations and I think there will probably be\nmore! It makes a huge difference for me to be able to just easily change the\ndatabase as my understanding of the problem changes.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2338,
+    "height": 132,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h3",
+   "id": "i-do-not-want-to-organize-my-code-with-inheritance",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 50,
+   "text": "I do not want to organize my code with inheritance",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2498,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p×4",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 1270,
+   "text": "Django’s documentation sometimes offers the option of using class-based views\nand inheritance to organize the code in your views. For example I have four\nviews that share a lot of code, and I could use inheritance to manage that by\ndefining some kind of parent class and then having my other views inherit from\nit.\nI tried it out and I did not enjoy the experience of using inheritance to\nshare code ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 2534,
+    "height": 397,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h3",
+   "id": "i-don-t-know-how-to-think-about-django-performance",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 50,
+   "text": "I don’t know how to think about Django performance",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2959,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p×3",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 874,
+   "text": "At some point the LLM scrapers discovered our site, and started sending us maybe 10\nrequests per second. I blocked them which is working for now, but it made me\nthink about what the site’s capacity is. I’m used to writing Go backends where\nthe performance situation is pretty straightforward (usually everything is just\nfast enough), and a Django site is very different.\nSome light load testing (with",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 2995,
+    "height": 265,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "ul",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 516,
+   "text": "Some things I haven’t figured out yet:\nIf I have a site that’s going to be getting occasional bursts of traffic, do I want to be able to scale up?\nDo I want to design the site so that more things can be cached? (and do I really have to? caches are so annoying to get right!)\nThe django performance docs say that Jinja is faster for templating, do I want to think about switching templating systems?\nT",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 3272,
+    "height": 216,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h3",
+   "id": "template-caching-might-be-important",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 35,
+   "text": "template caching might be important",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3516,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 262,
+   "text": "I think one thing I’m learning about Django is that because it’s a Framework\n(tm), it’s easy to accidentally misconfigure it. For example, when I was\nthinking about why my site was slow just now, I read the\ndjango performance docs and I noticed\na comment saying:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 3552,
+    "height": 80,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "blockquote",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 148,
+   "text": "Enabling the cached template loader often improves performance drastically, as\nit avoids compiling each template every time it needs to be rendered.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3644,
+    "height": 60,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p×5",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 1489,
+   "text": "When I’d done CPU profiling I’d noticed that it was spending a lot of time\nrendering templates! Maybe this could help me!\nClicking through the link, I saw that the cached template loader was supposed to\nbe on by default, but I’d turned it off by accident while trying to do something\nelse. I think this “I turned off the cached template loader by default”\nthings is an example of how I still find the",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3716,
+    "height": 468,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h3",
+   "id": "that-s-all-for-now",
+   "class": "post-heading",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 19,
+   "text": "that’s all for now!",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4212,
+    "height": 24,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p",
+   "landmarks": [
+    "article",
+    "main"
+   ],
+   "textLength": 140,
+   "text": "I might say more about what I’m enjoying (or having a hard time with!) about\nDjango later. Trying to write some shorter blog posts recently.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4248,
+    "height": 40,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "footer",
+   "landmarks": [
+    "article",
+    "footer"
+   ],
+   "textLength": 89,
+   "text": "Want a weekly digest of this blog?\n Subscribe\n Learning a few things about running SQLite",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.47,
+   "geometry": {
+    "top": 4312,
+    "height": 97,
+    "widthFraction": 0.4,
+    "leftFraction": 0.3,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "footer",
+   "role": "contentinfo",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 235,
+   "text": "Archives\n© Julia Evans. \n If you like this, you may like Ulia Ea or, more seriously, this list of blogs I love or some books I've read. \nYou might also like the Recurse Center, my very favorite programming community (my posts about it)",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 4441,
+    "height": 167,
+    "widthFraction": 0.45,
+    "leftFraction": 0.27,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  }
+ ]
+}

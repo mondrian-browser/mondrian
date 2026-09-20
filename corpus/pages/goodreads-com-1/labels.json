@@ -1,0 +1,355 @@
+{
+ "id": "goodreads-com-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:37:28.087Z",
+ "tier": "relayout",
+ "application": 0.15,
+ "inputTokens": 50706,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "login_form",
+   "confidence": 0.63,
+   "margin": 0.48,
+   "top": [
+    [
+     "login_form",
+     0.64
+    ],
+    [
+     "hero",
+     0.16
+    ],
+    [
+     "site_header",
+     0.12
+    ],
+    [
+     "cta",
+     0.08
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "form",
+   "final": "login_form"
+  },
+  {
+   "index": 1,
+   "choice": "cta",
+   "confidence": 0.35,
+   "margin": 0.03,
+   "top": [
+    [
+     "cta",
+     0.37
+    ],
+    [
+     "feature_grid",
+     0.34
+    ],
+    [
+     "summary",
+     0.09
+    ],
+    [
+     "text",
+     0.04
+    ],
+    [
+     "teaser_card",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 2,
+   "choice": "feature_grid",
+   "confidence": 0.45,
+   "margin": 0.35,
+   "top": [
+    [
+     "feature_grid",
+     0.46
+    ],
+    [
+     "text",
+     0.11
+    ],
+    [
+     "cta",
+     0.09
+    ],
+    [
+     "summary",
+     0.07
+    ],
+    [
+     "callout",
+     0.07
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.49,
+   "margin": 0.21,
+   "top": [
+    [
+     "teaser_card",
+     0.5
+    ],
+    [
+     "related",
+     0.29
+    ],
+    [
+     "tag_cloud",
+     0.12
+    ],
+    [
+     "product_card",
+     0.03
+    ],
+    [
+     "list",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 4,
+   "choice": "heading",
+   "confidence": 0.86,
+   "margin": 0.77,
+   "top": [
+    [
+     "heading",
+     0.87
+    ],
+    [
+     "quote",
+     0.1
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "share",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "tags",
+   "final": "heading"
+  },
+  {
+   "index": 5,
+   "choice": "quote",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "quote",
+     1
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "quote",
+   "slot": "tags",
+   "final": "quote"
+  },
+  {
+   "index": 6,
+   "choice": "tag_cloud",
+   "confidence": 0.41,
+   "margin": 0.22,
+   "top": [
+    [
+     "tag_cloud",
+     0.42
+    ],
+    [
+     "section_nav",
+     0.2
+    ],
+    [
+     "related",
+     0.17
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "site_nav",
+     0.04
+    ]
+   ],
+   "block": "links",
+   "slot": "tags",
+   "final": "tag_cloud"
+  },
+  {
+   "index": 7,
+   "choice": "list",
+   "confidence": 0.42,
+   "margin": 0.06,
+   "top": [
+    [
+     "list",
+     0.44
+    ],
+    [
+     "section_nav",
+     0.38
+    ],
+    [
+     "trending",
+     0.05
+    ],
+    [
+     "teaser_card",
+     0.03
+    ],
+    [
+     "related",
+     0.02
+    ]
+   ],
+   "block": "list",
+   "slot": "tags",
+   "final": "list"
+  },
+  {
+   "index": 8,
+   "choice": "teaser_card",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "teaser_card",
+     0.95
+    ],
+    [
+     "trending",
+     0.03
+    ],
+    [
+     "related",
+     0.02
+    ],
+    [
+     "site_footer",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 9,
+   "choice": "teaser_card",
+   "confidence": 0.65,
+   "margin": 0.56,
+   "top": [
+    [
+     "teaser_card",
+     0.66
+    ],
+    [
+     "trending",
+     0.1
+    ],
+    [
+     "cross_promo",
+     0.08
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "related",
+     0.05
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 10,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "code",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.857Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

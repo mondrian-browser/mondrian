@@ -1,0 +1,285 @@
+{
+ "url": "https://doc.rust-lang.org/book/title-page.html",
+ "title": "The Rust Programming Language - The Rust Programming Language",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ol",
+   "class": "chapter",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 3906,
+   "text": "The Rust Programming Language\nForeword\nIntroduction\n1. Getting Started1.1. Installation\n1.2. Hello, World!\n1.3. Hello, Cargo!\n2. Programming a Guessing Game\n3. Common Programming Concepts3.1. Variables and Mutability\n3.2. Data Types\n3.3. Functions\n3.4. Comments\n3.5. Control Flow\n4. Understanding Ownership4.1. What is Ownership?\n4.2. References and Borrowing\n4.3. The Slice Type\n5. Using Structs to ",
+   "counts": {
+    "links": 111,
+    "images": 0,
+    "headings": 0,
+    "listItems": 111,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 24,
+    "height": 4325,
+    "widthFraction": 0.18,
+    "leftFraction": 0.01,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "left-buttons",
+   "landmarks": [],
+   "textLength": 34,
+   "text": "Auto\n Light\n Rust\n Coal\n Navy\n Ayu",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 13
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 50,
+    "widthFraction": 0.79,
+    "leftFraction": 0.21,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "class": "menu-title",
+   "landmarks": [],
+   "textLength": 29,
+   "text": "The Rust Programming Language",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 50,
+    "widthFraction": 0.61,
+    "leftFraction": 0.32,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "right-buttons",
+   "landmarks": [],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 50,
+    "widthFraction": 0.05,
+    "leftFraction": 0.94,
+    "pageFraction": 0,
+    "aboveFold": true
+   },
+   "coverLabel": "Next chapter"
+  },
+  {
+   "index": 4,
+   "tag": "h1",
+   "id": "the-rust-programming-language",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "The Rust Programming Language",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 72,
+    "height": 43,
+    "widthFraction": 0.52,
+    "leftFraction": 0.35,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 601,
+   "text": "by Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the\nRust Community\nThis version of the text assumes you’re using Rust 1.90.0 (released 2025-09-18)\nor later with edition = \"2024\" in the Cargo.toml file of all projects to\nconfigure them to use Rust 2024 Edition idioms. See the “Installation” section\nof Chapter 1 for instructions on installing or\nupdating Rust, and see Appe",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 137,
+    "height": 197,
+    "widthFraction": 0.52,
+    "leftFraction": 0.35,
+    "pageFraction": 0.17,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 125,
+   "text": "Several community translations are also available.\nThis text is available in paperback and ebook format from No Starch\nPress.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.47,
+   "geometry": {
+    "top": 350,
+    "height": 62,
+    "widthFraction": 0.52,
+    "leftFraction": 0.35,
+    "pageFraction": 0.43,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 184,
+   "text": "🚨 Want a more interactive learning experience? Try out a different version\nof the Rust Book, featuring: quizzes, highlighting, visualizations, and\nmore: https://rust-book.cs.brown.edu",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 433,
+    "height": 174,
+    "widthFraction": 0.79,
+    "leftFraction": 0.21,
+    "pageFraction": 0.53,
+    "aboveFold": true
+   }
+  }
+ ]
+}

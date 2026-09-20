@@ -1,0 +1,69 @@
+{
+ "site": "daringfireball.net",
+ "pages": 4,
+ "pageIds": [
+  "daringfireball-net-1",
+  "daringfireball-net-2",
+  "daringfireball-net-3",
+  "daringfireball-net-4"
+ ],
+ "derivedAt": "2026-09-20T11:36:49.335Z",
+ "blocks": [
+  {
+   "selector": "> p",
+   "type": "text",
+   "n": 51,
+   "purity": 0.96,
+   "pages": 1
+  },
+  {
+   "selector": "> dl.linkedlist",
+   "type": "text",
+   "n": 14,
+   "purity": 0.79,
+   "pages": 3
+  },
+  {
+   "selector": "> blockquote",
+   "type": "quote",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h6",
+   "type": "byline",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> table",
+   "type": "table",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "form > form#SiteSearch",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> p.smallprint",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#Main",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

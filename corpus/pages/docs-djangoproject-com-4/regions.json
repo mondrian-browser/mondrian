@@ -1,0 +1,5737 @@
+{
+ "url": "https://docs.djangoproject.com/en/5.2/topics/db/models/",
+ "title": "Models | Django documentation | Django",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 28776,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "a",
+   "class": "skip-link",
+   "landmarks": [],
+   "textLength": 20,
+   "text": "Skip to main content",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": -90,
+    "height": 65,
+    "widthFraction": 0.18,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "header",
+   "id": "top",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 345,
+   "text": "Django\n The web framework for perfectionists with deadlines.\n Menu\n Main navigation\n Overview\n Download\n Documentation\n News\n Code\n Issues\n Community\n Foundation\n ♥ Donate\n Sponsor\n Search\n Submit\n Toggle theme (current theme: auto)\n Toggle theme (current theme: light)\n Toggle theme (current theme: dark)\n Toggle Light / Dark / Auto color theme",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 0,
+    "height": 82,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "section",
+   "class": "copy-banner",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Documentation",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 82,
+    "height": 73,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "id": "version-switcher",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 199,
+   "text": "Getting Help\n Language: en\n zh-hans\n sv\n pt-br\n pl\n ko\n ja\n it\n id\n fr\n es\n el\n Documentation version:\n 5.2\n dev\n 6.1\n 6.0\n 5.1\n 5.0\n 4.2\n 4.1\n 4.0\n 3.2\n 3.1\n 3.0\n 2.2\n 2.1\n 2.0\n 1.11\n 1.10\n 1.9\n 1.8",
+   "counts": {
+    "links": 31,
+    "images": 0,
+    "headings": 0,
+    "listItems": 33,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.49,
+   "geometry": {
+    "top": 620,
+    "height": 181,
+    "widthFraction": 0.13,
+    "leftFraction": 0.85,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 7,
+   "text": "Models¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 176,
+    "height": 37,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 202,
+   "text": "A model is the single, definitive source of information about your data. It\ncontains the essential fields and behaviors of the data you’re storing.\nGenerally, each model maps to a single database table.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 233,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 240,
+   "text": "The basics:\nEach model is a Python class that subclasses\ndjango.db.models.Model.\nEach attribute of the model represents a database field.\nWith all of this, Django gives you an automatically-generated\ndatabase-access API; see Making queries.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 289,
+    "height": 126,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Quick example¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 429,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 74,
+   "text": "This example model defines a Person, which has a first_name and\nlast_name:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 472,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 147,
+   "text": "from django.db import models\nclass Person(models.Model):\n first_name = models.CharField(max_length=30)\n last_name = models.CharField(max_length=30)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 534,
+    "height": 126,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 205,
+   "text": "first_name and last_name are fields of the model. Each field is\nspecified as a class attribute, and each attribute maps to a database column.\nThe above Person model would create a database table like this:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 701,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 168,
+   "text": "CREATE TABLE myapp_person (\n \"id\" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY,\n \"first_name\" varchar(30) NOT NULL,\n \"last_name\" varchar(30) NOT NULL\n);",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 819,
+    "height": 105,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.03,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 451,
+   "text": "Some technical notes:\nThe name of the table, myapp_person, is automatically derived from\nsome model metadata but can be overridden. See Table names for more\ndetails.\nAn id field is added automatically, but this behavior can be\noverridden. See Automatic primary key fields.\nThe CREATE TABLE SQL in this example is formatted using PostgreSQL\nsyntax, but it’s worth noting Django uses SQL tailored to th",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 965,
+    "height": 168,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.03,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "section",
+   "id": "s-using-models",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 649,
+   "text": "Using models¶\nOnce you have defined your models, you need to tell Django you’re going to use\nthose models. Do this by editing your settings file and changing the\nINSTALLED_APPS setting to add the name of the module that contains\nyour models.py.\nFor example, if the models for your application live in the module\nmyapp.models (the package structure that is created for an\napplication by the manage.py ",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 1147,
+    "height": 370,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.04,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 7,
+   "text": "Fields¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 1531,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 261,
+   "text": "The most important part of a model – and the only required part of a model –\nis the list of database fields it defines. Fields are specified by class\nattributes. Be careful not to choose field names that conflict with the\nmodels API like clean, save, or\ndelete.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1574,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 407,
+   "text": "Example:\nfrom django.db import models\nclass Musician(models.Model):\n first_name = models.CharField(max_length=50)\n last_name = models.CharField(max_length=50)\n instrument = models.CharField(max_length=100)\nclass Album(models.Model):\n artist = models.ForeignKey(Musician, on_delete=models.CASCADE)\n name = models.CharField(max_length=100)\n release_date = models.DateField()\n num_stars = models.Integer",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1630,
+    "height": 356,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "section",
+   "id": "s-field-types",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 680,
+   "text": "Field types¶\nEach field in your model should be an instance of the appropriate\nField class. Django uses the field class types to\ndetermine a few things:\nThe column type, which tells the database what kind of data to store (e.g.\nINTEGER, VARCHAR, TEXT).\nThe default HTML widget to use when rendering a form\nfield (e.g. <input type=\"text\">, <select>).\nThe minimal validation requirements, used in Djang",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 1,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 2027,
+    "height": 241,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Field options¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 2282,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 439,
+   "text": "Each field takes a certain set of field-specific arguments (documented in the\nmodel field reference). For example,\nCharField (and its subclasses) require a\nmax_length argument which specifies the size\nof the VARCHAR database field used to store the data.\nThere’s also a set of common arguments available to all field types. All are\noptional. They’re fully explained in the reference, but here’s a qui",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 2320,
+    "height": 98,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "dl",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 3517,
+   "text": "nullIf True, Django will store empty values as NULL in the database.\nDefault is False.\nblankIf True, the field is allowed to be blank. Default is False.\nNote that this is different than null.\nnull is purely database-related, whereas\nblank is validation-related. If a field has\nblank=True, form validation will\nallow entry of an empty value. If a field has blank=False, the field will be required.\ncho",
+   "counts": {
+    "links": 22,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 19,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 2438,
+    "height": 2467,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 144,
+   "text": "Again, these are just short descriptions of the most common field options. Full\ndetails can be found in the common model field option reference.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 4919,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "section",
+   "id": "s-automatic-primary-key-fields",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 570,
+   "text": "Automatic primary key fields¶\nBy default, Django gives each model an auto-incrementing primary key with the\ntype specified per app in AppConfig.default_auto_field or globally in the\nDEFAULT_AUTO_FIELD setting. For example:\nid = models.BigAutoField(primary_key=True)\nIf you’d like to specify a custom primary key, specify\nprimary_key=True on one of your fields. If Django\nsees you’ve explicitly set Fi",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 4975,
+    "height": 260,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 20,
+   "text": "Verbose field names¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 5249,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 273,
+   "text": "Each field type, except for ForeignKey,\nManyToManyField and\nOneToOneField, takes an optional first positional\nargument – a verbose name. If the verbose name isn’t given, Django will\nautomatically create it using the field’s attribute name, converting underscores\nto spaces.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 5287,
+    "height": 63,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 127,
+   "text": "In this example, the verbose name is \"person's first name\":\nfirst_name = models.CharField(\"person's first name\", max_length=30)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5364,
+    "height": 83,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 231,
+   "text": "In this example, the verbose name is \"first name\":\nfirst_name = models.CharField(max_length=30)\nForeignKey,\nManyToManyField and\nOneToOneField require the first argument to be a\nmodel class, so use the verbose_name keyword argument:",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 5488,
+    "height": 166,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 260,
+   "text": "poll = models.ForeignKey(\n Poll,\n on_delete=models.CASCADE,\n verbose_name=\"the related poll\",\n)\nsites = models.ManyToManyField(Site, verbose_name=\"list of sites\")\nplace = models.OneToOneField(\n Place,\n on_delete=models.CASCADE,\n verbose_name=\"related place\",\n)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5695,
+    "height": 231,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 146,
+   "text": "The convention is not to capitalize the first letter of the\nverbose_name. Django will automatically capitalize the first\nletter where it needs to.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 5967,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Relationships¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 6023,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 207,
+   "text": "Clearly, the power of relational databases lies in relating tables to each\nother. Django offers ways to define the three most common types of database\nrelationships: many-to-one, many-to-many and one-to-one.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6061,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 26,
+   "text": "Many-to-one relationships¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 6117,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 414,
+   "text": "To define a many-to-one relationship, use django.db.models.ForeignKey.\nYou use it just like any other Field type: by\nincluding it as a class attribute of your model.\nForeignKey requires a positional argument: the class\nto which the model is related.\nFor example, if a Car model has a Manufacturer – that is, a\nManufacturer makes multiple cars but each Car only has one\nManufacturer – use the followin",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 6150,
+    "height": 133,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 181,
+   "text": "from django.db import models\nclass Manufacturer(models.Model):\n # ...\n pass\nclass Car(models.Model):\n manufacturer = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)\n # ...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6324,
+    "height": 231,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 383,
+   "text": "You can also create recursive relationships (an\nobject with a many-to-one relationship to itself) and relationships to\nmodels not yet defined; see the model field\nreference for details.\nIt’s suggested, but not required, that the name of a\nForeignKey field (manufacturer in the example\nabove) be the name of the model, lowercase. You can call the field whatever you\nwant. For example:",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 6596,
+    "height": 98,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 120,
+   "text": "class Car(models.Model):\n company_that_makes_it = models.ForeignKey(\n Manufacturer,\n on_delete=models.CASCADE,\n )\n # ...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6735,
+    "height": 126,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "div",
+   "class": "admonition seealso",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 356,
+   "text": "See also\nForeignKey fields accept a number of extra\narguments which are explained in the model field reference. These options help define how the relationship\nshould work; all are optional.\nFor details on accessing backwards-related objects, see the\nFollowing relationships backward example.\nFor sample code, see the Many-to-one relationship model example.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 6902,
+    "height": 193,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "Many-to-many relationships¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 7120,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 415,
+   "text": "To define a many-to-many relationship, use\nManyToManyField. You use it just like any other\nField type: by including it as a class attribute of\nyour model.\nManyToManyField requires a positional argument: the\nclass to which the model is related.\nFor example, if a Pizza has multiple Topping objects – that is, a\nTopping can be on multiple pizzas and each Pizza has multiple toppings\n– here’s how you’d ",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 7153,
+    "height": 133,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 148,
+   "text": "from django.db import models\nclass Topping(models.Model):\n # ...\n pass\nclass Pizza(models.Model):\n # ...\n toppings = models.ManyToManyField(Topping)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7327,
+    "height": 231,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 817,
+   "text": "As with ForeignKey, you can also create\nrecursive relationships (an object with a\nmany-to-many relationship to itself) and relationships to models not yet\ndefined.\nIt’s suggested, but not required, that the name of a\nManyToManyField (toppings in the example above)\nbe a plural describing the set of related model objects.\nIt doesn’t matter which model has the\nManyToManyField, but you should only put",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 7599,
+    "height": 231,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "class": "admonition seealso",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 76,
+   "text": "See also\nSee the Many-to-many relationship model example for a full example.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.51,
+   "geometry": {
+    "top": 7855,
+    "height": 108,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 190,
+   "text": "ManyToManyField fields also accept a number of\nextra arguments which are explained in the model field reference. These options help define how the relationship\nshould work; all are optional.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 7987,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 43,
+   "text": "Extra fields on many-to-many relationships¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 8043,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1040,
+   "text": "When you’re only dealing with many-to-many relationships such as mixing and\nmatching pizzas and toppings, a standard\nManyToManyField is all you need. However, sometimes\nyou may need to associate data with the relationship between two models.\nFor example, consider the case of an application tracking the musical groups\nwhich musicians belong to. There is a many-to-many relationship between a person\n",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 8076,
+    "height": 259,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 660,
+   "text": "from django.db import models\nclass Person(models.Model):\n name = models.CharField(max_length=128)\n def __str__(self):\n return self.name\nclass Group(models.Model):\n name = models.CharField(max_length=128)\n members = models.ManyToManyField(Person, through=\"Membership\")\n def __str__(self):\n return self.name\nclass Membership(models.Model):\n person = models.ForeignKey(Person, on_delete=models.CASCADE)\n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8376,
+    "height": 630,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 412,
+   "text": "When you set up the intermediary model, you explicitly specify foreign\nkeys to the models that are involved in the many-to-many relationship. This\nexplicit declaration defines how the two models are related.\nIf you don’t want multiple associations between the same instances, add a\nUniqueConstraint including the from and to\nfields. Django’s automatically generated many-to-many tables include such a",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 9047,
+    "height": 98,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1116,
+   "text": "There are a few restrictions on the intermediate model:\nYour intermediate model must contain one - and only one - foreign key\nto the source model (this would be Group in our example), or you must\nexplicitly specify the foreign keys Django should use for the relationship\nusing ManyToManyField.through_fields.\nIf you have more than one foreign key and through_fields is not\nspecified, a validation err",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 9159,
+    "height": 259,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 229,
+   "text": "Now that you have set up your ManyToManyField to use\nyour intermediary model (Membership, in this case), you’re ready to start\ncreating some many-to-many relationships. You do this by creating instances of\nthe intermediate model:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 9432,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 684,
+   "text": ">>> ringo = Person.objects.create(name=\"Ringo Starr\")\n>>> paul = Person.objects.create(name=\"Paul McCartney\")\n>>> beatles = Group.objects.create(name=\"The Beatles\")\n>>> m1 = Membership(\n... person=ringo,\n... group=beatles,\n... date_joined=date(1962, 8, 16),\n... invite_reason=\"Needed a new drummer.\",\n... )\n>>> m1.save()\n>>> beatles.members.all()\n<QuerySet [<Person: Ringo Starr>]>\n>>> ringo.group_se",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9515,
+    "height": 462,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 132,
+   "text": "You can also use add(),\ncreate(), or\nset() to create\nrelationships, as long as you specify through_defaults for any required\nfields:",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 10018,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 309,
+   "text": ">>> beatles.members.add(john, through_defaults={\"date_joined\": date(1960, 8, 1)})\n>>> beatles.members.create(\n... name=\"George Harrison\", through_defaults={\"date_joined\": date(1960, 8, 1)}\n... )\n>>> beatles.members.set(\n... [john, paul, ringo, george], through_defaults={\"date_joined\": date(1960, 8, 1)}\n... )",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10101,
+    "height": 147,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 280,
+   "text": "You may prefer to create instances of the intermediate model directly.\nIf the custom through table defined by the intermediate model does not enforce\nuniqueness on the (model1, model2) pair, allowing multiple values, the\nremove() call will\nremove all intermediate model instances:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 10289,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 458,
+   "text": ">>> Membership.objects.create(\n... person=ringo,\n... group=beatles,\n... date_joined=date(1968, 9, 4),\n... invite_reason=\"You've been gone for a month and we miss you.\",\n... )\n>>> beatles.members.all()\n<QuerySet [<Person: Ringo Starr>, <Person: Paul McCartney>, <Person: Ringo Starr>]>\n>>> # This deletes both of the intermediate model instances for Ringo Starr\n>>> beatles.members.remove(ringo)\n>>> b",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10407,
+    "height": 252,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 88,
+   "text": "The clear()\nmethod can be used to remove all many-to-many relationships for an instance:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 10700,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 161,
+   "text": ">>> # Beatles have broken up\n>>> beatles.members.clear()\n>>> # Note that this deletes the intermediate model instances\n>>> Membership.objects.all()\n<QuerySet []>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10762,
+    "height": 105,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 198,
+   "text": "Once you have established the many-to-many relationships, you can issue\nqueries. Just as with normal many-to-many relationships, you can query using\nthe attributes of the many-to-many-related model:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10908,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 158,
+   "text": "# Find all the groups with a member whose name starts with 'Paul'\n>>> Group.objects.filter(members__name__startswith=\"Paul\")\n<QuerySet [<Group: The Beatles>]>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10991,
+    "height": 63,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 77,
+   "text": "As you are using an intermediate model, you can also query on its attributes:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11095,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 209,
+   "text": "# Find all the members of the Beatles that joined after 1 Jan 1961\n>>> Person.objects.filter(\n... group__name=\"The Beatles\", membership__date_joined__gt=date(1961, 1, 1)\n... )\n<QuerySet [<Person: Ringo Starr]>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11157,
+    "height": 105,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 105,
+   "text": "If you need to access a membership’s information you may do so by directly\nquerying the Membership model:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11303,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 196,
+   "text": ">>> ringos_membership = Membership.objects.get(group=beatles, person=ringo)\n>>> ringos_membership.date_joined\ndatetime.date(1962, 8, 16)\n>>> ringos_membership.invite_reason\n'Needed a new drummer.'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11365,
+    "height": 105,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 117,
+   "text": "Another way to access the same information is by querying the\nmany-to-many reverse relationship from a\nPerson object:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 11511,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 184,
+   "text": ">>> ringos_membership = ringo.membership_set.get(group=beatles)\n>>> ringos_membership.date_joined\ndatetime.date(1962, 8, 16)\n>>> ringos_membership.invite_reason\n'Needed a new drummer.'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11573,
+    "height": 105,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 25,
+   "text": "One-to-one relationships¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 11719,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p×5",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 967,
+   "text": "To define a one-to-one relationship, use\nOneToOneField. You use it just like any other\nField type: by including it as a class attribute of your model.\nThis is most useful on the primary key of an object when that object “extends”\nanother object in some way.\nOneToOneField requires a positional argument: the\nclass to which the model is related.\nFor example, if you were building a database of “places",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 11751,
+    "height": 245,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "div",
+   "class": "admonition seealso",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 74,
+   "text": "See also\nSee the One-to-one relationship model example for a full example.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.5,
+   "geometry": {
+    "top": 12021,
+    "height": 108,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 331,
+   "text": "OneToOneField fields also accept an optional\nparent_link argument.\nOneToOneField classes used to automatically become\nthe primary key on a model. This is no longer true (although you can manually\npass in the primary_key argument if you like).\nThus, it’s now possible to have multiple fields of type\nOneToOneField on a single model.",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 12154,
+    "height": 98,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 20,
+   "text": "Models across files¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 12266,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 216,
+   "text": "It’s perfectly OK to relate a model to one from another app. To do this, import\nthe related model at the top of the file where your model is defined. Then,\nrefer to the other model class wherever needed. For example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12304,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 201,
+   "text": "from django.db import models\nfrom geography.models import ZipCode\nclass Restaurant(models.Model):\n # ...\n zip_code = models.ForeignKey(\n ZipCode,\n on_delete=models.SET_NULL,\n blank=True,\n null=True,\n )",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12387,
+    "height": 252,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 193,
+   "text": "Alternatively, you can use a lazy reference to the related model, specified as\na string in the format \"app_label.ModelName\". This does not require the\nrelated model to be imported. For example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12680,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 217,
+   "text": "from django.db import models\nclass Restaurant(models.Model):\n # ...\n zip_code = models.ForeignKey(\n \"geography.ZipCode\",\n on_delete=models.SET_NULL,\n blank=True,\n null=True,\n )\nSee lazy relationships for more details.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 12763,
+    "height": 293,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "Field name restrictions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 13070,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "ol",
+   "class": "arabic",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 639,
+   "text": "Django places some restrictions on model field names:\nA field name cannot be a Python reserved word, because that would result\nin a Python syntax error. For example:\nclass Example(models.Model):\n pass = models.IntegerField() # 'pass' is a reserved word!\nA field name cannot contain more than one underscore in a row, due to\nthe way Django’s query lookup syntax works. For example:\nclass Example(model",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13108,
+    "height": 402,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 402,
+   "text": "These limitations can be worked around, though, because your field name doesn’t\nnecessarily have to match your database column name. See the\ndb_column option.\nSQL reserved words, such as join, where or select, are allowed as\nmodel field names, because Django escapes all database table names and column\nnames in every underlying SQL query. It uses the quoting syntax of your\nparticular database engin",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 13524,
+    "height": 98,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "section",
+   "id": "s-custom-field-types",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 297,
+   "text": "Custom field types¶\nIf one of the existing model fields cannot be used to fit your purposes, or if\nyou wish to take advantage of some less common database column types, you can\ncreate your own field class. Full coverage of creating your own fields is\nprovided in How to create custom model fields.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 13636,
+    "height": 101,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "section×2",
+   "id": "s-meta-options",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 967,
+   "text": "Meta options¶\nGive your model metadata by using an inner class Meta, like so:\nfrom django.db import models\nclass Ox(models.Model):\n horn_length = models.IntegerField()\n class Meta:\n ordering = [\"horn_length\"]\n verbose_name_plural = \"oxen\"\nModel metadata is “anything that’s not a field”, such as ordering options\n(ordering), database table name (db_table), or\nhuman-readable singular and plural names",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 13751,
+    "height": 594,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Model methods¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 14359,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 292,
+   "text": "Define custom methods on a model to add custom “row-level” functionality to your\nobjects. Whereas Manager methods are intended to do\n“table-wide” things, model methods should act on a particular model instance.\nThis is a valuable technique for keeping business logic in one place – the\nmodel.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 14402,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 608,
+   "text": "For example, this model has a few custom methods:\nfrom django.db import models\nclass Person(models.Model):\n first_name = models.CharField(max_length=50)\n last_name = models.CharField(max_length=50)\n birth_date = models.DateField()\n def baby_boomer_status(self):\n \"Returns the person's baby-boomer status.\"\n import datetime\n if self.birth_date < datetime.date(1945, 8, 1):\n return \"Pre-boomer\"\n elif s",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14493,
+    "height": 545,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 288,
+   "text": "The last method in this example is a property.\nThe model instance reference has a complete list\nof methods automatically given to each model.\nYou can override most of these – see overriding predefined model methods,\nbelow – but there are a couple that you’ll almost always want to define:",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.38,
+   "geometry": {
+    "top": 15079,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "dl",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 636,
+   "text": "__str__()A Python “magic method” that returns a string representation of any\nobject. This is what Python and Django will use whenever a model\ninstance needs to be coerced and displayed as a plain string. Most\nnotably, this happens when you display an object in an interactive\nconsole or in the admin.\nYou’ll always want to define this method; the default isn’t very helpful\nat all.\nget_absolute_url()",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 15176,
+    "height": 262,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 36,
+   "text": "Overriding predefined model methods¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 15452,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 467,
+   "text": "There’s another set of model methods that\nencapsulate a bunch of database behavior that you’ll want to customize. In\nparticular you’ll often want to change the way save() and\ndelete() work.\nYou’re free to override these methods (and any other model method) to alter\nbehavior.\nA classic use-case for overriding the built-in methods is if you want something\nto happen whenever you save an object. For e",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 15490,
+    "height": 133,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 246,
+   "text": "from django.db import models\nclass Blog(models.Model):\n name = models.CharField(max_length=100)\n tagline = models.TextField()\n def save(self, **kwargs):\n do_something()\n super().save(**kwargs) # Call the \"real\" save() method.\n do_something_else()",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15664,
+    "height": 231,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 327,
+   "text": "You can also prevent saving:\nfrom django.db import models\nclass Blog(models.Model):\n name = models.CharField(max_length=100)\n tagline = models.TextField()\n def save(self, **kwargs):\n if self.name == \"Yoko Ono's blog\":\n return # Yoko shall never have her own blog!\n else:\n super().save(**kwargs) # Call the \"real\" save() method.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15936,
+    "height": 314,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 894,
+   "text": "It’s important to remember to call the superclass method – that’s\nthat super().save(**kwargs) business – to ensure that the object still\ngets saved into the database. If you forget to call the superclass method, the\ndefault behavior won’t happen and the database won’t get touched.\nIt’s also important that you pass through the arguments that can be\npassed to the model method – that’s what the **kwa",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 16291,
+    "height": 217,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 396,
+   "text": "from django.db import models\nfrom django.utils.text import slugify\nclass Blog(models.Model):\n name = models.CharField(max_length=100)\n slug = models.TextField()\n def save(self, **kwargs):\n self.slug = slugify(self.name)\n if (\n update_fields := kwargs.get(\"update_fields\")\n ) is not None and \"name\" in update_fields:\n kwargs[\"update_fields\"] = {\"slug\"}.union(update_fields)\n super().save(**kwargs)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16549,
+    "height": 315,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "div",
+   "class": "admonition-overridden-model-methods-are-not-called-on-bulk-operations admonition",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 508,
+   "text": "See Specifying which fields to save for more details.\nOverridden model methods are not called on bulk operations\nNote that the delete() method for an object is not\nnecessarily called when deleting objects in bulk using a\nQuerySet or as a result of a cascading\ndelete. To ensure customized\ndelete logic gets executed, you can use\npre_delete and/or\npost_delete signals.\nUnfortunately, there isn’t a wor",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 16905,
+    "height": 249,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "section",
+   "id": "s-executing-custom-sql",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 195,
+   "text": "Executing custom SQL¶\nAnother common pattern is writing custom SQL statements in model methods and\nmodule-level methods. For more details on using raw SQL, see the documentation\non using raw SQL.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 17179,
+    "height": 80,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "Model inheritance¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 17273,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 556,
+   "text": "Model inheritance in Django works almost identically to the way normal\nclass inheritance works in Python, but the basics at the beginning of the page\nshould still be followed. That means the base class should subclass\ndjango.db.models.Model.\nThe only decision you have to make is whether you want the parent models to be\nmodels in their own right (with their own database tables), or if the parents\na",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 17316,
+    "height": 133,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "ol",
+   "class": "arabic simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 567,
+   "text": "Often, you will just want to use the parent class to hold information that\nyou don’t want to have to type out for each child model. This class isn’t\ngoing to ever be used in isolation, so Abstract base classes are\nwhat you’re after.\nIf you’re subclassing an existing model (perhaps something from another\napplication entirely) and want each model to have its own database table,\nMulti-table inheritan",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 17463,
+    "height": 154,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "Abstract base classes¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 17631,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 351,
+   "text": "Abstract base classes are useful when you want to put some common\ninformation into a number of other models. You write your base class\nand put abstract=True in the Meta\nclass. This model will then not be used to create any database\ntable. Instead, when it is used as a base class for other models, its\nfields will be added to those of the child class.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 17669,
+    "height": 63,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 252,
+   "text": "An example:\nfrom django.db import models\nclass CommonInfo(models.Model):\n name = models.CharField(max_length=100)\n age = models.PositiveIntegerField()\n class Meta:\n abstract = True\nclass Student(CommonInfo):\n home_group = models.CharField(max_length=5)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17746,
+    "height": 335,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 617,
+   "text": "The Student model will have three fields: name, age and\nhome_group. The CommonInfo model cannot be used as a normal Django\nmodel, since it is an abstract base class. It does not generate a database\ntable or have a manager, and cannot be instantiated or saved directly.\nFields inherited from abstract base classes can be overridden with another\nfield or value, or be removed with None.\nFor many uses, ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 18122,
+    "height": 154,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 17,
+   "text": "Meta inheritance¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 18290,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 307,
+   "text": "When an abstract base class is created, Django makes any Meta\ninner class you declared in the base class available as an\nattribute. If a child class does not declare its own Meta\nclass, it will inherit the parent’s Meta. If the child wants to\nextend the parent’s Meta class, it can subclass it. For example:",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 18322,
+    "height": 63,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 209,
+   "text": "from django.db import models\nclass CommonInfo(models.Model):\n # ...\n class Meta:\n abstract = True\n ordering = [\"name\"]\nclass Student(CommonInfo):\n # ...\n class Meta(CommonInfo.Meta):\n db_table = \"student_info\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 18426,
+    "height": 294,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 970,
+   "text": "Django does make one adjustment to the Meta class of an\nabstract base class: before installing the Meta\nattribute, it sets abstract=False. This means that children of abstract\nbase classes don’t automatically become abstract classes themselves. To make\nan abstract base class that inherits from another abstract base class, you need\nto explicitly set abstract=True on the child.\nSome attributes won’t",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 18761,
+    "height": 238,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 402,
+   "text": "from django.db import models\nclass CommonInfo(models.Model):\n name = models.CharField(max_length=100)\n age = models.PositiveIntegerField()\n class Meta:\n abstract = True\n ordering = [\"name\"]\nclass Unmanaged(models.Model):\n class Meta:\n abstract = True\n managed = False\nclass Student(CommonInfo, Unmanaged):\n home_group = models.CharField(max_length=5)\n class Meta(CommonInfo.Meta, Unmanaged.Meta):\n pa",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 19040,
+    "height": 483,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 52,
+   "text": "Be careful with related_name and related_query_name¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 19564,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 591,
+   "text": "If you are using related_name or\nrelated_query_name on a ForeignKey or\nManyToManyField, you must always specify a unique reverse name and query\nname for the field. This would normally cause a problem in abstract base\nclasses, since the fields on this class are included into each of the child\nclasses, with exactly the same values for the attributes (including\nrelated_name and\nrelated_query_name) ea",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 19597,
+    "height": 140,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 359,
+   "text": "'%(class)s' is replaced by the lowercased name of the child class that\nthe field is used in.\n'%(app_label)s' is replaced by the lowercased name of the app the child\nclass is contained within. Each installed application name must be unique and\nthe model class names within each app must also be unique, therefore the\nresulting name will end up being different.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 19751,
+    "height": 98,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 324,
+   "text": "For example, given an app common/models.py:\nfrom django.db import models\nclass Base(models.Model):\n m2m = models.ManyToManyField(\n OtherModel,\n related_name=\"%(app_label)s_%(class)s_related\",\n related_query_name=\"%(app_label)s_%(class)ss\",\n )\n class Meta:\n abstract = True\nclass ChildA(Base):\n pass\nclass ChildB(Base):\n pass",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 19863,
+    "height": 482,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 95,
+   "text": "Along with another app rare/models.py:\nfrom common.models import Base\nclass ChildB(Base):\n pass",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 20386,
+    "height": 167,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1054,
+   "text": "The reverse name of the common.ChildA.m2m field will be\ncommon_childa_related and the reverse query name will be common_childas.\nThe reverse name of the common.ChildB.m2m field will be\ncommon_childb_related and the reverse query name will be\ncommon_childbs. Finally, the reverse name of the rare.ChildB.m2m field\nwill be rare_childb_related and the reverse query name will be\nrare_childbs. It’s up to",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 20594,
+    "height": 224,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 109,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "Multi-table inheritance¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 20832,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 110,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 365,
+   "text": "The second type of model inheritance supported by Django is when each model in\nthe hierarchy is a model all by itself. Each model corresponds to its own\ndatabase table and can be queried and created individually. The inheritance\nrelationship introduces links between the child model and each of its parents\n(via an automatically-created OneToOneField).\nFor example:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 20870,
+    "height": 63,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 111,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 268,
+   "text": "from django.db import models\nclass Place(models.Model):\n name = models.CharField(max_length=50)\n address = models.CharField(max_length=80)\nclass Restaurant(Place):\n serves_hot_dogs = models.BooleanField(default=False)\n serves_pizza = models.BooleanField(default=False)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 20974,
+    "height": 231,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 112,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 153,
+   "text": "All of the fields of Place will also be available in Restaurant,\nalthough the data will reside in a different database table. So these are both\npossible:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 21246,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 113,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 92,
+   "text": ">>> Place.objects.filter(name=\"Bob's Cafe\")\n>>> Restaurant.objects.filter(name=\"Bob's Cafe\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 21329,
+    "height": 42,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 114,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 155,
+   "text": "If you have a Place that is also a Restaurant, you can get from the\nPlace object to the Restaurant object by using the lowercase version of\nthe model name:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 21412,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 115,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 130,
+   "text": ">>> p = Place.objects.get(id=12)\n# If p is a Restaurant object, this will give the child class:\n>>> p.restaurant\n<Restaurant: ...>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 21495,
+    "height": 84,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 116,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 312,
+   "text": "However, if p in the above example was not a Restaurant (it had been\ncreated directly as a Place object or was the parent of some other class),\nreferring to p.restaurant would raise a Restaurant.DoesNotExist\nexception.\nThe automatically-created OneToOneField on\nRestaurant that links it to Place looks like this:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 21620,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 117,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 108,
+   "text": "place_ptr = models.OneToOneField(\n Place,\n on_delete=models.CASCADE,\n parent_link=True,\n primary_key=True,\n)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 21738,
+    "height": 126,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 118,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 100,
+   "text": "You can override that field by declaring your own\nOneToOneField with parent_link=True on Restaurant.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 21905,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 119,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "Meta and multi-table inheritance¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 21940,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 120,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 771,
+   "text": "In the multi-table inheritance situation, it doesn’t make sense for a child\nclass to inherit from its parent’s Meta class. All the Meta options\nhave already been applied to the parent class and applying them again would\nnormally only lead to contradictory behavior (this is in contrast with the\nabstract base class case, where the base class doesn’t exist in its own\nright).\nSo a child model does not",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 21973,
+    "height": 175,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 121,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 100,
+   "text": "class ChildModel(ParentModel):\n # ...\n class Meta:\n # Remove parent's ordering effect\n ordering = []",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 22189,
+    "height": 105,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 122,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 34,
+   "text": "Inheritance and reverse relations¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 22335,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 123,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 592,
+   "text": "Because multi-table inheritance uses an implicit\nOneToOneField to link the child and\nthe parent, it’s possible to move from the parent down to the child,\nas in the above example. However, this uses up the name that is the\ndefault related_name value for\nForeignKey and\nManyToManyField relations. If you\nare putting those types of relations on a subclass of the parent model, you\nmust specify the relat",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 22367,
+    "height": 119,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 124,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 65,
+   "text": "class Supplier(Place):\n customers = models.ManyToManyField(Place)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 22527,
+    "height": 42,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 125,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 240,
+   "text": "This results in the error:\nReverse query name for 'Supplier.customers' clashes with reverse query\nname for 'Supplier.place_ptr'.\nHINT: Add or change a related_name argument to the definition for\n'Supplier.customers' or 'Supplier.place_ptr'.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 22610,
+    "height": 167,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 126,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 134,
+   "text": "Adding related_name to the customers field as follows would resolve the\nerror: models.ManyToManyField(Place, related_name='provider').",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 22818,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 127,
+   "tag": "section",
+   "id": "s-specifying-the-parent-link-field",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 367,
+   "text": "Specifying the parent link field¶\nAs mentioned, Django will automatically create a\nOneToOneField linking your child\nclass back to any non-abstract parent models. If you want to control the\nname of the attribute linking back to the parent, you can create your\nown OneToOneField and set\nparent_link=True\nto indicate that your field is the link back to the parent class.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 22874,
+    "height": 96,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 128,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Proxy models¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 22984,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 129,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1004,
+   "text": "When using multi-table inheritance, a new\ndatabase table is created for each subclass of a model. This is usually the\ndesired behavior, since the subclass needs a place to store any additional\ndata fields that are not present on the base class. Sometimes, however, you\nonly want to change the Python behavior of a model – perhaps to change the\ndefault manager, or add a new method.\nThis is what proxy",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 23022,
+    "height": 231,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 130,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 236,
+   "text": "from django.db import models\nclass Person(models.Model):\n first_name = models.CharField(max_length=30)\n last_name = models.CharField(max_length=30)\nclass MyPerson(Person):\n class Meta:\n proxy = True\n def do_something(self):\n # ...\n pass",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 23294,
+    "height": 315,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 131,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 183,
+   "text": "The MyPerson class operates on the same database table as its parent\nPerson class. In particular, any new instances of Person will also be\naccessible through MyPerson, and vice-versa:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 23650,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 132,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 115,
+   "text": ">>> p = Person.objects.create(first_name=\"foobar\")\n>>> MyPerson.objects.get(first_name=\"foobar\")\n<MyPerson: foobar>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 23733,
+    "height": 63,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 133,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 207,
+   "text": "You could also use a proxy model to define a different default ordering on\na model. You might not always want to order the Person model, but regularly\norder by the last_name attribute when you use the proxy:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 23837,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 134,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 81,
+   "text": "class OrderedPerson(Person):\n class Meta:\n ordering = [\"last_name\"]\n proxy = True",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 23920,
+    "height": 84,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 135,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 171,
+   "text": "Now normal Person queries will be unordered\nand OrderedPerson queries will be ordered by last_name.\nProxy models inherit Meta attributes in the same way as regular\nmodels.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 24045,
+    "height": 56,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 136,
+   "tag": "section×2",
+   "id": "s-querysets-still-return-the-model-that-was-requested",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 989,
+   "text": "QuerySets still return the model that was requested¶\nThere is no way to have Django return, say, a MyPerson object whenever you\nquery for Person objects. A queryset for Person objects will return\nthose types of objects. The whole point of proxy objects is that code relying\non the original Person will use those and your own code can use the\nextensions you included (that no other code is relying on ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 24115,
+    "height": 247,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 137,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "Proxy model managers¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 24376,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 138,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 375,
+   "text": "If you don’t specify any model managers on a proxy model, it inherits the\nmanagers from its model parents. If you define a manager on the proxy model,\nit will become the default, although any managers defined on the parent\nclasses will still be available.\nContinuing our example from above, you could change the default manager used\nwhen you query the Person model like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 24409,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 139,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 150,
+   "text": "from django.db import models\nclass NewManager(models.Manager):\n # ...\n pass\nclass MyPerson(Person):\n objects = NewManager()\n class Meta:\n proxy = True",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 24527,
+    "height": 273,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 140,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 257,
+   "text": "If you wanted to add a new manager to the Proxy, without replacing the\nexisting default, you can use the techniques described in the custom\nmanager documentation: create a base class\ncontaining the new managers and inherit that after the primary base class:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 24841,
+    "height": 63,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 141,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 204,
+   "text": "# Create an abstract class for the new manager.\nclass ExtraManagers(models.Model):\n secondary = NewManager()\n class Meta:\n abstract = True\nclass MyPerson(Person, ExtraManagers):\n class Meta:\n proxy = True",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 24945,
+    "height": 231,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 142,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 79,
+   "text": "You probably won’t need to do this very often, but, when you do, it’s\npossible.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 25217,
+    "height": 21,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 143,
+   "tag": "h4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 59,
+   "text": "Differences between proxy inheritance and unmanaged models¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 25252,
+    "height": 19,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 144,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 591,
+   "text": "Proxy model inheritance might look fairly similar to creating an unmanaged\nmodel, using the managed attribute on a\nmodel’s Meta class.\nWith careful setting of Meta.db_table you could create an unmanaged model that\nshadows an existing model and adds Python methods to it. However, that would be\nvery repetitive and fragile as you need to keep both copies synchronized if you\nmake any changes.\nOn the o",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 25284,
+    "height": 175,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 145,
+   "tag": "ol",
+   "class": "arabic simple",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 526,
+   "text": "The general rules are:\nIf you are mirroring an existing model or database table and don’t want\nall the original database table columns, use Meta.managed=False.\nThat option is normally useful for modeling database views and tables\nnot under the control of Django.\nIf you are wanting to change the Python-only behavior of a model, but\nkeep all the same fields as in the original, use Meta.proxy=True.\nT",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 25473,
+    "height": 175,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 146,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "Multiple inheritance¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 25662,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 147,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 996,
+   "text": "Just as with Python’s subclassing, it’s possible for a Django model to inherit\nfrom multiple parent models. Keep in mind that normal Python name resolution\nrules apply. The first base class that a particular name (e.g. Meta) appears in will be the one that is used; for example, this\nmeans that if multiple parents contain a Meta class,\nonly the first one is going to be used, and all others will be ",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 25700,
+    "height": 217,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 148,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 198,
+   "text": "class Article(models.Model):\n article_id = models.AutoField(primary_key=True)\n ...\nclass Book(models.Model):\n book_id = models.AutoField(primary_key=True)\n ...\nclass BookReview(Book, Article):\n pass",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 25958,
+    "height": 252,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 149,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 236,
+   "text": "Or use a common ancestor to hold the AutoField. This\nrequires using an explicit OneToOneField from each\nparent model to the common ancestor to avoid a clash between the fields that\nare automatically generated and inherited by the child:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 26251,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 150,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 301,
+   "text": "class Piece(models.Model):\n pass\nclass Article(Piece):\n article_piece = models.OneToOneField(\n Piece, on_delete=models.CASCADE, parent_link=True\n )\n ...\nclass Book(Piece):\n book_piece = models.OneToOneField(Piece, on_delete=models.CASCADE, parent_link=True)\n ...\nclass BookReview(Book, Article):\n pass",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 26334,
+    "height": 378,
+    "widthFraction": 0.53,
+    "leftFraction": 0.06,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 151,
+   "tag": "h3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 37,
+   "text": "Field name “hiding” is not permitted¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 26753,
+    "height": 24,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 152,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 547,
+   "text": "In normal Python class inheritance, it is permissible for a child class to\noverride any attribute from the parent class. In Django, this isn’t usually\npermitted for model fields. If a non-abstract model base class has a field\ncalled author, you can’t create another model field or define\nan attribute called author in any class that inherits from that base class.\nThis restriction doesn’t apply to mo",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 26791,
+    "height": 119,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 153,
+   "tag": "div",
+   "class": "admonition warning",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 204,
+   "text": "Warning\nModel managers are inherited from abstract base classes. Overriding an\ninherited field which is referenced by an inherited\nManager may cause subtle bugs. See custom\nmanagers and model inheritance.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 26935,
+    "height": 129,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 154,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 354,
+   "text": "Note\nSome fields define extra attributes on the model, e.g. a\nForeignKey defines an extra attribute with\n_id appended to the field name, as well as related_name and\nrelated_query_name on the foreign model.\nThese extra attributes cannot be overridden unless the field that defines\nit is changed or removed so that it no longer defines the extra attribute.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 27089,
+    "height": 182,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 155,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1293,
+   "text": "Overriding fields in a parent model leads to difficulties in areas such as\ninitializing new instances (specifying which field is being initialized in\nModel.__init__) and serialization. These are features which normal Python\nclass inheritance doesn’t have to deal with in quite the same way, so the\ndifference between Django model inheritance and Python class inheritance isn’t\narbitrary.\nThis restric",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 27295,
+    "height": 294,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 156,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 31,
+   "text": "Organizing models in a package¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 27604,
+    "height": 28,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 157,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 448,
+   "text": "The manage.py startapp command creates an application\nstructure that includes a models.py file. If you have many models,\norganizing them in separate files may be useful.\nTo do so, create a models package. Remove models.py and create a\nmyapp/models/ directory with an __init__.py file and the files to\nstore your models. You must import the models in the __init__.py file.\nFor example, if you had orga",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 27647,
+    "height": 133,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 158,
+   "tag": "div",
+   "id": "id11",
+   "class": "literal-block-wrapper docutils container",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 82,
+   "text": "myapp/models/__init__.py¶\nfrom .organic import Person\nfrom .synthetic import Robot",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 27794,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 159,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 190,
+   "text": "Explicitly importing each model rather than using from .models import *\nhas the advantages of not cluttering the namespace, making code more readable,\nand keeping code analysis tools useful.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 27924,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 160,
+   "tag": "div",
+   "class": "admonition seealso",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 117,
+   "text": "See also\nThe Models ReferenceCovers all the model related APIs including model fields, related\nobjects, and QuerySet.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 27991,
+    "height": 149,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 161,
+   "tag": "nav",
+   "class": "browse-horizontal",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 65,
+   "text": "Previous page and next page\n Models and databases\n Making queries",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.52,
+   "geometry": {
+    "top": 28167,
+    "height": 64,
+    "widthFraction": 0.56,
+    "leftFraction": 0.04,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 162,
+   "tag": "div",
+   "class": "fundraising-sidebar",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 117,
+   "text": "Support Django!\n Jorge Bastida donated to the Django Software Foundation to support Django development. Donate today!",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Support Django!",
+     "width": 64,
+     "height": 55
+    }
+   ],
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 196,
+    "height": 40,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 163,
+   "tag": "h3",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 8,
+   "text": "Contents",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 256,
+    "height": 155,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 164,
+   "tag": "ul",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 905,
+   "text": "Models\nQuick example\nUsing models\nFields\nField types\nField options\nAutomatic primary key fields\nVerbose field names\nRelationships\nMany-to-one relationships\nMany-to-many relationships\nExtra fields on many-to-many relationships\nOne-to-one relationships\nModels across files\nField name restrictions\nCustom field types\nMeta options\nModel attributes\nModel methods\nOverriding predefined model methods\nExecut",
+   "counts": {
+    "links": 37,
+    "images": 0,
+    "headings": 0,
+    "listItems": 37,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 431,
+    "height": 1256,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 165,
+   "tag": "nav×2",
+   "landmarks": [
+    "role=complementary",
+    "nav"
+   ],
+   "textLength": 195,
+   "text": "Browse\n Prev: Models and databases\n Next: Making queries\n Table of contents\n General Index\n Python Module Index\nYou are here:\n Django 5.2 documentation\n Using Django\n Models and databases\n Models",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 2,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.71,
+   "geometry": {
+    "top": 1707,
+    "height": 412,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 166,
+   "tag": "section×2",
+   "landmarks": [
+    "role=complementary",
+    "section"
+   ],
+   "textLength": 457,
+   "text": "Getting help\n FAQ\n Try the FAQ — it's got answers to many common questions.\n Index, Module Index, or Table of Contents\n Handy when looking for specific information.\n Django Discord Server\n Join the Django Discord Community.\n Official Django Forum\n Join the community on the Django Forum.\n Ticket tracker\n Report bugs with Django or Django documentation in our ticket tracker.\nDownload:\n Offline (Djan",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 2138,
+    "height": 570,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 167,
+   "tag": "h3",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 46,
+   "text": "Sponsored Fellow, Diamond and Platinum Members",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2728,
+    "height": 64,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 168,
+   "tag": "div×3",
+   "class": "clearfix",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 928,
+   "text": "Sentry\n Monitor your Django Code\nResolve performance bottlenecks and errors using monitoring, replays, logs and Seer an AI agent for debugging.\nJetBrains\n JetBrains delivers intelligent software solutions that make developers more productive by simplifying their challenging tasks, automating the routine, and helping them adopt the best development practices. PyCharm is the Python IDE for Professio",
+   "counts": {
+    "links": 6,
+    "images": 3,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 3,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "JetBrains",
+     "width": 75,
+     "height": 75
+    },
+    {
+     "kind": "img",
+     "alt": "Kraken Tech",
+     "width": 75,
+     "height": 75
+    },
+    {
+     "kind": "img",
+     "alt": "Sentry",
+     "width": 75,
+     "height": 69
+    }
+   ],
+   "coverLabel": "JetBrains",
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 2812,
+    "height": 756,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 169,
+   "tag": "div",
+   "class": "clearfix",
+   "landmarks": [
+    "role=complementary"
+   ],
+   "textLength": 405,
+   "text": "PostHog\n PostHog is an all-in-one developer platform for building successful products. We provide product analytics, web analytics, session replay, error tracking, feature flags, experiments, surveys, LLM observability, data warehouse, CDP, workflows, logs, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.\nBecome a sp",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "PostHog",
+     "width": 75,
+     "height": 69
+    }
+   ],
+   "coverLabel": "PostHog",
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 3568,
+    "height": 318,
+    "widthFraction": 0.27,
+    "leftFraction": 0.68,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 170,
+   "tag": "div",
+   "class": "column-container",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 541,
+   "text": "Learn More\n About Django\n Getting Started with Django\n Team Organization\n Django Software Foundation\n Code of Conduct\n Diversity Statement\n Get Involved\n Join a Group\n Contribute\n to Django\n Submit\n a Bug\n Report\n a Security Issue\n Individual membership\n Get Help\n Getting Help FAQ\n Django Discord\n Official Django Forum\n Follow Us\n GitHub\n X\n Fediverse (Mastodon)\n Bluesky\n LinkedIn\n News RSS\n Suppo",
+   "counts": {
+    "links": 26,
+    "images": 0,
+    "headings": 5,
+    "listItems": 26,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 28312,
+    "height": 294,
+    "widthFraction": 0.91,
+    "leftFraction": 0.04,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 171,
+   "tag": "div",
+   "class": "container",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 207,
+   "text": "Django\n Hosting by In-kind\n donors\n Design by Threespot\n & andrevv\n © 2005-2026\n Django Software\n Foundation and individual contributors. Django is a\n registered\n trademark of the Django Software Foundation.",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 28635,
+    "height": 111,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 1,
+    "aboveFold": false
+   }
+  }
+ ]
+}

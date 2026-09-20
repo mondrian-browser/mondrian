@@ -1,0 +1,279 @@
+{
+ "site": "dailymail.co.uk",
+ "pages": 4,
+ "pageIds": [
+  "dailymail-co-uk-1",
+  "dailymail-co-uk-2",
+  "dailymail-co-uk-3",
+  "dailymail-co-uk-4"
+ ],
+ "derivedAt": "2026-09-20T11:43:18.818Z",
+ "blocks": [
+  {
+   "selector": "> h2.linkro-darkred",
+   "type": "teaser_card",
+   "n": 25,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.article-small",
+   "type": "teaser_card",
+   "n": 25,
+   "purity": 0.96,
+   "pages": 1
+  },
+  {
+   "selector": "> div.articletext",
+   "type": "text",
+   "n": 21,
+   "purity": 0.76,
+   "pages": 1
+  },
+  {
+   "selector": "footer > ul.accordionPanel_9xxPUJTc",
+   "type": "site_footer",
+   "n": 20,
+   "purity": 0.8,
+   "pages": 4
+  },
+  {
+   "selector": "> h3.wocc",
+   "type": "heading",
+   "n": 10,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> p.mol-para-with-font",
+   "type": "text",
+   "n": 9,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> h1.channelNameStyle_VrT4CbiC",
+   "type": "heading",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> div.headerBtnsContainerStyle_lnfoRYnF",
+   "type": "version_switcher",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> ul.channeListStyle_PgW6gMJT",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> ul.listStyle_OKeW0szh",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "form > form",
+   "type": "search",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.titleContainer_RMzId0G6",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> img.blkBorder",
+   "type": "gallery",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> p.imageCaption",
+   "type": "image",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "> img",
+   "type": "image",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h1.article-page-headline",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.mol-fe-related-replace",
+   "type": "trending",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.commentHeader-joK0F",
+   "type": "comments",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> p.viewsExpressed-k11hu",
+   "type": "legal_notice",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.tncs-LJg_q",
+   "type": "site_footer",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.artSplitter",
+   "type": "gallery",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div.logoWrapperStyle_hmjjw4rJ",
+   "type": "subscribe",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> ol.thumbnail-carousel__list_g58w87DT",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> ul.dms-puff",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> img.logoStyle_hvlNDuFv",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> p.byline-section",
+   "type": "byline",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div#articleIconLinksContainer",
+   "type": "share",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div.articletext-holder",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.img-gallery-slides-slider",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.footer--lzziT",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.xp-commerce-title-wrapper",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> a.link-k61F336x",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> p.author-section",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> ul.js-links",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#vjs_video_3",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.video-js",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h3.mol-factbox-title",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.ins",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "daringfireball-net-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:36:44.433Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 9615,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.91,
+   "margin": 0.88,
+   "top": [
+    [
+     "site_nav",
+     0.92
+    ],
+    [
+     "site_footer",
+     0.04
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "summary",
+   "confidence": 0.18,
+   "margin": 0.01,
+   "top": [
+    [
+     "summary",
+     0.2
+    ],
+    [
+     "teaser_card",
+     0.19
+    ],
+    [
+     "reviews",
+     0.14
+    ],
+    [
+     "text",
+     0.14
+    ],
+    [
+     "byline",
+     0.11
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "summary"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.816Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

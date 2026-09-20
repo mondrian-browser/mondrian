@@ -1,0 +1,262 @@
+{
+ "id": "nodejs-org-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:09:55.761Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 36393,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "section_nav",
+   "confidence": 0.88,
+   "margin": 0.81,
+   "top": [
+    [
+     "section_nav",
+     0.89
+    ],
+    [
+     "site_nav",
+     0.08
+    ],
+    [
+     "table_of_contents",
+     0.03
+    ],
+    [
+     "feature_grid",
+     0
+    ],
+    [
+     "reactions",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 1,
+   "choice": "external_links",
+   "confidence": 0.41,
+   "margin": 0.18,
+   "top": [
+    [
+     "external_links",
+     0.43
+    ],
+    [
+     "site_footer",
+     0.25
+    ],
+    [
+     "skip_link",
+     0.12
+    ],
+    [
+     "site_nav",
+     0.09
+    ],
+    [
+     "section_nav",
+     0.06
+    ]
+   ],
+   "block": "links",
+   "slot": "related",
+   "final": "external_links"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.82,
+   "margin": 0.68,
+   "top": [
+    [
+     "title",
+     0.83
+    ],
+    [
+     "site_header",
+     0.15
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "table_of_contents",
+   "confidence": 0.59,
+   "margin": 0.26,
+   "top": [
+    [
+     "table_of_contents",
+     0.61
+    ],
+    [
+     "section_nav",
+     0.35
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 4,
+   "choice": "table_of_contents",
+   "confidence": 0.83,
+   "margin": 0.79,
+   "top": [
+    [
+     "table_of_contents",
+     0.85
+    ],
+    [
+     "site_nav",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.05
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "heading",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 5,
+   "choice": "heading",
+   "confidence": 0.58,
+   "margin": 0.26,
+   "top": [
+    [
+     "heading",
+     0.59
+    ],
+    [
+     "title",
+     0.33
+    ],
+    [
+     "table_of_contents",
+     0.06
+    ],
+    [
+     "skip_link",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "heading"
+  },
+  {
+   "index": 6,
+   "choice": "list",
+   "confidence": 0.52,
+   "margin": 0.34,
+   "top": [
+    [
+     "list",
+     0.53
+    ],
+    [
+     "table_of_contents",
+     0.19
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "summary",
+     0.06
+    ],
+    [
+     "text",
+     0.02
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "list"
+  },
+  {
+   "index": 7,
+   "choice": "section_nav",
+   "confidence": 0.58,
+   "margin": 0.32,
+   "top": [
+    [
+     "section_nav",
+     0.59
+    ],
+    [
+     "table_of_contents",
+     0.27
+    ],
+    [
+     "list",
+     0.14
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.923Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

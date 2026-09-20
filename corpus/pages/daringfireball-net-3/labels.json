@@ -1,0 +1,107 @@
+{
+ "id": "daringfireball-net-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:36:46.196Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 14142,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.89,
+   "margin": 0.85,
+   "top": [
+    [
+     "site_nav",
+     0.9
+    ],
+    [
+     "site_footer",
+     0.05
+    ],
+    [
+     "site_header",
+     0.04
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "text",
+   "confidence": 0.89,
+   "margin": 0.85,
+   "top": [
+    [
+     "text",
+     0.9
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "summary",
+     0.03
+    ],
+    [
+     "quote",
+     0.02
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "text"
+  },
+  {
+   "index": 2,
+   "choice": "site_footer",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "site_footer",
+     0.95
+    ],
+    [
+     "legal_notice",
+     0.03
+    ],
+    [
+     "settings",
+     0.02
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "heading",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.816Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

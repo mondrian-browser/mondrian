@@ -1,0 +1,97 @@
+{
+ "site": "kottke.org",
+ "pages": 4,
+ "pageIds": [
+  "kottke-org-1",
+  "kottke-org-2",
+  "kottke-org-3",
+  "kottke-org-4"
+ ],
+ "derivedAt": "2026-09-20T11:35:27.786Z",
+ "blocks": [
+  {
+   "selector": "> div.comment-contain",
+   "type": "comments",
+   "n": 5,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.logo-grid-item",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "nav > nav",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div.url-card-content",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.post-actions",
+   "type": "share",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> h3",
+   "type": "comments",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.comment-actions",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div.rcmt-tabs",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#rolodex-container",
+   "type": "external_links",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.comment-avatar",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.comment-text",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

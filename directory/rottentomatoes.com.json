@@ -1,0 +1,202 @@
+{
+ "site": "rottentomatoes.com",
+ "pages": 4,
+ "pageIds": [
+  "rottentomatoes-com-1",
+  "rottentomatoes-com-2",
+  "rottentomatoes-com-3",
+  "rottentomatoes-com-4"
+ ],
+ "derivedAt": "2026-09-20T11:38:53.940Z",
+ "blocks": [
+  {
+   "selector": "main section section > media-info-tile.tile-first",
+   "type": "teaser_card",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > media-info-tile",
+   "type": "teaser_card",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > media-info-tile.tile-last",
+   "type": "teaser_card",
+   "n": 8,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "header [role=navigation] > search-results-controls",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header [role=navigation] > ul",
+   "type": "account",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header [role=navigation] > button.arti-desktop",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header [role=navigation] > a",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header [role=navigation] > rt-header-nav-item",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header section > section.trending-bar",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > h2",
+   "type": "heading",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> rt-footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > h2",
+   "type": "heading",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > div.video-item",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > div.jw-aspect",
+   "type": "video",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > video.jw-video",
+   "type": "video",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > div.jw-overlays",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > div.jw-nextup-container",
+   "type": "video",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > section.where-to-watch",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > a.titlethumbnail",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section section > div.dynamic-text-list__streaming-links",
+   "type": "external_links",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.trailers-and-videos__header",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul.module-1x4__left",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul.module-1x4__right",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#movie-and-tv-guides",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=dialog] > div.ot-sdk-row",
+   "type": "cookie_banner",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > button.discovery-dropdown-toggle",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.discovery-filters__nav",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

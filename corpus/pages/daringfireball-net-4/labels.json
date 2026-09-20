@@ -1,0 +1,107 @@
+{
+ "id": "daringfireball-net-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:36:47.943Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 14069,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.88,
+   "margin": 0.87,
+   "top": [
+    [
+     "site_nav",
+     0.9
+    ],
+    [
+     "site_footer",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "ad",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "text",
+   "confidence": 0.72,
+   "margin": 0.56,
+   "top": [
+    [
+     "text",
+     0.73
+    ],
+    [
+     "quote",
+     0.17
+    ],
+    [
+     "summary",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.04
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "text"
+  },
+  {
+   "index": 2,
+   "choice": "site_footer",
+   "confidence": 0.9,
+   "margin": 0.85,
+   "top": [
+    [
+     "site_footer",
+     0.91
+    ],
+    [
+     "legal_notice",
+     0.06
+    ],
+    [
+     "settings",
+     0.03
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.817Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

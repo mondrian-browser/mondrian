@@ -43,3 +43,13 @@ capture does not need this pass.
 **Added 20 Sep 2026:** `counts.coverLinks` and `coverLabel` on every region, computed from
 `dom.html` by `tools/corpus/add-cover-links.js` (anchors that wrap or overlay a region, and
 the first one's aria-label). The extractor now records both itself. No index moved.
+
+## Grown 20 September 2026
+
+Forty-four sites, 160 pages, 4,700 regions added through `tools/sites/solve.js`
+(`tools/corpus/growth-1.txt`), chosen so the rarer types land on several sites each. The
+new labels are Jev's choices, unreviewed: by the earlier measurement about 3% wrong, 14%
+flagged. Four sites came back as bot walls or app shells and were dropped
+(english.stackexchange.com, fbref.com, msn.com, bestbuy.com). The corpus is now 236 pages,
+86 sites, 7,996 regions. On it the rules score 63% (the 70% before was fitted to the
+first 45 sites); the directory then the rules 73% by leave-one-page-out.

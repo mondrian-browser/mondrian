@@ -1,0 +1,417 @@
+{
+ "id": "goodreads-com-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:37:33.419Z",
+ "tier": "relayout",
+ "application": 0.05,
+ "inputTokens": 59397,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.49,
+   "margin": 0.02,
+   "top": [
+    [
+     "site_header",
+     0.51
+    ],
+    [
+     "site_nav",
+     0.49
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "cta",
+   "confidence": 0.88,
+   "margin": 0.85,
+   "top": [
+    [
+     "cta",
+     0.89
+    ],
+    [
+     "site_header",
+     0.04
+    ],
+    [
+     "site_notice",
+     0.02
+    ],
+    [
+     "share",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0.02
+    ]
+   ],
+   "block": "mixed",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.7,
+   "margin": 0.43,
+   "top": [
+    [
+     "title",
+     0.71
+    ],
+    [
+     "heading",
+     0.28
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "reviews",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "rating",
+   "confidence": 0.67,
+   "margin": 0.45,
+   "top": [
+    [
+     "rating",
+     0.69
+    ],
+    [
+     "action_button",
+     0.24
+    ],
+    [
+     "buy_box",
+     0.03
+    ],
+    [
+     "tabs",
+     0.01
+    ],
+    [
+     "form",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "reviews",
+   "final": "rating"
+  },
+  {
+   "index": 4,
+   "choice": "image",
+   "confidence": 0.84,
+   "margin": 0.82,
+   "top": [
+    [
+     "image",
+     0.86
+    ],
+    [
+     "teaser_card",
+     0.04
+    ],
+    [
+     "product_card",
+     0.03
+    ],
+    [
+     "infobox",
+     0.02
+    ],
+    [
+     "action_button",
+     0.02
+    ]
+   ],
+   "block": "media",
+   "slot": "reviews",
+   "final": "image"
+  },
+  {
+   "index": 5,
+   "choice": "heading",
+   "confidence": 0.36,
+   "margin": 0.08,
+   "top": [
+    [
+     "heading",
+     0.38
+    ],
+    [
+     "title",
+     0.3
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "metadata",
+     0.06
+    ],
+    [
+     "byline",
+     0.06
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "heading"
+  },
+  {
+   "index": 6,
+   "choice": "quote",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "quote",
+     0.97
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ]
+   ],
+   "block": "quote",
+   "slot": "nav",
+   "final": "quote"
+  },
+  {
+   "index": 7,
+   "choice": "quote",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "quote",
+     0.95
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "canvas",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "block": "quote",
+   "slot": "nav",
+   "final": "quote"
+  },
+  {
+   "index": 8,
+   "choice": "pagination",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "pagination",
+     1
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "unclear",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "nav",
+   "final": "pagination"
+  },
+  {
+   "index": 9,
+   "choice": "tabs",
+   "confidence": 0.35,
+   "margin": 0.06,
+   "top": [
+    [
+     "tabs",
+     0.37
+    ],
+    [
+     "section_nav",
+     0.31
+    ],
+    [
+     "pagination",
+     0.14
+    ],
+    [
+     "heading",
+     0.05
+    ],
+    [
+     "filters",
+     0.03
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 10,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 11,
+   "choice": "action_button",
+   "confidence": 0.76,
+   "margin": 0.66,
+   "top": [
+    [
+     "action_button",
+     0.78
+    ],
+    [
+     "popup",
+     0.12
+    ],
+    [
+     "site_footer",
+     0.06
+    ],
+    [
+     "ad",
+     0.01
+    ],
+    [
+     "cookie_banner",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "action_button"
+  },
+  {
+   "index": 12,
+   "choice": "popup",
+   "confidence": 0.52,
+   "margin": 0.07,
+   "top": [
+    [
+     "popup",
+     0.53
+    ],
+    [
+     "login_form",
+     0.46
+    ],
+    [
+     "cta",
+     0.01
+    ],
+    [
+     "heading",
+     0
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "gate",
+   "final": "popup"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.858Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

@@ -1,0 +1,90 @@
+{
+ "site": "bunnings.com.au",
+ "pages": 4,
+ "pageIds": [
+  "bunnings-com-au-1",
+  "bunnings-com-au-2",
+  "bunnings-com-au-3",
+  "bunnings-com-au-4"
+ ],
+ "derivedAt": "2026-09-20T11:19:35.509Z",
+ "blocks": [
+  {
+   "selector": "footer > div.box-border",
+   "type": "site_footer",
+   "n": 13,
+   "purity": 0.92,
+   "pages": 4
+  },
+  {
+   "selector": "main section > h2",
+   "type": "heading",
+   "n": 11,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > header",
+   "type": "site_header",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div#searchResultContainer",
+   "type": "filters",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header form > form#header-search",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > div#header-bottom",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.carouselWrapper",
+   "type": "site_notice",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.carouselWrapper",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section.brand-section-wrapper",
+   "type": "logo_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > figure.size-full",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > article.article-card",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

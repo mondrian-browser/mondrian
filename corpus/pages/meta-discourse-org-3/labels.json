@@ -1,0 +1,200 @@
+{
+ "id": "meta-discourse-org-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:16:55.090Z",
+ "tier": "relayout",
+ "application": 0.54,
+ "inputTokens": 27811,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.92,
+   "margin": 0.89,
+   "top": [
+    [
+     "site_header",
+     0.93
+    ],
+    [
+     "account",
+     0.04
+    ],
+    [
+     "site_nav",
+     0.02
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.45,
+   "margin": 0.13,
+   "top": [
+    [
+     "site_nav",
+     0.47
+    ],
+    [
+     "section_nav",
+     0.34
+    ],
+    [
+     "breadcrumbs",
+     0.06
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "account",
+     0.03
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "section_nav",
+   "confidence": 0.65,
+   "margin": 0.39,
+   "top": [
+    [
+     "section_nav",
+     0.66
+    ],
+    [
+     "site_nav",
+     0.27
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "action_button",
+     0.01
+    ],
+    [
+     "related",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 3,
+   "choice": "site_nav",
+   "confidence": 0.45,
+   "margin": 0.05,
+   "top": [
+    [
+     "site_nav",
+     0.46
+    ],
+    [
+     "section_nav",
+     0.41
+    ],
+    [
+     "tag_cloud",
+     0.08
+    ],
+    [
+     "accordion",
+     0.04
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 4,
+   "choice": "site_footer",
+   "confidence": 0.46,
+   "margin": 0.4,
+   "top": [
+    [
+     "site_footer",
+     0.48
+    ],
+    [
+     "account",
+     0.08
+    ],
+    [
+     "logo_cloud",
+     0.08
+    ],
+    [
+     "badge",
+     0.06
+    ],
+    [
+     "site_nav",
+     0.05
+    ]
+   ],
+   "block": "controls",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 5,
+   "choice": "login_form",
+   "confidence": 0.35,
+   "margin": 0.09,
+   "top": [
+    [
+     "login_form",
+     0.37
+    ],
+    [
+     "paywall",
+     0.28
+    ],
+    [
+     "cta",
+     0.14
+    ],
+    [
+     "empty_state",
+     0.07
+    ],
+    [
+     "status_message",
+     0.06
+    ]
+   ],
+   "block": "prose",
+   "slot": "form",
+   "final": "login_form"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.911Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

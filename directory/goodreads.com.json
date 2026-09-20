@@ -1,0 +1,132 @@
+{
+ "site": "goodreads.com",
+ "pages": 4,
+ "pageIds": [
+  "goodreads-com-1",
+  "goodreads-com-2",
+  "goodreads-com-3",
+  "goodreads-com-4"
+ ],
+ "derivedAt": "2026-09-20T11:37:42.615Z",
+ "blocks": [
+  {
+   "selector": "> div",
+   "type": "quote",
+   "n": 9,
+   "purity": 0.78,
+   "pages": 4
+  },
+  {
+   "selector": "footer > footer.responsiveSiteFooter",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div.vcenteredLineOfBlocks",
+   "type": "cta",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> h1",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.wtrButtonContainer",
+   "type": "rating",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> img",
+   "type": "image",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div.signedOutHomeMastheadContainer",
+   "type": "login_form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.sellingPointBoxLeft",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.sellingPointBoxRight",
+   "type": "feature_grid",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#discoveryBox",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.featureTeaserBox__quotesBoxLinks",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#choiceAwardCategories",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > section.gr-editorialBlogPost",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div#listsTeaserBox",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.mediumText",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> button.gr-iconButton",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.loginModal",
+   "type": "popup",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

@@ -31,6 +31,7 @@ const RULES = [
 
   // ---------------------------------------------------------------- the tag says
   ['pre-code', (f) => f.tag === 'pre' && 'code'],
+  ['code-shape', (f) => f.lines.length >= 3 && f.ltr < 0.2 && f.lines.filter((l) => /[{};]\s*$|=>|^\s*(import |const |let |var |def |function |class |return |if \(|for \(|\$ |>>> |<\/?[a-z]+>)/.test(l)).length >= f.lines.length * 0.5 && 'code'],
   ['code-hint', (f) => (f.tag === 'code' || f.h('code') && f.tag !== 'a') && f.ltr < 0.2 && 'code'],
   ['table-navbox', (f) => f.tag === 'table' && (f.inNav || /navbox|vertical-navbox|navigation/.test(f.hint) || /^v\s*\|?\s*t\s*\|?\s*e\b/.test(f.text)) && 'section_nav'],
   ['table-authority', (f) => f.tag === 'table' && /authority control/i.test(f.text) && 'metadata'],
@@ -61,6 +62,7 @@ const RULES = [
   ['header-title', (f) => (f.tag === 'header' || f.tag === 'hgroup') && f.headings > 0 && f.top < 0.25 && !f.inHeader && f.len < 400 && f.ltr < 0.3 && (f.index <= 2 || f.h('title')) && 'title'],
 
   // ---------------------------------------------------------------- media
+  ['top-logo', (f) => (f.tag === 'img' || f.tag === 'figure' || f.tag === 'svg' || f.len === 0 && f.images >= 1) && f.top < 0.03 && f.index <= 3 && !f.bigImage && 'site_header'],
   ['gallery', (f) => (f.tag === 'figure' || f.tag === 'img' || f.tag === 'picture' || f.h('gallery')) && (f.run && f.images >= 2 || f.imgs.filter((im) => im.width >= 100).length >= 3) && !f.h('card') && 'gallery'],
   ['figure-video', (f) => f.tag === 'figure' && (f.h('video') || /video/i.test(f.text)) && f.len < 60 && 'video'],
   ['figure-chart', (f) => f.tag === 'figure' && f.h('chart') && 'chart'],

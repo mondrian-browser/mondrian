@@ -1,0 +1,324 @@
+{
+ "id": "goodreads-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:37:37.498Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 45746,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.49,
+   "margin": 0,
+   "top": [
+    [
+     "site_nav",
+     0.5
+    ],
+    [
+     "site_header",
+     0.5
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "cta",
+   "confidence": 0.81,
+   "margin": 0.75,
+   "top": [
+    [
+     "cta",
+     0.82
+    ],
+    [
+     "site_header",
+     0.07
+    ],
+    [
+     "account",
+     0.03
+    ],
+    [
+     "share",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0.02
+    ]
+   ],
+   "block": "mixed",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.62,
+   "margin": 0.28,
+   "top": [
+    [
+     "title",
+     0.64
+    ],
+    [
+     "heading",
+     0.36
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "share",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "reviews",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "rating",
+   "confidence": 0.66,
+   "margin": 0.4,
+   "top": [
+    [
+     "rating",
+     0.67
+    ],
+    [
+     "action_button",
+     0.27
+    ],
+    [
+     "vote_controls",
+     0.02
+    ],
+    [
+     "tabs",
+     0.01
+    ],
+    [
+     "form",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "reviews",
+   "final": "rating"
+  },
+  {
+   "index": 4,
+   "choice": "image",
+   "confidence": 0.87,
+   "margin": 0.84,
+   "top": [
+    [
+     "image",
+     0.88
+    ],
+    [
+     "action_button",
+     0.04
+    ],
+    [
+     "product_card",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "hero",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "reviews",
+   "final": "image"
+  },
+  {
+   "index": 5,
+   "choice": "quote",
+   "confidence": 0.91,
+   "margin": 0.87,
+   "top": [
+    [
+     "quote",
+     0.92
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "teaser_card",
+     0.03
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "block": "quote",
+   "slot": "reviews",
+   "final": "quote"
+  },
+  {
+   "index": 6,
+   "choice": "quote",
+   "confidence": 0.88,
+   "margin": 0.79,
+   "top": [
+    [
+     "quote",
+     0.89
+    ],
+    [
+     "list",
+     0.1
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "quote",
+   "slot": "reviews",
+   "final": "quote"
+  },
+  {
+   "index": 7,
+   "choice": "pagination",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "pagination",
+     1
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "site_nav",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "nav",
+   "final": "pagination"
+  },
+  {
+   "index": 8,
+   "choice": "section_nav",
+   "confidence": 0.34,
+   "margin": 0.08,
+   "top": [
+    [
+     "section_nav",
+     0.36
+    ],
+    [
+     "tabs",
+     0.28
+    ],
+    [
+     "pagination",
+     0.15
+    ],
+    [
+     "heading",
+     0.05
+    ],
+    [
+     "filters",
+     0.04
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 9,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:41.859Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

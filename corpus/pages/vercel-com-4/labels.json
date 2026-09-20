@@ -1,0 +1,3890 @@
+{
+ "id": "vercel-com-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T11:32:41.036Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 567706,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.91,
+   "margin": 0.88,
+   "top": [
+    [
+     "site_header",
+     0.92
+    ],
+    [
+     "action_button",
+     0.04
+    ],
+    [
+     "site_nav",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_nav",
+     0.99
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "cart",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "definition_list",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "site_nav",
+   "confidence": 0.71,
+   "margin": 0.48,
+   "top": [
+    [
+     "site_nav",
+     0.72
+    ],
+    [
+     "site_header",
+     0.24
+    ],
+    [
+     "account",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "ad",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 3,
+   "choice": "search",
+   "confidence": 0.96,
+   "margin": 0.93,
+   "top": [
+    [
+     "search",
+     0.96
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "action_button",
+     0.01
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 4,
+   "choice": "action_button",
+   "confidence": 0.53,
+   "margin": 0.2,
+   "top": [
+    [
+     "action_button",
+     0.54
+    ],
+    [
+     "section_nav",
+     0.34
+    ],
+    [
+     "site_nav",
+     0.07
+    ],
+    [
+     "breadcrumbs",
+     0.02
+    ],
+    [
+     "skip_link",
+     0.02
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "action_button"
+  },
+  {
+   "index": 5,
+   "choice": "section_nav",
+   "confidence": 0.63,
+   "margin": 0.3,
+   "top": [
+    [
+     "section_nav",
+     0.64
+    ],
+    [
+     "site_nav",
+     0.34
+    ],
+    [
+     "accordion",
+     0.02
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 6,
+   "choice": "section_nav",
+   "confidence": 0.55,
+   "margin": 0.27,
+   "top": [
+    [
+     "section_nav",
+     0.57
+    ],
+    [
+     "breadcrumbs",
+     0.3
+    ],
+    [
+     "site_nav",
+     0.11
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "newsletter",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 7,
+   "choice": "title",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "title",
+     0.98
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "byline",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 8,
+   "choice": "action_button",
+   "confidence": 0.52,
+   "margin": 0.16,
+   "top": [
+    [
+     "action_button",
+     0.53
+    ],
+    [
+     "page_tools",
+     0.37
+    ],
+    [
+     "share",
+     0.1
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "action_button"
+  },
+  {
+   "index": 9,
+   "choice": "summary",
+   "confidence": 0.61,
+   "margin": 0.26,
+   "top": [
+    [
+     "summary",
+     0.62
+    ],
+    [
+     "text",
+     0.36
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 10,
+   "choice": "heading",
+   "confidence": 0.93,
+   "margin": 0.89,
+   "top": [
+    [
+     "heading",
+     0.93
+    ],
+    [
+     "title",
+     0.04
+    ],
+    [
+     "cta",
+     0.02
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 11,
+   "choice": "text",
+   "confidence": 0.5,
+   "margin": 0.27,
+   "top": [
+    [
+     "text",
+     0.52
+    ],
+    [
+     "heading",
+     0.25
+    ],
+    [
+     "summary",
+     0.18
+    ],
+    [
+     "steps",
+     0.05
+    ],
+    [
+     "subscribe",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 12,
+   "choice": "list",
+   "confidence": 0.69,
+   "margin": 0.41,
+   "top": [
+    [
+     "list",
+     0.7
+    ],
+    [
+     "steps",
+     0.29
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 13,
+   "choice": "cta",
+   "confidence": 0.79,
+   "margin": 0.72,
+   "top": [
+    [
+     "cta",
+     0.8
+    ],
+    [
+     "embed",
+     0.08
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "action_button",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 14,
+   "choice": "teaser_card",
+   "confidence": 0.7,
+   "margin": 0.57,
+   "top": [
+    [
+     "teaser_card",
+     0.71
+    ],
+    [
+     "list",
+     0.14
+    ],
+    [
+     "cta",
+     0.06
+    ],
+    [
+     "product_card",
+     0.04
+    ],
+    [
+     "related",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 15,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "teasers",
+   "final": "text"
+  },
+  {
+   "index": 16,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 17,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "feature_grid",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 18,
+   "choice": "steps",
+   "confidence": 0.78,
+   "margin": 0.59,
+   "top": [
+    [
+     "steps",
+     0.79
+    ],
+    [
+     "code",
+     0.2
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "steps"
+  },
+  {
+   "index": 19,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 20,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 21,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ],
+    [
+     "site_nav",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 22,
+   "choice": "text",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 23,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "site_footer",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 24,
+   "choice": "text",
+   "confidence": 0.94,
+   "margin": 0.93,
+   "top": [
+    [
+     "text",
+     0.95
+    ],
+    [
+     "callout",
+     0.02
+    ],
+    [
+     "external_links",
+     0.02
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 25,
+   "choice": "heading",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "heading",
+     0.99
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 26,
+   "choice": "text",
+   "confidence": 0.87,
+   "margin": 0.76,
+   "top": [
+    [
+     "text",
+     0.88
+    ],
+    [
+     "summary",
+     0.12
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 27,
+   "choice": "heading",
+   "confidence": 0.87,
+   "margin": 0.79,
+   "top": [
+    [
+     "heading",
+     0.88
+    ],
+    [
+     "tabs",
+     0.09
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "accordion",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 28,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 29,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "callout",
+     0.02
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 30,
+   "choice": "text",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "callout",
+     0.03
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 31,
+   "choice": "list",
+   "confidence": 0.61,
+   "margin": 0.28,
+   "top": [
+    [
+     "list",
+     0.62
+    ],
+    [
+     "callout",
+     0.34
+    ],
+    [
+     "text",
+     0.04
+    ],
+    [
+     "site_footer",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 32,
+   "choice": "heading",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "heading",
+     0.96
+    ],
+    [
+     "tabs",
+     0.02
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 33,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 34,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 35,
+   "choice": "text",
+   "confidence": 0.92,
+   "margin": 0.84,
+   "top": [
+    [
+     "text",
+     0.92
+    ],
+    [
+     "summary",
+     0.08
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "math",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 36,
+   "choice": "list",
+   "confidence": 0.89,
+   "margin": 0.78,
+   "top": [
+    [
+     "list",
+     0.89
+    ],
+    [
+     "text",
+     0.11
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "canvas",
+     0
+    ],
+    [
+     "empty_state",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 37,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.94,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "summary",
+     0.03
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 38,
+   "choice": "code",
+   "confidence": 0.5,
+   "margin": 0.08,
+   "top": [
+    [
+     "code",
+     0.52
+    ],
+    [
+     "tabs",
+     0.44
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "toolbar",
+     0.02
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 39,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 40,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "steps",
+     0.01
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "heading",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 41,
+   "choice": "code",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "code",
+     0.99
+    ],
+    [
+     "embed",
+     0.01
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "hero",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 42,
+   "choice": "summary",
+   "confidence": 0.63,
+   "margin": 0.41,
+   "top": [
+    [
+     "summary",
+     0.65
+    ],
+    [
+     "heading",
+     0.24
+    ],
+    [
+     "text",
+     0.11
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 43,
+   "choice": "list",
+   "confidence": 0.81,
+   "margin": 0.64,
+   "top": [
+    [
+     "list",
+     0.81
+    ],
+    [
+     "summary",
+     0.17
+    ],
+    [
+     "feature_grid",
+     0.01
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "text",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 44,
+   "choice": "heading",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "heading",
+     0.95
+    ],
+    [
+     "related",
+     0.03
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "badge",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 45,
+   "choice": "text",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 46,
+   "choice": "text",
+   "confidence": 0.74,
+   "margin": 0.51,
+   "top": [
+    [
+     "text",
+     0.75
+    ],
+    [
+     "summary",
+     0.24
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "cart",
+     0
+    ],
+    [
+     "quote",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 47,
+   "choice": "list",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "list",
+     0.98
+    ],
+    [
+     "feature_grid",
+     0.02
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "heading",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 48,
+   "choice": "heading",
+   "confidence": 0.93,
+   "margin": 0.92,
+   "top": [
+    [
+     "heading",
+     0.94
+    ],
+    [
+     "related",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 49,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 50,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "hero",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 51,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "callout",
+     0.02
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 52,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "audio",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 53,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "chart",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 54,
+   "choice": "code",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "code",
+     0.99
+    ],
+    [
+     "embed",
+     0.01
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 55,
+   "choice": "summary",
+   "confidence": 0.53,
+   "margin": 0.21,
+   "top": [
+    [
+     "summary",
+     0.55
+    ],
+    [
+     "text",
+     0.34
+    ],
+    [
+     "heading",
+     0.1
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 56,
+   "choice": "list",
+   "confidence": 0.92,
+   "margin": 0.88,
+   "top": [
+    [
+     "list",
+     0.93
+    ],
+    [
+     "summary",
+     0.05
+    ],
+    [
+     "feature_grid",
+     0.02
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 57,
+   "choice": "heading",
+   "confidence": 0.77,
+   "margin": 0.67,
+   "top": [
+    [
+     "heading",
+     0.78
+    ],
+    [
+     "related",
+     0.11
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "table_of_contents",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 58,
+   "choice": "text",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "text",
+     0.95
+    ],
+    [
+     "summary",
+     0.05
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 59,
+   "choice": "list",
+   "confidence": 0.7,
+   "margin": 0.53,
+   "top": [
+    [
+     "list",
+     0.71
+    ],
+    [
+     "steps",
+     0.18
+    ],
+    [
+     "text",
+     0.1
+    ],
+    [
+     "definition_list",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 60,
+   "choice": "text",
+   "confidence": 0.86,
+   "margin": 0.75,
+   "top": [
+    [
+     "text",
+     0.87
+    ],
+    [
+     "summary",
+     0.12
+    ],
+    [
+     "steps",
+     0.01
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 61,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "progress",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 62,
+   "choice": "text",
+   "confidence": 0.52,
+   "margin": 0.09,
+   "top": [
+    [
+     "text",
+     0.54
+    ],
+    [
+     "summary",
+     0.45
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 63,
+   "choice": "list",
+   "confidence": 0.93,
+   "margin": 0.89,
+   "top": [
+    [
+     "list",
+     0.93
+    ],
+    [
+     "feature_grid",
+     0.04
+    ],
+    [
+     "summary",
+     0.02
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 64,
+   "choice": "heading",
+   "confidence": 0.77,
+   "margin": 0.7,
+   "top": [
+    [
+     "heading",
+     0.78
+    ],
+    [
+     "related",
+     0.08
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "callout",
+     0.03
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 65,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "audio",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 66,
+   "choice": "text",
+   "confidence": 0.74,
+   "margin": 0.52,
+   "top": [
+    [
+     "text",
+     0.76
+    ],
+    [
+     "summary",
+     0.24
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 67,
+   "choice": "list",
+   "confidence": 0.96,
+   "margin": 0.97,
+   "top": [
+    [
+     "list",
+     0.98
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "feature_grid",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 68,
+   "choice": "heading",
+   "confidence": 0.9,
+   "margin": 0.86,
+   "top": [
+    [
+     "heading",
+     0.91
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "unclear",
+     0.02
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "related",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 69,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.97,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 70,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "heading",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 71,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 72,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "subscribe",
+     0
+    ],
+    [
+     "video",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 73,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "steps",
+     0.01
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "calendar",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 74,
+   "choice": "code",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 75,
+   "choice": "summary",
+   "confidence": 0.72,
+   "margin": 0.54,
+   "top": [
+    [
+     "summary",
+     0.73
+    ],
+    [
+     "text",
+     0.19
+    ],
+    [
+     "heading",
+     0.08
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 76,
+   "choice": "list",
+   "confidence": 0.85,
+   "margin": 0.74,
+   "top": [
+    [
+     "list",
+     0.86
+    ],
+    [
+     "summary",
+     0.12
+    ],
+    [
+     "feature_grid",
+     0.02
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "rating",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 77,
+   "choice": "heading",
+   "confidence": 0.64,
+   "margin": 0.5,
+   "top": [
+    [
+     "heading",
+     0.65
+    ],
+    [
+     "related",
+     0.15
+    ],
+    [
+     "teaser_card",
+     0.08
+    ],
+    [
+     "cross_promo",
+     0.06
+    ],
+    [
+     "table_of_contents",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 78,
+   "choice": "text",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "steps",
+     0.03
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 79,
+   "choice": "code",
+   "confidence": 0.92,
+   "margin": 0.85,
+   "top": [
+    [
+     "code",
+     0.92
+    ],
+    [
+     "tabs",
+     0.07
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 80,
+   "choice": "text",
+   "confidence": 0.93,
+   "margin": 0.91,
+   "top": [
+    [
+     "text",
+     0.94
+    ],
+    [
+     "steps",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 81,
+   "choice": "list",
+   "confidence": 0.93,
+   "margin": 0.88,
+   "top": [
+    [
+     "list",
+     0.93
+    ],
+    [
+     "feature_grid",
+     0.05
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 82,
+   "choice": "heading",
+   "confidence": 0.73,
+   "margin": 0.67,
+   "top": [
+    [
+     "heading",
+     0.74
+    ],
+    [
+     "cross_promo",
+     0.07
+    ],
+    [
+     "teaser_card",
+     0.07
+    ],
+    [
+     "related",
+     0.06
+    ],
+    [
+     "cta",
+     0.03
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 83,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 84,
+   "choice": "text",
+   "confidence": 0.7,
+   "margin": 0.43,
+   "top": [
+    [
+     "text",
+     0.71
+    ],
+    [
+     "summary",
+     0.28
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 85,
+   "choice": "list",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "list",
+     0.96
+    ],
+    [
+     "feature_grid",
+     0.03
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 86,
+   "choice": "heading",
+   "confidence": 0.76,
+   "margin": 0.67,
+   "top": [
+    [
+     "heading",
+     0.77
+    ],
+    [
+     "teaser_card",
+     0.1
+    ],
+    [
+     "related",
+     0.05
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "unclear",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 87,
+   "choice": "text",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "text",
+     0.96
+    ],
+    [
+     "callout",
+     0.02
+    ],
+    [
+     "summary",
+     0.02
+    ],
+    [
+     "accordion",
+     0
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 88,
+   "choice": "steps",
+   "confidence": 0.86,
+   "margin": 0.81,
+   "top": [
+    [
+     "steps",
+     0.88
+    ],
+    [
+     "text",
+     0.07
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "steps"
+  },
+  {
+   "index": 89,
+   "choice": "code",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "byline",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 90,
+   "choice": "steps",
+   "confidence": 0.81,
+   "margin": 0.75,
+   "top": [
+    [
+     "steps",
+     0.82
+    ],
+    [
+     "list",
+     0.07
+    ],
+    [
+     "code",
+     0.07
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "callout",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "steps"
+  },
+  {
+   "index": 91,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 92,
+   "choice": "callout",
+   "confidence": 0.68,
+   "margin": 0.38,
+   "top": [
+    [
+     "callout",
+     0.69
+    ],
+    [
+     "text",
+     0.31
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "byline",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "callout"
+  },
+  {
+   "index": 93,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "cart",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "byline",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 94,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "unclear",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 95,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 96,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "pricing_table",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 97,
+   "choice": "image",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "image",
+     0.95
+    ],
+    [
+     "toolbar",
+     0.05
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "image"
+  },
+  {
+   "index": 98,
+   "choice": "text",
+   "confidence": 0.74,
+   "margin": 0.56,
+   "top": [
+    [
+     "text",
+     0.75
+    ],
+    [
+     "summary",
+     0.19
+    ],
+    [
+     "callout",
+     0.06
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 99,
+   "choice": "list",
+   "confidence": 0.92,
+   "margin": 0.89,
+   "top": [
+    [
+     "list",
+     0.93
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "feature_grid",
+     0.03
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 100,
+   "choice": "heading",
+   "confidence": 0.82,
+   "margin": 0.77,
+   "top": [
+    [
+     "heading",
+     0.83
+    ],
+    [
+     "related",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "table_of_contents",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 101,
+   "choice": "text",
+   "confidence": 0.93,
+   "margin": 0.86,
+   "top": [
+    [
+     "text",
+     0.93
+    ],
+    [
+     "callout",
+     0.07
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "external_links",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 102,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "calendar",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 103,
+   "choice": "text",
+   "confidence": 0.78,
+   "margin": 0.58,
+   "top": [
+    [
+     "text",
+     0.79
+    ],
+    [
+     "callout",
+     0.21
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 104,
+   "choice": "heading",
+   "confidence": 0.83,
+   "margin": 0.75,
+   "top": [
+    [
+     "heading",
+     0.84
+    ],
+    [
+     "related",
+     0.09
+    ],
+    [
+     "feature_grid",
+     0.04
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 105,
+   "choice": "text",
+   "confidence": 0.57,
+   "margin": 0.32,
+   "top": [
+    [
+     "text",
+     0.59
+    ],
+    [
+     "related",
+     0.27
+    ],
+    [
+     "cross_promo",
+     0.11
+    ],
+    [
+     "external_links",
+     0.01
+    ],
+    [
+     "callout",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 106,
+   "choice": "related",
+   "confidence": 0.63,
+   "margin": 0.38,
+   "top": [
+    [
+     "related",
+     0.64
+    ],
+    [
+     "heading",
+     0.26
+    ],
+    [
+     "external_links",
+     0.03
+    ],
+    [
+     "site_footer",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "related",
+   "final": "heading",
+   "policy": "heading-is-heading"
+  },
+  {
+   "index": 107,
+   "choice": "text",
+   "confidence": 0.47,
+   "margin": 0.06,
+   "top": [
+    [
+     "text",
+     0.48
+    ],
+    [
+     "related",
+     0.42
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "heading",
+     0.03
+    ],
+    [
+     "external_links",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "related",
+   "final": "text"
+  },
+  {
+   "index": 108,
+   "choice": "external_links",
+   "confidence": 0.56,
+   "margin": 0.25,
+   "top": [
+    [
+     "external_links",
+     0.58
+    ],
+    [
+     "related",
+     0.33
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "references",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "related",
+   "final": "external_links"
+  },
+  {
+   "index": 109,
+   "choice": "related",
+   "confidence": 0.44,
+   "margin": 0.2,
+   "top": [
+    [
+     "related",
+     0.46
+    ],
+    [
+     "heading",
+     0.26
+    ],
+    [
+     "site_footer",
+     0.1
+    ],
+    [
+     "byline",
+     0.07
+    ],
+    [
+     "map",
+     0.05
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 110,
+   "choice": "quote",
+   "confidence": 0.64,
+   "margin": 0.5,
+   "top": [
+    [
+     "quote",
+     0.66
+    ],
+    [
+     "related",
+     0.16
+    ],
+    [
+     "callout",
+     0.11
+    ],
+    [
+     "metadata",
+     0.04
+    ],
+    [
+     "map",
+     0.01
+    ]
+   ],
+   "block": "quote",
+   "slot": "related",
+   "final": "quote"
+  },
+  {
+   "index": 111,
+   "choice": "heading",
+   "confidence": 0.72,
+   "margin": 0.46,
+   "top": [
+    [
+     "heading",
+     0.73
+    ],
+    [
+     "related",
+     0.27
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "related",
+   "final": "heading"
+  },
+  {
+   "index": 112,
+   "choice": "related",
+   "confidence": 0.58,
+   "margin": 0.29,
+   "top": [
+    [
+     "related",
+     0.6
+    ],
+    [
+     "teaser_card",
+     0.31
+    ],
+    [
+     "list",
+     0.07
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 113,
+   "choice": "heading",
+   "confidence": 0.63,
+   "margin": 0.55,
+   "top": [
+    [
+     "heading",
+     0.64
+    ],
+    [
+     "metadata",
+     0.09
+    ],
+    [
+     "site_footer",
+     0.05
+    ],
+    [
+     "unclear",
+     0.04
+    ],
+    [
+     "related",
+     0.04
+    ]
+   ],
+   "block": "heading",
+   "slot": "related",
+   "final": "heading"
+  },
+  {
+   "index": 114,
+   "choice": "related",
+   "confidence": 0.29,
+   "margin": 0.13,
+   "top": [
+    [
+     "related",
+     0.31
+    ],
+    [
+     "section_nav",
+     0.18
+    ],
+    [
+     "teaser_card",
+     0.17
+    ],
+    [
+     "site_footer",
+     0.14
+    ],
+    [
+     "list",
+     0.1
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 115,
+   "choice": "heading",
+   "confidence": 0.7,
+   "margin": 0.5,
+   "top": [
+    [
+     "heading",
+     0.71
+    ],
+    [
+     "related",
+     0.21
+    ],
+    [
+     "site_footer",
+     0.03
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "references",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "related",
+   "final": "heading"
+  },
+  {
+   "index": 116,
+   "choice": "related",
+   "confidence": 0.77,
+   "margin": 0.63,
+   "top": [
+    [
+     "related",
+     0.78
+    ],
+    [
+     "teaser_card",
+     0.15
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "page_tools",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 117,
+   "choice": "section_nav",
+   "confidence": 0.92,
+   "margin": 0.86,
+   "top": [
+    [
+     "section_nav",
+     0.93
+    ],
+    [
+     "pagination",
+     0.07
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 118,
+   "choice": "feedback",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "feedback",
+     0.98
+    ],
+    [
+     "vote_controls",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "form",
+   "final": "feedback"
+  },
+  {
+   "index": 119,
+   "choice": "table_of_contents",
+   "confidence": 0.8,
+   "margin": 0.63,
+   "top": [
+    [
+     "table_of_contents",
+     0.81
+    ],
+    [
+     "heading",
+     0.18
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "stats",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 120,
+   "choice": "table_of_contents",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "table_of_contents",
+     0.99
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ],
+    [
+     "team",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 121,
+   "choice": "site_nav",
+   "confidence": 0.4,
+   "margin": 0.13,
+   "top": [
+    [
+     "site_nav",
+     0.42
+    ],
+    [
+     "site_footer",
+     0.29
+    ],
+    [
+     "section_nav",
+     0.15
+    ],
+    [
+     "list",
+     0.1
+    ],
+    [
+     "text",
+     0.02
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 122,
+   "choice": "site_footer",
+   "confidence": 0.5,
+   "margin": 0.08,
+   "top": [
+    [
+     "site_footer",
+     0.52
+    ],
+    [
+     "site_nav",
+     0.44
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "settings",
+     0.01
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 123,
+   "choice": "site_footer",
+   "confidence": 0.53,
+   "margin": 0.21,
+   "top": [
+    [
+     "site_footer",
+     0.55
+    ],
+    [
+     "settings",
+     0.34
+    ],
+    [
+     "status_message",
+     0.05
+    ],
+    [
+     "legal_notice",
+     0.02
+    ],
+    [
+     "site_nav",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 124,
+   "choice": "cookie_banner",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "cookie_banner",
+     1
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "trending",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "gate",
+   "final": "cookie_banner"
+  }
+ ],
+ "reviewedAt": "2026-09-20T11:45:42.054Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

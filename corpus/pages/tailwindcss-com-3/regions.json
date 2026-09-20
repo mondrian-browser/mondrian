@@ -1,0 +1,763 @@
+{
+ "url": "https://tailwindcss.com/docs/installation/tailwind-cli",
+ "title": "Tailwind CLI - Tailwind CSS",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 1929,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "div",
+   "class": "flex h-14 items-center justify-between",
+   "landmarks": [],
+   "textLength": 45,
+   "text": "v4.3\n⌘KCtrl KDocsPlayBlogShowcasePartnersPlus",
+   "counts": {
+    "links": 8,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 159,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.71,
+   "geometry": {
+    "top": 0,
+    "height": 56,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div×18",
+   "class": "flex flex-col gap-3",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 2827,
+   "text": "Getting started\nInstallation\nEditor setup\nCompatibility\nUpgrade guide\nCore concepts\nStyling with utility classes\nHover, focus, and other states\nResponsive design\nDark mode\nTheme variables\nColors\nAdding custom styles\nDetecting classes in source files\nFunctions and directives\nBase styles\nPreflight\nLayout\naspect-ratio\ncolumns\nbreak-after\nbreak-before\nbreak-inside\nbox-decoration-break\nbox-sizing\ndispl",
+   "counts": {
+    "links": 198,
+    "images": 0,
+    "headings": 18,
+    "listItems": 198,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 18,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 81,
+    "height": 7408,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "class": "mt-2 text-3xl font-medium tracking-tight",
+   "landmarks": [],
+   "textLength": 42,
+   "text": "Installation\nGet started with Tailwind CSS",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 97,
+    "height": 68,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "mt-6 text-base/7 text-gray-700 dark:text-gray-300",
+   "landmarks": [],
+   "textLength": 198,
+   "text": "Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 189,
+    "height": 56,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h2",
+   "class": "mb-6 text-lg font-semibold tracking-tight",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 67,
+   "text": "It's fast, flexible, and reliable — with zero-runtime.\nInstallation",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 261,
+    "height": 96,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "class": "mb-px flex gap-x-6 border-b",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 63,
+   "text": "Using Vite\nUsing PostCSS\nTailwind CLI\nFramework Guides\nPlay CDN",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 5,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.94,
+   "geometry": {
+    "top": 381,
+    "height": 37,
+    "widthFraction": 0.68,
+    "leftFraction": 0.26,
+    "pageFraction": 0.2,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 215,
+   "text": "The simplest and fastest way to get up and running with Tailwind CSS from scratch is with the Tailwind CLI tool. The CLI is also available as a standalone executable if you want to use it without installing Node.js.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 443,
+    "height": 56,
+    "widthFraction": 0.53,
+    "leftFraction": 0.26,
+    "pageFraction": 0.23,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "01",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 539,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.28,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 70,
+   "text": "Install Tailwind CSS\nInstall tailwindcss and @tailwindcss/cli via npm.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 539,
+    "height": 96,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.28,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 49,
+   "text": "Terminal\nnpm install tailwindcss @tailwindcss/cli",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 539,
+    "height": 96,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.28,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "02",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 675,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.35,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 88,
+   "text": "Import Tailwind in your CSS\nAdd the @import \"tailwindcss\"; import to your main CSS file.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 675,
+    "height": 96,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.35,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 36,
+   "text": "src/input.css\n@import \"tailwindcss\";",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 675,
+    "height": 96,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.35,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "03",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 811,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.42,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h4",
+   "class": "mb-2 text-sm/6 font-semibold text-slate-900",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 36,
+   "text": "Start the Tailwind CLI build process",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 811,
+    "height": 24,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.42,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 74,
+   "text": "Run the CLI tool to scan your source files for classes and build your CSS.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 843,
+    "height": 56,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 76,
+   "text": "Terminal\nnpx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 811,
+    "height": 111,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.42,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 17,
+   "tag": "div",
+   "class": "grid size-7 grid-cols-1 grid-rows-1",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 2,
+   "text": "04",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 962,
+    "height": 28,
+    "widthFraction": 0.02,
+    "leftFraction": 0.26,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "div",
+   "class": "col-span-5 xl:col-span-2",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 140,
+   "text": "Start using Tailwind in your HTML\nAdd your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 962,
+    "height": 351,
+    "widthFraction": 0.25,
+    "leftFraction": 0.29,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "div",
+   "class": "rounded-xl p-1 text-sm scheme-dark",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 268,
+   "text": "src/index.html\n<!doctype html><html><head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <link href=\"./output.css\" rel=\"stylesheet\"></head><body> <h1 class=\"text-3xl font-bold underline\"> Hello world! </h1></body></html>",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 962,
+    "height": 351,
+    "widthFraction": 0.38,
+    "leftFraction": 0.56,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "footer",
+   "class": "bg-white text-sm/loose text-gray-950 dark:bg-gray-950",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 263,
+   "text": "Tailwind CSS\nDocumentation\nPlayground\nBlog\nShowcase\nResources\nRefactoring UI\nHeadless UI\nHeroicons\nHero Patterns\nCommunity\nGitHub\nX\nTailwind CSS\nDocumentation\nPlayground\nBlog\nShowcase\nResources\nRefactoring UI\nHeadless UI\nHeroicons\nHero Patterns\nCommunity\nGitHub\nX",
+   "counts": {
+    "links": 20,
+    "images": 0,
+    "headings": 6,
+    "listItems": 20,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 1474,
+    "height": 284,
+    "widthFraction": 0.73,
+    "leftFraction": 0.23,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "mx-auto flex w-full flex-col",
+   "landmarks": [],
+   "textLength": 52,
+   "text": "Copyright © 2026 Tailwind Labs Inc.·Trademark Policy",
+   "counts": {
+    "links": 1,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 1799,
+    "height": 34,
+    "widthFraction": 0.71,
+    "leftFraction": 0.24,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "site": "nodejs.org",
+ "pages": 4,
+ "pageIds": [
+  "nodejs-org-1",
+  "nodejs-org-2",
+  "nodejs-org-3",
+  "nodejs-org-4"
+ ],
+ "derivedAt": "2026-09-20T11:10:07.588Z",
+ "blocks": [
+  {
+   "selector": "header > h1",
+   "type": "title",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > ul",
+   "type": "table_of_contents",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=navigation] > details#toc",
+   "type": "table_of_contents",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=main] section > h2",
+   "type": "heading",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  }
+ ]
+}

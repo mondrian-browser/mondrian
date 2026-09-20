@@ -1,0 +1,48 @@
+{
+ "site": "lobste.rs",
+ "pages": 4,
+ "pageIds": [
+  "lobste-rs-1",
+  "lobste-rs-2",
+  "lobste-rs-3",
+  "lobste-rs-4"
+ ],
+ "derivedAt": "2026-09-20T11:16:15.761Z",
+ "blocks": [
+  {
+   "selector": "header > header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > ol",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > ol.comments1",
+   "type": "comments",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > ol.list",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}
