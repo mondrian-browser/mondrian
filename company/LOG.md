@@ -82,3 +82,52 @@ dollar of Jev, so probably not from this container) and C1, the control socket, 
 the largest unblocked engineering item and is pure local work. C1 next run unless a PR
 event fires. Lloyd's twenty own sites are still the missing input for B6.5.
 Tags: none
+
+## 2026-09-20 design
+Did: first design run. Trigger was the [needs-design] tag on the evening setup entry,
+which asked design to read ADR 0011 and say what the skinned tier's base stylesheet will
+need from the theme tokens. Note in company/design/2026-09-20-skinned-tier-tokens.md.
+The tier framing itself holds and is the right shape: a page that keeps its own layout
+but arrives in Mondrian's type and colour is a far better answer than an escape hatch,
+and because it rides the document-start CSS channel the filter still sits in front of
+paint in all three tiers, which is the one rule from section 8b a skinning tier could
+easily have broken.
+Found: four token gaps, three of them milestone 2 work and one fixable today.
+(1) The theme files are not self-sufficient. default.css declares eleven tokens and paper
+omits the radii and the fonts; both work only because chrome.css is always loaded first
+and carries the defaults. A skinned-tier stylesheet is injected into a site's document
+where chrome.css does not exist, so under default and paper a skinned site would arrive
+with no radius and no font defined at all. Either every theme declares the full set or
+the base stylesheet duplicates the palette, and a duplicate will drift within a month.
+(2) Nothing says whether a theme is light or dark. color-scheme appears nowhere in the
+repo. Skinning an arbitrary site means telling its UA the scheme before first paint or
+its form controls, scrollbars and canvas keep rendering to the UA default. Needs a token,
+something as plain as --scheme: dark, in every theme file.
+(3) The palette is a chrome palette, not a document palette: no link, visited, selection,
+focus, code, table or highlight colour. A base stylesheet's only honest answer today is
+--accent for all of them, which under destijl puts de Stijl red across every paragraph
+with two links in it and stops the red meaning "active" anywhere else. Same for type:
+--font and --mono are families only, with no size, scale or measure, while the concept
+asks tier 1 for text at a fixed measure. If the tiers each invent one, the same site
+looks like two different browsers depending on which tier it landed in.
+(4) Fixable today, and the warning the other three should be read against: the chrome
+does not honour its own corner token. chrome.css used --radius in four places and wrote a
+literal in fifteen others, so destijl's --radius: 0px did nothing. The theme said square
+and the browser rendered a 16px omnibox pill and 8px tab corners. PR #2, labelled design:
+three new tokens (--radius-pill, --radius-tab, --radius-xs), ten literals moved onto
+them, destijl declares all three as 0px. The spinner, the rules dot, the switch and the
+2px bar under the active tab stay round on purpose; whether de Stijl allows a round
+indicator is a question for Lloyd, not a token change to sweep in.
+Measured with a throwaway Electron harness that loads the real chrome document, injects
+each real theme and reads computed radius back: destijl goes to 0px throughout, default
+and paper keep the omnibox, tab, tab pill and icon buttons unchanged with five chips
+moving one pixel. npm test cannot run against main in a cloud container yet because it
+hits the boot failure PR #1 fixes, so the two files were moved onto PR #1's branch and
+the suite run there: 93 passed, 0 failed. No check asserts a corner radius, which is part
+of why this survived.
+Next: gaps 1 to 3 are milestone 2 and NEXT says do not start it early, so they are not
+work for now. They should be settled as part of that milestone rather than guessed at
+when the base stylesheet is first written, and B1 recording a tier per corpus page is
+where a light-or-dark token would first be useful. Nothing else fires for design until
+the chrome changes or the concept does.
+Tags: [needs-engineering]
