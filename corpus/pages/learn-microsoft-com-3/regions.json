@@ -1,0 +1,1788 @@
+{
+ "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world",
+ "title": "Hello World - Introductory tutorial - A tour of C# | Microsoft Learn",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 8708,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "section",
+   "class": "tier1-event-banner position-relative padding-block-md ignite-banner",
+   "landmarks": [
+    "header",
+    "section"
+   ],
+   "textLength": 204,
+   "text": "Skip to main content\nSkip to Ask Learn chat experience\nMicrosoft Ignite\nNovember 17–20, 2026\nInteractive learning, certifications, and direct access to experts all in one place.\nRegister now\nDismiss alert",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": -1,
+    "height": 149,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "display-flex gap-xxs-desktop",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1734,
+   "text": "Learn\nDocumentationAll product documentation\nAzure documentation\nDynamics 365 documentation\nMicrosoft Copilot documentation\nMicrosoft 365 documentation\nPower Platform documentation\nCode samples\nTroubleshooting documentation\nRegister now\nMicrosoft Ignite | November 17-20, 2026Interactive learning, certifications, and direct access to experts all in one place.\nTraining & LabsAll training\nAzure train",
+   "counts": {
+    "links": 38,
+    "images": 1,
+    "headings": 0,
+    "listItems": 38,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 17,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 26,
+     "height": 26
+    }
+   ],
+   "linkTextRatio": 0.44,
+   "geometry": {
+    "top": 148,
+    "height": 53,
+    "widthFraction": 0.38,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "button",
+   "class": "button button-clear inner-focus",
+   "ariaLabel": "Open search",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 7,
+   "text": "Sign in",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 157,
+    "height": 36,
+    "widthFraction": 0.06,
+    "leftFraction": 0.91,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "display-flex",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1222,
+   "text": "C#\nFundamentalsTour of C#\nFundamentals\nWhat's new\nFeaturesProgramming concepts\nLINQ\nAsynchronous programming\nAdvanced topics\n.NET compiler platform SDK\nReferenceLanguage reference\nTypes\nKeywords\nOperators and expressions\nStatements\nSpecial characters\nXML documentation comments\nSpecificationsSpecifications\nECMA C# draft\nFeature Specifications\n.NET workloadsWeb\nCloud\nCloud-nativeAspire\nMicrosoft Orl",
+   "counts": {
+    "links": 65,
+    "images": 0,
+    "headings": 0,
+    "listItems": 81,
+    "tableRows": 0,
+    "controls": 17,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 207,
+    "height": 45,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "button",
+   "class": "button button-clear button-sm inner-focus",
+   "ariaLabel": "Collapse",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 264,
+    "height": 32,
+    "widthFraction": 0.02,
+    "leftFraction": 0.16,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "form",
+   "class": "margin-bottom-xxs display-none-layout-menu-collapsed",
+   "role": "search",
+   "ariaLabel": "Search",
+   "landmarks": [
+    "section",
+    "nav",
+    "form"
+   ],
+   "textLength": 42,
+   "text": "Search Suggestions will filter as you type",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 304,
+    "height": 32,
+    "widthFraction": 0.17,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "class": "tree table-of-contents is-vertically-scrollable flex-grow-1",
+   "role": "tree",
+   "ariaLabel": "Table of contents",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 546,
+   "text": "C# documentation\nGet startedTour of C#\nWhat you can build\nTutorialsChoose your first lesson\nHello world and text\nNumbers in C#\nTuples and types\nBranches and loops\nList collections\nPattern matching\nC# language strategy\nLearn C# for Java developers\nLearn C# for JavaScript developers\nLearn C# for Python developers\nFundamentals\nWhat's new in C#\nTutorials\nLanguage-Integrated Query (LINQ)\nAsynchronous p",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 27,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.51,
+   "geometry": {
+    "top": 343,
+    "height": 424,
+    "widthFraction": 0.17,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "button",
+   "class": "margin-block-xxs button button-sm button-clear",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 12,
+   "text": "Download PDF",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 776,
+    "height": 32,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "display-flex align-items-center justify-content-space-between",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 162,
+   "text": "Learn\n.NET\nC#\n Learn\n.NET\nC#\n Ask Learn\n Ask Learn\n Reading mode\n Table of contents\n Read in English\n Add to Collections\n Add to Plans\n Edit\n Copy Markdown\n Print",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 9,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 280,
+    "height": 35,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h1",
+   "id": "tutorial-explore-the-c-language",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 33,
+   "text": "Tutorial: Explore the C# language",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 335,
+    "height": 52,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "id": "ms--ai-summary-cta",
+   "class": "margin-top-xs display-flex align-items-center",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "Summarize this article for me",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 423,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 251,
+   "text": "This tutorial teaches you C#. You write your first C# program and see the results of compiling and running your code. It contains a series of lessons that begin with a \"Hello World\" program. These lessons teach you the fundamentals of the C# language.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 466,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "alert is-success",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 206,
+   "text": "Tip\nNew to programming? Start here - this tutorial assumes no prior experience. Coming from another language? You might prefer to skim the code samples and jump ahead to Numbers in C# or Branches and loops.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 566,
+    "height": 162,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 187,
+   "text": "In this tutorial, you:\nLaunch a GitHub Codespace with a C# development environment.\nCreate your first C# app.\nCreate and use variables to store text data.\nUse runtime APIs with text data.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 744,
+    "height": 156,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "id": "prerequisites",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "Prerequisites",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 920,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 261,
+   "text": "You must have one of the following options:\nA GitHub account to use GitHub Codespaces. If you don't already have one, you can create a free account at GitHub.com.\nA computer with the following tools installed:\nThe .NET 10 SDK.\nVisual Studio Code.\nThe C# DevKit.",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 981,
+    "height": 212,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "id": "open-codespaces",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Open Codespaces",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1213,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 245,
+   "text": "To start a GitHub Codespace with the tutorial environment, open a browser window to the tutorial codespace repository. Select the green Code button, and the Codespaces tab. Then select the + sign to create a new Codespace using this environment.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 1275,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h2",
+   "id": "run-your-first-program",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "Run your first program",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1379,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 361,
+   "text": "When your codespace loads, create a new file in the tutorials folder named hello-world.cs.\nOpen your new file.\nType or copy the following code into hello-world.cs:\n C#Copy \nConsole.WriteLine(\"Hello, World!\");\nIn the integrated terminal window, make the tutorials folder the current folder, and run your program:\n .NET CLICopy \ncd tutorials\ndotnet hello-world.cs",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1440,
+    "height": 407,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 507,
+   "text": "You ran your first C# program. It's a simple program that prints the message \"Hello World!\" It uses the Console.WriteLine method to print that message. Console is a type that represents the console window. WriteLine is a method of the Console type that prints a line of text to that text console.\nLet's move on and explore more. The rest of this lesson explores working with the string type, which re",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1863,
+    "height": 212,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "h2",
+   "id": "declare-and-use-variables",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 25,
+   "text": "Declare and use variables",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2095,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 66,
+   "text": "Your first program prints the string \"Hello World!\" on the screen.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2157,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "div",
+   "class": "alert is-success",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 391,
+   "text": "Tip\nAs you explore C# (or any programming language), you make mistakes when you write code. The compiler finds those errors and reports them to you. When the output contains error messages, look closely at the example code and the code in your .cs file to see what to fix. That exercise helps you learn the structure of C# code. You can also ask Copilot to find differences or spot mistakes.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2201,
+    "height": 218,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 202,
+   "text": "Your first program is limited to printing one message. You can write more useful programs by using variables. A variable is a symbol you can use to run the same code with different values. Let's try it!",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2435,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1610,
+   "text": "Start with the following code:\n C#Copy \nstring aFriend = \"Bill\";\nConsole.WriteLine(aFriend);\nThe first line declares a variable, aFriend, and assigns it a value, \"Bill\". The second line prints the name.\nYou can assign different values to any variable you declare. You can change the name to one of your friends. Add these two lines following the code you already added. Make sure you keep the declara",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 12,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 2535,
+    "height": 1236,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "h2",
+   "id": "work-with-strings",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Work with strings",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3791,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 153,
+   "text": "Your last edit was your first look at what you can do with strings. Let's explore more.\nYou're not limited to a single variable between the curly braces.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3852,
+    "height": 72,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 599,
+   "text": "Try the following code at the bottom of your app:\n C#Copy \nstring firstFriend = \"Maria\";\nstring secondFriend = \"Sage\";\nConsole.WriteLine($\"My friends are {firstFriend} and {secondFriend}\");\nStrings are more than a collection of letters. You can find the length of a string by using Length. Length is a property of a string and it returns the number of characters in that string.\nAdd the following cod",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3940,
+    "height": 429,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "div",
+   "class": "alert is-success",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 403,
+   "text": "Tip\nNow is a good time to explore on your own. You learned that Console.WriteLine() writes text to the screen. You learned how to declare variables and concatenate strings together. Experiment in your code. Your editor has a feature called IntelliSense that makes suggestions for what you can do. Type a . after the d in firstFriend. You see a list of suggestions for properties and methods you can u",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4385,
+    "height": 218,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 159,
+   "text": "You've been using a method, Console.WriteLine, to print messages. A method is a block of code that implements some action. It has a name, so you can access it.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 4619,
+    "height": 56,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "div",
+   "class": "alert is-success",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 117,
+   "text": "Tip\nLearn more: Explore strings in depth, or read about methods and program structure in the C# Fundamentals section.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 4691,
+    "height": 134,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "h2",
+   "id": "remove-whitespace-from-strings",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 30,
+   "text": "Remove whitespace from strings",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4845,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 264,
+   "text": "Suppose your strings have leading or trailing spaces that you don't want to display. You want to trim the spaces from the strings.\nThe Trim method and related methods TrimStart and TrimEnd perform this task. Use these methods to remove leading and trailing spaces.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 4907,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 353,
+   "text": "Try the following code:\n C#Copy \nstring greeting = \" Hello World! \";\nConsole.WriteLine($\"[{greeting}]\");\nstring trimmedGreeting = greeting.TrimStart();\nConsole.WriteLine($\"[{trimmedGreeting}]\");\ntrimmedGreeting = greeting.TrimEnd();\nConsole.WriteLine($\"[{trimmedGreeting}]\");\ntrimmedGreeting = greeting.Trim();\nConsole.WriteLine($\"[{trimmedGreeting}]\");",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5007,
+    "height": 318,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 449,
+   "text": "The square brackets [ and ] help you visualize what the Trim, TrimStart, and TrimEnd methods do. The brackets show where whitespace starts and ends.\nThis sample reinforces a couple of important concepts for working with strings. The methods that manipulate strings return new string objects rather than making modifications in place. You can see that each call to any of the Trim methods returns a ne",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5341,
+    "height": 184,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h2",
+   "id": "search-and-replace-text-in-strings",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 34,
+   "text": "Search and replace text in strings",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5545,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 470,
+   "text": "You can use other methods to work with a string. For example, you might use a search and replace command in an editor or word processor. The Replace method does something similar in a string. It searches for a substring and replaces it with different text. The Replace method takes two parameters. These parameters are the strings between the parentheses. The first string is the text to search for. ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5606,
+    "height": 140,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1187,
+   "text": "Add this code. Type it in to see the hints as you start typing .Re after the sayHello variable:\n C#Copy \nstring sayHello = \"Hello World!\";\nConsole.WriteLine(sayHello);\nsayHello = sayHello.Replace(\"Hello\", \"Greetings\");\nConsole.WriteLine(sayHello);\nTwo other useful methods make a string all caps or all lowercase. Try the following code.\nType it in to see how IntelliSense provides hints as you start",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 5762,
+    "height": 774,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h2",
+   "id": "challenge",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 9,
+   "text": "Challenge",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6556,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 364,
+   "text": "Two similar methods, StartsWith and EndsWith, also search for substrings in a string. These methods find a substring at the beginning or at the end of the string. Try to modify the previous sample to use StartsWith and EndsWith instead of Contains. Search for \"You\" or \"goodbye\" at the beginning of a string. Search for \"hello\" or \"goodbye\" at the end of a string.",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 6618,
+    "height": 112,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "class": "alert is-info",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 167,
+   "text": "Note\nWatch your punctuation when you test for the text at the end of the string. If the string ends with a period, you must check for a string that ends with a period.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6746,
+    "height": 134,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 204,
+   "text": "You should get true for starting with \"You\" and ending with \"hello\" and false for starting with or ending with \"goodbye\".\nDid you come up with something like the following code (expand to see the answer):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6896,
+    "height": 100,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "details",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 265,
+   "text": "C#Copy \nstring songLyrics = \"You say goodbye, and I say hello\";\nConsole.WriteLine(songLyrics.StartsWith(\"You\"));\nConsole.WriteLine(songLyrics.StartsWith(\"goodbye\"));\nConsole.WriteLine(songLyrics.EndsWith(\"hello\"));\nConsole.WriteLine(songLyrics.EndsWith(\"goodbye\"));",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6996,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 117,
+   "text": "For further reading on the string type:\nC# programming guide article on strings.\nHow to tips on working with strings.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 7040,
+    "height": 100,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "h2",
+   "id": "cleanup-resources",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Cleanup resources",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7160,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 496,
+   "text": "GitHub automatically deletes your Codespace after 30 days of inactivity. If you plan to explore more tutorials in this series, you can leave your Codespace provisioned. If you're ready to visit the .NET site to download the .NET SDK, you can delete your Codespace. To delete your Codespace, open a browser window and navigate to your Codespaces. You should see a list of your codespaces in the window",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 7221,
+    "height": 168,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "h2",
+   "id": "next-steps",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 10,
+   "text": "Next steps",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7409,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 91,
+   "text": "Continue to the next tutorial in this series, or explore related topics in C# Fundamentals:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7471,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 245,
+   "text": "Explore numbers in C#\nStrings — Learn more about the string type you used in this tutorial.\nMethods and program structure — Understand how C# programs are organized.\nFile-based apps — Learn about the dotnet run command you used to run your code.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 7515,
+    "height": 136,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "section",
+   "class": "feedback-section position-relative margin-top-lg border",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 333,
+   "text": "Collaborate with us on GitHub\n The source for this content can be found on GitHub, where you can also create and review issues and pull requests. For more information, see our contributor guide.\n .NET\n feedback\n .NET\n is an open source project. Select a link to provide feedback:\n Open a documentation issue\n Provide product feedback",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 36,
+     "height": 36
+    }
+   ],
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 7699,
+    "height": 247,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "h2",
+   "id": "ms--additional-resources-mobile-heading",
+   "class": "title is-3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Additional resources",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7995,
+    "height": 32,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "ul",
+   "id": "right-rail-recommendations-list-0",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 1274,
+   "text": "Documentation\nInteractive tutorials - A tour of C#\n Learn C# using GitHub Codespaces, and get started with your own development environment.\n Work with Numbers - Introductory tutorial - A tour of C#\n This tutorial teaches you about the numeric types in C#. The tutorial contains a series of lessons that explore numbers and math operations in C#.\n What you can build with C# - A tour of C#\n Explore t",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.23,
+   "geometry": {
+    "top": 8050,
+    "height": 302,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "section",
+   "id": "right-rail-training-mobile",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 198,
+   "text": "Training\n Learning path\n Work with variable data in C# console applications (Get started with C#, Part 4) - Training\n Work with variable data in C# console applications (Get started with C#, Part 4)",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.46,
+   "geometry": {
+    "top": 8381,
+    "height": 104,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "ul",
+   "class": "metadata page-metadata",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Last updated on 02/24/2026",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8534,
+    "height": 26,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "nav",
+   "id": "side-doc-outline",
+   "class": "doc-outline border-bottom padding-bottom-xs margin-bottom-xs",
+   "ariaLabel": "In this article",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 217,
+   "text": "In this article\nPrerequisites\nOpen Codespaces\nRun your first program\nDeclare and use variables\nWork with strings\nRemove whitespace from strings\nSearch and replace text in strings\nChallenge\nCleanup resources\nNext steps",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 1,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 280,
+    "height": 323,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 56,
+   "tag": "section",
+   "id": "ms--site-user-feedback-right-rail",
+   "class": "font-size-sm display-none-print",
+   "landmarks": [
+    "aside",
+    "section"
+   ],
+   "textLength": 161,
+   "text": "Was this page helpful?\n Need help with this topic?\n Want to try using Ask Learn to clarify or guide you through this topic?\n Ask Learn\n Ask Learn\n Suggest a fix?",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 619,
+    "height": 41,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 57,
+   "tag": "footer",
+   "id": "footer",
+   "class": "footer-layout padding-xs padding-sm-desktop has-default-focus",
+   "role": "contentinfo",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 213,
+   "text": "English (United States)\n Your Privacy Choices\n Theme\n Light \n Dark \n High contrast \n AI Disclaimer\n Previous Versions\n Blog\n Contribute\n Privacy\n Consumer Health Privacy\n Terms of Use\n Trademarks\n © Microsoft 2026",
+   "counts": {
+    "links": 10,
+    "images": 1,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 43,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 8583,
+    "height": 125,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

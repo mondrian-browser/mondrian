@@ -1,0 +1,237 @@
+{
+ "site": "redis.io",
+ "pages": 4,
+ "pageIds": [
+  "redis-io-1",
+  "redis-io-2",
+  "redis-io-3",
+  "redis-io-4"
+ ],
+ "derivedAt": "2026-09-20T13:05:12.935Z",
+ "blocks": [
+  {
+   "selector": "main section > p",
+   "type": "text",
+   "n": 27,
+   "purity": 0.85,
+   "pages": 3
+  },
+  {
+   "selector": "main section > ul",
+   "type": "list",
+   "n": 8,
+   "purity": 0.88,
+   "pages": 3
+  },
+  {
+   "selector": "main section > div.highlight",
+   "type": "code",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 2
+  },
+  {
+   "selector": "header > header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main nav > a",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > ol",
+   "type": "steps",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section nav > a",
+   "type": "section_nav",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "main nav > nav",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > h1",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section form > form",
+   "type": "feedback",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > div.tab-nav",
+   "type": "tabs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > h2#when-to-use-flex",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#best-practices-and-limitations",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h3#ram-percentage",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h3#key-and-value-sizes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#create-a-flex-database",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h3#redis-cloud-essentials",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h3#redis-cloud-pro",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#troubleshooting",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#quick-start-with-docker",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#install-on-your-platform",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#docker-powershell",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#memurai-preview",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#what-is-langcache",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#why-use-langcache",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#quick-example",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#langcache-overview",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h3#llm-cost-reduction-with-langcache",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#langcache-architecture",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2#get-started",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

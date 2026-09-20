@@ -1,0 +1,76 @@
+{
+ "site": "rnz.co.nz",
+ "pages": 4,
+ "pageIds": [
+  "rnz-co-nz-1",
+  "rnz-co-nz-2",
+  "rnz-co-nz-3",
+  "rnz-co-nz-4"
+ ],
+ "derivedAt": "2026-09-20T12:20:30.814Z",
+ "blocks": [
+  {
+   "selector": "main article > figure",
+   "type": "image",
+   "n": 7,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header > header",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer nav > nav",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> img",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > h1",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main aside > h2#related-stories-heading",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main aside > aside",
+   "type": "newsletter",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > ul.scrollbar-hide",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > iframe#liveblog-iframe",
+   "type": "embed",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

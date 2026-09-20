@@ -1,0 +1,405 @@
+{
+ "site": "minimalistbaker.com",
+ "pages": 4,
+ "pageIds": [
+  "minimalistbaker-com-1",
+  "minimalistbaker-com-2",
+  "minimalistbaker-com-3",
+  "minimalistbaker-com-4"
+ ],
+ "derivedAt": "2026-09-20T13:44:27.179Z",
+ "blocks": [
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 9,
+   "purity": 0.78,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure.wp-block-image",
+   "type": "image",
+   "n": 7,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > header.site-header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "article > img.attachment-be_archive",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article > div.post-summary__content",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> iframe",
+   "type": "ad",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "footer > footer.site-footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div.adthrive-comscore",
+   "type": "cookie_banner",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > h3.wprm-recipe-header",
+   "type": "heading",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article > article.post-summary",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header.archive-description",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div.facet-wrap",
+   "type": "filters",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > article.post-summary",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main nav > nav.archive-pagination",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.wprm-recipe-meta-container",
+   "type": "metadata",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.page-header-inner",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.pick-of-the-week",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.wp-block-group__inner-container",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "form > form.search-form",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.recipe-key__items",
+   "type": "definition_list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.popular-recipes__title-container",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.popular-posts__grid",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.recipe-roundups__title-container",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h2.featured-categories__title",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.category-navigation",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.shop-feature__overlay",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.subscribe-section-inner",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > h1.entry-title",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > div.entry-key-categories-and-jump",
+   "type": "rating",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div#adthrive-auto-injected-container",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#h-what-is-fattoush",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2.wp-block-heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#h-more-easy-refreshing-salads",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul.wp-block-list",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2.wprm-recipe-name",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.wprm-recipe-header-right",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.wprm-recipe-block-container",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.wprm-unit-conversion-container",
+   "type": "settings",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.wprm-recipe-ingredient-group",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul.wprm-recipe-instructions",
+   "type": "steps",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.wprm-nutrition-label-container",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.did-you-make-this",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > article.post-summary",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#custom_html-3",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#reply-title",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main form > form#commentform",
+   "type": "form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.wpr-comment-filters",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ol.comment-list",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section > section#search-2",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section > section#custom_html-5",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section > p.vertical-subscribe__image-container",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section > h4.is-style-alt",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section > p.vertical-subscribe__content",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside section form > form.wpforms-validate",
+   "type": "form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=dialog] > div.pum-container",
+   "type": "popup",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

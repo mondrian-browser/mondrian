@@ -1,0 +1,526 @@
+{
+ "url": "https://developer.android.com/training/wearables/versions/7",
+ "title": "Wear OS 7 overview  |  Android Developers",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 1714,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "tab",
+   "class": "devsite-dropdown devsite-dropdown-full",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 1041,
+   "text": "Essentials\n Build AI experiences\n Build AI-powered Android apps with Gemini APIs and more.\n Get started\n Get started\n Create your first app. Use Compose for UI and adaptive app development to support multiple device form factors.\n Hello, world!\n Developer Verification\n Adaptive apps\n Compose for UI\n AI-powered IDE\n Training\n Monetization with Play ↗️\n Optimize by form factor\n Build apps that optim",
+   "counts": {
+    "links": 29,
+    "images": 1,
+    "headings": 0,
+    "listItems": 37,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Android Developers",
+     "width": 137,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.21,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "tab×2",
+   "class": "devsite-dropdown devsite-dropdown-full",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 1681,
+   "text": "Design & Plan\n Excellent Experiences\n Build the best experiences for your best users.\n Learn more\n UI Design\n Design a beautiful user interface using Android best practices.\n Design for Android\n Mobile\n Desktop experiences\n XR Headsets & XR Glasses\n AI Glasses\n Widgets\n Wear OS\n Android TV\n Android for Cars\n Architecture\n Design robust, testable, and maintainable app logic and services.\n Introduct",
+   "counts": {
+    "links": 59,
+    "images": 0,
+    "headings": 0,
+    "listItems": 77,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 2
+   },
+   "coverLabel": "Develop, selected",
+   "linkTextRatio": 0.48,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.21,
+    "leftFraction": 0.23,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "button",
+   "id": "tab-overflow-button-b3RE",
+   "class": "devsite-tabs-overflow-button devsite-icon devsite-icon-arrow-drop-down",
+   "ariaLabel": "Dropdown menu for Extended Navigation",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 4,
+   "text": "More",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.06,
+    "leftFraction": 0.44,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "form",
+   "class": "devsite-search-form",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "form"
+   ],
+   "textLength": 1,
+   "text": "/",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6,
+    "height": 36,
+    "widthFraction": 0.14,
+    "leftFraction": 0.56,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "devsite-language-selector",
+   "ariaLabel": "Select your language preference.",
+   "landmarks": [
+    "section",
+    "role=banner"
+   ],
+   "textLength": 279,
+   "text": "Light theme\n Dark theme\n Device default\nEnglish\n English\n Deutsch\n Español – América Latina\n Français\n Indonesia\n Italiano\n Polski\n Português – Brasil\n Tiếng Việt\n Türkçe\n Русский\n עברית\n العربيّة\n فارسی\n हिंदी\n বাংলা\n ภาษาไทย\n 中文 – 简体\n 中文 – 繁體\n 日本語\n 한국어\nAndroid Studio\nSign in",
+   "counts": {
+    "links": 22,
+    "images": 0,
+    "headings": 0,
+    "listItems": 21,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.62,
+   "geometry": {
+    "top": 6,
+    "height": 36,
+    "widthFraction": 0.27,
+    "leftFraction": 0.71,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "class": "devsite-breadcrumb-list",
+   "ariaLabel": "Lower header breadcrumb",
+   "landmarks": [
+    "section",
+    "role=banner"
+   ],
+   "textLength": 27,
+   "text": "Develop\n Devices\n Wear OS 7",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 89,
+    "height": 24,
+    "widthFraction": 0.2,
+    "leftFraction": 0.02,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "input",
+   "role": "searchbox",
+   "ariaLabel": "Type to filter",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 161,
+    "height": 32,
+    "widthFraction": 0.15,
+    "leftFraction": 0.02,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul",
+   "class": "devsite-nav-list",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 3108,
+   "text": "All devices ⍈\n Get started\nCreate and run your first Wear OS app\n About Wear OS apps\nOverview\nPrinciples of Wear OS development\nWear OS versus mobile development\n Test and debug\nTest on the Wear OS emulator\nDebug a Wear OS app\nDebug Wear OS over Wi-Fi\nConnect a watch to a phone\nCapture Wear UI screenshots\n Design user interfaces\nOverview\nDesign for Wear OS ⍈\nAccessibility\n Build user interfaces\n J",
+   "counts": {
+    "links": 123,
+    "images": 0,
+    "headings": 0,
+    "listItems": 151,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.8,
+   "geometry": {
+    "top": -220,
+    "height": 1124,
+    "widthFraction": 0.18,
+    "leftFraction": 0,
+    "pageFraction": -0.13,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "devsite-sidebar",
+   "landmarks": [
+    "section",
+    "section",
+    "main"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 137,
+    "height": 886,
+    "widthFraction": 0.84,
+    "leftFraction": 0.15,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "section×2",
+   "class": "devsite-landing-row devsite-landing-row-1-up devsite-landing-row-100 devsite-landing-row-hero",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 368,
+   "text": "Wear OS 7\n Prepare your apps for the latest version of Wear OS. Learn about behavior changes in Wear OS 7 and discover how you can further enhance your app's user experience.\n Prepare your app\n Explore features\nmobile_friendly\n Test your app\n Explore how your app behaves on Wear OS 7. Install and test your app on an emulator that runs Wear OS 7.\n Set up the emulator",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 162,
+    "height": 728,
+    "widthFraction": 0.65,
+    "leftFraction": 0.2,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "devsite-content-footer",
+   "class": "nocontent",
+   "landmarks": [
+    "section",
+    "section",
+    "main"
+   ],
+   "textLength": 219,
+   "text": "Content and code samples on this page are subject to the licenses described in the Content License. Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates.\n Last updated 2026-05-19 UTC.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 907,
+    "height": 76,
+    "widthFraction": 0.65,
+    "leftFraction": 0.2,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "nav",
+   "class": "devsite-footer-promos nocontent",
+   "ariaLabel": "Promotions",
+   "landmarks": [
+    "section",
+    "section",
+    "nav"
+   ],
+   "textLength": 145,
+   "text": "X\n Follow @AndroidDev on X\n YouTube\n Check out Android Developers on YouTube\n LinkedIn\n Connect with the Android Developers community on LinkedIn",
+   "counts": {
+    "links": 3,
+    "images": 3,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "X",
+     "width": 48,
+     "height": 48
+    },
+    {
+     "kind": "img",
+     "alt": "YouTube",
+     "width": 48,
+     "height": 48
+    },
+    {
+     "kind": "img",
+     "alt": "LinkedIn",
+     "width": 48,
+     "height": 48
+    }
+   ],
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 1024,
+    "height": 213,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "nav",
+   "class": "devsite-footer-linkboxes nocontent",
+   "ariaLabel": "Footer links",
+   "landmarks": [
+    "section",
+    "section",
+    "nav"
+   ],
+   "textLength": 566,
+   "text": "More Android\n Android\n Android for Enterprise\n Security\n Source\n News\n Blog\n Podcasts\n Discover\n Gaming\n Machine Learning\n Health & Fitness\n Camera & Media\n Privacy\n 5G\n Android Devices\n Large screens\n Wear OS\n ChromeOS devices\n Android for cars\n Android TV\n Releases\n Android 17\n Android 16\n Android 15\n Android 14\n Android 13\n Android 12\n Android 11\n Documentation and Downloads\n Android Studio gui",
+   "counts": {
+    "links": 34,
+    "images": 0,
+    "headings": 6,
+    "listItems": 40,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 1237,
+    "height": 301,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "devsite-footer-utility nocontent",
+   "landmarks": [
+    "section",
+    "section"
+   ],
+   "textLength": 371,
+   "text": "Android\n Chrome\n Firebase\n Google Cloud Platform\n All products\n Privacy\n License\n Brand guidelines\n Manage cookies\n Get news and tips by email\n Subscribe\n English\n English\n Deutsch\n Español – América Latina\n Français\n Indonesia\n Italiano\n Polski\n Português – Brasil\n Tiếng Việt\n Türkçe\n Русский\n עברית\n العربيّة\n فارسی\n हिंदी\n বাংলা\n ภาษาไทย\n 中文 – 简体\n 中文 – 繁體\n 日本語\n 한국어",
+   "counts": {
+    "links": 32,
+    "images": 1,
+    "headings": 0,
+    "listItems": 31,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Google Developers",
+     "width": 185,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 1538,
+    "height": 176,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "devsite-snackbar-inner",
+   "landmarks": [],
+   "textLength": 90,
+   "text": "Help us improve the Android Developer experience by taking a survey.\nNo, thanksTake survey",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 724,
+    "height": 68,
+    "widthFraction": 0.52,
+    "leftFraction": 0.02,
+    "pageFraction": 0.42,
+    "aboveFold": true
+   }
+  }
+ ]
+}

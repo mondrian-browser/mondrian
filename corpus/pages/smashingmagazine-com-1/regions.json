@@ -1,0 +1,1854 @@
+{
+ "url": "https://www.smashingmagazine.com/",
+ "title": "Smashing Magazine — For Web Designers And Developers",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 9064,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "class": "logo",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Smashing Magazine",
+     "width": 53,
+     "height": 71
+    }
+   ],
+   "coverLabel": "← Back to the homepage",
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16,
+    "height": 71,
+    "widthFraction": 0.04,
+    "leftFraction": 0.03,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "nav",
+   "class": "main-nav",
+   "ariaLabel": "main",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 86,
+   "text": "Articles\nBooks\nEvents\nMembership\nNewsletter\nWrite for us\nAdvertise\nMore\nLess\nMenu\nLess",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.7,
+   "geometry": {
+    "top": 18,
+    "height": 67,
+    "widthFraction": 0.63,
+    "leftFraction": 0.08,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "form",
+   "id": "js-search-form",
+   "class": "search-form",
+   "landmarks": [
+    "header",
+    "form"
+   ],
+   "textLength": 12,
+   "text": "Clear Search",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 23,
+    "height": 57,
+    "widthFraction": 0.24,
+    "leftFraction": 0.72,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "header",
+   "id": "all-topics",
+   "class": "subnav__header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 152,
+   "text": "Accessibility\nUX\nCSS\nJavaScript\nPerformance\nDesign\nFigma\nWallpapers\nReact\nVue\nRound-Ups\nWeb Design\nGuides\nBusiness\nCareer\nPrivacy\nJump to all articles ↬",
+   "counts": {
+    "links": 17,
+    "images": 0,
+    "headings": 0,
+    "listItems": 17,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 103,
+    "height": 69,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "header",
+   "class": "author-post__header",
+   "landmarks": [
+    "main",
+    "section",
+    "article",
+    "header"
+   ],
+   "textLength": 100,
+   "text": "Victor Ayomipo\nwrote\nStop Treating CSS Container Queries Like Traditional Media Queries\nSep 16, 2026",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Victor Ayomipo",
+     "width": 177,
+     "height": 177
+    }
+   ],
+   "linkTextRatio": 0.8,
+   "geometry": {
+    "top": 218,
+    "height": 287,
+    "widthFraction": 0.48,
+    "leftFraction": 0.07,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "div",
+   "class": "author-post__content text-2xl",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 335,
+   "text": "Despite broad browser support, container queries remain surprisingly underused and frequently misunderstood. Let’s look at how they differ from media queries, when to reach for each, and how container queries help reusable components respond naturally to the contexts in which they appear. - CSS - Tools - Techniques\nContinue reading ↬",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 532,
+    "height": 195,
+    "widthFraction": 0.48,
+    "leftFraction": 0.07,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "article×2",
+   "class": "author-post",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 190,
+   "text": "Alex Williams\n/\nSep 11, 2026\nBuilding A UX ROI Case That Survives The Boardroom\nCarrie Webster\n/\nSep 9, 2026\nin\nUX,\nDesign,\nAI\nThe Death Of The Button: Why The Best Interface Is No Interface",
+   "counts": {
+    "links": 9,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Alex Williams",
+     "width": 119,
+     "height": 119
+    },
+    {
+     "kind": "img",
+     "alt": "Carrie Webster",
+     "width": 119,
+     "height": 119
+    }
+   ],
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 789,
+    "height": 337,
+    "widthFraction": 0.48,
+    "leftFraction": 0.07,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "img",
+   "class": "promo-box__image",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Smashing Cat exploring new insights, at Smashing Workshops, of course.",
+     "width": 250,
+     "height": 236
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 199,
+    "height": 236,
+    "widthFraction": 0.17,
+    "leftFraction": 0.7,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "class": "promo-box__heading",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 67,
+   "text": "Email Newsletter\nUseful front-end & UX tips, delivered once a week.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 442,
+    "height": 201,
+    "widthFraction": 0.22,
+    "leftFraction": 0.67,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 153,
+   "text": "With tools to help you get your work done better. Subscribe and get Vitaly’s Smart Interface Design Checklists PDF delivered straight into your inbox. 🎁",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 670,
+    "height": 167,
+    "widthFraction": 0.22,
+    "leftFraction": 0.67,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "section",
+   "class": "nl-box__form",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 67,
+   "text": "Your (smashing) email\nOn front-end & UX. Trusted by 182,000+ folks.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 864,
+    "height": 114,
+    "widthFraction": 0.22,
+    "leftFraction": 0.67,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "div×3",
+   "class": "card card--box-shadow card--light card--green",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 499,
+   "text": "Accessible Front-End Components\nReliable accessible UI components: :focus styles, modals, date pickers, navigation, tables, buttons, SVGs.\nExplore Accessible Components\nCSS Generators & Tools\nUseful CSS tools for animations, shadows, cubic-bezier curves, easing gradients, filters, overlays, type scales.\nExplore CSS Generators\nFront-End Boilerplates & Starter Kits\nHTML boilerplates, CSS resets, for",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.34,
+   "geometry": {
+    "top": 1217,
+    "height": 454,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "a",
+   "class": "load-more__link",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "See All Guides",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1723,
+    "height": 49,
+    "widthFraction": 0.12,
+    "leftFraction": 0.43,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h4",
+   "class": "vertical vertical--white vertical--horizontal-fallback left-aligned",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 12,
+   "text": "Latest Posts",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1873,
+    "height": 249,
+    "widthFraction": 0.01,
+    "leftFraction": 0.06,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "article",
+   "class": "article--post",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 368,
+   "text": "Cosima Mielke\nwroteThe Many Faces Of September (2026 Wallpapers Edition)\nCould there be a better way to welcome the new month than with a new collection of desktop wallpapers? Whether you’re holding tightly onto summer or eagerly awaiting autumn, we’ve got some eye-catching designs to make your September just a bit more colorful. Enjoy!\nAugust 31, 2026\nin\nWallpapers",
+   "counts": {
+    "links": 4,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Cosima Mielke",
+     "width": 71,
+     "height": 71
+    }
+   ],
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 1951,
+    "height": 428,
+    "widthFraction": 0.4,
+    "leftFraction": 0.09,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "header",
+   "landmarks": [
+    "main",
+    "section",
+    "article",
+    "header"
+   ],
+   "textLength": 23,
+   "text": "Meriem Benhabiles\nwrote",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Meriem Benhabiles",
+     "width": 71,
+     "height": 71
+    }
+   ],
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 1951,
+    "height": 80,
+    "widthFraction": 0.33,
+    "leftFraction": 0.55,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "class": "article--post__title h1",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1992,
+    "height": 193,
+    "widthFraction": 0.29,
+    "leftFraction": 0.55,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "class": "article--post__teaser",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 345,
+   "text": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking to dashboards and data presentations, from the questions you ask before opening any tool to the decisions that determine whether an insight actually lands.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2205,
+    "height": 258,
+    "widthFraction": 0.29,
+    "leftFraction": 0.55,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 49,
+   "text": "August 26, 2026\nin\nData Visualization,\nUX,\nDesign",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.53,
+   "geometry": {
+    "top": 2488,
+    "height": 34,
+    "widthFraction": 0.28,
+    "leftFraction": 0.57,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "article×2",
+   "class": "article--post",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 704,
+   "text": "Pierre Burgy\nwroteWhy Your Website Should Never Stop Changing\nEvery website peaks on launch day and slowly drifts from there, not because it breaks, but because nobody has time to keep it current. Autonomous websites, continuously optimized by agents after launch, aim to change that. Pierre Burgy shares what they learned building for full website autonomy and the deeper design problem they uncover",
+   "counts": {
+    "links": 12,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Pierre Burgy",
+     "width": 71,
+     "height": 71
+    },
+    {
+     "kind": "img",
+     "alt": "Johan Grobler",
+     "width": 71,
+     "height": 71
+    }
+   ],
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 2645,
+    "height": 456,
+    "widthFraction": 0.8,
+    "leftFraction": 0.09,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "article",
+   "class": "article--post",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 230,
+   "text": "Vitaly Friedman\nwroteNew EU Guidelines For AI Labelling\nNew EU guidelines, why AI sparkles aren’t enough, when AI labels are required, and what the rules mean for AI-powered features and products.\nAugust 13, 2026\nin\nAI,\nDesign,\nUX",
+   "counts": {
+    "links": 6,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Vitaly Friedman",
+     "width": 71,
+     "height": 71
+    }
+   ],
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 3223,
+    "height": 289,
+    "widthFraction": 0.4,
+    "leftFraction": 0.09,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "header",
+   "landmarks": [
+    "main",
+    "section",
+    "article",
+    "header"
+   ],
+   "textLength": 20,
+   "text": "Alexey Kopytin\nwrote",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Alexey Kopytin",
+     "width": 71,
+     "height": 71
+    }
+   ],
+   "linkTextRatio": 0.7,
+   "geometry": {
+    "top": 3223,
+    "height": 80,
+    "widthFraction": 0.33,
+    "leftFraction": 0.55,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h2",
+   "class": "article--post__title h1",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 60,
+   "text": "Building Tactile UX: Honoring Intentional Design With Lottie",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3263,
+    "height": 116,
+    "widthFraction": 0.29,
+    "leftFraction": 0.55,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "class": "article--post__teaser",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 375,
+   "text": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale for building a digital stress-relief squeeze toy game using Lottie animations, DOM events, and distance-based math to maintain absolute control over their designers’ intentional motion.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3399,
+    "height": 258,
+    "widthFraction": 0.29,
+    "leftFraction": 0.55,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 40,
+   "text": "August 11, 2026\nin\nUX,\nDesign,\nAnimation",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.42,
+   "geometry": {
+    "top": 3683,
+    "height": 34,
+    "widthFraction": 0.28,
+    "leftFraction": 0.57,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "article×2",
+   "class": "article--post",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 669,
+   "text": "Jad Joubran\nwroteHow Baseline Can Help You Ship Less JavaScript\nThe gap between “you need a library for this” and “the browser does this” keeps closing. A practical guide to auditing your dependencies and finding what the web platform can now handle for you.\nAugust 7, 2026\nin\nJavaScript,\nCoding,\nTechniques\nCosima Mielke\nwroteSmall Joys And Big Adventures (August 2026 Wallpapers Edition)\nWhether yo",
+   "counts": {
+    "links": 10,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Jad Joubran",
+     "width": 71,
+     "height": 71
+    },
+    {
+     "kind": "img",
+     "alt": "Cosima Mielke",
+     "width": 71,
+     "height": 71
+    }
+   ],
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 3839,
+    "height": 428,
+    "widthFraction": 0.8,
+    "leftFraction": 0.09,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "a",
+   "class": "load-more__link",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "See More Latest Articles",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4348,
+    "height": 49,
+    "widthFraction": 0.18,
+    "leftFraction": 0.39,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "That’s The Smashing Family.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4581,
+    "height": 54,
+    "widthFraction": 0.8,
+    "leftFraction": 0.09,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h3",
+   "class": "mtm mija red",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 48,
+   "text": "Smashing Magazine is so much more than articles.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4644,
+    "height": 33,
+    "widthFraction": 0.8,
+    "leftFraction": 0.09,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "img",
+   "class": "promo-box__image",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "A friendly Smashing Cat, reading books while being mysterious, of course.",
+     "width": 250,
+     "height": 290
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4718,
+    "height": 290,
+    "widthFraction": 0.17,
+    "leftFraction": 0.16,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "class": "mbn",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 100,
+   "text": "Smashing Books\n14 printed books and 67 eBooks. Written for web developers, designers and marketeers.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5026,
+    "height": 131,
+    "widthFraction": 0.31,
+    "leftFraction": 0.1,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "class": "mbn mlm mrm",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 64,
+   "text": "Jump to books ↬\nFree airmail shipping wordlwide. No ifs or buts.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.23,
+   "geometry": {
+    "top": 5185,
+    "height": 113,
+    "widthFraction": 0.2,
+    "leftFraction": 0.15,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "img",
+   "class": "promo-box__image",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Smashing Cat exploring new insights, at Smashing Workshops, of course.",
+     "width": 250,
+     "height": 290
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4718,
+    "height": 290,
+    "widthFraction": 0.17,
+    "leftFraction": 0.54,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "class": "mbn",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 109,
+   "text": "Smashing Workshops\nOnline workshops with experts. Broken into 2.5h-segments, with interactive, live sessions.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5026,
+    "height": 131,
+    "widthFraction": 0.31,
+    "leftFraction": 0.47,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "class": "mbn mlm mrm",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 70,
+   "text": "Jump to workshops ↬\n2.5h live sessions, with video recordings and Q&A.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 5185,
+    "height": 113,
+    "widthFraction": 0.21,
+    "leftFraction": 0.52,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "img",
+   "class": "promo-box__image",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Smashing Cat exploring new insights, at Smashing Workshops, of course.",
+     "width": 250,
+     "height": 290
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4718,
+    "height": 290,
+    "widthFraction": 0.17,
+    "leftFraction": 0.91,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p",
+   "class": "mbn",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 121,
+   "text": "Smashing Membership\nA friendly community for people who design and build the web. With discounts, goodies and fancy cats.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5026,
+    "height": 164,
+    "widthFraction": 0.31,
+    "leftFraction": 0.84,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "class": "mbn mlm mrm",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 47,
+   "text": "Jump to Membership ↬\nFor just 1 coffee a month.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.43,
+   "geometry": {
+    "top": 5218,
+    "height": 113,
+    "widthFraction": 0.2,
+    "leftFraction": 0.9,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "img",
+   "class": "promo-box__image",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Smashing Cat exploring new insights, at Smashing Workshops, of course.",
+     "width": 250,
+     "height": 290
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4718,
+    "height": 290,
+    "widthFraction": 0.17,
+    "leftFraction": 1.28,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "p",
+   "class": "mbn",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 123,
+   "text": "Smashing Newsletter\nWeekly tips on front-end & UX, delivered straight to your inbox. Just practical stuff that you can use.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5026,
+    "height": 131,
+    "widthFraction": 0.31,
+    "leftFraction": 1.21,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "class": "mbn mlm mrm",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 63,
+   "text": "Jump to Newsletter ↬\nYou can unsubscribe with 1 click any time.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 5185,
+    "height": 113,
+    "widthFraction": 0.19,
+    "leftFraction": 1.28,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "header",
+   "landmarks": [
+    "main",
+    "section",
+    "header"
+   ],
+   "textLength": 85,
+   "text": "Winter–Spring 2026 • New WorkshopsBoost Your Skills Online,\nOn Front-End, Design & UX",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.59,
+   "geometry": {
+    "top": 5570,
+    "height": 178,
+    "widthFraction": 0.84,
+    "leftFraction": 0.07,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "class": "conf-panel__desc conf-panel__desc--darkblue",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 154,
+   "text": "Meet Smashing Workshops, with practical, actionable insights from experts — live. With interactive exercises, slides, video recordings and a friendly Q&A.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5772,
+    "height": 79,
+    "widthFraction": 0.54,
+    "leftFraction": 0.22,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "a",
+   "class": "btn btn--white btn--large",
+   "role": "button",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "Explore all speakers and topics →",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5900,
+    "height": 65,
+    "widthFraction": 0.29,
+    "leftFraction": 0.35,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "img",
+   "class": "conf-panel__image conf-panel__image--blue",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Smashing Cat enjoying adventures, and the sun.",
+     "width": 920,
+     "height": 518
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6016,
+    "height": 518,
+    "widthFraction": 0.64,
+    "leftFraction": 0.18,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "h4",
+   "class": "vertical vertical--white vertical--horizontal-fallback left-aligned",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "Community Links",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6502,
+    "height": 249,
+    "widthFraction": 0.01,
+    "leftFraction": 0.06,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "div",
+   "class": "flex flex-wrap",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 684,
+   "text": "Person Of The Week\nStuart Robson is a front-end architect and design systems consultant with over 15 years of experience helping organizations like UCL, Monotype, EMBL, and Springer Nature build scalable design systems. Passionate about design systems, modern CSS, progressive enhancement, and accessibility, Stuart loves sharing what he has learned with the community. He shares insights, resources,",
+   "counts": {
+    "links": 4,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Stuart Robson, person of the week",
+     "width": 242,
+     "height": 242
+    }
+   ],
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 6580,
+    "height": 327,
+    "widthFraction": 0.8,
+    "leftFraction": 0.09,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "article×6",
+   "class": "article--post",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 1638,
+   "text": "Maria Panagiotidi\nwroteHidden Vs. Disabled States\nSeptember 18, 2026 —\nHidden or disabled — which state should you use in which situation? Maria Panagiotidi explores the advantages and disadvantages of both to help you make an informed decision.\nSlava Shestopalov\nwroteOptical Effects In User Interfaces\nSeptember 17, 2026 —\nIf you understand the peculiarities of human vision, you can create better ",
+   "counts": {
+    "links": 24,
+    "images": 6,
+    "headings": 6,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 6,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Maria Panagiotidi",
+     "width": 71,
+     "height": 71
+    },
+    {
+     "kind": "img",
+     "alt": "Slava Shestopalov",
+     "width": 71,
+     "height": 71
+    },
+    {
+     "kind": "img",
+     "alt": "Bramus Van Damme",
+     "width": 71,
+     "height": 71
+    },
+    {
+     "kind": "img",
+     "alt": "Sharang Sharma",
+     "width": 71,
+     "height": 71
+    }
+   ],
+   "linkTextRatio": 0.23,
+   "geometry": {
+    "top": 6969,
+    "height": 1141,
+    "widthFraction": 0.8,
+    "leftFraction": 0.09,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "a",
+   "class": "load-more__link",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "More links on Twitter",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8192,
+    "height": 49,
+    "widthFraction": 0.18,
+    "leftFraction": 0.4,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "div",
+   "class": "cookie-banner",
+   "landmarks": [],
+   "textLength": 103,
+   "text": "We use cookies for login, checkout and stats. Learn more in our privacy settings.\nNo, thanks.It’s okay.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 608,
+    "height": 183,
+    "widthFraction": 0.28,
+    "leftFraction": 0.69,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h4",
+   "id": "topics",
+   "class": "footer__topics__title",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 35,
+   "text": "Browse All Smashing Magazine Topics",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8404,
+    "height": 35,
+    "widthFraction": 0.82,
+    "leftFraction": 0.09,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "ul",
+   "class": "footer__topics__list",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 315,
+   "text": "Accessibility\nBest practices\nBusiness\nCareer\nChecklists\nCSS\nData Visualization\nDesign\nDesign Patterns\nDesign Systems\nE-Commerce\nFigma\nFreebies\nHTML\nIllustrator\nInspiration\nJavaScript\nMobile\nPerformance\nPrivacy\nReact\nResponsive Design\nRound-Ups\nSEO\nTypography\nTools\nUI\nUsability\nUX\nVue\nWallpapers\nWeb Design\nWorkflow",
+   "counts": {
+    "links": 33,
+    "images": 0,
+    "headings": 0,
+    "listItems": 33,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 8469,
+    "height": 208,
+    "widthFraction": 0.82,
+    "leftFraction": 0.09,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "div",
+   "class": "col-12",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 334,
+   "text": "With a commitment to quality content for the design community.\nFounded by Vitaly Friedman and Sven Lennartz. 2006–2026.\nSmashing is proudly running on Netlify, TinaCMS and Swell.\nFonts by Latinotype.\n✎ Write for us\nContact us\nAbout us (Impressum)\nPrivacy policy\nMembership login\nDelivery times\nAdvertise\nJob Board\nPodcasts\nBack to top",
+   "counts": {
+    "links": 16,
+    "images": 1,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 29,
+     "height": 29
+    }
+   ],
+   "linkTextRatio": 0.54,
+   "geometry": {
+    "top": 8743,
+    "height": 301,
+    "widthFraction": 0.9,
+    "leftFraction": 0.07,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  }
+ ]
+}

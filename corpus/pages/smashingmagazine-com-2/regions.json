@@ -1,0 +1,2507 @@
+{
+ "url": "https://www.smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
+ "title": "Stop Treating CSS Container Queries Like Traditional Media Queries — Smashing Magazine",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 20874,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "global-header header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 166,
+   "text": "Articles\nBooks\nEvents\nMembership\nNewsletter\nWrite for us\nAdvertise\nMore\nLess\nMenu\nLess\nArticles\nBooks\nEvents\nMembership\nNewsletter\nWrite for us\nAdvertise\nClear Search",
+   "counts": {
+    "links": 15,
+    "images": 2,
+    "headings": 0,
+    "listItems": 15,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Smashing Magazine",
+     "width": 53,
+     "height": 71
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.72,
+   "geometry": {
+    "top": 0,
+    "height": 103,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "header",
+   "id": "all-topics",
+   "class": "subnav__header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 152,
+   "text": "Accessibility\nUX\nCSS\nJavaScript\nPerformance\nDesign\nFigma\nWallpapers\nReact\nVue\nRound-Ups\nWeb Design\nGuides\nBusiness\nCareer\nPrivacy\nJump to all articles ↬",
+   "counts": {
+    "links": 17,
+    "images": 0,
+    "headings": 0,
+    "listItems": 17,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 103,
+    "height": 69,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "ul",
+   "class": "article-header--meta",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 38,
+   "text": "Victor Ayomipo\nSep 16, 2026\n0 comments",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 211,
+    "height": 30,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "id": "main-heading",
+   "class": "article-header--title",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 66,
+   "text": "Stop Treating CSS Container Queries Like Traditional Media Queries",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 260,
+    "height": 117,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "ul",
+   "class": "meta-box meta-box--article",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 38,
+   "text": "12 min read\nShare on Twitter, LinkedIn",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.39,
+   "geometry": {
+    "top": 405,
+    "height": 48,
+    "widthFraction": 0.29,
+    "leftFraction": 0.09,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "div",
+   "class": "l-author-bio",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 189,
+   "text": "About The Author\nI Code. I Write. Meme Rules. Ok, but seriously, I’m a web and mobile developer who writes a lot. In my spare time, I like to build products that would …\nMore about\nVictor ↬",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Victor Ayomipo",
+     "width": 177,
+     "height": 177
+    }
+   ],
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 405,
+    "height": 425,
+    "widthFraction": 0.23,
+    "leftFraction": 0.67,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "c-garfield__nl",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 96,
+   "text": "Email Newsletter\nYour (smashing) email\nWeekly tips on front-end & UX.\nTrusted by 182,000+ folks.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 886,
+    "height": 196,
+    "widthFraction": 0.23,
+    "leftFraction": 0.67,
+    "pageFraction": 0.04,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul×3",
+   "class": "bnnr-list",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 262,
+   "text": "Celebrating 10 million developers\nHow To Measure UX and Design Impact, 8h video + UX training\nDesign Patterns For AI Interfaces, 30 lessons + UX training\nFigma Workflow Masterclass with Christine Vallaure\nSmart Interface Design Patterns, 45 lessons + UX training",
+   "counts": {
+    "links": 5,
+    "images": 5,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Netlify - Celebrating 10 million developers",
+     "width": 286,
+     "height": 238
+    },
+    {
+     "kind": "img",
+     "alt": "Boost your skills online, with our friendly online workshops on front-end and design.",
+     "width": 286,
+     "height": 238
+    },
+    {
+     "kind": "img",
+     "alt": "Boost your skills online, with our friendly online workshops on front-end and design.",
+     "width": 286,
+     "height": 238
+    },
+    {
+     "kind": "img",
+     "alt": "Boost your skills online, with our friendly online workshops on front-end and design.",
+     "width": 286,
+     "height": 238
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 1363,
+    "height": 2530,
+    "widthFraction": 0.23,
+    "leftFraction": 0.67,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "section",
+   "class": "article__summary",
+   "ariaLabel": "Quick summary",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 289,
+   "text": "Despite broad browser support, container queries remain surprisingly underused and frequently misunderstood. Let’s look at how they differ from media queries, when to reach for each, and how container queries help reusable components respond naturally to the contexts in which they appear.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 479,
+    "height": 223,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p×6",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1590,
+   "text": "To be completely honest with you, I missed the news when CSS Container Queries first shipped. And when I finally heard about it, my very first thought was, “Why exactly do I need this when media queries already exist?”\nI’m not proud of that reaction, knowing what I know now, but it was comforting to know that I wasn’t alone. In fact, there are legions of us out there.\nWhat baffles me is that conta",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 6,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 741,
+    "height": 917,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 461,
+   "text": "They don’t.\nNote: I should state up front that what I’m focusing on in this article is using container size queries, i.e., a responsive design technique for responding to the size of a particular container. There are also container style queries that respond to a container’s computed styles (and are experimental at the time of this writing). You can catch up on those in Juan Diego’s piece here on ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 1687,
+    "height": 262,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "aside",
+   "class": "feature-panel",
+   "landmarks": [
+    "main",
+    "article",
+    "aside"
+   ],
+   "textLength": 218,
+   "text": "Roll up your sleeves and boost your UX skills! Meet Smart Interface Design Patterns 🍣, a 10h video library by Vitaly Friedman. 100s of real-life examples and live UX training. Free preview.\nJump to table of contents ↬",
+   "counts": {
+    "links": 4,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Feature Panel",
+     "width": 195,
+     "height": 213
+    }
+   ],
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 2023,
+    "height": 330,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h2",
+   "id": "media-queries-look-outward",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "Media Queries Look Outward #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2423,
+    "height": 41,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 254,
+   "text": "The viewport is a proxy. It always has been. Media queries are what gave us the illusion that screen width alone is responsible for how responsive apps adapt to their environment.\nAsk yourself this: When you write @media, what are you asking the browser?",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2492,
+    "height": 162,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 56,
+   "text": "@media (min-width: 1024px) {\n .card {\n display: flex;\n }",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2689,
+    "height": 157,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 519,
+   "text": "I, like most developers, am asking the browser: How wide is the screen right now? That’s it.\nMedia queries answer that beautifully, but what happens when this .card component is placed in a grid cell that’s 300px wide on a 1920px desktop screen?\nThe media query doesn’t care; it does its job. The viewport is still 1920px, so min-width: 1024px fires and the matched query styles are applied, even tho",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2881,
+    "height": 324,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "blockquote",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 180,
+   "text": "“Media queries are dumb. Not dumb in terms of the concept, but dumb in that they don’t know very much. In fact, most people assume that they know more than they do.”\n— Kevin Powell",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 3239,
+    "height": 219,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 180,
+   "text": "It’s common to think of responsive design purely as a system for updating complete page layouts, like going from two columns on a large screen to a single column on a small screen.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3495,
+    "height": 100,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h2",
+   "id": "container-queries-look-inward",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "Container Queries Look Inward #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 3665,
+    "height": 41,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 388,
+   "text": "Container queries are smarter than that. They make responsive layouts more reliant on what’s happening inside a component rather than on the outer context that has no insight into a component’s contents. It is more like: “How much space is available for me in this specific spot, right now?”\nHere is the same card code example we looked at in the last section, but with a container query:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3734,
+    "height": 229,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 159,
+   "text": ".card-wrapper {\n container-name: card;\n container-type: inline-size;\n}\n@container card (min-width: 450px) {\n .card {\n display: flex;\n flex-direction: row;\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3997,
+    "height": 373,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 323,
+   "text": "This changes everything. The card isn’t influenced by the viewport; its only concern is whether the .card component’s parent wrapper has at least 450px of inline (i.e., horizontal in a left-to-right writing mode) space. If that condition is true, the component goes horizontal; if not, it goes to its default block display.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4405,
+    "height": 134,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "figure",
+   "class": "break-out",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 51,
+   "text": "See the Pen Viewport vs Container [forked] by Vayo.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "codepen.io",
+    "width": 787,
+    "height": 480,
+    "title": "CodePen Embed"
+   },
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 4567,
+    "height": 548,
+    "widthFraction": 0.55,
+    "leftFraction": 0.09,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Advertise with Smashing Magazine",
+     "width": 325,
+     "height": 271
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5216,
+    "height": 279,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h2",
+   "id": "macro-layout-vs-micro-layouts",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 36,
+   "text": "“Macro” Layout Vs. “Micro” Layouts #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5581,
+    "height": 41,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 672,
+   "text": "A very interesting way to distinguish @media and @container queries is the layout type.\nMedia queries are for the “macro” layout; they look outward. Stuff like page structure, the header that spans the window, footers, main grid layout, system preferences (prefers-color-scheme), device capabilities (touch screens). You know, anything that is majorly true to the entire page structure.\nContainer que",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5650,
+    "height": 391,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 322,
+   "text": "In other words, think “page layout” vs. “component layout”.\nAn element shouldn’t magically become “tablet-sized” just because the width exceeds an abstract width threshold like 768px. Instead, it should switch layout when it has enough space to do so, whether that happens on a mobile viewport or inside a desktop sidebar.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6069,
+    "height": 195,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 166,
+   "text": "In case you’re still not convinced, did you know there are over 2,300 unique viewport sizes on the modern web? Do you think it is possible to account for all of them?",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 6293,
+    "height": 100,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "blockquote",
+   "class": "pull-quote",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 288,
+   "text": "I’m not hating on media queries. It’s that in this era of responsiveness and component re-use, layout logic is closer to the container than the viewport. When we think in terms of containers and components, we’re effectively relying on the content to determine layout, not the viewport.\n“",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "coverLabel": "Share on Twitter",
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 6466,
+    "height": 294,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h2",
+   "id": "example-fluid-typography-inside-a-component",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 72,
+   "text": "This is how it should be.\nExample: Fluid Typography Inside A Component #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 6805,
+    "height": 145,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 316,
+   "text": "Responsive typography is a good example of something many of us have relied on media queries for. The fact that media queries come with their own CSS units — e.g., vw, vh, and so on — that are relative to the viewport size makes media queries look really good for adjusting font size based on the user’s screen size.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6977,
+    "height": 134,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 58,
+   "text": ".card-title {\n font-size: clamp(100%, 1rem + 2vw, 24px);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7145,
+    "height": 127,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 523,
+   "text": "This works until that same component is moved into a different context, like a sidebar, where the viewport is completely irrelevant. Now, because we tied the responsiveness to the wrong reference point, the scaled typography can get too big or too small.\nContainer queries come with their very own units — cqi, cqw, cqb, among others — and we can take responsive components further by coupling those ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 7306,
+    "height": 295,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 60,
+   "text": ".card-title {\n font-size: clamp(1rem, .5rem + 3cqi, 2rem);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7636,
+    "height": 157,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "figure",
+   "class": "break-out",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 46,
+   "text": "See the Pen Fluid Typography [forked] by Vayo.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "codepen.io",
+    "width": 787,
+    "height": 480,
+    "title": "CodePen Embed"
+   },
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 7828,
+    "height": 548,
+    "widthFraction": 0.55,
+    "leftFraction": 0.09,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 91,
+   "text": "With this in place, the entire code is self-contained to that element’s specific container.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8404,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h2",
+   "id": "example-flexbox-wrap-detection",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 33,
+   "text": "Example: Flexbox Wrap Detection #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 8541,
+    "height": 41,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1389,
+   "text": "Interestingly, container queries can, in a way, detect the state of a component’s internal layout. It’s not bulletproof, but it is also something media queries simply cannot do because they only observe the external browser window and are structurally blind to internal layout events like when, for example, flex items wrap onto a new line. Let’s poke at that.\nFlexbox is superb at wrapping content (",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 8610,
+    "height": 753,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "figure",
+   "class": "break-out",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 46,
+   "text": "See the Pen Fluid Typography [forked] by Vayo.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "codepen.io",
+    "width": 787,
+    "height": 480,
+    "title": "CodePen Embed"
+   },
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 9391,
+    "height": 548,
+    "widthFraction": 0.55,
+    "leftFraction": 0.09,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "figure",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 15,
+   "text": "(Large preview)",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Normal and wrapped states of two responsive items.",
+     "width": 690,
+     "height": 582
+    }
+   ],
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 9967,
+    "height": 654,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "ol",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 399,
+   "text": "The logic works like this:\nWhen there’s enough room, both items (.flex-item) sit side-by-side, each exactly half the parent container’s width.\nWhen there is limited space, the second item wraps to the next line.\nBecause flex-grow is active on each item, the wrapped items stretch to fill most of the parent’s width.\nIf the item is a container itself, it detects the sudden width expansion and fires.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10649,
+    "height": 377,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 498,
+   "text": "/* The flex parent */\n.flex-layout {\n display: flex;\n flex-wrap: wrap;\n}\n/* Register a flex item as a container */\n.flex-item {\n container-type: inline-size;\n flex: 1 1 390px; /* Grow to fill space, wrap at 390px */\n}\n/* Default Card Styles (narrow / side-by-side) */\n.card {\n display: flex;\n flex-direction: column;\n background: #f4f4f4;\n}\n/* Once there's enough room for a full row */\n@container (m",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11061,
+    "height": 867,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 155,
+   "text": "This works. As the parent size shrinks and the cards wrap to two lines, the card item expands, the container query fires, and applies the necessary styles.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11962,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "figure",
+   "class": "break-out",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 73,
+   "text": "See the Pen Flex Wrap Detection Using Container Queries [forked] by Vayo.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "codepen.io",
+    "width": 787,
+    "height": 480,
+    "title": "CodePen Embed"
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 12057,
+    "height": 548,
+    "widthFraction": 0.55,
+    "leftFraction": 0.09,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h2",
+   "id": "container-queries-do-have-side-effects",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 40,
+   "text": "Container Queries Do Have Side Effects #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 12748,
+    "height": 41,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 127,
+   "text": "Container queries, like all things, come with some side effects or caveats you will want to watch for before reaching for them.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12817,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "h3",
+   "id": "1-a-container-requires-an-extra-wrapper",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 42,
+   "text": "1. A Container Requires An Extra Wrapper #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 12944,
+    "height": 32,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 127,
+   "text": "Container queries need something similar to a parent-child relationship to function as expected. Let’s say we have this markup:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12991,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "pre",
+   "class": "language-html",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 62,
+   "text": "<div class=\"card\">\n <div class=\"card-content\">...</div>\n</div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13092,
+    "height": 127,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 83,
+   "text": "We can’t actually query the .card component to adjust the .card-content, like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13253,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 149,
+   "text": "/* DOES NOT WORK */\n.card {\n container-name: card;\n container-type: inline-size;\n}\n@container card (min-width: 400px) {\n .card {\n display: flex;\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13355,
+    "height": 373,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 300,
+   "text": "This doesn’t work because a container cannot query itself. In that last example, we’re querying a card container and then attempting to adjust that container’s display based on its size. It’s an infinite loop.\nInstead, we need an additional wrapper that makes the .card a descendant of the container:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13762,
+    "height": 195,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "pre",
+   "class": "language-html",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 91,
+   "text": "<div class=\"cards\">\n <div class=\"card\">\n <div class=\"card-content\">...</div>\n </div>\n</div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13992,
+    "height": 188,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 86,
+   "text": "From there, we can query the .cards container and adjust the .card layout accordingly:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14215,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 132,
+   "text": ".cards {\n container-name: cards;\n container-type: inline-size;\n}\n@container cards (min-width: 400px) {\n .card {\n display: flex;\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14317,
+    "height": 342,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 231,
+   "text": "In media queries, this doesn’t matter as @media does not care which element you style inside the block; its only concern is the viewport, which is always available. So you can just slap a condition on any element and call it a day.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14694,
+    "height": 100,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "h3",
+   "id": "2-querying-a-container-s-size-could-collapse-your-layout",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 59,
+   "text": "2. Querying A Container’s size Could Collapse Your Layout #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 14854,
+    "height": 65,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 112,
+   "text": "This happens when querying the container’s size (i.e., its block, or vertical, size) instead of its inline-size:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14933,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 92,
+   "text": "/* Collapses to 0px even if it has content inside */\n.hero-banner {\n container-type: size;\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15035,
+    "height": 157,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 522,
+   "text": "Why? Because the browser calculates the container’s dimensions without looking at its children. If we don’t give the .hero-banner an explicit height (or min-height or aspect-ratio), the browser sets a height of 0px.\nFor that reason, it’s often better to query a container by its inline-size instead. That is, unless you genuinely need to query the container’s block size.\nMedia queries aren’t affecte",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15226,
+    "height": 291,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "h3",
+   "id": "3-queries-cannot-accept-custom-properties",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 44,
+   "text": "3. Queries Cannot Accept Custom Properties #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 15578,
+    "height": 32,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 83,
+   "text": "Another container query limitation: we can’t query against a custom property value:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15624,
+    "height": 67,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 115,
+   "text": ":root {\n --breakpoint-lg: 1600px;\n}\n/* DOES NOT WORK */\n@container (min-width: var(--breakpoint-lg)) {\n /* ... */\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15726,
+    "height": 281,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 236,
+   "text": "This is because custom properties depend on values that cascade down the DOM tree. There’s the possibility that a container query that relies on a custom property can change that same custom property. And it can quickly get complicated:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16041,
+    "height": 100,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "pre",
+   "class": "language-css",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 148,
+   "text": ":root {\n --breakpoint-lg: 1600px;\n}\n/* DOES NOT WORK */\n@container cards (min-width: var(--breakpoint-lg)) {\n .card {\n --breakpoint-lg: 1000px;\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16176,
+    "height": 342,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "h2",
+   "id": "when-to-reach-for-media-and-container-queries",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 47,
+   "text": "When To Reach For Media And Container Queries #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 16594,
+    "height": 41,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 969,
+   "text": "I don’t think any project should wholesale use @container instead of @media. Media queries still play an important role in responsive layouts. It’s about understanding the separation of concerns.\nI tend to reach for container queries when a component is used in more than one layout context. For example, a .card element could live in a full-width grid or a narrower sidebar. If that’s the case, then",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16663,
+    "height": 553,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "figure",
+   "class": "break-out article__image",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 15,
+   "text": "(Large preview)",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Flowchart for choosing between media and container queries",
+     "width": 787,
+     "height": 622
+    }
+   ],
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 17244,
+    "height": 694,
+    "widthFraction": 0.55,
+    "leftFraction": 0.09,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "h2",
+   "id": "conclusion",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 12,
+   "text": "Conclusion #",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 18008,
+    "height": 41,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 338,
+   "text": "At the end of the day, the core reason why container queries look incredibly similar to media queries is simply familiarity. They’re not exactly “new”, but they are way less understood and adopted than media queries. But media queries have plenty of their own limitations; otherwise, we wouldn’t need container queries to fill those gaps.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 18076,
+    "height": 167,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 230,
+   "text": "What we have is a more effective feature for detecting when a specific component’s context changes and a means for adjusting styles based on its content, as it should be when that component can exist in multiple contexts.\n(gg, yk)",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Smashing Editorial",
+     "width": 35,
+     "height": 46
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 18272,
+    "height": 202,
+    "widthFraction": 0.48,
+    "leftFraction": 0.09,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "figure×3",
+   "class": "book--featured",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 334,
+   "text": "Smashing Newsletter\nTips on front-end & UX, delivered weekly in your inbox. Just the things you can actually use.\nFront-End & UX Workshops, Online\nWith practical takeaways, live sessions, video recordings and a friendly Q&A.\nTypeScript in 50 Lessons\nEverything TypeScript, with code walkthroughs and examples. And other printed books.",
+   "counts": {
+    "links": 6,
+    "images": 3,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "TypeScript in 50 Lessons",
+     "width": 203,
+     "height": 265
+    },
+    {
+     "kind": "img",
+     "alt": "Smashing Newsletter",
+     "width": 201,
+     "height": 254
+    },
+    {
+     "kind": "img",
+     "alt": "Front-End & UX Workshops, Online",
+     "width": 201,
+     "height": 254
+    }
+   ],
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 18639,
+    "height": 432,
+    "widthFraction": 0.85,
+    "leftFraction": 0.04,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "div",
+   "class": "article__comments",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 208,
+   "text": "— Comments 0\nNo comments have been posted yet. Please feel free to comment first!\nNote: Make sure your comment is related to the topic of the article above. Let's start a personal and meaningful conversation!",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 19132,
+    "height": 370,
+    "widthFraction": 0.52,
+    "leftFraction": 0.04,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "form",
+   "landmarks": [
+    "main",
+    "article",
+    "form"
+   ],
+   "textLength": 476,
+   "text": "Leave a comment\nComments are moderated. They will be published only if they add to the discussion in a constructive way. If you disagree, please be polite. We all want to learn from each other here. We use GitHub Flavored Markdown for comments. Call out code within a sentence with single backticks (`command`). For a distinct block, use triple backticks (```code block```). Typo? Please let us know.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 19251,
+    "height": 833,
+    "widthFraction": 0.37,
+    "leftFraction": 0.58,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "div",
+   "class": "cookie-banner",
+   "landmarks": [],
+   "textLength": 103,
+   "text": "We use cookies for login, checkout and stats. Learn more in our privacy settings.\nNo, thanks.It’s okay.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 615,
+    "height": 176,
+    "widthFraction": 0.28,
+    "leftFraction": 0.69,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 75,
+   "tag": "div",
+   "class": "footer__topics open",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 353,
+   "text": "Browse All Smashing Magazine Topics #\nAccessibility\nBest practices\nBusiness\nCareer\nChecklists\nCSS\nData Visualization\nDesign\nDesign Patterns\nDesign Systems\nE-Commerce\nFigma\nFreebies\nHTML\nIllustrator\nInspiration\nJavaScript\nMobile\nPerformance\nPrivacy\nReact\nResponsive Design\nRound-Ups\nSEO\nTypography\nTools\nUI\nUsability\nUX\nVue\nWallpapers\nWeb Design\nWorkflow",
+   "counts": {
+    "links": 34,
+    "images": 0,
+    "headings": 1,
+    "listItems": 33,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.8,
+   "geometry": {
+    "top": 20237,
+    "height": 316,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "div",
+   "class": "col-12",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 334,
+   "text": "With a commitment to quality content for the design community.\nFounded by Vitaly Friedman and Sven Lennartz. 2006–2026.\nSmashing is proudly running on Netlify, TinaCMS and Swell.\nFonts by Latinotype.\n✎ Write for us\nContact us\nAbout us (Impressum)\nPrivacy policy\nMembership login\nDelivery times\nAdvertise\nJob Board\nPodcasts\nBack to top",
+   "counts": {
+    "links": 16,
+    "images": 1,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 29,
+     "height": 29
+    }
+   ],
+   "linkTextRatio": 0.54,
+   "geometry": {
+    "top": 20552,
+    "height": 301,
+    "widthFraction": 0.94,
+    "leftFraction": 0.04,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

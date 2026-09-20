@@ -1,0 +1,230 @@
+{
+ "site": "ladbible.com",
+ "pages": 4,
+ "pageIds": [
+  "ladbible-com-1",
+  "ladbible-com-2",
+  "ladbible-com-3",
+  "ladbible-com-4"
+ ],
+ "derivedAt": "2026-09-20T15:00:30.587Z",
+ "blocks": [
+  {
+   "selector": "main section article > p[class*=\"text_text__\"]",
+   "type": "text",
+   "n": 16,
+   "purity": 0.94,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > article[class*=\"card_card__\"]",
+   "type": "teaser_card",
+   "n": 10,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2[class*=\"news-section_title__\"]",
+   "type": "heading",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > footer[class*=\"footer_footer__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > header[class*=\"nav_nav__\"]",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section section article > article[class*=\"card_card__\"]",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header[class*=\"nav_menuOffset__\"]",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > img[class*=\"article-header-image_featuredImage__\"]",
+   "type": "image",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > div[class*=\"article-breadcrumbs_breadcrumbs__\"]",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > h1[class*=\"article-header-meta_heading__\"]",
+   "type": "title",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > p[class*=\"summary_summary__\"]",
+   "type": "summary",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > div[class*=\"article-header-meta_metaWrapper__\"]",
+   "type": "byline",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > p[class*=\"topics-list_topic__\"]",
+   "type": "tag_cloud",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > details[class*=\"author-footer_container__\"]",
+   "type": "author_bio",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section aside > div[class*=\"advert-size_container__\"]",
+   "type": "ad",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > ul[class*=\"related-links_links__\"]",
+   "type": "related",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h2[class*=\"heading_heading__\"]",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main form > form[class*=\"form_form__\"]",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > div[class*=\"article-image_articleImage__\"]",
+   "type": "image",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > canvas[class*=\"floating-lines_canvas__\"]",
+   "type": "decoration",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section article > h3[class*=\"article-title-link_articleTitle__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > h2[class*=\"latest-grid_title__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section aside > aside[class*=\"flipped-news-block_sidebar__\"]",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > section[class*=\"originals-section_section__\"]",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h1[class*=\"heading_heading__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p[class*=\"card-section_description__\"]",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul[class*=\"card-section_articles__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section form > form[class*=\"form_form__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ol[class*=\"pagination_paginationList__\"]",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > img[class*=\"article-image_image__\"]",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div[class*=\"article-timestamps_times__\"]",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "site": "engadget.com",
+ "pages": 4,
+ "pageIds": [
+  "engadget-com-1",
+  "engadget-com-2",
+  "engadget-com-3",
+  "engadget-com-4"
+ ],
+ "derivedAt": "2026-09-20T12:39:44.801Z",
+ "blocks": [
+  {
+   "selector": "main article > div.image-holder",
+   "type": "image",
+   "n": 18,
+   "purity": 0.89,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.commerce-topline",
+   "type": "product_card",
+   "n": 17,
+   "purity": 0.94,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div",
+   "type": "list",
+   "n": 17,
+   "purity": 0.76,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.openweb-conversation",
+   "type": "comments",
+   "n": 8,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > h2.section-header",
+   "type": "heading",
+   "n": 8,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > h2",
+   "type": "heading",
+   "n": 7,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header nav > div.logo",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > ul.main-nav",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > ul.social-buttons",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > ul.info-links",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > span.copyright-info",
+   "type": "legal_notice",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > nav#top-nav-holder",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > ul.breadcrumbs",
+   "type": "breadcrumbs",
+   "n": 4,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > div.news-article",
+   "type": "text",
+   "n": 4,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > div.add-on-google-widget",
+   "type": "cta",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > h3.commerce-title",
+   "type": "product_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.commerce-widget",
+   "type": "product_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > h1#logo",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2.section-header",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul#article-container",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-are-e-ink-tablets-worth-it",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-what-to-look-for-in-an-e-ink-tablet",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-writing-and-latency",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-reading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-search-functionality",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-sharing-and-connectivity",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-price",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-other-e-ink-tablets-weve-tested",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-onyx-boox-tab-x-c",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-lenovo-smart-paper",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-onyx-boox-tab-ultra",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-what-to-look-for-in-a-portable-battery-pack",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-battery-type",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-flying-with-portable-batteries",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-capacity",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-wireless",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-ports",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-how-we-test-best-power-banks",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-other-power-banks-we-tested",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-belkin-stage-powergrip",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-anker-maggo-for-apple-watch-power-bank",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-ecoflow-rapid-magnetic-power-bank",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-mophie-snap-powerstation-mini",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-power-bank-faqs",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-whats-the-difference-between-a-portable-power-bank-and-a-portable-char",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-does-fast-charging-actually-ruin-your-battery",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-can-you-use-a-power-bank-for-all-your-devices",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.commerce-content",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-what-to-consider-before-buying-a-fast-charger",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#jump-link-fast-charger-faqs",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-what-is-gan",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-do-fast-chargers-affect-battery-life",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#jump-link-whats-the-difference-between-a-fast-charger-and-a-regular-charger",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

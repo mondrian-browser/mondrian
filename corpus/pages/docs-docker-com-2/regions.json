@@ -1,0 +1,1387 @@
+{
+ "url": "https://docs.docker.com/ai/sandboxes/workflows/agent-skills/",
+ "title": "Share agent skills | Docker Docs",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 4379,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "sticky top-0 z-20 h-16",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 91,
+   "text": "Get started\nGuides\nManuals\nReference\nGordonGordon, your AI assistant for Docker docs\nSearch",
+   "counts": {
+    "links": 5,
+    "images": 4,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 160,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.36,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 14573,
+   "text": "AI and agents\nOverview\nDocker Sandboxes\nInstall\nGet started\nUsage\nAgents\nClaude Code\nCodex\nCopilot\nCursor\nDevin\nDocker Agent\nDroid\nGemini\nKiro\nOpenCode\nShell\nWorkflows\nGit workflows\nLocal development\nAuthenticate tools\nAgent skills\nCI and headless\nConfiguration\nCredentials\nEnvironment files\nExperimental\nGPU passthrough\nUpstream proxy\nRegistry mirror\nIntegrations\nVS Code\nCursor\nClaude Desktop\nChatG",
+   "counts": {
+    "links": 842,
+    "images": 29,
+    "headings": 0,
+    "listItems": 887,
+    "tableRows": 0,
+    "controls": 186,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 80,
+    "height": 1637,
+    "widthFraction": 0.19,
+    "leftFraction": 0.01,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "nav",
+   "id": "breadcrumbs",
+   "class": "breadcrumbs mb-4 flex min-w-0",
+   "landmarks": [
+    "main",
+    "article",
+    "nav"
+   ],
+   "textLength": 60,
+   "text": "Home\n/\nManuals\n/\nDocker Sandboxes\n/\nWorkflows\n/\nAgent skills",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.6,
+   "geometry": {
+    "top": 96,
+    "height": 22,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 18,
+   "text": "Share agent skills",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 134,
+    "height": 32,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "flex flex-wrap items-center gap-x-6",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 38,
+   "text": "Ask Gordon\nCopy Markdown\nView Markdown",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 182,
+    "height": 19,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 269,
+   "text": "Shared agent skills let you install skills from Git repositories or import\nskills from supported agents on your host. sbx keeps installed skills in a\npersistent store that survives sandbox deletion and is shared by default with\nnew sandboxes that run a supported agent.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 242,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "blockquote",
+   "class": "admonition admonition-note admonition not-prose",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 42,
+   "text": "Note\nShared agent skills are experimental.",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 346,
+    "height": 116,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "id": "add-skills-from-a-repository",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "Add skills from a repository",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 490,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 73,
+   "text": "Add every skill from a Git repository:\n$ sbx skills add anthropics/skills",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 537,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 234,
+   "text": "The repository must contain one or more valid SKILL.md files. You can use\nGitHub owner/repository shorthand or a Git URL, including HTTPS and SSH URLs.\nTo add specific skills, use --skill with each name or pass a comma-separated\nlist:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 662,
+    "height": 104,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "$ sbx skills add https://github.com/anthropics/skills --skill frontend-design --skill pdf",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 802,
+    "height": 25,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.18,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 142,
+   "text": "When a skill with the same name is already installed, sbx prompts before\nreplacing it. Use --force to replace existing skills without prompts.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 878,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h2",
+   "id": "manage-installed-skills",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 23,
+   "text": "Manage installed skills",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 962,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 52,
+   "text": "List the skills in the shared store:\n$ sbx skills ls",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1008,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 67,
+   "text": "Update every skill installed from a repository:\n$ sbx skills update",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1133,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 90,
+   "text": "To update specific skills, pass one or more names:\n$ sbx skills update frontend-design pdf",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1258,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 217,
+   "text": "sbx skills update only refreshes skills installed with sbx skills add. To\nrefresh a skill imported from the host, run sbx skills import again. To manage\nit with sbx skills update, install it from a repository instead.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1384,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 72,
+   "text": "Remove one or more installed skills:\n$ sbx skills rm frontend-design pdf",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1488,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 127,
+   "text": "sbx asks for confirmation before removing skills that running agents may be\nusing. Use --force to skip confirmation in scripts.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1613,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h2",
+   "id": "import-skills-from-the-host",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 27,
+   "text": "Import skills from the host",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1697,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 85,
+   "text": "Preview the skills that sbx finds without copying them:\n$ sbx skills import --dry-run",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1743,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 204,
+   "text": "The command scans the following directories in order and copies each skill\nsubdirectory into the shared store. When the sandbox starts, sbx mounts the\nstore at the path the agent reads inside the sandbox.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1868,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "table",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 299,
+   "text": "AgentHost sourceSandbox mount target\nClaude Code~/.claude/skills/home/agent/.claude/skills\nCodex and Devin~/.agents/skills/home/agent/.agents/skills\nCopilot~/.copilot/skills/home/agent/.copilot/skills\nCursor~/.cursor/skills/home/agent/.cursor/skills\nDroid~/.factory/skills/home/agent/.factory/skills",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 6,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2000,
+    "height": 245,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 224,
+   "text": "All imported skills go into the same store, regardless of their source. If\nmore than one source contains a skill with the same directory name, the skill\nfrom the first source in the table wins and sbx warns about the others.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2293,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 38,
+   "text": "Import the skills:\n$ sbx skills import",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2397,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 74,
+   "text": "The final output reports the shared store path. The default locations are:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2522,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "table",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 224,
+   "text": "PlatformShared store path\nmacOS~/Library/Application Support/com.docker.sandboxes/sandboxes/agent-skills\nLinux~/.local/state/sandboxes/sandboxes/agent-skills\nWindows%LOCALAPPDATA%\\DockerSandboxes\\sandboxes\\state\\agent-skills",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 4,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2598,
+    "height": 163,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 523,
+   "text": "On Linux, sbx uses $XDG_STATE_HOME/sandboxes/sandboxes/agent-skills when\nXDG_STATE_HOME is set.\nWhen a skill already exists in the store, sbx prompts before replacing it.\nUse --force to replace existing skills without prompts. Importing replaces\nthe complete skill directory rather than merging files. Run the import command\nagain when you want to copy updates from the host. If an import replaces a\n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2809,
+    "height": 216,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h2",
+   "id": "shared-store-behavior",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 21,
+   "text": "Shared store behavior",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3053,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 254,
+   "text": "Running sbx reset clears the shared store.\nSandboxes created for a supported agent mount the shared store read-only by\ndefault. These sandboxes mount the contents of the store each time they start,\nso you can install skills before or after creating them.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3100,
+    "height": 132,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 90,
+   "text": "Use --skills with sbx run or sbx create to choose the access mode when\ncreating a sandbox:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3252,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 187,
+   "text": "readonly: Mount the store so the agent can read skills but cannot modify them.\nreadwrite: Mount the store so the agent can read and modify shared skills.\noff: Omit the shared store mount.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3328,
+    "height": 100,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 85,
+   "text": "For example, create a sandbox without the shared store:\n$ sbx run --skills=off claude",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3448,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 98,
+   "text": "To change the default for future sandboxes, set skills.defaultMode to off,\nreadonly, or readwrite:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3573,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 46,
+   "text": "$ sbx settings set skills.defaultMode readonly",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3665,
+    "height": 25,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 422,
+   "text": "When no mode is specified, the daemon uses skills.defaultMode, whose built-in\nvalue is readonly. An explicit --skills value overrides that default.\nThe mode is applied only when a sandbox is created. Upgrading sbx or changing\nskills.defaultMode leaves existing sandbox mounts unchanged. Remove and\nrecreate a sandbox to change its mode. Sandboxes created without shared skills\nalso need to be recreat",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3726,
+    "height": 188,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "blockquote",
+   "class": "admonition admonition-warning admonition not-prose",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 419,
+   "text": "Warning\nA sandbox with readwrite access can modify skills that other sandboxes load,\nincluding sandboxes with readonly access. Read-only access prevents writes\nfrom that sandbox but does not isolate it from changes to the store. The store\nis dedicated sandbox state, so this does not by itself execute modified skills\non your host. Use --skills=off when creating a sandbox to keep it outside\nthis sha",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3934,
+    "height": 228,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 136,
+   "text": "Some agents scan for skills when a session starts. If installed skills don't\nappear in an existing session, start another agent session.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4182,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "div",
+   "class": "not-prose",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 151,
+   "text": "Edit this page\nRequest changes\nTable of contents\nAdd skills from a repository\nManage installed skills\nImport skills from the host\nShared store behavior",
+   "counts": {
+    "links": 6,
+    "images": 2,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 80,
+    "height": 230,
+    "widthFraction": 0.23,
+    "leftFraction": 0.73,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 39,
+   "tag": "footer",
+   "class": "relative z-10 w-full",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 189,
+   "text": "Product offerings\nPricing\nAbout us\nllms.txt\nllms-full.txt\nCookies Settings\n|\nTerms of Use\n|\nStatus\n|\nLegal\nCopyright © 2013-2026 Docker Inc. All rights reserved.\nAutomated traffic detection",
+   "counts": {
+    "links": 14,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.54,
+   "geometry": {
+    "top": 4270,
+    "height": 108,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "div",
+   "role": "alertdialog",
+   "ariaLabel": "Privacy",
+   "landmarks": [
+    "role=region"
+   ],
+   "textLength": 217,
+   "text": "By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. \nCookies Settings Reject All Accept All Cookies",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 745,
+    "height": 71,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.17,
+    "aboveFold": true
+   }
+  }
+ ]
+}

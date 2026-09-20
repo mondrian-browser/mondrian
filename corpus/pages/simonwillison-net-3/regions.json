@@ -1,0 +1,357 @@
+{
+ "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+ "title": "The Pelican comparison grid for Astra is pretty interesting",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 1809,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "landmarks": [],
+   "textLength": 33,
+   "text": "Simon Willison’s Weblog\nSubscribe",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.7,
+   "geometry": {
+    "top": 6,
+    "height": 23,
+    "widthFraction": 0.65,
+    "leftFraction": 0.17,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "h2",
+   "landmarks": [],
+   "textLength": 59,
+   "text": "The Pelican comparison grid for Astra is pretty interesting",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 50,
+    "height": 63,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p×3",
+   "landmarks": [],
+   "textLength": 512,
+   "text": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles—at low, medium, high, xhigh and max reasoning levels (Astra doesn’t support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful.\nSee the grid for full quality images. Here’s the tr",
+   "counts": {
+    "links": 4,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Comparison grid showing gpt-6-astra, gpt-5.6-sol, gpt-5.6-terra, gpt-5.6-luna at 6 different reasoning levels with pelic",
+     "width": 560,
+     "height": 760
+    }
+   ],
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 124,
+    "height": 977,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "landmarks": [],
+   "textLength": 909,
+   "text": "The Astra pelicans are much better. The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good.\nAstra below max still doesn’t reliably get the pelican legs on both sides of the frame.\nIn terms of cost, Astra may be around twi",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1114,
+    "height": 348,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "landmarks": [],
+   "textLength": 77,
+   "text": "I wonder if Astra and Luna are more related to each other than OpenAI let on?",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1474,
+    "height": 23,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 5,
+   "tag": "div",
+   "class": "entryFooter",
+   "landmarks": [],
+   "textLength": 109,
+   "text": "Posted 4th September 2026 at 11:59 pm · Follow me on Mastodon, Bluesky, Twitter or subscribe to my newsletter",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.61,
+   "geometry": {
+    "top": 1512,
+    "height": 50,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "recent-articles",
+   "landmarks": [],
+   "textLength": 252,
+   "text": "More recent articles\n Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026\n OpenAI agents attacked RubyGems back in May - 12th September 2026\n Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 1,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.64,
+   "geometry": {
+    "top": 1578,
+    "height": 150,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p",
+   "class": "this-is",
+   "landmarks": [],
+   "textLength": 116,
+   "text": "This is The Pelican comparison grid for Astra is pretty interesting by Simon Willison, posted on 4th September 2026.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 50,
+    "height": 63,
+    "widthFraction": 0.19,
+    "leftFraction": 0.58,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "a×6",
+   "class": "item-tag",
+   "landmarks": [],
+   "textLength": 99,
+   "text": "ai\n 2,242\nopenai\n 464\ngenerative-ai\n 1,988\nllms\n 1,954\npelican-riding-a-bicycle\n 143\ngpt-6-astra\n 9",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 6,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 124,
+    "height": 145,
+    "widthFraction": 0.07,
+    "leftFraction": 0.58,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p×2",
+   "landmarks": [],
+   "textLength": 140,
+   "text": "Next: Some thoughts on the Navier–Stokes Millennium Prize Problem\nPrevious: OpenAI's rogue agents were caught communicating via public wikis",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 277,
+    "height": 95,
+    "widthFraction": 0.19,
+    "leftFraction": 0.58,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "section",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 168,
+   "text": "Monthly briefing\n Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments.\n Pay me to send you less!\n Sponsor & subscribe",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 396,
+    "height": 224,
+    "widthFraction": 0.19,
+    "leftFraction": 0.58,
+    "pageFraction": 0.22,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "ul",
+   "landmarks": [],
+   "textLength": 174,
+   "text": "Disclosures\n Colophon\n ©\n 2002\n 2003\n 2004\n 2005\n 2006\n 2007\n 2008\n 2009\n 2010\n 2011\n 2012\n 2013\n 2014\n 2015\n 2016\n 2017\n 2018\n 2019\n 2020\n 2021\n 2022\n 2023\n 2024\n 2025\n 2026",
+   "counts": {
+    "links": 27,
+    "images": 1,
+    "headings": 0,
+    "listItems": 29,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 1756,
+    "height": 35,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  }
+ ]
+}

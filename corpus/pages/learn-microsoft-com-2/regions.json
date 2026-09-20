@@ -1,0 +1,1260 @@
+{
+ "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/overview",
+ "title": "What's new in .NET 11 | Microsoft Learn",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 6307,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "section",
+   "class": "tier1-event-banner position-relative padding-block-md ignite-banner",
+   "landmarks": [
+    "header",
+    "section"
+   ],
+   "textLength": 204,
+   "text": "Skip to main content\nSkip to Ask Learn chat experience\nMicrosoft Ignite\nNovember 17–20, 2026\nInteractive learning, certifications, and direct access to experts all in one place.\nRegister now\nDismiss alert",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": -1,
+    "height": 149,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "display-flex gap-xxs-desktop",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1734,
+   "text": "Learn\nDocumentationAll product documentation\nAzure documentation\nDynamics 365 documentation\nMicrosoft Copilot documentation\nMicrosoft 365 documentation\nPower Platform documentation\nCode samples\nTroubleshooting documentation\nRegister now\nMicrosoft Ignite | November 17-20, 2026Interactive learning, certifications, and direct access to experts all in one place.\nTraining & LabsAll training\nAzure train",
+   "counts": {
+    "links": 38,
+    "images": 1,
+    "headings": 0,
+    "listItems": 38,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 17,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 26,
+     "height": 26
+    }
+   ],
+   "linkTextRatio": 0.44,
+   "geometry": {
+    "top": 148,
+    "height": 53,
+    "widthFraction": 0.38,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "button",
+   "class": "button button-clear inner-focus",
+   "ariaLabel": "Open search",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 7,
+   "text": "Sign in",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 157,
+    "height": 36,
+    "widthFraction": 0.06,
+    "leftFraction": 0.91,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "display-flex",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1192,
+   "text": ".NET\nLanguagesC#\nF#\nVisual Basic\nFeaturesFundamentals\nTools and diagnostics\nAIGenerative AI\nML.NET\nMigrate from .NET Framework\nCompatibility\nAdvanced programming\nDevOps and testing\nSecurity\nData access\nWorkloadsWeb\nCloud\nCloud-nativeAspire\nMicrosoft Orleans\nDesktop and mobile.NET Multi-platform App UI (.NET MAUI)\nWindows Presentation Foundation\nWindows Forms\nWinUI apps\nAPIs.NET\nAspire\n.NET Framewo",
+   "counts": {
+    "links": 73,
+    "images": 0,
+    "headings": 0,
+    "listItems": 89,
+    "tableRows": 0,
+    "controls": 17,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 207,
+    "height": 45,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "button",
+   "class": "button button-clear button-sm inner-focus",
+   "ariaLabel": "Collapse",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 264,
+    "height": 32,
+    "widthFraction": 0.02,
+    "leftFraction": 0.16,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "form",
+   "class": "margin-bottom-xxs display-none-layout-menu-collapsed",
+   "role": "search",
+   "ariaLabel": "Search",
+   "landmarks": [
+    "section",
+    "nav",
+    "form"
+   ],
+   "textLength": 42,
+   "text": "Search Suggestions will filter as you type",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 304,
+    "height": 32,
+    "widthFraction": 0.17,
+    "leftFraction": 0.02,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "class": "tree table-of-contents is-vertically-scrollable flex-grow-1",
+   "role": "tree",
+   "ariaLabel": "Table of contents",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 326,
+   "text": ".NET fundamentals documentation\nGet started\nOverview\nWhat's new in .NET.NET 11What's newOverview\nRuntime\nLibraries\nSDK\nBreaking changes\n.NET 10\n.NET 9\n.NET 8\n.NET 7\n.NET 6\n.NET 5\n.NET Core 3.1\n.NET Core 3.0\n.NET Core 2.2\n.NET Core 2.1\n.NET Core 2.0\n.NET Standard\nFundamental coding components\nRuntime libraries\nExecution model",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 26,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 343,
+    "height": 424,
+    "widthFraction": 0.17,
+    "leftFraction": 0.02,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "button",
+   "class": "margin-block-xxs button button-sm button-clear",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 12,
+   "text": "Download PDF",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 776,
+    "height": 32,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "display-flex align-items-center justify-content-space-between",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 156,
+   "text": "Learn\n.NET\n Learn\n.NET\n Ask Learn\n Ask Learn\n Reading mode\n Table of contents\n Read in English\n Add to Collections\n Add to Plans\n Edit\n Copy Markdown\n Print",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 9,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 280,
+    "height": 35,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h1",
+   "id": "whats-new-in-net-11",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 21,
+   "text": "What's new in .NET 11",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 335,
+    "height": 52,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "id": "ms--ai-summary-cta",
+   "class": "margin-top-xs display-flex align-items-center",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "Summarize this article for me",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 423,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 224,
+   "text": "This article describes new features in .NET 11. It was last updated for release candidate 1 (RC 1).\n.NET 11 is currently in release candidate. General availability is expected in November 2026. You can download .NET 11 here.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 466,
+    "height": 100,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h2",
+   "id": "net-runtime",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 12,
+   "text": ".NET runtime",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 586,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2061,
+   "text": "The .NET 11 runtime includes:\nUpdated minimum hardware requirements for x86/x64 and Arm64 architectures, requiring more modern instruction sets to improve performance and reduce maintenance complexity.\nRuntime-native async (Runtime Async), which produces cleaner stack traces and lower overhead. Runtime Async no longer requires <EnablePreviewFeatures>true</EnablePreviewFeatures> for projects that t",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 647,
+    "height": 772,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 60,
+   "text": "For more information, see What's new in the .NET 11 runtime.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 1435,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "h2",
+   "id": "net-libraries",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 14,
+   "text": ".NET libraries",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1483,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 3575,
+   "text": "The .NET 11 libraries include new APIs for:\nProcess expansion with run-and-capture helpers, fire-and-forget launches, SafeProcessHandle lifecycle methods, tighter handle control, new ProcessStartInfo.StartSuspended for suspended starts, Process.TryGetProcessById(Int32, Process) for safe process lookup, and Process.Signal(PosixSignal) with ProcessExitStatus for signaling processes and inspecting ho",
+   "counts": {
+    "links": 28,
+    "images": 0,
+    "headings": 0,
+    "listItems": 22,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 1545,
+    "height": 1528,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 62,
+   "text": "For more information, see What's new in the .NET 11 libraries.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.56,
+   "geometry": {
+    "top": 3089,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h2",
+   "id": "net-sdk",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": ".NET SDK",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3137,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2713,
+   "text": "The .NET 11 SDK includes:\nSmaller SDK installers on Linux and macOS through assembly deduplication, with additional savings by skipping crossgen for DotnetTools-only assemblies.\nImproved CA1873 code analyzer with reduced noise and clearer diagnostic messages.\nSupport for creating and editing solution filters (.slnf) from the dotnet sln CLI.\nFile-based app support for #:include to split apps across",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 18,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3198,
+    "height": 1136,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 60,
+   "text": "For more information, see What's new in the SDK for .NET 11.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 4350,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "h2",
+   "id": "aspnet-core",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 12,
+   "text": "ASP.NET Core",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4398,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 93,
+   "text": "For information about what's new in ASP.NET Core, see What's new in ASP.NET Core for .NET 11.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.41,
+   "geometry": {
+    "top": 4460,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h2",
+   "id": "c-15",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "C# 15",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4508,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 99,
+   "text": "C# 15 is the default language version for projects that target .NET 11 and includes these features:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4570,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 122,
+   "text": "Collection expression arguments\nUnion types\nClosed hierarchies\nExtension indexers\nLabeled break and continue\nMemory safety",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 4614,
+    "height": 168,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 63,
+   "text": "For information about new C# features, see What's new in C# 15.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 4798,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h2",
+   "id": "ef-core",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 7,
+   "text": "EF Core",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4846,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h2",
+   "id": "extensions-libraries",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 59,
+   "text": "See What's new in EF Core for .NET 11.\nExtensions libraries",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.56,
+   "geometry": {
+    "top": 4907,
+    "height": 90,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h2",
+   "id": "windows-forms",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 50,
+   "text": "See dotnet/extensions release notes.\nWindows Forms",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.62,
+   "geometry": {
+    "top": 5017,
+    "height": 90,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h2",
+   "id": "wpf",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 48,
+   "text": "See What's new in Windows Forms for .NET 11.\nWPF",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 5126,
+    "height": 90,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h2",
+   "id": "see-also",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "See What's new in WPF in .NET 11.\nSee also\nWhat's new in .NET 10",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 5236,
+    "height": 138,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "div",
+   "class": "font-size-sm",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 73,
+   "text": "Note: The author created this article with assistance from AI. Learn more",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 5390,
+    "height": 25,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "section",
+   "class": "feedback-section position-relative margin-top-lg border",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 333,
+   "text": "Collaborate with us on GitHub\n The source for this content can be found on GitHub, where you can also create and review issues and pull requests. For more information, see our contributor guide.\n .NET\n feedback\n .NET\n is an open source project. Select a link to provide feedback:\n Open a documentation issue\n Provide product feedback",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 36,
+     "height": 36
+    }
+   ],
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 5462,
+    "height": 247,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "h2",
+   "id": "ms--additional-resources-mobile-heading",
+   "class": "title is-3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Additional resources",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5758,
+    "height": 32,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "ul",
+   "id": "right-rail-recommendations-list-0",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 868,
+   "text": "Documentation\nBreaking changes in .NET 11\n Navigate to the breaking changes in .NET 11.\n What's new in .NET 11 runtime\n Learn about the new features introduced in the .NET 11 runtime.\n What's new in the SDK and tooling for .NET 11\n Learn about the new .NET SDK features introduced in .NET 11.\n What's new in .NET libraries for .NET 11\n Learn about the updates to the .NET libraries for .NET 11.\n What",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 5813,
+    "height": 265,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "ul",
+   "class": "metadata page-metadata",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Last updated on 09/10/2026",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6132,
+    "height": 26,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "nav",
+   "id": "side-doc-outline",
+   "class": "doc-outline border-bottom padding-bottom-xs margin-bottom-xs",
+   "ariaLabel": "In this article",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 127,
+   "text": "In this article\n.NET runtime\n.NET libraries\n.NET SDK\nASP.NET Core\nC# 15\nEF Core\nExtensions libraries\nWindows Forms\nWPF\nSee also",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 1,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.8,
+   "geometry": {
+    "top": 280,
+    "height": 323,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 38,
+   "tag": "section",
+   "id": "ms--site-user-feedback-right-rail",
+   "class": "font-size-sm display-none-print",
+   "landmarks": [
+    "aside",
+    "section"
+   ],
+   "textLength": 161,
+   "text": "Was this page helpful?\n Need help with this topic?\n Want to try using Ask Learn to clarify or guide you through this topic?\n Ask Learn\n Ask Learn\n Suggest a fix?",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 619,
+    "height": 41,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 39,
+   "tag": "footer",
+   "id": "footer",
+   "class": "footer-layout padding-xs padding-sm-desktop has-default-focus",
+   "role": "contentinfo",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 213,
+   "text": "English (United States)\n Your Privacy Choices\n Theme\n Light \n Dark \n High contrast \n AI Disclaimer\n Previous Versions\n Blog\n Contribute\n Privacy\n Consumer Health Privacy\n Terms of Use\n Trademarks\n © Microsoft 2026",
+   "counts": {
+    "links": 10,
+    "images": 1,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 43,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 6182,
+    "height": 125,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

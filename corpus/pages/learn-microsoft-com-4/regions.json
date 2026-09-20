@@ -1,0 +1,2194 @@
+{
+ "url": "https://learn.microsoft.com/en-us/dotnet/desktop/wpf/get-started/create-app-visual-studio",
+ "title": "Create a WPF app with Visual Studio tutorial - WPF | Microsoft Learn",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 16403,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "section",
+   "class": "tier1-event-banner position-relative padding-block-md ignite-banner",
+   "landmarks": [
+    "header",
+    "section"
+   ],
+   "textLength": 204,
+   "text": "Skip to main content\nSkip to Ask Learn chat experience\nMicrosoft Ignite\nNovember 17–20, 2026\nInteractive learning, certifications, and direct access to experts all in one place.\nRegister now\nDismiss alert",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": -1,
+    "height": 149,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "display-flex gap-xxs-desktop",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1734,
+   "text": "Learn\nDocumentationAll product documentation\nAzure documentation\nDynamics 365 documentation\nMicrosoft Copilot documentation\nMicrosoft 365 documentation\nPower Platform documentation\nCode samples\nTroubleshooting documentation\nRegister now\nMicrosoft Ignite | November 17-20, 2026Interactive learning, certifications, and direct access to experts all in one place.\nTraining & LabsAll training\nAzure train",
+   "counts": {
+    "links": 38,
+    "images": 1,
+    "headings": 0,
+    "listItems": 38,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 17,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 26,
+     "height": 26
+    }
+   ],
+   "linkTextRatio": 0.44,
+   "geometry": {
+    "top": 148,
+    "height": 53,
+    "widthFraction": 0.38,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "button",
+   "class": "button button-clear inner-focus",
+   "ariaLabel": "Open search",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 7,
+   "text": "Sign in",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 157,
+    "height": 36,
+    "widthFraction": 0.06,
+    "leftFraction": 0.91,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "display-flex",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1192,
+   "text": ".NET\nLanguagesC#\nF#\nVisual Basic\nFeaturesFundamentals\nTools and diagnostics\nAIGenerative AI\nML.NET\nMigrate from .NET Framework\nCompatibility\nAdvanced programming\nDevOps and testing\nSecurity\nData access\nWorkloadsWeb\nCloud\nCloud-nativeAspire\nMicrosoft Orleans\nDesktop and mobile.NET Multi-platform App UI (.NET MAUI)\nWindows Presentation Foundation\nWindows Forms\nWinUI apps\nAPIs.NET\nAspire\n.NET Framewo",
+   "counts": {
+    "links": 73,
+    "images": 0,
+    "headings": 0,
+    "listItems": 89,
+    "tableRows": 0,
+    "controls": 17,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 207,
+    "height": 45,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "button",
+   "class": "button button-clear button-sm inner-focus",
+   "ariaLabel": "Collapse",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 264,
+    "height": 32,
+    "widthFraction": 0.02,
+    "leftFraction": 0.16,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "form",
+   "class": "margin-bottom-xxs display-none-layout-menu-collapsed",
+   "role": "search",
+   "ariaLabel": "Search",
+   "landmarks": [
+    "section",
+    "nav",
+    "form"
+   ],
+   "textLength": 42,
+   "text": "Search Suggestions will filter as you type",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 304,
+    "height": 32,
+    "widthFraction": 0.17,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "class": "tree table-of-contents is-vertically-scrollable flex-grow-1",
+   "role": "tree",
+   "ariaLabel": "Table of contents",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 328,
+   "text": "Windows Presentation Foundation for .NET\nGet startedOverview\nCreate a WPF application\nWalkthrough: My first WPF desktop application (.NET Framework)\nWPF Walkthroughs\nWhat's new\nUpgrade\nApplication development\nAdvanced\nControls\nData\nGraphics and multimedia\nSecurity\nWPF samples\nClass library\nXAML with WPF\nXAML Language Reference",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 18,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.84,
+   "geometry": {
+    "top": 343,
+    "height": 424,
+    "widthFraction": 0.17,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "button",
+   "class": "margin-block-xxs button button-sm button-clear",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 12,
+   "text": "Download PDF",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 776,
+    "height": 32,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "display-flex align-items-center justify-content-space-between",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 208,
+   "text": "Learn\n.NET\nWindows Desktop\nWPF\n Learn\n.NET\nWindows Desktop\nWPF\n Ask Learn\n Ask Learn\n C#\n C#\n VB\n Reading mode\n Table of contents\n Read in English\n Add to Collections\n Add to Plans\n Edit\n Copy Markdown\n Print",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 11,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 280,
+    "height": 35,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h1",
+   "id": "tutorial-create-a-wpf-app-with-net",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 36,
+   "text": "Tutorial: Create a WPF app with .NET",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 335,
+    "height": 52,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "id": "ms--ai-summary-cta",
+   "class": "margin-top-xs display-flex align-items-center",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "Summarize this article for me",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 423,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 256,
+   "text": "In this tutorial, you learn how to use Visual Studio to create a Windows Presentation Foundation (WPF) app. With Visual Studio, you add controls to windows and handle events. By the end of this tutorial, you have a simple app that adds names to a list box.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 466,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 135,
+   "text": "In this tutorial, you:\nCreate a new WPF app.\nAdd controls to a window.\nHandle control events to provide app functionality.\nRun the app.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 566,
+    "height": 156,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 66,
+   "text": "Here's a preview of the app created while following this tutorial:",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Finished sample app for WPF tutorial",
+     "width": 248,
+     "height": 175
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 738,
+    "height": 227,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "id": "prerequisites",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "Prerequisites",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 985,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 103,
+   "text": "Visual Studio 2026\nSelect the .NET desktop development workload\nSelect the .NET 10 individual component",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 1046,
+    "height": 84,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "id": "create-a-wpf-app",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "Create a WPF app",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1150,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 101,
+   "text": "The first step to creating a new app is opening Visual Studio and generating the app from a template.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1212,
+    "height": 56,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 797,
+   "text": "Open Visual Studio.\nSelect Create a new project.\nIn the Search for templates box, type wpf, and wait for the search results to appear.\nIn the code language dropdown, choose C# or Visual Basic.\nIn the list of templates, select WPF Application and then select Next.\n Important\nDon't select the WPF Application (.NET Framework) template.\nThe following image shows both C# and Visual Basic .NET project t",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Screenshot of Visual Studio's 'Create a new project' dialog with 'wpf' in the search box and WPF Application templates h",
+     "width": 650,
+     "height": 422
+    },
+    {
+     "kind": "img",
+     "alt": "A screenshot of the start dialog from Visual Studio 2026. The 'create a new project' button is highlighted with a red bo",
+     "width": 650,
+     "height": 421
+    },
+    {
+     "kind": "img",
+     "alt": "A screenshot of the 'configure your new project' dialog from Visual Studio 2026. The 'Project name' textbox has the word",
+     "width": 650,
+     "height": 421
+    },
+    {
+     "kind": "img",
+     "alt": "A screenshot of the 'Additional information' dialog from Visual Studio 2026. The 'Framework' dropdown box has '.NET 10 (",
+     "width": 650,
+     "height": 421
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1284,
+    "height": 2338,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 234,
+   "text": "After Visual Studio generates the app, it opens the XAML designer window for the default window, MainWindow. If the designer isn't visible, double-click on the MainWindow.xaml file in the Solution Explorer window to open the designer.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3638,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h3",
+   "id": "important-parts-of-visual-studio",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 32,
+   "text": "Important parts of Visual Studio",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3742,
+    "height": 36,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 107,
+   "text": "Support for WPF in Visual Studio has five important components that you interact with as you create an app:",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The important components of Visual Studio 2026 you should know when creating a WPF project for .NET.",
+     "width": 688,
+     "height": 427
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3798,
+    "height": 507,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1688,
+   "text": "Solution Explorer\nAll of your project files, code, windows, and resources appear in this window.\nProperties\nThis window shows property settings you can configure based on the context of the item selected. For example, if you select an item from Solution Explorer, settings related to the file are displayed. If an object in the Designer is selected, the properties of the control or window are displa",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 13,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4321,
+    "height": 948,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h2",
+   "id": "examine-the-xaml",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "Examine the XAML",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5289,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 271,
+   "text": "After you create your project, the XAML code editor opens. It shows a minimal amount of XAML code to display the window. If the editor isn't open, double-click the MainWindow.xaml item in the Solution Explorer window. You should see XAML similar to the following example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5350,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "div",
+   "id": "code-try-0",
+   "class": "code-block-header margin-top-sm",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "XAMLCopy",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5458,
+    "height": 32,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "pre",
+   "class": "inner-focus",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 417,
+   "text": "<Window x:Class=\"Names.MainWindow\"\n xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\n xmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\"\n xmlns:d=\"http://schemas.microsoft.com/expression/blend/2008\"\n xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\"\n xmlns:local=\"clr-namespace:Names\"\n mc:Ignorable=\"d\"\n Title=\"MainWindow\" Height=\"450\" Width=\"800\">\n <Grid>\n ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5490,
+    "height": 253,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "div",
+   "class": "alert is-primary",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 204,
+   "text": "Important\nIf you're coding in Visual Basic, the XAML is slightly different, specifically the x:Class=\"..\" attribute. XAML in Visual Basic uses the object's class name and omits the namespace to the class.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5759,
+    "height": 162,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 355,
+   "text": "To better understand the XAML, let's break it down. XAML is simply XML that WPF processes to create a UI. To understand XAML, you should, at a minimum, be familiar with the basics of XML.\nThe document root <Window> represents the type of object described by the XAML file. The file declares eight attributes, and they generally belong to three categories:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5937,
+    "height": 128,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 880,
+   "text": "XML namespaces\nAn XML namespace provides structure to the XML. It determines what XML content you can declare in the file.\nThe main xmlns attribute imports the XML namespace for the entire file. In this case, it maps to the types declared by WPF. The other XML namespaces declare a prefix and import other types and objects for the XAML file. For example, the xmlns:local namespace declares the local",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6081,
+    "height": 516,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h2",
+   "id": "change-the-window",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Change the window",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6617,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 99,
+   "text": "For our example app, this window is too large, and the title bar isn't descriptive. Let's fix that.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6679,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 762,
+   "text": "First, run the app by pressing the F5 key or by selecting Debug > Start Debugging from the menu.\nYou see the default window generated by the template, without any controls, and a title of MainWindow:\nChange the title of the window by setting the Title to Names.\nChange the size of the window by setting the Height to 180 and Width to 260.\n XAMLCopy \n<Window x:Class=\"Names.MainWindow\"\n xmlns=\"http://",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "A blank WPF app",
+     "width": 650,
+     "height": 367
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6723,
+    "height": 931,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h2",
+   "id": "prepare-the-layout",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 18,
+   "text": "Prepare the layout",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7674,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 939,
+   "text": "WPF provides a powerful layout system with many different layout controls. Layout controls help place and size child controls, and can even do so automatically. The default layout control provided in this XAML is the <Grid> control.\nThe grid control lets you define rows and columns, much like a table, and place controls within the bounds of a specific row and column combination. You can add any nu",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7735,
+    "height": 384,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 583,
+   "text": "Add a new attribute to the <Grid> element: Margin=\"10\".\nThis setting brings the grid in from the window edges and makes it look a little nicer.\nDefine two rows and two columns, dividing the grid into four cells:\n XAMLCopy \n<Grid Margin=\"10\">\n <Grid.RowDefinitions>\n <RowDefinition Height=\"*\" />\n <RowDefinition Height=\"*\" />\n </Grid.RowDefinitions>\n <Grid.ColumnDefinitions>\n <ColumnDefinition Width=",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "A WPF app with the margin set on a grid",
+     "width": 500,
+     "height": 380
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8135,
+    "height": 920,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h2",
+   "id": "add-the-first-control",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 21,
+   "text": "Add the first control",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9075,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 99,
+   "text": "Now that the grid is configured, you can start adding controls to it. First, add the label control.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9137,
+    "height": 28,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1449,
+   "text": "Create a new <Label> element inside the <Grid> element, after the row and column definitions. Set the content of the element to the string value Names:\n XAMLCopy \n<Grid Margin=\"10\">\n <Grid.RowDefinitions>\n <RowDefinition Height=\"*\" />\n <RowDefinition Height=\"*\" />\n </Grid.RowDefinitions>\n <Grid.ColumnDefinitions>\n <ColumnDefinition Width=\"*\" />\n <ColumnDefinition Width=\"*\" />\n </Grid.ColumnDefinit",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "A WPF app with the margin set on a grid and a label control in the first row",
+     "width": 500,
+     "height": 380
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9181,
+    "height": 1457,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h3",
+   "id": "control-placement",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Control placement",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10657,
+    "height": 36,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1104,
+   "text": "Let's talk about control placement. The label you created in the previous section is automatically placed in row 0 and column 0 of the grid. The numbering for rows and columns starts at 0 and increments by 1. The control doesn't know anything about the grid, and the control doesn't define any properties to control its placement within the grid.\nHow do you tell a control to use a different row or c",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10714,
+    "height": 412,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "id": "code-try-5",
+   "class": "code-block-header margin-top-sm",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "XAMLCopy",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11150,
+    "height": 32,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 236,
+   "text": "<Label Grid.Column=\"1\">Names</Label>\nNotice that the label moved to the second column. You can use the Grid.Row and Grid.Column attached properties to place the next controls you'll create. For now though, restore the label to column 0.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11182,
+    "height": 144,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "h2",
+   "id": "create-the-name-list-box",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 24,
+   "text": "Create the name list box",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11346,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 110,
+   "text": "Now that the grid is correctly sized and the label created, add a list box control on the row below the label.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11407,
+    "height": 56,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 255,
+   "text": "Declare the <ListBox /> control under the <Label> control.\nSet the Grid.Row property to 1.\nSet the x:Name property to lstNames.\nOnce a control is named, you can reference it in the code-behind. Assign the name to the control by using the x:Name attribute.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11479,
+    "height": 188,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "div",
+   "id": "code-try-6",
+   "class": "code-block-header margin-top-sm",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 47,
+   "text": "Here's what the XAML should look like:\nXAMLCopy",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11683,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "pre",
+   "class": "inner-focus",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 319,
+   "text": "<Grid Margin=\"10\">\n <Grid.RowDefinitions>\n <RowDefinition Height=\"Auto\" />\n <RowDefinition Height=\"*\" />\n </Grid.RowDefinitions>\n <Grid.ColumnDefinitions>\n <ColumnDefinition Width=\"*\" />\n <ColumnDefinition Width=\"*\" />\n </Grid.ColumnDefinitions>\n <Label>Names</Label>\n <ListBox Grid.Row=\"1\" x:Name=\"lstNames\" />\n</Grid>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11767,
+    "height": 344,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "h2",
+   "id": "add-the-remaining-controls",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Add the remaining controls",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12131,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 541,
+   "text": "Add a text box and a button. The user uses these controls to enter a name to add to the list box. Instead of creating more rows and columns in the grid to arrange these controls, put these controls into the <StackPanel> layout control.\nThe stack panel differs from the grid in how it places controls. While you use the Grid.Row and Grid.Column attached properties to tell the grid where you want the ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12193,
+    "height": 212,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1240,
+   "text": "Declare the <StackPanel> control under the <ListBox> control.\nSet the Grid.Row property to 1.\nSet the Grid.Column property to 1.\nSet the Margin to 5,0,0,0.\n XAMLCopy \n<Grid.RowDefinitions>\n <RowDefinition Height=\"Auto\" />\n <RowDefinition Height=\"*\" />\n</Grid.RowDefinitions>\n<Grid.ColumnDefinitions>\n <ColumnDefinition Width=\"*\" />\n <ColumnDefinition Width=\"*\" />\n</Grid.ColumnDefinitions>\n<Label>Nam",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12421,
+    "height": 916,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "div",
+   "id": "code-try-8",
+   "class": "code-block-header margin-top-sm",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 47,
+   "text": "Here's what the XAML should look like:\nXAMLCopy",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13353,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "pre",
+   "class": "inner-focus",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 162,
+   "text": "<StackPanel Grid.Row=\"1\" Grid.Column=\"1\" Margin=\"5,0,0,0\">\n <TextBox x:Name=\"txtName\" />\n <Button x:Name=\"btnAdd\" Margin=\"0,5,0,0\">Add Name</Button>\n</StackPanel>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13437,
+    "height": 101,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 200,
+   "text": "The layout for the window is complete. However, the app doesn't have any logic to actually be functional. Next, you need to hook up the control events to code and get the app to actually do something.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13553,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "h2",
+   "id": "add-code-for-the-click-event",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 28,
+   "text": "Add code for the Click event",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13657,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 250,
+   "text": "The <Button> you created has a Click event that the app raises when the user presses the button. Subscribe to this event and add code to add a name to the list box. Use XAML attributes to subscribe to events, just like you use them to set properties.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13719,
+    "height": 84,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1310,
+   "text": "Locate the <Button> control.\nSet the Click attribute to ButtonAddName_Click.\n XAMLCopy \n<StackPanel Grid.Row=\"1\" Grid.Column=\"1\" Margin=\"5,0,0,0\">\n <TextBox x:Name=\"txtName\" />\n <Button x:Name=\"btnAdd\" Margin=\"0,5,0,0\" Click=\"ButtonAddName_Click\">Add Name</Button>\n</StackPanel>\nGenerate the event handler code. Right-click on ButtonAddName_Click and select Go To Definition.\nThis action generates a ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 11,
+    "tableRows": 0,
+    "controls": 7,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13819,
+    "height": 932,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h2",
+   "id": "run-the-app",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Run the app",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14771,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 137,
+   "text": "After handling the event, run the app. The window appears, and you can enter a name in the textbox. Add the name by selecting the button.",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Running a WPF for .NET app in Visual Studio 2026.",
+     "width": 248,
+     "height": 175
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14832,
+    "height": 255,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "h2",
+   "id": "related-content",
+   "class": "heading-anchor",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Related content",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15107,
+    "height": 42,
+    "widthFraction": 0.5,
+    "leftFraction": 0.24,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 62,
+   "text": "Learn more about Windows Presentation Foundation\nXAML overview",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 15169,
+    "height": 56,
+    "widthFraction": 0.45,
+    "leftFraction": 0.28,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "section",
+   "class": "feedback-section position-relative margin-top-lg border",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 367,
+   "text": "Collaborate with us on GitHub\n The source for this content can be found on GitHub, where you can also create and review issues and pull requests. For more information, see our contributor guide.\n .NET Desktop feedback\n feedback\n .NET Desktop feedback\n is an open source project. Select a link to provide feedback:\n Open a documentation issue\n Provide product feedback",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 36,
+     "height": 36
+    }
+   ],
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 15273,
+    "height": 247,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "h2",
+   "id": "ms--additional-resources-mobile-heading",
+   "class": "title is-3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Additional resources",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15569,
+    "height": 32,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "ul",
+   "id": "right-rail-recommendations-list-0",
+   "landmarks": [
+    "main",
+    "section",
+    "article"
+   ],
+   "textLength": 1125,
+   "text": "Documentation\nWhat is Windows Presentation Foundation - WPF\n This article gives an overview of Windows Presentation Foundation (WPF) with .NET. WPF is a Windows-only user interface (UI) framework.\n Create your first WPF app in Visual Studio 2019 - .NET Framework\n Develop a Windows Presentation Foundation (WPF) desktop application that includes elements common to most WPF applications.\n Samples - W",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 15624,
+    "height": 320,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "section",
+   "id": "right-rail-training-mobile",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 345,
+   "text": "Training\n Module\n Create a UI in a .NET MAUI app by using XAML - Training\n Learn how to design a UI for a .NET MAUI app using XAML.\n Certification\n Microsoft Certified: Power Platform Developer Associate - Certifications\n Demonstrate how to simplify, automate, and transform business tasks and processes using Microsoft Power Platform Developer.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.37,
+   "geometry": {
+    "top": 15973,
+    "height": 206,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "ul",
+   "class": "metadata page-metadata",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Last updated on 12/28/2025",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16228,
+    "height": 26,
+    "widthFraction": 0.48,
+    "leftFraction": 0.26,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "nav",
+   "id": "side-doc-outline",
+   "class": "doc-outline border-bottom padding-bottom-xs margin-bottom-xs",
+   "ariaLabel": "In this article",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 245,
+   "text": "In this article\n Prerequisites\nCreate a WPF app\nExamine the XAML\nChange the window\nPrepare the layout\nAdd the first control\nCreate the name list box\nAdd the remaining controls\nAdd code for the Click event\nRun the app\nRelated content\n Show 2 more",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 1,
+    "listItems": 11,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.84,
+   "geometry": {
+    "top": 280,
+    "height": 326,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 67,
+   "tag": "section",
+   "id": "ms--site-user-feedback-right-rail",
+   "class": "font-size-sm display-none-print",
+   "landmarks": [
+    "aside",
+    "section"
+   ],
+   "textLength": 161,
+   "text": "Was this page helpful?\n Need help with this topic?\n Want to try using Ask Learn to clarify or guide you through this topic?\n Ask Learn\n Ask Learn\n Suggest a fix?",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 622,
+    "height": 41,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 68,
+   "tag": "footer",
+   "id": "footer",
+   "class": "footer-layout padding-xs padding-sm-desktop has-default-focus",
+   "role": "contentinfo",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 213,
+   "text": "English (United States)\n Your Privacy Choices\n Theme\n Light \n Dark \n High contrast \n AI Disclaimer\n Previous Versions\n Blog\n Contribute\n Privacy\n Consumer Health Privacy\n Terms of Use\n Trademarks\n © Microsoft 2026",
+   "counts": {
+    "links": 10,
+    "images": 1,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 43,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 16278,
+    "height": 125,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

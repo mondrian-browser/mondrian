@@ -1,0 +1,975 @@
+{
+ "id": "bom-gov-au-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:50:02.879Z",
+ "tier": "relayout",
+ "application": 0.15,
+ "inputTokens": 144007,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "cookie_banner",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "cookie_banner",
+     1
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "gate",
+   "final": "cookie_banner"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "site_nav",
+     0.95
+    ],
+    [
+     "site_header",
+     0.05
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "account",
+   "confidence": 0.29,
+   "margin": 0.15,
+   "top": [
+    [
+     "account",
+     0.31
+    ],
+    [
+     "list",
+     0.16
+    ],
+    [
+     "site_nav",
+     0.14
+    ],
+    [
+     "site_header",
+     0.13
+    ],
+    [
+     "settings",
+     0.1
+    ]
+   ],
+   "block": "list",
+   "slot": "header",
+   "final": "account"
+  },
+  {
+   "index": 3,
+   "choice": "breadcrumbs",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "breadcrumbs",
+     1
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "image",
+     0
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 4,
+   "choice": "title",
+   "confidence": 0.91,
+   "margin": 0.84,
+   "top": [
+    [
+     "title",
+     0.92
+    ],
+    [
+     "heading",
+     0.08
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "title"
+  },
+  {
+   "index": 5,
+   "choice": "action_button",
+   "confidence": 0.92,
+   "margin": 0.9,
+   "top": [
+    [
+     "action_button",
+     0.93
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "cta",
+     0.02
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "action_button"
+  },
+  {
+   "index": 6,
+   "choice": "tabs",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "tabs",
+     1
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 7,
+   "choice": "infobox",
+   "confidence": 0.86,
+   "margin": 0.8,
+   "top": [
+    [
+     "infobox",
+     0.87
+    ],
+    [
+     "metadata",
+     0.07
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "tabs",
+     0.02
+    ],
+    [
+     "hero",
+     0.01
+    ]
+   ],
+   "block": "pairs",
+   "slot": "article",
+   "final": "infobox"
+  },
+  {
+   "index": 8,
+   "choice": "accordion",
+   "confidence": 0.58,
+   "margin": 0.19,
+   "top": [
+    [
+     "accordion",
+     0.59
+    ],
+    [
+     "action_button",
+     0.4
+    ],
+    [
+     "disclosure",
+     0.01
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "article",
+   "final": "accordion"
+  },
+  {
+   "index": 9,
+   "choice": "tabs",
+   "confidence": 0.87,
+   "margin": 0.83,
+   "top": [
+    [
+     "tabs",
+     0.88
+    ],
+    [
+     "accordion",
+     0.05
+    ],
+    [
+     "heading",
+     0.03
+    ],
+    [
+     "toolbar",
+     0.02
+    ],
+    [
+     "table",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 10,
+   "choice": "table",
+   "confidence": 0.8,
+   "margin": 0.72,
+   "top": [
+    [
+     "table",
+     0.81
+    ],
+    [
+     "calendar",
+     0.09
+    ],
+    [
+     "tabs",
+     0.05
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "block": "table",
+   "slot": "nav",
+   "final": "table"
+  },
+  {
+   "index": 11,
+   "choice": "table",
+   "confidence": 0.68,
+   "margin": 0.6,
+   "top": [
+    [
+     "table",
+     0.69
+    ],
+    [
+     "list",
+     0.09
+    ],
+    [
+     "chart",
+     0.08
+    ],
+    [
+     "canvas",
+     0.06
+    ],
+    [
+     "metadata",
+     0.02
+    ]
+   ],
+   "block": "table",
+   "slot": "nav",
+   "final": "table"
+  },
+  {
+   "index": 12,
+   "choice": "table",
+   "confidence": 0.43,
+   "margin": 0.19,
+   "top": [
+    [
+     "table",
+     0.45
+    ],
+    [
+     "list",
+     0.26
+    ],
+    [
+     "metadata",
+     0.06
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "unclear",
+     0.05
+    ]
+   ],
+   "block": "table",
+   "slot": "nav",
+   "final": "table"
+  },
+  {
+   "index": 13,
+   "choice": "table",
+   "confidence": 0.52,
+   "margin": 0.41,
+   "top": [
+    [
+     "table",
+     0.53
+    ],
+    [
+     "list",
+     0.12
+    ],
+    [
+     "embed",
+     0.07
+    ],
+    [
+     "metadata",
+     0.06
+    ],
+    [
+     "text",
+     0.05
+    ]
+   ],
+   "block": "table",
+   "slot": "nav",
+   "final": "table"
+  },
+  {
+   "index": 14,
+   "choice": "table",
+   "confidence": 0.37,
+   "margin": 0.06,
+   "top": [
+    [
+     "table",
+     0.38
+    ],
+    [
+     "list",
+     0.32
+    ],
+    [
+     "calendar",
+     0.12
+    ],
+    [
+     "text",
+     0.09
+    ],
+    [
+     "unclear",
+     0.03
+    ]
+   ],
+   "block": "table",
+   "slot": "nav",
+   "final": "table"
+  },
+  {
+   "index": 15,
+   "choice": "table",
+   "confidence": 0.42,
+   "margin": 0.24,
+   "top": [
+    [
+     "table",
+     0.44
+    ],
+    [
+     "list",
+     0.2
+    ],
+    [
+     "text",
+     0.18
+    ],
+    [
+     "calendar",
+     0.12
+    ],
+    [
+     "unclear",
+     0.02
+    ]
+   ],
+   "block": "table",
+   "slot": "nav",
+   "final": "table"
+  },
+  {
+   "index": 16,
+   "choice": "heading",
+   "confidence": 0.83,
+   "margin": 0.68,
+   "top": [
+    [
+     "heading",
+     0.84
+    ],
+    [
+     "map",
+     0.16
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "heading"
+  },
+  {
+   "index": 17,
+   "choice": "tabs",
+   "confidence": 0.94,
+   "margin": 0.94,
+   "top": [
+    [
+     "tabs",
+     0.96
+    ],
+    [
+     "map",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 18,
+   "choice": "definition_list",
+   "confidence": 0.32,
+   "margin": 0.09,
+   "top": [
+    [
+     "definition_list",
+     0.34
+    ],
+    [
+     "map",
+     0.25
+    ],
+    [
+     "chart",
+     0.22
+    ],
+    [
+     "table",
+     0.13
+    ],
+    [
+     "list",
+     0.04
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "definition_list"
+  },
+  {
+   "index": 19,
+   "choice": "canvas",
+   "confidence": 0.89,
+   "margin": 0.85,
+   "top": [
+    [
+     "canvas",
+     0.9
+    ],
+    [
+     "map",
+     0.05
+    ],
+    [
+     "chart",
+     0.03
+    ],
+    [
+     "image",
+     0.01
+    ],
+    [
+     "toolbar",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "nav",
+   "final": "canvas"
+  },
+  {
+   "index": 20,
+   "choice": "toolbar",
+   "confidence": 0.82,
+   "margin": 0.68,
+   "top": [
+    [
+     "toolbar",
+     0.83
+    ],
+    [
+     "map",
+     0.15
+    ],
+    [
+     "canvas",
+     0.02
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "feature_grid",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "toolbar"
+  },
+  {
+   "index": 21,
+   "choice": "legal_notice",
+   "confidence": 0.51,
+   "margin": 0.37,
+   "top": [
+    [
+     "legal_notice",
+     0.53
+    ],
+    [
+     "map",
+     0.16
+    ],
+    [
+     "site_footer",
+     0.12
+    ],
+    [
+     "byline",
+     0.05
+    ],
+    [
+     "badge",
+     0.04
+    ]
+   ],
+   "block": "mixed",
+   "slot": "footer",
+   "final": "legal_notice"
+  },
+  {
+   "index": 22,
+   "choice": "map",
+   "confidence": 0.41,
+   "margin": 0.24,
+   "top": [
+    [
+     "map",
+     0.42
+    ],
+    [
+     "canvas",
+     0.18
+    ],
+    [
+     "action_button",
+     0.12
+    ],
+    [
+     "audio",
+     0.11
+    ],
+    [
+     "calendar",
+     0.06
+    ]
+   ],
+   "block": "media",
+   "slot": "nav",
+   "final": "map"
+  },
+  {
+   "index": 23,
+   "choice": "accordion",
+   "confidence": 0.98,
+   "margin": 0.97,
+   "top": [
+    [
+     "accordion",
+     0.98
+    ],
+    [
+     "map",
+     0.01
+    ],
+    [
+     "action_button",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "article",
+   "final": "accordion"
+  },
+  {
+   "index": 24,
+   "choice": "metadata",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "metadata",
+     0.97
+    ],
+    [
+     "byline",
+     0.03
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "pairs",
+   "slot": "article",
+   "final": "metadata"
+  },
+  {
+   "index": 25,
+   "choice": "callout",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "callout",
+     1
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "callout"
+  },
+  {
+   "index": 26,
+   "choice": "feedback",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "feedback",
+     0.97
+    ],
+    [
+     "site_footer",
+     0.03
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "form",
+   "final": "feedback"
+  },
+  {
+   "index": 27,
+   "choice": "related",
+   "confidence": 0.75,
+   "margin": 0.52,
+   "top": [
+    [
+     "related",
+     0.76
+    ],
+    [
+     "teaser_card",
+     0.24
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 28,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 29,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 30,
+   "choice": "feedback",
+   "confidence": 0.7,
+   "margin": 0.59,
+   "top": [
+    [
+     "feedback",
+     0.71
+    ],
+    [
+     "site_footer",
+     0.12
+    ],
+    [
+     "action_button",
+     0.12
+    ],
+    [
+     "tabs",
+     0.03
+    ],
+    [
+     "accordion",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "form",
+   "final": "feedback"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.180Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

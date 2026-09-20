@@ -1,0 +1,3807 @@
+{
+ "url": "https://pkg.go.dev/encoding/json/v2",
+ "title": "json package - encoding/json/v2 - Go Packages",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 21343,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "form",
+   "class": "go-InputGroup go-ShortcutKey go-SearchForm-form",
+   "role": "search",
+   "ariaLabel": "Search for a package",
+   "landmarks": [
+    "header",
+    "nav",
+    "form"
+   ],
+   "textLength": 20,
+   "text": "Skip to Main Content",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Go",
+     "width": 85,
+     "height": 32
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 10,
+    "height": 36,
+    "widthFraction": 0.55,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "go-Header-menu",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 782,
+   "text": "Why Go\n Case Studies\n Common problems companies solve with Go\n Use Cases\n Stories about how and why companies use Go\n Security\n How Go can help keep you secure by default\n Learn\n Docs\n Effective Go\n Tips for writing clear, performant, and idiomatic Go code\n Go User Manual\n A complete introduction to building software with Go\n Standard library\n Reference documentation for Go's standard library\n Rel",
+   "counts": {
+    "links": 24,
+    "images": 3,
+    "headings": 0,
+    "listItems": 19,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 14,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "submenu dropdown icon",
+     "width": 23,
+     "height": 23
+    },
+    {
+     "kind": "img",
+     "alt": "submenu dropdown icon",
+     "width": 23,
+     "height": 23
+    },
+    {
+     "kind": "img",
+     "alt": "submenu dropdown icon",
+     "width": 23,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 0,
+    "height": 56,
+    "widthFraction": 0.41,
+    "leftFraction": 0.56,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "nav",
+   "class": "go-Main-headerBreadcrumb go-Breadcrumb",
+   "ariaLabel": "Breadcrumb",
+   "landmarks": [
+    "main",
+    "header",
+    "nav"
+   ],
+   "textLength": 55,
+   "text": "Discover Packages\n Standard library\n encoding\n json\n v2",
+   "counts": {
+    "links": 5,
+    "images": 1,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 72,
+    "height": 24,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "class": "UnitHeader-titleHeading",
+   "landmarks": [
+    "main",
+    "header"
+   ],
+   "textLength": 29,
+   "text": "json\npackage\nstandard library",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 109,
+    "height": 30,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "go-Main-headerDetails",
+   "landmarks": [
+    "main",
+    "header"
+   ],
+   "textLength": 381,
+   "text": "Version: \n go1.27.1\n Opens a new window with list of versions in this module.\n Latest\n Latest\n This package is not in the latest version of its module.\n Go to latest\n Published: Sep 1, 2026\n License: BSD-3-Clause\n Opens a new window with license information.\n Imports: 25\n Opens a new window with list of imports.\n Imported by: 438\n Opens a new window with list of known importers.",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 152,
+    "height": 28,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "aside",
+   "class": "go-Main-aside js-mainAside",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 543,
+   "text": "Details\n Valid go.mod file\n The Go module system was introduced in Go 1.11 and is the official dependency management\n solution for Go.\n Redistributable license\n Redistributable licenses place minimal restrictions on how software can be used,\n modified, and redistributed.\n Tagged version\n Modules with tagged versions give importers more predictable builds.\n Stable version\n When a project reaches ma",
+   "counts": {
+    "links": 4,
+    "images": 9,
+    "headings": 3,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "checked",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "img",
+     "alt": "Toggle go.mod validity tooltip",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "img",
+     "alt": "checked",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "img",
+     "alt": "Toggle redistributable help tooltip",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 197,
+    "height": 122,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "button",
+   "class": "UnitOutline-jumpToInput go-ShortcutKey js-jumpToInput",
+   "ariaLabel": "Open Jump to Identifier",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 11,
+   "text": "Jump to ...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 355,
+    "height": 32,
+    "widthFraction": 0.19,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul",
+   "class": "go-Tree js-tree",
+   "role": "tree",
+   "ariaLabel": "Outline",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 1175,
+   "text": "Documentation\n Overview\n Index\n Examples\n Package (CaseSensitivity)\n Package (EmbeddedFields)\n Package (FieldNames)\n Package (OmitFields)\n Package (OrderedObject)\n Package (ProtoJSON)\n Package (ServeHTTP)\n Package (TextMarshal)\n Marshal (Multiline)\n MarshalerTo\n UnmarshalDecode (Stream)\n UnmarshalerFrom\n WithMarshalers (Errors)\n WithUnmarshalers (RawNumber)\n WithUnmarshalers (RecordOffsets)\n Const",
+   "counts": {
+    "links": 58,
+    "images": 0,
+    "headings": 0,
+    "listItems": 58,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 403,
+    "height": 320,
+    "widthFraction": 0.19,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h2",
+   "id": "section-documentation",
+   "class": "UnitDoc-title",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Documentation\n ¶",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    }
+   ],
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 351,
+    "height": 45,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h3",
+   "id": "pkg-overview",
+   "class": "Documentation-overviewHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 10,
+   "text": "Overview ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 420,
+    "height": 25,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "ul",
+   "class": "Documentation-toc",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "role=navigation"
+   ],
+   "textLength": 58,
+   "text": "JSON Representation of Go structs\n Security Considerations",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 453,
+    "height": 48,
+    "widthFraction": 0.72,
+    "leftFraction": 0.26,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×5",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 2027,
+   "text": "Package json implements semantic processing of JSON as specified in RFC 8259.\nJSON is a simple data interchange format that can represent\nprimitive data types such as booleans, strings, and numbers,\nin addition to structured data types such as objects and arrays.\nSee the Working with JSON tutorial for an introduction to this package.\nMarshal and Unmarshal encode and decode Go values\nto/from JSON t",
+   "counts": {
+    "links": 24,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 517,
+    "height": 520,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h4",
+   "id": "hdr-JSON_Representation_of_Go_structs",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 35,
+   "text": "JSON Representation of Go structs ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1061,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1236,
+   "text": "A Go struct is naturally represented as a JSON object,\nwhere each Go struct field corresponds with a JSON object member.\nWhen marshaling, all Go struct fields are recursively encoded in depth-first\norder as JSON object members except those that are ignored or omitted.\nWhen unmarshaling, JSON object members are recursively decoded\ninto the corresponding Go struct fields.\nObject members that do not ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 1100,
+    "height": 320,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "ul",
+   "class": "Documentation-bulletList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 2979,
+   "text": "After the name, the following tag options are supported:\nomitzero: When marshaling, the \"omitzero\" option specifies that\nthe struct field should be omitted if the field value is zero\nas determined by the \"IsZero() bool\" method if present,\notherwise based on whether the field is the zero Go value.\nThis option has no effect when unmarshaling.\n omitempty: When marshaling, the \"omitempty\" option speci",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 1436,
+    "height": 680,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1647,
+   "text": "The \"omitzero\" and \"omitempty\" options behave similarly.\nThe former is defined in terms of the Go type system,\nwhile the latter in terms of the JSON type system.\nConsequently they behave differently in some circumstances.\nFor example, only a nil slice or map is omitted under \"omitzero\", while\nan empty slice or map is omitted under \"omitempty\" regardless of nilness.\nThe \"omitzero\" option is useful ",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 2132,
+    "height": 368,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h4",
+   "id": "hdr-Security_Considerations",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 25,
+   "text": "Security Considerations ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2524,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1086,
+   "text": "JSON is frequently used as a data interchange format to communicate\nbetween different systems, possibly implemented in different languages.\nFor interoperability and security reasons, it is important that\nall implementations agree upon the semantic meaning of the data.\nFor example, suppose we have two micro-services.\nThe first service is responsible for authenticating a JSON request,\nwhile the seco",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 2562,
+    "height": 288,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "ul",
+   "class": "Documentation-bulletList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 3237,
+   "text": "The standard specifies that JSON must be encoded using UTF-8.\nBy default, v1 replaces invalid bytes of UTF-8 in JSON strings\nwith the Unicode replacement character,\nwhile v2 rejects inputs with invalid UTF-8.\nTo change the default, specify the jsontext.AllowInvalidUTF8 option.\nThe replacement of invalid UTF-8 is a form of data corruption\nthat alters the precise meaning of strings.\n The standard do",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2866,
+    "height": 752,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 473,
+   "text": "RFC 8785 specifies a canonical form for any JSON text,\nwhich explicitly defines specific behaviors that RFC 8259 leaves undefined.\nIn theory, if a text can successfully jsontext.Value.Canonicalize\nwithout changing the semantic meaning of the data, then it provides a\ngreater degree of confidence that the data is more secure and interoperable.\nThe v2 API generally chooses more secure defaults than v",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 3634,
+    "height": 112,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "details×3",
+   "id": "example-package-CaseSensitivity",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1179,
+   "text": "Example (CaseSensitivity) ¶\nUnmarshal matches JSON object names with Go struct fields using\na case-sensitive match, but can be configured to use a case-insensitive\nmatch with the \"case:ignore\" option. This permits unmarshaling from inputs\nthat use naming conventions such as camelCase, snake_case, or kebab-case.\nOutput:\n[{false} {true} {false} {false} {false} {false} {false} {false} {false}]\n[{true",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 12,
+    "paragraphs": 6,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3762,
+    "height": 191,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 564,
+   "text": "Example (OmitFields) ¶\nGo struct fields can be omitted from the output depending on either\nthe input Go value or the output JSON encoding of the value.\nThe \"omitzero\" option omits a field if it is the zero Go value or\nimplements a \"IsZero() bool\" method that reports true.\nThe \"omitempty\" option omits a field if it encodes as an empty JSON value,\nwhich we define as a JSON null or empty JSON string,",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3969,
+    "height": 189,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "textarea",
+   "class": "Documentation-exampleCode code",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4174,
+    "height": 2554,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "pre",
+   "class": "Documentation-exampleOutputContainer js-exampleOutputContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 171,
+   "text": "Output:\nOmitZero: {\n \"Struct\": {},\n \"Slice\": [],\n \"Map\": {},\n \"Pointer\": \"\",\n \"Interface\": null\n}\nOmitEmpty: {\n \"Bool\": false,\n \"Int\": 0,\n \"Time\": \"0001-01-01T00:00:00Z\"\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6728,
+    "height": 295,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "div",
+   "class": "Documentation-exampleButtonsContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "Share\n Format\n Run",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7039,
+    "height": 32,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "details",
+   "id": "example-package-OrderedObject",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 244,
+   "text": "Example (OrderedObject) ¶\nThe exact order of JSON object can be preserved through the use of a\nspecialized type that implements MarshalerTo and UnmarshalerFrom.\nOutput:\n{\n \"fizz\": \"buzz\",\n \"hello\": \"world\",\n \"fizz\": \"wuzz\"\n}\n Share\n Format\n Run",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 4038,
+    "height": 53,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 471,
+   "text": "Example (ProtoJSON) ¶\nSome Go types have a custom JSON representation where the implementation\nis delegated to some external package. Consequently, the \"json\" package\nwill not know how to use that external implementation.\nFor example, the google.golang.org/protobuf/encoding/protojson package\nimplements JSON for all google.golang.org/protobuf/proto.Message types.\nWithMarshalers and WithUnmarshalers",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 4107,
+    "height": 165,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "textarea",
+   "class": "Documentation-exampleCode code",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4288,
+    "height": 1054,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "div",
+   "class": "Documentation-exampleButtonsContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "Share\n Format\n Run",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5354,
+    "height": 32,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "details×2",
+   "id": "example-package-ServeHTTP",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 717,
+   "text": "Example (ServeHTTP) ¶\nWhen implementing HTTP endpoints, it is common to be operating with an\nio.Reader and an io.Writer. The MarshalWrite and UnmarshalRead functions\nassist in operating on such input/output types.\nUnmarshalRead reads the entirety of the io.Reader to ensure that io.EOF\nis encountered without any unexpected bytes after the top-level JSON value.\nOutput:\n Share\n Format\n Run\nExample (T",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 4,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 4176,
+    "height": 122,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h3",
+   "id": "pkg-index",
+   "class": "Documentation-indexHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 7,
+   "text": "Index ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 4322,
+    "height": 25,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "ul",
+   "class": "Documentation-indexList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1598,
+   "text": "Variables\n func GetOption[T any](opts Options, setter func(T) Options) (T, bool)\n func Marshal(in any, opts ...Options) (out []byte, err error)\n func MarshalEncode(out *jsontext.Encoder, in any, opts ...Options) (err error)\n func MarshalWrite(out io.Writer, in any, opts ...Options) (err error)\n func Unmarshal(in []byte, out any, opts ...Options) (err error)\n func UnmarshalDecode(in *jsontext.Decod",
+   "counts": {
+    "links": 35,
+    "images": 0,
+    "headings": 0,
+    "listItems": 39,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 4355,
+    "height": 840,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "section",
+   "class": "Documentation-examples",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 348,
+   "text": "Examples ¶\nPackage (CaseSensitivity)\nPackage (EmbeddedFields)\nPackage (FieldNames)\nPackage (OmitFields)\nPackage (OrderedObject)\nPackage (ProtoJSON)\nPackage (ServeHTTP)\nPackage (TextMarshal)\nMarshal (Multiline)\nMarshalerTo\nUnmarshalDecode (Stream)\nUnmarshalerFrom\nWithMarshalers (Errors)\nWithUnmarshalers (RawNumber)\nWithUnmarshalers (RecordOffsets)",
+   "counts": {
+    "links": 16,
+    "images": 0,
+    "headings": 1,
+    "listItems": 15,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 5219,
+    "height": 393,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h3",
+   "id": "pkg-constants",
+   "class": "Documentation-constantsHeader",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 11,
+   "text": "Constants ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 5636,
+    "height": 25,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "h3",
+   "id": "pkg-variables",
+   "class": "Documentation-variablesHeader",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 34,
+   "text": "This section is empty.\nVariables ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5677,
+    "height": 73,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "section",
+   "class": "Documentation-variables",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 617,
+   "text": "View Source\n var ErrUnknownName = errors.New(\"unknown object member name\")\n ErrUnknownName indicates that a JSON object member could not be\nunmarshaled because the name is not known to the target Go struct.\nThis error is directly wrapped within a SemanticError when produced.\nThe name of an unknown JSON object member can be extracted as:\nerr := ...\nserr, ok := errors.AsType[*json.SemanticError](err",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 5758,
+    "height": 393,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h3",
+   "id": "pkg-functions",
+   "class": "Documentation-functionsHeader",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 11,
+   "text": "Functions ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 6175,
+    "height": 25,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "div",
+   "class": "Documentation-function",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 587,
+   "text": "func GetOption ¶\n func GetOption[T any](opts Options, setter func(T) Options) (T, bool)\n GetOption returns the value stored in opts with the provided setter,\nreporting whether the value is present.\nIf not present, the returned value is the zero value for type T.\nExample usage:\nv, ok := json.GetOption(opts, json.Deterministic)\nOptions are most commonly introspected to alter the JSON representation ",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 6224,
+    "height": 325,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "h4",
+   "id": "Marshal",
+   "class": "Documentation-functionHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "func Marshal ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 6573,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 61,
+   "text": "func Marshal(in any, opts ...Options) (out []byte, err error)",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 6603,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 741,
+   "text": "Marshal serializes a Go value as a []byte according to the provided\nmarshal and encode options (while ignoring unmarshal or decode options).\nIt does not terminate the output with a newline.\nType-specific marshal functions and methods take precedence\nover the default representation of a value.\nFunctions or methods that operate on *T are only called when encoding\na value of type T (by taking its add",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6662,
+    "height": 200,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "ul",
+   "class": "Documentation-bulletList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 974,
+   "text": "If any type-specific functions in a WithMarshalers option match\nthe value type, then those functions are called to encode the value.\nIf all applicable functions return errors.ErrUnsupported,\nthen the value is encoded according to subsequent rules.\n If the value type implements MarshalerTo,\nthen the MarshalJSONTo method is called to encode the value.\nIf the method returns errors.ErrUnsupported,\nthe",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 6878,
+    "height": 320,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 60,
+   "text": "Most Go types have a default JSON representation as follows:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7214,
+    "height": 24,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "ul",
+   "class": "Documentation-bulletList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 2477,
+   "text": "A Go boolean is encoded as a JSON boolean (e.g., true or false).\n A Go string is encoded as a JSON string.\n A Go []byte or [N]byte is encoded as a JSON string containing\na binary value using Base 64 Encoding per RFC 4648, section 4.\n A Go integer is encoded as a JSON number without fractions or exponents.\nIf StringifyNumbers is specified or encoding a JSON object name,\nthen the JSON number is enco",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 14,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 14,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 7254,
+    "height": 784,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 78,
+   "text": "JSON cannot represent cyclic data structures and Marshal does not handle them.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8054,
+    "height": 24,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "details",
+   "id": "example-Marshal-Multiline",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 306,
+   "text": "Example (Multiline) ¶\nUse jsontext.Multiline to create multiline, idented output for more\nreadable output for human consumption.\nSee jsontext.Multiline for additional options that customize the multiline\noutput.\nOutput:\n{\n \"Name\": \"Oliver\",\n \"Species\": \"Dog\",\n \"Breed\": \"Goldendoodle\"\n}\n Share\n Format\n Run",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 8094,
+    "height": 53,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "div×2",
+   "class": "Documentation-function",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 836,
+   "text": "func MarshalEncode ¶\n func MarshalEncode(out *jsontext.Encoder, in any, opts ...Options) (err error)\n MarshalEncode serializes a Go value into an jsontext.Encoder according to\nthe provided marshal or encode options (while ignoring unmarshal or decode options).\nThe options provided take precedence over options already applied on\nthe jsontext.Encoder and only apply for the duration of the marshal ca",
+   "counts": {
+    "links": 19,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 8171,
+    "height": 363,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "h4",
+   "id": "Unmarshal",
+   "class": "Documentation-functionHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 16,
+   "text": "func Unmarshal ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 8558,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 63,
+   "text": "func Unmarshal(in []byte, out any, opts ...Options) (err error)",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 8589,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 952,
+   "text": "Unmarshal decodes a []byte input into a Go value according to the provided\nunmarshal and decode options (while ignoring marshal or encode options).\nThe input must be a single JSON value with optional whitespace interspersed.\nThe output must be a non-nil pointer.\nType-specific unmarshal functions and methods take precedence\nover the default representation of a value.\nFunctions or methods that opera",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 8648,
+    "height": 224,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "ul",
+   "class": "Documentation-bulletList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 916,
+   "text": "If any type-specific functions in a WithUnmarshalers option match\nthe value type, then those functions are called to decode the JSON\nvalue. If all applicable functions return errors.ErrUnsupported,\nthen the input is decoded according to subsequent rules.\n If the value type implements UnmarshalerFrom,\nthen the UnmarshalJSONFrom method is called to decode the JSON value.\nIf the method returns errors",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 8888,
+    "height": 256,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 357,
+   "text": "Most Go types have a default JSON representation.\nA JSON null may be decoded into every supported Go value where\nit is equivalent to storing the zero value of the Go value.\nIf the input JSON kind is not handled by the current Go value type,\nthen this fails with a SemanticError. Unless otherwise specified,\nthe decoded value replaces any pre-existing value.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 9160,
+    "height": 72,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "ul",
+   "class": "Documentation-bulletList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 3731,
+   "text": "The representation of each type is as follows:\nA Go boolean is decoded from a JSON boolean (e.g., true or false).\n A Go string is decoded from a JSON string.\n A Go []byte or [N]byte is decoded from a JSON string containing\na binary value using Base 64 Encoding per RFC 4648, section 4.\nWhen decoding into a non-nil []byte, the slice length is reset to zero\nand the decoded input is appended to it.\nWh",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 14,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 9248,
+    "height": 1064,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 305,
+   "text": "In general, unmarshaling follows merge semantics (similar to RFC 7396)\nwhere the decoded Go value replaces the destination value\nfor any JSON kind other than an object.\nFor JSON objects, the input object is merged into the destination value\nwhere matching object members recursively apply merge semantics.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 10328,
+    "height": 72,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "h4",
+   "id": "UnmarshalDecode",
+   "class": "Documentation-functionHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "func UnmarshalDecode ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 10424,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 80,
+   "text": "func UnmarshalDecode(in *jsontext.Decoder, out any, opts ...Options) (err error)",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.38,
+   "geometry": {
+    "top": 10454,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 601,
+   "text": "UnmarshalDecode deserializes a Go value from a jsontext.Decoder according to\nthe provided unmarshal or decode options (while ignoring marshal or encode options).\nThe options provided take precedence over options already applied on\nthe jsontext.Decoder and only apply for the duration of the unmarshal call.\nThe input may be a stream of zero or more JSON values.\nUnmarshalDecode unmarshals only the ne",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 10513,
+    "height": 160,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "details",
+   "id": "example-UnmarshalDecode-Stream",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 194,
+   "text": "Example (Stream) ¶\nUnmarshalDecode can be used to unmarshal a stream of whitespace-delimited\nJSON values.\nOutput:\nPlatypus: Monotremata\nQuoll: Dasyuromorphia\nGopher: Rodentia\n Share\n Format\n Run",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 10689,
+    "height": 53,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "div",
+   "class": "Documentation-function",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 538,
+   "text": "func UnmarshalRead ¶\n func UnmarshalRead(in io.Reader, out any, opts ...Options) (err error)\n UnmarshalRead deserializes a Go value from an io.Reader according to the\nprovided unmarshal and decode options (while ignoring marshal or encode options).\nThe input must be a single JSON value with optional whitespace interspersed.\nIt consumes the entirety of io.Reader until io.EOF is encountered,\nwithout",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 10766,
+    "height": 186,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "h3",
+   "id": "pkg-types",
+   "class": "Documentation-typesHeader",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 7,
+   "text": "Types ¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 10976,
+    "height": 25,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "h4",
+   "id": "Marshaler",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 16,
+   "text": "type Marshaler ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 11025,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 59,
+   "text": "type Marshaler interface {\n MarshalJSON() ([]byte, error)\n}",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 11055,
+    "height": 85,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 305,
+   "text": "Marshaler is implemented by types that can marshal themselves.\nIt is recommended that types implement MarshalerTo unless the implementation\nis trying to avoid directly depending on the \"jsontext\" package.\nImplementations should return a buffer that is safe\nfor the caller to retain and potentially mutate.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 11156,
+    "height": 88,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 241,
+   "text": "Implementations must not return errors.ErrUnsupported.\nIf the returned error is a SemanticError, then unpopulated fields\nof the error may be populated by json with additional context.\nErrors of other types are wrapped within a SemanticError.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 11260,
+    "height": 88,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 84,
+   "text": "Implementations should assume Deterministic is true and return\ndeterministic output.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 11364,
+    "height": 24,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "h4",
+   "id": "MarshalerTo",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "type MarshalerTo ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 11412,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 70,
+   "text": "type MarshalerTo interface {\n MarshalJSONTo(*jsontext.Encoder) error\n}",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 11443,
+    "height": 85,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p×9",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 2018,
+   "text": "MarshalerTo is implemented by types that can marshal themselves.\nIt is recommended that types implement MarshalerTo instead of Marshaler\nsince it is both more performant and more flexible.\nIf a type implements both Marshaler and MarshalerTo,\nthen MarshalerTo takes precedence. In such a case, both implementations\nshould aim to have equivalent behavior for the default marshal options.\nThe implementa",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 9,
+    "repeats": 9,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 11544,
+    "height": 608,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "details",
+   "id": "example-MarshalerTo",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 118,
+   "text": "Example ¶\nCustom types may define custom marshal behavior with MarshalerTo.\nOutput:\n[\n 1,\n 2,\n 3\n]\n Share\n Format\n Run",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 12168,
+    "height": 53,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "h4",
+   "id": "Marshalers",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 17,
+   "text": "type Marshalers ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 12245,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 310,
+   "text": "type Marshalers = typedMarshalers\nMarshalers is a list of functions that may override the marshal behavior\nof specific types. Populate WithMarshalers to use it with\nMarshal, MarshalWrite, or MarshalEncode.\nA nil *Marshalers is equivalent to an empty list.\nThere are no exported fields or methods on Marshalers.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 12275,
+    "height": 131,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "div×3",
+   "class": "Documentation-typeFunc",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1497,
+   "text": "func JoinMarshalers ¶\n func JoinMarshalers(ms ...*Marshalers) *Marshalers\n JoinMarshalers constructs a flattened list of marshal functions.\nIf multiple functions in the list are applicable for a value of a given type,\nthen those earlier in the list take precedence over those that come later.\nIf a function returns errors.ErrUnsupported,\nthen the next applicable function is called,\notherwise the def",
+   "counts": {
+    "links": 21,
+    "images": 0,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 8,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 12430,
+    "height": 786,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "h4",
+   "id": "Options",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "type Options ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 13240,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 31,
+   "text": "type Options = jsonopts.Options",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.48,
+   "geometry": {
+    "top": 13270,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 727,
+   "text": "Options configure Marshal, MarshalWrite, MarshalEncode,\nUnmarshal, UnmarshalRead, and UnmarshalDecode with specific features.\nEach function takes in a variadic list of options, where properties\nset in later options override the value of previously set properties.\nThe Options type is identical to encoding/json.Options and\nencoding/json/jsontext.Options. Options from the other packages can\nbe used i",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 13329,
+    "height": 216,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 267,
+   "text": "opt := Deterministic(true)\nwhich is analogous to creating a single entry map:\nopt := Options{\"Deterministic\": true}\nJoinOptions composes multiple options values together:\nout := JoinOptions(opts...)\nwhich is analogous to making a new map and copying the options over:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 13561,
+    "height": 281,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 85,
+   "text": "out := make(Options)\nfor _, m := range opts {\n for k, v := range m {\n out[k] = v\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13858,
+    "height": 148,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 322,
+   "text": "GetOption looks up the value of an options parameter:\nv, ok := GetOption(opts, Deterministic)\nwhich is analogous to a Go map lookup:\nv, ok := Options[\"Deterministic\"]\nThere is a single Options type, which is used with both marshal and unmarshal.\nSome options affect both operations, while others only affect one operation:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 14022,
+    "height": 246,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "ul",
+   "class": "Documentation-bulletList",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 422,
+   "text": "StringifyNumbers affects marshaling and unmarshaling\n Deterministic affects marshaling only\n FormatNilSliceAsNull affects marshaling only\n FormatNilMapAsNull affects marshaling only\n OmitZeroStructFields affects marshaling only\n MatchCaseInsensitiveNames affects marshaling and unmarshaling\n RejectUnknownMembers affects unmarshaling only\n WithMarshalers affects marshaling only\n WithUnmarshalers aff",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.38,
+   "geometry": {
+    "top": 14284,
+    "height": 216,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 62,
+   "text": "Options that do not affect a particular operation are ignored.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14516,
+    "height": 24,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "div×5",
+   "class": "Documentation-typeFunc",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1722,
+   "text": "func DefaultOptionsV2 ¶\n func DefaultOptionsV2() Options\n DefaultOptionsV2 is the full set of all options that define v2 semantics.\nIt is equivalent to the set of options in encoding/json.DefaultOptionsV1\nall being set to false. All other options are not present.\nfunc Deterministic ¶\n func Deterministic(v bool) Options\n Deterministic specifies that marshaling the same input value will always\nseria",
+   "counts": {
+    "links": 20,
+    "images": 0,
+    "headings": 5,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 11,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 14564,
+    "height": 1024,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "h4",
+   "id": "MatchCaseInsensitiveNames",
+   "class": "Documentation-typeFuncHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 32,
+   "text": "func MatchCaseInsensitiveNames ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 15612,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 46,
+   "text": "func MatchCaseInsensitiveNames(v bool) Options",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 15642,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 438,
+   "text": "MatchCaseInsensitiveNames specifies that JSON object members are matched\nagainst Go struct fields using a case-insensitive match of the name.\nIf a name matches multiple fields, the field whose name matches exactly is chosen.\nIf there is none, an error is reported.\nGo struct fields explicitly marked with `case:strict` or `case:ignore`\nalways use case-sensitive (or case-insensitive) name matching,\nr",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15701,
+    "height": 96,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 721,
+   "text": "This affects either marshaling or unmarshaling.\nMatching names case-insensitively also affects duplicate name detection\n(assuming jsontext.AllowDuplicateNames is false) since\nvariations of the same name may match the same Go struct field.\nFor example, when unmarshaling, the names \"foo\" and \"Foo\" may both\nmatch the same Go struct field and therefore be considered a duplicate name.\nWhen marshaling, ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 15813,
+    "height": 184,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "div×2",
+   "class": "Documentation-typeFunc",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 734,
+   "text": "func OmitZeroStructFields ¶\n func OmitZeroStructFields(v bool) Options\n OmitZeroStructFields specifies that zero-valued fields of Go struct should be\nomitted from the marshaled output.\nA value is considered zero if its type has an \"IsZero() bool\" method that returns true,\nor if it lacks such a method and the value is a Go zero value.\nThis option is equivalent to specifying the `omitzero` tag optio",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 16021,
+    "height": 379,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "h4",
+   "id": "StringifyNumbers",
+   "class": "Documentation-typeFuncHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 23,
+   "text": "func StringifyNumbers ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 16424,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 37,
+   "text": "func StringifyNumbers(v bool) Options",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 16455,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1022,
+   "text": "StringifyNumbers specifies that types that would normally be\nencoded as a JSON number instead be encoded as a JSON string\ncontaining the equivalent JSON number value.\nWhen unmarshaling, the value is parsed from a JSON string\ncontaining the JSON number without any surrounding whitespace.\nSpecifying the `string` tag option on a Go struct field applies this option\nto the top-level JSON value for that",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 16514,
+    "height": 264,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 329,
+   "text": "According to RFC 8259, section 6, a JSON implementation may choose to\nlimit the representation of a JSON number to an IEEE 754 binary64 value.\nThis may cause decoders to lose precision for int64 and uint64 types.\nQuoting JSON numbers as a JSON string preserves the exact precision.\nThis affects either marshaling or unmarshaling.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 16794,
+    "height": 112,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "h4",
+   "id": "WithMarshalers",
+   "class": "Documentation-typeFuncHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "func WithMarshalers ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.71,
+   "geometry": {
+    "top": 16930,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 42,
+   "text": "func WithMarshalers(v *Marshalers) Options",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 16960,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 221,
+   "text": "WithMarshalers specifies a list of type-specific marshalers to use,\nwhich can be used to override the default marshal behavior for values\nof particular types.\nThis only affects marshaling and is ignored when unmarshaling.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17019,
+    "height": 88,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "details",
+   "id": "example-WithMarshalers-Errors",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 476,
+   "text": "Example (Errors) ¶\nMany error types are not serializable since they tend to be Go structs\nwithout any exported fields (e.g., errors constructed with errors.New).\nSome applications, may desire to marshal an error as a JSON string\neven if these errors cannot be unmarshaled.\nOutput:\n[\n {\n \"Result\": \"Oranges are a good source of Vitamin C.\"\n },\n {\n \"Error\": \"strconv.ParseUint: parsing \\\"-1234\\\": inval",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 17123,
+    "height": 53,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "h4",
+   "id": "WithUnmarshalers",
+   "class": "Documentation-typeFuncHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 23,
+   "text": "func WithUnmarshalers ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 17200,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 46,
+   "text": "func WithUnmarshalers(v *Unmarshalers) Options",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.41,
+   "geometry": {
+    "top": 17231,
+    "height": 43,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 227,
+   "text": "WithUnmarshalers specifies a list of type-specific unmarshalers to use,\nwhich can be used to override the default unmarshal behavior for values\nof particular types.\nThis only affects unmarshaling and is ignored when marshaling.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 17290,
+    "height": 88,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "details×2",
+   "id": "example-WithUnmarshalers-RawNumber",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 685,
+   "text": "Example (RawNumber) ¶\nIn some applications, the exact precision of JSON numbers needs to be\npreserved when unmarshaling. This can be accomplished using a type-specific\nunmarshal function that intercepts all any types and pre-populates the\ninterface value with a jsontext.Value, which can represent a JSON number exactly.\nOutput:\n[false 1e-1000 3.141592653589793238462643383279 1e+1000 true]\n Share\n F",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 4,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 17394,
+    "height": 122,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "h4",
+   "id": "SemanticError",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 20,
+   "text": "type SemanticError ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.7,
+   "geometry": {
+    "top": 17540,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 781,
+   "text": "type SemanticError struct {\n // ByteOffset indicates that an error occurred at or after this byte offset.\n ByteOffset int64\n // JSONPointer indicates that an error occurred within this JSON value\n // as indicated using the JSON Pointer notation (see RFC 6901).\n JSONPointer jsontext.Pointer\n // JSONKind is the JSON kind that could not be handled.\n JSONKind jsontext.Kind // may be zero if unknown\n /",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 17570,
+    "height": 442,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 429,
+   "text": "SemanticError describes an error determining the meaning\nof JSON data as Go data, or vice versa.\nIf a Marshaler, MarshalerTo, Unmarshaler, or UnmarshalerFrom method\nreturns a SemanticError when called by the json package,\nthen the ByteOffset, JSONPointer, and GoType fields are automatically\npopulated by the calling context if they are the zero value.\nThe contents of this error as produced by this ",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 18028,
+    "height": 128,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "div×2",
+   "class": "Documentation-typeMethod",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 140,
+   "text": "func (*SemanticError) Error ¶\n func (e *SemanticError) Error() string\nfunc (*SemanticError) Unwrap ¶\n func (e *SemanticError) Unwrap() error",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.36,
+   "geometry": {
+    "top": 18180,
+    "height": 171,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "h4",
+   "id": "Unmarshaler",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "type Unmarshaler ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 18375,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 59,
+   "text": "type Unmarshaler interface {\n UnmarshalJSON([]byte) error\n}",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 18406,
+    "height": 85,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 469,
+   "text": "Unmarshaler is implemented by types that can unmarshal themselves.\nIt is recommended that types implement UnmarshalerFrom unless the implementation\nis trying to avoid a direct dependency on the \"jsontext\" package.\nThe input can be assumed to be a valid encoding of a JSON value\nif called from unmarshal functionality in this package.\nIt is recommended that UnmarshalJSON implement merge semantics\nwhe",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 18507,
+    "height": 136,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 301,
+   "text": "Implementations must not retain or mutate the input []byte.\nImplementations must not return errors.ErrUnsupported.\nIf the returned error is a SemanticError, then unpopulated fields\nof the error may be populated by json with additional context.\nErrors of other types are wrapped within a SemanticError.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 18659,
+    "height": 128,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "h4",
+   "id": "UnmarshalerFrom",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "type UnmarshalerFrom ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 18811,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 78,
+   "text": "type UnmarshalerFrom interface {\n UnmarshalJSONFrom(*jsontext.Decoder) error\n}",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 18841,
+    "height": 85,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "p×9",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 2143,
+   "text": "UnmarshalerFrom is implemented by types that can unmarshal themselves.\nIt is recommended that types implement UnmarshalerFrom instead of Unmarshaler\nsince this is both more performant and more flexible.\nIf a type implements both Unmarshaler and UnmarshalerFrom,\nthen UnmarshalerFrom takes precedence. In such a case, both implementations\nshould aim to have equivalent behavior for the default unmarsh",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 9,
+    "repeats": 9,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 18942,
+    "height": 656,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 109,
+   "tag": "details",
+   "id": "example-UnmarshalerFrom",
+   "class": "Documentation-exampleDetails js-exampleContainer",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 129,
+   "text": "Example ¶\nCustom types may define custom unmarshal behavior with UnmarshalerFrom.\nOutput:\nmap[1:{} 2:{} 3:{}]\n Share\n Format\n Run",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 19614,
+    "height": 53,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 110,
+   "tag": "h4",
+   "id": "Unmarshalers",
+   "class": "Documentation-typeHeader",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 19,
+   "text": "type Unmarshalers ¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 19691,
+    "height": 23,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 111,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 329,
+   "text": "type Unmarshalers = typedUnmarshalers\nUnmarshalers is a list of functions that may override the unmarshal behavior\nof specific types. Populate WithUnmarshalers to use it with\nUnmarshal, UnmarshalRead, or UnmarshalDecode.\nA nil *Unmarshalers is equivalent to an empty list.\nThere are no exported fields or methods on Unmarshalers.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 19722,
+    "height": 131,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 112,
+   "tag": "div×3",
+   "class": "Documentation-typeFunc",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1495,
+   "text": "func JoinUnmarshalers ¶\n func JoinUnmarshalers(us ...*Unmarshalers) *Unmarshalers\n JoinUnmarshalers constructs a flattened list of unmarshal functions.\nIf multiple functions in the list are applicable for a value of a given type,\nthen those earlier in the list take precedence over those that come later.\nIf a function returns errors.ErrUnsupported,\nthen the next applicable function is called,\nother",
+   "counts": {
+    "links": 21,
+    "images": 0,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 8,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 19877,
+    "height": 786,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 113,
+   "tag": "div",
+   "class": "UnitFiles js-unitFiles",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 205,
+   "text": "Source Files\n ¶\n View all Source files\n arshal.go\narshal_any.go\narshal_default.go\narshal_embedded.go\narshal_funcs.go\narshal_methods.go\narshal_time.go\ndoc.go\nerrors.go\nfields.go\nfold.go\nintern.go\noptions.go",
+   "counts": {
+    "links": 15,
+    "images": 1,
+    "headings": 1,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    }
+   ],
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 20694,
+    "height": 157,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 114,
+   "tag": "footer",
+   "class": "go-Footer",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 413,
+   "text": "Why Go\n Use Cases\n Case Studies\n Get Started\n Playground\n Tour\n Stack Overflow\n Help\n Packages\n Standard Library\n Sub-repositories\n About Go Packages\n pkg.go.dev API\n About\n Download\n Blog\n Issue Tracker\n Release Notes\n Brand Guidelines\n Code of Conduct\n Connect\n Twitter\n GitHub\n Slack\n r/golang\n Meetup\n Golang Weekly\n Copyright\n Terms of Service\n Privacy Policy\n Report an Issue\n Theme Toggle \n Sh",
+   "counts": {
+    "links": 32,
+    "images": 4,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Gopher in flight goggles",
+     "width": 80,
+     "height": 50
+    },
+    {
+     "kind": "img",
+     "alt": "Google logo",
+     "width": 72,
+     "height": 24
+    },
+    {
+     "kind": "img",
+     "alt": "System theme",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 20963,
+    "height": 380,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 115,
+   "tag": "section",
+   "class": "Cookie-notice js-cookieNotice Cookie-notice--visible",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 125,
+   "text": "go.dev uses cookies from Google to deliver and enhance the quality of its services and to\n analyze traffic. Learn more.\n Okay",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 744,
+    "height": 72,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  }
+ ]
+}

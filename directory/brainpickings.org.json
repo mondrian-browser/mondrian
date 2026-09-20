@@ -1,0 +1,188 @@
+{
+ "site": "brainpickings.org",
+ "pages": 4,
+ "pageIds": [
+  "brainpickings-org-1",
+  "brainpickings-org-2",
+  "brainpickings-org-3",
+  "brainpickings-org-4"
+ ],
+ "derivedAt": "2026-09-20T14:27:17.772Z",
+ "blocks": [
+  {
+   "selector": "> p",
+   "type": "text",
+   "n": 50,
+   "purity": 0.9,
+   "pages": 4
+  },
+  {
+   "selector": "aside > p",
+   "type": "subscribe",
+   "n": 40,
+   "purity": 0.82,
+   "pages": 4
+  },
+  {
+   "selector": "aside > h3.underline",
+   "type": "subscribe",
+   "n": 26,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> blockquote",
+   "type": "quote",
+   "n": 20,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> figure.wp-caption",
+   "type": "image",
+   "n": 16,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > h4.one_time_donation_space",
+   "type": "subscribe",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> h1.entry-title",
+   "type": "title",
+   "n": 7,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> h3",
+   "type": "byline",
+   "n": 7,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > div#bottom_monthly_donation",
+   "type": "subscribe",
+   "n": 7,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > div#bottom_onetime_donation",
+   "type": "subscribe",
+   "n": 7,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > aside#brainpickings_newsletter_horizontal_widget-3",
+   "type": "newsletter",
+   "n": 7,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > aside#brainpickings_newsletter_midweek_horizontal_widget-3",
+   "type": "newsletter",
+   "n": 7,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > img.wp-post-image",
+   "type": "related",
+   "n": 7,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header > header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > div.donation_amounts",
+   "type": "subscribe",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > aside#brainpickings_archives_widget-3",
+   "type": "tag_cloud",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > aside#brainpickings_newsletter_vertical_widget-3",
+   "type": "newsletter",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > aside#brainpickings_newsletter_midweek_vertical_widget-2",
+   "type": "newsletter",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > aside#text-2",
+   "type": "newsletter",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "aside > h3.more_link",
+   "type": "action_button",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> img",
+   "type": "image",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside > h1",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> div#article_share",
+   "type": "share",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "[role=navigation] > div#pagination",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

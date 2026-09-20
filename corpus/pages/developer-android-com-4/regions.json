@@ -1,0 +1,862 @@
+{
+ "url": "https://developer.android.com/guide/topics/ui/accessibility",
+ "title": "Build accessible apps  |  App quality  |  Android Developers",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 4977,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "tab",
+   "class": "devsite-dropdown devsite-dropdown-full",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 1041,
+   "text": "Essentials\n Build AI experiences\n Build AI-powered Android apps with Gemini APIs and more.\n Get started\n Get started\n Create your first app. Use Compose for UI and adaptive app development to support multiple device form factors.\n Hello, world!\n Developer Verification\n Adaptive apps\n Compose for UI\n AI-powered IDE\n Training\n Monetization with Play ↗️\n Optimize by form factor\n Build apps that optim",
+   "counts": {
+    "links": 29,
+    "images": 1,
+    "headings": 0,
+    "listItems": 37,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Android Developers",
+     "width": 137,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.21,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "tab×2",
+   "class": "devsite-dropdown devsite-dropdown-full devsite-active",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 1681,
+   "text": "Design & Plan\n Excellent Experiences\n Build the best experiences for your best users.\n Learn more\n UI Design\n Design a beautiful user interface using Android best practices.\n Design for Android\n Mobile\n Desktop experiences\n XR Headsets & XR Glasses\n AI Glasses\n Widgets\n Wear OS\n Android TV\n Android for Cars\n Architecture\n Design robust, testable, and maintainable app logic and services.\n Introduct",
+   "counts": {
+    "links": 59,
+    "images": 0,
+    "headings": 0,
+    "listItems": 77,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 2
+   },
+   "coverLabel": "Design & Plan, selected",
+   "linkTextRatio": 0.48,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.21,
+    "leftFraction": 0.23,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "button",
+   "id": "tab-overflow-button-lHcM",
+   "class": "devsite-tabs-overflow-button devsite-icon devsite-icon-arrow-drop-down",
+   "ariaLabel": "Dropdown menu for Extended Navigation",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 4,
+   "text": "More",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.06,
+    "leftFraction": 0.44,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "form",
+   "class": "devsite-search-form",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "form"
+   ],
+   "textLength": 1,
+   "text": "/",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6,
+    "height": 36,
+    "widthFraction": 0.14,
+    "leftFraction": 0.56,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "devsite-language-selector",
+   "ariaLabel": "Select your language preference.",
+   "landmarks": [
+    "section",
+    "role=banner"
+   ],
+   "textLength": 279,
+   "text": "Light theme\n Dark theme\n Device default\nEnglish\n English\n Deutsch\n Español – América Latina\n Français\n Indonesia\n Italiano\n Polski\n Português – Brasil\n Tiếng Việt\n Türkçe\n Русский\n עברית\n العربيّة\n فارسی\n हिंदी\n বাংলা\n ภาษาไทย\n 中文 – 简体\n 中文 – 繁體\n 日本語\n 한국어\nAndroid Studio\nSign in",
+   "counts": {
+    "links": 22,
+    "images": 0,
+    "headings": 0,
+    "listItems": 21,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.62,
+   "geometry": {
+    "top": 6,
+    "height": 36,
+    "widthFraction": 0.27,
+    "leftFraction": 0.71,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "div",
+   "class": "devsite-header-background",
+   "landmarks": [
+    "section",
+    "role=banner"
+   ],
+   "textLength": 95,
+   "text": "App quality\n Overview\n Core value\n User experience\n Technical quality\n Privacy & Security\n More",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 49,
+    "height": 104,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "input",
+   "role": "searchbox",
+   "ariaLabel": "Type to filter",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 177,
+    "height": 32,
+    "widthFraction": 0.15,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul",
+   "class": "devsite-nav-list",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 614,
+   "text": "Overview\n Core app quality\n Form factors\n Adaptive app quality\nOverview\nTier 3 — Adaptive ready\nTier 2 — Adaptive optimized\n Tier 1 — Adaptive differentiated\nOverview\nDesktop\nFoldables\nCamera • Audio\nStylus\n Wear OS app quality\n Widget quality\n Android XR app quality\n TV app quality\n Car app quality\n Accessibility\n In this guide\n Build and test apps for accessibility\nMake apps more accessible\nPrin",
+   "counts": {
+    "links": 23,
+    "images": 0,
+    "headings": 0,
+    "listItems": 30,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.69,
+   "geometry": {
+    "top": 246,
+    "height": 668,
+    "widthFraction": 0.18,
+    "leftFraction": 0,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "devsite-sidebar",
+   "landmarks": [
+    "section",
+    "section",
+    "main"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 153,
+    "height": 4133,
+    "widthFraction": 0.84,
+    "leftFraction": 0.15,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "section",
+   "class": "devsite-landing-row devsite-landing-row-1-up devsite-landing-row-hero devsite-landing-row-50",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 249,
+   "text": "Build accessible apps\n Practicing accessible engineering is the right thing to do. It's also required for anyone designing apps for governments or large institutions. Ensure your apps are as accessible as they can be.\n Start building accessible apps",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 337,
+     "height": 190
+    }
+   ],
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 178,
+    "height": 472,
+    "widthFraction": 0.65,
+    "leftFraction": 0.2,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div×3",
+   "class": "devsite-landing-row-item devsite-landing-row-item-no-media",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 705,
+   "text": "Increase your app’s reach\n According to the World Bank, 15% of the world’s population has some type of disability. People with disabilities depend on apps and services that support accessibility to communicate, learn, and work. By making your app accessible, you can reach these users.\nImprove your app’s versatility\n Accessibility features benefit all users. For example, if someone is using your ap",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 56,
+     "height": 56
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 56,
+     "height": 56
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 56,
+     "height": 56
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 690,
+    "height": 344,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "section×6",
+   "class": "devsite-landing-row devsite-landing-row-1-up devsite-landing-row-padding-medium",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 930,
+   "text": "Getting started\n Learn about color contrast, touch target size, content labeling, and other practices that make a big difference to your users. Find out what it means to build accessible apps on Android.\n Accessibility Pathway\nDesign\n Building accessible experiences starts from the beginning. Accessibility in design allows users of diverse abilities to navigate, understand, and use your UI.\n Desig",
+   "counts": {
+    "links": 12,
+    "images": 4,
+    "headings": 5,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 6,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 337,
+     "height": 190
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 337,
+     "height": 190
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 337,
+     "height": 190
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 337,
+     "height": 190
+    }
+   ],
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 1074,
+    "height": 1449,
+    "widthFraction": 0.65,
+    "leftFraction": 0.2,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "figure",
+   "class": "devsite-landing-row-item-image",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 409,
+     "height": 222
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2524,
+    "height": 222,
+    "widthFraction": 0.28,
+    "leftFraction": 0.23,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "devsite-landing-row-item-body",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 260,
+   "text": "Now in Android\n Now in Android is a fully functional Android app built entirely with Kotlin and Jetpack Compose. It follows Android design and development best practices and is intended to be a useful reference for developers.\n Android System\n UI\n Intermediate",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 2770,
+    "height": 209,
+    "widthFraction": 0.25,
+    "leftFraction": 0.25,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "section",
+   "class": "devsite-landing-row devsite-landing-row-2-up android-illustrated-resources-secondary",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 225,
+   "text": "Stack Overflow\n Ask Android accessibility related questions on StackOverflow.\n Android accessibility on Stack Overflow\n Issue Tracker\n Report an issue related to accessibility development to Google.\n File accessibility issues",
+   "counts": {
+    "links": 6,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 56,
+     "height": 56
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 56,
+     "height": 56
+    }
+   ],
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 3092,
+    "height": 384,
+    "widthFraction": 0.65,
+    "leftFraction": 0.2,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "header",
+   "class": "devsite-landing-row-header",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section",
+    "header"
+   ],
+   "textLength": 11,
+   "text": "Latest news",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3556,
+    "height": 40,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "devsite-card-group",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 169,
+   "text": "YouTube\nAndroid accessibility updates\nUpdated May 22, 2026\nBlog\nBeyond the smartphone: How JioHotstar optimized its UX for foldables and tablets\nUpdated January 27, 2026",
+   "counts": {
+    "links": 4,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 411,
+     "height": 231
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 411,
+     "height": 231
+    }
+   ],
+   "linkTextRatio": 0.64,
+   "geometry": {
+    "top": 3652,
+    "height": 421,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "devsite-content-footer",
+   "class": "nocontent",
+   "landmarks": [
+    "section",
+    "section",
+    "main"
+   ],
+   "textLength": 219,
+   "text": "Content and code samples on this page are subject to the licenses described in the Content License. Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates.\n Last updated 2026-04-22 UTC.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 4170,
+    "height": 76,
+    "widthFraction": 0.65,
+    "leftFraction": 0.2,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "nav",
+   "class": "devsite-footer-promos nocontent",
+   "ariaLabel": "Promotions",
+   "landmarks": [
+    "section",
+    "section",
+    "nav"
+   ],
+   "textLength": 145,
+   "text": "X\n Follow @AndroidDev on X\n YouTube\n Check out Android Developers on YouTube\n LinkedIn\n Connect with the Android Developers community on LinkedIn",
+   "counts": {
+    "links": 3,
+    "images": 3,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "X",
+     "width": 48,
+     "height": 48
+    },
+    {
+     "kind": "img",
+     "alt": "YouTube",
+     "width": 48,
+     "height": 48
+    },
+    {
+     "kind": "img",
+     "alt": "LinkedIn",
+     "width": 48,
+     "height": 48
+    }
+   ],
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 4287,
+    "height": 213,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "nav",
+   "class": "devsite-footer-linkboxes nocontent",
+   "ariaLabel": "Footer links",
+   "landmarks": [
+    "section",
+    "section",
+    "nav"
+   ],
+   "textLength": 566,
+   "text": "More Android\n Android\n Android for Enterprise\n Security\n Source\n News\n Blog\n Podcasts\n Discover\n Gaming\n Machine Learning\n Health & Fitness\n Camera & Media\n Privacy\n 5G\n Android Devices\n Large screens\n Wear OS\n ChromeOS devices\n Android for cars\n Android TV\n Releases\n Android 17\n Android 16\n Android 15\n Android 14\n Android 13\n Android 12\n Android 11\n Documentation and Downloads\n Android Studio gui",
+   "counts": {
+    "links": 34,
+    "images": 0,
+    "headings": 6,
+    "listItems": 40,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 4500,
+    "height": 301,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "div",
+   "class": "devsite-footer-utility nocontent",
+   "landmarks": [
+    "section",
+    "section"
+   ],
+   "textLength": 371,
+   "text": "Android\n Chrome\n Firebase\n Google Cloud Platform\n All products\n Privacy\n License\n Brand guidelines\n Manage cookies\n Get news and tips by email\n Subscribe\n English\n English\n Deutsch\n Español – América Latina\n Français\n Indonesia\n Italiano\n Polski\n Português – Brasil\n Tiếng Việt\n Türkçe\n Русский\n עברית\n العربيّة\n فارسی\n हिंदी\n বাংলা\n ภาษาไทย\n 中文 – 简体\n 中文 – 繁體\n 日本語\n 한국어",
+   "counts": {
+    "links": 32,
+    "images": 1,
+    "headings": 0,
+    "listItems": 31,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Google Developers",
+     "width": 185,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 4801,
+    "height": 176,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "devsite-snackbar-inner",
+   "landmarks": [],
+   "textLength": 90,
+   "text": "Help us improve the Android Developer experience by taking a survey.\nNo, thanksTake survey",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 724,
+    "height": 68,
+    "widthFraction": 0.52,
+    "leftFraction": 0.02,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  }
+ ]
+}

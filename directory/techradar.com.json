@@ -1,0 +1,398 @@
+{
+ "site": "techradar.com",
+ "pages": 4,
+ "pageIds": [
+  "techradar-com-1",
+  "techradar-com-2",
+  "techradar-com-3",
+  "techradar-com-4"
+ ],
+ "derivedAt": "2026-09-20T12:41:27.152Z",
+ "blocks": [
+  {
+   "selector": "[role=main] article section > p",
+   "type": "text",
+   "n": 18,
+   "purity": 0.89,
+   "pages": 2
+  },
+  {
+   "selector": "[role=main] article > div.clear-both",
+   "type": "heading",
+   "n": 9,
+   "purity": 0.89,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > ul.wdn-listv2-items",
+   "type": "teaser_card",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > figure.van-image-figure",
+   "type": "image",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > div.widget-desc",
+   "type": "summary",
+   "n": 7,
+   "purity": 0.86,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] nav > nav.trending__nav",
+   "type": "trending",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "section > section.footer-main-wrapper",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > footer#document-footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=main] article section > div.listingResult",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav nav > ul.meganav-desktop__list",
+   "type": "site_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "nav nav > div.meganav-secondary",
+   "type": "site_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "[role=main] article > div.newsletter-form__container",
+   "type": "newsletter",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "[role=main] article section > ol.popular-box__articles-list",
+   "type": "trending",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "[role=main] article section aside > div.hawk-tabletop-block-block",
+   "type": "product_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.prog-buying-guide",
+   "type": "product_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav [role=navigation] > div.align-center",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "[role=main] article nav > nav.breadcrumb",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "[role=main] article > h1.widget-title",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav [role=navigation] > button.locale-selector__button",
+   "type": "version_switcher",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav [role=navigation] > div#auth-in-nav-header",
+   "type": "account",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav [role=navigation] > button.vf-button",
+   "type": "account",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > h2.widget-title",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > ul.wdn-listv2-items",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > div.clear-both",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] > ul.widget-items",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article > div#explore-techradar",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > nav.primary-nav",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article header nav > nav.breadcrumb",
+   "type": "breadcrumbs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article header > div.byline-social",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article header aside > aside#affiliate-disclaimer",
+   "type": "disclosure",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div#utility-bar",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section aside > div.hawk-tabletop-header-header",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > p#how-we-test",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-gaming-laptop-overall",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#lenovo-legion-5i",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-budget-gaming-laptop",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-high-performance-gaming-laptop",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-value-gaming-laptop",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#alienware-16-aurora",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-desktop-replacement-gaming-laptop",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-compact-gaming-laptop",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-slim-16-inch-gaming-laptop",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3.article-body__section",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.react-swipeable-view-container",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-the-best-dual-screen-gaming-laptop",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#asus-rog-zephyrus-duo",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-how-to-choose-the-best-gaming-laptop-for-you",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section section > section.article__schema-question",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-how-we-tested-these-gaming-laptops",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > h3#section-latest-updates",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section aside > div.hawk-grid-items-container",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section aside > div.hawk-footer-container",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.newsletter-form__container",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div#articleTag",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=main] article section > div.author__default-layout",
+   "type": "author_bio",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

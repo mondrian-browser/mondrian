@@ -1,0 +1,181 @@
+{
+ "site": "crikey.com.au",
+ "pages": 4,
+ "pageIds": [
+  "crikey-com-au-1",
+  "crikey-com-au-2",
+  "crikey-com-au-3",
+  "crikey-com-au-4"
+ ],
+ "derivedAt": "2026-09-20T12:24:32.045Z",
+ "blocks": [
+  {
+   "selector": "section article > article",
+   "type": "teaser_card",
+   "n": 10,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div",
+   "type": "heading",
+   "n": 8,
+   "purity": 0.88,
+   "pages": 1
+  },
+  {
+   "selector": "section article > h4",
+   "type": "teaser_card",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> button.menu-toggle",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> ul#pm-side-nav-bar-primary",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div#pm-algolia-search-top",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "form > form.zephr-form-content",
+   "type": "login_form",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.footer-content",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article section > div.wrap-excerpt",
+   "type": "summary",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article section > figure",
+   "type": "image",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > h1",
+   "type": "paywall",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > div.general-content",
+   "type": "subscribe",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > section.wp-block-pm-about-the-authors",
+   "type": "author_bio",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > section.wp-block-pm-topics",
+   "type": "tag_cloud",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > section.wp-block-pm-article-comments",
+   "type": "comments",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "section article > article.content-start",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > ul.glide__slides",
+   "type": "team",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div.glide__bullets",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section.alignwide",
+   "type": "related",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > section.single-podcast-block",
+   "type": "audio",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > section.single-article-block",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > section.newsletter-cta",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.category-header-graphic",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

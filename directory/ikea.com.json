@@ -1,0 +1,139 @@
+{
+ "site": "ikea.com",
+ "pages": 4,
+ "pageIds": [
+  "ikea-com-1",
+  "ikea-com-2",
+  "ikea-com-3",
+  "ikea-com-4"
+ ],
+ "derivedAt": "2026-09-20T13:34:55.790Z",
+ "blocks": [
+  {
+   "selector": "main article section > div.hri-teaser__grid",
+   "type": "teaser_card",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h2.hri-teaser__title",
+   "type": "heading",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > ul.hnf-accordion",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.hnf-footer__utilities",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.hnf-flex-row",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=region] [role=dialog] > div.ot-sdk-row",
+   "type": "cookie_banner",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div",
+   "type": "site_header",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main nav > nav.hnf-breadcrumb__nav",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article section > div.hri-overflow-carousel__content",
+   "type": "tabs",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.listing-carousel-slide",
+   "type": "product_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.hri-teaser__info",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.hri-text-overlay-card__title-wrapper",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > video.hri-simple-video",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.hri-text-overlay-card",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > img.hri-image",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.hri-shoppable-image",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header.hnf-header",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "aside > aside#hnf-floating-container",
+   "type": "chat_widget",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

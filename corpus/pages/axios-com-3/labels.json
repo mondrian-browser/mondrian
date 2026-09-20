@@ -1,0 +1,138 @@
+{
+ "id": "axios-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:14:35.544Z",
+ "tier": "relayout",
+ "application": 0.09,
+ "inputTokens": 18332,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "status_message",
+   "confidence": 0.4,
+   "margin": 0.19,
+   "top": [
+    [
+     "status_message",
+     0.42
+    ],
+    [
+     "site_header",
+     0.23
+    ],
+    [
+     "heading",
+     0.15
+    ],
+    [
+     "title",
+     0.11
+    ],
+    [
+     "decoration",
+     0.04
+    ]
+   ],
+   "block": "heading",
+   "slot": "notice",
+   "final": "status_message"
+  },
+  {
+   "index": 1,
+   "choice": "status_message",
+   "confidence": 0.8,
+   "margin": 0.65,
+   "top": [
+    [
+     "status_message",
+     0.81
+    ],
+    [
+     "heading",
+     0.16
+    ],
+    [
+     "title",
+     0.01
+    ],
+    [
+     "popup",
+     0.01
+    ],
+    [
+     "account",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "notice",
+   "final": "status_message"
+  },
+  {
+   "index": 2,
+   "choice": "status_message",
+   "confidence": 0.84,
+   "margin": 0.8,
+   "top": [
+    [
+     "status_message",
+     0.85
+    ],
+    [
+     "text",
+     0.05
+    ],
+    [
+     "callout",
+     0.04
+    ],
+    [
+     "site_notice",
+     0.02
+    ],
+    [
+     "popup",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "notice",
+   "final": "status_message"
+  },
+  {
+   "index": 3,
+   "choice": "site_footer",
+   "confidence": 0.81,
+   "margin": 0.68,
+   "top": [
+    [
+     "site_footer",
+     0.82
+    ],
+    [
+     "legal_notice",
+     0.14
+    ],
+    [
+     "status_message",
+     0.03
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.104Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

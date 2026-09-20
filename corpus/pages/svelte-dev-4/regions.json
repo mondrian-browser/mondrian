@@ -1,0 +1,377 @@
+{
+ "url": "https://svelte.dev/docs/svelte/overview",
+ "title": "Overview • Svelte Docs",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 1229,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "class": "svelte-wf8082 visible",
+   "ariaLabel": "Primary",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 91,
+   "text": "Skip to main content\nDocs\n Docs SvelteSvelteKitCLIAI\nTutorialPackagesPlaygroundBlog\n Ctrl K",
+   "counts": {
+    "links": 13,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 7,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.59,
+   "geometry": {
+    "top": -989,
+    "height": 1049,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": -0.8,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "class": "sidebar svelte-1dx26b8",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 1338,
+   "text": "Introduction\n Overview\nGetting started\n.svelte files\n.svelte.js and .svelte.ts files\nRunes\n What are runes?\n$state\n$derived\n$effect\n$props\n$bindable\n$inspect\n$host\nTemplate syntax\n Basic markup\n{#if ...}\n{#each ...}\n{#key ...}\n{#await ...}\n{#snippet ...}\n{@render ...}\n{@html ...}\n{@attach ...}\n{@const ...}\n{@debug ...}\n{let/const ...}\nbind:\nuse:\ntransition:\nin: and out:\nanimate:\nstyle:\nclass\nawait",
+   "counts": {
+    "links": 86,
+    "images": 0,
+    "headings": 9,
+    "listItems": 95,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 60,
+    "height": 2824,
+    "widthFraction": 0.19,
+    "leftFraction": 0,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "header"
+   ],
+   "textLength": 27,
+   "text": "SvelteIntroduction\nOverview",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 140,
+    "height": 84,
+    "widthFraction": 0.52,
+    "leftFraction": 0.24,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h3",
+   "class": "svelte-42rdnp",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 12,
+   "text": "On this page",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 140,
+    "height": 29,
+    "widthFraction": 0.2,
+    "leftFraction": 0.8,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "nav",
+   "class": "svelte-42rdnp",
+   "landmarks": [
+    "main",
+    "aside",
+    "nav"
+   ],
+   "textLength": 8,
+   "text": "Overview",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 172,
+    "height": 104,
+    "widthFraction": 0.21,
+    "leftFraction": 0.79,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 151,
+   "text": "Svelte is a framework for building user interfaces on the web. It uses a compiler to turn declarative components written in HTML, CSS and JavaScript...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 264,
+    "height": 54,
+    "widthFraction": 0.52,
+    "leftFraction": 0.24,
+    "pageFraction": 0.22,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "code-block",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 334,
+   "text": "App\n<script>\n function greet() {\n alert('Welcome to Svelte!');\n }\n</script>\n<button onclick={greet}>click me</button>\n<style>\n button {\n font-size: 2em;\n }\n</style><script lang=\"ts\">\n function greet() {\n alert('Welcome to Svelte!');\n }\n</script>\n<button onclick={greet}>click me</button>\n<style>\n button {\n font-size: 2em;\n }\n</style>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 345,
+    "height": 361,
+    "widthFraction": 0.52,
+    "leftFraction": 0.24,
+    "pageFraction": 0.28,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 231,
+   "text": "...into lean, tightly optimized JavaScript.\nYou can use it to build anything on the web, from standalone components to ambitious full stack apps (using Svelte’s companion application framework, SvelteKit) and everything in between.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 734,
+    "height": 122,
+    "widthFraction": 0.52,
+    "leftFraction": 0.24,
+    "pageFraction": 0.6,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 283,
+   "text": "These pages serve as reference documentation. If you’re new to Svelte, we recommend starting with the interactive tutorial and coming back here when you have questions.\nYou can also try Svelte online in the playground or, if you need a more fully-featured environment, on StackBlitz.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 869,
+    "height": 122,
+    "widthFraction": 0.52,
+    "leftFraction": 0.24,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p",
+   "class": "edit svelte-s202gb",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "Edit this page on GitHub llms.txt\nprevious next\n Getting started",
+   "counts": {
+    "links": 3,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 1050,
+    "height": 99,
+    "widthFraction": 0.52,
+    "leftFraction": 0.24,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "class": "banner svelte-1ssgw6y",
+   "landmarks": [],
+   "textLength": 93,
+   "text": "Svelte Summit Ljubljana and online, Nov 19-20: Tickets now available! Svelte Summit Nov 19-20",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 19
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 774,
+    "height": 42,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.63,
+    "aboveFold": true
+   }
+  }
+ ]
+}

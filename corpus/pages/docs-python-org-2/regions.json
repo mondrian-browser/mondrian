@@ -1,0 +1,890 @@
+{
+ "url": "https://docs.python.org/3/installing/index.html",
+ "title": "Installing Python modules — Python 3.14.7 documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 3571,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 489,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 7,
+    "images": 1,
+    "headings": 0,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 14,
+    "height": 30,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "h1",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 26,
+   "text": "Installing Python modules¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 70,
+    "height": 62,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p×3",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 625,
+   "text": "As a popular open source development project, Python has an active\nsupporting community of contributors and users that also make their software\navailable for other Python developers to use under open-source license terms.\nThis allows Python users to share and collaborate effectively, benefiting\nfrom the solutions others have already created to common (and sometimes\neven rare!) problems, as well as",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 148,
+    "height": 237,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 281,
+   "text": "Note\nFor corporate and other institutional users, be aware that many\norganisations have their own policies around using and contributing to\nopen source software. Please take such policies into account when making\nuse of the distribution and installation tools provided with Python.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 401,
+    "height": 93,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 10,
+   "text": "Key terms¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 504,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 902,
+   "text": "pip is the preferred installer program. It\nis included by default with the Python binary installers.\nA virtual environment is a semi-isolated Python environment that allows\npackages to be installed for use by a particular application, rather than\nbeing installed system wide.\nvenv is the standard tool for creating virtual environments.\nIt defaults to installing pip into all created virtual environm",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 569,
+    "height": 284,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 93,
+   "text": "Changed in version 3.5: The use of venv is now recommended for creating virtual environments.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 869,
+    "height": 27,
+    "widthFraction": 0.53,
+    "leftFraction": 0.28,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "class": "admonition seealso",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 77,
+   "text": "See also\nPython Packaging User Guide: Creating and using virtual environments",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 911,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 12,
+   "text": "Basic usage¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 963,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 177,
+   "text": "The standard packaging tools are all designed to be used from the command\nline.\nThe following command will install the latest version of a module and its\ndependencies from PyPI:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1028,
+    "height": 67,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "class": "admonition note",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 310,
+   "text": "python -m pip install SomePackage\nNote\nFor POSIX users (including macOS and Linux users), the examples in\nthis guide assume the use of a virtual environment.\nFor Windows users, the examples in this guide assume that the option to\nadjust the system PATH environment variable was selected when installing\nPython.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1111,
+    "height": 181,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 270,
+   "text": "It’s also possible to specify an exact or minimum version directly on the\ncommand line. When using comparator operators such as >, < or some other\nspecial character which get interpreted by shell, the package name and the\nversion should be enclosed within double quotes:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1308,
+    "height": 78,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 120,
+   "text": "python -m pip install SomePackage==1.0.4 # specific version\npython -m pip install \"SomePackage>=1.0.4\" # minimum version",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1402,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 161,
+   "text": "Normally, if a suitable module is already installed, attempting to install\nit again will have no effect. Upgrading existing modules must be requested\nexplicitly:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1467,
+    "height": 51,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 158,
+   "text": "python -m pip install --upgrade SomePackage\nMore information and resources regarding pip and its capabilities can be\nfound in the Python Packaging User Guide.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 1534,
+    "height": 98,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 151,
+   "text": "Creation of virtual environments is done through the venv module.\nInstalling packages into an active virtual environment uses the commands shown\nabove.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1648,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "admonition seealso",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 77,
+   "text": "See also\nPython Packaging User Guide: Installing Python Distribution Packages",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 1716,
+    "height": 42,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 12,
+   "text": "How do I …?¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 1768,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "section",
+   "id": "install-packages-just-for-the-current-user",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 244,
+   "text": "These are quick answers or links for some common tasks.\n… install packages just for the current user?¶\nPassing the --user option to python -m pip install will install a\npackage just for the current user, rather than for all users of the system.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1833,
+    "height": 153,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "section×2",
+   "id": "install-scientific-python-packages",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 939,
+   "text": "… install scientific Python packages?¶\nA number of scientific Python packages have complex binary dependencies, and\naren’t currently easy to install using pip directly.\nIt will often be easier for users to install these packages by\nother means\nrather than attempting to install them with pip.\nSee also\nPython Packaging User Guide: Installing Scientific Packages\n… work with multiple versions of Pytho",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 2003,
+    "height": 530,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 27,
+   "text": "Common installation issues¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2549,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "section×3",
+   "id": "installing-into-the-system-python-on-linux",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1376,
+   "text": "Installing into the system Python on Linux¶\nOn Linux systems, a Python installation will typically be included as part\nof the distribution. Installing into this Python installation requires\nroot access to the system, and may interfere with the operation of the\nsystem package manager and other components of the system if a component\nis unexpectedly upgraded using pip.\nOn such systems, it is often b",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 9,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 2598,
+    "height": 737,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h3",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 17,
+   "text": "Table of Contents",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 108,
+    "height": 17,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 23,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 323,
+   "text": "Installing Python modules\nKey terms\nBasic usage\nHow do I …?\n… install packages just for the current user?\n… install scientific Python packages?\n… work with multiple versions of Python installed in parallel?\nCommon installation issues\nInstalling into the system Python on Linux\nPip not installed\nInstalling binary extensions",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 11,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 135,
+    "height": 243,
+    "widthFraction": 0.21,
+    "leftFraction": 0.03,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 24,
+   "tag": "div",
+   "role": "note",
+   "ariaLabel": "source link",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 114,
+   "text": "Previous topic\n Monitoring C API\nNext topic\n Python HOWTOs\nThis page\n Report a bug\n Improve this page\n Show source",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 3,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.61,
+   "geometry": {
+    "top": 404,
+    "height": 213,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 25,
+   "tag": "span",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 1,
+   "text": "«",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 470,
+    "height": 17,
+    "widthFraction": 0.01,
+    "leftFraction": 0.25,
+    "pageFraction": 0.13,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 26,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 489,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 7,
+    "images": 1,
+    "headings": 0,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 3360,
+    "height": 30,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "div",
+   "class": "footer",
+   "landmarks": [],
+   "textLength": 449,
+   "text": "© Copyright 2001 Python Software Foundation.\n This page is licensed under the Python Software Foundation License Version 2.\n Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.\n See History and License for more information.\n The Python Software Foundation is a non-profit corporation.\nPlease donate.\n Last updated on Sep 20, 2026 (10:30",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 3391,
+    "height": 180,
+    "widthFraction": 0.96,
+    "leftFraction": 0.01,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  }
+ ]
+}

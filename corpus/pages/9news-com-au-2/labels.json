@@ -1,0 +1,479 @@
+{
+ "id": "9news-com-au-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:26:46.238Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 70173,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.77,
+   "margin": 0.7,
+   "top": [
+    [
+     "site_header",
+     0.78
+    ],
+    [
+     "sticky_bar",
+     0.08
+    ],
+    [
+     "site_nav",
+     0.08
+    ],
+    [
+     "external_links",
+     0.01
+    ],
+    [
+     "unclear",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.89,
+   "margin": 0.81,
+   "top": [
+    [
+     "site_nav",
+     0.9
+    ],
+    [
+     "site_header",
+     0.09
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "filters",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "site_nav",
+   "confidence": 0.88,
+   "margin": 0.83,
+   "top": [
+    [
+     "site_nav",
+     0.89
+    ],
+    [
+     "version_switcher",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "tabs",
+     0.01
+    ],
+    [
+     "site_header",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 3,
+   "choice": "site_nav",
+   "confidence": 0.92,
+   "margin": 0.9,
+   "top": [
+    [
+     "site_nav",
+     0.93
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "tabs",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 4,
+   "choice": "site_nav",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_nav",
+     0.99
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "chart",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 5,
+   "choice": "account",
+   "confidence": 0.42,
+   "margin": 0.14,
+   "top": [
+    [
+     "account",
+     0.43
+    ],
+    [
+     "site_header",
+     0.29
+    ],
+    [
+     "site_nav",
+     0.21
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "search",
+     0.02
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "account"
+  },
+  {
+   "index": 6,
+   "choice": "site_nav",
+   "confidence": 0.61,
+   "margin": 0.33,
+   "top": [
+    [
+     "site_nav",
+     0.62
+    ],
+    [
+     "section_nav",
+     0.29
+    ],
+    [
+     "site_header",
+     0.04
+    ],
+    [
+     "tabs",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 7,
+   "choice": "table",
+   "confidence": 0.41,
+   "margin": 0.13,
+   "top": [
+    [
+     "table",
+     0.43
+    ],
+    [
+     "list",
+     0.3
+    ],
+    [
+     "teaser_card",
+     0.07
+    ],
+    [
+     "stats",
+     0.05
+    ],
+    [
+     "related",
+     0.05
+    ]
+   ],
+   "block": "table",
+   "slot": "header",
+   "final": "table"
+  },
+  {
+   "index": 8,
+   "choice": "breadcrumbs",
+   "confidence": 0.65,
+   "margin": 0.55,
+   "top": [
+    [
+     "breadcrumbs",
+     0.66
+    ],
+    [
+     "site_header",
+     0.11
+    ],
+    [
+     "section_nav",
+     0.08
+    ],
+    [
+     "site_nav",
+     0.07
+    ],
+    [
+     "heading",
+     0.06
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 9,
+   "choice": "video",
+   "confidence": 0.73,
+   "margin": 0.54,
+   "top": [
+    [
+     "video",
+     0.74
+    ],
+    [
+     "text",
+     0.2
+    ],
+    [
+     "unclear",
+     0.02
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "gallery",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "video"
+  },
+  {
+   "index": 10,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "checkout",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 11,
+   "choice": "site_nav",
+   "confidence": 0.82,
+   "margin": 0.69,
+   "top": [
+    [
+     "site_nav",
+     0.84
+    ],
+    [
+     "site_footer",
+     0.15
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 12,
+   "choice": "site_footer",
+   "confidence": 0.75,
+   "margin": 0.54,
+   "top": [
+    [
+     "site_footer",
+     0.77
+    ],
+    [
+     "site_nav",
+     0.23
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 13,
+   "choice": "site_footer",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "site_footer",
+     0.96
+    ],
+    [
+     "cross_promo",
+     0.03
+    ],
+    [
+     "share",
+     0.01
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 14,
+   "choice": "site_footer",
+   "confidence": 0.95,
+   "margin": 0.92,
+   "top": [
+    [
+     "site_footer",
+     0.96
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:24.970Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

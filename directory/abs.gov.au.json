@@ -1,0 +1,475 @@
+{
+ "site": "abs.gov.au",
+ "pages": 4,
+ "pageIds": [
+  "abs-gov-au-1",
+  "abs-gov-au-2",
+  "abs-gov-au-3",
+  "abs-gov-au-4"
+ ],
+ "derivedAt": "2026-09-20T13:52:24.650Z",
+ "blocks": [
+  {
+   "selector": "main > h3.field--name-field-abs-title",
+   "type": "heading",
+   "n": 16,
+   "purity": 0.94,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.chart-tabs",
+   "type": "tabs",
+   "n": 13,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > button.chart-export-buttons-label",
+   "type": "action_button",
+   "n": 13,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main [role=region] [role=region] > ul",
+   "type": "list",
+   "n": 13,
+   "purity": 0.92,
+   "pages": 2
+  },
+  {
+   "selector": "main > ol",
+   "type": "list",
+   "n": 6,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > footer#footer-wrapper",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > div.abs-content",
+   "type": "text",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > header",
+   "type": "site_header",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main nav > nav.breadcrumb",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main aside nav > h2#block-abs-toc-label",
+   "type": "table_of_contents",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main aside nav > ul",
+   "type": "table_of_contents",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > h1#start-main-content",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > h3.abs-content-title",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main aside > div.hp-recent",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > span.label-text",
+   "type": "page_tools",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div#release-date-section",
+   "type": "metadata",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.abs-section",
+   "type": "references",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-0",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-3",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-4",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-5",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-6",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h2.abs-section-title",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#data-downloads",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > section#callout-bottom",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.heading-download-wrapper",
+   "type": "download",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > table.header-type-both",
+   "type": "table",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > g#abs-logo",
+   "type": "skip_link",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header nav > nav#block-system-menu-block-abs-main-menu",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#highlighted",
+   "type": "hero",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#hp-stats",
+   "type": "stats",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main aside > ul.quicktabs-tabs",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > a.home-cta",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#after-content",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.field--name-field-abs-text-paragraph-content",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#arrival-periods",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#australian-citizenship",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#education",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#economic-participation",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#socio-economic-index",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#english-proficiency",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-12",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#post-release-changes",
+   "type": "correction",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#methodology",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.geography",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.view-content",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div#block-views-block-abs-statistics-browse-view-labour-block",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.views-row",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div#block-views-block-abs-statistics-browse-view-people-block",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div#block-fixed-block-content-wellbeing",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#data-services",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div#block-fixed-block-content-classifications-standards-method",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.field-key-statistics",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#main-features",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#survey-impacts-and-changes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#employment",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-1",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#unemployment",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=region] > button#hc-linkto-highcharts-data-table-2",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#underemployment",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#participation",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#hours-worked",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#states-and-territories",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > button.button--showall",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#article-archive",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#block-views-block-related-articles-by-node",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

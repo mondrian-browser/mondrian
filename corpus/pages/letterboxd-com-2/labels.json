@@ -1,0 +1,386 @@
+{
+ "id": "letterboxd-com-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:28:10.536Z",
+ "tier": "relayout",
+ "application": 0.07,
+ "inputTokens": 56128,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.8,
+   "margin": 0.64,
+   "top": [
+    [
+     "site_header",
+     0.81
+    ],
+    [
+     "login_form",
+     0.17
+    ],
+    [
+     "popup",
+     0.01
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "heading",
+   "confidence": 0.55,
+   "margin": 0.37,
+   "top": [
+    [
+     "heading",
+     0.57
+    ],
+    [
+     "filters",
+     0.2
+    ],
+    [
+     "title",
+     0.12
+    ],
+    [
+     "trending",
+     0.04
+    ],
+    [
+     "section_nav",
+     0.03
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 2,
+   "choice": "reviews",
+   "confidence": 0.9,
+   "margin": 0.85,
+   "top": [
+    [
+     "reviews",
+     0.91
+    ],
+    [
+     "trending",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.03
+    ],
+    [
+     "app_nag",
+     0
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "thread",
+   "slot": "reviews",
+   "final": "reviews"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.44,
+   "margin": 0.14,
+   "top": [
+    [
+     "teaser_card",
+     0.46
+    ],
+    [
+     "image",
+     0.32
+    ],
+    [
+     "reviews",
+     0.15
+    ],
+    [
+     "trending",
+     0.04
+    ],
+    [
+     "product_card",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 4,
+   "choice": "teaser_card",
+   "confidence": 0.43,
+   "margin": 0.17,
+   "top": [
+    [
+     "teaser_card",
+     0.44
+    ],
+    [
+     "reviews",
+     0.27
+    ],
+    [
+     "trending",
+     0.19
+    ],
+    [
+     "heading",
+     0.05
+    ],
+    [
+     "title",
+     0.04
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 5,
+   "choice": "byline",
+   "confidence": 0.5,
+   "margin": 0.09,
+   "top": [
+    [
+     "byline",
+     0.51
+    ],
+    [
+     "reviews",
+     0.42
+    ],
+    [
+     "rating",
+     0.06
+    ],
+    [
+     "comments",
+     0.01
+    ],
+    [
+     "definition_list",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 6,
+   "choice": "reviews",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "reviews",
+     0.98
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ]
+   ],
+   "block": "thread",
+   "slot": "reviews",
+   "final": "reviews"
+  },
+  {
+   "index": 7,
+   "choice": "reviews",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "reviews",
+     0.95
+    ],
+    [
+     "teaser_card",
+     0.03
+    ],
+    [
+     "trending",
+     0.02
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "block": "thread",
+   "slot": "reviews",
+   "final": "reviews"
+  },
+  {
+   "index": 8,
+   "choice": "reviews",
+   "confidence": 0.75,
+   "margin": 0.55,
+   "top": [
+    [
+     "reviews",
+     0.76
+    ],
+    [
+     "teaser_card",
+     0.21
+    ],
+    [
+     "trending",
+     0.02
+    ],
+    [
+     "product_card",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "thread",
+   "slot": "reviews",
+   "final": "reviews"
+  },
+  {
+   "index": 9,
+   "choice": "trending",
+   "confidence": 0.79,
+   "margin": 0.66,
+   "top": [
+    [
+     "trending",
+     0.8
+    ],
+    [
+     "user_card",
+     0.14
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "team",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "trending",
+   "final": "trending"
+  },
+  {
+   "index": 10,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "feature_grid",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 11,
+   "choice": "site_footer",
+   "confidence": 0.56,
+   "margin": 0.42,
+   "top": [
+    [
+     "site_footer",
+     0.57
+    ],
+    [
+     "decoration",
+     0.15
+    ],
+    [
+     "pagination",
+     0.09
+    ],
+    [
+     "action_button",
+     0.07
+    ],
+    [
+     "unclear",
+     0.04
+    ]
+   ],
+   "block": "media",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.764Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

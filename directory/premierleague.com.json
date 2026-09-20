@@ -1,0 +1,266 @@
+{
+ "site": "premierleague.com",
+ "pages": 5,
+ "pageIds": [
+  "premierleague-com-1",
+  "premierleague-com-2",
+  "premierleague-com-3",
+  "premierleague-com-4",
+  "premierleague-table"
+ ],
+ "derivedAt": "2026-09-20T14:36:03.736Z",
+ "blocks": [
+  {
+   "selector": "main article > ul.stats-leaderboard__leaderboard",
+   "type": "table",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > div.light-theme",
+   "type": "site_nav",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "nav > div.main-nav__container",
+   "type": "site_nav",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "main > button.button__icon-only",
+   "type": "action_button",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "main > h2.live-audio__title",
+   "type": "audio",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 5
+  },
+  {
+   "selector": "main > div.live-audio__account-prompt",
+   "type": "account",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "footer > ul.footer-sponsors__list",
+   "type": "logo_cloud",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "footer > ul.footer-navigation__list",
+   "type": "site_footer",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 5
+  },
+  {
+   "selector": "footer > div.footer-corporate",
+   "type": "site_footer",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "[role=region] [role=dialog] > div#onetrust-policy-text",
+   "type": "cookie_banner",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "[role=region] [role=dialog] > div#onetrust-button-group",
+   "type": "cookie_banner",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "nav nav > nav.live-bar__wrapper",
+   "type": "sticky_bar",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main header > h1.page-header__title",
+   "type": "title",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main header nav > nav.tab-navigation",
+   "type": "tabs",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > button.button__icon-only",
+   "type": "action_button",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > article.generic-promo__content",
+   "type": "callout",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main header > header.widget-header",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section header > h1.stats-leaderboard-table__title",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section nav > nav.stats-leaderboard-table__filters",
+   "type": "filters",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > table.stats-table",
+   "type": "table",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > ul.filters__filters-list",
+   "type": "filters",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > button.button__icon-right",
+   "type": "action_button",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.content-rail__container",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section header > h1.player-profile-header__name",
+   "type": "user_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > article.profiles__card",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div.base-TabsList-root",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > button.chip",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > button.button__icon-only",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > ul.filters__filters-list",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > button.button__icon-right",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > section.profile-stat-cards-container",
+   "type": "stats",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > section.profile-stat-lists-container",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section nav > nav.match-list-nav",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > span.react-loading-skeleton",
+   "type": "decoration",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > article.content-card",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > span.react-loading-skeleton",
+   "type": "progress",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

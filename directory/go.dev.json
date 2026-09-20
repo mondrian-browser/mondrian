@@ -1,0 +1,482 @@
+{
+ "site": "go.dev",
+ "pages": 4,
+ "pageIds": [
+  "go-dev-1",
+  "go-dev-2",
+  "go-dev-3",
+  "go-dev-4"
+ ],
+ "derivedAt": "2026-09-20T12:55:19.820Z",
+ "blocks": [
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 66,
+   "purity": 0.86,
+   "pages": 3
+  },
+  {
+   "selector": "main article section > p",
+   "type": "text",
+   "n": 34,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2",
+   "type": "heading",
+   "n": 31,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h3",
+   "type": "heading",
+   "n": 28,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > pre",
+   "type": "code",
+   "n": 14,
+   "purity": 0.93,
+   "pages": 1
+  },
+  {
+   "selector": "section > section.Cookie-notice",
+   "type": "cookie_banner",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article section > div.Documentation-typeFunc",
+   "type": "text",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header nav > ul.Header-menu",
+   "type": "site_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > h1",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "footer > footer.Site-footer",
+   "type": "site_footer",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article section > div.Documentation-function",
+   "type": "text",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > textarea.Documentation-exampleCode",
+   "type": "code",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.Documentation-exampleButtonsContainer",
+   "type": "toolbar",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > section#getting-started",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header nav form > form.go-InputGroup",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header nav > ul.go-Header-menu",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main header nav > nav.go-Main-headerBreadcrumb",
+   "type": "breadcrumbs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main header > h1.UnitHeader-titleHeading",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main header > div.go-Main-headerDetails",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main aside > aside.go-Main-aside",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main nav > button.UnitOutline-jumpToInput",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main nav > ul.go-Tree",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#section-documentation",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h3#pkg-overview",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section [role=navigation] > ul.Documentation-toc",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#hdr-JSON_Representation_of_Go_structs",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#hdr-Security_Considerations",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-package-CaseSensitivity",
+   "type": "accordion",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > pre.Documentation-exampleOutputContainer",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-package-OrderedObject",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-package-ServeHTTP",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h3#pkg-index",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > ul.Documentation-indexList",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > section.Documentation-examples",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#pkg-constants",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#pkg-variables",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > section.Documentation-variables",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#pkg-functions",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4.Documentation-functionHeader",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-Marshal-Multiline",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#Unmarshal",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#UnmarshalDecode",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-UnmarshalDecode-Stream",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3#pkg-types",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#Marshaler",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#MarshalerTo",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-MarshalerTo",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#Marshalers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4.Documentation-typeHeader",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#MatchCaseInsensitiveNames",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#StringifyNumbers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#WithMarshalers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-WithMarshalers-Errors",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#WithUnmarshalers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-WithUnmarshalers-RawNumber",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#SemanticError",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > div.Documentation-typeMethod",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#Unmarshaler",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#UnmarshalerFrom",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > details#example-UnmarshalerFrom",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h4#Unmarshalers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.UnitFiles",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > footer.go-Footer",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#go1",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#decentralized",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#discovery",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2#versioning",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

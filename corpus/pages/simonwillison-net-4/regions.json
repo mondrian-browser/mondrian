@@ -1,0 +1,185 @@
+{
+ "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+ "title": "Release: datasette-auth-github 1.0",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "landmarks": [],
+   "textLength": 33,
+   "text": "Simon Willison’s Weblog\nSubscribe",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.7,
+   "geometry": {
+    "top": 6,
+    "height": 23,
+    "widthFraction": 0.65,
+    "leftFraction": 0.17,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "beat-row1",
+   "landmarks": [],
+   "textLength": 94,
+   "text": "Release\n datasette-auth-github 1.0\n — Datasette plugin that authenticates users against GitHub",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.34,
+   "geometry": {
+    "top": 50,
+    "height": 40,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "div",
+   "class": "beat-note blogmark-body",
+   "landmarks": [],
+   "textLength": 653,
+   "text": "I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.)\nI fixed that in #80 and, sinc",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 98,
+    "height": 217,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "recent-articles",
+   "landmarks": [],
+   "textLength": 247,
+   "text": "Recent articles\n Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026\n OpenAI agents attacked RubyGems back in May - 12th September 2026\n Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 1,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 331,
+    "height": 150,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.41,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "metabox",
+   "landmarks": [],
+   "textLength": 279,
+   "text": "This is a beat by Simon Willison, posted on 19th September 2026.\n github\n 195\n plugins\n 128\n datasette\n 1,545\n Monthly briefing\n Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments.\n Pay me to send you less!\n Sponsor & subscribe",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.39,
+   "geometry": {
+    "top": 50,
+    "height": 377,
+    "widthFraction": 0.19,
+    "leftFraction": 0.59,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "landmarks": [],
+   "textLength": 174,
+   "text": "Disclosures\n Colophon\n ©\n 2002\n 2003\n 2004\n 2005\n 2006\n 2007\n 2008\n 2009\n 2010\n 2011\n 2012\n 2013\n 2014\n 2015\n 2016\n 2017\n 2018\n 2019\n 2020\n 2021\n 2022\n 2023\n 2024\n 2025\n 2026",
+   "counts": {
+    "links": 27,
+    "images": 1,
+    "headings": 0,
+    "listItems": 29,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 783,
+    "height": 15,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0.96,
+    "aboveFold": true
+   }
+  }
+ ]
+}

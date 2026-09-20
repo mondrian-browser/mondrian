@@ -1,0 +1,426 @@
+{
+ "site": "nypost.com",
+ "pages": 4,
+ "pageIds": [
+  "nypost-com-1",
+  "nypost-com-2",
+  "nypost-com-3",
+  "nypost-com-4"
+ ],
+ "derivedAt": "2026-09-20T14:52:25.820Z",
+ "blocks": [
+  {
+   "selector": "main > h2.story__headline",
+   "type": "teaser_card",
+   "n": 30,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > p.story__excerpt",
+   "type": "teaser_card",
+   "n": 24,
+   "purity": 0.83,
+   "pages": 1
+  },
+  {
+   "selector": "main > img.attachment-nyp_large_article_cropped",
+   "type": "image",
+   "n": 20,
+   "purity": 0.95,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 19,
+   "purity": 0.84,
+   "pages": 3
+  },
+  {
+   "selector": "main > div.layout__grid",
+   "type": "teaser_card",
+   "n": 18,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul",
+   "type": "teaser_card",
+   "n": 17,
+   "purity": 0.82,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure.nyp-slideshow-modal-image",
+   "type": "gallery",
+   "n": 8,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h3.story__headline",
+   "type": "teaser_card",
+   "n": 6,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > ul",
+   "type": "trending",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 2
+  },
+  {
+   "selector": "header > img.news-com-au-header__logo",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > button.menu-toggle",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > div.site-header__right",
+   "type": "site_header",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "header > div.site-header__bar-inner",
+   "type": "version_switcher",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "main > video",
+   "type": "video",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "footer > div.site-footer__top",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer nav > nav.footer-legal",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > div",
+   "type": "comments",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.ad__wrapper",
+   "type": "ad",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.story--5up",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > a",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h4.subsection-heading",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > ul#menu-us-news-subnav-1",
+   "type": "section_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article header > h1.headline--single-fallback",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > cnx.cnx-player-wrapper",
+   "type": "video",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > div.google-preferred-sources",
+   "type": "cross_promo",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "aside > aside.more-stories",
+   "type": "related",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div.module--news-5",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > img.attachment-nyp_small_news_v1",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.widget_text",
+   "type": "audio",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > div.article-header__meta",
+   "type": "byline",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article aside > aside.single__inline-module",
+   "type": "related",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div.layout__grid",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3.t-center",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.module--related",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.module--gated",
+   "type": "subscribe",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.module--hollywood",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.module--3up",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.story__inner",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.story--sm",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > img.attachment-nyp_large_p6",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.story__text",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > img.attachment-nyp_large_news",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul.social-icons",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.widget--covers",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.widget__header",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.widget__footer",
+   "type": "subscribe",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.widget--horoscope",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2.widget--now-on__heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2.subsection-heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.widget--border",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul.sports-podcasts",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > h4.recirc__heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > div.recirc__story",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > h2.widget--now-on__heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > div.widget--border",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > div.recirc--trending",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure.wp-block-image",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > div.recirc--outbrain",
+   "type": "skip_link",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > div.widget_text",
+   "type": "audio",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

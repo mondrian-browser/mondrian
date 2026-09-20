@@ -1,0 +1,3219 @@
+{
+ "url": "https://danluu.com/agentic-testing/",
+ "title": "How well do agents use test/verification techniques?",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 14070,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "strong",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 60,
+   "text": "How well do agents use test/verification techniques?\nPatreon",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8,
+    "height": 17,
+    "widthFraction": 0.29,
+    "leftFraction": 0.01,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2000,
+   "text": "We previously noted that, while it's easier than ever to hit a particular quality bar by having coding agents use effective test techniques, software quality seems to be getting worse, indicating that whatever defaults developers are using may not work very well. Here, we test if simple instructions to agents to use particular techniques or libraries improve implementation correctness, as a kind o",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 52,
+    "height": 230,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h3",
+   "id": "predictions",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Predictions",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 301,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2533,
+   "text": "I pre-registered some guesses on how conditions will do:\nTDD will underperform (55% confidence)\nI actually added TDD specifically because I thought it would underperform\nMy confidence is low here because I don't know what agents will do when instructed to do TDD; perhaps agents won't do TDD and will do something that doesn't underperform (or perhaps I'm wrong about TDD underperformance)\nFormal met",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 15,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 341,
+    "height": 412,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h3",
+   "id": "overall-results",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Overall results",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 772,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 941,
+   "text": "Below, we have a very messy graph which shows the results for the conditions tested (codex with GPT-5.6 Sol, with medium and xhigh efforts). When looking at data, I tend to prefer much denser and messier graphs than most people, such as the first graph here. Because most people find these kinds of graphs unreadably messy, I tend to split information out into a series of graphs, each of which shows",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 813,
+    "height": 90,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "iframe",
+   "class": "interactive-chart interactive-chart--agentic-testing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "danluu.com",
+    "width": 1409,
+    "height": 751,
+    "title": "Average cost versus percent of fully correct Zstd runs by testing condition and "
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 919,
+    "height": 751,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1137,
+   "text": "One thing we can see is that nothing really wildly outperforms. However, Default (no additional instructions) does well above average. Looking at xhigh, on average, the fuzzing and PBT-related conditions did a little better than formal methods on average, with the situation being a lot more mixed at medium. The testing-related skills codex recommended we try underperformed, although our quick cust",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1686,
+    "height": 124,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 266,
+   "text": "AI agents' approach to testing, more or less:\nTake the pathological cases dreamed up by someone objecting to mocks 15 years ago, without ever having actually used mocks. Naive dreams of excessive mocking.\nMake those pathologies the backbone of your testing strategy.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1826,
+    "height": 86,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p×6",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5098,
+   "text": "It turns out, if you ask agents to use a particular test technique or test library, this approach doesn't change as much as you'd hope. We'll look at what happened in cases in more detail, but at a high level, with test techniques, agents tend to either just write the tests they would normally write, but inside a framework for a different type of test technique, or they'll use a technique superfic",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 6,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 1928,
+    "height": 561,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h3",
+   "id": "verus",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "Verus",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2507,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1086,
+   "text": "Verus uses an SMT solver and various types of reasoning to prove that the code matches specifications.\nAlthough Verus can prove that code matches specifications, agents didn't do that. Instead, they made proofs about various abstract properties relating to Zstd. I've not used a tool like Verus myself, so I can't speak to what an expert or even a beginner user would normally do, but from reading th",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2548,
+    "height": 158,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 127,
+   "text": "requires \n 0 < a <= window, \n 0 < b <= window,\n 0 < c <= window,\n ensures\n 0 < c <= window,\n 0 < a <= window,\n 0 < b <= window,",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2722,
+    "height": 120,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×5",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2690,
+   "text": "In cases where agents actually proved something, they generally proved something relatively simple and avoided proving properties about the parts that were likely to have a bug (for example, agents often failed to reverse the bitstream order for encode and decode and would write tests that failed to detect this because the tests were palindromic; perhaps some kind of proof of reversal here might g",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 2858,
+    "height": 334,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h3",
+   "id": "alloy",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "Alloy",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3211,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p×6",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1918,
+   "text": "Alloy is often called a bounded model checker. This is maybe not quite right with Alloy 6 since that introduces some extra features, but this is way outside of my area of expertise. My understanding is that, with Alloy, you normally prove properties about your model (as opposed to proving that your code works).\nAlloy got the 2nd worst correctness score and, unusually, scored generally poorly on bo",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 6,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3251,
+    "height": 278,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h3",
+   "id": "differential-testing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Differential testing",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3548,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1273,
+   "text": "Differential testing is a technique where you give the same inputs to multiple implementations and then compare results to find issues. In principle, this seems like a reasonable thing to try with LLMs as we often get different results from different rolls of the dice, and as we noted here, having an agent iterate more on an implementation (which might be only part of the entire thing, perhaps eve",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 3589,
+    "height": 158,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h3",
+   "id": "hegel-skill",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Hegel Skill",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3766,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 247,
+   "text": "It makes sense to discuss how the official Hegel skill changes Hegel behavior, but in reverse correctness order, Hegel Skill appears above Hegel because the result was worse on correctness. See the Hegel section below for discussion of this skill.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3806,
+    "height": 36,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h3",
+   "id": "lean-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 6,
+   "text": "Lean 4",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3861,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 734,
+   "text": "Lean 4 can maybe be described as an interactive theorem prover.\nAlthough I didn't pre-register a guess about Lean, if I had pre-registered guesses on which formal tools would do well, I would've put Lean on the list of things I'd expect to do well because it's relatively hot/trendy and therefore seems relatively likely to have good performance due to synthetic data from RL envs.\nThe Lean agents di",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 3902,
+    "height": 138,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h3",
+   "id": "quickcheck",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 10,
+   "text": "QuickCheck",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4058,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1031,
+   "text": "QuickCheck is a property-based testing library, probably the best known such library for a long time, although Hypothesis might currently hold that crown.\nUnfortunately, agents were about as effective at using property-based testing as they were at using the formal tools we've seen so far. When using QuickCheck, agents mostly wrote very simple \"smoke tests\" that didn't check much. They also used r",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4099,
+    "height": 140,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h3",
+   "id": "tdd",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 3,
+   "text": "TDD",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4258,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 397,
+   "text": "TDD underperformed here as well as in the IMAP RFC eval.\nThe TDD prompt seemed to cause large changes to agent behavior. Agents produced twice as many tests, and worked in a much more iterative test-code-test-code-etc. workflow, although a TDD advocate would probably say that agents didn't actually use TDD. There were only a few instances of agents doing some kind of fine-grained iterative TDD.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4299,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p×6",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2365,
+   "text": "Overall, agents wrote more tests up front; for example, agents had one or more failing tests in 67 of 160 cases before doing substantial (non-stub) implementation, vs. 0 of 160 for the Default condition.\nFor broad test classes, TDD had more tests of every kind. There were more small, trivial tests and there were also more integration and end-to-end tests. Any kind of obvious high-level \"agents did",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 6,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4385,
+    "height": 332,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 689,
+   "text": "fwiw, I think if you write the tests before the code, it's harder to test the harder cases since you know less about what is going to be hard, and even if you do random testing which I don't think \"tdd\" is associated with, you are less likely to steer the distribution in the direction where the bugs are. if you wrote the code or at least can look at it, you know what seems trivially correct and wh",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4733,
+    "height": 72,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1131,
+   "text": "Was my guess that TDD would underperform correct? Strictly on the result, the answer is yes. On my reasoning (not explicitly pre-registered in writing, but I do know what I was thinking), I think it's not clear. My thinking was something like, as we've recently discussed in a variety of contexts, getting agents to actually do something like the right thing and not just overfit is a key part of ach",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4821,
+    "height": 124,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h3",
+   "id": "spin",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 4,
+   "text": "Spin",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4963,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 472,
+   "text": "Spin is a model checker.\nNow we're getting into the range where results weren't far from average. Spin did moderately worse than average on both medium and xhigh, at below average cost. As we saw with the other formal tools, usage of Spin was generally ineffective. In this case specifically, using Spin to model a certain class of behavior had no correlation to passing or failing the hidden tests c",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5004,
+    "height": 88,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h3",
+   "id": "hegel",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "Hegel",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5111,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 411,
+   "text": "Hegel is a property-based testing library based on Hypothesis.\nAs we might expect by now, agents didn't use Hegel effectively. To the extent they used it, they used it superficially, and they generally used it after heavily relying on ordinary testing. Since just saying that agents didn't really meaningfully do the thing is repetitive, I'll make these sections short and only highlight particular c",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 5151,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 216,
+   "text": "The actual workflow agents used was generally\nRead the RFC and API/contract\nImplement Zstd\nRun normal tests\nRead Hegel docs\nUse Hegel to write 1-4 simple property-based tests\nContinue using normal built-in Rust tests",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5237,
+    "height": 142,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×5",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2229,
+   "text": "As noted above, the Hegel skill didn't improve correctness. Correctness was worse (though it was close enough that this could've been random). What was more striking was that cost was much higher (26% higher on medium and 41% on xhigh), for reasons which seem causal.\nThe skill caused agents to generate more tests. The additional tests were mostly checks that malformed inputs don't cause a panic an",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5395,
+    "height": 298,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "h3",
+   "id": "tob-skill",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 9,
+   "text": "ToB skill",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5712,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 367,
+   "text": "In this case, only 108 out of 160 runs actually opened the skill to read it. The skill suggests using proptest in Rust, but the skill suggests approval is required to add a dependency and these were all single-turn autonomous runs, so this wasn't done.\nAs with the other property test cases seen so far, property testing was rudimentary and not done in a helpful way.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 5753,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h3",
+   "id": "rstest",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 6,
+   "text": "Rstest",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5842,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 642,
+   "text": "Rstest is a fixture-based test library.\nAgents effectively didn't use rstest. They technically did use it, but they pretty much just wrote standard unit tests inside rstest and didn't use rstest as intended, defeating the purpose of rstest. While this is arguably true at some high level for techniques seen so far, agents were at least superficially using some of the other techniques (such as writi",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 5882,
+    "height": 88,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h3",
+   "id": "rust-test",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 9,
+   "text": "Rust test",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5989,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 613,
+   "text": "This is referring to the standard Rust built-in test framework that agents used in the Default condition and also very heavily relied on in the other conditions.\nExplicitly asking agents to use the built-in test framework resulted in more tests (double normal on medium, 25% more on xhigh), but this didn't result in better correctness. When agents got things wrong, it was often because they didn't ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6030,
+    "height": 88,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 547,
+   "text": "Yossi Kreinin added:\ni think the fixed input/output style of testing encourages this in machines and humans alike. if you generate inputs you need to then have code that classifies output as correct or incorrect, and while this code itself might be buggy, it at least makes you think about what correct means and how to tell if something is correct more easily than running the code and assuming its ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6134,
+    "height": 88,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "h3",
+   "id": "creusot",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 7,
+   "text": "Creusot",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6241,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 122,
+   "text": "Creusot sits in the same space as Verus.\nAs we've seen with the other formal conditions, Creusot was not used effectively.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6281,
+    "height": 52,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h3",
+   "id": "mutation-testing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "Mutation testing",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6352,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 540,
+   "text": "Mutation testing involves modifying the code to determine how effective tests are and then adding tests to get good coverage. Although mutation testing is a standard programming term, agents generally didn't actually do mutation testing and instead did normal testing with some small amount of mutating things in a way that isn't really mutation testing, similar to how the TDD instruction modified b",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 6393,
+    "height": 88,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "h3",
+   "id": "judgement",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 9,
+   "text": "Judgement",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6499,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 306,
+   "text": "This condition asked agents to adaptively use testing methods as appropriate based on their judgement. Given what we've seen so far, unsurprisingly, agents mostly used standard Rust unit tests. A few agents did some limited fuzzing. Agents had access to other test and formal libraries but didn't use them.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6540,
+    "height": 36,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "h3",
+   "id": "fuzzing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 7,
+   "text": "Fuzzing",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6595,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 307,
+   "text": "Fuzzing involves randomizing test inputs in some way.\nAgents relied heavily on sending random bytes in, which mostly resulted in going down the same code paths (invalid input). Agents also tried sending in random variations of valid inputs, which mostly also just repeatedly exercised input rejection paths.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6636,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 599,
+   "text": "On the rare occasion that agents generated random structured inputs (10 out of 160 cases), this found real bugs half the time, some of which were non-trivial cases. Using fuzzing a bit effectively in 5 out of 160 cases isn't exactly good, but this was one of the more effective uses of a technique that we've seen so far. This also seems to indicate that agents could be trained to do this better and",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6722,
+    "height": 54,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "h3",
+   "id": "insta",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "Insta",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6794,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 482,
+   "text": "Insta is a library for snapshot testing (sometimes called golden testing), where you compare results to a \"snapshot\" or \"golden file\" of correct results. Speaking generally, a snapshot is usually some kind of serialized data, e.g., it could be a JSON object of a data structure, a log of CLI output, etc.\nAs you might expect, snapshot testing was barely used and agents mostly relied on traditional t",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6835,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "h3",
+   "id": "smt",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 3,
+   "text": "SMT",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6924,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 640,
+   "text": "Agents were instructed to use an SMT solver, with Z3, cvc5, and Yices installed.\nAgents mostly used the SMT solver as a kind of scratchpad to compute things like FSE state ranges, header arithmetic, etc. Even when agents modeled something, they would generally not model the right thing to avoid a common mistake.\nFor example, there's a computation that should've been byte1 + (byte2 << 8) + 0x7F00. ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 6964,
+    "height": 122,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "h3",
+   "id": "tla",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 4,
+   "text": "TLA+",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7105,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 319,
+   "text": "TLA+ is a language and tool for modeling behaviors.\nWe're into the set of above average results (but still worse than Default) but, as noted above, I wouldn't take the actual ordering too seriously. Though this isn't necessarily significant, TLA+ did score a bit above average on medium and more above average on xhigh.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7146,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 702,
+   "text": "159/160 agents created some kind of TLA+ model, generally a state-machine model of Zstd. For particular coverage, 30 modeled Huffman/FSE/entropy (areas that often had bugs). As with the other formal cases, TLA+ modeling happened relatively late in the flow (after a lot of standard tests and implementation). Agents sometimes found and fixed errors in the TLA+ model, but I didn't find an instance of",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7232,
+    "height": 106,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "h3",
+   "id": "metamorphic-testing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Metamorphic testing",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7357,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 805,
+   "text": "With metamorphic testing, we check that related inputs produce outputs with the expected relationship. For example, you could check that, for a sort function, changing the order of unequal inputs doesn't change the order of the outputs, or for addition, adding a value to an input adds the value to the output modulo overflow.\nAs we've seen for the other conditions, Metamorphic testing wasn't done v",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7397,
+    "height": 106,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 414,
+   "text": "A policeman sees a drunk man searching for something under a streetlight and asks what the drunk has lost. He says he lost his keys and they both look under the streetlight together. After a few minutes the policeman asks if he is sure he lost them here, and the drunk replies, no, and that he lost them in the park. The policeman asks why he is searching here, and the drunk replies, \"this is where ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7519,
+    "height": 36,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 69,
+   "text": "Curiously, metamorphic testing was used less on xhigh than on medium.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7571,
+    "height": 18,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "h3",
+   "id": "ecc",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 3,
+   "text": "ECC",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7608,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "p×6",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 3166,
+   "text": "The ECC Rust test skill did ok, but mostly because large parts of the skill were ignored. Agents generally opened and read the skill (153/160 read it) and this seemed to cause them to generate more tests. Not only did agents generate more tests in this condition, if we look at when agents read the skill (earlier vs. lateer vs. never), there's an exposure-based gradient in how many tests were added",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 6,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 7649,
+    "height": 404,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h3",
+   "id": "default",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 7,
+   "text": "Default",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8071,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 441,
+   "text": "Default gave the agent no test or verification instructions.\nGiven what we've seen so far, it's not surprising that Default scored above average. Agents generally did things that were not useful when asked to use particular libraries or use particular test techniques. It stands to reason that not telling agents to do things that will make them do useless work does better than telling them to do th",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8112,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "h3",
+   "id": "audit",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "Audit",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8201,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 973,
+   "text": "Audit asked agents to audit the code after implementation. 152/160 agents actually did this and 151 agents claimed find an issue and then made a change as a result of the audit. Agents generally picked reasonable areas to audit, but usually didn't do an independent audit with a fresh context (which I will often ask agents to do) and often just made the same mistake in the audit that they had alrea",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8242,
+    "height": 106,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 743,
+   "text": "Em Chu had the following comment:\nThe results here are consistent with my experience. Auditing code is where most of my tokens go at the moment because I find it quite useful. I always give the two instructions though:\nDon't spawn subagents; read and understand the code/diff yourself\nDon't execute any of the code\nbecause I find the LLM to be significantly dumber if you let it do either of those (t",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8364,
+    "height": 190,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 166,
+   "text": "It would be interesting to try that, but as I've noted in my recent posts, I'm trying to go into less detail in posts, so maybe that will be a topic for another post.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8570,
+    "height": 18,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "h3",
+   "id": "audit-and-fuzz-risky-areas",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Audit and fuzz risky areas",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8606,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1226,
+   "text": "For Zstd, when this instruction was followed, it caused agents to focus heavily on FSE, Huffman, bit readers, and state. These were areas where, in general, agents often missed issues, so agents were correct to think that these areas were risky. The areas that were targeted for fuzzing were better choices than the plain Fuzzing condition.\nOn medium effort, agents mostly ignored the instruction and",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 8647,
+    "height": 174,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "h3",
+   "id": "make-no-mistakes",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "Make no mistakes",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8840,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 294,
+   "text": "Although this technically scored higher than Default, behavior didn't seem to be meaningfully different and the scores are quite close; I would guess that this is due to random variation. At every level at which I looked at the results, they were indistinguishable from random draws of Default.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8880,
+    "height": 36,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "h3",
+   "id": "kani",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 4,
+   "text": "Kani",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8935,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 261,
+   "text": "Kani is a Rust model checking library.\nIn terms of \"actually using a formal method on the code that will execute\", Kani had the best coverage in that Kani was actually used on the Zstd code. However, that only happened occasionally and most use was superficial.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 8976,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 487,
+   "text": "There was one case where real Kani use caught a non-trivial bug that caused Rust code to change. 1 out of 160 isn't amazing, but it does indicate that agents can stumble into using Kani reasonably sometimes (which, I would guess, means that, if used in an RL env, models could learn how to use Kani more effectively).\nKani had noticeably higher cost than other conditions. This seemed to be because r",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9062,
+    "height": 70,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "h3",
+   "id": "acl2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 4,
+   "text": "ACL2",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9151,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 672,
+   "text": "ACL2 is a theorem prover. One thing to note about the result here is that, in many cases, ACL2 OOM'd (192 GiB limit). OOM results weren't counted, which biases the results in some opaque way.\nAlthough ACL2 scored higher than Default, I think it would be surprising if this was causal and significant. As we saw with almost all of the other formal methods, ACL2 was mostly used to prove things that di",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9191,
+    "height": 104,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "h3",
+   "id": "proptest",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "Proptest",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9314,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 193,
+   "text": "Proptest is a property-based testing library.\nJust as we saw with the other randomized testing, most tests weren't very interesting, and a too-heavy reliance on randomness caused poor coverage.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9355,
+    "height": 52,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 233,
+   "text": "Despite generally poor use of property-based testing, proptest's shrinking (finding a simpler input that causes a test failure) did sometimes provide some value, which is better than the little to no value we saw in most other cases.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9423,
+    "height": 36,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "h3",
+   "id": "property-based-testing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "Property-based testing",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9478,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 449,
+   "text": "As with the other technique-based approaches, agents had a container with all options installed. Every agent chose to use proptest, so this effectively became a 2nd proptest condition.\nAs with the proptest condition, tests were mostly not very good but they did sometimes find bugs and shrinking seemed to generate some wins.\nI find it mildly interesting that this second \"accidental\" proptest arm al",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9518,
+    "height": 86,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "h3",
+   "id": "skill",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5,
+   "text": "Skill",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9623,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1223,
+   "text": "Here, Skill refers to the skill I wrote to test having a simple skill (as opposed to the large/complex skills that were what I found when I asked an agent to find relevant testing skills).\nMaybe I should use skills, but I generally don't and instead rely on prompting and seeing what happened and then prompting some more. As a result, I have no intuition for what makes a good skill since I don't ha",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 9664,
+    "height": 158,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 949,
+   "text": "In this case, the skill was:\nThink about areas likely to have subtle bugs before implementing; for each, state likely mistakes and plausible alternative interpretations, then come up with a check where the results differ (prefer asymmetric / boundary examples on both sides of the boundary)\nAfter implementing, for high risk areas, independently re-derive the result without context on production cod",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9838,
+    "height": 142,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p×5",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 3183,
+   "text": "This got the highest score, but didn't work as intended. It didn't really do the fresh context thing almost ever, so it was pointless to have that in there and we don't know if that's something that's effective that needs to be refined to force agents to do it more frequently or if it's something that should be removed (while it's technically possible it's happening at the optimal frequency, I hig",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9996,
+    "height": 352,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "h3",
+   "id": "general-comments",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "General comments",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10366,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1750,
+   "text": "As we noted above, I didn't try to break down the data in a nice, easy to look at way. I didn't do that because, once we look at what agents actually did, it seems like they were mostly pretty ineffective and I don't think it's particularly interesting to see how well \"agents using Verus badly\" do compared to \"agents using QuickCheck badly\". One thing that I find a bit interesting is that, when as",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 10407,
+    "height": 212,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "h3",
+   "id": "how-do-you-get-agents-to-write-good-tests",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 42,
+   "text": "How do you get agents to write good tests?",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10638,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "p×5",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2504,
+   "text": "My experience has been, if you guide agents to set up a reasonable test and triage structure, getting agents to add to that effectively without a huge amount of supervision works ok-ish. Because of my background (bias), the kind of testing I tend to lean on is some form of randomized testing / fuzzing / property-based testing.\nI talked to Jamie Brandon about this, and he's found the same with snap",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 5,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 10679,
+    "height": 316,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "h3",
+   "id": "prediction-accuracy",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Prediction accuracy",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11013,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 903,
+   "text": "TDD underperforms (55% confidence)\nTrue\nFormal methods do not outperform (52% confidence)\nTrue, but not for the reason I expected. Agents failed to use them remotely effectively, so of course they couldn't outperform\nMake no mistakes doesn't outperform no instructions (95% confidence)\nTrue; outperformed most conditions because a no-op is better than getting agents to do ineffective things\nECC skil",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11054,
+    "height": 234,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 108,
+   "text": "Guesses I didn't register, but I could tell I held implicitly because I was surprised when I saw the result:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11304,
+    "height": 18,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 396,
+   "text": "Lean will do relatively well among formal methods\nFalse\nMy skill will be mediocre to bad\nFalse, even though Max Bittker correctly guessed what would happen, told me this in advance, and named a reason that's consistent with what happened; it feels quite silly when someone names the reason something is going to happen and you don't believe it, and then it happens for the exact reason they named",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11338,
+    "height": 90,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "h3",
+   "id": "skills",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 6,
+   "text": "Skills",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11447,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 2283,
+   "text": "At various times, I've felt like I have a bad/antiquated/ineffective workflow because I hear people are doing something and I've been too lazy to try it out. I've felt this way about skills for a while since I don't really use skills. Instead, I keep a large scratchpad of things that I sometimes copy+paste in as prompts, which sort of feels like the equivalent of commenting out blocks of code to s",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 11487,
+    "height": 264,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "h3",
+   "id": "naive-thoughts-on-skill-writing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 31,
+   "text": "Naive thoughts on skill writing",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11770,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "p×9",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 5999,
+   "text": "I don't know enough about skills to say how to write a good skill, but with all the skills we looked at in this post (except for the one I wrote in a minute or two) and the skills from these other two experiments, the skills seemed written like they're human tutorial instructions, in that the goal of the skill seems to be to explain how to do something. My naive thought as someone who's written al",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 9,
+    "repeats": 9,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 11811,
+    "height": 704,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "h3",
+   "id": "appendix-some-responses",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 24,
+   "text": "Appendix: some responses",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12534,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 261,
+   "text": "David R. MacIver said:\nRegrettably, @danluu is right. The Hegel skill sortof sucks right now.\nI think the common problem with a lot of agent skills is that agents suck at writing agent skills and also everyone (including us) uses an agent to write their skills.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 12574,
+    "height": 86,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 730,
+   "text": "A mutual friend mentioned that MacIver (later?) set up a benchmark and confirmed the deficiency in the Hegel Skill and is presumebly working on either improving the skill or tweaking the Hegel comments/docs so the skill isn't necessary. If the only thing that comes out of this post is that Hegel gets an improved skill, I think that would already be pretty awesome. As previously discussed, I think ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 12676,
+    "height": 72,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "h3",
+   "id": "appendix-agent-silliness",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 25,
+   "text": "Appendix: agent silliness",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12767,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1881,
+   "text": "After asking an agent to do a simple lookup of something for an analysis, it exec'd a perl process that ran for 2 hours and 20 minutes before I killed it (I really need to have something that automatically catches things like this, because it's fairly common).\nA subagent used perl to do a regex search over a relatively small file (44kB, 1364 lines), but the expression was degenerate with PCRE and ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 12808,
+    "height": 246,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "h3",
+   "id": "appendix-experimental-details",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 30,
+   "text": "Appendix: experimental details",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13072,
+    "height": 22,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1007,
+   "text": "In the interest of writing this quickly, I'm going to punt on this (sorry!). The distribution across conditions wasn't fundamentally different than we saw here when we looked at how language impacts correctness and token cost. Somehow, this post I wanted to write up quickly in half an hour is almost 10k words, which is definitely more than half an hour of writing (10k words in half an hour would b",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 13113,
+    "height": 106,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 4859,
+   "text": "Overall, I think the IMAP results were less interesting. I thought it might be more interesting to try since it's more of a \"business logic\" problem, but not as huge and expensive to run as the pandoc eval we look at when we looked at languages, which costs over $1k in API costs per run for some of the less effective languages, and was still $700/run in Rust to get to only 30% passing tests (note ",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 13253,
+    "height": 715,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "nav",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 85,
+   "text": "Ed Zitron's AI prediction track record →\nArchive\nPatreon\nMastodon\nBluesky\nTwitter\nRSS",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 13984,
+    "height": 78,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

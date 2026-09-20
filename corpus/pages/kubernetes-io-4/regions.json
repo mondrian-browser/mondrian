@@ -1,0 +1,3593 @@
+{
+ "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/",
+ "title": "Creating a cluster with kubeadm | Kubernetes",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 15021,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "class": "js-navbar-scroll navbar navbar-expand flex-md-column",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 487,
+   "text": ".cls-1{fill:#fff}.cls-2{fill:#326ce5}KubernetesDocumentation\nKubernetes Blog\nTraining\nCareers\nPartners\nCommunity\nVersionsRelease Information\nv1.37\nv1.36\nv1.35\nv1.34\nv1.33\nEnglish中文 (Chinese)\nFrançais (French)\nBahasa Indonesia (Indonesian)\n日本語 (Japanese)\n한국어 (Korean)\nবাংলা (Bengali)\nDeutsch (German)\nहिन्दी (Hindi)\nItaliano (Italian)\nفارسی (Persian)\nPolski (Polish)\nPortuguês (Portuguese)\nРусский (Ru",
+   "counts": {
+    "links": 31,
+    "images": 2,
+    "headings": 0,
+    "listItems": 34,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 146,
+     "height": 38
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.51,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "aside",
+   "landmarks": [
+    "header",
+    "aside"
+   ],
+   "textLength": 235,
+   "text": "KubeCon + CloudNativeCon North America 2026\nJoin us for four days of incredible opportunities to collaborate, learn and share with the cloud native community.\nBuy your ticket now! 9 - 12 November | Salt Lake City, Utah\nHide this notice",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 163,
+     "height": 100
+    }
+   ],
+   "linkTextRatio": 0.43,
+   "geometry": {
+    "top": 0,
+    "height": 285,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "form",
+   "class": "td-sidebar__search d-flex align-items-center",
+   "landmarks": [
+    "aside",
+    "form"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 349,
+    "height": 70,
+    "widthFraction": 0.14,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "td-sidebar-nav__section pe-md-3 ul-0",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 22985,
+   "text": "Kubernetes Documentation\nDocumentation\nAvailable Documentation Versions\nGetting started\nLearning environment\nProduction environment\nContainer Runtimes\nInstalling Kubernetes with deployment tools\nBootstrapping clusters with kubeadm\nInstalling kubeadm\nTroubleshooting kubeadm\nCreating a cluster with kubeadm\nCustomizing components with the kubeadm API\nOptions for Highly Available Topology\nCreating Hig",
+   "counts": {
+    "links": 856,
+    "images": 0,
+    "headings": 0,
+    "listItems": 856,
+    "tableRows": 0,
+    "controls": 855,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 420,
+    "height": 1872,
+    "widthFraction": 0.15,
+    "leftFraction": 0.01,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "td-page-meta ms-2 pb-1 pt-2",
+   "landmarks": [
+    "aside"
+   ],
+   "textLength": 72,
+   "text": "Edit this page\n Create child page\n Create an issue\n Print entire section",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 297,
+    "height": 116,
+    "widthFraction": 0.13,
+    "leftFraction": 0.83,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 759,
+   "text": "Before you begin\nObjectives\nInstructionsPreparing the hosts\nPreparing the required container images\nInitializing your control-plane node\nConsiderations about apiserver-advertise-address and ControlPlaneEndpoint\nMore information\nInstalling a Pod network add-on\nManaged node labels\nControl plane node isolation\nAdding more control plane nodes\nAdding worker nodes\n(Optional) Controlling your cluster fro",
+   "counts": {
+    "links": 28,
+    "images": 0,
+    "headings": 0,
+    "listItems": 28,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 429,
+    "height": 1168,
+    "widthFraction": 0.13,
+    "leftFraction": 0.83,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "nav",
+   "class": "td-breadcrumbs",
+   "ariaLabel": "breadcrumb",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 175,
+   "text": "Kubernetes Documentation\nGetting started\nProduction environment\nInstalling Kubernetes with deployment tools\nBootstrapping clusters with kubeadm\nCreating a cluster with kubeadm",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 317,
+    "height": 72,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h1",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 31,
+   "text": "Creating a cluster with kubeadm",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 405,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 300,
+   "text": "Using kubeadm, you can create a minimum viable Kubernetes cluster that conforms to best practices.\nIn fact, you can use kubeadm to set up a cluster that will pass the\nKubernetes Conformance tests.\nkubeadm also supports other cluster lifecycle functions, such as\nbootstrap tokens and cluster upgrades.",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 150,
+     "height": 171
+    }
+   ],
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 477,
+    "height": 120,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 276,
+   "text": "The kubeadm tool is good if you need:\nA simple way for you to try out Kubernetes, possibly for the first time.\nA way for existing users to automate setting up a cluster and test their application.\nA building block in other ecosystem and/or installer tools with a larger\nscope.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 613,
+    "height": 120,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 253,
+   "text": "You can install and use kubeadm on various machines: your laptop, a set\nof cloud servers, a Raspberry Pi, and more. Whether you're deploying into the\ncloud or on-premises, you can integrate kubeadm into provisioning systems such\nas Ansible or Terraform.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 749,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h2",
+   "id": "before-you-begin",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "Before you begin",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 789,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 379,
+   "text": "To follow this guide, you need:\nOne or more machines running a deb/rpm-compatible Linux OS; for example: Ubuntu or CentOS.\n2 GiB or more of RAM per machine--any less leaves little room for your apps.\nAt least 2 CPUs on the machine that you use as a control-plane node.\nFull network connectivity among all machines in the cluster. You can use either a\npublic or a private network.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 923,
+    "height": 196,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 626,
+   "text": "You also need to use a version of kubeadm that can deploy the version\nof Kubernetes that you want to use in your new cluster.\nKubernetes' version and version skew support policy\napplies to kubeadm as well as to Kubernetes overall.\nCheck that policy to learn about what versions of Kubernetes and kubeadm\nare supported. This page is written for Kubernetes v1.37.\nThe kubeadm tool's overall feature sta",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 1135,
+    "height": 224,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 87,
+   "text": "Note:\nAny commands under kubeadm alpha are, by definition, supported on an alpha level.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1391,
+    "height": 80,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "h2",
+   "id": "objectives",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 10,
+   "text": "Objectives",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1439,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 127,
+   "text": "Install a single control-plane Kubernetes cluster\nInstall a Pod network on the cluster so that your Pods can\ntalk to each other",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1573,
+    "height": 52,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h2",
+   "id": "instructions",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 12,
+   "text": "Instructions",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1593,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h3",
+   "id": "preparing-the-hosts",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Preparing the hosts",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1648,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h4",
+   "id": "component-installation",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "Component installation",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1709,
+    "height": 106,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 132,
+   "text": "Install a container runtime\nand kubeadm on all the hosts. For detailed instructions and other prerequisites, see\nInstalling kubeadm.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 1831,
+    "height": 49,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 376,
+   "text": "Note:\nIf you have already installed kubeadm, see the first two steps of the\nUpgrading Linux nodes\ndocument for instructions on how to upgrade kubeadm.\nWhen you upgrade, the kubelet restarts every few seconds as it waits in a crashloop for\nkubeadm to tell it what to do. This crashloop is expected and normal.\nAfter you initialize your control-plane, the kubelet runs normally.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1912,
+    "height": 208,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h4",
+   "id": "network-setup",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "Network setup",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2072,
+    "height": 106,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 232,
+   "text": "kubeadm similarly to other Kubernetes components tries to find a usable IP on\nthe network interfaces associated with a default gateway on a host. Such\nan IP is then used for the advertising and/or listening performed by a component.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2193,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 418,
+   "text": "To find out what this IP is on a Linux host you can use:\nip route show # Look for a line starting with \"default via\"\nNote:\nIf two or more default gateways are present on the host, a Kubernetes component will\ntry to use the first one it encounters that has a suitable global unicast IP address.\nWhile making this choice, the exact ordering of gateways might vary between different\noperating systems an",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2281,
+    "height": 295,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 196,
+   "text": "Kubernetes components do not accept custom network interface as an option,\ntherefore a custom IP address must be passed as a flag to all components instances\nthat need such a custom configuration.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2608,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 155,
+   "text": "Note:\nIf the host does not have a default gateway and if a custom IP address is not passed\nto a Kubernetes component, the component may exit with an error.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2712,
+    "height": 104,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 477,
+   "text": "To configure the API server advertise address for control plane nodes created with both\ninit and join, the flag --apiserver-advertise-address can be used.\nPreferably, this option can be set in the kubeadm API\nas InitConfiguration.localAPIEndpoint and JoinConfiguration.controlPlane.localAPIEndpoint.\nFor kubelets on all nodes, the --node-ip option can be passed in\n.nodeRegistration.kubeletExtraArgs ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 2848,
+    "height": 184,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 410,
+   "text": "For dual-stack see\nDual-stack support with kubeadm.\nThe IP addresses that you assign to control plane components become part of their X.509 certificates'\nsubject alternative name fields. Changing these IP addresses would require\nsigning new certificates and restarting the affected components, so that the change in\ncertificate files is reflected. See\nManual certificate renewal\nfor more details on t",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 3048,
+    "height": 136,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "div",
+   "class": "alert alert-danger",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 611,
+   "text": "Warning:\nThe Kubernetes project recommends against this approach (configuring all component instances\nwith custom IP addresses). Instead, the Kubernetes maintainers recommend to setup the host network,\nso that the default gateway IP is the one that Kubernetes components auto-detect and use.\nOn Linux nodes, you can use commands such as ip route to configure networking; your operating\nsystem might a",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3216,
+    "height": 258,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h3",
+   "id": "preparing-the-required-container-images",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 39,
+   "text": "Preparing the required container images",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3426,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 492,
+   "text": "This step is optional and only applies in case you wish kubeadm init and kubeadm join\nto not download the default container images which are hosted at registry.k8s.io.\nKubeadm has commands that can help you pre-pull the required images\nwhen creating a cluster without an internet connection on its nodes.\nSee Running kubeadm without an internet connection\nfor more details.\nKubeadm allows you to use ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 3551,
+    "height": 200,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "h3",
+   "id": "initializing-your-control-plane-node",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 36,
+   "text": "Initializing your control-plane node",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3703,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 191,
+   "text": "The control-plane node is the machine where the control plane components run, including\netcd (the cluster database) and the\nAPI Server\n(which the kubectl command line tool\ncommunicates with).",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 3828,
+    "height": 73,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 826,
+   "text": "(Recommended) If you have plans to upgrade this single control-plane kubeadm cluster\nto high availability\nyou should specify the --control-plane-endpoint to set the shared endpoint for all control-plane nodes.\nSuch an endpoint can be either a DNS name or an IP address of a load-balancer.\nChoose a Pod network add-on, and verify whether it requires any arguments to\nbe passed to kubeadm init. Dependi",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3917,
+    "height": 296,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "h3",
+   "id": "considerations-about-apiserver-advertise-address-and-controlplaneendpoint",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 135,
+   "text": "To initialize the control-plane node run:\nkubeadm init <args>\nConsiderations about apiserver-advertise-address and ControlPlaneEndpoint",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4229,
+    "height": 201,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 420,
+   "text": "While --apiserver-advertise-address can be used to set the advertised address for this particular\ncontrol-plane node's API server, --control-plane-endpoint can be used to set the shared endpoint\nfor all control-plane nodes.\n--control-plane-endpoint allows both IP addresses and DNS names that can map to IP addresses.\nPlease contact your network administrator to evaluate possible solutions with resp",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4446,
+    "height": 160,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 420,
+   "text": "Here is an example mapping:\n192.168.0.102 cluster-endpoint\nWhere 192.168.0.102 is the IP address of this node and cluster-endpoint is a custom DNS name that maps to this IP.\nThis will allow you to pass --control-plane-endpoint=cluster-endpoint to kubeadm init and pass the same DNS name to\nkubeadm join. Later you can modify cluster-endpoint to point to the address of your load-balancer in a\nhigh av",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4622,
+    "height": 231,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 140,
+   "text": "Turning a single control plane cluster created without --control-plane-endpoint into a highly available cluster\nis not supported by kubeadm.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4869,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h3",
+   "id": "more-information",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "More information",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4869,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×7",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1012,
+   "text": "For more information about kubeadm init arguments, see the kubeadm reference guide.\nTo configure kubeadm init with a configuration file see\nUsing kubeadm init with a configuration file.\nTo customize control plane components, including optional IPv6 assignment to liveness probe\nfor control plane components and etcd server, provide extra arguments to each component as documented in\ncustom arguments.",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 7,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 4993,
+    "height": 432,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 645,
+   "text": "Your Kubernetes control-plane has initialized successfully!\nTo start using your cluster, you need to run the following as a regular user:\n mkdir -p $HOME/.kube\n sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config\n sudo chown $(id -u):$(id -g) $HOME/.kube/config\nYou should now deploy a Pod network to the cluster.\nRun \"kubectl apply -f [podnetwork].yaml\" with one of the options listed at:\n /doc",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5441,
+    "height": 385,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 112,
+   "text": "To make kubectl work for your non-root user, run these commands, which are\nalso part of the kubeadm init output:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5842,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 125,
+   "text": "mkdir -p $HOME/.kube\nsudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config\nsudo chown $(id -u):$(id -g) $HOME/.kube/config",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5922,
+    "height": 97,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h4",
+   "class": "alert-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 107,
+   "text": "Alternatively, if you are the root user, you can run:\nexport KUBECONFIG=/etc/kubernetes/admin.conf\nWarning:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6051,
+    "height": 185,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 789,
+   "text": "The kubeconfig file admin.conf that kubeadm init generates contains a certificate with\nSubject: O = kubeadm:cluster-admins, CN = kubernetes-admin. The group kubeadm:cluster-admins\nis bound to the built-in cluster-admin ClusterRole.\nDo not share the admin.conf file with anyone.\nkubeadm init generates another kubeconfig file super-admin.conf that contains a certificate with\nSubject: O = system:maste",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 6244,
+    "height": 296,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 458,
+   "text": "Make a record of the kubeadm join command that kubeadm init outputs. You\nneed this command to join nodes to your cluster.\nThe token is used for mutual authentication between the control-plane node and the joining\nnodes. The token included here is secret. Keep it safe, because anyone with this\ntoken can add authenticated nodes to your cluster. These tokens can be listed,\ncreated, and deleted with t",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 6604,
+    "height": 160,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "h3",
+   "id": "pod-network",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 31,
+   "text": "Installing a Pod network add-on",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6716,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "h4",
+   "class": "alert-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "Caution:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6873,
+    "height": 19,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 340,
+   "text": "This section contains important information about networking setup and\ndeployment order.\nRead all of this advice carefully before proceeding.\nYou must deploy a\nContainer Network Interface\n(CNI) based Pod network add-on so that your Pods can communicate with each other.\nCluster DNS (CoreDNS) will not start up before a network is installed.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 6900,
+    "height": 137,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 814,
+   "text": "Take care that your Pod network must not overlap with any of the host\nnetworks: you are likely to see problems if there is any overlap.\n(If you find a collision between your network plugin's preferred Pod\nnetwork and some of your host networks, you should think of a suitable\nCIDR block to use instead, then use that during kubeadm init with\n--pod-network-cidr and as a replacement in your network pl",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 7053,
+    "height": 296,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 274,
+   "text": "Note:\nKubeadm should be CNI agnostic and the validation of CNI providers is out of the scope of our current e2e testing.\nIf you find an issue related to a CNI plugin you should log a ticket in its respective issue\ntracker instead of the kubeadm or kubernetes issue trackers.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7413,
+    "height": 128,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 433,
+   "text": "Several external projects provide Kubernetes Pod networks using CNI, some of which also\nsupport Network Policy.\nSee a list of add-ons that implement the\nKubernetes networking model.\nPlease refer to the Installing Addons\npage for a non-exhaustive list of networking addons supported by Kubernetes.\nYou can install a Pod network add-on with the following command on the\ncontrol-plane node or a node tha",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 7573,
+    "height": 176,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 157,
+   "text": "kubectl apply -f <add-on.yaml>\nNote:\nOnly a few CNI plugins support Windows. More details and setup instructions can be found\nin Adding Windows worker nodes.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 7781,
+    "height": 191,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 303,
+   "text": "You can install only one Pod network per cluster.\nOnce a Pod network has been installed, you can confirm that it is working by\nchecking that the CoreDNS Pod is Running in the output of kubectl get pods --all-namespaces.\nAnd once the CoreDNS Pod is up and running, you can continue by joining your nodes.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8004,
+    "height": 112,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 119,
+   "text": "If your network is not working or CoreDNS is not in the Running state, check out the\ntroubleshooting guide\nfor kubeadm.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 8132,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "h3",
+   "id": "managed-node-labels",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Managed node labels",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8132,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 271,
+   "text": "By default, kubeadm enables the NodeRestriction\nadmission controller that restricts what labels can be self-applied by kubelets on node registration.\nThe admission controller documentation covers what labels are permitted to be used with the kubelet\n--node-labels option.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 8257,
+    "height": 96,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "div",
+   "class": "alert alert-caution",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 313,
+   "text": "Caution:\nBecause of the NodeRestriction admission controller, you cannot use the kubelet\n--node-labels flag to apply restricted labels (such as node-role.kubernetes.io/*) during initialization.\nIf you attempt to add restricted labels by using this kubelet flag, the node will fail to register\nwith the API server.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8385,
+    "height": 211,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 199,
+   "text": "To apply these labels manually, you must use kubectl label after the node has joined the cluster.\nEnsure you are using a privileged kubeconfig, such as the kubeadm-managed /etc/kubernetes/admin.conf.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8628,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "h3",
+   "id": "control-plane-node-isolation",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 28,
+   "text": "Control plane node isolation",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8652,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 222,
+   "text": "By default, your cluster will not schedule Pods on the control plane nodes for security\nreasons. If you want to be able to schedule Pods on the control plane nodes,\nfor example for a single machine Kubernetes cluster, run:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8777,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "kubectl taint nodes --all node-role.kubernetes.io/control-plane-",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8881,
+    "height": 55,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 65,
+   "text": "The output will look something like:\nnode \"test-01\" untainted\n...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8968,
+    "height": 116,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 422,
+   "text": "This will remove the node-role.kubernetes.io/control-plane:NoSchedule taint\nfrom any nodes that have it, including the control plane nodes, meaning that the\nscheduler will then be able to schedule Pods everywhere.\nAdditionally, you can execute the following command to remove the\nnode.kubernetes.io/exclude-from-external-load-balancers label\nfrom the control plane node, which excludes it from the li",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 9100,
+    "height": 160,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 82,
+   "text": "kubectl label nodes --all node.kubernetes.io/exclude-from-external-load-balancers-",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9292,
+    "height": 55,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "h3",
+   "id": "adding-more-control-plane-nodes",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 31,
+   "text": "Adding more control plane nodes",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9299,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 145,
+   "text": "See Creating Highly Available Clusters with kubeadm\nfor steps on creating a high availability kubeadm cluster by adding more control plane nodes.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 9424,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "h3",
+   "id": "join-nodes",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Adding worker nodes",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9424,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 163,
+   "text": "The worker nodes are where your workloads run.\nThe following pages show how to add Linux and Windows worker nodes to the cluster by using\nthe kubeadm join command:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9549,
+    "height": 88,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 53,
+   "text": "Adding Linux worker nodes\nAdding Windows worker nodes",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 9653,
+    "height": 52,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "h3",
+   "id": "optional-controlling-your-cluster-from-machines-other-than-the-control-plane-nod",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 83,
+   "text": "(Optional) Controlling your cluster from machines other than the control-plane node",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9657,
+    "height": 138,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 198,
+   "text": "In order to get a kubectl on some other computer (e.g. laptop) to talk to your\ncluster, you need to copy the administrator kubeconfig file from your control-plane node\nto your workstation like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9810,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 102,
+   "text": "scp root@<control-plane-host>:/etc/kubernetes/admin.conf .\nkubectl --kubeconfig ./admin.conf get nodes",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9914,
+    "height": 76,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 673,
+   "text": "Note:\nThe example above assumes SSH access is enabled for root. If that is not the\ncase, you can copy the admin.conf file to be accessible by some other user\nand scp using that other user instead.\nThe admin.conf file gives the user superuser privileges over the cluster.\nThis file should be used sparingly. For normal users, it's recommended to\ngenerate a unique credential to which you grant privile",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10022,
+    "height": 304,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "h3",
+   "id": "optional-proxying-api-server-to-localhost",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 43,
+   "text": "(Optional) Proxying API Server to localhost",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10278,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 93,
+   "text": "If you want to connect to the API Server from outside the cluster, you can use\nkubectl proxy:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10403,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 98,
+   "text": "scp root@<control-plane-host>:/etc/kubernetes/admin.conf .\nkubectl --kubeconfig ./admin.conf proxy",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10459,
+    "height": 76,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 73,
+   "text": "You can now access the API Server locally at http://localhost:8001/api/v1",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10567,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "h2",
+   "id": "tear-down",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "Clean up",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10559,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 364,
+   "text": "If you used disposable servers for your cluster, for testing, you can\nswitch those off and do no further clean up. You can use\nkubectl config delete-cluster to delete your local references to the\ncluster.\nHowever, if you want to deprovision your cluster more cleanly, you should\nfirst drain the node\nand make sure that the node is empty, then deconfigure the node.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 10693,
+    "height": 136,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "h3",
+   "id": "remove-the-node",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Remove the node",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10781,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 72,
+   "text": "Talking to the control-plane node with the appropriate credentials, run:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10906,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 76,
+   "text": "kubectl drain <node name> --delete-emptydir-data --force --ignore-daemonsets",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10962,
+    "height": 55,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 63,
+   "text": "Before removing the node, reset the state installed by kubeadm:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11049,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 145,
+   "text": "kubeadm reset\nThe reset process does not reset or clean up iptables rules or IPVS tables.\nIf you wish to reset iptables, you must do so manually:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11105,
+    "height": 135,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 73,
+   "text": "iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11272,
+    "height": 55,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 73,
+   "text": "If you want to reset the IPVS tables, you must run the following command:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11359,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 155,
+   "text": "ipvsadm -C\nNow remove the node:\nkubectl delete node <node name>\nIf you wish to start over, run kubeadm init or kubeadm join with the\nappropriate arguments.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11415,
+    "height": 254,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "h3",
+   "id": "clean-up-the-control-plane",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Clean up the control plane",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11621,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 192,
+   "text": "You can use kubeadm reset on the control plane host to trigger a best-effort\nclean up.\nSee the kubeadm reset\nreference documentation for more information about this subcommand and its\noptions.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 11746,
+    "height": 88,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "h2",
+   "id": "version-skew-policy",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Version skew policy",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11802,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 202,
+   "text": "While kubeadm allows version skew against some components that it manages, it is recommended that you\nmatch the kubeadm version with the versions of the control plane components, kube-proxy and kubelet.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11936,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "h3",
+   "id": "kubeadm-s-skew-against-the-kubernetes-version",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 45,
+   "text": "kubeadm's skew against the Kubernetes version",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11960,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 397,
+   "text": "kubeadm can be used with Kubernetes components that are the same version as kubeadm\nor one version older. The Kubernetes version can be specified to kubeadm by using the\n--kubernetes-version flag of kubeadm init or the\nClusterConfiguration.kubernetesVersion\nfield when using --config. This option will control the versions\nof kube-apiserver, kube-controller-manager, kube-scheduler and kube-proxy.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 12085,
+    "height": 120,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 69,
+   "text": "Example:\nkubeadm is at 1.37\nkubernetesVersion must be at 1.37 or 1.36",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12221,
+    "height": 92,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "h3",
+   "id": "kubeadm-s-skew-against-the-kubelet",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 34,
+   "text": "kubeadm's skew against the kubelet",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12265,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 140,
+   "text": "Similarly to the Kubernetes version, kubeadm can be used with a kubelet version that is\nthe same version as kubeadm or three versions older.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12390,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 83,
+   "text": "Example:\nkubeadm is at 1.37\nkubelet on the host must be at 1.37, 1.36,\n1.35 or 1.34",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12454,
+    "height": 92,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "h3",
+   "id": "kubeadm-s-skew-against-kubeadm",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 30,
+   "text": "kubeadm's skew against kubeadm",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12498,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 438,
+   "text": "There are certain limitations on how kubeadm commands can operate on existing nodes or whole clusters\nmanaged by kubeadm.\nIf new nodes are joined to the cluster, the kubeadm binary used for kubeadm join must match\nthe last version of kubeadm used to either create the cluster with kubeadm init or to upgrade\nthe same node with kubeadm upgrade. Similar rules apply to the rest of the kubeadm commands\n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12623,
+    "height": 160,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 157,
+   "text": "Example for kubeadm join:\nkubeadm version 1.37 was used to create a cluster with kubeadm init\nJoining nodes must use a kubeadm binary that is at version 1.37",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12799,
+    "height": 92,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 173,
+   "text": "Nodes that are being upgraded must use a version of kubeadm that is the same MINOR\nversion or one MINOR version newer than the version of kubeadm used for managing the\nnode.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12907,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 163,
+   "text": "Example for kubeadm upgrade:\nkubeadm version 1.36 was used to create or upgrade the node\nThe version of kubeadm used for upgrading the node must be at 1.36\nor 1.37",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12995,
+    "height": 92,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 108,
+   "text": "To learn more about the version skew between the different Kubernetes component see\nthe Version Skew Policy.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 13103,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "h2",
+   "id": "limitations",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Limitations",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13119,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "h3",
+   "id": "resilience",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 18,
+   "text": "Cluster resilience",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13173,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 219,
+   "text": "The cluster created here has a single control-plane node, with a single etcd database\nrunning on it. This means that if the control-plane node fails, your cluster may lose\ndata and may need to be recreated from scratch.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13298,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 274,
+   "text": "Workarounds:\nRegularly back up etcd. The\netcd data directory configured by kubeadm is at /var/lib/etcd on the control-plane node.\nUse multiple control-plane nodes. You can read\nOptions for Highly Available topology to pick a cluster\ntopology that provides high-availability.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 13386,
+    "height": 152,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 109,
+   "tag": "h3",
+   "id": "multi-platform",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "Platform compatibility",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13490,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 110,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 460,
+   "text": "kubeadm deb/rpm packages and binaries are built for amd64, arm (32-bit), arm64, ppc64le, and s390x\nfollowing the multi-platform proposal.\nMultiplatform container images for the control plane and addons are also supported since v1.12.\nOnly some of the network providers offer solutions for all platforms. Please consult the list of\nnetwork providers above or the documentation from each provider to fi",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 13615,
+    "height": 200,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 111,
+   "tag": "h2",
+   "id": "troubleshooting",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Troubleshooting",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13783,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 112,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 91,
+   "text": "If you are running into difficulties with kubeadm, please consult our\ntroubleshooting docs.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 13917,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 113,
+   "tag": "h2",
+   "id": "what-s-next",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "What's next",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13909,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 114,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 662,
+   "text": "Verify that your cluster is running properly with Sonobuoy\nSee Upgrading kubeadm clusters\nfor details about upgrading your cluster using kubeadm.\nLearn about advanced kubeadm usage in the kubeadm reference documentation\nLearn more about Kubernetes concepts and kubectl.\nSee the Cluster Networking page for a bigger list\nof Pod network add-ons.\nSee the list of add-ons to\nexplore other add-ons, includ",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 14044,
+    "height": 240,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 115,
+   "tag": "h3",
+   "id": "feedback",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 8,
+   "text": "Feedback",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14236,
+    "height": 109,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 116,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 281,
+   "text": "For bugs, visit the kubeadm GitHub issue tracker\nFor support, visit the\n#kubeadm Slack channel\nGeneral SIG Cluster Lifecycle development Slack channel:\n#sig-cluster-lifecycle\nSIG Cluster Lifecycle SIG information\nSIG Cluster Lifecycle mailing list:\nkubernetes-sig-cluster-lifecycle",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.37,
+   "geometry": {
+    "top": 14360,
+    "height": 136,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 117,
+   "tag": "div",
+   "id": "pre-footer",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 259,
+   "text": "Feedback\nWas this page helpful?\nYes\nNoThanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on\nStack Overflow.\nOpen an issue in the GitHub Repository if you want to\nreport a problem\nor\nsuggest an improvement.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 14448,
+    "height": 223,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 118,
+   "tag": "div",
+   "class": "td-page-meta__lastmod",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 114,
+   "text": "Last modified September 01, 2026 at 12:01 PM PST: Fix repeated words and misspellings in English docs (172426e45f)",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.56,
+   "geometry": {
+    "top": 14720,
+    "height": 41,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 119,
+   "tag": "footer",
+   "class": "bg-dark py-5 row d-print-none",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 277,
+   "text": "© 2026 The Kubernetes Authors | Documentation Distributed under CC BY 4.0\n© 2026 Copyright © Kubernetes a Series of LF Projects, LLC. For website terms of use, trademark policy and other project policies please see https://lfprojects.org/policies/\nICP license: 京ICP备17074266号-3",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 14793,
+    "height": 228,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

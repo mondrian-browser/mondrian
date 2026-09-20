@@ -1,0 +1,200 @@
+{
+ "id": "svelte-dev-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:57:59.457Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 27397,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.91,
+   "margin": 0.87,
+   "top": [
+    [
+     "site_nav",
+     0.92
+    ],
+    [
+     "site_header",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "image",
+     0
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "title",
+   "confidence": 0.65,
+   "margin": 0.33,
+   "top": [
+    [
+     "title",
+     0.66
+    ],
+    [
+     "heading",
+     0.33
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "teasers",
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "summary",
+   "confidence": 0.33,
+   "margin": 0.09,
+   "top": [
+    [
+     "summary",
+     0.34
+    ],
+    [
+     "text",
+     0.25
+    ],
+    [
+     "related",
+     0.12
+    ],
+    [
+     "external_links",
+     0.09
+    ],
+    [
+     "section_nav",
+     0.09
+    ]
+   ],
+   "block": "prose",
+   "slot": "teasers",
+   "final": "summary"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.67,
+   "margin": 0.6,
+   "top": [
+    [
+     "teaser_card",
+     0.68
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "feature_grid",
+     0.07
+    ],
+    [
+     "cta",
+     0.05
+    ],
+    [
+     "hero",
+     0.04
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 4,
+   "choice": "cta",
+   "confidence": 0.5,
+   "margin": 0.28,
+   "top": [
+    [
+     "cta",
+     0.52
+    ],
+    [
+     "callout",
+     0.24
+    ],
+    [
+     "cross_promo",
+     0.1
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "external_links",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 5,
+   "choice": "cross_promo",
+   "confidence": 0.83,
+   "margin": 0.72,
+   "top": [
+    [
+     "cross_promo",
+     0.84
+    ],
+    [
+     "site_notice",
+     0.12
+    ],
+    [
+     "calendar",
+     0.02
+    ],
+    [
+     "cta",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0.01
+    ]
+   ],
+   "block": "mixed",
+   "slot": "promo",
+   "final": "cross_promo"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.426Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

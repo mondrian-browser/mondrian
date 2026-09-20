@@ -1,0 +1,324 @@
+{
+ "id": "abs-gov-au-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:50:52.941Z",
+ "tier": "relayout",
+ "application": 0.06,
+ "inputTokens": 45845,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "skip_link",
+   "confidence": 0.78,
+   "margin": 0.58,
+   "top": [
+    [
+     "skip_link",
+     0.79
+    ],
+    [
+     "site_header",
+     0.21
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "header",
+   "final": "skip_link"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_nav",
+     1
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "hero",
+   "confidence": 0.5,
+   "margin": 0.19,
+   "top": [
+    [
+     "hero",
+     0.51
+    ],
+    [
+     "title",
+     0.32
+    ],
+    [
+     "site_header",
+     0.11
+    ],
+    [
+     "heading",
+     0.04
+    ],
+    [
+     "text",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "hero",
+   "final": "hero"
+  },
+  {
+   "index": 3,
+   "choice": "stats",
+   "confidence": 0.75,
+   "margin": 0.6,
+   "top": [
+    [
+     "stats",
+     0.77
+    ],
+    [
+     "infobox",
+     0.17
+    ],
+    [
+     "table",
+     0.05
+    ],
+    [
+     "definition_list",
+     0.01
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "pairs",
+   "slot": "hero",
+   "final": "stats"
+  },
+  {
+   "index": 4,
+   "choice": "tabs",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "tabs",
+     0.99
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "rating",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 5,
+   "choice": "teaser_card",
+   "confidence": 0.59,
+   "margin": 0.38,
+   "top": [
+    [
+     "teaser_card",
+     0.6
+    ],
+    [
+     "related",
+     0.22
+    ],
+    [
+     "trending",
+     0.1
+    ],
+    [
+     "list",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 6,
+   "choice": "teaser_card",
+   "confidence": 0.85,
+   "margin": 0.78,
+   "top": [
+    [
+     "teaser_card",
+     0.86
+    ],
+    [
+     "trending",
+     0.08
+    ],
+    [
+     "related",
+     0.05
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "ad",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 7,
+   "choice": "teaser_card",
+   "confidence": 0.68,
+   "margin": 0.48,
+   "top": [
+    [
+     "teaser_card",
+     0.7
+    ],
+    [
+     "cta",
+     0.22
+    ],
+    [
+     "feature_grid",
+     0.07
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 8,
+   "choice": "teaser_card",
+   "confidence": 0.79,
+   "margin": 0.64,
+   "top": [
+    [
+     "teaser_card",
+     0.8
+    ],
+    [
+     "related",
+     0.16
+    ],
+    [
+     "site_footer",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "table",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 9,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:24.991Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

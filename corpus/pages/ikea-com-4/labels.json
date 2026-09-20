@@ -1,0 +1,293 @@
+{
+ "id": "ikea-com-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:34:51.580Z",
+ "tier": "relayout",
+ "application": 0.05,
+ "inputTokens": 42188,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.81,
+   "margin": 0.74,
+   "top": [
+    [
+     "site_header",
+     0.82
+    ],
+    [
+     "site_nav",
+     0.08
+    ],
+    [
+     "chat_widget",
+     0.04
+    ],
+    [
+     "unclear",
+     0.02
+    ],
+    [
+     "hero",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "breadcrumbs",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "breadcrumbs",
+     1
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 2,
+   "choice": "product_card",
+   "confidence": 0.89,
+   "margin": 0.84,
+   "top": [
+    [
+     "product_card",
+     0.9
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "text",
+     0.03
+    ],
+    [
+     "unclear",
+     0.01
+    ],
+    [
+     "badge",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "listing",
+   "final": "product_card"
+  },
+  {
+   "index": 3,
+   "choice": "poll",
+   "confidence": 0.48,
+   "margin": 0,
+   "top": [
+    [
+     "poll",
+     0.49
+    ],
+    [
+     "feedback",
+     0.49
+    ],
+    [
+     "form",
+     0.02
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "form",
+   "final": "poll"
+  },
+  {
+   "index": 4,
+   "choice": "site_footer",
+   "confidence": 0.34,
+   "margin": 0,
+   "top": [
+    [
+     "cross_promo",
+     0.36
+    ],
+    [
+     "site_footer",
+     0.36
+    ],
+    [
+     "cta",
+     0.14
+    ],
+    [
+     "teaser_card",
+     0.11
+    ],
+    [
+     "subscribe",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 5,
+   "choice": "site_footer",
+   "confidence": 0.64,
+   "margin": 0.34,
+   "top": [
+    [
+     "site_footer",
+     0.66
+    ],
+    [
+     "accordion",
+     0.32
+    ],
+    [
+     "site_nav",
+     0.02
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 6,
+   "choice": "site_footer",
+   "confidence": 0.83,
+   "margin": 0.76,
+   "top": [
+    [
+     "site_footer",
+     0.84
+    ],
+    [
+     "settings",
+     0.08
+    ],
+    [
+     "cookie_banner",
+     0.06
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "site_nav",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 7,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.94,
+   "top": [
+    [
+     "site_footer",
+     0.97
+    ],
+    [
+     "legal_notice",
+     0.03
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 8,
+   "choice": "cookie_banner",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "cookie_banner",
+     0.98
+    ],
+    [
+     "popup",
+     0.02
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "gate",
+   "final": "cookie_banner"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.633Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

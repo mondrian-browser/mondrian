@@ -1,0 +1,2837 @@
+{
+ "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm/",
+ "title": "Troubleshooting kubeadm | Kubernetes",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 14753,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "class": "js-navbar-scroll navbar navbar-expand flex-md-column",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 487,
+   "text": ".cls-1{fill:#fff}.cls-2{fill:#326ce5}KubernetesDocumentation\nKubernetes Blog\nTraining\nCareers\nPartners\nCommunity\nVersionsRelease Information\nv1.37\nv1.36\nv1.35\nv1.34\nv1.33\nEnglish中文 (Chinese)\nFrançais (French)\n日本語 (Japanese)\n한국어 (Korean)\nفارسی (Persian)\nবাংলা (Bengali)\nDeutsch (German)\nहिन्दी (Hindi)\nBahasa Indonesia (Indonesian)\nItaliano (Italian)\nPolski (Polish)\nPortuguês (Portuguese)\nРусский (Ru",
+   "counts": {
+    "links": 31,
+    "images": 2,
+    "headings": 0,
+    "listItems": 34,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 146,
+     "height": 38
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.48,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "aside",
+   "landmarks": [
+    "header",
+    "aside"
+   ],
+   "textLength": 235,
+   "text": "KubeCon + CloudNativeCon North America 2026\nJoin us for four days of incredible opportunities to collaborate, learn and share with the cloud native community.\nBuy your ticket now! 9 - 12 November | Salt Lake City, Utah\nHide this notice",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 163,
+     "height": 100
+    }
+   ],
+   "linkTextRatio": 0.43,
+   "geometry": {
+    "top": 0,
+    "height": 285,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "form",
+   "class": "td-sidebar__search d-flex align-items-center",
+   "landmarks": [
+    "aside",
+    "form"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 349,
+    "height": 70,
+    "widthFraction": 0.14,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "td-sidebar-nav__section pe-md-3 ul-0",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 22985,
+   "text": "Kubernetes Documentation\nDocumentation\nAvailable Documentation Versions\nGetting started\nLearning environment\nProduction environment\nContainer Runtimes\nInstalling Kubernetes with deployment tools\nBootstrapping clusters with kubeadm\nInstalling kubeadm\nTroubleshooting kubeadm\nCreating a cluster with kubeadm\nCustomizing components with the kubeadm API\nOptions for Highly Available Topology\nCreating Hig",
+   "counts": {
+    "links": 856,
+    "images": 0,
+    "headings": 0,
+    "listItems": 856,
+    "tableRows": 0,
+    "controls": 855,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 420,
+    "height": 1872,
+    "widthFraction": 0.15,
+    "leftFraction": 0.01,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "td-page-meta ms-2 pb-1 pt-2",
+   "landmarks": [
+    "aside"
+   ],
+   "textLength": 72,
+   "text": "Edit this page\n Create child page\n Create an issue\n Print entire section",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 297,
+    "height": 116,
+    "widthFraction": 0.13,
+    "leftFraction": 0.83,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 1090,
+   "text": "Not possible to join a v1.18 Node to a v1.17 cluster due to missing RBAC\nebtables or some similar executable not found during installation\nkubeadm blocks waiting for control plane during installation\nkubeadm blocks when removing managed containers\nPods in RunContainerError, CrashLoopBackOff or Error state\ncoredns is stuck in the Pending state\nHostPort services do not work\nPods are not accessible v",
+   "counts": {
+    "links": 21,
+    "images": 0,
+    "headings": 0,
+    "listItems": 21,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 429,
+    "height": 1452,
+    "widthFraction": 0.13,
+    "leftFraction": 0.83,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "nav",
+   "class": "td-breadcrumbs",
+   "ariaLabel": "breadcrumb",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 167,
+   "text": "Kubernetes Documentation\nGetting started\nProduction environment\nInstalling Kubernetes with deployment tools\nBootstrapping clusters with kubeadm\nTroubleshooting kubeadm",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 317,
+    "height": 48,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h1",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 23,
+   "text": "Troubleshooting kubeadm",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 381,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 271,
+   "text": "As with any program, you might run into an error installing or running kubeadm.\nThis page lists some common failure scenarios and have provided steps that can help you understand and fix the problem.\nIf your problem is not listed below, please follow the following steps:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 453,
+    "height": 112,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 379,
+   "text": "If you think your problem is a bug with kubeadm:\nGo to github.com/kubernetes/kubeadm and search for existing issues.\nIf no issue exists, please open one and follow the issue template.\nIf you are unsure about how kubeadm works, you can ask on Slack in #kubeadm,\nor open a question on StackOverflow. Please include\nrelevant tags like #kubernetes and #kubeadm so folks can help you.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 581,
+    "height": 168,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h2",
+   "id": "not-possible-to-join-a-v1-18-node-to-a-v1-17-cluster-due-to-missing-rbac",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 72,
+   "text": "Not possible to join a v1.18 Node to a v1.17 cluster due to missing RBAC",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 717,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 307,
+   "text": "In v1.18 kubeadm added prevention for joining a Node in the cluster if a Node with the same name already exists.\nThis required adding RBAC for the bootstrap-token user to be able to GET a Node object.\nHowever this causes an issue where kubeadm join from v1.18 cannot join a cluster created by kubeadm v1.17.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 889,
+    "height": 136,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 209,
+   "text": "To workaround the issue you have two options:\nExecute kubeadm init phase bootstrap-token on a control-plane node using kubeadm v1.18.\nNote that this enables the rest of the bootstrap-token permissions as well.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1041,
+    "height": 88,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "or\nApply the following RBAC manually using kubectl apply -f ...:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1145,
+    "height": 64,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 468,
+   "text": "apiVersion: rbac.authorization.k8s.io/v1\nkind: ClusterRole\nmetadata:\n name: kubeadm:get-nodes\nrules:\n - apiGroups:\n - \"\"\n resources:\n - nodes\n verbs:\n - get\n---\napiVersion: rbac.authorization.k8s.io/v1\nkind: ClusterRoleBinding\nmetadata:\n name: kubeadm:get-nodes\nroleRef:\n apiGroup: rbac.authorization.k8s.io\n kind: ClusterRole\n name: kubeadm:get-nodes\nsubjects:\n - apiGroup: rbac.authorization.k8s.io",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1241,
+    "height": 571,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "h2",
+   "id": "ebtables-or-some-similar-executable-not-found-during-installation",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 65,
+   "text": "ebtables or some similar executable not found during installation",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1781,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 60,
+   "text": "If you see the following warnings while running kubeadm init",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1954,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 108,
+   "text": "[preflight] WARNING: ebtables not found in system path\n[preflight] WARNING: ethtool not found in system path",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2010,
+    "height": 76,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 129,
+   "text": "Then you may be missing ebtables, ethtool or a similar executable on your node.\nYou can install them with the following commands:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2118,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 117,
+   "text": "For Ubuntu/Debian users, run apt install ebtables ethtool.\nFor CentOS/Fedora users, run dnf install ebtables ethtool.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2182,
+    "height": 52,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h2",
+   "id": "kubeadm-blocks-waiting-for-control-plane-during-installation",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 60,
+   "text": "kubeadm blocks waiting for control plane during installation",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2202,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 76,
+   "text": "If you notice that kubeadm init hangs after printing out the following line:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2375,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 77,
+   "text": "[apiclient] Created API client, waiting for the control plane to become ready",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2431,
+    "height": 55,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "This may be caused by a number of problems. The most common are:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2518,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 325,
+   "text": "network connection problems. Check that your machine has full network connectivity before continuing.\ncontrol plane containers are crashlooping or hanging. You can check this by running docker ps\nand investigating each container by running docker logs. For other container runtime, see\nDebugging Kubernetes nodes with crictl.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 2558,
+    "height": 124,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "h2",
+   "id": "kubeadm-blocks-when-removing-managed-containers",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 47,
+   "text": "kubeadm blocks when removing managed containers",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2650,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 112,
+   "text": "The following could happen if the container runtime halts and does not remove\nany Kubernetes-managed containers:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2822,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 209,
+   "text": "sudo kubeadm reset\n[preflight] Running pre-flight checks\n[reset] Stopping the kubelet service\n[reset] Unmounting mounted directories in \"/var/lib/kubelet\"\n[reset] Removing kubernetes-managed containers\n(block)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2902,
+    "height": 226,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 199,
+   "text": "A possible solution is to restart the container runtime and then re-run kubeadm reset.\nYou can also use crictl to debug the state of the container runtime. See\nDebugging Kubernetes nodes with crictl.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 3160,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h2",
+   "id": "pods-in-runcontainererror-crashloopbackoff-or-error-state",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 58,
+   "text": "Pods in RunContainerError, CrashLoopBackOff or Error state",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3200,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 70,
+   "text": "Right after kubeadm init there should not be any pods in these states.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3374,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 613,
+   "text": "If there are pods in one of these states right after kubeadm init, please open an\nissue in the kubeadm repo. coredns (or kube-dns) should be in the Pending state\nuntil you have deployed the network add-on.\nIf you see Pods in the RunContainerError, CrashLoopBackOff or Error state\nafter deploying the network add-on and nothing happens to coredns (or kube-dns),\nit's very likely that the Pod Network a",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3414,
+    "height": 196,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "h2",
+   "id": "coredns-is-stuck-in-the-pending-state",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 37,
+   "text": "coredns is stuck in the Pending state",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3578,
+    "height": 119,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 266,
+   "text": "This is expected and part of the design. kubeadm is network provider-agnostic, so the admin\nshould install the pod network add-on\nof choice. You have to install a Pod Network\nbefore CoreDNS may be deployed fully. Hence the Pending state before the network is set up.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 3712,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "h2",
+   "id": "hostport-services-do-not-work",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "HostPort services do not work",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3752,
+    "height": 119,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 286,
+   "text": "The HostPort and HostIP functionality is available depending on your Pod Network\nprovider. Please contact the author of the Pod Network add-on to find out whether\nHostPort and HostIP functionality are available.\nCalico, Canal, and Flannel CNI providers are verified to support HostPort.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3887,
+    "height": 112,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 200,
+   "text": "For more information, see the\nCNI portmap documentation.\nIf your network provider does not support the portmap CNI plugin, you may need to use the\nNodePort feature of services\nor use HostNetwork=true.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 4015,
+    "height": 88,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h2",
+   "id": "pods-are-not-accessible-via-their-service-ip",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 44,
+   "text": "Pods are not accessible via their Service IP",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4071,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 533,
+   "text": "Many network add-ons do not yet enable hairpin mode\nwhich allows pods to access themselves via their Service IP. This is an issue related to\nCNI. Please contact the network\nadd-on provider to get the latest status of their support for hairpin mode.\nIf you are using VirtualBox (directly or via Vagrant), you will need to\nensure that hostname -i returns a routable IP address. By default, the first\nin",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 4205,
+    "height": 184,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h2",
+   "id": "tls-certificate-errors",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "TLS certificate errors",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4357,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 62,
+   "text": "The following error indicates a possible certificate mismatch.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4492,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 220,
+   "text": "# kubectl get pods\nUnable to connect to the server: x509: certificate signed by unknown authority (possibly because of \"crypto/rsa: verification error\" while trying to verify candidate authority certificate \"kubernetes\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4532,
+    "height": 91,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 711,
+   "text": "Verify that the $HOME/.kube/config file contains a valid certificate, and\nregenerate a certificate if necessary. The certificates in a kubeconfig file\nare base64 encoded. The base64 --decode command can be used to decode the certificate\nand openssl x509 -text -noout can be used for viewing the certificate information.\nUnset the KUBECONFIG environment variable using:\nunset KUBECONFIG\nOr set it to t",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4639,
+    "height": 572,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "h2",
+   "id": "kubelet-client-cert",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 41,
+   "text": "Kubelet client certificate rotation fails",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5179,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 379,
+   "text": "By default, kubeadm configures a kubelet with automatic rotation of client certificates by using the\n/var/lib/kubelet/pki/kubelet-client-current.pem symlink specified in /etc/kubernetes/kubelet.conf.\nIf this rotation process fails you might see errors such as x509: certificate has expired or is not yet valid\nin kube-apiserver logs. To fix the issue you must follow these steps:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5313,
+    "height": 120,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1218,
+   "text": "Backup and delete /etc/kubernetes/kubelet.conf and /var/lib/kubelet/pki/kubelet-client* from the failed node.\nFrom a working control plane node in the cluster that has /etc/kubernetes/pki/ca.key execute\nkubeadm kubeconfig user --org system:nodes --client-name system:node:$NODE > kubelet.conf.\n$NODE must be set to the name of the existing failed node in the cluster.\nModify the resulted kubelet.conf",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 5449,
+    "height": 607,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "h2",
+   "id": "default-nic-when-using-flannel-as-the-pod-network-in-vagrant",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 60,
+   "text": "Default NIC When using flannel as the pod network in Vagrant",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6024,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 79,
+   "text": "The following error might indicate that something was wrong in the pod network:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6197,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 78,
+   "text": "Error from server (NotFound): the server could not find the requested resource",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6253,
+    "height": 55,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 547,
+   "text": "If you're using flannel as the pod network inside Vagrant, then you will have to\nspecify the default interface name for flannel.\nVagrant typically assigns two interfaces to all VMs. The first, for which all hosts\nare assigned the IP address 10.0.2.15, is for external traffic that gets NATed.\nThis may lead to problems with flannel, which defaults to the first interface on a host.\nThis leads to all ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6340,
+    "height": 200,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h2",
+   "id": "non-public-ip-used-for-containers",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 33,
+   "text": "Non-public IP used for containers",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6508,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 129,
+   "text": "In some situations kubectl logs and kubectl run commands may return with the\nfollowing errors in an otherwise functional cluster:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6642,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 154,
+   "text": "Error from server: Get https://10.19.0.41:10250/containerLogs/default/mysql-ddc65b868-glc5m/mysql: dial tcp 10.19.0.41:10250: getsockopt: no route to host",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6722,
+    "height": 70,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1089,
+   "text": "This may be due to Kubernetes using an IP that can not communicate with other IPs on\nthe seemingly same subnet, possibly by policy of the machine provider.\nDigitalOcean assigns a public IP to eth0 as well as a private one to be used internally\nas anchor for their floating IP feature, yet kubelet will pick the latter as the node's\nInternalIP instead of the public one.\nUse ip addr show to check for ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 6824,
+    "height": 587,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "h2",
+   "id": "coredns-pods-have-crashloopbackoff-or-error-state",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 49,
+   "text": "coredns pods have CrashLoopBackOff or Error state",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7379,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 205,
+   "text": "If you have nodes that are running SELinux with an older version of Docker, you might experience a scenario\nwhere the coredns pods are not starting. To solve that, you can try one of the following options:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7552,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 125,
+   "text": "Upgrade to a newer version of Docker.\nDisable SELinux.\nModify the coredns deployment to set allowPrivilegeEscalation to true:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 7640,
+    "height": 104,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 155,
+   "text": "kubectl -n kube-system get deployment coredns -o yaml | \\\n sed 's/allowPrivilegeEscalation: false/allowPrivilegeEscalation: true/g' | \\\n kubectl apply -f -",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7776,
+    "height": 97,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 250,
+   "text": "Another cause for CoreDNS to have CrashLoopBackOff is when a CoreDNS Pod deployed in Kubernetes detects a loop.\nA number of workarounds\nare available to avoid Kubernetes trying to restart the CoreDNS Pod every time CoreDNS detects the loop and exits.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 7905,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "div",
+   "class": "alert alert-danger",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 115,
+   "text": "Warning:\nDisabling SELinux or setting allowPrivilegeEscalation to true can compromise\nthe security of your cluster.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8009,
+    "height": 114,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "h2",
+   "id": "etcd-pods-restart-continually",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "etcd pods restart continually",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8091,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 257,
+   "text": "If you encounter the following error:\nrpc error: code = 2 desc = oci runtime error: exec failed: container_linux.go:247: starting container process caused \"process_linux.go:110: decoding init error from pipe caused \\\"read parent: connection reset by peer\\\"\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8225,
+    "height": 110,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 148,
+   "text": "This issue appears if you run CentOS 7 with Docker 1.13.1.84.\nThis version of Docker can prevent the kubelet from executing into the etcd container.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8351,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 486,
+   "text": "To work around the issue, choose one of these options:\nRoll back to an earlier version of Docker, such as 1.13.1-75\ndnf downgrade docker-1.13.1-75.git8633870.el7.centos.x86_64 docker-client-1.13.1-75.git8633870.el7.centos.x86_64 docker-common-1.13.1-75.git8633870.el7.centos.x86_64\nInstall one of the more recent recommended versions, such as 18.06:\nsudo dnf config-manager --add-repo https://downloa",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8415,
+    "height": 313,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h2",
+   "id": "not-possible-to-pass-a-comma-separated-list-of-values-to-arguments-inside-a-comp",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 103,
+   "text": "Not possible to pass a comma separated list of values to arguments inside a --component-extra-args flag",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8696,
+    "height": 196,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 989,
+   "text": "kubeadm init flags such as --component-extra-args allow you to pass custom arguments to a control-plane\ncomponent like the kube-apiserver. However, this mechanism is limited due to the underlying type used for parsing\nthe values (mapStringString).\nIf you decide to pass an argument that supports multiple, comma-separated values such as\n--apiserver-extra-args \"enable-admission-plugins=LimitRanger,Na",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 8908,
+    "height": 336,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "h2",
+   "id": "kube-proxy-scheduled-before-node-is-initialized-by-cloud-controller-manager",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 75,
+   "text": "kube-proxy scheduled before node is initialized by cloud-controller-manager",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9212,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 303,
+   "text": "In cloud provider scenarios, kube-proxy can end up being scheduled on new worker nodes before\nthe cloud-controller-manager has initialized the node addresses. This causes kube-proxy to fail\nto pick up the node's IP address properly and has knock-on effects to the proxy function managing\nload balancers.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9385,
+    "height": 96,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 212,
+   "text": "The following error can be seen in kube-proxy Pods:\nserver.go:610] Failed to retrieve node IP: host IP unknown; known addresses: []\nproxier.go:340] invalid nodeIP, initializing kube-proxy with 127.0.0.1 as nodeIP",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9497,
+    "height": 116,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 208,
+   "text": "A known solution is to patch the kube-proxy DaemonSet to allow scheduling it on control-plane\nnodes regardless of their conditions, keeping it off of other nodes until their initial guarding\nconditions abate:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9629,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 256,
+   "text": "kubectl -n kube-system patch ds kube-proxy -p='{\n \"spec\": {\n \"template\": {\n \"spec\": {\n \"tolerations\": [\n {\n \"key\": \"CriticalAddonsOnly\",\n \"operator\": \"Exists\"\n },\n {\n \"effect\": \"NoSchedule\",\n \"key\": \"node-role.kubernetes.io/control-plane\"\n }\n ]\n }\n }\n }\n}'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9717,
+    "height": 412,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "h2",
+   "id": "usr-mounted-read-only",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 79,
+   "text": "The tracking issue for this problem is here.\n/usr is mounted read-only on nodes",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 10137,
+    "height": 119,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 372,
+   "text": "On Linux distributions such as Fedora CoreOS or Flatcar Container Linux, the directory /usr is mounted as a read-only filesystem.\nFor flex-volume support,\nKubernetes components like the kubelet and kube-controller-manager use the default path of\n/usr/libexec/kubernetes/kubelet-plugins/volume/exec/, yet the flex-volume directory must be writeable\nfor the feature to work.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 10271,
+    "height": 120,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "Note:\nFlexVolume was deprecated in the Kubernetes v1.23 release.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10423,
+    "height": 80,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 211,
+   "text": "To workaround this issue, you can configure the flex-volume directory using the kubeadm\nconfiguration file.\nOn the primary control-plane Node (created using kubeadm init), pass the following\nfile using --config:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 10535,
+    "height": 112,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 381,
+   "text": "apiVersion: kubeadm.k8s.io/v1beta4\nkind: InitConfiguration\nnodeRegistration:\n kubeletExtraArgs:\n - name: \"volume-plugin-dir\"\n value: \"/opt/libexec/kubernetes/kubelet-plugins/volume/exec/\"\n---\napiVersion: kubeadm.k8s.io/v1beta4\nkind: ClusterConfiguration\ncontrollerManager:\n extraArgs:\n - name: \"flex-volume-plugin-dir\"\n value: \"/opt/libexec/kubernetes/kubelet-plugins/volume/exec/\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10679,
+    "height": 325,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 205,
+   "text": "On joining Nodes:\napiVersion: kubeadm.k8s.io/v1beta4\nkind: JoinConfiguration\nnodeRegistration:\n kubeletExtraArgs:\n - name: \"volume-plugin-dir\"\n value: \"/opt/libexec/kubernetes/kubelet-plugins/volume/exec/\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11036,
+    "height": 224,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 165,
+   "text": "Alternatively, you can modify /etc/fstab to make the /usr mount writeable, but please\nbe advised that this is modifying a design principle of the Linux distribution.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11293,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "h2",
+   "id": "kubeadm-upgrade-plan-prints-out-context-deadline-exceeded-error-message",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 71,
+   "text": "kubeadm upgrade plan prints out context deadline exceeded error message",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11309,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 292,
+   "text": "This error message is shown when upgrading a Kubernetes cluster with kubeadm in\nthe case of running an external etcd. This is not a critical bug and happens because\nolder versions of kubeadm perform a version check on the external etcd cluster.\nYou can proceed with kubeadm upgrade apply ....",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11482,
+    "height": 96,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "h2",
+   "id": "kubeadm-reset-unmounts-var-lib-kubelet",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 79,
+   "text": "This issue is fixed as of version 1.19.\nkubeadm reset unmounts /var/lib/kubelet",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11586,
+    "height": 119,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 281,
+   "text": "If /var/lib/kubelet is being mounted, performing a kubeadm reset will effectively unmount it.\nTo workaround the issue, re-mount the /var/lib/kubelet directory after performing the kubeadm reset operation.\nThis is a regression introduced in kubeadm 1.15. The issue is fixed in 1.20.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11720,
+    "height": 128,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "h2",
+   "id": "cannot-use-the-metrics-server-securely-in-a-kubeadm-cluster",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 59,
+   "text": "Cannot use the metrics-server securely in a kubeadm cluster",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11816,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 387,
+   "text": "In a kubeadm cluster, the metrics-server\ncan be used insecurely by passing the --kubelet-insecure-tls to it. This is not recommended for production clusters.\nIf you want to use TLS between the metrics-server and the kubelet there is a problem,\nsince kubeadm deploys a self-signed serving certificate for the kubelet. This can cause the following errors\non the side of the metrics-server:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 11989,
+    "height": 136,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 94,
+   "text": "x509: certificate signed by unknown authority\nx509: certificate is valid for IP-foo not IP-bar",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12141,
+    "height": 76,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 159,
+   "text": "See Enabling signed kubelet serving certificates\nto understand how to configure the kubelets in a kubeadm cluster to have properly signed serving certificates.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 12233,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "h2",
+   "id": "upgrade-fails-due-to-etcd-hash-not-changing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 92,
+   "text": "Also see How to run the metrics-server securely.\nUpgrade fails due to etcd hash not changing",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.41,
+   "geometry": {
+    "top": 12289,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 174,
+   "text": "Only applicable to upgrading a control plane node with a kubeadm binary v1.28.3 or later,\nwhere the node is currently managed by kubeadm versions v1.28.0, v1.28.1 or v1.28.2.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12424,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "pre",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1249,
+   "text": "Here is the error message you may encounter:\n[upgrade/etcd] Failed to upgrade etcd: couldn't upgrade control plane. kubeadm has tried to recover everything into the earlier state. Errors faced: static Pod hash for component etcd on Node kinder-upgrade-control-plane-1 did not change after 5m0s: timed out waiting for the condition\n[upgrade/etcd] Waiting for previous etcd to become available\nI0907 10",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12488,
+    "height": 362,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 352,
+   "text": "The reason for this failure is that the affected versions generate an etcd manifest file with\nunwanted defaults in the PodSpec. This will result in a diff from the manifest comparison,\nand kubeadm will expect a change in the Pod hash, but the kubelet will never update the hash.\nThere are two way to workaround this issue if you see it in your cluster:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12866,
+    "height": 112,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1410,
+   "text": "The etcd upgrade can be skipped between the affected versions and v1.28.3 (or later) by using:\nkubeadm upgrade {apply|node} [version] --etcd-upgrade=false\nThis is not recommended in case a new etcd version was introduced by a later v1.28 patch version.\nBefore upgrade, patch the manifest for the etcd static pod, to remove the problematic defaulted attributes:\ndiff --git a/etc/kubernetes/manifests/e",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12994,
+    "height": 1179,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 65,
+   "text": "More information can be found in the\ntracking issue for this bug.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 14205,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "div",
+   "id": "pre-footer",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 259,
+   "text": "Feedback\nWas this page helpful?\nYes\nNoThanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on\nStack Overflow.\nOpen an issue in the GitHub Repository if you want to\nreport a problem\nor\nsuggest an improvement.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 14181,
+    "height": 223,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "div",
+   "class": "td-page-meta__lastmod",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 108,
+   "text": "Last modified September 09, 2026 at 8:46 AM PST: Replace all references to `yum` CLI with `dnf` (a7bc475d34)",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 14452,
+    "height": 41,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "footer",
+   "class": "bg-dark py-5 row d-print-none",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 277,
+   "text": "© 2026 The Kubernetes Authors | Documentation Distributed under CC BY 4.0\n© 2026 Copyright © Kubernetes a Series of LF Projects, LLC. For website terms of use, trademark policy and other project policies please see https://lfprojects.org/policies/\nICP license: 京ICP备17074266号-3",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 14525,
+    "height": 228,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,557 @@
+{
+ "url": "https://svelte.dev/tutorial/svelte/welcome-to-svelte",
+ "title": "Introduction / Welcome to Svelte • Svelte Tutorial",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "class": "svelte-wf8082 visible",
+   "ariaLabel": "Primary",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 95,
+   "text": "Skip to main content\nTutorial\n Docs SvelteSvelteKitCLIAI\nTutorialPackagesPlaygroundBlog\n Ctrl K",
+   "counts": {
+    "links": 13,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 7,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": -989,
+    "height": 1049,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": -1.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "details",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 119,
+   "text": "Basic Svelte\nIntroduction Welcome to Svelte\nYour first component\nDynamic attributes\nStyling\nNested components\nHTML tags",
+   "counts": {
+    "links": 6,
+    "images": 1,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 70,
+    "height": 101,
+    "widthFraction": 0.22,
+    "leftFraction": 0.03,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "details×8",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 697,
+   "text": "Reactivity State\nDeep state\nDerived state\nInspecting state\nEffects\nUniversal reactivity\nProps Declaring props\nDefault values\nSpread props\nLogic If blocks\nElse blocks\nElse-if blocks\nEach blocks\nKeyed each blocks\nAwait blocks\nEvents DOM events\nInline handlers\nCapturing\nComponent events\nSpreading events\nBindings Text inputs\nNumeric inputs\nCheckbox inputs\nSelect bindings\nGroup inputs\nSelect multiple\nT",
+   "counts": {
+    "links": 40,
+    "images": 0,
+    "headings": 0,
+    "listItems": 40,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 8,
+    "coverLinks": 7
+   },
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 171,
+    "height": 224,
+    "widthFraction": 0.19,
+    "leftFraction": 0.05,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "details×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1682,
+   "text": "Advanced Svelte Advanced reactivity Raw state\nReactive classes\nGetters and setters\nReactive built-ins\nStores\nReusing content Snippets and render tags\nPassing snippets to components\nImplicit snippet props\nMotion Tweened values\nSprings\nAdvanced bindings Contenteditable bindings\nEach block bindings\nMedia elements\nDimensions\nThis\nComponent bindings\nBinding to component instances\nAdvanced transitions D",
+   "counts": {
+    "links": 81,
+    "images": 0,
+    "headings": 0,
+    "listItems": 81,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.71,
+   "geometry": {
+    "top": 143,
+    "height": 84,
+    "widthFraction": 0.21,
+    "leftFraction": 0.04,
+    "pageFraction": 0.18,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "a",
+   "class": "svelte-1ps7q6p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 49,
+   "text": "Basic Svelte Introduction Welcome to Svelte\nsolve",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 70,
+    "height": 35,
+    "widthFraction": 0.9,
+    "leftFraction": 0.06,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 336,
+   "text": "Welcome to the Svelte tutorial! This will teach you everything you need to know to easily build web applications of all sizes, with high performance and a small footprint.\nYou can also consult the API docs and visit the playground, or — if you’re impatient to start hacking on your machine locally — create a project with npx sv create.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 134,
+    "height": 230,
+    "widthFraction": 0.26,
+    "leftFraction": 0.03,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "h2",
+   "id": "What-is-Svelte",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "What is Svelte?",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 434,
+    "height": 36,
+    "widthFraction": 0.26,
+    "leftFraction": 0,
+    "pageFraction": 0.53,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 598,
+   "text": "Svelte is a tool for building web applications. Like other user interface frameworks, it allows you to build your app declaratively out of components that combine markup, styles and behaviours.\nThese components are compiled into small, efficient JavaScript modules that eliminate overhead traditionally associated with UI frameworks.\nYou can build your entire app with Svelte (for example, using an a",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 483,
+    "height": 432,
+    "widthFraction": 0.26,
+    "leftFraction": 0.03,
+    "pageFraction": 0.59,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h2",
+   "id": "How-to-use-this-tutorial",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "How to use this tutorial",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 985,
+    "height": 72,
+    "widthFraction": 0.26,
+    "leftFraction": 0,
+    "pageFraction": 1.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "blockquote",
+   "class": "note",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 89,
+   "text": "You’ll need to have basic familiarity with HTML, CSS and JavaScript to understand Svelte.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1084,
+    "height": 81,
+    "widthFraction": 0.26,
+    "leftFraction": 0.03,
+    "pageFraction": 1.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 123,
+   "text": "This tutorial is split into four main parts:\nBasic Svelte (you are here)\nAdvanced Svelte\nBasic SvelteKit\nAdvanced SvelteKit",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.49,
+   "geometry": {
+    "top": 1192,
+    "height": 176,
+    "widthFraction": 0.26,
+    "leftFraction": 0.03,
+    "pageFraction": 1.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 239,
+   "text": "Each section will present an exercise designed to illustrate a feature. Later exercises build on the knowledge gained in earlier ones, so it’s recommended that you go from start to finish. If necessary, you can navigate via the menu above.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1381,
+    "height": 162,
+    "widthFraction": 0.26,
+    "leftFraction": 0.03,
+    "pageFraction": 1.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section",
+    "section"
+   ],
+   "textLength": 380,
+   "text": "If you get stuck, you can click the solve button in the top right of the screen. (The solve button is disabled on sections like this one that don’t include an exercise.) Try not to rely on it too much; you will learn faster by figuring out where to put each suggested code block and manually typing it in to the editor.\nEdit this page on GitHub\nprevious next\n Your first component",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 1557,
+    "height": 348,
+    "widthFraction": 0.26,
+    "leftFraction": 0.03,
+    "pageFraction": 1.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "svelte-split-pane",
+   "class": "svelte-1i8tf0h",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 43,
+   "text": "src \n App.svelte \n9\n1\n2\n›\n<h1>Welcome!</h1>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 112,
+    "height": 331,
+    "widthFraction": 0.67,
+    "leftFraction": 0.33,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "section",
+   "class": "preview svelte-11p9qjp",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 439,
+    "height": 335,
+    "widthFraction": 0.67,
+    "leftFraction": 0.33,
+    "pageFraction": 0.54,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "banner svelte-1ssgw6y",
+   "landmarks": [],
+   "textLength": 93,
+   "text": "Svelte Summit Ljubljana and online, Nov 19-20: Tickets now available! Svelte Summit Nov 19-20",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 19
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 774,
+    "height": 42,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0.95,
+    "aboveFold": true
+   }
+  }
+ ]
+}

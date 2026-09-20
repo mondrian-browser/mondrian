@@ -1,0 +1,294 @@
+{
+ "site": "bom.gov.au",
+ "pages": 5,
+ "pageIds": [
+  "bom-gov-au-1",
+  "bom-gov-au-2",
+  "bom-gov-au-3",
+  "bom-gov-au-4",
+  "bom-melbourne"
+ ],
+ "derivedAt": "2026-09-20T13:50:07.174Z",
+ "blocks": [
+  {
+   "selector": "main section section > div.hourly-weather-type",
+   "type": "table",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > div.day",
+   "type": "table",
+   "n": 8,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> div.bom-form-alert__content",
+   "type": "cookie_banner",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "header nav > ul.bom-header-nav__list",
+   "type": "site_nav",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "header > ul.bom-header-utils",
+   "type": "account",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "footer > div.bom-grid",
+   "type": "site_footer",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "footer > div.bom-footer__bottom-wrap",
+   "type": "site_footer",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "> div.csat-side-toggle",
+   "type": "feedback",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "nav > nav.bom-breadcrumbs",
+   "type": "breadcrumbs",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > h1.location-title__title",
+   "type": "title",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > button.bom-cta-link",
+   "type": "action_button",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > div.bom-tab-list",
+   "type": "tabs",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > section.tc-today-C04_WeatherGlance-0-header",
+   "type": "infobox",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > section.tc-today-C04_WeatherGlanceMoreAboutToday-1",
+   "type": "accordion",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > div.hourly-forecasts__day",
+   "type": "table",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > div.hourly-row",
+   "type": "table",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > section.tc-today-C07_WeatherMetadata-4",
+   "type": "metadata",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > section.tc-today-bom-component-container-5",
+   "type": "callout",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > div.l-padding",
+   "type": "feedback",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > h2#weatherMap",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > div.bom-map-quick-links",
+   "type": "tabs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > div.bom-map-legend",
+   "type": "definition_list",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > canvas",
+   "type": "canvas",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > div.esri-ui-top-right",
+   "type": "toolbar",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > div.esri-attribution__powered-by",
+   "type": "legal_notice",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > div.bom-scrub",
+   "type": "map",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section section > div.about-map-accordion",
+   "type": "accordion",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > div.bom-media-card",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.bom-warnings",
+   "type": "callout",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h1.homepage-banner__title",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section.bom-weather-discovery-first-time-visit",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.capital-cities__container",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > button.favourite-location__trigger-button",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.bom-grid",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.bom-form-choiceboxes__choices",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.bom-card__img",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.bom-card__text",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.bom-card",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.bom-grid--vertical-align-stretch",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section.tc-today-bom-spatial-map-3",
+   "type": "map",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

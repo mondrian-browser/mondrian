@@ -1,0 +1,572 @@
+{
+ "id": "brisbanetimes-com-au-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:29:34.544Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 83321,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.64,
+   "margin": 0.34,
+   "top": [
+    [
+     "site_header",
+     0.65
+    ],
+    [
+     "account",
+     0.31
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "disclosure",
+     0
+    ],
+    [
+     "reactions",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "breadcrumbs",
+   "confidence": 0.58,
+   "margin": 0.32,
+   "top": [
+    [
+     "breadcrumbs",
+     0.59
+    ],
+    [
+     "tag_cloud",
+     0.27
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "badge",
+     0.02
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.9,
+   "margin": 0.83,
+   "top": [
+    [
+     "title",
+     0.91
+    ],
+    [
+     "heading",
+     0.08
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "byline",
+   "confidence": 0.89,
+   "margin": 0.85,
+   "top": [
+    [
+     "byline",
+     0.9
+    ],
+    [
+     "paywall",
+     0.05
+    ],
+    [
+     "unclear",
+     0.02
+    ],
+    [
+     "subscribe",
+     0.02
+    ],
+    [
+     "page_tools",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 4,
+   "choice": "audio",
+   "confidence": 0.29,
+   "margin": 0.14,
+   "top": [
+    [
+     "audio",
+     0.31
+    ],
+    [
+     "page_tools",
+     0.17
+    ],
+    [
+     "action_button",
+     0.15
+    ],
+    [
+     "sticky_bar",
+     0.08
+    ],
+    [
+     "toolbar",
+     0.07
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "audio"
+  },
+  {
+   "index": 5,
+   "choice": "ad",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "ad",
+     1
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "audio",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "ad",
+   "final": "ad"
+  },
+  {
+   "index": 6,
+   "choice": "text",
+   "confidence": 0.95,
+   "margin": 0.92,
+   "top": [
+    [
+     "text",
+     0.96
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "pricing_table",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 7,
+   "choice": "video",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "video",
+     1
+    ],
+    [
+     "content_warning",
+     0
+    ],
+    [
+     "canvas",
+     0
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "video"
+  },
+  {
+   "index": 8,
+   "choice": "video",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "video",
+     0.97
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "action_button",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "badge",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "video"
+  },
+  {
+   "index": 9,
+   "choice": "text",
+   "confidence": 0.68,
+   "margin": 0.38,
+   "top": [
+    [
+     "text",
+     0.69
+    ],
+    [
+     "summary",
+     0.31
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 10,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "summary",
+     0.02
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 11,
+   "choice": "related",
+   "confidence": 0.82,
+   "margin": 0.66,
+   "top": [
+    [
+     "related",
+     0.83
+    ],
+    [
+     "teaser_card",
+     0.17
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "cart",
+     0
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 12,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.97,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "paywall",
+     0.01
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 13,
+   "choice": "paywall",
+   "confidence": 0.25,
+   "margin": 0.1,
+   "top": [
+    [
+     "paywall",
+     0.27
+    ],
+    [
+     "author_bio",
+     0.17
+    ],
+    [
+     "page_tools",
+     0.16
+    ],
+    [
+     "subscribe",
+     0.09
+    ],
+    [
+     "action_button",
+     0.07
+    ]
+   ],
+   "block": "prose",
+   "slot": "paywall",
+   "final": "paywall"
+  },
+  {
+   "index": 14,
+   "choice": "trending",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "trending",
+     0.98
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "site_nav",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "trending",
+   "final": "trending"
+  },
+  {
+   "index": 15,
+   "choice": "share",
+   "confidence": 0.88,
+   "margin": 0.8,
+   "top": [
+    [
+     "share",
+     0.89
+    ],
+    [
+     "site_footer",
+     0.09
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "trending",
+     0.01
+    ],
+    [
+     "empty_state",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "tools",
+   "final": "share"
+  },
+  {
+   "index": 16,
+   "choice": "site_footer",
+   "confidence": 0.78,
+   "margin": 0.63,
+   "top": [
+    [
+     "site_footer",
+     0.79
+    ],
+    [
+     "site_nav",
+     0.16
+    ],
+    [
+     "cross_promo",
+     0.03
+    ],
+    [
+     "accordion",
+     0.01
+    ],
+    [
+     "site_header",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 17,
+   "choice": "site_footer",
+   "confidence": 0.86,
+   "margin": 0.8,
+   "top": [
+    [
+     "site_footer",
+     0.87
+    ],
+    [
+     "subscribe",
+     0.07
+    ],
+    [
+     "legal_notice",
+     0.05
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.199Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

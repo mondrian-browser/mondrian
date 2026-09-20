@@ -1,0 +1,139 @@
+{
+ "site": "service.vic.gov.au",
+ "pages": 4,
+ "pageIds": [
+  "service-vic-gov-au-1",
+  "service-vic-gov-au-2",
+  "service-vic-gov-au-3",
+  "service-vic-gov-au-4"
+ ],
+ "derivedAt": "2026-09-20T13:47:32.723Z",
+ "blocks": [
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > div",
+   "type": "teaser_card",
+   "n": 7,
+   "purity": 0.86,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > a#home-tile-cta",
+   "type": "cta",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > img",
+   "type": "image",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > h3",
+   "type": "heading",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> ul#top",
+   "type": "skip_link",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > ul.nav",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> iframe#vicky-chat-frame",
+   "type": "chat_widget",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > h1.has-icon",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> ul",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "article main section > div.intro-content",
+   "type": "summary",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "article main header > header.tiny",
+   "type": "title",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "article main section > section.page-end-cta",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > p.subheading",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2.section-header",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.l-padding",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article main section article > article#reporting-fuel-prices-manually",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article main section article > article#reporting-your-prices-manually",
+   "type": "steps",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

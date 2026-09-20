@@ -1,0 +1,1470 @@
+{
+ "url": "https://kotlinlang.org/api/core/kotlin-stdlib/",
+ "title": "kotlin-stdlib | Core API – Kotlin Programming Language",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "ktl-header-module_header-menu_wh71L ktl-dokka-header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 344,
+   "text": "SolutionsMultiplatform\nBackend\nAndroid\nCase studies\nDocsLanguage guide\nMultiplatform development\nAPIAPIs overview\nStandard library\nTest library\nCoroutines\nSerialization\nKotlin I/O library\nDate and time\nCollections Immutable\nJVM Metadata\nKotlin Gradle plugins\nKtor\nCompose Multiplatform Material3\nCommunity\nTeach\nPlayPlayground\nKoans\nGet started",
+   "counts": {
+    "links": 23,
+    "images": 6,
+    "headings": 0,
+    "listItems": 26,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 98,
+     "height": 22
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "nav",
+   "id": "navigation-wrapper",
+   "class": "navigation theme-dark",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 230,
+   "text": "Kotlin libraries\n Toggle table of contents\n 2.4\n Select version\n2.42.32.22.12.01.91.81.71.61.51.41.31.21.11.0\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Platform filter\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Switch theme",
+   "counts": {
+    "links": 16,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 18,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 64,
+    "height": 65,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "ul",
+   "id": "toc-listbox",
+   "class": "dropdown--list dropdown--list_toc-list",
+   "role": "listbox",
+   "landmarks": [],
+   "textLength": 34854,
+   "text": "Kotlin libraries\n kotlin-reflectSkip to content\n kotlin.reflect.fullSkip to content\n allSuperclasses\n allSupertypes\n callSuspend()\n callSuspendBy()\n cast()\n companionObject\n companionObjectInstance\n contextParameters\n createInstance()\n createType()\n declaredFunctions\n declaredMemberExtensionFunctions\n declaredMemberExtensionProperties\n declaredMemberFunctions\n declaredMemberProperties\n declaredMem",
+   "counts": {
+    "links": 2397,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 160,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 129,
+    "height": 1784,
+    "widthFraction": 0.18,
+    "leftFraction": 0,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "class": "cover",
+   "landmarks": [],
+   "textLength": 13,
+   "text": "kotlin-stdlib",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 153,
+    "height": 116,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 0.19,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "platform-bookmarks-row",
+   "landmarks": [],
+   "textLength": 33,
+   "text": "CommonJSJVMNativeWasm-JSWasm-WASI",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 293,
+    "height": 41,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 0.36,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "div",
+   "class": "content sourceset-dependent-content",
+   "landmarks": [],
+   "textLength": 480,
+   "text": "Kotlin Standard Library\nThe Kotlin Standard Library provides living essentials for everyday work with Kotlin. These include:\nHigher-order functions implementing idiomatic patterns (let, apply, kotlin.io.use, kotlin.synchronized, etc).\nExtension functions providing querying operations for collections (eager) and sequences (lazy).\nVarious utilities for working with strings and char sequences.\nExtens",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 382,
+    "height": 176,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 0.47,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "h2",
+   "landmarks": [],
+   "textLength": 8,
+   "text": "Packages",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 630,
+    "height": 32,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 0.77,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 142,
+   "text": "kotlin\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Core functions and types, available on all supported platforms.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 686,
+    "height": 87,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 0.84,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 104,
+   "text": "kotlin.annotation\n Link copied to clipboard\n Common\n Library support for the Kotlin annotation facility.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 773,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 0.95,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 200,
+   "text": "kotlin.collections\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Collection types, such as Iterable, Collection, List, Set, Map and related top-level and extension functions.",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.23,
+   "geometry": {
+    "top": 861,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 142,
+   "text": "kotlin.comparisons\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Helper functions for creating Comparator instances.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 949,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 141,
+   "text": "kotlin.concurrent\n Link copied to clipboard\n Common\n JVM\n Native\n Low-level building blocks and utility functions for concurrent programming.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 1037,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 164,
+   "text": "kotlin.concurrent.atomics\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Atomic scalar and array types and utilities for working with them.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 1125,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 109,
+   "text": "kotlin.contracts\n Link copied to clipboard\n Common\n Experimental DSL for declaring custom function contracts.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 1213,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 215,
+   "text": "kotlin.coroutines\n Link copied to clipboard\n Common\n Native\n Basic primitives for creating and suspending coroutines: Continuation, CoroutineContext interfaces, coroutine creation and suspension top-level functions.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 1301,
+    "height": 112,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 167,
+   "text": "kotlin.coroutines.cancellation\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Provides exceptions arising on suspended coroutine cancellation.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 1413,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 57,
+   "text": "kotlin.coroutines.debug\n Link copied to clipboard\n Common",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 1501,
+    "height": 56,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 175,
+   "text": "kotlin.coroutines.intrinsics\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Low-level building blocks for libraries that provide coroutine-based APIs.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 1557,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 1.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 95,
+   "text": "kotlin.enums\n Link copied to clipboard\n Common\n Utilities for working with Kotlin enum classes.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 1645,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.02,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 121,
+   "text": "kotlin.experimental\n Link copied to clipboard\n Common\n Experimental APIs, subject to change in future versions of Kotlin.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 1733,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 124,
+   "text": "kotlin.io\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n IO API for working with files and streams.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 1821,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 141,
+   "text": "kotlin.io.encoding\n Link copied to clipboard\n Common\n JVM\n API for encoding and decoding data using various encoding schemes, such as Base64.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 1909,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 123,
+   "text": "kotlin.io.path\n Link copied to clipboard\n JVM\n Convenient extensions for working with file system using java.nio.file.Path.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 1997,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 119,
+   "text": "kotlin.js\n Link copied to clipboard\n Common\n JS\n Wasm-JS\n Functions and other APIs specific to the JavaScript platform.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 2085,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 125,
+   "text": "kotlin.js.collections\n Link copied to clipboard\n JS\n JavaScript-specific collection types, such as JsArray and JsReadonlyMap.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.33,
+   "geometry": {
+    "top": 2173,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 111,
+   "text": "kotlin.jvm\n Link copied to clipboard\n Common\n JS\n JVM\n Functions and annotations specific to the Java platform.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 2261,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 140,
+   "text": "kotlin.jvm.optionals\n Link copied to clipboard\n JVM\n Convenience extension functions for java.util.Optional to simplify Kotlin-Java interop.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 2349,
+    "height": 89,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 121,
+   "text": "kotlin.math\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Mathematical functions and constants.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 2438,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 2.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 219,
+   "text": "kotlin.native\n Link copied to clipboard\n Common\n Native\n Wasm-JS\n Wasm-WASI\n Provides functions and types specific to Kotlin/Native, as well as means for interoperability with an underlying platform and other languages.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 2526,
+    "height": 112,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 183,
+   "text": "kotlin.native.concurrent\n Link copied to clipboard\n Common\n Native\n Wasm-JS\n Wasm-WASI\n Kotlin/Native-specific concurrency primitives and utility functions for concurrent programming.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 2638,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 105,
+   "text": "kotlin.native.ref\n Link copied to clipboard\n Native\n API for object life-cycle and references management.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 2726,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 134,
+   "text": "kotlin.native.runtime\n Link copied to clipboard\n Native\n Allows to query information from and interact with the Kotlin/Native runtime.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 2814,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 171,
+   "text": "kotlin.properties\n Link copied to clipboard\n Common\n Standard implementations of delegates for delegated properties and helper functions for implementing custom delegates.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 2902,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 183,
+   "text": "kotlin.random\n Link copied to clipboard\n Common\n JVM\n Provides the default generator of pseudo-random values, the repeatable generator, and a base class for other RNG implementations.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 2990,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 116,
+   "text": "kotlin.ranges\n Link copied to clipboard\n Common\n Ranges, Progressions and related top-level and extension functions.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 3078,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 120,
+   "text": "kotlin.reflect\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Runtime API for Kotlin reflection",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 3166,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 203,
+   "text": "kotlin.sequences\n Link copied to clipboard\n Common\n JVM\n Sequence type that represents lazily evaluated collections. Top-level functions for instantiating sequences and extension functions for sequences.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 3254,
+    "height": 112,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 3.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 97,
+   "text": "kotlin.streams\n Link copied to clipboard\n JVM\n Utility functions for working with Java 8 streams.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 3366,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 87,
+   "text": "kotlin.system\n Link copied to clipboard\n JVM\n Native\n System-related utility functions.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 3454,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 140,
+   "text": "kotlin.text\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n Functions for working with text and regular expressions.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3542,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 143,
+   "text": "kotlin.time\n Link copied to clipboard\n Common\n JS\n JVM\n Native\n Wasm-JS\n Wasm-WASI\n API for measuring time intervals and calculating durations.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3630,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 122,
+   "text": "kotlin.uuid\n Link copied to clipboard\n Common\n JVM\n Multiplatform Uuid class and utility functions for working with UUIDs.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 3718,
+    "height": 89,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 107,
+   "text": "kotlin.wasm\n Link copied to clipboard\n Wasm-JS\n Wasm-WASI\n Provides Wasm-platform interoperability support.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 3807,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 106,
+   "text": "kotlin.wasm.unsafe\n Link copied to clipboard\n Wasm-JS\n Wasm-WASI\n API for working with Wasm linear memory.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 3895,
+    "height": 88,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 196,
+   "text": "kotlinx.cinterop\n Link copied to clipboard\n Native\n Experimental API for working with unmanaged and foreign memory, as well as for interoperability with other languages, such as Objective-C and C.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3983,
+    "height": 112,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 4.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 59,
+   "text": "kotlinx.cinterop.internal\n Link copied to clipboard\n Native",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.42,
+   "geometry": {
+    "top": 4095,
+    "height": 56,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 5.02,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "div",
+   "class": "table-row table-row_platform-tagged",
+   "landmarks": [],
+   "textLength": 41,
+   "text": "org.w3c.dom\n Link copied to clipboard\n JS",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 4151,
+    "height": 56,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 5.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "h2",
+   "landmarks": [],
+   "textLength": 15,
+   "text": "Index\nAll Types",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4255,
+    "height": 80,
+    "widthFraction": 0.72,
+    "leftFraction": 0.23,
+    "pageFraction": 5.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "div",
+   "class": "wt-row wt-row_size_xs wt-row_wide wt-row_wrap",
+   "landmarks": [],
+   "textLength": 31,
+   "text": "Was this page helpful?\n Yes\n No",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4495,
+    "height": 48,
+    "widthFraction": 0.22,
+    "leftFraction": 0.24,
+    "pageFraction": 5.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "footer",
+   "class": "ktl-footer-module_footer_GHyqk ktl-footer_light",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 254,
+   "text": "Stay in touch:\nContributing to Kotlin\nReleases\nPress Kit\nSecurity\nBlog\nIssue Tracker\nBrand assets\nCareers\nKotlin Merch\nOpt-Out\nKotlin™ is protected under the Kotlin Foundation and licensed under the Apache 2 license.\n Supported and developed by JetBrains",
+   "counts": {
+    "links": 21,
+    "images": 8,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 149,
+     "height": 32
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 4631,
+    "height": 216,
+    "widthFraction": 0.8,
+    "leftFraction": 0.19,
+    "pageFraction": 5.68,
+    "aboveFold": false
+   }
+  }
+ ]
+}

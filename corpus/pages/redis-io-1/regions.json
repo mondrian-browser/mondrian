@@ -1,0 +1,592 @@
+{
+ "url": "https://redis.io/docs/latest/",
+ "title": "Docs",
+ "viewport": {
+  "width": 1425,
+  "height": 816
+ },
+ "pageHeight": 2771,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "sticky top-0 h-[70px] z-50",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 205,
+   "text": "AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Search\n Login\n Sign up\n Open search\n Open main menu\n AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Sign up\n Login",
+   "counts": {
+    "links": 17,
+    "images": 3,
+    "headings": 0,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 0,
+    "height": 70,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "flex flex-col gap-4",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 71,
+   "text": "Develop with Redis\n Libraries and tools\n Redis products\n Commands\n APIs",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 120,
+    "height": 323,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "class": "text-2xl md:text-3xl font-sans font-medium",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 21,
+   "text": "Welcome to Redis Docs",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 120,
+    "height": 36,
+    "widthFraction": 0.45,
+    "leftFraction": 0.34,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "form",
+   "class": "flex flex-row items-center border",
+   "landmarks": [
+    "main",
+    "form"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 121,
+    "height": 34,
+    "widthFraction": 0.15,
+    "leftFraction": 0.8,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "class": "text-base text-gray-300 text-center md:text-left",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 64,
+   "text": "Quickly set up a Redis cache, primary, vector or custom database",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 164,
+    "height": 24,
+    "widthFraction": 0.61,
+    "leftFraction": 0.34,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "div",
+   "class": "flex flex-col md:flex-row gap-4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 55,
+   "text": "Develop with Redis Open Source\n Run Redis in production",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 236,
+    "height": 58,
+    "widthFraction": 0.4,
+    "leftFraction": 0.44,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "section",
+   "class": "px-5 py-6",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "Develop in your language\n RedisVL",
+   "counts": {
+    "links": 10,
+    "images": 10,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 64,
+     "height": 64
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 64,
+     "height": 64
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 64,
+     "height": 64
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 64,
+     "height": 64
+    }
+   ],
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 334,
+    "height": 178,
+    "widthFraction": 0.67,
+    "leftFraction": 0.31,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "section",
+   "class": "px-5",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 391,
+   "text": "Redis for AI and search\n Vector database\n Get started with vector databases\n AI development\n Build AI applications with Redis\n JSON\n Store and query JSON documents\n Streams\n Real-time data streaming and event processing\n AI Applications\n Chatbots, agents, RAG systems\n Real-time context engine\n Memory, retrieval, state, streaming\n AI models & infrastructure\n LLMs, embeddings, vector models",
+   "counts": {
+    "links": 5,
+    "images": 7,
+    "headings": 5,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 37,
+     "height": 37
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 552,
+    "height": 338,
+    "widthFraction": 0.67,
+    "leftFraction": 0.31,
+    "pageFraction": 0.2,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "section",
+   "class": "px-5 py-6",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 647,
+   "text": "From open source to production scale\n Redis Open Source\n Experimentation and local development\n • Core data structures\n • Vector search\n • Streams & pub/sub\n • Community support\n Redis Software\n Enterprise on-prem / hybrid\n • Active-Active geo-distribution\n • Auto-tiering\n • 99.999% uptime SLA\n • Enterprise support\n Redis for Kubernetes\n Enterprise on Kubernetes\n • Cloud-native deployment\n • Kuber",
+   "counts": {
+    "links": 4,
+    "images": 4,
+    "headings": 5,
+    "listItems": 16,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 1.4,
+   "geometry": {
+    "top": 930,
+    "height": 368,
+    "widthFraction": 0.67,
+    "leftFraction": 0.31,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "section×3",
+   "class": "px-5 pt-0 pb-0",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 1097,
+   "text": "Choose your next step\n Build fast apps\n → Redis vector library\n → Python\n → Node.js\n → Ruby\n → Java Jedis\n → Java Lettuce\n → C#/.NET\n → Go\n → Rust\n → PHP\n → C\n Run Redis in production\n Deploy and scale Redis for production workloads\n → Operate Redis\n → Flex\n → LangCache\n → LangChain\n → Amazon Bedrock\n → Spring Data\n Get Redis tools\n Explore CLI, GUI, VS Code, and MCP tools. Get started with JSON a",
+   "counts": {
+    "links": 33,
+    "images": 3,
+    "headings": 16,
+    "listItems": 23,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 12,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 33,
+     "height": 33
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 1338,
+    "height": 852,
+    "widthFraction": 0.67,
+    "leftFraction": 0.31,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "section",
+   "class": "px-5 py-6",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 378,
+   "text": "Contribute\n Rate our pages\n You can rate any page of our docs at the bottom and give us your feedback\n Contribute on GitHub\n Provide feedback or contribute to our documentation\n View repository →\n Improve our AI chatbot\n Provide feedback on AI chatbot answers to help us improve\n Try the chatbot →\n AI Agent Resources\n Documentation and guides for AI agents\n Explore resources →",
+   "counts": {
+    "links": 3,
+    "images": 4,
+    "headings": 5,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 2230,
+    "height": 290,
+    "widthFraction": 0.67,
+    "leftFraction": 0.31,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "footer",
+   "class": "relative z-50 flex justify-center",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 347,
+   "text": "Trust\n Privacy\n Terms of use\n Legal notices\n Compare\n Redis vs Elasticache\n Redis vs Memcached\n Redis vs Memory Store\n Redis vs. Open Source\n Company\n Mission & valuesLeadership\n Careers\n Partners\n Amazon Web Services\n Google Cloud\n Microsoft Azure\n All partners\n Support\n Professional\n servicesSupport\n Trust\n Privacy\n Terms of use\n Legal notices",
+   "counts": {
+    "links": 28,
+    "images": 7,
+    "headings": 4,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 2544,
+    "height": 227,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "my-0 mx-auto w-full max-w-[47.375rem]",
+   "landmarks": [],
+   "textLength": 148,
+   "text": "All products\n Redis Software\n Redis Cloud\n Redis Open Source\n Redis Insight\n Redis Enterprise for K8s\n Redis Data Integration\n Client Libraries\n ESC",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 147,
+    "widthFraction": 0.1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  }
+ ]
+}

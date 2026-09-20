@@ -1,0 +1,3844 @@
+{
+ "url": "https://go.dev/doc/devel/release",
+ "title": "Release History - The Go Programming Language",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 20478,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "class": "Header-menu",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1100,
+   "text": "Skip to Main Content\nWhy Go arrow_drop_down\n Press Enter to activate/deactivate dropdown\n Case Studies\n Common problems companies solve with Go\n Use Cases\n Stories about how and why companies use Go\n Security\n How Go can help keep you secure by default\n Learn \n Press Enter to activate/deactivate dropdown\n Docs arrow_drop_down\n Press Enter to activate/deactivate dropdown\n Go Spec\n The official Go l",
+   "counts": {
+    "links": 27,
+    "images": 1,
+    "headings": 0,
+    "listItems": 19,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 14,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Go",
+     "width": 82,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 0,
+    "height": 56,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "nav",
+   "class": "NavigationDrawer-nav",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 359,
+   "text": "Why Go navigate_next\n navigate_beforeWhy Go\n Case Studies\n Use Cases\n Security\n Learn\n Docs navigate_next\n navigate_beforeDocs\n Go Spec\n Go User Manual\n Standard library\n Release Notes\n Effective Go\n Packages\n Community navigate_next\n navigate_beforeCommunity\n Recorded Talks\n Meetups\n open_in_new\n Conferences\n open_in_new\n Go blog\n Go project\n Get connected",
+   "counts": {
+    "links": 30,
+    "images": 9,
+    "headings": 0,
+    "listItems": 19,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Go.",
+     "width": 82,
+     "height": 32
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 0,
+    "height": 279,
+    "widthFraction": 0.3,
+    "leftFraction": 0.99,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 15,
+   "text": "Release History",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 72,
+    "height": 50,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "table",
+   "class": "unruled",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1252,
+   "text": "Table of Contents\nRelease Policygo1.27.0 (released 2026-08-19)Minor revisionsgo1.26.0 (released 2026-02-10)Minor revisionsgo1.25.0 (released 2025-08-12)Minor revisionsgo1.24.0 (released 2025-02-11)Minor revisionsgo1.23.0 (released 2024-08-13)Minor revisionsgo1.22.0 (released 2024-02-06)Minor revisionsgo1.21.0 (released 2023-08-08)Minor revisionsgo1.20 (released 2023-02-01)Minor revisionsgo1.19 (re",
+   "counts": {
+    "links": 58,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 2,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 142,
+    "height": 634,
+    "widthFraction": 0.29,
+    "leftFraction": 0.09,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 109,
+   "text": "This page summarizes the changes between official stable releases of Go.\nThe change log has the full details.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 796,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h2",
+   "id": "policy",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 91,
+   "text": "To update to a specific release, use:\ngit fetch --tags\ngit checkout goX.Y.Z\nRelease Policy¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 835,
+    "height": 139,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.04,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 356,
+   "text": "Each major Go release is supported until there are two newer major releases.\nFor example, Go 1.5 was supported until the Go 1.7 release, and Go 1.6 was\nsupported until the Go 1.8 release.\nWe fix critical problems, including critical security problems,\nin supported releases as needed by issuing minor revisions\n(for example, Go 1.6.1, Go 1.6.2, and so on).",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 990,
+    "height": 67,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "id": "go1.27.0",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "go1.27.0 (released 2026-08-19)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1073,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Go 1.27.0 is a major release of Go.\n Read the Go 1.27 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 1120,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h3",
+   "id": "go1.27.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1158,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "id": "go1.27.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 264,
+   "text": "go1.27.1\n (released 2026-09-01)\n includes\n fixes to cgo, the compiler, the runtime, the go fix command, and the database/sql, debug/elf, encoding/json, net/http, os, simd, and simd/archsimd packages.\n See the\n Go 1.27.1 milestone\n on our issue tracker for details.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 1200,
+    "height": 47,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h2",
+   "id": "go1.26.0",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "go1.26.0 (released 2026-02-10)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1262,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Go 1.26.0 is a major release of Go.\n Read the Go 1.26 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 1310,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h3",
+   "id": "go1.26.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1348,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p×8",
+   "id": "go1.26.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2309,
+   "text": "go1.26.1\n (released 2026-03-05)\n includes\n security\n fixes to the crypto/x509, html/template, net/url, and os packages, as well as\n bug \n fixes to the go command, the go fix command, the compiler, and the os and reflect packages.\n See the\n Go 1.26.1 milestone\n on our issue tracker for details.\ngo1.26.2\n (released 2026-04-07)\n includes\n security\n fixes to the go command, the compiler, and the archi",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 8,
+    "repeats": 8,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 1389,
+    "height": 530,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "h2",
+   "id": "go1.25.0",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "go1.25.0 (released 2025-08-12)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1935,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Go 1.25.0 is a major release of Go.\n Read the Go 1.25 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 1983,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h3",
+   "id": "go1.25.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 2021,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p×14",
+   "id": "go1.25.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3615,
+   "text": "go1.25.1\n (released 2025-09-03)\n includes\n security\n fixes to the net/http package, as well as\n bug \n fixes to the go command, and the net, os, os/exec, and testing/synctest packages.\n See the\n Go 1.25.1 milestone\n on our issue tracker for details.\ngo1.25.2\n (released 2025-10-07)\n includes\n security\n fixes to the archive/tar, crypto/tls, crypto/x509, encoding/asn1, encoding/pem, net/http, net/mail",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 14,
+    "repeats": 14,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 2062,
+    "height": 879,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h2",
+   "id": "go1.24.0",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "go1.24.0 (released 2025-02-11)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 2958,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Go 1.24.0 is a major release of Go.\n Read the Go 1.24 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 3005,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "h3",
+   "id": "go1.24.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 3043,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p×13",
+   "id": "go1.24.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3045,
+   "text": "go1.24.1\n (released 2025-03-04)\n includes\n security\n fixes to the net/http package, as well as\n bug \n fixes to cgo, the compiler, the go command, and the reflect, runtime, and syscall packages.\n See the\n Go 1.24.1 milestone\n on our issue tracker for details.\ngo1.24.2\n (released 2025-04-01)\n includes\n security\n fixes to the net/http package, as well as\n bug \n fixes to the compiler, the runtime, the",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 13,
+    "repeats": 13,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3085,
+    "height": 748,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h2",
+   "id": "go1.23.0",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "go1.23.0 (released 2024-08-13)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 3849,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Go 1.23.0 is a major release of Go.\n Read the Go 1.23 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 3896,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "h3",
+   "id": "go1.23.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 3935,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p×12",
+   "id": "go1.23.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2582,
+   "text": "go1.23.1\n (released 2024-09-05)\n includes\n security\n fixes to the encoding/gob, go/build/constraint, and go/parser packages, as well as\n bug \n fixes to the compiler, the go command, the runtime, and the database/sql, go/types, os, runtime/trace, and unique packages.\n See the\n Go 1.23.1 milestone\n on our issue tracker for details.\ngo1.23.2\n (released 2024-10-01)\n includes\n fixes to the compiler, cg",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 12,
+    "repeats": 12,
+    "coverLinks": 4
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 3976,
+    "height": 725,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h2",
+   "id": "go1.22.0",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "go1.22.0 (released 2024-02-06)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4717,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Go 1.22.0 is a major release of Go.\n Read the Go 1.22 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 4765,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h3",
+   "id": "go1.22.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 4803,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p×12",
+   "id": "go1.22.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2808,
+   "text": "go1.22.1\n (released 2024-03-05)\n includes\n security\n fixes to the crypto/x509, html/template, net/http, net/http/cookiejar, and net/mail packages, as well as\n bug \n fixes to the compiler, the go command, the runtime, the trace command, and the go/types and net/http packages.\n See the\n Go 1.22.1 milestone\n on our issue tracker for details.\ngo1.22.2\n (released 2024-04-03)\n includes\n a\n security\n fix",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 12,
+    "repeats": 12,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 4844,
+    "height": 685,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h2",
+   "id": "go1.21.0",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "go1.21.0 (released 2023-08-08)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5545,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "Go 1.21.0 is a major release of Go.\n Read the Go 1.21 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 5592,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h3",
+   "id": "go1.21.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 5631,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×13",
+   "id": "go1.21.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3173,
+   "text": "go1.21.1\n (released 2023-09-06)\n includes\n four\n security\n fixes to the cmd/go, crypto/tls, and html/template packages, as well as\n bug \n fixes to the compiler, the go command, the linker, the runtime, and the context, crypto/tls, encoding/gob, encoding/xml, go/types, net/http, os, and path/filepath packages.\n See the\n Go 1.21.1 milestone\n on our issue tracker for details.\ngo1.21.2\n (released 2023",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 13,
+    "repeats": 13,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 5672,
+    "height": 794,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "h2",
+   "id": "go1.20",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.20 (released 2023-02-01)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 6482,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.20 is a major release of Go.\n Read the Go 1.20 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 6529,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h3",
+   "id": "go1.20.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 6568,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p×14",
+   "id": "go1.20.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3439,
+   "text": "go1.20.1\n (released 2023-02-14)\n includes\n security\n fixes to the crypto/tls, mime/multipart, net/http, and path/filepath packages, as well as\n bug \n fixes to the compiler, the go command, the linker, the runtime, and the time package.\n See the\n Go 1.20.1 milestone\n on our issue tracker for details.\ngo1.20.2\n (released 2023-03-07)\n includes\n a\n security\n fix to the crypto/elliptic package, as well",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 14,
+    "repeats": 14,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 6609,
+    "height": 790,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h2",
+   "id": "go1.19",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.19 (released 2022-08-02)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 7415,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.19 is a major release of Go.\n Read the Go 1.19 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 7462,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "h3",
+   "id": "go1.19.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 7500,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p×13",
+   "id": "go1.19.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3273,
+   "text": "go1.19.1\n (released 2022-09-06)\n includes\n security\n fixes to the net/http and net/url packages, as well as\n bug \n fixes to the compiler, the go command, the pprof command, the linker, the runtime, and the crypto/tls and crypto/x509 packages.\n See the\n Go 1.19.1 milestone\n on our issue tracker for details.\ngo1.19.2\n (released 2022-10-04)\n includes\n security\n fixes to the archive/tar, net/http/http",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 13,
+    "repeats": 13,
+    "coverLinks": 3
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 7542,
+    "height": 795,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "h2",
+   "id": "go1.18",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.18 (released 2022-03-15)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 8353,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.18 is a major release of Go.\n Read the Go 1.18 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 8400,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "h3",
+   "id": "go1.18.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 8438,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p×10",
+   "id": "go1.18.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2725,
+   "text": "go1.18.1\n (released 2022-04-12)\n includes\n security\n fixes to the crypto/elliptic, crypto/x509, and encoding/pem packages, as well as\n bug \n fixes to the compiler, linker, runtime, the go command, vet, and the bytes, crypto/x509, and go/types packages.\n See the\n Go 1.18.1 milestone\n on our issue tracker for details.\ngo1.18.2\n (released 2022-05-10)\n includes\n security\n fixes to the syscall package,",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 10,
+    "repeats": 10,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 8480,
+    "height": 632,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "h2",
+   "id": "go1.17",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.17 (released 2021-08-16)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 9128,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.17 is a major release of Go.\n Read the Go 1.17 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 9175,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "h3",
+   "id": "go1.17.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 9214,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "p×13",
+   "id": "go1.17.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3298,
+   "text": "go1.17.1\n (released 2021-09-09)\n includes\n a\n security\n fix to the archive/zip package, as well as\n bug \n fixes to the compiler, linker, the go command, and the crypto/rand, embed, go/types, html/template, and net/http packages.\n See the\n Go 1.17.1 milestone\n on our issue tracker for details.\ngo1.17.2\n (released 2021-10-07)\n includes\n security\n fixes to linker and the misc/wasm directory, as well ",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 13,
+    "repeats": 13,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 9255,
+    "height": 795,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "h2",
+   "id": "go1.16",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.16 (released 2021-02-16)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 10066,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.16 is a major release of Go.\n Read the Go 1.16 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 10113,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "h3",
+   "id": "go1.16.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 10152,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p×15",
+   "id": "go1.16.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3477,
+   "text": "go1.16.1\n (released 2021-03-10)\n includes\n security\n fixes to the archive/zip and encoding/xml packages.\n See the\n Go 1.16.1 milestone\n on our issue tracker for details.\ngo1.16.2\n (released 2021-03-11)\n includes\n fixes to cgo, the compiler, linker, the go command, and the syscall and time packages.\n See the\n Go 1.16.2 milestone\n on our issue tracker for details.\ngo1.16.3\n (released 2021-04-01)\n in",
+   "counts": {
+    "links": 15,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 15,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 10193,
+    "height": 894,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "h2",
+   "id": "go1.15",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.15 (released 2020-08-11)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 11103,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.15 is a major release of Go.\n Read the Go 1.15 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 11151,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h3",
+   "id": "go1.15.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 11189,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p×15",
+   "id": "go1.15.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3102,
+   "text": "go1.15.1\n (released 2020-09-01)\n includes\n security\n fixes to the net/http/cgi and net/http/fcgi packages.\n See the\n Go 1.15.1 milestone\n on our issue tracker for details.\ngo1.15.2\n (released 2020-09-09)\n includes\n fixes to the compiler, runtime, documentation, the go command, and the net/mail, os, sync, and testing packages.\n See the\n Go 1.15.2 milestone\n on our issue tracker for details.\ngo1.15.",
+   "counts": {
+    "links": 15,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 15,
+    "coverLinks": 4
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 11230,
+    "height": 869,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "h2",
+   "id": "go1.14",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.14 (released 2020-02-25)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 12115,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.14 is a major release of Go.\n Read the Go 1.14 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 12162,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "h3",
+   "id": "go1.14.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 12201,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p×15",
+   "id": "go1.14.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2699,
+   "text": "go1.14.1\n (released 2020-03-19)\n includes\n fixes to the go command, tools, and the runtime.\n See the\n Go 1.14.1 milestone\n on our issue tracker for details.\ngo1.14.2\n (released 2020-04-08)\n includes\n fixes to cgo, the go command, the runtime, and the os/exec and testing packages.\n See the\n Go 1.14.2 milestone\n on our issue tracker for details.\ngo1.14.3\n (released 2020-05-14)\n includes\n fixes to cg",
+   "counts": {
+    "links": 15,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 15,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 12242,
+    "height": 776,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "h2",
+   "id": "go1.13",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.13 (released 2019-09-03)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 13034,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.13 is a major release of Go.\n Read the Go 1.13 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 13082,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "h3",
+   "id": "go1.13.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 13120,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "p×15",
+   "id": "go1.13.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2711,
+   "text": "go1.13.1\n (released 2019-09-25)\n includes\n security\n fixes to the net/http and net/textproto packages.\n See the\n Go 1.13.1 milestone\n on our issue tracker for details.\ngo1.13.2\n (released 2019-10-17)\n includes\n security\n fixes to the compiler and the crypto/dsa package.\n See the\n Go 1.13.2 milestone\n on our issue tracker for details.\ngo1.13.3\n (released 2019-10-17)\n includes\n fixes to the go comma",
+   "counts": {
+    "links": 16,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 15,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 13161,
+    "height": 753,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "h2",
+   "id": "go1.12",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.12 (released 2019-02-25)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 13930,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.12 is a major release of Go.\n Read the Go 1.12 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 13978,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "h3",
+   "id": "go1.12.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 14016,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "p×17",
+   "id": "go1.12.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 3047,
+   "text": "go1.12.1\n (released 2019-03-14)\n includes\n fixes to cgo, the compiler, the go command, and the fmt, net/smtp, os, path/filepath, sync, and text/template packages.\n See the\n Go 1.12.1 milestone\n on our issue tracker for details.\ngo1.12.2\n (released 2019-04-05)\n includes\n security\n fixes to the runtime, as well as\n bug \n fixes to the compiler, the go command, and the doc, net, net/http/httputil, and",
+   "counts": {
+    "links": 16,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 17,
+    "repeats": 17,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 14057,
+    "height": 828,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "h2",
+   "id": "go1.11",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.11 (released 2018-08-24)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 14901,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.11 is a major release of Go.\n Read the Go 1.11 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 14948,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "h3",
+   "id": "go1.11.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 14987,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "p×13",
+   "id": "go1.11.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2540,
+   "text": "go1.11.1\n (released 2018-10-01)\n includes\n fixes to the compiler, documentation, go command, runtime, and the crypto/x509, encoding/json, go/types, net, net/http, and reflect packages.\n See the\n Go 1.11.1 milestone\n on our issue tracker for details.\ngo1.11.2\n (released 2018-11-02)\n includes\n fixes to the compiler, linker, documentation, go command, and the database/sql and go/types packages.\n See ",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 13,
+    "repeats": 13,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 15028,
+    "height": 651,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "h2",
+   "id": "go1.10",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "go1.10 (released 2018-02-16)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 15695,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 87,
+   "text": "Go 1.10 is a major release of Go.\n Read the Go 1.10 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 15742,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "h3",
+   "id": "go1.10.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 15781,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "p×8",
+   "id": "go1.10.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1717,
+   "text": "go1.10.1\n (released 2018-03-28)\n includes\n security\n fixes to the go command, as well as\n bug \n fixes to the compiler, runtime, and the archive/zip, crypto/tls, crypto/x509, encoding/json, net, net/http, and net/http/pprof packages.\n See the\n Go 1.10.1 milestone\n on our issue tracker for details.\ngo1.10.2\n (released 2018-05-01)\n includes\n fixes to the compiler, linker, and go command.\n See the\n Go",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 8,
+    "repeats": 8,
+    "coverLinks": 3
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 15822,
+    "height": 433,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "h2",
+   "id": "go1.9",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.9 (released 2017-08-24)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 16271,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 85,
+   "text": "Go 1.9 is a major release of Go.\n Read the Go 1.9 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 16319,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "h3",
+   "id": "go1.9.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 16357,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "p×7",
+   "id": "go1.9.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1495,
+   "text": "go1.9.1\n (released 2017-10-04)\n includes\n two\n security\n fixes.\n See the\n Go 1.9.1 milestone\n on our issue tracker for details.\ngo1.9.2\n (released 2017-10-25)\n includes\n fixes to the compiler, linker, runtime, documentation, go command, and the crypto/x509, database/sql, log, and net/smtp packages.\n It includes a fix to a bug introduced in Go 1.9.1 that broke go get\nof non-Git repositories under c",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 7,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 16398,
+    "height": 371,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "h2",
+   "id": "go1.8",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.8 (released 2017-02-16)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 16785,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.8 is a major release of Go.\nRead the Go 1.8 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 16832,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "h3",
+   "id": "go1.8.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 16871,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "p×7",
+   "id": "go1.8.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1486,
+   "text": "go1.8.1 (released 2017-04-07) includes fixes to the compiler, linker, runtime,\ndocumentation, go command and the crypto/tls,\nencoding/xml, image/png, net,\nnet/http, reflect, text/template,\nand time packages.\nSee the Go\n1.8.1 milestone on our issue tracker for details.\ngo1.8.2 (released 2017-05-23) includes a security fix to the\ncrypto/elliptic package.\nSee the Go\n1.8.2 milestone on our issue track",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 7,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 16912,
+    "height": 416,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "h2",
+   "id": "go1.7",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.7 (released 2016-08-15)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 17344,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.7 is a major release of Go.\nRead the Go 1.7 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 17392,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "h3",
+   "id": "go1.7.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 17430,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "p×6",
+   "id": "go1.7.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1094,
+   "text": "go1.7.1 (released 2016-09-07) includes fixes to the compiler, runtime,\ndocumentation, and the compress/flate, hash/crc32,\nio, net, net/http,\npath/filepath, reflect, and syscall\npackages.\nSee the Go\n1.7.1 milestone on our issue tracker for details.\ngo1.7.2 should not be used. It was tagged but not fully released.\nThe release was deferred due to a last minute bug report.\nUse go1.7.3 instead, and ref",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 6,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 17471,
+    "height": 330,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "h2",
+   "id": "go1.6",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.6 (released 2016-02-17)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 17817,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.6 is a major release of Go.\nRead the Go 1.6 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 17865,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "h3",
+   "id": "go1.6.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 17903,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "p×4",
+   "id": "go1.6.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 716,
+   "text": "go1.6.1 (released 2016-04-12) includes two security fixes.\nSee the Go\n1.6.1 milestone on our issue tracker for details.\ngo1.6.2 (released 2016-04-20) includes fixes to the compiler, runtime, tools,\ndocumentation, and the mime/multipart, net/http, and\nsort packages.\nSee the Go\n1.6.2 milestone on our issue tracker for details.\ngo1.6.3 (released 2016-07-17) includes security fixes to the\nnet/http/cgi",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 17944,
+    "height": 207,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "h2",
+   "id": "go1.5",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.5 (released 2015-08-19)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 18167,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.5 is a major release of Go.\nRead the Go 1.5 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 18214,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "h3",
+   "id": "go1.5.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 18253,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "p×4",
+   "id": "go1.5.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 731,
+   "text": "go1.5.1 (released 2015-09-08) includes bug fixes to the compiler, assembler, and\nthe fmt, net/textproto, net/http, and\nruntime packages.\nSee the Go\n1.5.1 milestone on our issue tracker for details.\ngo1.5.2 (released 2015-12-02) includes bug fixes to the compiler, linker, and\nthe mime/multipart, net, and runtime\npackages.\nSee the Go\n1.5.2 milestone on our issue tracker for details.\ngo1.5.3 (release",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 18294,
+    "height": 208,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "h2",
+   "id": "go1.4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.4 (released 2014-12-10)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 18518,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.4 is a major release of Go.\nRead the Go 1.4 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 18565,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "h3",
+   "id": "go1.4.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 18604,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "p×3",
+   "id": "go1.4.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 592,
+   "text": "go1.4.1 (released 2015-01-15) includes bug fixes to the linker and the log, syscall, and runtime packages.\nSee the Go 1.4.1 milestone on our issue tracker for details.\ngo1.4.2 (released 2015-02-17) includes security fixes to the compiler, and bug fixes to the go command, the compiler and linker, and the runtime, syscall, reflect, and math/big packages.\nSee the Go 1.4.2 milestone on our issue track",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 18645,
+    "height": 170,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "h2",
+   "id": "go1.3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.3 (released 2014-06-18)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 18831,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.3 is a major release of Go.\nRead the Go 1.3 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 18878,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "h3",
+   "id": "go1.3.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 18917,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "p×3",
+   "id": "go1.3.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 426,
+   "text": "go1.3.1 (released 2014-08-13) includes bug fixes to the compiler and the runtime, net, and crypto/rsa packages.\nSee the change history for details.\ngo1.3.2 (released 2014-09-25) includes security fixes to the crypto/tls package and bug fixes to cgo.\nSee the change history for details.\ngo1.3.3 (released 2014-09-30) includes further bug fixes to cgo, the runtime package, and the nacl port.\nSee the c",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 18958,
+    "height": 101,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "h2",
+   "id": "go1.2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.2 (released 2013-12-01)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 19075,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.2 is a major release of Go.\nRead the Go 1.2 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 19123,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 109,
+   "tag": "h3",
+   "id": "go1.2.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 19161,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 110,
+   "tag": "p×2",
+   "id": "go1.2.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 277,
+   "text": "go1.2.1 (released 2014-03-02) includes bug fixes to the runtime, net, and database/sql packages.\nSee the change history for details.\ngo1.2.2 (released 2014-05-05) includes a\nsecurity fix\nthat affects the tour binary included in the binary distributions (thanks to Guillaume T).",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 19202,
+    "height": 62,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 111,
+   "tag": "h2",
+   "id": "go1.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "go1.1 (released 2013-05-13)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 19280,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 112,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Go 1.1 is a major release of Go.\nRead the Go 1.1 Release Notes for more information.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 19327,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 113,
+   "tag": "h3",
+   "id": "go1.1.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Minor revisions¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 19366,
+    "height": 25,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 114,
+   "tag": "p×2",
+   "id": "go1.1.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 476,
+   "text": "go1.1.1 (released 2013-06-13) includes a security fix to the compiler and several bug fixes to the compiler and runtime.\nSee the change history for details.\ngo1.1.2 (released 2013-08-13) includes fixes to the gc compiler\nand cgo, and the bufio, runtime,\nsyscall, and time packages.\nSee the change history for details.\nIf you use package syscall's Getrlimit and Setrlimit\nfunctions under Linux on the ",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 19407,
+    "height": 85,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 115,
+   "tag": "h2",
+   "id": "go1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 26,
+   "text": "go1 (released 2012-03-28)¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 19508,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 116,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 321,
+   "text": "Go 1 is a major release of Go that will be stable in the long term.\nRead the Go 1 Release Notes for more information.\nIt is intended that programs written for Go 1 will continue to compile and run\ncorrectly, unchanged, under future versions of Go 1.\nRead the Go 1 compatibility document for more\nabout the future of Go 1.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 19555,
+    "height": 83,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 117,
+   "tag": "h3",
+   "id": "go1.minor",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 66,
+   "text": "The go1 release corresponds to\nweekly.2012-03-27.\nMinor revisions¶",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 19655,
+    "height": 65,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 118,
+   "tag": "p×4",
+   "id": "go1.0.1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 511,
+   "text": "go1.0.1 (released 2012-04-25) was issued to\nfix an\nescape analysis bug\nthat can lead to memory corruption.\nIt also includes several minor code and documentation fixes.\ngo1.0.2 (released 2012-06-13) was issued to fix two bugs in the implementation\nof maps using struct or array keys:\nissue 3695 and\nissue 3573.\nIt also includes many minor code and documentation fixes.\ngo1.0.3 (released 2012-09-21) in",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 19735,
+    "height": 182,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 119,
+   "tag": "h2",
+   "id": "pre.go1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 15,
+   "text": "Older releases¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 19933,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 120,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 68,
+   "text": "See the Pre-Go 1 Release History page for notes\non earlier releases.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 19981,
+    "height": 22,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 121,
+   "tag": "footer",
+   "class": "Site-footer",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 404,
+   "text": "Why Go\n Use Cases\n Case Studies\n Get Started\n Playground\n Tour\n Stack Overflow\n Help\n Packages\n Standard Library\n About Go Packages\n pkg.go.dev API\n About\n Download\n Blog\n Issue Tracker\n Release Notes\n Brand Guidelines\n Code of Conduct\n Connect\n Bluesky\n Mastodon\n Twitter\n GitHub\n Slack\n r/golang\n Meetup\n Golang Weekly\n Opens in new window.\n Copyright\n Terms of Service\n Privacy Policy\n Report an I",
+   "counts": {
+    "links": 33,
+    "images": 3,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Go Gopher",
+     "width": 80,
+     "height": 50
+    },
+    {
+     "kind": "img",
+     "alt": "Google logo",
+     "width": 72,
+     "height": 24
+    },
+    {
+     "kind": "img",
+     "alt": "System theme",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 20033,
+    "height": 445,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 122,
+   "tag": "section",
+   "class": "Cookie-notice js-cookieNotice Cookie-notice--visible",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 125,
+   "text": "go.dev uses cookies from Google to deliver and enhance the quality of its services and to\n analyze traffic. Learn more.\n Okay",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 743,
+    "height": 73,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  }
+ ]
+}

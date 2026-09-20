@@ -1,0 +1,48 @@
+{
+ "site": "9news.com.au",
+ "pages": 4,
+ "pageIds": [
+  "9news-com-au-1",
+  "9news-com-au-2",
+  "9news-com-au-3",
+  "9news-com-au-4"
+ ],
+ "derivedAt": "2026-09-20T12:27:02.103Z",
+ "blocks": [
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 12,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > div",
+   "type": "site_nav",
+   "n": 9,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > section",
+   "type": "teaser_card",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 1
+  },
+  {
+   "selector": "header > div",
+   "type": "account",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "section section article > article",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

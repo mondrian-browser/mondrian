@@ -1,0 +1,440 @@
+{
+ "site": "slack.com",
+ "pages": 4,
+ "pageIds": [
+  "slack-com-1",
+  "slack-com-2",
+  "slack-com-3",
+  "slack-com-4"
+ ],
+ "derivedAt": "2026-09-20T14:03:45.026Z",
+ "blocks": [
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 12,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.body-copy",
+   "type": "text",
+   "n": 10,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2",
+   "type": "heading",
+   "n": 7,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.customer-quote",
+   "type": "testimonial",
+   "n": 7,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div",
+   "type": "progress",
+   "n": 6,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> a.c-button",
+   "type": "skip_link",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav nav > ul.c-extnav-level__0",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav nav > div.c-nav--signed-out",
+   "type": "account",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.c-nav--expanded-footer__supermenu",
+   "type": "version_switcher",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > img",
+   "type": "version_switcher",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer nav > ul.c-extnav-level__0",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.c-nav--expanded-footer__submenu",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > div.pull-quote",
+   "type": "quote",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.highlighted-list-item",
+   "type": "text",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul",
+   "type": "list",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > h2",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section header > header.u-text--center",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > section.o-section",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article section header > h1.c-billboard__header__headline",
+   "type": "title",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article form > form#helpfulWidget",
+   "type": "feedback",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > h2.c-type-headline-secondary",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > section.o-section",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > h1.c-billboard__header__headline",
+   "type": "hero",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > p.u-margin-bottom--medium",
+   "type": "hero",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.c-cta",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.logo-bar_container",
+   "type": "logo_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > video.c-billboard__video",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.c-billboard__icons",
+   "type": "feature_grid",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h2.c-dark-ai-headline",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.c-dark-ai-subheadline",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > div.o-content-container",
+   "type": "feature_grid",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section header > header.c-home-whats-new-module__header",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=region] > div.c-promo__content",
+   "type": "feature_grid",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.c-bento-sticky-toc",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div#section-knowledge",
+   "type": "accordion",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.comp-customer-videos",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.u-text--center",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2.comp-stats__headline",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.comp-stats__cards",
+   "type": "stats",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2.comp-customer-love__headline-text",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.comp-customer-love__stat-card",
+   "type": "stats",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.comp-customer-love__content-right-subhead",
+   "type": "stats",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.comp-customer-love__content-right-assets",
+   "type": "logo_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.c-promos--refs",
+   "type": "references",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > video.js-ignore-video-control",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section header > h1.c-billboard__header__headline",
+   "type": "hero",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section header > p.c-billboard__header__copy",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.c-section-four-stat",
+   "type": "stats",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.c-legalese",
+   "type": "references",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.o-wrap-large",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section header > p.u-padding-top--medium",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section header > ul.c-list--tags",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > aside.c-article-toc",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.c-post-meta",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2.is-active",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul.c-list--tags",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.c-article-card__article",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > h3.display-as-h3",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside form > form#form_gated-form",
+   "type": "form",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > ul.c-social-share",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article footer > footer.c-footnotes",
+   "type": "footnote",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

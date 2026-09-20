@@ -1,0 +1,619 @@
+{
+ "url": "https://docs.stripe.com/get-started/use-cases/startup",
+ "title": "Accept simple payments for a startup | Stripe Documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "div",
+   "class": "Header--full ⚙",
+   "landmarks": [],
+   "textLength": 188,
+   "text": "Skip to content\nThe Stripe Docs logo\nSearch\n/Ask AI\nCreate accountSign in\nGet started \nPayments \nRevenue \nPlatforms and marketplaces \nMoney management \nDeveloper resources \nAPIs & SDKsHelp",
+   "counts": {
+    "links": 9,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 121,
+     "height": 25
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 0,
+    "height": 112,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "a",
+   "class": "⚙ rs-4 rs-3 as-w",
+   "landmarks": [],
+   "textLength": 337,
+   "text": "Overview\nSee all products\nAbout the APIs\nStripe glossary\nStart building\nCreate an account\nQuickstarts\nStart developing\nBuild with agents\nUse Stripe without code\nMigrate to Stripe\nCommon use cases\nOverview\nAccept simple payments as a startup\nSell subscriptions as a SaaS startup\nAccept payments in person\nSend invoices to collect payments",
+   "counts": {
+    "links": 0,
+    "images": 6,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    },
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    },
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    },
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 124,
+    "height": 650,
+    "widthFraction": 0.15,
+    "leftFraction": 0.01,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "div",
+   "class": "⚙ rs-4 as-u as-1b",
+   "landmarks": [],
+   "textLength": 34,
+   "text": "Australia\nEnglish (United Kingdom)",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "Click to collapse the sidebar and hide the navigation",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 128,
+    "height": 640,
+    "widthFraction": 0.19,
+    "leftFraction": 0,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "nav",
+   "class": "⚙ rs-3 as-5y as-2n",
+   "ariaLabel": "Breadcrumbs",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 17,
+   "text": "Home/\nGet started",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 144,
+    "height": 36,
+    "widthFraction": 0.73,
+    "leftFraction": 0.23,
+    "pageFraction": 0.18,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h1",
+   "class": "⚙ rs-3 as-6e as-62",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 36,
+   "text": "Accept simple payments for a startup",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 178,
+    "height": 43,
+    "widthFraction": 0.39,
+    "leftFraction": 0.23,
+    "pageFraction": 0.22,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h2",
+   "class": "⚙ rs-3 as-6f as-62",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 75,
+   "text": "Learn how to enable Stripe payments for your business without writing code.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 220,
+    "height": 72,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 0.27,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "⚙ rs-4 as-w as-y",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 62,
+   "text": "Ask about this page\nCopy for LLM\nView as MarkdownInstall tools",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 316,
+    "height": 16,
+    "widthFraction": 0.35,
+    "leftFraction": 0.23,
+    "pageFraction": 0.39,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 117,
+   "text": "This guide describes the actions you need to take in your Stripe integration to accept one-off payments as a startup.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 361,
+    "height": 64,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 0.44,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div×4",
+   "class": "Section Section--numbered Box-root",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 1681,
+   "text": "Create a Stripe account\nBefore integrating with Stripe, you must create a Stripe account.\nCreate an account by entering your email address, full name and country, and creating a password.\nFill out your business profile.\nIn the Dashboard, click Verify your email. Stripe sends a verification email to your email address.\nVerify your email address.\nCreate a payment link\nPayment Links let your customer",
+   "counts": {
+    "links": 10,
+    "images": 9,
+    "headings": 5,
+    "listItems": 18,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 473,
+    "height": 1272,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 0.58,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h2",
+   "id": "next-steps",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 10,
+   "text": "Next steps",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1745,
+    "height": 60,
+    "widthFraction": 0.09,
+    "leftFraction": 0.23,
+    "pageFraction": 2.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 85,
+   "text": "After setting up your integration, we recommend you implement the following features:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1805,
+    "height": 38,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 2.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "ul",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 222,
+   "text": "Customise your checkout UI with brand settings.\nCreate a promotion code to provide your customers with a discount.\nManagement fulfilment for your orders and view metrics.\nEmbed the payment link as a button on your website.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.47,
+   "geometry": {
+    "top": 1843,
+    "height": 136,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 2.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "footer",
+   "class": "⚙ rs-4 as-6u as-6v",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 185,
+   "text": "Was this page helpful?YesNo\nNeed help? Contact Support.\nChat with Stripe developers on Discord.\nCheck out our changelog.\nQuestions? Contact Sales.\nLLM? Read llms.txt.\nPowered by Markdoc",
+   "counts": {
+    "links": 6,
+    "images": 7,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 2027,
+    "height": 367,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 2.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "TableOfContents Box-root Padding-bottom--24",
+   "landmarks": [],
+   "textLength": 141,
+   "text": "On this pageCreate a Stripe account\nCreate a payment link\nCreate a payment link\nShare the payment link with your customers\nGo live\nNext steps",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 180,
+    "height": 268,
+    "widthFraction": 0.14,
+    "leftFraction": 0.82,
+    "pageFraction": 0.22,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "wb-WorkbenchTray ⚙ rs-4 as-w",
+   "role": "button",
+   "ariaLabel": "Show Workbench",
+   "landmarks": [],
+   "textLength": 10,
+   "text": "Developers",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 769,
+    "height": 47,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.94,
+    "aboveFold": true
+   }
+  }
+ ]
+}

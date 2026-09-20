@@ -1,0 +1,398 @@
+{
+ "site": "afl.com.au",
+ "pages": 4,
+ "pageIds": [
+  "afl-com-au-1",
+  "afl-com-au-2",
+  "afl-com-au-3",
+  "afl-com-au-4"
+ ],
+ "derivedAt": "2026-09-20T14:40:55.020Z",
+ "blocks": [
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 28,
+   "purity": 0.96,
+   "pages": 2
+  },
+  {
+   "selector": "main section header > header.widget-header",
+   "type": "heading",
+   "n": 17,
+   "purity": 0.76,
+   "pages": 4
+  },
+  {
+   "selector": "main article > h4",
+   "type": "heading",
+   "n": 16,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "main article > figure.feature-video__video",
+   "type": "video",
+   "n": 14,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > p.feature-video__summary",
+   "type": "summary",
+   "n": 14,
+   "purity": 0.93,
+   "pages": 2
+  },
+  {
+   "selector": "main section > button.slider-controls__button",
+   "type": "pagination",
+   "n": 12,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > ul.slider__list",
+   "type": "teaser_card",
+   "n": 12,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > ul.slider-pagination",
+   "type": "pagination",
+   "n": 12,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article section > section.content-link",
+   "type": "teaser_card",
+   "n": 9,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div.footer-menu__inner",
+   "type": "site_footer",
+   "n": 8,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> ul.sub-menu",
+   "type": "site_nav",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 4
+  },
+  {
+   "selector": "main article > figure",
+   "type": "image",
+   "n": 5,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header > ul.telstra-bar-v3__list",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > div.clubs-menu-v3",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > button.telstra-dropdown-v3__link",
+   "type": "site_header",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> div#navigation-container",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> ul.clubs-sub-menu",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> div",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "section > div.footer-menu__partners-wrapper",
+   "type": "logo_cloud",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > footer#telstra-footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section article > div.media-thumbnail__caption",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ol.media-list__list",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article header > h1.article__heading",
+   "type": "title",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article header > p.article__summary",
+   "type": "summary",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main aside section section header > header.widget-header",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main aside section section > ol.media-list__list",
+   "type": "related",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > section.media-list",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div.fixture-bar__matches-container",
+   "type": "calendar",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > table.sidebar-ladder__table",
+   "type": "table",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section aside > aside.sidebar-ladder__legend",
+   "type": "definition_list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article header > header.media-thumbnail__image-container",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > article.media-thumbnail",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.live-now-countdown-branded",
+   "type": "embed",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main header > header.np-header",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul.latest-headlines__list",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section.featured-links",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section.video-promo-series",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article header > button.js-video-play",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul.video-list__list",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > ul.afl-id-promo__logos-list",
+   "type": "logo_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul.promo-list",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section#app-promo-test-1",
+   "type": "app_nag",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.upsell-modal__thumbnail",
+   "type": "popup",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.upsell-modal__content-section",
+   "type": "popup",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure.photo--portrait",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > section.promo-image",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> button.video-modal__close",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=region] > video.vjs-tech",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "[role=region] > div.vjs-control-bar",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.social-share",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> h4.video-modal__description-title",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.video-modal__sidebar-video-header",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> ul.video-modal__sidebar-video-list",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > figure.single-video",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section footer > footer.widget-footer",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

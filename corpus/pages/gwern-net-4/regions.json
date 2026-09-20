@@ -1,0 +1,2424 @@
+{
+ "url": "https://gwern.net/doc/statistics/bayes/regression-to-mean/index",
+ "title": "‘regression to a mean’ directory · Gwern.net",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 38622,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "id": "navbar",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 66,
+   "text": "Skip to main content\nSite\n Me\n New\n Blog\n Links\n Patreon\n Substack",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 80,
+     "height": 94
+    }
+   ],
+   "linkTextRatio": 0.5,
+   "geometry": {
+    "top": -47,
+    "height": 110,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "header",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 32,
+   "text": "‘regression to a mean’ directory",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 105,
+    "height": 58,
+    "widthFraction": 0.57,
+    "leftFraction": 0.21,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p",
+   "class": "block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 227,
+   "text": "Regression-to-a-mean is a gen­eral sta­tis­ti­cal phe­nom­e­non which leads to sev­eral wide­spread fal­lac­ies in an­a­lyz­ing & in­ter­pret­ing sta­tis­ti­cal re­sults, such as ‘resid­ual con­found­ing’ and ‘Lord’s para­dox’.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 197,
+    "height": 60,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "first-block first-graf intro-graf block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 341,
+   "text": "Re­gres­sion to a mean⁠: If you se­lect some­thing highly un­usual in one way, it will prob­a­bly be more usual in other ways, be­cause stuff is usu­ally more usual than un­usual. This has many im­pli­ca­tions, like “re­gres­sion fal­lacy”⁠, but it also leads to ad­di­tional er­rors, par­tic­u­larly when com­bined with mea­sure­ment error:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 302,
+    "height": 128,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "ul",
+   "class": "list big-list list-level-1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 6156,
+   "text": "Resid­ual Con­found­ing: “Sta­tis­ti­cally Con­trol­ling for Con­found­ing Con­structs Is Harder than You Think”⁠, West­fall & Yarkoni 2016 (⁠Phillips & Smith 1992⁠/⁠Phillips & Smith 1991⁠/⁠Smith et al 1992⁠, ⁠Lawlor et al 200422yaa⁠/⁠Lawlor et al 200422yab⁠, Smith et al 2007⁠/Fewell et al 2007⁠/Smith 2011⁠, Pin­gault et al 2021⁠)⁠⁠1⁠ Ex­am­ple: Parker et al 2021⁠.\n“Im­pos­si­bly hun­gry judges”, ",
+   "counts": {
+    "links": 66,
+    "images": 0,
+    "headings": 0,
+    "listItems": 23,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 24,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 450,
+    "height": 2652,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "section",
+   "id": "see-also",
+   "class": "level1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 30,
+   "text": "See Also\nParent (‘Bayes’ tag)⁠",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 3167,
+    "height": 54,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "class": "list-level-1 list",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 5533,
+   "text": "Gwern\n“Regression to A Mean: But It Could Work For Us!”, Gwern 2024\n“Everything Is Correlated”, Gwern 2014\n“Calculating The Gaussian Expected Maximum”, Gwern 2016\n“How Often Does Correlation=Causality?”, Gwern 2014\n“SMPY Bibliography”, Gwern 2018\n“The Replication Crisis: Flaws in Mainstream Science”, Gwern 2010\n“𝐺𝑒𝑛𝑖𝑢𝑠 𝑅𝑒𝑣𝑖𝑠𝑖𝑡𝑒𝑑 Revisited”, Gwern 2016\nLinks\n“A Genetically Informed R",
+   "counts": {
+    "links": 67,
+    "images": 0,
+    "headings": 0,
+    "listItems": 67,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 3284,
+    "height": 2569,
+    "widthFraction": 0.6,
+    "leftFraction": 0.2,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h1",
+   "class": "display-pop-not heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 5,
+   "text": "Gwern",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 5944,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 61,
+   "text": "“Regression to A Mean: But It Could Work For Us!”, Gwern 2024",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Regression to A Mean: But It Could Work For Us!”, Gwern 2024'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6011,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 109,
+   "text": "⁠“Regression to A Mean: But It Could Work For Us!”⁠, ⁠Gwern⁠2024 (comics, regression to a mean, probability):",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 6080,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "figure",
+   "class": "width-full block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "[Image]",
+     "width": 306,
+     "height": 656
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6184,
+    "height": 656,
+    "widthFraction": 0.95,
+    "leftFraction": 0.02,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 38,
+   "text": "“Everything Is Correlated”, Gwern 2014",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Everything Is Correlated”, Gwern 2014'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6894,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 226,
+   "text": "⁠“Everything Is Correlated”⁠, ⁠Gwern⁠2014 (ads, genetic correlation, insight porn, epistemology, Lizardman survey constant, regression to a mean, causality, variance components, survey; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 6935,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 15922,
+   "text": "Statistical folklore asserts that “everything is correlated”: in any real-world dataset, most or all measured variables will have non-zero correlations, even between variables which appear to be completely independent of each other, and that these correlations are not merely sampling error flukes but will appear in large-scale datasets to arbitrarily designated levels of statistical-significance o",
+   "counts": {
+    "links": 348,
+    "images": 5,
+    "headings": 0,
+    "listItems": 284,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 270,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 1 (Smith et al 2007): Histogram of Statistically-Significant (at α = 1%) Age-Adjusted Pairwise Correlation Coeffi",
+     "width": 393,
+     "height": 267
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 7046,
+    "height": 1777,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 55,
+   "text": "“Calculating The Gaussian Expected Maximum”, Gwern 2016",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Calculating The Gaussian Expected Maximum”, Gwern 2016'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 8878,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 144,
+   "text": "⁠“Calculating The Gaussian Expected Maximum”⁠, ⁠Gwern⁠2016 (CS/r, Bayes, order statistics, probability; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 8947,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 6611,
+   "text": "In generating a sample of n datapoints drawn from a normal/Gaussian distribution⁠ with a particular mean/SD, how big on average the biggest datapoint is will depend on how large n is. Knowing this average is useful in a number of areas like sports or breeding or manufacturing, as it defines how bad/good the worst/best datapoint will be (eg. the score of the winner in a multi-player game).\nThe orde",
+   "counts": {
+    "links": 150,
+    "images": 5,
+    "headings": 0,
+    "listItems": 108,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 117,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Statistical graph comparing the accuracy of several methods for predicting how large will be the largest sample in a ran",
+     "width": 393,
+     "height": 236
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 9026,
+    "height": 1272,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 51,
+   "text": "“How Often Does Correlation=Causality?”, Gwern 2014",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“How Often Does Correlation=Causality?”, Gwern 2014'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 10352,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 187,
+   "text": "⁠“How Often Does Correlation=Causality?”⁠, ⁠Gwern⁠2014 (economics, insight porn, cognitive bias, regression to a mean, scientific bias, causality; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 10393,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 5879,
+   "text": "Medical\nEconomics\nSociology\nPsychology\nEducation\nTODO\nClick to expandClick to expandBacklinks (5):⁠\nAgainst Caring About Subtle Poisons⁠:\n[backlink context]⁠\n‘regression to a mean’ directory⁠ (context⁠):\n⁠[backlink context]\nOn Having Enough Socks⁠ (⁠full context⁠):\n⁠[backlink context]\nEverything Is Correlated⁠ (⁠full context⁠):\n⁠[backlink context]\nWhy Correlation Usually ≠ Causation⁠ (⁠full contex",
+   "counts": {
+    "links": 101,
+    "images": 5,
+    "headings": 0,
+    "listItems": 87,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 89,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Graph illustrating that correlational estimates can vastly overestimate causal statistical estimates due to pervasive co",
+     "width": 393,
+     "height": 317
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.95,
+   "geometry": {
+    "top": 10472,
+    "height": 774,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 31,
+   "text": "“SMPY Bibliography”, Gwern 2018",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“SMPY Bibliography”, Gwern 2018'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 11300,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 119,
+   "text": "⁠“SMPY Bibliography”⁠, ⁠Gwern⁠2018 (SMPY, mental energy, regression to a mean; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 11341,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 27663,
+   "text": "SMPY (Study of Mathematically Precocious Youth) is a long-running longitudinal survey of extremely mathematically-talented or intelligent youth, which has been following high-IQ cohorts since the 1970s. It has provided the largest and most concrete findings about the correlates and predictive power of screening extremely intelligent children, and revolutionized gifted & talented educational practi",
+   "counts": {
+    "links": 772,
+    "images": 4,
+    "headings": 0,
+    "listItems": 726,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 470,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 11420,
+    "height": 5839,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 65,
+   "text": "“The Replication Crisis: Flaws in Mainstream Science”, Gwern 2010",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“The Replication Crisis: Flaws in Mainstream Science”, Gwern 2010'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 17314,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 226,
+   "text": "⁠“The Replication Crisis: Flaws in Mainstream Science”⁠, ⁠Gwern⁠2010 (DNB, longevity, nootropic, psychology, sociology, regression to a mean, publication bias, causality, meta-analysis; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 14,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 17383,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 45285,
+   "text": "Long-standing problems in standard scientific methodology have exploded as the “Replication Crisis⁠”: the discovery that many results in fields as diverse as psychology, economics, medicine, biology, and sociology are in fact false or quantitatively highly inaccurately measured. I cover here a handful of the issues and publications on this large, important, and rapidly developing topic up to about",
+   "counts": {
+    "links": 748,
+    "images": 5,
+    "headings": 0,
+    "listItems": 617,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 679,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 1 (Open Science Collaboration 2015): Original study effect size versus replication effect size (correlation coeff",
+     "width": 393,
+     "height": 321
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.95,
+   "geometry": {
+    "top": 17494,
+    "height": 1173,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 55,
+   "text": "“𝐺𝑒𝑛𝑖𝑢𝑠 𝑅𝑒𝑣𝑖𝑠𝑖𝑡𝑒𝑑 Revisited”, Gwern 2016",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 3
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“𝐺𝑒𝑛𝑖𝑢𝑠 𝑅𝑒𝑣𝑖𝑠𝑖𝑡𝑒𝑑 Revisited”, Gwern 2016'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 18722,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 194,
+   "text": "⁠“𝐺𝑒𝑛𝑖𝑢𝑠 𝑅𝑒𝑣𝑖𝑠𝑖𝑡𝑒𝑑 Revisited”⁠, ⁠Gwern⁠2016 (CS/r, heritability, SMPY, psychology, regression to a mean, order statistics, power analysis; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 18762,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 12286,
+   "text": "Genius Revisited documents the longitudinal results of a high-IQ/gifted-and-talented elementary school, Hunter College Elementary School (HCES); one of the most striking results is the general high education & income levels, but absence of great accomplishment on a national or global scale (eg. a Nobel prize). The authors suggest that this may reflect harmful educational practices at their element",
+   "counts": {
+    "links": 220,
+    "images": 4,
+    "headings": 0,
+    "listItems": 158,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 198,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 18841,
+    "height": 1534,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h1",
+   "class": "display-pop-not heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 5,
+   "text": "Links",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 20441,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 113,
+   "text": "“A Genetically Informed Registered Report on Adverse Childhood Experiences and Mental Health”, Baldwin et al 2022",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“A Genetically Informed Registered Report on Adverse Childhood Experiences and Mental Health”, Baldw",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 20508,
+    "height": 87,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 516,
+   "text": "⁠“A Genetically Informed Registered Report on Adverse Childhood Experiences and Mental Health”⁠, Jessie R. Baldwin, Hannah M. Sallis, Tabea Schoeler …, Mark J. Taylor, Alex S. F. Kwong, Jorim J. Tielbeek, Wikus Barkhuizen, Varun Warrier, Laura D. Howe, Andrea Danese, Eamon McCrory⁠, Fruhling Rijsdijk⁠, Henrik Larsson⁠, Sebastian Lundström, ⁠Robert Karlsson⁠, Paul Lichtenstein⁠, Marcus R. Munafò⁠, ",
+   "counts": {
+    "links": 14,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 20604,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 7715,
+   "text": "Children who experience adversities have an elevated risk of mental health problems. However, the extent to which adverse childhood experiences⁠ (ACEs) cause mental health problems remains unclear, as previous associations may partly reflect genetic confounding⁠.\nIn this Registered Report⁠, we used DNA from 11,407 children from the United Kingdom and the United States to investigate gene-environme",
+   "counts": {
+    "links": 79,
+    "images": 5,
+    "headings": 0,
+    "listItems": 40,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 55,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.51,
+   "geometry": {
+    "top": 20715,
+    "height": 1786,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 158,
+   "text": "“The Impact of Digital Media on Children’s Intelligence While Controlling for Genetic Differences in Cognition and Socioeconomic Background”, Sauce et al 2022",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“The Impact of Digital Media on Children’s Intelligence While Controlling for Genetic Differences in",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 22556,
+    "height": 87,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 278,
+   "text": "“The Impact of Digital Media on Children’s Intelligence While Controlling for Genetic Differences in Cognition and Socioeconomic Background”⁠, Bruno Sauce, Magnus Liebherr, Nicholas Judd, Torkel Klingberg⁠2022 (IQ, regression to a mean, scientific bias; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 3
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 22653,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 3791,
+   "text": "Digital media defines modern childhood, but its cognitive effects are unclear and hotly debated. We believe that studies with genetic data could clarify causal claims and correct for the typically unaccounted role of genetic predispositions.\nHere, we estimated the impact of different types of screen time (watching, socializing, or gaming) on children’s intelligence while controlling [using a polyg",
+   "counts": {
+    "links": 38,
+    "images": 2,
+    "headings": 0,
+    "listItems": 22,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 30,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 22764,
+    "height": 893,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "section",
+   "id": "gwern-doc-statistics-bayes-regression-to-mean-abstract-section",
+   "class": "level2 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 132,
+   "text": "“Regression To A Mean Fallacies”, Gwern 2021\n ⁠“Regression To A Mean Fallacies”⁠, ⁠Gwern⁠2021 (regression to a mean; ⁠bibliography⁠)",
+   "counts": {
+    "links": 5,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 23712,
+    "height": 73,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 128,
+   "text": "“Maternal Judgments of Child Numeracy and Reading Ability Predict Gains in Academic Achievement and Interest”, Parker et al 2021",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Maternal Judgments of Child Numeracy and Reading Ability Predict Gains in Academic Achievement and ",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 23839,
+    "height": 87,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 277,
+   "text": "⁠“Maternal Judgments of Child Numeracy and Reading Ability Predict Gains in Academic Achievement and Interest”⁠, Philip D. Parker, Taren Sanders, Jake Anders …, Rhiannon B. Parker, Jasper J. Duineveld2021 (IQ, language, sociology, regression to a mean; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 7,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.61,
+   "geometry": {
+    "top": 23936,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 2967,
+   "text": "[Example of regression to a mean fallacies⁠: parents know much more about their children than highly unreliable early childhood exam scores, and their “overestimates” predict later performance (particularly for immigrant parents about second-language proficiency). Of course. How could it be otherwise? (Not to mention that we already know the ⁠‘Pygmalion effect’ isn’t real⁠ so the claimed causal ex",
+   "counts": {
+    "links": 5,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 14,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 24047,
+    "height": 1514,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 118,
+   "text": "“Genetic Sensitivity Analysis: Adjusting for Genetic Confounding in Epidemiological Associations”, Pingault et al 2021",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Genetic Sensitivity Analysis: Adjusting for Genetic Confounding in Epidemiological Associations”, P",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 25616,
+    "height": 87,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 320,
+   "text": "“Genetic Sensitivity Analysis: Adjusting for Genetic Confounding in Epidemiological Associations”⁠, Jean-Baptiste Pingault, Frühling Rijsdijk⁠, Tabea Schoeler …, Shing Wan Choi, Saskia Selzam, Eva Krapohl⁠, Paul F. O’Reilly, Frank Dudbridge⁠2021 (genetic correlation, ADHD, regression to a mean; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 10,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 3
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.72,
+   "geometry": {
+    "top": 25713,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 3729,
+   "text": "Associations between exposures and outcomes reported in epidemiological studies are typically unadjusted for genetic confounding⁠. We propose a two-stage approach for estimating the degree to which such observed associations can be explained by genetic confounding. First, we assess attenuation of exposure effects in regressions controlling for increasingly powerful polygenic scores⁠. Second, we us",
+   "counts": {
+    "links": 14,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 25824,
+    "height": 1449,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "section×45",
+   "id": "allen-et-al-2020-section",
+   "class": "level2 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 8274,
+   "text": "“What Matters More for Entrepreneurship Success? A Meta-Analysis Comparing General Mental Ability and Emotional Intelligence in Entrepreneurial Settings”, Allen et al 2020\nWhat matters more for entrepreneurship success? A meta-analysis comparing general mental ability and emotional intelligence in entrepreneurial settings⁠\n“Searching for the Backfire Effect: Measurement and Design Considerations”,",
+   "counts": {
+    "links": 91,
+    "images": 46,
+    "headings": 45,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 46,
+    "paragraphs": 47,
+    "repeats": 45,
+    "coverLinks": 20
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“What Matters More for Entrepreneurship Success? A Meta-Analysis Comparing General Mental Ability an",
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 27328,
+    "height": 8205,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Sort By Magic",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 35588,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "div",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 479,
+   "text": "Annotations sorted by machine learning into ⁠inferred 'tags'⁠. This provides an alternative way to browse: instead of by date order, one can browse in topic order. The 'sorted' list has been automatically clustered into multiple sections & auto-labeled for easier browsing.\nBeginning with the newest annotation, it uses the embedding of each annotation to attempt to create a list of nearest-neighbor",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 35638,
+    "height": 192,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "section×4",
+   "id": "mean-fallacy",
+   "class": "level3 collapse expand-on-hover collapse-block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 860,
+   "text": "mean-fallacy\nClick to expandClick to expand⁠[see previous entry]⁠\npenalty-psychology\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\nplacebo-effect\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\nstatistical-interpretation\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠",
+   "counts": {
+    "links": 33,
+    "images": 8,
+    "headings": 4,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 8,
+    "paragraphs": 29,
+    "repeats": 4,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    }
+   ],
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 35870,
+    "height": 742,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   },
+   "coverLabel": "The Wax and Wane of Ovulating-Woman Science: Evolutionary psychology has long been mocked for its weird obsession with t"
+  },
+  {
+   "index": 47,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Wikipedia (13)",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 36662,
+    "height": 44,
+    "widthFraction": 0.63,
+    "leftFraction": 0.18,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "button",
+   "class": "disclosure-button labels-visible",
+   "ariaLabel": "Open/close collapsed section",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 30,
+   "text": "Click to expandClick to expand",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 22
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 36662,
+    "height": 149,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "ol",
+   "class": "list big-list list-type-decimal",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 683,
+   "text": "Baader-Meinhof Effect⁠\nhttps://en.wikipedia.org/wiki/Baader-Meinhof_Effect⁠\nDunning–Kruger effect⁠\nhttps://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect⁠\nJames–Stein estimator⁠\nhttps://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator⁠\nLord’s paradox⁠\nMadden NFL § Madden Curse⁠\nhttps://en.wikipedia.org/wiki/Madden_NFL#Madden_Curse⁠\nStatistical power⁠\nRegression dilution⁠\nRegression fallacy",
+   "counts": {
+    "links": 20,
+    "images": 0,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 20,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 36716,
+    "height": 805,
+    "widthFraction": 0.61,
+    "leftFraction": 0.18,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h1",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Miscellaneous",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 36886,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "ul",
+   "class": "list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 141,
+   "text": "⁠/doc/statistics/causality/2004-lawlor.pdf⁠\n⁠https://files.eric.ed.gov/fulltext/EJ746292.pdf⁠\nhttps://www.dcscience.net/Davey-Smith-2011.pdf⁠",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 36938,
+    "height": 106,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "h1",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 12,
+   "text": "Bibliography",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 37119,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   },
+   "coverLabel": "After century of removing appendixes, docs find antibiotics can be enough: In a five-year follow-up, nearly two-thirds o"
+  },
+  {
+   "index": 53,
+   "tag": "ol",
+   "class": "list big-list list-type-decimal",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1042,
+   "text": "2022-baldwin.pdf: “A Genetically Informed Registered Report on Adverse Childhood Experiences and Mental Health”⁠, Jessie R. Baldwin, Hannah M. Sallis, Tabea Schoeler …, Mark J. Taylor, Alex S. F. Kwong, Jorim J. Tielbeek, Wikus Barkhuizen, Varun Warrier, Laura D. Howe, Andrea Danese, Eamon McCrory⁠, Fruhling Rijsdijk⁠, Henrik Larsson⁠, Sebastian Lundström, ⁠Robert Karlsson⁠, Paul Lichtenstein⁠, Ma",
+   "counts": {
+    "links": 18,
+    "images": 7,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    }
+   ],
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 37181,
+    "height": 866,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "div",
+   "id": "footer",
+   "class": "markdownBody",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 130,
+   "text": "[Send Anonymous Feedback]\n [Quote Of The Day]\n [Site Of The Day]\n [Annotation Of The Day]\n [adblock public service announcement]\n​",
+   "counts": {
+    "links": 7,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 380,
+     "height": 33
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 380,
+     "height": 33
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 134,
+     "height": 33
+    }
+   ],
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 38097,
+    "height": 500,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "button",
+   "class": "toggle-button main-toggle-button",
+   "landmarks": [],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5,
+    "height": 46,
+    "widthFraction": 0.03,
+    "leftFraction": 0.95,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  }
+ ]
+}

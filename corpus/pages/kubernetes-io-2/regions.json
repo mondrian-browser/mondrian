@@ -1,0 +1,1690 @@
+{
+ "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/",
+ "title": "Installing kubeadm | Kubernetes",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 7550,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "class": "js-navbar-scroll navbar navbar-expand flex-md-column",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 487,
+   "text": ".cls-1{fill:#fff}.cls-2{fill:#326ce5}KubernetesDocumentation\nKubernetes Blog\nTraining\nCareers\nPartners\nCommunity\nVersionsRelease Information\nv1.37\nv1.36\nv1.35\nv1.34\nv1.33\nEnglish中文 (Chinese)\nFrançais (French)\nBahasa Indonesia (Indonesian)\n日本語 (Japanese)\n한국어 (Korean)\nفارسی (Persian)\nPortuguês (Portuguese)\nTiếng Việt (Vietnamese)\nবাংলা (Bengali)\nDeutsch (German)\nहिन्दी (Hindi)\nItaliano (Italian)\nPol",
+   "counts": {
+    "links": 31,
+    "images": 2,
+    "headings": 0,
+    "listItems": 34,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 146,
+     "height": 38
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.64,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "aside",
+   "landmarks": [
+    "header",
+    "aside"
+   ],
+   "textLength": 235,
+   "text": "KubeCon + CloudNativeCon North America 2026\nJoin us for four days of incredible opportunities to collaborate, learn and share with the cloud native community.\nBuy your ticket now! 9 - 12 November | Salt Lake City, Utah\nHide this notice",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 163,
+     "height": 100
+    }
+   ],
+   "linkTextRatio": 0.43,
+   "geometry": {
+    "top": 0,
+    "height": 285,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "form",
+   "class": "td-sidebar__search d-flex align-items-center",
+   "landmarks": [
+    "aside",
+    "form"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 349,
+    "height": 70,
+    "widthFraction": 0.14,
+    "leftFraction": 0.02,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "td-sidebar-nav__section pe-md-3 ul-0",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 22985,
+   "text": "Kubernetes Documentation\nDocumentation\nAvailable Documentation Versions\nGetting started\nLearning environment\nProduction environment\nContainer Runtimes\nInstalling Kubernetes with deployment tools\nBootstrapping clusters with kubeadm\nInstalling kubeadm\nTroubleshooting kubeadm\nCreating a cluster with kubeadm\nCustomizing components with the kubeadm API\nOptions for Highly Available Topology\nCreating Hig",
+   "counts": {
+    "links": 856,
+    "images": 0,
+    "headings": 0,
+    "listItems": 856,
+    "tableRows": 0,
+    "controls": 855,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 420,
+    "height": 1872,
+    "widthFraction": 0.15,
+    "leftFraction": 0.01,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "td-page-meta ms-2 pb-1 pt-2",
+   "landmarks": [
+    "aside"
+   ],
+   "textLength": 99,
+   "text": "Edit this page Third party content advice\n Create child page\n Create an issue\n Print entire section",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 297,
+    "height": 164,
+    "widthFraction": 0.14,
+    "leftFraction": 0.83,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "nav",
+   "id": "TableOfContents",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 266,
+   "text": "Before you begin\nCheck your OS version\nVerify the MAC address and product_uuid are unique for every node\nCheck network adapters\nCheck required ports\nSwap configuration\nInstalling a container runtime\nInstalling kubeadm, kubelet and kubectl\nTroubleshooting\nWhat's next",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 477,
+    "height": 376,
+    "widthFraction": 0.14,
+    "leftFraction": 0.83,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "nav",
+   "class": "td-breadcrumbs",
+   "ariaLabel": "breadcrumb",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 162,
+   "text": "Kubernetes Documentation\nGetting started\nProduction environment\nInstalling Kubernetes with deployment tools\nBootstrapping clusters with kubeadm\nInstalling kubeadm",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 317,
+    "height": 48,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h1",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 18,
+   "text": "Installing kubeadm",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 381,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 204,
+   "text": "This page shows how to install the kubeadm toolbox.\nFor information on how to create a cluster with kubeadm once you have performed this installation process,\nsee the Creating a cluster with kubeadm page.",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 150,
+     "height": 171
+    }
+   ],
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 453,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 144,
+   "text": "This installation guide is for Kubernetes v1.37. If you want to use a different Kubernetes version, please refer to the following pages instead:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 541,
+    "height": 48,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 151,
+   "text": "Installing kubeadm (Kubernetes v1.36)\nInstalling kubeadm (Kubernetes v1.35)\nInstalling kubeadm (Kubernetes v1.34)\nInstalling kubeadm (Kubernetes v1.33)",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 605,
+    "height": 108,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h2",
+   "id": "before-you-begin",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "Before you begin",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 681,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 562,
+   "text": "A compatible Linux host. The Kubernetes project provides generic instructions for Linux distributions\nbased on Debian and Red Hat, and those distributions without a package manager.\n2 GB or more of RAM per machine (any less will leave little room for your apps).\n2 CPUs or more for control plane machines.\nFull network connectivity between all machines in the cluster (public or private network is fi",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 815,
+    "height": 260,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 493,
+   "text": "Note:\nThe kubeadm installation is done via binaries that use dynamic linking and assumes that your target system provides glibc.\nThis is a reasonable assumption on many Linux distributions (including Debian, Ubuntu, Fedora, CentOS, etc.)\nbut it is not always the case with custom and lightweight distributions which don't include glibc by default, such as Alpine Linux.\nThe expectation is that the di",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1107,
+    "height": 200,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "id": "check-your-os-version",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 21,
+   "text": "Check your OS version",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1275,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "alert alert-secondary callout third-party-content",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 302,
+   "text": "Note: This section links to third party projects that provide functionality required by Kubernetes. The Kubernetes project authors aren't responsible for these projects, which are listed alphabetically. To add a project to this list, read the content guide before submitting a change. More information.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 1425,
+    "height": 128,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "ul",
+   "id": "tabs-operating-system-version-check",
+   "class": "nav nav-tabs",
+   "role": "tablist",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "Linux\nWindows",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1585,
+    "height": 46,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "div",
+   "id": "tabs-operating-system-version-check-0",
+   "class": "tab-body tab-pane fadeshow active",
+   "role": "tabpanel",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 177,
+   "text": "The kubeadm project supports LTS kernels. See List of LTS kernels.\nYou can get the kernel version using the command uname -r\nFor more information, see Linux Kernel Requirements.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 1631,
+    "height": 109,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 547,
+   "text": "A Kubernetes cluster created by kubeadm depends on software that use kernel features.\nThis software includes, but is not limited to the\ncontainer runtime,\nthe kubelet, and a Container Network Interface plugin.\nTo help you avoid unexpected errors as a result of an unsupported kernel version, kubeadm runs the SystemVerification\npre-flight check. This check fails if the kernel version is not supporte",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1764,
+    "height": 226,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h2",
+   "id": "verify-mac-address",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 65,
+   "text": "Verify the MAC address and product_uuid are unique for every node",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1958,
+    "height": 157,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 187,
+   "text": "You can get the MAC address of the network interfaces using the command ip link or ifconfig -a\nThe product_uuid can be checked by using the command sudo cat /sys/class/dmi/id/product_uuid",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2131,
+    "height": 100,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 281,
+   "text": "It is very likely that hardware devices will have unique addresses, although some virtual machines may have\nidentical values. Kubernetes uses these values to uniquely identify the nodes in the cluster.\nIf these values are not unique to each node, the installation process\nmay fail.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 2247,
+    "height": 96,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h2",
+   "id": "check-network-adapters",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "Check network adapters",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2311,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 210,
+   "text": "If you have more than one network adapter, and your Kubernetes components are not reachable on the default\nroute, we recommend you add IP route(s) so Kubernetes cluster addresses go via the appropriate adapter.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2446,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h2",
+   "id": "check-required-ports",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Check required ports",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2486,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 174,
+   "text": "These required ports\nneed to be open in order for Kubernetes components to communicate with each other.\nYou can use tools like netcat to check if a port is open. For example:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 2620,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 225,
+   "text": "nc 127.0.0.1 6443 -zv -w 2\nThe pod network plugin you use may also require certain ports to be\nopen. Since this differs with each pod network plugin, please see the\ndocumentation for the plugins about what port(s) those need.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2700,
+    "height": 159,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h2",
+   "id": "swap-configuration",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 18,
+   "text": "Swap configuration",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2827,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 163,
+   "text": "The default behavior of a kubelet is to fail to start if swap memory is detected on a node.\nThis means that swap should either be disabled or tolerated by kubelet.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2961,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 639,
+   "text": "To tolerate swap, add failSwapOn: false to kubelet configuration or as a command line argument.\nNote: even if failSwapOn: false is provided, workloads wouldn't have swap access by default.\nThis can be changed by setting a swapBehavior, again in the kubelet configuration file. To use swap,\nset a swapBehavior other than the default NoSwap setting.\nSee Swap memory management for more details.\nTo disa",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 3025,
+    "height": 196,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h2",
+   "id": "installing-runtime",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 30,
+   "text": "Installing a container runtime",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3189,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 465,
+   "text": "To run containers in Pods, Kubernetes uses a\ncontainer runtime.\nBy default, Kubernetes uses the\nContainer Runtime Interface (CRI)\nto interface with your chosen container runtime.\nIf you don't specify a runtime, kubeadm automatically tries to detect an installed\ncontainer runtime by scanning through a list of known endpoints.\nIf multiple or no container runtimes are detected kubeadm will throw an e",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 3324,
+    "height": 218,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 362,
+   "text": "See container runtimes\nfor more information.\nNote:\nDocker Engine does not implement the CRI\nwhich is a requirement for a container runtime to work with Kubernetes.\nFor that reason, an additional service cri-dockerd\nhas to be installed. cri-dockerd is a project based on the legacy built-in\nDocker Engine support that was removed from the kubelet in version 1.24.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 3558,
+    "height": 208,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 77,
+   "text": "The tables below include the known endpoints for supported operating systems:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3798,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "ul",
+   "id": "tabs-container-runtime",
+   "class": "nav nav-tabs",
+   "role": "tablist",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "Linux\nWindows",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3838,
+    "height": 46,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "table",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 212,
+   "text": "Linux container runtimesRuntimePath to Unix domain socket\ncontainerdunix:///var/run/containerd/containerd.sock\nCRI-Ounix:///var/run/crio/crio.sock\nDocker Engine (using cri-dockerd)unix:///var/run/cri-dockerd.sock",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 4,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3884,
+    "height": 220,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h2",
+   "id": "installing-kubeadm-kubelet-and-kubectl",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 39,
+   "text": "Installing kubeadm, kubelet and kubectl",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4105,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 282,
+   "text": "You will install these packages on all of your machines:\nkubeadm: the command to bootstrap the cluster.\nkubelet: the component that runs on all of the machines in your cluster\nand does things like starting pods and containers.\nkubectl: the command line util to talk to your cluster.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4239,
+    "height": 168,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 624,
+   "text": "kubeadm will not install or manage kubelet or kubectl for you, so you will\nneed to ensure they match the version of the Kubernetes control plane you want\nkubeadm to install for you. If you do not, there is a risk of a version skew occurring that\ncan lead to unexpected, buggy behaviour. However, one minor version skew between the\nkubelet and the control plane is supported, but the kubelet version m",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 4423,
+    "height": 184,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "div",
+   "class": "alert alert-danger",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 162,
+   "text": "Warning:\nThese instructions exclude all Kubernetes packages from any system upgrades.\nThis is because kubeadm and Kubernetes require\nspecial attention to upgrade.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 4639,
+    "height": 114,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 123,
+   "text": "For more information on version skews, see:\nKubernetes version and version-skew policy\nKubeadm-specific version skew policy",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.41,
+   "geometry": {
+    "top": 4785,
+    "height": 92,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "class": "alert alert-secondary callout note",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 544,
+   "text": "Note: The legacy package repositories (apt.kubernetes.io and yum.kubernetes.io) have been\ndeprecated and frozen starting from September 13, 2023.\nUsing the new package repositories hosted at pkgs.k8s.io\nis strongly recommended and required in order to install Kubernetes versions released after September 13, 2023.\nThe deprecated legacy repositories, and their contents, might be removed at any time ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 4909,
+    "height": 200,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 202,
+   "text": "Note:\nThere's a dedicated package repository for each Kubernetes minor version. If you want to install\na minor version other than v1.37, please see the installation guide for\nyour desired minor version.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5141,
+    "height": 128,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "ul",
+   "id": "tabs-k8s-install",
+   "class": "nav nav-tabs",
+   "role": "tablist",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 80,
+   "text": "Debian-based distributions\nRed Hat-based distributions\nWithout a package manager",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5301,
+    "height": 91,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 774,
+   "text": "These instructions are for Kubernetes v1.37.\nUpdate the apt package index and install packages needed to use the Kubernetes apt repository:\nsudo apt-get update\n# apt-transport-https may be a dummy package; if so, you can skip that package\nsudo apt-get install -y apt-transport-https ca-certificates curl gpg\nDownload the public signing key for the Kubernetes package repositories.\nThe same signing ke",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5392,
+    "height": 381,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "div",
+   "class": "alert alert-info",
+   "role": "note",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 161,
+   "text": "Note:\nIn releases older than Debian 12 and Ubuntu 22.04, directory /etc/apt/keyrings does not\nexist by default, and it should be created before the curl command.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5805,
+    "height": 104,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 924,
+   "text": "Add the appropriate Kubernetes apt repository. Please note that this repository have packages\nonly for Kubernetes 1.37; for other Kubernetes minor versions, you need to\nchange the Kubernetes minor version in the URL to match your desired minor version\n(you should also check that you are reading the documentation for the version of Kubernetes\nthat you plan to install).\n# This overwrites any existin",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5941,
+    "height": 491,
+    "widthFraction": 0.46,
+    "leftFraction": 0.22,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 110,
+   "text": "The kubelet is now restarting every few seconds, as it waits in a crashloop for\nkubeadm to tell it what to do.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6477,
+    "height": 48,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "h2",
+   "id": "troubleshooting",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Troubleshooting",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6493,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 91,
+   "text": "If you are running into difficulties with kubeadm, please consult our\ntroubleshooting docs.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 6628,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h2",
+   "id": "what-s-next",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "What's next",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6620,
+    "height": 118,
+    "widthFraction": 0.49,
+    "leftFraction": 0.2,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "div",
+   "id": "pre-footer",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 293,
+   "text": "Using kubeadm to Create a Cluster\nFeedback\nWas this page helpful?\nYes\nNoThanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on\nStack Overflow.\nOpen an issue in the GitHub Repository if you want to\nreport a problem\nor\nsuggest an improvement.",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 1,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 6730,
+    "height": 223,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "div",
+   "class": "td-page-meta__lastmod",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 121,
+   "text": "Last modified September 09, 2026 at 8:51 AM PST: Update kubeadm install docs to avoid iptables dep on RHEL10 (6f9055942e)",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.6,
+   "geometry": {
+    "top": 7001,
+    "height": 65,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "div",
+   "id": "third-party-content-disclaimer",
+   "class": "pageinfo pageinfo-secondary",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 352,
+   "text": "Items on this page refer to third party products or projects that provide functionality required by Kubernetes. The Kubernetes project authors aren't responsible for those third-party products or projects. See the CNCF website guidelines for more details.\nYou should read the content guide before proposing a change that adds an extra third-party link.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 7098,
+    "height": 160,
+    "widthFraction": 0.61,
+    "leftFraction": 0.2,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "footer",
+   "class": "bg-dark py-5 row d-print-none",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 277,
+   "text": "© 2026 The Kubernetes Authors | Documentation Distributed under CC BY 4.0\n© 2026 Copyright © Kubernetes a Series of LF Projects, LLC. For website terms of use, trademark policy and other project policies please see https://lfprojects.org/policies/\nICP license: 京ICP备17074266号-3",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 7322,
+    "height": 228,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,1564 @@
+{
+ "id": "kotlinlang-org-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:52:09.845Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 225553,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.71,
+   "margin": 0.45,
+   "top": [
+    [
+     "site_nav",
+     0.72
+    ],
+    [
+     "site_header",
+     0.27
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "version_switcher",
+   "confidence": 0.35,
+   "margin": 0.14,
+   "top": [
+    [
+     "version_switcher",
+     0.37
+    ],
+    [
+     "site_nav",
+     0.23
+    ],
+    [
+     "section_nav",
+     0.17
+    ],
+    [
+     "site_header",
+     0.14
+    ],
+    [
+     "settings",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "version_switcher"
+  },
+  {
+   "index": 2,
+   "choice": "table_of_contents",
+   "confidence": 0.51,
+   "margin": 0.06,
+   "top": [
+    [
+     "table_of_contents",
+     0.52
+    ],
+    [
+     "section_nav",
+     0.46
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 3,
+   "choice": "title",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "title",
+     0.96
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "filters",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "title"
+  },
+  {
+   "index": 4,
+   "choice": "version_switcher",
+   "confidence": 0.66,
+   "margin": 0.34,
+   "top": [
+    [
+     "version_switcher",
+     0.67
+    ],
+    [
+     "tabs",
+     0.33
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "version_switcher"
+  },
+  {
+   "index": 5,
+   "choice": "summary",
+   "confidence": 0.61,
+   "margin": 0.26,
+   "top": [
+    [
+     "summary",
+     0.62
+    ],
+    [
+     "text",
+     0.36
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "summary"
+  },
+  {
+   "index": 6,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "teasers",
+   "final": "heading"
+  },
+  {
+   "index": 7,
+   "choice": "teaser_card",
+   "confidence": 0.48,
+   "margin": 0.35,
+   "top": [
+    [
+     "teaser_card",
+     0.49
+    ],
+    [
+     "table",
+     0.14
+    ],
+    [
+     "text",
+     0.1
+    ],
+    [
+     "list",
+     0.07
+    ],
+    [
+     "version_switcher",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 8,
+   "choice": "teaser_card",
+   "confidence": 0.49,
+   "margin": 0.34,
+   "top": [
+    [
+     "teaser_card",
+     0.5
+    ],
+    [
+     "section_nav",
+     0.16
+    ],
+    [
+     "table",
+     0.12
+    ],
+    [
+     "list",
+     0.11
+    ],
+    [
+     "definition_list",
+     0.1
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 9,
+   "choice": "teaser_card",
+   "confidence": 0.65,
+   "margin": 0.52,
+   "top": [
+    [
+     "teaser_card",
+     0.66
+    ],
+    [
+     "section_nav",
+     0.14
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "table",
+     0.07
+    ],
+    [
+     "definition_list",
+     0.03
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 10,
+   "choice": "teaser_card",
+   "confidence": 0.4,
+   "margin": 0.23,
+   "top": [
+    [
+     "teaser_card",
+     0.42
+    ],
+    [
+     "list",
+     0.19
+    ],
+    [
+     "section_nav",
+     0.18
+    ],
+    [
+     "table",
+     0.1
+    ],
+    [
+     "definition_list",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 11,
+   "choice": "teaser_card",
+   "confidence": 0.45,
+   "margin": 0.15,
+   "top": [
+    [
+     "teaser_card",
+     0.46
+    ],
+    [
+     "section_nav",
+     0.31
+    ],
+    [
+     "list",
+     0.11
+    ],
+    [
+     "table",
+     0.07
+    ],
+    [
+     "definition_list",
+     0.03
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 12,
+   "choice": "teaser_card",
+   "confidence": 0.44,
+   "margin": 0.25,
+   "top": [
+    [
+     "teaser_card",
+     0.46
+    ],
+    [
+     "section_nav",
+     0.21
+    ],
+    [
+     "list",
+     0.15
+    ],
+    [
+     "table",
+     0.08
+    ],
+    [
+     "definition_list",
+     0.07
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 13,
+   "choice": "teaser_card",
+   "confidence": 0.35,
+   "margin": 0.12,
+   "top": [
+    [
+     "teaser_card",
+     0.36
+    ],
+    [
+     "definition_list",
+     0.24
+    ],
+    [
+     "list",
+     0.22
+    ],
+    [
+     "table",
+     0.1
+    ],
+    [
+     "section_nav",
+     0.07
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 14,
+   "choice": "teaser_card",
+   "confidence": 0.61,
+   "margin": 0.5,
+   "top": [
+    [
+     "teaser_card",
+     0.63
+    ],
+    [
+     "definition_list",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.1
+    ],
+    [
+     "list",
+     0.07
+    ],
+    [
+     "table",
+     0.05
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 15,
+   "choice": "teaser_card",
+   "confidence": 0.49,
+   "margin": 0.36,
+   "top": [
+    [
+     "teaser_card",
+     0.5
+    ],
+    [
+     "list",
+     0.14
+    ],
+    [
+     "table",
+     0.11
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "definition_list",
+     0.1
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 16,
+   "choice": "table",
+   "confidence": 0.31,
+   "margin": 0.05,
+   "top": [
+    [
+     "table",
+     0.32
+    ],
+    [
+     "list",
+     0.27
+    ],
+    [
+     "section_nav",
+     0.25
+    ],
+    [
+     "teaser_card",
+     0.07
+    ],
+    [
+     "table_of_contents",
+     0.04
+    ]
+   ],
+   "block": "table",
+   "slot": "teasers",
+   "final": "table"
+  },
+  {
+   "index": 17,
+   "choice": "teaser_card",
+   "confidence": 0.44,
+   "margin": 0.3,
+   "top": [
+    [
+     "teaser_card",
+     0.46
+    ],
+    [
+     "definition_list",
+     0.16
+    ],
+    [
+     "list",
+     0.14
+    ],
+    [
+     "section_nav",
+     0.12
+    ],
+    [
+     "table",
+     0.1
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 18,
+   "choice": "teaser_card",
+   "confidence": 0.45,
+   "margin": 0.3,
+   "top": [
+    [
+     "teaser_card",
+     0.47
+    ],
+    [
+     "list",
+     0.17
+    ],
+    [
+     "definition_list",
+     0.15
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "table",
+     0.05
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 19,
+   "choice": "teaser_card",
+   "confidence": 0.3,
+   "margin": 0.13,
+   "top": [
+    [
+     "teaser_card",
+     0.31
+    ],
+    [
+     "table",
+     0.18
+    ],
+    [
+     "definition_list",
+     0.16
+    ],
+    [
+     "list",
+     0.15
+    ],
+    [
+     "section_nav",
+     0.14
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 20,
+   "choice": "teaser_card",
+   "confidence": 0.58,
+   "margin": 0.47,
+   "top": [
+    [
+     "teaser_card",
+     0.6
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "definition_list",
+     0.09
+    ],
+    [
+     "table",
+     0.09
+    ],
+    [
+     "list",
+     0.07
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 21,
+   "choice": "teaser_card",
+   "confidence": 0.54,
+   "margin": 0.44,
+   "top": [
+    [
+     "teaser_card",
+     0.56
+    ],
+    [
+     "table",
+     0.12
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "definition_list",
+     0.09
+    ],
+    [
+     "list",
+     0.08
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 22,
+   "choice": "teaser_card",
+   "confidence": 0.5,
+   "margin": 0.35,
+   "top": [
+    [
+     "teaser_card",
+     0.51
+    ],
+    [
+     "definition_list",
+     0.16
+    ],
+    [
+     "list",
+     0.15
+    ],
+    [
+     "table",
+     0.11
+    ],
+    [
+     "section_nav",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 23,
+   "choice": "teaser_card",
+   "confidence": 0.37,
+   "margin": 0.21,
+   "top": [
+    [
+     "teaser_card",
+     0.38
+    ],
+    [
+     "table",
+     0.17
+    ],
+    [
+     "definition_list",
+     0.13
+    ],
+    [
+     "list",
+     0.12
+    ],
+    [
+     "version_switcher",
+     0.09
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 24,
+   "choice": "teaser_card",
+   "confidence": 0.3,
+   "margin": 0.05,
+   "top": [
+    [
+     "teaser_card",
+     0.32
+    ],
+    [
+     "definition_list",
+     0.27
+    ],
+    [
+     "table",
+     0.14
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.12
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 25,
+   "choice": "teaser_card",
+   "confidence": 0.29,
+   "margin": 0.09,
+   "top": [
+    [
+     "teaser_card",
+     0.3
+    ],
+    [
+     "definition_list",
+     0.21
+    ],
+    [
+     "section_nav",
+     0.16
+    ],
+    [
+     "list",
+     0.14
+    ],
+    [
+     "table",
+     0.1
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 26,
+   "choice": "teaser_card",
+   "confidence": 0.49,
+   "margin": 0.29,
+   "top": [
+    [
+     "teaser_card",
+     0.51
+    ],
+    [
+     "definition_list",
+     0.22
+    ],
+    [
+     "list",
+     0.1
+    ],
+    [
+     "table",
+     0.08
+    ],
+    [
+     "section_nav",
+     0.07
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 27,
+   "choice": "teaser_card",
+   "confidence": 0.61,
+   "margin": 0.5,
+   "top": [
+    [
+     "teaser_card",
+     0.62
+    ],
+    [
+     "section_nav",
+     0.12
+    ],
+    [
+     "list",
+     0.11
+    ],
+    [
+     "table",
+     0.07
+    ],
+    [
+     "definition_list",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 28,
+   "choice": "teaser_card",
+   "confidence": 0.39,
+   "margin": 0.2,
+   "top": [
+    [
+     "teaser_card",
+     0.4
+    ],
+    [
+     "table",
+     0.2
+    ],
+    [
+     "definition_list",
+     0.19
+    ],
+    [
+     "list",
+     0.09
+    ],
+    [
+     "section_nav",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 29,
+   "choice": "teaser_card",
+   "confidence": 0.54,
+   "margin": 0.42,
+   "top": [
+    [
+     "teaser_card",
+     0.56
+    ],
+    [
+     "section_nav",
+     0.14
+    ],
+    [
+     "definition_list",
+     0.1
+    ],
+    [
+     "list",
+     0.1
+    ],
+    [
+     "table",
+     0.08
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 30,
+   "choice": "teaser_card",
+   "confidence": 0.39,
+   "margin": 0.22,
+   "top": [
+    [
+     "teaser_card",
+     0.41
+    ],
+    [
+     "section_nav",
+     0.19
+    ],
+    [
+     "list",
+     0.17
+    ],
+    [
+     "definition_list",
+     0.13
+    ],
+    [
+     "table",
+     0.08
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 31,
+   "choice": "teaser_card",
+   "confidence": 0.41,
+   "margin": 0.19,
+   "top": [
+    [
+     "teaser_card",
+     0.43
+    ],
+    [
+     "definition_list",
+     0.24
+    ],
+    [
+     "table",
+     0.15
+    ],
+    [
+     "list",
+     0.12
+    ],
+    [
+     "section_nav",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 32,
+   "choice": "teaser_card",
+   "confidence": 0.47,
+   "margin": 0.27,
+   "top": [
+    [
+     "teaser_card",
+     0.48
+    ],
+    [
+     "definition_list",
+     0.21
+    ],
+    [
+     "table",
+     0.15
+    ],
+    [
+     "list",
+     0.11
+    ],
+    [
+     "section_nav",
+     0.04
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 33,
+   "choice": "teaser_card",
+   "confidence": 0.53,
+   "margin": 0.37,
+   "top": [
+    [
+     "teaser_card",
+     0.55
+    ],
+    [
+     "definition_list",
+     0.18
+    ],
+    [
+     "list",
+     0.09
+    ],
+    [
+     "section_nav",
+     0.08
+    ],
+    [
+     "table",
+     0.08
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 34,
+   "choice": "teaser_card",
+   "confidence": 0.56,
+   "margin": 0.32,
+   "top": [
+    [
+     "teaser_card",
+     0.57
+    ],
+    [
+     "section_nav",
+     0.25
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "table",
+     0.04
+    ],
+    [
+     "table_of_contents",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 35,
+   "choice": "teaser_card",
+   "confidence": 0.54,
+   "margin": 0.42,
+   "top": [
+    [
+     "teaser_card",
+     0.55
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "table",
+     0.11
+    ],
+    [
+     "section_nav",
+     0.09
+    ],
+    [
+     "definition_list",
+     0.08
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 36,
+   "choice": "teaser_card",
+   "confidence": 0.51,
+   "margin": 0.35,
+   "top": [
+    [
+     "teaser_card",
+     0.52
+    ],
+    [
+     "definition_list",
+     0.17
+    ],
+    [
+     "list",
+     0.12
+    ],
+    [
+     "section_nav",
+     0.08
+    ],
+    [
+     "table",
+     0.07
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 37,
+   "choice": "teaser_card",
+   "confidence": 0.35,
+   "margin": 0.13,
+   "top": [
+    [
+     "teaser_card",
+     0.37
+    ],
+    [
+     "definition_list",
+     0.24
+    ],
+    [
+     "list",
+     0.16
+    ],
+    [
+     "section_nav",
+     0.15
+    ],
+    [
+     "table",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 38,
+   "choice": "teaser_card",
+   "confidence": 0.55,
+   "margin": 0.43,
+   "top": [
+    [
+     "teaser_card",
+     0.56
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "table",
+     0.12
+    ],
+    [
+     "section_nav",
+     0.1
+    ],
+    [
+     "definition_list",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 39,
+   "choice": "teaser_card",
+   "confidence": 0.46,
+   "margin": 0.3,
+   "top": [
+    [
+     "teaser_card",
+     0.48
+    ],
+    [
+     "section_nav",
+     0.18
+    ],
+    [
+     "table",
+     0.12
+    ],
+    [
+     "list",
+     0.11
+    ],
+    [
+     "definition_list",
+     0.08
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 40,
+   "choice": "teaser_card",
+   "confidence": 0.57,
+   "margin": 0.45,
+   "top": [
+    [
+     "teaser_card",
+     0.59
+    ],
+    [
+     "section_nav",
+     0.14
+    ],
+    [
+     "list",
+     0.1
+    ],
+    [
+     "definition_list",
+     0.07
+    ],
+    [
+     "table",
+     0.07
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 41,
+   "choice": "teaser_card",
+   "confidence": 0.51,
+   "margin": 0.32,
+   "top": [
+    [
+     "teaser_card",
+     0.52
+    ],
+    [
+     "table",
+     0.2
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.07
+    ],
+    [
+     "definition_list",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 42,
+   "choice": "table",
+   "confidence": 0.27,
+   "margin": 0.01,
+   "top": [
+    [
+     "table",
+     0.29
+    ],
+    [
+     "definition_list",
+     0.28
+    ],
+    [
+     "teaser_card",
+     0.25
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "text",
+     0.05
+    ]
+   ],
+   "block": "table",
+   "slot": "teasers",
+   "final": "table"
+  },
+  {
+   "index": 43,
+   "choice": "definition_list",
+   "confidence": 0.43,
+   "margin": 0.21,
+   "top": [
+    [
+     "definition_list",
+     0.44
+    ],
+    [
+     "teaser_card",
+     0.23
+    ],
+    [
+     "table",
+     0.14
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "text",
+     0.07
+    ]
+   ],
+   "block": "list",
+   "slot": "teasers",
+   "final": "definition_list"
+  },
+  {
+   "index": 44,
+   "choice": "definition_list",
+   "confidence": 0.37,
+   "margin": 0.05,
+   "top": [
+    [
+     "definition_list",
+     0.39
+    ],
+    [
+     "teaser_card",
+     0.34
+    ],
+    [
+     "table",
+     0.13
+    ],
+    [
+     "list",
+     0.1
+    ],
+    [
+     "section_nav",
+     0.02
+    ]
+   ],
+   "block": "list",
+   "slot": "teasers",
+   "final": "definition_list"
+  },
+  {
+   "index": 45,
+   "choice": "section_nav",
+   "confidence": 0.27,
+   "margin": 0.03,
+   "top": [
+    [
+     "section_nav",
+     0.29
+    ],
+    [
+     "list",
+     0.26
+    ],
+    [
+     "table",
+     0.19
+    ],
+    [
+     "teaser_card",
+     0.11
+    ],
+    [
+     "definition_list",
+     0.07
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 46,
+   "choice": "table",
+   "confidence": 0.25,
+   "margin": 0.01,
+   "top": [
+    [
+     "table",
+     0.27
+    ],
+    [
+     "list",
+     0.26
+    ],
+    [
+     "section_nav",
+     0.25
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "version_switcher",
+     0.05
+    ]
+   ],
+   "block": "table",
+   "slot": "teasers",
+   "final": "table"
+  },
+  {
+   "index": 47,
+   "choice": "heading",
+   "confidence": 0.81,
+   "margin": 0.7,
+   "top": [
+    [
+     "heading",
+     0.82
+    ],
+    [
+     "table_of_contents",
+     0.12
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "tabs",
+     0.01
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "page",
+   "final": "heading"
+  },
+  {
+   "index": 48,
+   "choice": "feedback",
+   "confidence": 0.95,
+   "margin": 0.9,
+   "top": [
+    [
+     "feedback",
+     0.95
+    ],
+    [
+     "vote_controls",
+     0.05
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "form",
+   "final": "feedback"
+  },
+  {
+   "index": 49,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "steps",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.705Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

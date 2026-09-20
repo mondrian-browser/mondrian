@@ -1,0 +1,182 @@
+{
+ "site": "ato.gov.au",
+ "pages": 5,
+ "pageIds": [
+  "ato-gov-au-1",
+  "ato-gov-au-2",
+  "ato-gov-au-3",
+  "ato-gov-au-4",
+  "ato-index"
+ ],
+ "derivedAt": "2026-09-20T13:53:18.508Z",
+ "blocks": [
+  {
+   "selector": "section footer > div[class*=\"RclFooter_footer__\"]",
+   "type": "site_footer",
+   "n": 20,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "section > section#top",
+   "type": "skip_link",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "header > ul[class*=\"RclHeader_top-header-bar__\"]",
+   "type": "site_nav",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "header > button[class*=\"RclLoginModal_login-button__\"]",
+   "type": "account",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "header > img",
+   "type": "site_header",
+   "n": 5,
+   "purity": 1,
+   "pages": 5
+  },
+  {
+   "selector": "header > div[class*=\"RclStandaloneSearchBox_search-container-top__\"]",
+   "type": "search",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "section nav > ul[class*=\"RclMenuPanels_menu-content__\"]",
+   "type": "site_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "section section > section#customNavCard",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "> button.nuance-fab-main",
+   "type": "chat_widget",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header > div[class*=\"RclMenuBar_menu-container__\"]",
+   "type": "site_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "section section > div[class*=\"MasterCardNavigation_card__\"]",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > section#nav-side-menu",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section section > section#page-breadcrumb",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header > button[class*=\"RclMenuBar_menu-container__\"]",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header nav > nav[class*=\"RclMenuBar_menu-container__\"]",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section section > section#feature-page-header",
+   "type": "hero",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > p[class*=\"RclSimplePageHeader_header__\"]",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div[class*=\"RclOnPageSearchBox_search-container-top__\"]",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div[class*=\"SearchBarBelow_result-list__\"]",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div[class*=\"RclDateRangeFacet_facet__\"]",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > ul[class*=\"RclChecklistFacet_facet__\"]",
+   "type": "filters",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > div[class*=\"RclSearchResultsItem_result-item__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section nav > nav[class*=\"RclPagination_pagination__\"]",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section section > section#childNavCard",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

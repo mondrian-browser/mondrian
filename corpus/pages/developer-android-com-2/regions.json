@@ -1,0 +1,1480 @@
+{
+ "url": "https://developer.android.com/guide/topics/connectivity/cross-device-sdk/overview",
+ "title": "Cross device SDK  |  Android Developers",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 4211,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "tab",
+   "class": "devsite-dropdown devsite-dropdown-full",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 1041,
+   "text": "Essentials\n Build AI experiences\n Build AI-powered Android apps with Gemini APIs and more.\n Get started\n Get started\n Create your first app. Use Compose for UI and adaptive app development to support multiple device form factors.\n Hello, world!\n Developer Verification\n Adaptive apps\n Compose for UI\n AI-powered IDE\n Training\n Monetization with Play ↗️\n Optimize by form factor\n Build apps that optim",
+   "counts": {
+    "links": 29,
+    "images": 1,
+    "headings": 0,
+    "listItems": 37,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Android Developers",
+     "width": 137,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.21,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "tab×2",
+   "class": "devsite-dropdown devsite-dropdown-full",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 1681,
+   "text": "Design & Plan\n Excellent Experiences\n Build the best experiences for your best users.\n Learn more\n UI Design\n Design a beautiful user interface using Android best practices.\n Design for Android\n Mobile\n Desktop experiences\n XR Headsets & XR Glasses\n AI Glasses\n Widgets\n Wear OS\n Android TV\n Android for Cars\n Architecture\n Design robust, testable, and maintainable app logic and services.\n Introduct",
+   "counts": {
+    "links": 59,
+    "images": 0,
+    "headings": 0,
+    "listItems": 77,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 2
+   },
+   "coverLabel": "Develop, selected",
+   "linkTextRatio": 0.48,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.21,
+    "leftFraction": 0.23,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "button",
+   "id": "tab-overflow-button-vpTl",
+   "class": "devsite-tabs-overflow-button devsite-icon devsite-icon-arrow-drop-down",
+   "ariaLabel": "Dropdown menu for Extended Navigation",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "nav"
+   ],
+   "textLength": 4,
+   "text": "More",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 48,
+    "widthFraction": 0.06,
+    "leftFraction": 0.44,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "form",
+   "class": "devsite-search-form",
+   "landmarks": [
+    "section",
+    "role=banner",
+    "form"
+   ],
+   "textLength": 1,
+   "text": "/",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6,
+    "height": 36,
+    "widthFraction": 0.14,
+    "leftFraction": 0.56,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "devsite-language-selector",
+   "ariaLabel": "Select your language preference.",
+   "landmarks": [
+    "section",
+    "role=banner"
+   ],
+   "textLength": 279,
+   "text": "Light theme\n Dark theme\n Device default\nEnglish\n English\n Deutsch\n Español – América Latina\n Français\n Indonesia\n Italiano\n Polski\n Português – Brasil\n Tiếng Việt\n Türkçe\n Русский\n עברית\n العربيّة\n فارسی\n हिंदी\n বাংলা\n ภาษาไทย\n 中文 – 简体\n 中文 – 繁體\n 日本語\n 한국어\nAndroid Studio\nSign in",
+   "counts": {
+    "links": 22,
+    "images": 0,
+    "headings": 0,
+    "listItems": 21,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.62,
+   "geometry": {
+    "top": 6,
+    "height": 36,
+    "widthFraction": 0.27,
+    "leftFraction": 0.71,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "class": "devsite-breadcrumb-list",
+   "ariaLabel": "Lower header breadcrumb",
+   "landmarks": [
+    "section",
+    "role=banner"
+   ],
+   "textLength": 34,
+   "text": "Develop\n Devices\n Cross device SDK",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 89,
+    "height": 24,
+    "widthFraction": 0.25,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "input",
+   "role": "searchbox",
+   "ariaLabel": "Type to filter",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 161,
+    "height": 32,
+    "widthFraction": 0.15,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul",
+   "class": "devsite-nav-list",
+   "landmarks": [
+    "section",
+    "nav"
+   ],
+   "textLength": 188,
+   "text": "All devices ⍈\n Device compatibility ⍈\n Cross device SDK\n About the Cross device SDK\n Get started\n Device discovery API\n Secure connection API\n Sessions API\n Test and debug\n API Reference ⍈",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 230,
+    "height": 408,
+    "widthFraction": 0.19,
+    "leftFraction": 0,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "ul",
+   "class": "devsite-nav-list",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "role=navigation"
+   ],
+   "textLength": 106,
+   "text": "On this page\nUse casesPersonal experiences\nCommunal experiences\nDeveloper Preview limitations\nHow it works",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 161,
+    "height": 639,
+    "widthFraction": 0.81,
+    "leftFraction": 0.15,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "devsite-article-meta nocontent",
+   "role": "navigation",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "role=navigation"
+   ],
+   "textLength": 73,
+   "text": "Android Developers\n Develop\n Devices\n Cross device SDK\n Was this helpful?",
+   "counts": {
+    "links": 4,
+    "images": 2,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.66,
+   "geometry": {
+    "top": 202,
+    "height": 24,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h1",
+   "class": "devsite-page-title",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 122,
+   "text": "Cross device SDK\n Dismiss\n Got it\n Stay organized with collections\n Save and categorize content based on your preferences.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 261,
+    "height": 50,
+    "widthFraction": 0.32,
+    "leftFraction": 0.23,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×2",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 707,
+   "text": "The Cross device SDK makes it easier for developers to create apps that are\ncompatible across multiple devices. The SDK simplifies the development of rich\nand engaging multidevice experiences by combining various connectivity\ntechnologies into one toolkit. Previously, developers needed to independently\nwork with connectivity frameworks like Bluetooth and Wi-Fi to create\nmultidevice experiences. No",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 342,
+    "height": 184,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 93,
+   "text": "Device discovery and authorization\nSecure connections and data transfers\nmultidevice sessions",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 542,
+    "height": 96,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.13,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "aside",
+   "class": "note",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "aside"
+   ],
+   "textLength": 107,
+   "text": "Note: For Developer Preview, the Cross device SDK only supports interactions\nbetween two devices at a time.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 670,
+    "height": 56,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p×2",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 409,
+   "text": "Some examples of applications and experiences that you can build using this SDK\ninclude multiplayer gaming, seamless switching between devices in productivity\napps, and group food ordering.\nWhen developing the Cross device SDK, we followed three basic principles to\ncreate an abstraction layer that safely and respectfully accelerates the\ndevelopment of multidevice apps and experiences. Those princi",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 758,
+    "height": 112,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.18,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 15,
+   "tag": "ul",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 304,
+   "text": "Ubiquitous: The SDK should work on every device possible, starting with\nphones and tablets.\nModular: Developers should be able to mix the SDK with other solutions.\nEmpowering: The SDK does not restrict you to specific cross-device\nexperiences, but rather lets you build your own features and experiences.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 886,
+    "height": 120,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "id": "use-cases",
+   "role": "presentation",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 9,
+   "text": "Use cases",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1062,
+    "height": 32,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "aside",
+   "class": "note",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "aside"
+   ],
+   "textLength": 169,
+   "text": "Note: Developer Preview supports phone and tablet experiences. Additional\ndevices are not supported in Developer Preview, but we hope to support them in\nfuture releases.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1126,
+    "height": 80,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 107,
+   "text": "When discussing cross-device use cases, we consider two main categories:\npersonal and communal experiences.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1238,
+    "height": 24,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h3",
+   "id": "personal-experiences",
+   "role": "presentation",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 20,
+   "text": "Personal experiences",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1294,
+    "height": 28,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 225,
+   "text": "Personal experiences are built around a single user identity on multiple\ndevices, such as mobile phones, watches, TVs, and cars. These experiences help\nusers more effectively connect the various devices they own. For example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1338,
+    "height": 48,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "ul",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 204,
+   "text": "Complete a movie rental or purchase on your TV by using your phone to enter\nyour form of payment.\nStart reading a long article on your phone and finish reading it on your\ntablet without losing your place.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1402,
+    "height": 60,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h3",
+   "id": "communal-experiences",
+   "role": "presentation",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 20,
+   "text": "Communal experiences",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1494,
+    "height": 28,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Communal experiences are enjoyed between a user and others around them. For\nexample:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1538,
+    "height": 24,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "ul",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 264,
+   "text": "Share a map location as a passenger directly with your friend’s car.\nShare your Sunday bike route with others that you’re biking with.\nCollect items for a group food order without passing your phone around.\nTake a group vote for the next TV show to watch together.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1578,
+    "height": 132,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "h4",
+   "id": "other-experiences",
+   "role": "presentation",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 27,
+   "text": "Media and other experiences",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1742,
+    "height": 28,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 256,
+   "text": "There are also multidevice experiences, such as continuous media controls and\nauthentication, that could prompt discovering devices and passing data between\nparticipants. For these use cases, we have existing frameworks and SDKs that\nmight be a better fit:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1786,
+    "height": 72,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "ul",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 227,
+   "text": "Cast SDK for media casting to other\ndevices.\nMedia sessions\nfor continuous playback.\nBlock Store for\nauthentication.\nCompanion Device Manager\nfor discovering and pairing companion devices such as fitness trackers or\nheadphones.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 1874,
+    "height": 156,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 145,
+   "text": "Together with the Cross device SDK, these APIs and technologies allow you to\nbuild unique and seamless multidevice user experiences in your apps.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2046,
+    "height": 48,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "h2",
+   "id": "issues-limitations",
+   "role": "presentation",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 29,
+   "text": "Developer Preview limitations",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2150,
+    "height": 32,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 70,
+   "text": "As this is a Developer Preview version of the SDK, note the following:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2198,
+    "height": 24,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "ul",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 106,
+   "text": "The API surfaces are subject to change.\nThe Cross device SDK is NOT to be used in production applications.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2238,
+    "height": 60,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p×2",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 164,
+   "text": "Supported platforms and surfaces are limited to Android mobile and tablet\ndevices.\nWe encourage you to share your feedback and suggestions. Submit bug reports\nhere.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 2314,
+    "height": 64,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h2",
+   "id": "how-it-works",
+   "role": "presentation",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 12,
+   "text": "How it works",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2434,
+    "height": 32,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 436,
+   "text": "The Cross device SDK is a software abstraction layer that enables both\nplatform-driven and developer-driven multidevice experiences by leveraging\nvarious wireless technologies such as Bluetooth, Wi-Fi, and ultra-wideband. This\nabstraction allows developers to focus on the most important parts of the user\nexperience while the SDK handles underlying aspects of platform capabilities,\ndevice discovery",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2482,
+    "height": 96,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "figure",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 40,
+   "text": "Figure 1: Cross device SDK architecture.",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Cross device SDK architecture.",
+     "width": 854,
+     "height": 456
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2594,
+    "height": 483,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p×2",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article"
+   ],
+   "textLength": 647,
+   "text": "For most application developers, we recommend using the multidevice Sessions\nAPI. This API allows app user experiences to be transferred to or shared with\nother devices. However, if you need more granularity or customization for your\ncross-device experiences, the standalone Device Discovery and Secure Connections\nAPIs are available.\nThe Cross device SDK is open-source and will be available for dif",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3093,
+    "height": 160,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "div",
+   "class": "devsite-thumb-rating",
+   "role": "form",
+   "landmarks": [
+    "section",
+    "section",
+    "main",
+    "article",
+    "role=form"
+   ],
+   "textLength": 17,
+   "text": "Was this helpful?",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3293,
+    "height": 54,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "devsite-content-footer",
+   "class": "nocontent",
+   "landmarks": [
+    "section",
+    "section",
+    "main"
+   ],
+   "textLength": 219,
+   "text": "Content and code samples on this page are subject to the licenses described in the Content License. Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates.\n Last updated 2026-05-07 UTC.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 3404,
+    "height": 76,
+    "widthFraction": 0.65,
+    "leftFraction": 0.2,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "nav",
+   "class": "devsite-footer-promos nocontent",
+   "ariaLabel": "Promotions",
+   "landmarks": [
+    "section",
+    "section",
+    "nav"
+   ],
+   "textLength": 145,
+   "text": "X\n Follow @AndroidDev on X\n YouTube\n Check out Android Developers on YouTube\n LinkedIn\n Connect with the Android Developers community on LinkedIn",
+   "counts": {
+    "links": 3,
+    "images": 3,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "X",
+     "width": 48,
+     "height": 48
+    },
+    {
+     "kind": "img",
+     "alt": "YouTube",
+     "width": 48,
+     "height": 48
+    },
+    {
+     "kind": "img",
+     "alt": "LinkedIn",
+     "width": 48,
+     "height": 48
+    }
+   ],
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 3521,
+    "height": 213,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "nav",
+   "class": "devsite-footer-linkboxes nocontent",
+   "ariaLabel": "Footer links",
+   "landmarks": [
+    "section",
+    "section",
+    "nav"
+   ],
+   "textLength": 566,
+   "text": "More Android\n Android\n Android for Enterprise\n Security\n Source\n News\n Blog\n Podcasts\n Discover\n Gaming\n Machine Learning\n Health & Fitness\n Camera & Media\n Privacy\n 5G\n Android Devices\n Large screens\n Wear OS\n ChromeOS devices\n Android for cars\n Android TV\n Releases\n Android 17\n Android 16\n Android 15\n Android 14\n Android 13\n Android 12\n Android 11\n Documentation and Downloads\n Android Studio gui",
+   "counts": {
+    "links": 34,
+    "images": 0,
+    "headings": 6,
+    "listItems": 40,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 3734,
+    "height": 301,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "class": "devsite-footer-utility nocontent",
+   "landmarks": [
+    "section",
+    "section"
+   ],
+   "textLength": 371,
+   "text": "Android\n Chrome\n Firebase\n Google Cloud Platform\n All products\n Privacy\n License\n Brand guidelines\n Manage cookies\n Get news and tips by email\n Subscribe\n English\n English\n Deutsch\n Español – América Latina\n Français\n Indonesia\n Italiano\n Polski\n Português – Brasil\n Tiếng Việt\n Türkçe\n Русский\n עברית\n العربيّة\n فارسی\n हिंदी\n বাংলা\n ภาษาไทย\n 中文 – 简体\n 中文 – 繁體\n 日本語\n 한국어",
+   "counts": {
+    "links": 32,
+    "images": 1,
+    "headings": 0,
+    "listItems": 31,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Google Developers",
+     "width": 185,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 4035,
+    "height": 176,
+    "widthFraction": 0.77,
+    "leftFraction": 0.2,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "div",
+   "class": "devsite-snackbar-inner",
+   "landmarks": [],
+   "textLength": 90,
+   "text": "Help us improve the Android Developer experience by taking a survey.\nNo, thanksTake survey",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 724,
+    "height": 68,
+    "widthFraction": 0.52,
+    "leftFraction": 0.02,
+    "pageFraction": 0.17,
+    "aboveFold": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,2269 @@
+{
+ "url": "https://docs.python.org/3/howto/a-conceptual-overview-of-asyncio.html",
+ "title": "A Conceptual Overview of asyncio — Python 3.14.7 documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 10092,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 513,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 14,
+    "height": 61,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "h1",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "A Conceptual Overview of asyncio¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 101,
+    "height": 62,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 308,
+   "text": "This HOWTO article seeks to help you build a sturdy mental\nmodel of how asyncio fundamentally works, helping you understand the\nhow and why behind the recommended patterns.\nYou might be curious about some key asyncio concepts.\nBy the end of this article, you’ll be able to comfortably answer these questions:",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 179,
+    "height": 121,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 338,
+   "text": "What’s happening behind the scenes when an object is awaited?\nHow does asyncio differentiate between a task which doesn’t need\nCPU time (such as a network request or file read) as opposed to a task that\ndoes (such as computing n-factorial)?\nHow to write an asynchronous variant of an operation, such as\nan async sleep or database request.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 316,
+    "height": 103,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "admonition seealso",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 275,
+   "text": "See also\nThe guide that inspired this HOWTO article, by Alexander Nordin.\nThis in-depth YouTube tutorial series on\nasyncio created by Python core team member, Łukasz Langa.\n500 Lines or Less: A Web Crawler With asyncio Coroutines by A.\nJesse Jiryu Davis and Guido van Rossum.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 435,
+    "height": 145,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 45,
+   "text": "A conceptual overview part 1: the high-level¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 591,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 145,
+   "text": "In part 1, we’ll cover the main, high-level building blocks of asyncio:\nthe event loop, coroutine functions, coroutine objects, tasks, and await.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 656,
+    "height": 53,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 11,
+   "text": "Event Loop¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 725,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1338,
+   "text": "Everything in asyncio happens relative to the event loop.\nIt’s the star of the show.\nIt’s like an orchestra conductor.\nIt’s behind the scenes managing resources.\nSome power is explicitly granted to it, but a lot of its ability to get things\ndone comes from the respect and cooperation of its worker bees.\nIn more technical terms, the event loop contains a collection of jobs to be run.\nSome jobs are ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 785,
+    "height": 367,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 164,
+   "text": "import asyncio\n# This creates an event loop and indefinitely cycles through\n# its collection of jobs.\nevent_loop = asyncio.new_event_loop()\nevent_loop.run_forever()",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1168,
+    "height": 123,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 38,
+   "text": "Asynchronous functions and coroutines¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1307,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 215,
+   "text": "This is a basic, boring Python function:\ndef hello_printer():\n print(\n \"Hi, I am a lowly, simple printer, though I have all I \"\n \"need in life -- \\nfresh paper and my dearly beloved octopus \"\n \"partner in crime.\"\n )",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1366,
+    "height": 165,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 203,
+   "text": "Calling a regular function invokes its logic or body:\n>>> hello_printer()\nHi, I am a lowly, simple printer, though I have all I need in life --\nfresh paper and my dearly beloved octopus partner in crime.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1547,
+    "height": 109,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 160,
+   "text": "The async def, as opposed to just a plain def, makes\nthis an asynchronous function (or “coroutine function”).\nCalling it creates and returns a coroutine object.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 1672,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 182,
+   "text": "async def loudmouth_penguin(magic_number: int):\n print(\n \"I am a super special talking penguin. Far cooler than that printer. \"\n f\"By the way, my lucky number is: {magic_number}.\"\n )",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1740,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 124,
+   "text": "Calling the async function, loudmouth_penguin, does not execute the print statement;\ninstead, it creates a coroutine object:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1861,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 89,
+   "text": ">>> loudmouth_penguin(magic_number=3)\n<coroutine object loudmouth_penguin at 0x104ed2740>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1929,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p×3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 890,
+   "text": "The terms “coroutine function” and “coroutine object” are often conflated\nas coroutine.\nThat can be confusing!\nIn this article, coroutine specifically refers to a coroutine object, or more\nprecisely, an instance of types.CoroutineType (native coroutine).\nNote that coroutines can also exist as instances of\ncollections.abc.Coroutine – a distinction that matters for type\nchecking.\nA coroutine represe",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1994,
+    "height": 266,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 149,
+   "text": "def get_random_number():\n # This would be a bad random number generator!\n print(\"Hi\")\n yield 1\n print(\"Hello\")\n yield 7\n print(\"Howdy\")\n yield 4\n ...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2276,
+    "height": 179,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 118,
+   "text": "Similar to a coroutine function, calling a generator function does not run it.\nInstead, it creates a generator object:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2471,
+    "height": 26,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 75,
+   "text": ">>> get_random_number()\n<generator object get_random_number at 0x1048671c0>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2512,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 149,
+   "text": "You can proceed to the next yield of a generator by using the\nbuilt-in function next().\nIn other words, the generator runs, then pauses.\nFor example:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2578,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 88,
+   "text": ">>> generator = get_random_number()\n>>> next(generator)\nHi\n1\n>>> next(generator)\nHello\n7",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2646,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 6,
+   "text": "Tasks¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 2804,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p×3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 751,
+   "text": "Roughly speaking, tasks are coroutines (not coroutine\nfunctions) tied to an event loop.\nA task also maintains a list of callback functions whose importance will become\nclear in a moment when we discuss await.\nThe recommended way to create tasks is via asyncio.create_task().\nCreating a task automatically schedules it for execution (by adding a\ncallback to run it in the event loop’s to-do list, that",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2863,
+    "height": 241,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 160,
+   "text": "coroutine = loudmouth_penguin(magic_number=5)\n# This creates a Task object and schedules its execution via the event loop.\ntask = asyncio.create_task(coroutine)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3120,
+    "height": 68,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 301,
+   "text": "Earlier, we manually created the event loop and set it to run forever.\nIn practice, it’s recommended to use (and common to see) asyncio.run(),\nwhich takes care of managing the event loop and ensuring the provided\ncoroutine finishes before advancing.\nFor example, many async programs follow this setup:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 3204,
+    "height": 78,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 280,
+   "text": "import asyncio\nasync def main():\n # Perform all sorts of wacky, wild asynchronous things...\n ...\nif __name__ == \"__main__\":\n asyncio.run(main())\n # The program will not reach the following print statement until the\n # coroutine main() finishes.\n print(\"coroutine main() is done!\")",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3298,
+    "height": 216,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 250,
+   "text": "It’s important to be aware that the task itself is not added to the event loop,\nonly a callback to the task is.\nThis matters if the task object you created is garbage collected before it’s\ncalled by the event loop.\nFor example, consider this program:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3529,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 227,
+   "text": "1async def hello():\n 2 print(\"hello!\")\n 3\n 4async def main():\n 5 asyncio.create_task(hello())\n 6 # Other asynchronous instructions which run for a while\n 7 # and cede control to the event loop...\n 8 ...\n 9\n10asyncio.run(main())",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3622,
+    "height": 197,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 712,
+   "text": "Because there’s no reference to the task object created on line 5, it might\nbe garbage collected before the event loop invokes it.\nLater instructions in the coroutine main() hand control back to the event\nloop so it can invoke other jobs.\nWhen the event loop eventually tries to run the task, it might fail and\ndiscover the task object does not exist!\nThis can also happen even if a coroutine keeps a",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3835,
+    "height": 181,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 6,
+   "text": "await¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 4033,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 76,
+   "text": "await is a Python keyword that’s commonly used in one of two\ndifferent ways:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 4092,
+    "height": 27,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 26,
+   "text": "await task\nawait coroutine",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4135,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 296,
+   "text": "In a crucial way, the behavior of await depends on the type of object\nbeing awaited.\nAwaiting a task will cede control from the current task or coroutine to\nthe event loop.\nIn the process of relinquishing control, a few important things happen.\nWe’ll use the following code example to illustrate:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4200,
+    "height": 94,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 167,
+   "text": "async def plant_a_tree():\n dig_the_hole_task = asyncio.create_task(dig_the_hole())\n await dig_the_hole_task\n # Other instructions associated with planting a tree.\n ...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4310,
+    "height": 123,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p×4",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1274,
+   "text": "In this example, imagine the event loop has passed control to the start of the\ncoroutine plant_a_tree().\nAs seen above, the coroutine creates a task and then awaits it.\nThe await dig_the_hole_task instruction adds a callback (which will resume\nplant_a_tree()) to the dig_the_hole_task object’s list of callbacks.\nAnd then, the instruction cedes control to the event loop.\nSome time later, the event l",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4449,
+    "height": 389,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 305,
+   "text": "import asyncio\nasync def coro_a():\n print(\"I am coro_a(). Hi!\")\nasync def coro_b():\n print(\"I am coro_b(). I sure hope no one hogs the event loop...\")\nasync def main():\n task_b = asyncio.create_task(coro_b())\n num_repeats = 3\n for _ in range(num_repeats):\n await coro_a()\n await task_b\nasyncio.run(main())",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4855,
+    "height": 309,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 277,
+   "text": "The first statement in the coroutine main() creates task_b and schedules\nit for execution via the event loop.\nThen, coro_a() is repeatedly awaited. Control never cedes to the\nevent loop, which is why we see the output of all three coro_a()\ninvocations before coro_b()’s output:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5179,
+    "height": 80,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 113,
+   "text": "I am coro_a(). Hi!\nI am coro_a(). Hi!\nI am coro_a(). Hi!\nI am coro_b(). I sure hope no one hogs the event loop...",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5275,
+    "height": 86,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 313,
+   "text": "If we change await coro_a() to await asyncio.create_task(coro_a()), the\nbehavior changes.\nThe coroutine main() cedes control to the event loop with that statement.\nThe event loop then proceeds through its backlog of work, calling task_b\nand then the task which wraps coro_a() before resuming the coroutine\nmain().",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5377,
+    "height": 80,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 113,
+   "text": "I am coro_b(). I sure hope no one hogs the event loop...\nI am coro_a(). Hi!\nI am coro_a(). Hi!\nI am coro_a(). Hi!",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5473,
+    "height": 86,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 770,
+   "text": "This behavior of await coroutine can trip a lot of people up!\nThat example highlights how using only await coroutine could\nunintentionally hog control from other tasks and effectively stall the event\nloop.\nasyncio.run() can help you detect such occurrences via the\ndebug=True flag, which enables\ndebug mode.\nAmong other things, it will log any coroutines that monopolize execution for\n100ms or longer",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5575,
+    "height": 226,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "h2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 49,
+   "text": "A conceptual overview part 2: the nuts and bolts¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 5818,
+    "height": 49,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section"
+   ],
+   "textLength": 237,
+   "text": "Part 2 goes into detail on the mechanisms asyncio uses to manage\ncontrol flow.\nThis is where the magic happens.\nYou’ll come away from this section knowing what await does behind the scenes\nand how to make your own asynchronous operators.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5883,
+    "height": 79,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "The inner workings of coroutines¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 5978,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 385,
+   "text": "asyncio leverages four components to pass around control.\ncoroutine.send(arg) is the method used to start or\nresume a coroutine.\nIf the coroutine was paused and is now being resumed, the argument arg\nwill be sent in as the return value of the yield statement which originally\npaused it.\nIf the coroutine is being used for the first time (as opposed to being resumed),\narg must be None.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 6037,
+    "height": 123,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 751,
+   "text": "1class Rock:\n 2 def __await__(self):\n 3 value_sent_in = yield 7\n 4 print(f\"Rock.__await__ resuming with value: {value_sent_in}.\")\n 5 return value_sent_in\n 6\n 7async def main():\n 8 print(\"Beginning coroutine main().\")\n 9 rock = Rock()\n10 print(\"Awaiting rock...\")\n11 value_from_rock = await rock\n12 print(f\"Coroutine received value: {value_from_rock} from rock.\")\n13 return 23\n14\n15coroutine = main()\n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6176,
+    "height": 457,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 732,
+   "text": "yield, as usual, pauses execution and returns control\nto the caller.\nIn the example above, the yield, on line 3, is called by\n... = await rock on line 11.\nMore broadly speaking, await calls the __await__() method of\nthe given object.\nawait also does one more very special thing: it propagates (or “passes\nalong”) any yields it receives up the call chain.\nIn this case, that’s back to ... = coroutine.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 6649,
+    "height": 203,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 307,
+   "text": "That snippet produces this output:\nBeginning coroutine main().\nAwaiting rock...\nCoroutine paused and returned intermediate value: 7.\nResuming coroutine and sending in value: 42.\nRock.__await__ resuming with value: 42.\nCoroutine received value: 42 from rock.\nCoroutine main() finished and provided value: 23.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6868,
+    "height": 183,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 394,
+   "text": "It’s worth pausing for a moment here and making sure you followed the various\nways that control flow and values were passed. A lot of important ideas were\ncovered and it’s worth ensuring your understanding is firm.\nThe only way to yield (or effectively cede control) from a coroutine is to\nawait an object that yields in its __await__ method.\nThat might sound odd to you. You might be thinking:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7067,
+    "height": 121,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "blockquote",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 563,
+   "text": "1. What about a yield directly within the coroutine function? The\ncoroutine function becomes an\nasync generator function, a\ndifferent beast entirely.\n2. What about a yield from within the coroutine function to a (plain)\ngenerator?\nThat causes the error: SyntaxError: yield from not allowed in a coroutine.\nThis was intentionally designed for the sake of simplicity – mandating only\none way of using c",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 7204,
+    "height": 200,
+    "widthFraction": 0.5,
+    "leftFraction": 0.3,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 8,
+   "text": "Futures¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 7419,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "p×4",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1161,
+   "text": "A future is an object meant to represent a\ncomputation’s status and result.\nThe term is a nod to the idea of something still to come or not yet happened,\nand the object is a way to keep an eye on that something.\nA future has a few important attributes. One is its state, which can be either\n“pending”, “cancelled”, or “done”.\nAnother is its result, which is set when the state transitions to done.\nUn",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 7479,
+    "height": 358,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "h3",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 25,
+   "text": "A homemade asyncio.sleep¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 7853,
+    "height": 43,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 425,
+   "text": "We’ll go through an example of how you could leverage a future to create your\nown variant of asynchronous sleep (async_sleep) which mimics\nasyncio.sleep().\nThis snippet registers a few tasks with the event loop and then awaits the task\ncreated by asyncio.create_task, which wraps the async_sleep(3) coroutine.\nWe want that task to finish only after three seconds have elapsed, but without\npreventing ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 7912,
+    "height": 147,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 655,
+   "text": "async def other_work():\n print(\"I like work. Work work.\")\nasync def main():\n # Add a few other tasks to the event loop, so there's something\n # to do while asynchronously sleeping.\n work_tasks = [\n asyncio.create_task(other_work()),\n asyncio.create_task(other_work()),\n asyncio.create_task(other_work())\n ]\n print(\n \"Beginning asynchronous sleep at time: \"\n f\"{datetime.datetime.now().strftime(\"%H:%M",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8076,
+    "height": 420,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 385,
+   "text": "Below, we use a future to enable custom control over when that task will be\nmarked as done.\nIf future.set_result() (the method\nresponsible for marking that future as done) is never called, then this task\nwill never finish.\nWe’ve also enlisted the help of another task, which we’ll see in a moment, that\nwill monitor how much time has elapsed and, accordingly, call\nfuture.set_result().",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 8511,
+    "height": 105,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 279,
+   "text": "async def async_sleep(seconds: float):\n future = asyncio.Future()\n time_to_wake = time.time() + seconds\n # Add the watcher-task to the event loop.\n watcher_task = asyncio.create_task(_sleep_watcher(future, time_to_wake))\n # Block until the future is marked as done.\n await future",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8632,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "p×2",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1064,
+   "text": "Below, we use a rather bare YieldToEventLoop() object to yield\nfrom its __await__ method, ceding control to the event loop.\nThis is effectively the same as calling asyncio.sleep(0), but this approach\noffers more clarity, not to mention it’s somewhat cheating to use\nasyncio.sleep when showcasing how to implement it!\nAs usual, the event loop cycles through its tasks, giving them control\nand receivin",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8790,
+    "height": 280,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 245,
+   "text": "class YieldToEventLoop:\n def __await__(self):\n yield\nasync def _sleep_watcher(future, time_to_wake):\n while True:\n if time.time() >= time_to_wake:\n # This marks the future as done.\n future.set_result(None)\n break\n else:\n await YieldToEventLoop()",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9085,
+    "height": 234,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 228,
+   "text": "Here is the full program’s output:\n$ python custom-async-sleep.py\nBeginning asynchronous sleep at time: 14:52:22.\nI like work. Work work.\nI like work. Work work.\nI like work. Work work.\nDone asynchronous sleep at time: 14:52:25.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9336,
+    "height": 165,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 299,
+   "text": "You might feel this implementation of asynchronous sleep was unnecessarily\nconvoluted.\nAnd, well, it was.\nThe example was meant to showcase the versatility of futures with a simple\nexample that could be mimicked for more complex needs.\nFor reference, you could implement it without futures, like so:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9516,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "pre",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 164,
+   "text": "async def simpler_async_sleep(seconds):\n time_to_wake = time.time() + seconds\n while True:\n if time.time() >= time_to_wake:\n return\n else:\n await YieldToEventLoop()",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9609,
+    "height": 142,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 162,
+   "text": "But that’s all for now. Hopefully you’re ready to more confidently dive into\nsome async programming or check out advanced topics in the\nrest of the documentation.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 9767,
+    "height": 52,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "h3",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 17,
+   "text": "Table of Contents",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 139,
+    "height": 17,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 66,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 253,
+   "text": "A Conceptual Overview of asyncio\nA conceptual overview part 1: the high-level\nEvent Loop\nAsynchronous functions and coroutines\nTasks\nawait\nA conceptual overview part 2: the nuts and bolts\nThe inner workings of coroutines\nFutures\nA homemade asyncio.sleep",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 166,
+    "height": 192,
+    "widthFraction": 0.21,
+    "leftFraction": 0.03,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 67,
+   "tag": "div",
+   "role": "note",
+   "ariaLabel": "source link",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 135,
+   "text": "Previous topic\n Python HOWTOs\nNext topic\n Porting Extension Modules to Python 3\nThis page\n Report a bug\n Improve this page\n Show source",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 3,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 384,
+    "height": 213,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 68,
+   "tag": "span",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 1,
+   "text": "«",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 501,
+    "height": 17,
+    "widthFraction": 0.01,
+    "leftFraction": 0.25,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 69,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 513,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 9851,
+    "height": 61,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "div",
+   "class": "footer",
+   "landmarks": [],
+   "textLength": 449,
+   "text": "© Copyright 2001 Python Software Foundation.\n This page is licensed under the Python Software Foundation License Version 2.\n Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.\n See History and License for more information.\n The Python Software Foundation is a non-profit corporation.\nPlease donate.\n Last updated on Sep 20, 2026 (10:30",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 9912,
+    "height": 180,
+    "widthFraction": 0.96,
+    "leftFraction": 0.01,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "id": "css-tricks-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:10:38.152Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 18919,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.85,
+   "margin": 0.72,
+   "top": [
+    [
+     "site_header",
+     0.86
+    ],
+    [
+     "site_nav",
+     0.14
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "rating",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "title",
+   "confidence": 0.64,
+   "margin": 0.48,
+   "top": [
+    [
+     "title",
+     0.65
+    ],
+    [
+     "heading",
+     0.17
+    ],
+    [
+     "site_header",
+     0.15
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "steps",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "teaser_card",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "teaser_card",
+     1
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "quote",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 3,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "cart",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "byline",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.305Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

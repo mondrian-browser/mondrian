@@ -1,0 +1,293 @@
+{
+ "id": "health-harvard-edu-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:57:06.935Z",
+ "tier": "relayout",
+ "application": 0.1,
+ "inputTokens": 41447,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.44,
+   "margin": 0.11,
+   "top": [
+    [
+     "site_header",
+     0.46
+    ],
+    [
+     "image",
+     0.35
+    ],
+    [
+     "hero",
+     0.13
+    ],
+    [
+     "decoration",
+     0.06
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "hero",
+   "confidence": 0.3,
+   "margin": 0,
+   "top": [
+    [
+     "hero",
+     0.31
+    ],
+    [
+     "image",
+     0.31
+    ],
+    [
+     "subscribe",
+     0.22
+    ],
+    [
+     "cta",
+     0.1
+    ],
+    [
+     "site_notice",
+     0.04
+    ]
+   ],
+   "block": "media",
+   "slot": "hero",
+   "final": "hero"
+  },
+  {
+   "index": 2,
+   "choice": "subscribe",
+   "confidence": 0.39,
+   "margin": 0.06,
+   "top": [
+    [
+     "subscribe",
+     0.41
+    ],
+    [
+     "cta",
+     0.35
+    ],
+    [
+     "cross_promo",
+     0.11
+    ],
+    [
+     "buy_box",
+     0.02
+    ],
+    [
+     "newsletter",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 3,
+   "choice": "subscribe",
+   "confidence": 0.5,
+   "margin": 0.33,
+   "top": [
+    [
+     "subscribe",
+     0.51
+    ],
+    [
+     "cta",
+     0.18
+    ],
+    [
+     "cross_promo",
+     0.13
+    ],
+    [
+     "text",
+     0.09
+    ],
+    [
+     "teaser_card",
+     0.03
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 4,
+   "choice": "list",
+   "confidence": 0.53,
+   "margin": 0.26,
+   "top": [
+    [
+     "list",
+     0.54
+    ],
+    [
+     "subscribe",
+     0.28
+    ],
+    [
+     "feature_grid",
+     0.17
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "header",
+   "final": "list"
+  },
+  {
+   "index": 5,
+   "choice": "subscribe",
+   "confidence": 0.79,
+   "margin": 0.69,
+   "top": [
+    [
+     "subscribe",
+     0.81
+    ],
+    [
+     "cta",
+     0.12
+    ],
+    [
+     "buy_box",
+     0.03
+    ],
+    [
+     "newsletter",
+     0.01
+    ],
+    [
+     "text",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 6,
+   "choice": "cta",
+   "confidence": 0.51,
+   "margin": 0.05,
+   "top": [
+    [
+     "cta",
+     0.52
+    ],
+    [
+     "subscribe",
+     0.47
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "image",
+     0
+    ],
+    [
+     "correction",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 7,
+   "choice": "checkout",
+   "confidence": 0.36,
+   "margin": 0.04,
+   "top": [
+    [
+     "checkout",
+     0.37
+    ],
+    [
+     "subscribe",
+     0.33
+    ],
+    [
+     "form",
+     0.26
+    ],
+    [
+     "buy_box",
+     0.03
+    ],
+    [
+     "pricing_table",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "listing",
+   "final": "checkout"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.94,
+   "top": [
+    [
+     "site_footer",
+     0.97
+    ],
+    [
+     "legal_notice",
+     0.03
+    ],
+    [
+     "pricing_table",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.591Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

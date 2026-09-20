@@ -1,0 +1,139 @@
+{
+ "site": "independent.co.uk",
+ "pages": 4,
+ "pageIds": [
+  "independent-co-uk-1",
+  "independent-co-uk-2",
+  "independent-co-uk-3",
+  "independent-co-uk-4"
+ ],
+ "derivedAt": "2026-09-20T12:33:43.279Z",
+ "blocks": [
+  {
+   "selector": "main > p",
+   "type": "text",
+   "n": 49,
+   "purity": 0.9,
+   "pages": 2
+  },
+  {
+   "selector": "main article > article",
+   "type": "teaser_card",
+   "n": 19,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 17,
+   "purity": 0.88,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2",
+   "type": "heading",
+   "n": 16,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main header > header",
+   "type": "product_card",
+   "n": 14,
+   "purity": 0.86,
+   "pages": 2
+  },
+  {
+   "selector": "main footer > footer",
+   "type": "buy_box",
+   "n": 14,
+   "purity": 0.93,
+   "pages": 2
+  },
+  {
+   "selector": "main article > figure",
+   "type": "image",
+   "n": 7,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > img",
+   "type": "image",
+   "n": 7,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > footer.page-footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main header > div#article-meta",
+   "type": "byline",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main aside > aside.newsletter-component",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > div#article-meta",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > aside.newsletter-component",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div#viafoura-conversation-id",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > div.most-popular",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > div.bulletin-feed-list",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > div.sponsored-features",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

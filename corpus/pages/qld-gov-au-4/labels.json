@@ -1,0 +1,262 @@
+{
+ "id": "qld-gov-au-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:46:25.086Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 36619,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.96,
+   "margin": 0.92,
+   "top": [
+    [
+     "site_header",
+     0.96
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "pricing_table",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_nav",
+     1
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "breadcrumbs",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "breadcrumbs",
+     0.98
+    ],
+    [
+     "site_nav",
+     0.02
+    ],
+    [
+     "hero",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 3,
+   "choice": "title",
+   "confidence": 0.43,
+   "margin": 0.12,
+   "top": [
+    [
+     "title",
+     0.45
+    ],
+    [
+     "empty_state",
+     0.33
+    ],
+    [
+     "heading",
+     0.11
+    ],
+    [
+     "status_message",
+     0.11
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 4,
+   "choice": "empty_state",
+   "confidence": 0.64,
+   "margin": 0.46,
+   "top": [
+    [
+     "empty_state",
+     0.65
+    ],
+    [
+     "list",
+     0.19
+    ],
+    [
+     "steps",
+     0.06
+    ],
+    [
+     "callout",
+     0.05
+    ],
+    [
+     "text",
+     0.03
+    ]
+   ],
+   "block": "prose",
+   "slot": "notice",
+   "final": "empty_state"
+  },
+  {
+   "index": 5,
+   "choice": "feedback",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "feedback",
+     1
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "form",
+   "final": "feedback"
+  },
+  {
+   "index": 6,
+   "choice": "site_footer",
+   "confidence": 0.9,
+   "margin": 0.86,
+   "top": [
+    [
+     "site_footer",
+     0.91
+    ],
+    [
+     "site_header",
+     0.05
+    ],
+    [
+     "heading",
+     0.04
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 7,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.095Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

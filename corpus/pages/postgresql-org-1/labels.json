@@ -1,0 +1,324 @@
+{
+ "id": "postgresql-org-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:03:41.692Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 45547,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.87,
+   "margin": 0.82,
+   "top": [
+    [
+     "site_header",
+     0.88
+    ],
+    [
+     "site_nav",
+     0.06
+    ],
+    [
+     "site_notice",
+     0.06
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "version_switcher",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "version_switcher",
+     0.98
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "breadcrumbs",
+     0.01
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "version_switcher"
+  },
+  {
+   "index": 2,
+   "choice": "section_nav",
+   "confidence": 0.31,
+   "margin": 0.06,
+   "top": [
+    [
+     "section_nav",
+     0.32
+    ],
+    [
+     "pagination",
+     0.26
+    ],
+    [
+     "version_switcher",
+     0.14
+    ],
+    [
+     "table",
+     0.13
+    ],
+    [
+     "title",
+     0.08
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 3,
+   "choice": "title",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "title",
+     0.99
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "footer",
+   "final": "title"
+  },
+  {
+   "index": 4,
+   "choice": "byline",
+   "confidence": 0.63,
+   "margin": 0.47,
+   "top": [
+    [
+     "byline",
+     0.64
+    ],
+    [
+     "heading",
+     0.17
+    ],
+    [
+     "legal_notice",
+     0.1
+    ],
+    [
+     "site_footer",
+     0.05
+    ],
+    [
+     "site_header",
+     0.03
+    ]
+   ],
+   "block": "heading",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 5,
+   "choice": "legal_notice",
+   "confidence": 0.5,
+   "margin": 0.05,
+   "top": [
+    [
+     "legal_notice",
+     0.52
+    ],
+    [
+     "site_footer",
+     0.47
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "legal_notice"
+  },
+  {
+   "index": 6,
+   "choice": "section_nav",
+   "confidence": 0.52,
+   "margin": 0.07,
+   "top": [
+    [
+     "section_nav",
+     0.53
+    ],
+    [
+     "table_of_contents",
+     0.46
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 7,
+   "choice": "section_nav",
+   "confidence": 0.71,
+   "margin": 0.59,
+   "top": [
+    [
+     "section_nav",
+     0.72
+    ],
+    [
+     "pagination",
+     0.13
+    ],
+    [
+     "table_of_contents",
+     0.08
+    ],
+    [
+     "table",
+     0.06
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 8,
+   "choice": "page_tools",
+   "confidence": 0.87,
+   "margin": 0.82,
+   "top": [
+    [
+     "page_tools",
+     0.88
+    ],
+    [
+     "feedback",
+     0.06
+    ],
+    [
+     "correction",
+     0.02
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "cta",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "tools",
+   "final": "page_tools"
+  },
+  {
+   "index": 9,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.047Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

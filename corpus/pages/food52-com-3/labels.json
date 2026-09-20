@@ -1,0 +1,293 @@
+{
+ "id": "food52-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:38:49.426Z",
+ "tier": "relayout",
+ "application": 0.06,
+ "inputTokens": 41191,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "search",
+   "confidence": 0.81,
+   "margin": 0.64,
+   "top": [
+    [
+     "search",
+     0.81
+    ],
+    [
+     "site_header",
+     0.17
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "site_nav",
+     1
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "cart",
+   "confidence": 0.66,
+   "margin": 0.43,
+   "top": [
+    [
+     "cart",
+     0.67
+    ],
+    [
+     "account",
+     0.24
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "status_message",
+     0.02
+    ],
+    [
+     "empty_state",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "listing",
+   "final": "cart"
+  },
+  {
+   "index": 3,
+   "choice": "cart",
+   "confidence": 0.62,
+   "margin": 0.31,
+   "top": [
+    [
+     "cart",
+     0.64
+    ],
+    [
+     "empty_state",
+     0.33
+    ],
+    [
+     "status_message",
+     0.03
+    ],
+    [
+     "feedback",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "listing",
+   "final": "cart"
+  },
+  {
+   "index": 4,
+   "choice": "title",
+   "confidence": 0.77,
+   "margin": 0.6,
+   "top": [
+    [
+     "title",
+     0.78
+    ],
+    [
+     "heading",
+     0.18
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "empty_state",
+     0.01
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 5,
+   "choice": "empty_state",
+   "confidence": 0.86,
+   "margin": 0.83,
+   "top": [
+    [
+     "empty_state",
+     0.87
+    ],
+    [
+     "callout",
+     0.04
+    ],
+    [
+     "site_notice",
+     0.03
+    ],
+    [
+     "status_message",
+     0.02
+    ],
+    [
+     "hero",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "notice",
+   "final": "empty_state"
+  },
+  {
+   "index": 6,
+   "choice": "image",
+   "confidence": 0.66,
+   "margin": 0.41,
+   "top": [
+    [
+     "image",
+     0.68
+    ],
+    [
+     "hero",
+     0.27
+    ],
+    [
+     "decoration",
+     0.03
+    ],
+    [
+     "gallery",
+     0.01
+    ],
+    [
+     "team",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "image"
+  },
+  {
+   "index": 7,
+   "choice": "image",
+   "confidence": 0.76,
+   "margin": 0.62,
+   "top": [
+    [
+     "image",
+     0.77
+    ],
+    [
+     "decoration",
+     0.15
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "gallery",
+     0.02
+    ],
+    [
+     "newsletter",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "image"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.475Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

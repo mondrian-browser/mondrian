@@ -1,0 +1,326 @@
+{
+ "url": "https://docs.python.org/3/howto/",
+ "title": "Python HOWTOs — Python 3.14.7 documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 1279,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 477,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 7,
+    "images": 1,
+    "headings": 0,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 14,
+    "height": 30,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "h1",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Python HOWTOs¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 70,
+    "height": 62,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 237,
+   "text": "Python HOWTOs are documents that cover a specific topic in-depth.\nModeled on the Linux Documentation Project’s HOWTO collection, this collection is an\neffort to foster documentation that’s more detailed than the\nPython Library Reference.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 148,
+    "height": 77,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 328,
+   "text": "General:\nA Conceptual Overview of asyncio\nAnnotations Best Practices\nArgparse Tutorial\nDescriptor Guide\nEnum HOWTO\nFunctional Programming HOWTO\nAn introduction to the ipaddress module\nLogging HOWTO\nLogging Cookbook\nRegular expression HOWTO\nSorting Techniques\nUnicode HOWTO\nHOWTO Fetch Internet Resources Using The urllib Package",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 14,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.94,
+   "geometry": {
+    "top": 241,
+    "height": 374,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.19,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 287,
+   "text": "Advanced development:\nCurses Programming with Python\nPython support for free threading\nC API Extension Support for Free Threading\nIsolating Extension Modules\nThe Python 2.3 Method Resolution Order\nSocket Programming HOWTO\ntimer file descriptor HOWTO\nPorting Extension Modules to Python 3",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 0,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 9,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 631,
+    "height": 246,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.49,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "class": "simple",
+   "landmarks": [
+    "role=main",
+    "section"
+   ],
+   "textLength": 210,
+   "text": "Debugging and profiling:\nDebugging C API extensions and CPython Internals with GDB\nInstrumenting CPython with DTrace and SystemTap\nPython support for the Linux perf profiler\nRemote debugging attachment protocol",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 893,
+    "height": 144,
+    "widthFraction": 0.56,
+    "leftFraction": 0.27,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "role": "note",
+   "ariaLabel": "source link",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 142,
+   "text": "Previous topic\n Installing Python modules\nNext topic\n A Conceptual Overview of asyncio\nThis page\n Report a bug\n Improve this page\n Show source",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 3,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 106,
+    "height": 214,
+    "widthFraction": 0.22,
+    "leftFraction": 0.02,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "span",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 1,
+   "text": "«",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 470,
+    "height": 17,
+    "widthFraction": 0.01,
+    "leftFraction": 0.25,
+    "pageFraction": 0.37,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "ul",
+   "landmarks": [
+    "role=navigation"
+   ],
+   "textLength": 477,
+   "text": "index\n modules |\n next |\n previous |\n Python »\n Greek | ΕλληνικάEnglishSpanish | españolPersian | فارسیFrench | françaisItalian | italianoJapanese | 日本語Korean | 한국어Polish | polskiBrazilian Portuguese | Português brasileiroRomanian | RomâneșteRussian | РусскийTurkish | TürkçeSimplified Chinese | 简体中文Traditional Chinese | 繁體中文\n dev (3.16)pre (3.15)3.14.73.133.123.113.103.93.83.73.63.53.43.33.23.13.0",
+   "counts": {
+    "links": 7,
+    "images": 1,
+    "headings": 0,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Python logo",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 1069,
+    "height": 30,
+    "widthFraction": 0.97,
+    "leftFraction": 0.01,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "footer",
+   "landmarks": [],
+   "textLength": 449,
+   "text": "© Copyright 2001 Python Software Foundation.\n This page is licensed under the Python Software Foundation License Version 2.\n Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.\n See History and License for more information.\n The Python Software Foundation is a non-profit corporation.\nPlease donate.\n Last updated on Sep 20, 2026 (10:30",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 1099,
+    "height": 180,
+    "widthFraction": 0.96,
+    "leftFraction": 0.01,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  }
+ ]
+}

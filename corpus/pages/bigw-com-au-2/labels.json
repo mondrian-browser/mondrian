@@ -1,0 +1,355 @@
+{
+ "id": "bigw-com-au-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:33:27.010Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 51445,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.61,
+   "margin": 0.26,
+   "top": [
+    [
+     "site_header",
+     0.63
+    ],
+    [
+     "site_nav",
+     0.37
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "breadcrumbs",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "breadcrumbs",
+     1
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "audio",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.51,
+   "margin": 0.06,
+   "top": [
+    [
+     "title",
+     0.53
+    ],
+    [
+     "heading",
+     0.47
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ],
+    [
+     "pricing_table",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "summary",
+   "confidence": 0.82,
+   "margin": 0.74,
+   "top": [
+    [
+     "summary",
+     0.83
+    ],
+    [
+     "text",
+     0.09
+    ],
+    [
+     "hero",
+     0.08
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 4,
+   "choice": "filters",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "filters",
+     1
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "filters"
+  },
+  {
+   "index": 5,
+   "choice": "product_card",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "product_card",
+     0.98
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "rating",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "listing",
+   "final": "product_card"
+  },
+  {
+   "index": 6,
+   "choice": "pagination",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "pagination",
+     1
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "nav",
+   "final": "pagination"
+  },
+  {
+   "index": 7,
+   "choice": "newsletter",
+   "confidence": 0.85,
+   "margin": 0.78,
+   "top": [
+    [
+     "newsletter",
+     0.86
+    ],
+    [
+     "cta",
+     0.08
+    ],
+    [
+     "site_footer",
+     0.05
+    ],
+    [
+     "subscribe",
+     0.01
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "newsletter"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 9,
+   "choice": "site_footer",
+   "confidence": 0.89,
+   "margin": 0.8,
+   "top": [
+    [
+     "site_footer",
+     0.9
+    ],
+    [
+     "legal_notice",
+     0.1
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "table",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 10,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.155Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

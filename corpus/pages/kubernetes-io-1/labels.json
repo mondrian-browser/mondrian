@@ -1,0 +1,293 @@
+{
+ "id": "kubernetes-io-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:01:33.441Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 41153,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.79,
+   "margin": 0.6,
+   "top": [
+    [
+     "site_nav",
+     0.79
+    ],
+    [
+     "site_header",
+     0.19
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "cross_promo",
+   "confidence": 0.64,
+   "margin": 0.33,
+   "top": [
+    [
+     "cross_promo",
+     0.65
+    ],
+    [
+     "site_notice",
+     0.32
+    ],
+    [
+     "calendar",
+     0.02
+    ],
+    [
+     "cta",
+     0.01
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "cross_promo"
+  },
+  {
+   "index": 2,
+   "choice": "search",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "search",
+     1
+    ],
+    [
+     "references",
+     0
+    ],
+    [
+     "stats",
+     0
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 3,
+   "choice": "section_nav",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "section_nav",
+     0.99
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "chart",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 4,
+   "choice": "page_tools",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "page_tools",
+     0.97
+    ],
+    [
+     "action_button",
+     0.03
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "tools",
+   "final": "page_tools"
+  },
+  {
+   "index": 5,
+   "choice": "breadcrumbs",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "breadcrumbs",
+     1
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 6,
+   "choice": "summary",
+   "confidence": 0.78,
+   "margin": 0.63,
+   "top": [
+    [
+     "summary",
+     0.79
+    ],
+    [
+     "text",
+     0.16
+    ],
+    [
+     "hero",
+     0.05
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "teasers",
+   "final": "summary"
+  },
+  {
+   "index": 7,
+   "choice": "teaser_card",
+   "confidence": 0.65,
+   "margin": 0.42,
+   "top": [
+    [
+     "teaser_card",
+     0.66
+    ],
+    [
+     "section_nav",
+     0.24
+    ],
+    [
+     "list",
+     0.04
+    ],
+    [
+     "feature_grid",
+     0.04
+    ],
+    [
+     "site_nav",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.94,
+   "top": [
+    [
+     "site_footer",
+     0.97
+    ],
+    [
+     "legal_notice",
+     0.03
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.732Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

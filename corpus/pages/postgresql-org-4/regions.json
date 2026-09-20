@@ -1,0 +1,299 @@
+{
+ "url": "https://www.postgresql.org/docs/17/index.html",
+ "title": "PostgreSQL: Documentation: 17: PostgreSQL 17.11 Documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 3181,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "div",
+   "class": "container-fluid",
+   "landmarks": [],
+   "textLength": 176,
+   "text": "Home\n About\n Download\n Documentation\n Community\n Developers\n Support\n Donate\n Your account\n August 13, 2026: PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!",
+   "counts": {
+    "links": 11,
+    "images": 1,
+    "headings": 0,
+    "listItems": 9,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "PostgreSQL Elephant Logo",
+     "width": 31,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.8,
+   "geometry": {
+    "top": 0,
+    "height": 84,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "row",
+   "landmarks": [],
+   "textLength": 321,
+   "text": "Documentation → PostgreSQL 17\n Supported Versions:\n Current\n (18)\n / \n 17\n / \n 16\n / \n 15\n / \n 14\n Development Versions:\n 19\n / \n devel\n Unsupported versions:\n 13\n / \n 12\n / \n 11\n / \n 10\n / \n 9.6\n / \n 9.5\n / \n 9.4\n / \n 9.3\n / \n 9.2\n / \n 9.1\n / \n 9.0\n / \n 8.4\n / \n 8.3\n / \n 8.2\n / \n 8.1\n / \n 8.0\n / \n 7.4\n / \n 7.3\n / \n 7.2",
+   "counts": {
+    "links": 29,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.32,
+   "geometry": {
+    "top": 100,
+    "height": 123,
+    "widthFraction": 0.89,
+    "leftFraction": 0.05,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "table",
+   "landmarks": [],
+   "textLength": 37,
+   "text": "PostgreSQL 17.11 Documentation\n  Next",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 2,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 239,
+    "height": 47,
+    "widthFraction": 0.86,
+    "leftFraction": 0.06,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "class": "title",
+   "landmarks": [],
+   "textLength": 30,
+   "text": "PostgreSQL 17.11 Documentation",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 307,
+    "height": 35,
+    "widthFraction": 0.86,
+    "leftFraction": 0.06,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h3",
+   "class": "corpauthor",
+   "landmarks": [],
+   "textLength": 39,
+   "text": "The PostgreSQL Global Development Group",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 362,
+    "height": 24,
+    "widthFraction": 0.86,
+    "leftFraction": 0.06,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "class": "copyright",
+   "landmarks": [],
+   "textLength": 74,
+   "text": "Copyright © 1996–2026 The PostgreSQL Global Development Group\nLegal Notice",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 406,
+    "height": 59,
+    "widthFraction": 0.86,
+    "leftFraction": 0.06,
+    "pageFraction": 0.13,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "dl",
+   "class": "toc",
+   "landmarks": [],
+   "textLength": 2771,
+   "text": "Table of Contents\nPreface\n 1. What Is PostgreSQL?\n 2. A Brief History of PostgreSQL\n 3. Conventions\n 4. Further Information\n 5. Bug Reporting Guidelines\n I. Tutorial\n 1. Getting Started\n 2. The SQL Language\n 3. Advanced Features\n II. The SQL Language\n 4. SQL Syntax\n 5. Data Definition\n 6. Data Manipulation\n 7. Queries\n 8. Data Types\n 9. Functions and Operators\n 10. Type Conversion\n 11. Indexes\n 12",
+   "counts": {
+    "links": 103,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 475,
+    "height": 2263,
+    "widthFraction": 0.86,
+    "leftFraction": 0.06,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "tbody",
+   "landmarks": [],
+   "textLength": 14,
+   "text": "Next\n  Preface",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 2,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 2763,
+    "height": 47,
+    "widthFraction": 0.86,
+    "leftFraction": 0.06,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "id": "docComments",
+   "landmarks": [],
+   "textLength": 232,
+   "text": "Submit correction\n If you see anything in the documentation that is not correct, does not match\n your experience with the particular feature or requires further clarification,\n please use\n this form\n to report a documentation issue.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2835,
+    "height": 100,
+    "widthFraction": 0.86,
+    "leftFraction": 0.06,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "footer",
+   "id": "footer",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 121,
+   "text": "Policies |\n Code of Conduct |\n About PostgreSQL |\n Contact\n Copyright © 1996-2026 The PostgreSQL Global Development Group",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.38,
+   "geometry": {
+    "top": 3019,
+    "height": 161,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  }
+ ]
+}

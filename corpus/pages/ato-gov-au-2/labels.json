@@ -1,0 +1,324 @@
+{
+ "id": "ato-gov-au-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:52:58.185Z",
+ "tier": "relayout",
+ "application": 0.3,
+ "inputTokens": 45834,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "skip_link",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "skip_link",
+     1
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "skip_link"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.71,
+   "margin": 0.49,
+   "top": [
+    [
+     "site_nav",
+     0.72
+    ],
+    [
+     "site_header",
+     0.23
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "tabs",
+     0.01
+    ],
+    [
+     "text",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "account",
+   "confidence": 0.94,
+   "margin": 0.91,
+   "top": [
+    [
+     "account",
+     0.94
+    ],
+    [
+     "action_button",
+     0.03
+    ],
+    [
+     "login_form",
+     0.02
+    ],
+    [
+     "popup",
+     0.01
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "account"
+  },
+  {
+   "index": 3,
+   "choice": "site_header",
+   "confidence": 0.84,
+   "margin": 0.72,
+   "top": [
+    [
+     "site_header",
+     0.86
+    ],
+    [
+     "image",
+     0.14
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "subscribe",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 4,
+   "choice": "site_nav",
+   "confidence": 0.59,
+   "margin": 0.21,
+   "top": [
+    [
+     "site_nav",
+     0.6
+    ],
+    [
+     "section_nav",
+     0.39
+    ],
+    [
+     "table_of_contents",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 5,
+   "choice": "section_nav",
+   "confidence": 0.62,
+   "margin": 0.44,
+   "top": [
+    [
+     "section_nav",
+     0.63
+    ],
+    [
+     "site_nav",
+     0.19
+    ],
+    [
+     "table_of_contents",
+     0.12
+    ],
+    [
+     "accordion",
+     0.04
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 6,
+   "choice": "site_footer",
+   "confidence": 0.92,
+   "margin": 0.87,
+   "top": [
+    [
+     "site_footer",
+     0.92
+    ],
+    [
+     "site_nav",
+     0.05
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "legal_notice",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 7,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "site_footer",
+     0.98
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "cta",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "quote",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 9,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.093Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

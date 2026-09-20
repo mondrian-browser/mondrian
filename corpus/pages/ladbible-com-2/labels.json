@@ -1,0 +1,231 @@
+{
+ "id": "ladbible-com-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:59:55.050Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 32708,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.87,
+   "margin": 0.76,
+   "top": [
+    [
+     "site_nav",
+     0.88
+    ],
+    [
+     "site_header",
+     0.12
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "image",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ]
+   ],
+   "final": "site_nav",
+   "block": "links",
+   "slot": "header"
+  },
+  {
+   "index": 1,
+   "choice": "heading",
+   "confidence": 0.56,
+   "margin": 0.14,
+   "top": [
+    [
+     "heading",
+     0.57
+    ],
+    [
+     "title",
+     0.43
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "pricing_table",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "final": "heading",
+   "block": "heading",
+   "slot": "teasers"
+  },
+  {
+   "index": 2,
+   "choice": "summary",
+   "confidence": 0.88,
+   "margin": 0.83,
+   "top": [
+    [
+     "summary",
+     0.89
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.04
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "final": "summary",
+   "block": "prose",
+   "slot": "teasers"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "teaser_card",
+     0.98
+    ],
+    [
+     "related",
+     0.02
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "final": "teaser_card",
+   "block": "cards",
+   "slot": "teasers"
+  },
+  {
+   "index": 4,
+   "choice": "teaser_card",
+   "confidence": 0.78,
+   "margin": 0.71,
+   "top": [
+    [
+     "teaser_card",
+     0.79
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "related",
+     0.05
+    ],
+    [
+     "form",
+     0.03
+    ],
+    [
+     "trending",
+     0.01
+    ]
+   ],
+   "final": "teaser_card",
+   "block": "cards",
+   "slot": "teasers"
+  },
+  {
+   "index": 5,
+   "choice": "pagination",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "pagination",
+     1
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "final": "pagination",
+   "block": "list",
+   "slot": "nav"
+  },
+  {
+   "index": 6,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "final": "site_footer",
+   "block": "cards",
+   "slot": "footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.747Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

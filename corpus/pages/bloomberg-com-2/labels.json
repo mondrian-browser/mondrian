@@ -1,0 +1,479 @@
+{
+ "id": "bloomberg-com-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:37:04.082Z",
+ "tier": "relayout",
+ "application": 0.02,
+ "inputTokens": 69898,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.41,
+   "margin": 0.17,
+   "top": [
+    [
+     "site_nav",
+     0.43
+    ],
+    [
+     "cross_promo",
+     0.26
+    ],
+    [
+     "site_header",
+     0.24
+    ],
+    [
+     "site_footer",
+     0.03
+    ],
+    [
+     "list",
+     0.02
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.85,
+   "margin": 0.72,
+   "top": [
+    [
+     "site_nav",
+     0.86
+    ],
+    [
+     "site_header",
+     0.14
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "cta",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "video",
+   "confidence": 0.95,
+   "margin": 0.92,
+   "top": [
+    [
+     "video",
+     0.96
+    ],
+    [
+     "popup",
+     0.04
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "header",
+   "final": "video"
+  },
+  {
+   "index": 3,
+   "choice": "sticky_bar",
+   "confidence": 0.44,
+   "margin": 0.21,
+   "top": [
+    [
+     "sticky_bar",
+     0.46
+    ],
+    [
+     "video",
+     0.25
+    ],
+    [
+     "popup",
+     0.09
+    ],
+    [
+     "cross_promo",
+     0.07
+    ],
+    [
+     "site_notice",
+     0.05
+    ]
+   ],
+   "block": "cards",
+   "slot": "gate",
+   "final": "sticky_bar"
+  },
+  {
+   "index": 4,
+   "choice": "section_nav",
+   "confidence": 0.4,
+   "margin": 0.2,
+   "top": [
+    [
+     "section_nav",
+     0.42
+    ],
+    [
+     "site_nav",
+     0.22
+    ],
+    [
+     "related",
+     0.22
+    ],
+    [
+     "cross_promo",
+     0.06
+    ],
+    [
+     "trending",
+     0.03
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 5,
+   "choice": "image",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "image",
+     1
+    ],
+    [
+     "calendar",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "image"
+  },
+  {
+   "index": 6,
+   "choice": "title",
+   "confidence": 0.67,
+   "margin": 0.37,
+   "top": [
+    [
+     "title",
+     0.68
+    ],
+    [
+     "heading",
+     0.31
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 7,
+   "choice": "summary",
+   "confidence": 0.61,
+   "margin": 0.24,
+   "top": [
+    [
+     "summary",
+     0.62
+    ],
+    [
+     "text",
+     0.38
+    ],
+    [
+     "tag_cloud",
+     0
+    ],
+    [
+     "stats",
+     0
+    ],
+    [
+     "accordion",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 8,
+   "choice": "share",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "share",
+     1
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "team",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "share"
+  },
+  {
+   "index": 9,
+   "choice": "byline",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "byline",
+     1
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "stats",
+     0
+    ],
+    [
+     "accordion",
+     0
+    ],
+    [
+     "correction",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 10,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "text"
+  },
+  {
+   "index": 11,
+   "choice": "site_footer",
+   "confidence": 0.7,
+   "margin": 0.58,
+   "top": [
+    [
+     "site_footer",
+     0.71
+    ],
+    [
+     "cross_promo",
+     0.13
+    ],
+    [
+     "page_tools",
+     0.05
+    ],
+    [
+     "cta",
+     0.04
+    ],
+    [
+     "feedback",
+     0.04
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 12,
+   "choice": "site_footer",
+   "confidence": 0.59,
+   "margin": 0.2,
+   "top": [
+    [
+     "site_footer",
+     0.6
+    ],
+    [
+     "site_nav",
+     0.4
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "callout",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 13,
+   "choice": "site_footer",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "site_footer",
+     0.98
+    ],
+    [
+     "legal_notice",
+     0.02
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 14,
+   "choice": "subscribe",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "subscribe",
+     0.95
+    ],
+    [
+     "cta",
+     0.03
+    ],
+    [
+     "popup",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0.01
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.169Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

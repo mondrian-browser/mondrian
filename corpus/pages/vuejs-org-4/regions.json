@@ -1,0 +1,2542 @@
+{
+ "url": "https://vuejs.org/guide/essentials/reactivity-fundamentals.html",
+ "title": "Reactivity Fundamentals | Vue.js",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 11199,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "VPNav nav-bar",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 697,
+   "text": "Skip to content\nVue.jsSearchCtrlK\nMain NavigationDocs Quick StartGuideTutorialExamplesAPIGlossaryError ReferenceVue 2 DocsMigration from Vue 2\nPlaygroundEcosystem Resources\nThemesUI ComponentsPlugins CollectionCertificationJobsT-Shirt Shop\nOfficial Libraries\nVue RouterPiniaTooling Guide\nVideo Courses\nVue MasteryVue School\nHelp\nDiscord ChatGitHub DiscussionsDEV Community\nNews\nBlogTwitterEventsNewsl",
+   "counts": {
+    "links": 72,
+    "images": 58,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 10,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.72,
+   "geometry": {
+    "top": 4,
+    "height": 123,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "preference-switch",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 209,
+   "text": "API PreferenceOptionsComposition?API style now defaults to Composition API.\n Some pages contain different content based on the API style chosen. Use this switch to toggle between APIs styles. \nLearn moreGot it",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 11,
+     "height": 11
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 96,
+    "height": 103,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "section",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 40,
+   "text": "Getting Started\nIntroduction\nQuick Start",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 219,
+    "height": 84,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h2",
+   "class": "active title-text",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 10,
+   "text": "Essentials",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 323,
+    "height": 20,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "a×2",
+   "class": "link",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 39,
+   "text": "Creating an Application\nTemplate Syntax",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 2
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 347,
+    "height": 56,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "class": "link-text",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 23,
+   "text": "Reactivity Fundamentals",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 407,
+    "height": 20,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "a×10",
+   "class": "link",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 173,
+   "text": "Computed Properties\nClass and Style Bindings\nConditional Rendering\nList Rendering\nEvent Handling\nForm Input Bindings\nWatchers\nTemplate Refs\nComponents Basics\nLifecycle Hooks",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 10,
+    "repeats": 10,
+    "coverLinks": 10
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 431,
+    "height": 280,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "section×6",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 490,
+   "text": "Components In-Depth\nRegistration\nProps\nEvents\nComponent v-model\nFallthrough Attributes\nSlots\nProvide / inject\nAsync Components\nReusability\nComposables\nCustom Directives\nPlugins\nBuilt-in Components\nTransition\nTransitionGroup\nKeepAlive\nTeleport\nSuspense\nScaling Up\nSingle-File Components\nTooling\nRouting\nState Management\nTesting\nServer-Side Rendering (SSR)\nBest Practices\nProduction Deployment\nPerforma",
+   "counts": {
+    "links": 29,
+    "images": 0,
+    "headings": 6,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 29,
+    "repeats": 6,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 727,
+    "height": 1060,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "section",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 188,
+   "text": "Extra Topics\nWays of Using Vue\nComposition API FAQ\nReactivity in Depth\nRendering Mechanism\nRender Functions & JSX\nVue and Web Components\nAnimation Techniques\nGet Security Updates for Vue 2",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 1803,
+    "height": 280,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "VPContentDocOutline",
+   "landmarks": [],
+   "textLength": 415,
+   "text": "On this page\nTable of Contents for current pageDeclaring Reactive StateReactive Proxy vs. Original\nDeclaring Reactive Stateref()\n<script setup>\nWhy Refs?\nDeclaring MethodsDeep Reactivity\nDOM Update Timing\nreactive()Reactive Proxy vs. Original\nLimitations of reactive()\nAdditional Ref Unwrapping DetailsAs Reactive Object Property\nCaveat in Arrays and Collections\nCaveat when Unwrapping in Templates\nS",
+   "counts": {
+    "links": 17,
+    "images": 0,
+    "headings": 0,
+    "listItems": 17,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 136,
+    "height": 392,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "landmarks": [],
+   "textLength": 58,
+   "text": "SponsorsInquire about Special Sponsorship\nBecome a Sponsor",
+   "counts": {
+    "links": 13,
+    "images": 10,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Greptile",
+     "width": 88,
+     "height": 29
+    },
+    {
+     "kind": "img",
+     "alt": "Vehikl",
+     "width": 88,
+     "height": 22
+    },
+    {
+     "kind": "img",
+     "alt": "Vue.js Amsterdam",
+     "width": 88,
+     "height": 22
+    },
+    {
+     "kind": "img",
+     "alt": "JavaScript Certification",
+     "width": 88,
+     "height": 22
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 528,
+    "height": 442,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h1",
+   "id": "reactivity-fundamentals",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 25,
+   "text": "Reactivity Fundamentals ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 136,
+    "height": 53,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "tip custom-block",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 299,
+   "text": "API Preference\nThis page and many other chapters later in the guide contain different content for the Options API and the Composition API. Your current preference is Options APIComposition API. You can toggle between the API styles using the \"API Preference\" switches at the top of the left sidebar.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 237,
+    "height": 164,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h2",
+   "id": "declaring-reactive-state-1",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 26,
+   "text": "Declaring Reactive State ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 466,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h3",
+   "id": "ref",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 7,
+   "text": "ref() ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 560,
+    "height": 30,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 94,
+   "text": "In Composition API, the recommended way to declare reactive state is using the ref() function:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 610,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 48,
+   "text": "jsimport { ref } from 'vue'\nconst count = ref(0)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 692,
+    "height": 91,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 91,
+   "text": "ref() takes the argument and returns it wrapped within a ref object with a .value property:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 811,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 18,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 131,
+   "text": "jsconst count = ref(0)\nconsole.log(count) // { value: 0 }\nconsole.log(count.value) // 0\ncount.value++\nconsole.log(count.value) // 1",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 893,
+    "height": 175,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 124,
+   "text": "See also: Typing Refs\nTo access refs in a component's template, declare and return them from a component's setup() function:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1096,
+    "height": 98,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 202,
+   "text": "jsimport { ref } from 'vue'\nexport default {\n // `setup` is a special hook dedicated for the Composition API.\n setup() {\n const count = ref(0)\n // expose the ref to the template\n return {\n count\n }\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1222,
+    "height": 301,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 30,
+   "text": "template<div>{{ count }}</div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1535,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 179,
+   "text": "Notice that we did not need to append .value when using the ref in the template. For convenience, refs are automatically unwrapped when used inside templates (with a few caveats).",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1612,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 110,
+   "text": "You can also mutate a ref directly in event handlers:\ntemplate<button @click=\"count++\">\n {{ count }}\n</button>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1713,
+    "height": 146,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 131,
+   "text": "For more complex logic, we can declare functions that mutate refs in the same scope and expose them as methods alongside the state:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1887,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 240,
+   "text": "jsimport { ref } from 'vue'\nexport default {\n setup() {\n const count = ref(0)\n function increment() {\n // .value is needed in JavaScript\n count.value++\n }\n // don't forget to expose the function as well.\n return {\n count,\n increment\n }\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1969,
+    "height": 406,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 110,
+   "text": "Exposed methods can then be used as event handlers:\ntemplate<button @click=\"increment\">\n {{ count }}\n</button>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2403,
+    "height": 146,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 66,
+   "text": "Here's the example live on Codepen, without using any build tools.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 2577,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h3",
+   "id": "script-setup",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "<script setup> ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 2653,
+    "height": 30,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 179,
+   "text": "Manually exposing state and methods via setup() can be verbose. Luckily, it can be avoided when using Single-File Components (SFCs). We can simplify the usage with <script setup>:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 2702,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "div",
+   "class": "language-vue",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 190,
+   "text": "vue<script setup>\nimport { ref } from 'vue'\nconst count = ref(0)\nfunction increment() {\n count.value++\n}\n</script>\n<template>\n <button @click=\"increment\">\n {{ count }}\n </button>\n</template>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2812,
+    "height": 343,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 295,
+   "text": "Try it in the Playground\nTop-level imports, variables and functions declared in <script setup> are automatically usable in the template of the same component. Think of the template as a JavaScript function declared in the same scope - it naturally has access to everything declared alongside it.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3183,
+    "height": 155,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "div",
+   "class": "tip custom-block",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 262,
+   "text": "TIP\nFor the rest of the guide, we will be primarily using SFC + <script setup> syntax for the Composition API code examples, as that is the most common usage for Vue developers.\nIf you are not using SFC, you can still use Composition API with the setup() option.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 3366,
+    "height": 160,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h3",
+   "id": "why-refs",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Why Refs? ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 3573,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1050,
+   "text": "You might be wondering why we need refs with the .value instead of plain variables. To explain that, we will need to briefly discuss how Vue's reactivity system works.\nWhen you use a ref in a template, and change the ref's value later, Vue automatically detects the change and updates the DOM accordingly. This is made possible with a dependency-tracking based reactivity system. When a component is ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3622,
+    "height": 438,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 182,
+   "text": "js// pseudo code, not actual implementation\nconst myRef = {\n _value: 0,\n get value() {\n track()\n return this._value\n },\n set value(newValue) {\n this._value = newValue\n trigger()\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4088,
+    "height": 280,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 331,
+   "text": "Another nice trait of refs is that unlike plain variables, you can pass refs into functions while retaining access to the latest value and the reactivity connection. This is particularly useful when refactoring complex logic into reusable code.\nThe reactivity system is discussed in more details in the Reactivity in Depth section.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 4396,
+    "height": 128,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h3",
+   "id": "deep-reactivity",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Deep Reactivity ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 4572,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 258,
+   "text": "Refs can hold any value type, including deeply nested objects, arrays, or JavaScript built-in data structures like Map.\nA ref will make its value deeply reactive. This means you can expect changes to be detected even when you mutate nested objects or arrays:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4621,
+    "height": 128,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 206,
+   "text": "jsimport { ref } from 'vue'\nconst obj = ref({\n nested: { count: 0 },\n arr: ['foo', 'bar']\n})\nfunction mutateDeeply() {\n // these will work as expected.\n obj.value.nested.count++\n obj.value.arr.push('baz')\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4776,
+    "height": 280,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 400,
+   "text": "Non-primitive values are turned into reactive proxies via reactive(), which is discussed below.\nIt is also possible to opt-out of deep reactivity with shallow refs. For shallow refs, only .value access is tracked for reactivity. Shallow refs can be used for optimizing performance by avoiding the observation cost of large objects, or in cases where the inner state is managed by an external library.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 5084,
+    "height": 182,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 114,
+   "text": "Further reading:\nReduce Reactivity Overhead for Large Immutable Structures\nIntegration with External State Systems",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.84,
+   "geometry": {
+    "top": 5286,
+    "height": 102,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "h3",
+   "id": "dom-update-timing",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "DOM Update Timing ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 5436,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 409,
+   "text": "When you mutate reactive state, the DOM is updated automatically. However, it should be noted that the DOM updates are not applied synchronously. Instead, Vue buffers them until the \"next tick\" in the update cycle to ensure that each component updates only once no matter how many state changes you have made.\nTo wait for the DOM update to complete after a state change, you can use the nextTick() gl",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 5484,
+    "height": 182,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 123,
+   "text": "jsimport { nextTick } from 'vue'\nasync function increment() {\n count.value++\n await nextTick()\n // Now the DOM is updated\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5695,
+    "height": 175,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "h2",
+   "id": "reactive",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 12,
+   "text": "reactive() ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 5934,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 178,
+   "text": "There is another way to declare reactive state, with the reactive() API. Unlike a ref which wraps the inner value in a special object, reactive() makes an object itself reactive:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6028,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 69,
+   "text": "jsimport { reactive } from 'vue'\nconst state = reactive({ count: 0 })",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6138,
+    "height": 91,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 113,
+   "text": "See also: Typing Reactive\nUsage in template:\ntemplate<button @click=\"state.count++\">\n {{ state.count }}\n</button>",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 6257,
+    "height": 189,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 500,
+   "text": "Reactive objects are JavaScript Proxies and behave just like normal objects. The difference is that Vue is able to intercept the access and mutation of all properties of a reactive object for reactivity tracking and triggering.\nreactive() converts the object deeply: nested objects are also wrapped with reactive() when accessed. It is also called by ref() internally when the ref value is an object.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 6474,
+    "height": 210,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h3",
+   "id": "reactive-proxy-vs-original-1",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "Reactive Proxy vs. Original ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 6732,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 141,
+   "text": "It is important to note that the returned value from reactive() is a Proxy of the original object, which is not equal to the original object:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 6780,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 119,
+   "text": "jsconst raw = {}\nconst proxy = reactive(raw)\n// proxy is NOT equal to the original.\nconsole.log(proxy === raw) // false",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6862,
+    "height": 133,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 397,
+   "text": "Only the proxy is reactive - mutating the original object will not trigger updates. Therefore, the best practice when working with Vue's reactivity system is to exclusively use the proxied versions of your state.\nTo ensure consistent access to the proxy, calling reactive() on the same object always returns the same proxy, and calling reactive() on an existing proxy also returns that same proxy:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7023,
+    "height": 182,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 205,
+   "text": "js// calling reactive() on the same object returns the same proxy\nconsole.log(reactive(raw) === proxy) // true\n// calling reactive() on a proxy returns itself\nconsole.log(reactive(proxy) === proxy) // true",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7234,
+    "height": 133,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 126,
+   "text": "This rule applies to nested objects as well. Due to deep reactivity, nested objects inside a reactive object are also proxies:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7395,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 105,
+   "text": "jsconst proxy = reactive({})\nconst raw = {}\nproxy.nested = raw\nconsole.log(proxy.nested === raw) // false",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7477,
+    "height": 154,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h3",
+   "id": "limitations-of-reactive",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 27,
+   "text": "Limitations of reactive() ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 7679,
+    "height": 30,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "ol",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1210,
+   "text": "The reactive() API has a few limitations:\nLimited value types: it only works for object types (objects, arrays, and collection types such as Map and Set). It cannot hold primitive types such as string, number or boolean.\nCannot replace entire object: since Vue's reactivity tracking works over property access, we must always keep the same reference to the reactive object. This means we can't easily",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 7729,
+    "height": 813,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 99,
+   "text": "Due to these limitations, we recommend using ref() as the primary API for declaring reactive state.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8570,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "h2",
+   "id": "additional-ref-unwrapping-details",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 35,
+   "text": "Additional Ref Unwrapping Details ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 8688,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "h3",
+   "id": "ref-unwrapping-as-reactive-object-property",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "As Reactive Object Property ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 8783,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 144,
+   "text": "A ref is automatically unwrapped when accessed or mutated as a property of a reactive object. In other words, it behaves like a normal property:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8832,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 133,
+   "text": "jsconst count = ref(0)\nconst state = reactive({\n count\n})\nconsole.log(state.count) // 0\nstate.count = 1\nconsole.log(count.value) // 1",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8914,
+    "height": 217,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 94,
+   "text": "If a new ref is assigned to a property linked to an existing ref, it will replace the old ref:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9159,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 165,
+   "text": "jsconst otherCount = ref(2)\nstate.count = otherCount\nconsole.log(state.count) // 2\n// original ref is now disconnected from state.count\nconsole.log(count.value) // 1",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9214,
+    "height": 154,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 152,
+   "text": "Ref unwrapping only happens when nested inside a deep reactive object. It does not apply when it is accessed as a property of a shallow reactive object.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 9396,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "h3",
+   "id": "caveat-in-arrays-and-collections",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 34,
+   "text": "Caveat in Arrays and Collections ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 9498,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 154,
+   "text": "Unlike reactive objects, there is no unwrapping performed when the ref is accessed as an element of a reactive array or a native collection type like Map:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9547,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 201,
+   "text": "jsconst books = reactive([ref('Vue 3 Guide')])\n// need .value here\nconsole.log(books[0].value)\nconst map = reactive(new Map([['count', ref(0)]]))\n// need .value here\nconsole.log(map.get('count').value)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9629,
+    "height": 175,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "h3",
+   "id": "caveat-when-unwrapping-in-templates",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 37,
+   "text": "Caveat when Unwrapping in Templates ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 9852,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 194,
+   "text": "Ref unwrapping in templates only applies if the ref is a top-level property in the template render context.\nIn the example below, count and object are top-level properties, but object.id is not:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9901,
+    "height": 128,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 52,
+   "text": "jsconst count = ref(0)\nconst object = { id: ref(1) }",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10057,
+    "height": 70,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 69,
+   "text": "Therefore, this expression works as expected:\ntemplate{{ count + 1 }}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10155,
+    "height": 104,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 55,
+   "text": "...while this one does NOT:\ntemplate{{ object.id + 1 }}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10287,
+    "height": 104,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 198,
+   "text": "The rendered result will be [object Object]1 because object.id is not unwrapped when evaluating the expression and remains a ref object. To fix this, we can destructure id into a top-level property:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10419,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 23,
+   "text": "jsconst { id } = object",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10529,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "template{{ id + 1 }}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10590,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 198,
+   "text": "Now the render result will be 2.\nAnother thing to note is that a ref does get unwrapped if it is the final evaluated value of a text interpolation (i.e. a {{ }} tag), so the following will render 1:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10667,
+    "height": 101,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 23,
+   "text": "template{{ object.id }}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10795,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 125,
+   "text": "This is just a convenience feature of text interpolation and is equivalent to {{ object.id.value }}.\nEdit this page on GitHub",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 10872,
+    "height": 133,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "footer",
+   "class": "VPContentDocFooter",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 47,
+   "text": "PreviousTemplate SyntaxNext Computed Properties",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 11,
+     "height": 11
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 11,
+     "height": 11
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 11038,
+    "height": 65,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

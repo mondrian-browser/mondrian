@@ -1,0 +1,355 @@
+{
+ "id": "svelte-dev-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:59:26.301Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 50036,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.9,
+   "margin": 0.84,
+   "top": [
+    [
+     "site_nav",
+     0.91
+    ],
+    [
+     "site_header",
+     0.07
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "section_nav",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "section_nav",
+     1
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.86,
+   "margin": 0.74,
+   "top": [
+    [
+     "title",
+     0.87
+    ],
+    [
+     "heading",
+     0.13
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "site_nav",
+     0
+    ],
+    [
+     "share",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "table_of_contents",
+   "confidence": 0.65,
+   "margin": 0.34,
+   "top": [
+    [
+     "table_of_contents",
+     0.66
+    ],
+    [
+     "heading",
+     0.32
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 4,
+   "choice": "table_of_contents",
+   "confidence": 0.69,
+   "margin": 0.57,
+   "top": [
+    [
+     "table_of_contents",
+     0.71
+    ],
+    [
+     "section_nav",
+     0.14
+    ],
+    [
+     "heading",
+     0.07
+    ],
+    [
+     "title",
+     0.04
+    ],
+    [
+     "site_nav",
+     0.03
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "table_of_contents"
+  },
+  {
+   "index": 5,
+   "choice": "summary",
+   "confidence": 0.63,
+   "margin": 0.28,
+   "top": [
+    [
+     "summary",
+     0.64
+    ],
+    [
+     "text",
+     0.36
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 6,
+   "choice": "code",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "code",
+     0.99
+    ],
+    [
+     "embed",
+     0.01
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "pricing_table",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "code",
+   "slot": "article",
+   "final": "code"
+  },
+  {
+   "index": 7,
+   "choice": "text",
+   "confidence": 0.79,
+   "margin": 0.62,
+   "top": [
+    [
+     "text",
+     0.81
+    ],
+    [
+     "summary",
+     0.19
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "tag_cloud",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 8,
+   "choice": "text",
+   "confidence": 0.74,
+   "margin": 0.58,
+   "top": [
+    [
+     "text",
+     0.76
+    ],
+    [
+     "summary",
+     0.18
+    ],
+    [
+     "callout",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0.02
+    ],
+    [
+     "cta",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 9,
+   "choice": "page_tools",
+   "confidence": 0.77,
+   "margin": 0.66,
+   "top": [
+    [
+     "page_tools",
+     0.78
+    ],
+    [
+     "section_nav",
+     0.12
+    ],
+    [
+     "pagination",
+     0.04
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "summary",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "tools",
+   "final": "page_tools"
+  },
+  {
+   "index": 10,
+   "choice": "cross_promo",
+   "confidence": 0.83,
+   "margin": 0.74,
+   "top": [
+    [
+     "cross_promo",
+     0.85
+    ],
+    [
+     "site_notice",
+     0.11
+    ],
+    [
+     "cta",
+     0.02
+    ],
+    [
+     "sticky_bar",
+     0.01
+    ],
+    [
+     "calendar",
+     0.01
+    ]
+   ],
+   "block": "mixed",
+   "slot": "promo",
+   "final": "cross_promo"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.437Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

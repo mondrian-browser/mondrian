@@ -1,0 +1,293 @@
+{
+ "id": "encyclopedia-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:16:53.356Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 40998,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.66,
+   "margin": 0.41,
+   "top": [
+    [
+     "site_nav",
+     0.67
+    ],
+    [
+     "site_header",
+     0.26
+    ],
+    [
+     "section_nav",
+     0.07
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "breadcrumbs",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "breadcrumbs",
+     0.94
+    ],
+    [
+     "site_nav",
+     0.02
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "title",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.56,
+   "margin": 0.16,
+   "top": [
+    [
+     "title",
+     0.57
+    ],
+    [
+     "heading",
+     0.41
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "nav",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "gallery",
+   "confidence": 0.89,
+   "margin": 0.85,
+   "top": [
+    [
+     "gallery",
+     0.9
+    ],
+    [
+     "hero",
+     0.05
+    ],
+    [
+     "teaser_card",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "decoration",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "nav",
+   "final": "gallery"
+  },
+  {
+   "index": 4,
+   "choice": "summary",
+   "confidence": 0.92,
+   "margin": 0.87,
+   "top": [
+    [
+     "summary",
+     0.93
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "nav",
+   "final": "summary"
+  },
+  {
+   "index": 5,
+   "choice": "section_nav",
+   "confidence": 0.71,
+   "margin": 0.57,
+   "top": [
+    [
+     "section_nav",
+     0.73
+    ],
+    [
+     "list",
+     0.16
+    ],
+    [
+     "tag_cloud",
+     0.06
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "table_of_contents",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 6,
+   "choice": "section_nav",
+   "confidence": 0.4,
+   "margin": 0.01,
+   "top": [
+    [
+     "section_nav",
+     0.41
+    ],
+    [
+     "heading",
+     0.4
+    ],
+    [
+     "site_nav",
+     0.18
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 7,
+   "choice": "site_nav",
+   "confidence": 0.5,
+   "margin": 0.07,
+   "top": [
+    [
+     "site_nav",
+     0.52
+    ],
+    [
+     "section_nav",
+     0.45
+    ],
+    [
+     "tag_cloud",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "author_bio",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.419Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

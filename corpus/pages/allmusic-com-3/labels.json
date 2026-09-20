@@ -1,0 +1,790 @@
+{
+ "id": "allmusic-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:32:52.055Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 114274,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.66,
+   "margin": 0.38,
+   "top": [
+    [
+     "site_nav",
+     0.68
+    ],
+    [
+     "site_header",
+     0.3
+    ],
+    [
+     "filters",
+     0.01
+    ],
+    [
+     "tag_cloud",
+     0.01
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "subscribe",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "subscribe",
+     0.97
+    ],
+    [
+     "site_notice",
+     0.03
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "chart",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.84,
+   "margin": 0.72,
+   "top": [
+    [
+     "title",
+     0.85
+    ],
+    [
+     "heading",
+     0.13
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "pricing_table",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "page",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "image",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "image",
+     0.99
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "unclear",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "page",
+   "final": "image"
+  },
+  {
+   "index": 4,
+   "choice": "byline",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "byline",
+     1
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 5,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "summary",
+     0.02
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "page",
+   "final": "text"
+  },
+  {
+   "index": 6,
+   "choice": "heading",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "page",
+   "final": "heading"
+  },
+  {
+   "index": 7,
+   "choice": "text",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "page",
+   "final": "text"
+  },
+  {
+   "index": 8,
+   "choice": "video",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "video",
+     0.99
+    ],
+    [
+     "embed",
+     0.01
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "page",
+   "final": "video"
+  },
+  {
+   "index": 9,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "heading",
+     0.99
+    ],
+    [
+     "title",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "page",
+   "final": "heading"
+  },
+  {
+   "index": 10,
+   "choice": "text",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "page",
+   "final": "text"
+  },
+  {
+   "index": 11,
+   "choice": "author_bio",
+   "confidence": 0.78,
+   "margin": 0.65,
+   "top": [
+    [
+     "author_bio",
+     0.79
+    ],
+    [
+     "image",
+     0.14
+    ],
+    [
+     "byline",
+     0.04
+    ],
+    [
+     "user_card",
+     0.02
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 12,
+   "choice": "author_bio",
+   "confidence": 0.62,
+   "margin": 0.32,
+   "top": [
+    [
+     "author_bio",
+     0.63
+    ],
+    [
+     "byline",
+     0.31
+    ],
+    [
+     "heading",
+     0.06
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 13,
+   "choice": "author_bio",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "author_bio",
+     1
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "audio",
+     0
+    ],
+    [
+     "reactions",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 14,
+   "choice": "author_bio",
+   "confidence": 0.74,
+   "margin": 0.68,
+   "top": [
+    [
+     "author_bio",
+     0.75
+    ],
+    [
+     "tag_cloud",
+     0.07
+    ],
+    [
+     "metadata",
+     0.06
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "infobox",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 15,
+   "choice": "author_bio",
+   "confidence": 0.86,
+   "margin": 0.79,
+   "top": [
+    [
+     "author_bio",
+     0.87
+    ],
+    [
+     "byline",
+     0.08
+    ],
+    [
+     "metadata",
+     0.03
+    ],
+    [
+     "user_card",
+     0.02
+    ],
+    [
+     "table_of_contents",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 16,
+   "choice": "author_bio",
+   "confidence": 0.78,
+   "margin": 0.62,
+   "top": [
+    [
+     "author_bio",
+     0.79
+    ],
+    [
+     "user_card",
+     0.17
+    ],
+    [
+     "external_links",
+     0.04
+    ],
+    [
+     "ad",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 17,
+   "choice": "author_bio",
+   "confidence": 0.51,
+   "margin": 0.17,
+   "top": [
+    [
+     "author_bio",
+     0.52
+    ],
+    [
+     "cross_promo",
+     0.35
+    ],
+    [
+     "cta",
+     0.09
+    ],
+    [
+     "checkout",
+     0.01
+    ],
+    [
+     "ad",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 18,
+   "choice": "breadcrumbs",
+   "confidence": 0.27,
+   "margin": 0.02,
+   "top": [
+    [
+     "breadcrumbs",
+     0.29
+    ],
+    [
+     "section_nav",
+     0.27
+    ],
+    [
+     "heading",
+     0.21
+    ],
+    [
+     "site_nav",
+     0.11
+    ],
+    [
+     "related",
+     0.07
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 19,
+   "choice": "teaser_card",
+   "confidence": 0.71,
+   "margin": 0.49,
+   "top": [
+    [
+     "teaser_card",
+     0.73
+    ],
+    [
+     "related",
+     0.24
+    ],
+    [
+     "gallery",
+     0.02
+    ],
+    [
+     "trending",
+     0.01
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 20,
+   "choice": "pagination",
+   "confidence": 0.65,
+   "margin": 0.51,
+   "top": [
+    [
+     "pagination",
+     0.67
+    ],
+    [
+     "section_nav",
+     0.16
+    ],
+    [
+     "related",
+     0.1
+    ],
+    [
+     "gallery",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.02
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "pagination"
+  },
+  {
+   "index": 21,
+   "choice": "tabs",
+   "confidence": 0.66,
+   "margin": 0.5,
+   "top": [
+    [
+     "tabs",
+     0.68
+    ],
+    [
+     "pagination",
+     0.18
+    ],
+    [
+     "gallery",
+     0.07
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "decoration",
+     0.02
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 22,
+   "choice": "related",
+   "confidence": 0.8,
+   "margin": 0.62,
+   "top": [
+    [
+     "related",
+     0.81
+    ],
+    [
+     "heading",
+     0.19
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "related",
+   "final": "heading",
+   "policy": "heading-is-heading"
+  },
+  {
+   "index": 23,
+   "choice": "related",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "related",
+     0.98
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 24,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.030Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

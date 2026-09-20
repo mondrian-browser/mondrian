@@ -1,129 +1,129 @@
 {
-  "updatedAt": "2026-09-20T11:45:41.459Z",
+  "updatedAt": "2026-09-20T15:00:23.569Z",
   "model": "jev-latest",
   "types": "questions",
   "typeCount": 100,
-  "pages": 244,
-  "regions": 8094,
+  "pages": 670,
+  "regions": 22368,
   "flagged": {
-    "lowConfidence": 1039,
-    "ties": 510,
-    "either": 1087,
+    "lowConfidence": 2810,
+    "ties": 1405,
+    "either": 2963,
     "reviewBelow": 0.5,
     "tieMargin": 0.1
   },
   "confidence": {
-    "min": 0.14,
-    "p25": 0.65,
-    "median": 0.89,
+    "min": 0.12,
+    "p25": 0.64,
+    "median": 0.88,
     "p75": 0.98,
     "max": 1
   },
-  "inputTokens": 37076073,
-  "estimatedCostUsd": 1.557,
+  "inputTokens": 102441369,
+  "estimatedCostUsd": 4.303,
   "byType": {
-    "text": 1256,
-    "teaser_card": 1172,
-    "heading": 873,
-    "site_footer": 499,
-    "code": 359,
-    "site_nav": 272,
-    "image": 241,
-    "list": 224,
-    "site_header": 198,
-    "comments": 196,
-    "title": 139,
-    "action_button": 136,
-    "related": 130,
-    "byline": 124,
-    "trending": 117,
-    "summary": 111,
-    "section_nav": 106,
-    "ad": 91,
-    "cta": 79,
-    "gallery": 66,
-    "vote_controls": 65,
-    "pagination": 64,
-    "cross_promo": 62,
-    "video": 59,
-    "search": 56,
-    "account": 53,
-    "quote": 50,
-    "breadcrumbs": 50,
-    "cookie_banner": 47,
-    "version_switcher": 46,
-    "subscribe": 45,
-    "table": 45,
-    "filters": 44,
-    "callout": 42,
-    "infobox": 42,
-    "share": 41,
-    "legal_notice": 39,
-    "skip_link": 37,
-    "chart": 36,
-    "tabs": 35,
-    "tag_cloud": 33,
-    "product_card": 33,
-    "newsletter": 32,
-    "feature_grid": 32,
-    "table_of_contents": 32,
-    "steps": 31,
-    "calendar": 30,
-    "hero": 29,
-    "metadata": 28,
-    "accordion": 25,
-    "testimonial": 22,
-    "embed": 22,
-    "external_links": 22,
-    "logo_cloud": 20,
-    "toolbar": 19,
-    "feedback": 16,
-    "decoration": 16,
-    "author_bio": 15,
-    "empty_state": 15,
-    "form": 14,
-    "page_tools": 14,
-    "reviews": 13,
-    "rating": 13,
-    "paywall": 13,
-    "references": 13,
-    "app_nag": 12,
-    "site_notice": 12,
-    "user_card": 12,
-    "sponsored": 12,
-    "settings": 11,
-    "chat_widget": 11,
-    "login_form": 11,
-    "contact_details": 11,
-    "cart": 9,
-    "stats": 8,
-    "poll": 8,
-    "badge": 7,
-    "audio": 7,
-    "reactions": 7,
-    "map": 6,
-    "status_message": 5,
-    "canvas": 5,
-    "definition_list": 5,
-    "transcript": 5,
-    "team": 5,
-    "footnote": 4,
-    "buy_box": 4,
-    "sticky_bar": 3,
-    "popup": 3,
-    "pricing_table": 2,
-    "progress": 2,
-    "disclosure": 2,
-    "correction": 2,
+    "teaser_card": 3228,
+    "text": 3191,
+    "heading": 2719,
+    "site_footer": 1317,
+    "site_nav": 836,
+    "image": 709,
+    "code": 628,
+    "list": 527,
+    "site_header": 506,
+    "related": 459,
+    "title": 398,
+    "comments": 352,
+    "summary": 340,
+    "action_button": 316,
+    "byline": 292,
+    "product_card": 277,
+    "trending": 273,
+    "section_nav": 268,
+    "subscribe": 244,
+    "cross_promo": 243,
+    "cta": 242,
+    "video": 231,
+    "newsletter": 189,
+    "pagination": 188,
+    "quote": 181,
+    "ad": 180,
+    "table": 176,
+    "breadcrumbs": 166,
+    "callout": 161,
+    "filters": 157,
+    "account": 155,
+    "search": 140,
+    "cookie_banner": 128,
+    "gallery": 128,
+    "share": 124,
+    "legal_notice": 115,
+    "tabs": 113,
+    "tag_cloud": 109,
+    "feature_grid": 107,
+    "table_of_contents": 103,
+    "version_switcher": 102,
+    "accordion": 91,
+    "hero": 90,
+    "skip_link": 89,
+    "infobox": 87,
+    "decoration": 83,
+    "steps": 81,
+    "author_bio": 76,
+    "audio": 70,
+    "vote_controls": 68,
+    "logo_cloud": 66,
+    "feedback": 64,
+    "buy_box": 63,
+    "chart": 58,
+    "testimonial": 58,
+    "page_tools": 55,
+    "metadata": 52,
+    "embed": 50,
+    "site_notice": 42,
+    "calendar": 38,
+    "stats": 37,
+    "references": 36,
+    "form": 35,
+    "app_nag": 33,
+    "chat_widget": 33,
+    "poll": 32,
+    "status_message": 32,
+    "external_links": 31,
+    "definition_list": 30,
+    "sponsored": 28,
+    "user_card": 28,
+    "contact_details": 27,
+    "popup": 26,
+    "settings": 26,
+    "toolbar": 26,
+    "reviews": 25,
+    "badge": 22,
+    "paywall": 22,
+    "disclosure": 21,
+    "rating": 20,
+    "team": 20,
+    "transcript": 20,
+    "login_form": 19,
+    "empty_state": 19,
+    "cart": 17,
+    "progress": 15,
+    "map": 13,
+    "sticky_bar": 13,
+    "download": 12,
+    "canvas": 10,
+    "correction": 8,
+    "pricing_table": 8,
+    "reactions": 8,
+    "footnote": 7,
+    "checkout": 3,
+    "consent_gate": 3,
     "content_warning": 2,
-    "download": 1,
-    "checkout": 1
+    "unclear": 1,
+    "math": 1
   },
   "unusedTypes": [
-    "math",
-    "consent_gate",
-    "age_gate",
-    "unclear"
+    "age_gate"
   ],
   "application": [
     {
@@ -152,6 +152,16 @@
       "application": 0.85
     },
     {
+      "id": "stratechery-com-2",
+      "tier": "relayout",
+      "application": 0.67
+    },
+    {
+      "id": "dictionary-cambridge-org-2",
+      "tier": "relayout",
+      "application": 0.57
+    },
+    {
       "id": "meta-discourse-org-3",
       "tier": "relayout",
       "application": 0.54
@@ -162,14 +172,59 @@
       "application": 0.52
     },
     {
+      "id": "zoom-com-4",
+      "tier": "relayout",
+      "application": 0.51
+    },
+    {
       "id": "youtube-watch",
       "tier": "skinned",
       "application": 0.5
     },
     {
+      "id": "collinsdictionary-com-2",
+      "tier": "relayout",
+      "application": 0.42
+    },
+    {
+      "id": "catch-com-au-2",
+      "tier": "relayout",
+      "application": 0.41
+    },
+    {
+      "id": "collinsdictionary-com-3",
+      "tier": "relayout",
+      "application": 0.4
+    },
+    {
+      "id": "collinsdictionary-com-4",
+      "tier": "relayout",
+      "application": 0.37
+    },
+    {
+      "id": "ato-gov-au-2",
+      "tier": "relayout",
+      "application": 0.3
+    },
+    {
+      "id": "canva-com-1",
+      "tier": "relayout",
+      "application": 0.29
+    },
+    {
       "id": "reddit-login-wall",
       "tier": "relayout",
       "application": 0.27
+    },
+    {
+      "id": "letterboxd-com-1",
+      "tier": "relayout",
+      "application": 0.25
+    },
+    {
+      "id": "cbc-ca-3",
+      "tier": "relayout",
+      "application": 0.21
     },
     {
       "id": "coinmarketcap-com-1",
@@ -182,12 +237,57 @@
       "application": 0.2
     },
     {
+      "id": "patient-info-3",
+      "tier": "relayout",
+      "application": 0.18
+    },
+    {
+      "id": "service-vic-gov-au-1",
+      "tier": "relayout",
+      "application": 0.18
+    },
+    {
+      "id": "bom-gov-au-1",
+      "tier": "relayout",
+      "application": 0.17
+    },
+    {
+      "id": "bom-gov-au-2",
+      "tier": "relayout",
+      "application": 0.17
+    },
+    {
+      "id": "bom-gov-au-3",
+      "tier": "relayout",
+      "application": 0.16
+    },
+    {
+      "id": "bom-gov-au-4",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
+      "id": "discogs-com-1",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
       "id": "goodreads-com-1",
       "tier": "relayout",
       "application": 0.15
     },
     {
       "id": "notion-so-1",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
+      "id": "nrl-com-3",
+      "tier": "relayout",
+      "application": 0.15
+    },
+    {
+      "id": "nrl-com-4",
       "tier": "relayout",
       "application": 0.15
     },
@@ -217,6 +317,16 @@
       "application": 0.14
     },
     {
+      "id": "yahoo-com-1",
+      "tier": "relayout",
+      "application": 0.14
+    },
+    {
+      "id": "yahoo-com-3",
+      "tier": "relayout",
+      "application": 0.14
+    },
+    {
       "id": "figma-com-4",
       "tier": "relayout",
       "application": 0.13
@@ -227,12 +337,32 @@
       "application": 0.13
     },
     {
+      "id": "letterboxd-com-4",
+      "tier": "relayout",
+      "application": 0.13
+    },
+    {
+      "id": "linear-app-1",
+      "tier": "relayout",
+      "application": 0.13
+    },
+    {
       "id": "meta-discourse-org-2",
       "tier": "relayout",
       "application": 0.13
     },
     {
       "id": "notion-so-3",
+      "tier": "relayout",
+      "application": 0.13
+    },
+    {
+      "id": "patient-info-1",
+      "tier": "relayout",
+      "application": 0.13
+    },
+    {
+      "id": "slack-com-1",
       "tier": "relayout",
       "application": 0.13
     },
@@ -252,12 +382,37 @@
       "application": 0.12
     },
     {
+      "id": "waitbutwhy-com-2",
+      "tier": "relayout",
+      "application": 0.12
+    },
+    {
       "id": "weather-com-1",
       "tier": "relayout",
       "application": 0.12
     },
     {
+      "id": "9news-com-au-4",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "abs-gov-au-2",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "abs-gov-au-4",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
       "id": "arstechnica-com-3",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "atlassian-com-4",
       "tier": "relayout",
       "application": 0.11
     },
@@ -272,7 +427,42 @@
       "application": 0.11
     },
     {
+      "id": "dictionary-cambridge-org-1",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
       "id": "ebay-item",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "myagedcare-gov-au-1",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "premierleague-com-1",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "premierleague-com-2",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "premierleague-com-3",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "service-vic-gov-au-3",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "thesaurus-com-1",
       "tier": "relayout",
       "application": 0.11
     },
@@ -292,7 +482,27 @@
       "application": 0.1
     },
     {
+      "id": "catch-com-au-3",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
       "id": "coinmarketcap-com-2",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "collinsdictionary-com-1",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "community-home-assistant-io-1",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "espn-com-au-4",
       "tier": "relayout",
       "application": 0.1
     },
@@ -302,12 +512,27 @@
       "application": 0.1
     },
     {
-      "id": "fbref-com-1",
+      "id": "figma-com-2",
       "tier": "relayout",
       "application": 0.1
     },
     {
-      "id": "figma-com-2",
+      "id": "health-harvard-edu-2",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "imdb-com-3",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "imdb-com-4",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "letterboxd-com-3",
       "tier": "relayout",
       "application": 0.1
     },
@@ -317,12 +542,17 @@
       "application": 0.1
     },
     {
-      "id": "msn-com-1",
+      "id": "notion-so-2",
       "tier": "relayout",
       "application": 0.1
     },
     {
-      "id": "notion-so-2",
+      "id": "nrl-com-2",
+      "tier": "relayout",
+      "application": 0.1
+    },
+    {
+      "id": "shopify-com-4",
       "tier": "relayout",
       "application": 0.1
     },
@@ -342,7 +572,27 @@
       "application": 0.1
     },
     {
+      "id": "axios-com-3",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "canva-com-2",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "canva-com-4",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
       "id": "coinmarketcap-com-4",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "github-com-3",
       "tier": "relayout",
       "application": 0.09
     },
@@ -362,9 +612,44 @@
       "application": 0.09
     },
     {
+      "id": "patient-info-4",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "qld-gov-au-2",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
       "id": "superuser-com-4",
       "tier": "relayout",
       "application": 0.09
+    },
+    {
+      "id": "zoom-com-1",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "zoom-com-3",
+      "tier": "relayout",
+      "application": 0.09
+    },
+    {
+      "id": "afl-com-au-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "atlassian-com-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "atlassian-com-2",
+      "tier": "relayout",
+      "application": 0.08
     },
     {
       "id": "ato-index",
@@ -372,7 +657,17 @@
       "application": 0.08
     },
     {
-      "id": "english-stackexchange-com-1",
+      "id": "basketball-reference-com-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "catch-com-au-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "danluu-com-1",
       "tier": "relayout",
       "application": 0.08
     },
@@ -382,7 +677,32 @@
       "application": 0.08
     },
     {
+      "id": "github-com-2",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "github-com-4",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
       "id": "govuk-licence",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "health-harvard-edu-4",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "imdb-com-2",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "moneysmart-gov-au-1",
       "tier": "relayout",
       "application": 0.08
     },
@@ -392,7 +712,22 @@
       "application": 0.08
     },
     {
+      "id": "premierleague-com-4",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
       "id": "rottentomatoes-com-1",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "serverfault-com-4",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "thewest-com-au-2",
       "tier": "relayout",
       "application": 0.08
     },
@@ -422,7 +757,27 @@
       "application": 0.08
     },
     {
-      "id": "bestbuy-com-1",
+      "id": "afl-com-au-4",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "allmusic-com-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "community-home-assistant-io-3",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "community-home-assistant-io-4",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "dictionary-cambridge-org-4",
       "tier": "relayout",
       "application": 0.07
     },
@@ -432,7 +787,57 @@
       "application": 0.07
     },
     {
+      "id": "food52-com-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "forums-whirlpool-net-au-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "ft-com-2",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "ft-com-3",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "ft-com-4",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "github-com-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "health-harvard-edu-3",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
       "id": "hn-front",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "howstuffworks-com-2",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "imdb-com-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "letterboxd-com-2",
       "tier": "relayout",
       "application": 0.07
     },
@@ -443,6 +848,11 @@
     },
     {
       "id": "mayoclinic-org-4",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "metacritic-com-2",
       "tier": "relayout",
       "application": 0.07
     },
@@ -467,6 +877,16 @@
       "application": 0.07
     },
     {
+      "id": "serverfault-com-1",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "service-vic-gov-au-4",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
       "id": "services-australia",
       "tier": "relayout",
       "application": 0.07
@@ -487,7 +907,42 @@
       "application": 0.07
     },
     {
+      "id": "zoom-com-2",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "abs-gov-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "abs-gov-au-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
       "id": "apnews-com-2",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "askubuntu-com-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "basketball-reference-com-2",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "basketball-reference-com-4",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "bigw-com-au-1",
       "tier": "relayout",
       "application": 0.06
     },
@@ -498,6 +953,51 @@
     },
     {
       "id": "canada-ca-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "canva-com-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "cbc-ca-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "dictionary-cambridge-org-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "espn-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "espn-com-au-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "food52-com-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "forums-whirlpool-net-au-4",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "harveynorman-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "harveynorman-com-au-3",
       "tier": "relayout",
       "application": 0.06
     },
@@ -517,7 +1017,87 @@
       "application": 0.06
     },
     {
+      "id": "kogan-com-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "linear-app-2",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "linear-app-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "metacritic-com-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "metacritic-com-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "metacritic-com-4",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "nrl-com-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "officeworks-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "ozbargain-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "ozbargain-com-au-2",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "shopify-com-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "shopify-com-2",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "simonwillison-net-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "svelte-dev-3",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
       "id": "taste-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "thegoodguys-com-au-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "thegoodguys-com-au-3",
       "tier": "relayout",
       "application": 0.06
     },
@@ -532,12 +1112,67 @@
       "application": 0.06
     },
     {
+      "id": "web-dev-1",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "androidpolice-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "androidpolice-com-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "apple-iphone",
       "tier": "relayout",
       "application": 0.05
     },
     {
-      "id": "bestbuy-com-2",
+      "id": "askubuntu-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "askubuntu-com-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ato-gov-au-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "basketball-reference-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "bbc-co-uk-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "betterhealth-vic-gov-au-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "bigw-com-au-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "bloomberg-com-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "bloomberg-com-3",
       "tier": "relayout",
       "application": 0.05
     },
@@ -562,6 +1197,11 @@
       "application": 0.05
     },
     {
+      "id": "developer-android-com-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "devto-article",
       "tier": "relayout",
       "application": 0.05
@@ -572,17 +1212,32 @@
       "application": 0.05
     },
     {
-      "id": "english-stackexchange-com-3",
+      "id": "encyclopedia-com-1",
       "tier": "relayout",
       "application": 0.05
     },
     {
-      "id": "english-stackexchange-com-4",
+      "id": "espn-com-au-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "food52-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "food52-com-4",
       "tier": "relayout",
       "application": 0.05
     },
     {
       "id": "forbes-article",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "forums-whirlpool-net-au-2",
       "tier": "relayout",
       "application": 0.05
     },
@@ -597,7 +1252,62 @@
       "application": 0.05
     },
     {
+      "id": "harveynorman-com-au-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "health-harvard-edu-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "hn-thread",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ikea-com-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ikea-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ikea-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ikea-com-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "investopedia-com-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "investopedia-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "jbhifi-com-au-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "jbhifi-com-au-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "jbhifi-com-au-4",
       "tier": "relayout",
       "application": 0.05
     },
@@ -607,7 +1317,27 @@
       "application": 0.05
     },
     {
+      "id": "kingarthurbaking-com-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "kogan-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "kogan-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "kottke-org-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ladbible-com-1",
       "tier": "relayout",
       "application": 0.05
     },
@@ -618,6 +1348,11 @@
     },
     {
       "id": "lobste-rs-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "medlineplus-gov-1",
       "tier": "relayout",
       "application": 0.05
     },
@@ -633,6 +1368,51 @@
     },
     {
       "id": "merriam-webster-com-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "nsw-gov-au-1",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "nsw-gov-au-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "nsw-gov-au-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "officeworks-com-au-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "officeworks-com-au-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "officeworks-com-au-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ozbargain-com-au-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ozbargain-com-au-4",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "qld-gov-au-1",
       "tier": "relayout",
       "application": 0.05
     },
@@ -662,12 +1442,32 @@
       "application": 0.05
     },
     {
+      "id": "serverfault-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "simplyrecipes-com-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "stratechery-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
       "id": "substack-index",
       "tier": "relayout",
       "application": 0.05
     },
     {
       "id": "superuser-com-3",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "thesaurus-com-4",
       "tier": "relayout",
       "application": 0.05
     },
@@ -687,6 +1487,21 @@
       "application": 0.05
     },
     {
+      "id": "7news-com-au-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "9news-com-au-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "9news-com-au-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "abc-news-index",
       "tier": "relayout",
       "application": 0.04
@@ -702,7 +1517,47 @@
       "application": 0.04
     },
     {
+      "id": "androidpolice-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "androidpolice-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "apnews-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "atlassian-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "ato-gov-au-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "ato-gov-au-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "axios-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bbc-co-uk-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bbc-co-uk-4",
       "tier": "relayout",
       "application": 0.04
     },
@@ -713,6 +1568,26 @@
     },
     {
       "id": "bbc-news-tech",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bigw-com-au-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bigw-com-au-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bloomberg-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "brainpickings-org-1",
       "tier": "relayout",
       "application": 0.04
     },
@@ -757,17 +1632,72 @@
       "application": 0.04
     },
     {
+      "id": "community-home-assistant-io-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "crikey-com-au-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "css-tricks-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "css-tricks-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "danluu-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "danluu-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "discogs-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "docs-djangoproject-com-3",
       "tier": "relayout",
       "application": 0.04
     },
     {
-      "id": "english-stackexchange-com-2",
+      "id": "docs-docker-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "encyclopedia-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "engadget-com-1",
       "tier": "relayout",
       "application": 0.04
     },
     {
       "id": "etsy-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "forums-whirlpool-net-au-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "ft-com-1",
       "tier": "relayout",
       "application": 0.04
     },
@@ -787,7 +1717,37 @@
       "application": 0.04
     },
     {
+      "id": "gwern-net-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "gwern-net-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "harveynorman-com-au-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "healthdirect-gov-au-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "howstuffworks-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "howstuffworks-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "jbhifi-com-au-2",
       "tier": "relayout",
       "application": 0.04
     },
@@ -797,7 +1757,62 @@
       "application": 0.04
     },
     {
+      "id": "kogan-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "kotlinlang-org-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "kotlinlang-org-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "kotlinlang-org-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "kubernetes-io-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "ladbible-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "learn-microsoft-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "linear-app-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "lobste-rs-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "loveandlemons-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "loveandlemons-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "macrumors-com-1",
       "tier": "relayout",
       "application": 0.04
     },
@@ -817,7 +1832,32 @@
       "application": 0.04
     },
     {
+      "id": "medlineplus-gov-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "medlineplus-gov-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "medlineplus-gov-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "meta-discourse-org-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "moneysmart-gov-au-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "myagedcare-gov-au-2",
       "tier": "relayout",
       "application": 0.04
     },
@@ -827,7 +1867,22 @@
       "application": 0.04
     },
     {
+      "id": "npr-org-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "nytimes-index",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "qld-gov-au-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "qld-gov-au-4",
       "tier": "relayout",
       "application": 0.04
     },
@@ -852,7 +1907,72 @@
       "application": 0.04
     },
     {
+      "id": "redis-io-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "rnz-co-nz-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "sbs-com-au-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "seriouseats-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "service-vic-gov-au-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "seths-blog-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "shopify-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "simonwillison-net-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "simplyrecipes-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "slack-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "slack-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "slack-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "smashingmagazine-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "stripe-com-1",
       "tier": "relayout",
       "application": 0.04
     },
@@ -862,7 +1982,47 @@
       "application": 0.04
     },
     {
+      "id": "svelte-dev-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "tailwindcss-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "techradar-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "techradar-com-3",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "techradar-com-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "thegoodguys-com-au-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "thegoodguys-com-au-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "thesaurus-com-2",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "thesaurus-com-3",
       "tier": "relayout",
       "application": 0.04
     },
@@ -887,9 +2047,74 @@
       "application": 0.04
     },
     {
+      "id": "vox-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "waitbutwhy-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "web-dev-4",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
       "id": "wikihow-com-1",
       "tier": "relayout",
       "application": 0.04
+    },
+    {
+      "id": "zdnet-com-1",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "7news-com-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "7news-com-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "9news-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "9to5mac-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "9to5mac-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "9to5mac-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "9to5mac-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "afl-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "afl-com-au-3",
+      "tier": "relayout",
+      "application": 0.03
     },
     {
       "id": "aljazeera-com-1",
@@ -898,6 +2123,21 @@
     },
     {
       "id": "aljazeera-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "allmusic-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "allmusic-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "allmusic-com-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -937,12 +2177,92 @@
       "application": 0.03
     },
     {
+      "id": "askubuntu-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "axios-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "bbc-co-uk-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "bbcgoodfood-victoria",
       "tier": "relayout",
       "application": 0.03
     },
     {
+      "id": "betterhealth-vic-gov-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "betterhealth-vic-gov-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "betterhealth-vic-gov-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "brainpickings-org-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "brisbanetimes-com-au-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "brisbanetimes-com-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "bunnings-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "catch-com-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "cbc-ca-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "crikey-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "crikey-com-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "crikey-com-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "css-tricks-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "css-tricks-com-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -953,6 +2273,11 @@
     },
     {
       "id": "dailymail-co-uk-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "danluu-com-3",
       "tier": "relayout",
       "application": 0.03
     },
@@ -977,7 +2302,32 @@
       "application": 0.03
     },
     {
+      "id": "developer-android-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "developer-android-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "developer-android-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "devto-post",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "discogs-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "discogs-com-3",
       "tier": "relayout",
       "application": 0.03
     },
@@ -997,6 +2347,21 @@
       "application": 0.03
     },
     {
+      "id": "docs-docker-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "docs-docker-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "docs-docker-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "economist-article",
       "tier": "relayout",
       "application": 0.03
@@ -1007,8 +2372,68 @@
       "application": 0.03
     },
     {
+      "id": "encyclopedia-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "encyclopedia-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "engadget-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "engadget-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "engadget-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "foxnews-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "foxnews-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "foxnews-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "foxnews-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "github-file",
       "tier": "skinned",
+      "application": 0.03
+    },
+    {
+      "id": "go-dev-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "go-dev-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "go-dev-3",
+      "tier": "relayout",
       "application": 0.03
     },
     {
@@ -1022,7 +2447,37 @@
       "application": 0.03
     },
     {
+      "id": "gwern-net-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "gwern-net-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "healthdirect-gov-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "howstuffworks-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "independent-co-uk-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "independent-co-uk-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "investopedia-com-2",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1033,6 +2488,16 @@
     },
     {
       "id": "jvns-ca-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "kingarthurbaking-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "kotlinlang-org-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1052,6 +2517,61 @@
       "application": 0.03
     },
     {
+      "id": "kubernetes-io-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "kubernetes-io-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "kubernetes-io-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "learn-microsoft-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "learn-microsoft-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "learn-microsoft-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "loveandlemons-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "loveandlemons-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "macrumors-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "macrumors-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "macrumors-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "mdn-flexbox",
       "tier": "relayout",
       "application": 0.03
@@ -1067,6 +2587,61 @@
       "application": 0.03
     },
     {
+      "id": "minimalistbaker-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "minimalistbaker-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "minimalistbaker-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "minimalistbaker-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "mirror-co-uk-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "mirror-co-uk-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "mirror-co-uk-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "mirror-co-uk-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "moneysmart-gov-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "moneysmart-gov-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "myagedcare-gov-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "news-com-au-1",
       "tier": "relayout",
       "application": 0.03
@@ -1078,6 +2653,26 @@
     },
     {
       "id": "news-com-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "newyorker-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "newyorker-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "newyorker-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "newyorker-com-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1107,7 +2702,27 @@
       "application": 0.03
     },
     {
+      "id": "npr-org-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nsw-gov-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nypost-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "nytimes-article",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "patient-info-2",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1127,6 +2742,36 @@
       "application": 0.03
     },
     {
+      "id": "politico-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "politico-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "postgresql-org-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "postgresql-org-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "postgresql-org-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "postgresql-org-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "react-dev-2",
       "tier": "relayout",
       "application": 0.03
@@ -1138,6 +2783,21 @@
     },
     {
       "id": "recipetineats-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "redis-io-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "redis-io-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "redis-io-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1158,6 +2818,56 @@
     },
     {
       "id": "sallys-recipe",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "sbs-com-au-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "sbs-com-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "serverfault-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "seths-blog-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "seths-blog-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "seths-blog-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "simonwillison-net-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "simplyrecipes-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "simplyrecipes-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "smashingmagazine-com-3",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1183,6 +2893,61 @@
     },
     {
       "id": "spiegel-index",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stratechery-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stratechery-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stripe-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stripe-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stripe-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stuff-co-nz-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stuff-co-nz-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stuff-co-nz-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "stuff-co-nz-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "svelte-dev-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "svelte-dev-4",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1217,6 +2982,81 @@
       "application": 0.03
     },
     {
+      "id": "techradar-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "telegraph-co-uk-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "telegraph-co-uk-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theatlantic-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theatlantic-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theatlantic-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theconversation-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theconversation-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theconversation-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theconversation-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theregister-com-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theregister-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theregister-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "theregister-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "thesun-co-uk-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "theverge-com-2",
       "tier": "relayout",
       "application": 0.03
@@ -1232,12 +3072,77 @@
       "application": 0.03
     },
     {
+      "id": "thewest-com-au-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "thewest-com-au-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "thewest-com-au-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
       "id": "tomshardware-article",
       "tier": "relayout",
       "application": 0.03
     },
     {
       "id": "vercel-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "vox-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "vox-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "vox-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "vuejs-org-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "vuejs-org-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "vuejs-org-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "vuejs-org-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "waitbutwhy-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "web-dev-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "web-dev-3",
       "tier": "relayout",
       "application": 0.03
     },
@@ -1257,7 +3162,42 @@
       "application": 0.03
     },
     {
+      "id": "yahoo-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "yahoo-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "zdnet-com-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "zdnet-com-3",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "zdnet-com-4",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "7news-com-au-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
       "id": "abc-news-article",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "axios-com-2",
       "tier": "relayout",
       "application": 0.02
     },
@@ -1268,6 +3208,31 @@
     },
     {
       "id": "bbc-news-article-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "bloomberg-com-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "brainpickings-org-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "brainpickings-org-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "brisbanetimes-com-au-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "cbc-ca-4",
       "tier": "relayout",
       "application": 0.02
     },
@@ -1297,12 +3262,107 @@
       "application": 0.02
     },
     {
+      "id": "docs-python-org-1",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "docs-python-org-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "docs-python-org-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "docs-python-org-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "go-dev-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "independent-co-uk-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "independent-co-uk-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "investopedia-com-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
       "id": "jvns-ca-4",
       "tier": "relayout",
       "application": 0.02
     },
     {
+      "id": "kingarthurbaking-com-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "kingarthurbaking-com-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "ladbible-com-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "ladbible-com-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
       "id": "news-com-au-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "npr-org-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "npr-org-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "nypost-com-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "nypost-com-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "nypost-com-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "politico-com-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "politico-com-4",
       "tier": "relayout",
       "application": 0.02
     },
@@ -1313,6 +3373,41 @@
     },
     {
       "id": "python-tutorial",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "rnz-co-nz-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "rnz-co-nz-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "rnz-co-nz-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "sbs-com-au-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "simonwillison-net-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "smashingmagazine-com-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "smashingmagazine-com-4",
       "tier": "relayout",
       "application": 0.02
     },
@@ -1328,6 +3423,41 @@
     },
     {
       "id": "substack-post",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "telegraph-co-uk-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "telegraph-co-uk-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "theatlantic-com-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "thesun-co-uk-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "thesun-co-uk-3",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "thesun-co-uk-4",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "waitbutwhy-com-4",
       "tier": "relayout",
       "application": 0.02
     },

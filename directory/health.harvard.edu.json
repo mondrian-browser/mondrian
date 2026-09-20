@@ -1,0 +1,76 @@
+{
+ "site": "health.harvard.edu",
+ "pages": 4,
+ "pageIds": [
+  "health-harvard-edu-1",
+  "health-harvard-edu-2",
+  "health-harvard-edu-3",
+  "health-harvard-edu-4"
+ ],
+ "derivedAt": "2026-09-20T13:57:23.165Z",
+ "blocks": [
+  {
+   "selector": "main > p",
+   "type": "subscribe",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 2
+  },
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > ul.list-disc",
+   "type": "list",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "header > header#global-header",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > div.footer-top",
+   "type": "site_footer",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > img.landing-heading-image",
+   "type": "site_header",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.hho-burst",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main form > form#order-frm",
+   "type": "checkout",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "[role=dialog] form > form.prevent-double",
+   "type": "newsletter",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

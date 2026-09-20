@@ -1,0 +1,356 @@
+{
+ "site": "patient.info",
+ "pages": 4,
+ "pageIds": [
+  "patient-info-1",
+  "patient-info-2",
+  "patient-info-3",
+  "patient-info-4"
+ ],
+ "derivedAt": "2026-09-20T13:59:30.674Z",
+ "blocks": [
+  {
+   "selector": "nav > nav[class*=\"AudienceBanner_audience-nav__\"]",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > header[class*=\"Header_header__\"]",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=navigation] > ul#nav-list",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > section",
+   "type": "author_bio",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.information",
+   "type": "legal_notice",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div[class*=\"AppStores_appstore__\"]",
+   "type": "app_nag",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div[class*=\"Inner_inner__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div[class*=\"Disclaimer_disclaimer__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > div[class*=\"Markup_markup__\"]",
+   "type": "byline",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 3
+  },
+  {
+   "selector": "main section > a[class*=\"CardLink_card-link__\"]",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h1#hero-title",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div[class*=\"Header_by-line-wrapper__\"]",
+   "type": "byline",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > ul[class*=\"ActionBar_list__\"]",
+   "type": "page_tools",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main nav > nav[class*=\"ArticleSectionProgress_section-nav__\"]",
+   "type": "table_of_contents",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > h2",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div[class*=\"SymptomCheckerUpsell_wrapper__\"]",
+   "type": "cross_promo",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div[class*=\"NewsletterUpsell_wrapper__\"]",
+   "type": "newsletter",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > div[class*=\"HealthTopicsSpotlight_container__\"]",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul[class*=\"Breadcrumbs_professionals-pil__\"]",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main [role=region] > div[class*=\"Accordion_accordion-professional__\"]",
+   "type": "callout",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h2#note-about-credits",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div[class*=\"Search_search__\"]",
+   "type": "search",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.information",
+   "type": "legal_notice",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div[class*=\"Wrapper_wrapper__\"]",
+   "type": "feature_grid",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=region] > a[class*=\"CardLink_card-link__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div[class*=\"LatestFeatures_carousel-controls__\"]",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section[class*=\"index_muted-surface__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div[class*=\"VideoLibrary_header__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div[class*=\"VideoLibrary_stage__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div[class*=\"CommunityTopics_header__\"]",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section [role=region] article > article[class*=\"CommunityTopics_card__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div[class*=\"CommunityTopics_controls__\"]",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div[class*=\"HealthTopics_header__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul[class*=\"Breadcrumbs_patient__\"]",
+   "type": "breadcrumbs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div[class*=\"ContentUpsell_contentupsell__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div[class*=\"TopicUpsell_topicupsell__\"]",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#what-is-holly-health",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#why-small-steps-matter",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#get-to-know-the-holly",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#how-holly-health-works-with-patient-info",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h4[class*=\"ContentUpsell_contentupsell-title__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > a[class*=\"CardLink_card-link__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section[class*=\"CommunityArticleEmbed_wrapper__\"]",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2[class*=\"LinkList_header__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul[class*=\"LinkList_linklist-section__\"]",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#generalised-anxiety-disorder-questionnaire-gad-7",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=region] > div[class*=\"Accordion_accordion-empty__\"]",
+   "type": "references",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#patient-health-questionnaire-phq-9",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=region] > div[class*=\"Accordion_accordion-header__\"]",
+   "type": "accordion",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

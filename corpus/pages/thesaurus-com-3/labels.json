@@ -1,0 +1,417 @@
+{
+ "id": "thesaurus-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:15:41.667Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 60009,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "site_header",
+     0.95
+    ],
+    [
+     "site_nav",
+     0.05
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "hero",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "title",
+   "confidence": 0.83,
+   "margin": 0.77,
+   "top": [
+    [
+     "title",
+     0.85
+    ],
+    [
+     "heading",
+     0.08
+    ],
+    [
+     "hero",
+     0.07
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "site_nav",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "summary",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "summary",
+     0.95
+    ],
+    [
+     "text",
+     0.03
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.76,
+   "margin": 0.57,
+   "top": [
+    [
+     "teaser_card",
+     0.78
+    ],
+    [
+     "related",
+     0.21
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 4,
+   "choice": "teaser_card",
+   "confidence": 0.63,
+   "margin": 0.33,
+   "top": [
+    [
+     "teaser_card",
+     0.64
+    ],
+    [
+     "related",
+     0.31
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "login_form",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 5,
+   "choice": "teaser_card",
+   "confidence": 0.66,
+   "margin": 0.43,
+   "top": [
+    [
+     "teaser_card",
+     0.67
+    ],
+    [
+     "related",
+     0.24
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 6,
+   "choice": "teaser_card",
+   "confidence": 0.67,
+   "margin": 0.42,
+   "top": [
+    [
+     "teaser_card",
+     0.68
+    ],
+    [
+     "related",
+     0.26
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 7,
+   "choice": "teaser_card",
+   "confidence": 0.55,
+   "margin": 0.17,
+   "top": [
+    [
+     "teaser_card",
+     0.56
+    ],
+    [
+     "related",
+     0.39
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 8,
+   "choice": "teaser_card",
+   "confidence": 0.5,
+   "margin": 0.4,
+   "top": [
+    [
+     "teaser_card",
+     0.51
+    ],
+    [
+     "infobox",
+     0.11
+    ],
+    [
+     "cta",
+     0.11
+    ],
+    [
+     "cross_promo",
+     0.08
+    ],
+    [
+     "callout",
+     0.06
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 9,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "site_footer",
+     0.98
+    ],
+    [
+     "stats",
+     0.01
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 10,
+   "choice": "stats",
+   "confidence": 0.48,
+   "margin": 0.05,
+   "top": [
+    [
+     "stats",
+     0.49
+    ],
+    [
+     "site_footer",
+     0.44
+    ],
+    [
+     "legal_notice",
+     0.04
+    ],
+    [
+     "cross_promo",
+     0.03
+    ],
+    [
+     "heading",
+     0
+    ]
+   ],
+   "block": "pairs",
+   "slot": "footer",
+   "final": "stats"
+  },
+  {
+   "index": 11,
+   "choice": "site_footer",
+   "confidence": 0.5,
+   "margin": 0.1,
+   "top": [
+    [
+     "site_footer",
+     0.51
+    ],
+    [
+     "cross_promo",
+     0.41
+    ],
+    [
+     "feature_grid",
+     0.04
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "legal_notice",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 12,
+   "choice": "site_footer",
+   "confidence": 0.68,
+   "margin": 0.38,
+   "top": [
+    [
+     "site_footer",
+     0.69
+    ],
+    [
+     "legal_notice",
+     0.31
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.517Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

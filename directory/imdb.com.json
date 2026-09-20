@@ -1,0 +1,253 @@
+{
+ "site": "imdb.com",
+ "pages": 6,
+ "pageIds": [
+  "imdb-com-1",
+  "imdb-com-2",
+  "imdb-com-3",
+  "imdb-com-4",
+  "imdb-name",
+  "imdb-title"
+ ],
+ "derivedAt": "2026-09-20T14:34:37.863Z",
+ "blocks": [
+  {
+   "selector": "main section section > div.ipc-list-card--border-line",
+   "type": "teaser_card",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "nav form > form#nav-search-form",
+   "type": "search",
+   "n": 6,
+   "purity": 1,
+   "pages": 6
+  },
+  {
+   "selector": "nav > label.ipc-btn",
+   "type": "version_switcher",
+   "n": 6,
+   "purity": 1,
+   "pages": 6
+  },
+  {
+   "selector": "footer > footer.imdb-footer",
+   "type": "site_footer",
+   "n": 6,
+   "purity": 1,
+   "pages": 6
+  },
+  {
+   "selector": "main section section > div",
+   "type": "rating",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 5
+  },
+  {
+   "selector": "nav > div.nav__userMenu",
+   "type": "account",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > h1.ipc-title__text",
+   "type": "title",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > button.ipc-chip-dropdown__chip",
+   "type": "filters",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > ul.ipc-metadata-list",
+   "type": "trending",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > h3.ipc-title__text",
+   "type": "heading",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "nav > div.navbar__imdbpro",
+   "type": "account",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section section section > h2.ipc-title__text",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section section section > div.ipc-sub-grid",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section section > h2.ipc-title__text",
+   "type": "heading",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section section section > div.ipc-list-card--span",
+   "type": "reviews",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section > div.ipc-poster",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section > button.ipc-icon-border-button",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section > img.ipc-image",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section section > div.ipc-html-content-inner-div",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section section > ul.ipc-metadata-list",
+   "type": "cross_promo",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.ipc-chip-list__scroller",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.ipc-slate",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.ipc-slate-card__title-text",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.ipc-slate-card",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section > ul.ipc-inline-list",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > p.type-body",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.select-none",
+   "type": "paywall",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section > section.ipc-page-section",
+   "type": "paywall",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section > div.ipc-title",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section section > button[class*=\"InteractiveBarChart_graphListItem__\"]",
+   "type": "tabs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.ipc-poster-card",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.ipc-list-card--border-line",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > div.ipc-title",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section section > a.ipc-btn",
+   "type": "account",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

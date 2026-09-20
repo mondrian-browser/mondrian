@@ -1,0 +1,3915 @@
+{
+ "url": "https://docs.docker.com/ai/sandboxes/customize/kits/",
+ "title": "Kits | Docker Docs",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 14917,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "sticky top-0 z-20 h-16",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 91,
+   "text": "Get started\nGuides\nManuals\nReference\nGordonGordon, your AI assistant for Docker docs\nSearch",
+   "counts": {
+    "links": 5,
+    "images": 4,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 160,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.36,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 14573,
+   "text": "AI and agents\nOverview\nDocker Sandboxes\nInstall\nGet started\nUsage\nAgents\nClaude Code\nCodex\nCopilot\nCursor\nDevin\nDocker Agent\nDroid\nGemini\nKiro\nOpenCode\nShell\nWorkflows\nGit workflows\nLocal development\nAuthenticate tools\nAgent skills\nCI and headless\nConfiguration\nCredentials\nEnvironment files\nExperimental\nGPU passthrough\nUpstream proxy\nRegistry mirror\nIntegrations\nVS Code\nCursor\nClaude Desktop\nChatG",
+   "counts": {
+    "links": 842,
+    "images": 29,
+    "headings": 0,
+    "listItems": 887,
+    "tableRows": 0,
+    "controls": 186,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 80,
+    "height": 1637,
+    "widthFraction": 0.19,
+    "leftFraction": 0.01,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "nav",
+   "id": "breadcrumbs",
+   "class": "breadcrumbs mb-4 flex min-w-0",
+   "landmarks": [
+    "main",
+    "article",
+    "nav"
+   ],
+   "textLength": 52,
+   "text": "Home\n/\nManuals\n/\nDocker Sandboxes\n/\nCustomize\n/\nKits",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.69,
+   "geometry": {
+    "top": 96,
+    "height": 22,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 4,
+   "text": "Kits",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 134,
+    "height": 32,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "flex flex-wrap items-center gap-x-6",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 38,
+   "text": "Ask Gordon\nCopy Markdown\nView Markdown",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 182,
+    "height": 19,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "blockquote",
+   "class": "admonition admonition-note admonition not-prose",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 261,
+   "text": "Availability:\nEarly Access\nNote\nKits are experimental. The kit file format, CLI commands, and experience\nfor creating, loading, and managing kits are subject to change as the\nfeature evolves. Share feedback and bug reports in the\ndocker/sbx-releases repository.",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 242,
+    "height": 238,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 64,
+   "text": "A kit packages a set of capabilities a sandbox can use, such as:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 500,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 185,
+   "text": "Tools to install\nEnvironment variables to set\nCredentials to inject\nNetwork rules to allow or deny domains\nFiles to drop in\nStartup commands to run\nMemory instructions to give the agent",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 548,
+    "height": 244,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 336,
+   "text": "You declare these in a single spec.yaml file, point the CLI at the\ndirectory (or a ZIP, OCI artifact, or Git URL), and the sandbox applies\nand enforces them at runtime. Credentials stay on the host and go through\na proxy instead of entering the VM, and outbound traffic is restricted to\nthe domains permitted by the kit's network rules.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 812,
+    "height": 112,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 288,
+   "text": "A kit is either a mixin or a sandbox:\nMixin kits (kind: mixin) extend an existing agent with extra\ncapabilities. Stack several on the same sandbox.\nSandbox kits (kind: sandbox) define a full agent from scratch: its image,\nentrypoint, network policies, and everything else the agent needs.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 944,
+    "height": 168,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h2",
+   "id": "what-kits-can-do",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 16,
+   "text": "What kits can do",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1140,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h3",
+   "id": "run-commands",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 12,
+   "text": "Run commands",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1187,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 274,
+   "text": "A kit can run commands inside the sandbox automatically. Install\ncommands run once at creation; startup commands run each time\nthe sandbox starts.\nInstall commands are the place to put anything an agent needs into the\nimage, via apt, pip, npm, curl | bash, or whatever fits:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1232,
+    "height": 132,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 70,
+   "text": "setup:\n install:\n - command: \"apt-get update && apt-get install -y jq\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1400,
+    "height": 76,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 151,
+   "text": "Startup commands are for work that can run alongside the agent, such as a\nbackground service. They must be idempotent — see the\nstartup spec reference:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 1512,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 60,
+   "text": "setup:\n startup:\n - command: [\"my-daemon\"]\n background: true",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1604,
+    "height": 101,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h3",
+   "id": "inject-files",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 12,
+   "text": "Inject files",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 1754,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 376,
+   "text": "Kits can inject files into the sandbox in two ways: static files bundled\nwith the kit, and setup.files written at startup with runtime values\nsubstituted in.\nStatic files work well for content that doesn't vary between sandboxes, such\nas tool configurations, shared linter rules, helper scripts the agent can\ninvoke, or reference material like a style guide or API cheatsheet.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1800,
+    "height": 160,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 115,
+   "text": "my-kit/\n├── spec.yaml\n└── files/\n ├── home/\n │ └── .config/my-tool/settings.json\n └── workspace/\n └── .editorconfig",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1996,
+    "height": 176,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 151,
+   "text": "setup.files cover content that depends on runtime values, such as an\nabsolute workspace path that a tool needs to bake into its config file\nat startup:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2208,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 117,
+   "text": "setup:\n files:\n - path: /home/agent/.my-tool/config.json\n content: '{\"workspace\": \"${WORKDIR}\"}'\n onlyIfMissing: true",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2300,
+    "height": 126,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "h4",
+   "id": "sandbox-managed-agent-configuration",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 89,
+   "text": "See setup.files in the spec reference for all\nfields.\nSandbox-managed agent configuration",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.52,
+   "geometry": {
+    "top": 2462,
+    "height": 76,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 347,
+   "text": "Built-in agent kits reserve the following paths for sandbox setup. Treat these\npaths as sandbox-managed, even if a file is only needed for a particular\nfeature. Don't target them with static files, setup.files, or install\ncommands. Later setup can replace your content or depend on settings that your\nfile removes. In this table, ~ is /home/agent.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2546,
+    "height": 112,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "table",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 370,
+   "text": "Built-in agent kitManaged configuration paths\nclaude~/.claude.json, ~/.claude/settings.json, ~/.claude/.config.json\ncodex~/.codex/config.toml\ncopilot~/.copilot/config.json\ncursor~/.cursor/cli-config.json\ndevin~/.config/devin/config.json, ~/.config/devin/mcp_config.json\ngemini~/.gemini/settings.json\nkiro~/.kiro/settings/mcp.json\nopencode~/.config/opencode/opencode.json",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 9,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2706,
+    "height": 368,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 377,
+   "text": "Use a separate settings layer when the agent supports one. For example, Claude\nCode can load an additional settings file with --settings, and OpenCode can\nload one from the path in OPENCODE_CONFIG. See\nCustomize agent settings for\nexamples. Don't use setup.startup for settings the agent must read during\ninitialization because startup commands don't gate the agent entrypoint.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 3122,
+    "height": 140,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "h3",
+   "id": "set-environment-variables",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 25,
+   "text": "Set environment variables",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3295,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 75,
+   "text": "Environment variables set by the kit are available to the agent at\nruntime:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3341,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 64,
+   "text": "environment:\n variables:\n MY_TOOL_WORKSPACE: /home/agent/my-tool",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3405,
+    "height": 76,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 156,
+   "text": "For credentials, see\nAuthenticate to external services.\nDon't put secret values directly in environment.variables — they'd\nbe visible inside the sandbox VM.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 3517,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "blockquote",
+   "class": "admonition admonition-note admonition not-prose",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 577,
+   "text": "Important\nThe sandbox manages proxy settings for you. It sets HTTP_PROXY,\nHTTPS_PROXY, NO_PROXY, and their lowercase equivalents automatically so\nthat traffic flows through its built-in forward proxy, which enforces\nnetwork policy and injects credentials. Leave these variables to the\nsandbox — setting them in a kit points traffic away from the forward proxy,\nso it can no longer apply network polic",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 3593,
+    "height": 284,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h3",
+   "id": "control-network-access",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 22,
+   "text": "Control network access",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3910,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 126,
+   "text": "Network rules define which domains the sandbox can reach or block. Kit\nnetwork rules apply only to sandboxes that use the kit:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3956,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 104,
+   "text": "permissions:\n network:\n allow:\n - api.example.com\n - \"*.cdn.example.com\"\n deny:\n - telemetry.example.com",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4048,
+    "height": 176,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 253,
+   "text": "Use allow for hosts the agent needs, such as package\nregistries, install endpoints, or external APIs. Use deny for\nhosts the agent should not reach, such as telemetry endpoints. If a domain\nmatches both an allow rule and a deny rule, the deny rule wins.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4260,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "blockquote",
+   "class": "admonition admonition-note admonition not-prose",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 314,
+   "text": "Important\nWhen organization governance is active, only organization allow rules grant\naccess, so kit-defined allow rules are ignored — including any domains a kit\nallows for the agent to reach. Kit-defined deny rules still apply, because a\ndeny can only restrict access further. For details, see\nPolicy precedence.",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 4364,
+    "height": 200,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 66,
+   "text": "For authenticated services, see\nAuthenticate to external services.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.5,
+   "geometry": {
+    "top": 4584,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h3",
+   "id": "authenticate-to-external-services",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 33,
+   "text": "Authenticate to external services",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4645,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 513,
+   "text": "A kit can attach credentials to outbound requests through the\nhost-side proxy. The agent inside the VM works with a sentinel value;\nthe proxy reads the real credential on the host and overwrites the\nauth header before the request leaves the sandbox.\nA kit declares the service, the in-container environment variable, and how\nto inject the credential. It doesn't declare a host discovery source. The u",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 4691,
+    "height": 188,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 351,
+   "text": "credentials:\n - service: my-service\n apiKey:\n name: MY_SERVICE_API_KEY # in-VM env var, set to a sentinel\n proxyManaged: true\n inject:\n - domain: api.example.com # inject on requests to this domain\n header: Authorization # overwrite this header\n format: \"Bearer %s\"\npermissions:\n network:\n allow:\n - api.example.com # the domain must also be reachable",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4915,
+    "height": 353,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 489,
+   "text": "The agent boots with MY_SERVICE_API_KEY=proxy-managed, sends a\nrequest with that sentinel in Authorization, and the proxy overwrites\nthe header with the real credential before forwarding. The real\nsecret never enters the VM.\nSee Credentials for how to provide the\ncredential value on your host, other approaches for cases the example\nabove doesn't fit, and what the proxy does at request time. See\nCr",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 5304,
+    "height": 188,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "h3",
+   "id": "inject-agent-memory",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 19,
+   "text": "Inject agent memory",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 5525,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 273,
+   "text": "A kit can append content to the agent's memory file, such as CLAUDE.md\nor AGENTS.md. The agent reads this file at startup. Use it to give\nthe agent project conventions, usage tips for a tool the kit installs,\nor other guidance that should be in scope when the sandbox runs.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5571,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 134,
+   "text": "agentInstructions:\n content: |\n Ruff is installed. Run `ruff check` before committing.\n Shared config lives at `/workspace/ruff.toml`.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5691,
+    "height": 101,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 403,
+   "text": "Both mixin and sandbox kits can declare agentInstructions.content. The active\nsandbox kit sets agentInstructions.filename, which determines the memory\nfile's name. The sandbox kit's content is written inline in that file. Each\nmixin's content is written to its own <kit-name>.md file under a sibling\nkits-memory/ directory, and the main memory file gets a ## Kits section that\npoints to each mixin fi",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5828,
+    "height": 140,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 163,
+   "text": "/Users/you/\n├── myproject/ # workspace\n├── AGENTS.md # main memory file with a \"## Kits\" index\n└── kits-memory/\n ├── ruff-lint.md\n ├── vale.md\n └── git-ssh-sign.md",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6004,
+    "height": 176,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 70,
+   "text": "See agentInstructions in the spec\nreference for the full field schema.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 6216,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "h3",
+   "id": "define-an-agent",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 15,
+   "text": "Define an agent",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6278,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 137,
+   "text": "Sandbox kits declare a sandbox: block with the image the agent runs in and\nthe command the user attaches to when they launch the sandbox:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6323,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 80,
+   "text": "sandbox:\n image: \"my-registry/my-agent:latest\"\n entrypoint: [my-agent, \"--yolo\"]",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6415,
+    "height": 76,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "h2",
+   "id": "mixin-kits",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 57,
+   "text": "See Sandbox kits for use cases and an example.\nMixin kits",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.39,
+   "geometry": {
+    "top": 6527,
+    "height": 90,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 80,
+   "text": "A mixin kit extends an existing agent with extra capabilities. Common use\ncases:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6629,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 212,
+   "text": "Pre-install tools: linters, libraries, or other custom programs\nGrant the agent access to a new authenticated service (a database, a\nvendor API)\nInject shared team config (linter rules, editor settings, dotfiles)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6677,
+    "height": 100,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 97,
+   "text": "See Drop a shared config file and\nInstall a tool at sandbox creation\nfor complete mixin examples.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.61,
+   "geometry": {
+    "top": 6797,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "h2",
+   "id": "sandbox-kits",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 12,
+   "text": "Sandbox kits",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6881,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 118,
+   "text": "A sandbox kit defines a full agent from scratch — image, entrypoint, and\neverything the agent needs. Common use cases:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6927,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 193,
+   "text": "Package a custom agent you've built so others can run it\nShip a team-internal agent with defaults baked in\nRun a fork of an existing agent with your own config\nPrototype a new agent integration",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7003,
+    "height": 136,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 181,
+   "text": "Sandbox kits declare everything a mixin kit can, plus an\nsandbox: block that tells the sandbox how to launch the\nagent. For a step-by-step walkthrough, see\nBuild your own agent kit.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 7159,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h3",
+   "id": "extend-a-built-in-agent",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 23,
+   "text": "Extend a built-in agent",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 7248,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 683,
+   "text": "Use extends: to create a variant of a built-in agent without reproducing its\nconfiguration. The child kit inherits the parent's image, credentials, network\npermissions, persistent volumes, settings, MCP integration, and agent\ninstructions. It also inherits the parent's environment variables and all\nsetup.install, setup.startup, and setup.files entries. Parent setup entries\nrun before child entries",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 7294,
+    "height": 224,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "h2",
+   "id": "using-kits",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 10,
+   "text": "Using kits",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 7546,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 394,
+   "text": "Kits can be loaded from a local path (a directory or ZIP file), a Git\nrepository, or an OCI registry. To launch a sandbox kit, pass its reference in\nplace of a built-in agent name to sbx run or sbx create. Use --kit for\nmixins, and repeat the flag to apply multiple mixins to the same sandbox.\nStarting with Docker Sandboxes version 0.42.0, pass the sandbox kit reference\nas the first argument:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7592,
+    "height": 188,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 78,
+   "text": "$ sbx run <sandbox-kit-ref> [PATH...]\n$ sbx create <sandbox-kit-ref> [PATH...]",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7816,
+    "height": 50,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 85,
+   "text": "The previous form, sbx run <sandbox-kit-name> --kit <sandbox-kit-ref>, is\ndeprecated.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7903,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "blockquote",
+   "class": "admonition admonition-note admonition not-prose",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 595,
+   "text": "Important\nA mixin passed with --kit only takes effect when a sandbox is created.\nPassing it against an\nexisting sandbox name fails with\n--kit can only be used when creating a new sandbox. To add a supported\nmixin kit to a running sandbox, use sbx kit add instead.\nsbx kit add restarts the sandbox to apply the updated kit set.\nVM state — installed packages, Docker images, volumes, and agent history\n",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 7951,
+    "height": 284,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h3",
+   "id": "pass-arguments-to-kits",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 22,
+   "text": "Pass arguments to kits",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 8268,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 180,
+   "text": "A schema v2 kit can declare inputs in a top-level args: block and reference\nthem in spec.yaml or static files with ${{ kit.args.<name> }}. Supply a\nvalue with --kit-arg name=value:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8314,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 44,
+   "text": "$ sbx run ./my-agent/ --kit-arg channel=beta",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8406,
+    "height": 25,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 383,
+   "text": "Kit argument values are plain text. Values supplied with --kit-arg can remain\nin your shell history, and argument files store their values unencrypted. Don't\nuse kit arguments for secrets. Use Credentials\ninstead.\nAn argument without a kit name prefix applies to every kit that declares it.\nTo target one kit, prefix the argument with the value of that kit's name\nfield and a period:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 8467,
+    "height": 160,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 105,
+   "text": "$ sbx run ./my-agent/ \\\n --kit ./my-mixin/ \\\n --kit-arg version=1.2.3 \\\n --kit-arg my-mixin.version=2.0.0",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8663,
+    "height": 101,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 190,
+   "text": "The kit-specific value takes precedence over the shared value for my-mixin.\nUse --kit-args-file for a reusable set of name=value entries. Blank lines\nand lines that start with # are ignored:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8800,
+    "height": 104,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "div",
+   "class": "group mt-2 mb-4 flex",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 44,
+   "text": "kit.args\nversion=1.2.3\nmy-mixin.channel=beta",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8924,
+    "height": 130,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 114,
+   "text": "$ sbx create ./my-agent/ . \\\n --kit ./my-mixin/ \\\n --kit-args-file ./kit.args \\\n --kit-arg my-mixin.channel=stable",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9086,
+    "height": 101,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 605,
+   "text": "When you pass multiple argument files, a value in a later file overrides the\nsame key in an earlier file. Values passed with --kit-arg override every\nfile. For repeated --kit-arg entries with the same key, the last value wins.\nArgument validation happens before the sandbox is created. sbx rejects a\nmissing required value, a value outside its declared enum or pattern, a\nplaceholder without a declar",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 9223,
+    "height": 244,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "h3",
+   "id": "local",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 5,
+   "text": "Local",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 9500,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 190,
+   "text": "Launch a local sandbox kit by passing its directory or ZIP file in place of the\nagent name. Relative paths must start with ./ or ../ so sbx can\ndistinguish them from agent and sandbox names:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9546,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 56,
+   "text": "$ sbx run ./my-agent/\n$ sbx create ../my-agent-1.0.zip .",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9666,
+    "height": 50,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 108,
+   "text": "Pass a local mixin with --kit:\n$ sbx run claude --kit ./my-mixin/\n$ sbx run claude --kit ../my-mixin-1.0.zip",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9752,
+    "height": 114,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 94,
+   "text": "While iterating on a supported mixin kit, apply changes to a running sandbox\nwith sbx kit add:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9903,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 34,
+   "text": "$ sbx kit add my-sandbox ./my-kit/",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9995,
+    "height": 25,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 256,
+   "text": "sbx kit add restarts the sandbox to apply the updated kit set.\nVM state — installed packages, Docker images, volumes, and agent history — is\npreserved across the restart. Kits can't be removed from a running sandbox —\nremove and recreate it to start clean.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10056,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "h3",
+   "id": "git-repository",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 14,
+   "text": "Git repository",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 10173,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 125,
+   "text": "Launch a sandbox kit from a Git repository:\n$ sbx run \"git+https://github.com/docker/sbx-kits-contrib.git#ref=v0.1.0&dir=amp\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10219,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 138,
+   "text": "Pass a Git-hosted mixin with --kit:\n$ sbx run claude --kit \"git+https://github.com/docker/sbx-kits-contrib.git#ref=v0.1.0&dir=code-server\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10344,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 291,
+   "text": "#ref=<branch|tag|commit> pins to a specific revision. Defaults to the\nrepository's default branch.\n#dir=<path> loads a kit from a subdirectory.\ngit+ssh:// URLs also work, using your local SSH agent, Git credential\nhelpers, and .netrc.\nQuote the URL in shells where & starts a background job.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10484,
+    "height": 192,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "h3",
+   "id": "oci-registry",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 12,
+   "text": "OCI registry",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 10710,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 83,
+   "text": "Launch a sandbox kit from an OCI registry:\n$ sbx run docker.io/sbx/droid-kit:latest",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10755,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 84,
+   "text": "Pass an OCI-hosted mixin with --kit:\n$ sbx run claude --kit ghcr.io/myorg/my-kit:1.0",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10880,
+    "height": 89,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 97,
+   "text": "For Docker Hub, include the full docker.io prefix. See\nPackaging and distribution for publishing.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 11006,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "blockquote",
+   "class": "admonition admonition-note admonition not-prose",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 456,
+   "text": "Important\nFor Docker Hub, sbx reuses your sbx login session to pull private\nkits. For other registries, store pull credentials with\nsbx secret set --registry\nbefore running the sandbox. These credentials take priority over credentials\nin the Docker credential store:\n$ gh auth token | sbx secret set --registry ghcr.io --password-stdin\nWithout credentials from either store, pulls from non-Docker Hub",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 11082,
+    "height": 317,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "h3",
+   "id": "restrict-kit-sources",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 20,
+   "text": "Restrict kit sources",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 11432,
+    "height": 33,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 90,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 293,
+   "text": "sbx restricts which sources a kit can install from. A kit's install\ncommands run with root privileges inside the sandbox, so limiting where kits\ncome from reduces supply-chain risk. By default, only kits hosted on Docker\nHub (docker.io/) are allowed. Loading a kit from any other source fails:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11478,
+    "height": 112,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 91,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 230,
+   "text": "$ sbx run claude --kit \"git+https://github.com/docker/sbx-kits-contrib.git#dir=vale\"\nERROR: resolve kits: kit \"git+https://github.com/docker/sbx-kits-contrib.git#dir=vale\" cannot be installed — its source is not in your allowlist.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11626,
+    "height": 50,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 92,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 173,
+   "text": "To allow another publisher, add its host or host/path prefix to the\nkit.allowedSources setting. The setting replaces the whole list, so include\nthe entries you want to keep:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11727,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 93,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 75,
+   "text": "$ sbx settings set kit.allowedSources '[\"docker.io/\",\"github.com/docker/\"]'",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11819,
+    "height": 25,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 94,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 427,
+   "text": "Entries match as prefixes on a path-segment boundary, so github.com/docker/\nallows github.com/docker/sbx-kits-contrib but not github.com/docker-evil/kit.\nTo remove the restriction and allow any remote source, set the list to\n[\"*\"]. This isn't recommended.\nInstalling from a local directory or ZIP file is governed separately by the\nkit.allowLocalKits setting, which defaults to true. Set it to false ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11880,
+    "height": 160,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 95,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 43,
+   "text": "$ sbx settings set kit.allowLocalKits false",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12076,
+    "height": 25,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 96,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 152,
+   "text": "For non-interactive use, both settings have environment-variable equivalents:\nDOCKER_SANDBOXES_KIT_ALLOWED_SOURCES and DOCKER_SANDBOXES_KIT_ALLOW_LOCAL.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12138,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 97,
+   "tag": "h2",
+   "id": "sign-and-verify-kits",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 20,
+   "text": "Sign and verify kits",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 12222,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 98,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 236,
+   "text": "Use cosign-compatible Sigstore signatures to verify who approved a kit and\nthat its signed content hasn't changed. Signing is keyless by default. Verify a\nkeyless signature with the certificate identity and OpenID Connect (OIDC)\nissuer:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12268,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 99,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 154,
+   "text": "$ sbx kit sign ./my-kit/\n$ sbx kit verify \\\n --certificate-identity user@example.com \\\n --certificate-oidc-issuer https://accounts.google.com \\\n ./my-kit/",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12388,
+    "height": 126,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 100,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 137,
+   "text": "For key-based signing, use an ECDSA P-256 key pair:\n$ sbx kit sign --key cosign.key ./my-kit/\n$ sbx kit verify --key cosign.pub ./my-kit/",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12550,
+    "height": 114,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 101,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 297,
+   "text": "For a local directory, sbx kit sign writes a kit.sig.bundle file next to\nspec.yaml. Commit this file so consumers can verify a kit loaded from the Git\nrepository. For an OCI kit, the signature is stored as an OCI referrer. You can\nsign an OCI kit after pushing it, or push and sign it in one step:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12700,
+    "height": 112,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 102,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 56,
+   "text": "$ sbx kit push ./my-kit/ ghcr.io/myorg/my-kit:1.0 --sign",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12848,
+    "height": 25,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 103,
+   "tag": "h3",
+   "id": "require-signed-kits",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 63,
+   "text": "ZIP kits can't carry verifiable signatures.\nRequire signed kits",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 12909,
+    "height": 95,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 104,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 308,
+   "text": "Set a trusted signer policy for the identities or keys you trust before\nrequiring signatures. Otherwise, sbx uses the default policy, which trusts\nDocker employee identities attested by Google's OpenID Connect issuer. A\nkeyless policy must specify both the certificate identity and its OpenID\nConnect issuer:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13016,
+    "height": 112,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 105,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 167,
+   "text": "$ sbx settings set kit.trustedSigners \\\n '[{\"identity\":\"release-bot@example.com\",\"issuer\":\"https://accounts.google.com\"}]'\n$ sbx settings set kit.requireSignature true",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13164,
+    "height": 76,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 106,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 70,
+   "text": "To trust a key-based signature, set the policy to the public key path:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13291,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 107,
+   "tag": "pre",
+   "class": "chroma",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 116,
+   "text": "$ sbx settings set kit.trustedSigners '[{\"key\":\"/path/to/cosign.pub\"}]'\n$ sbx settings set kit.requireSignature true",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13355,
+    "height": 50,
+    "widthFraction": 0.44,
+    "leftFraction": 0.26,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 108,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 463,
+   "text": "When kit.requireSignature is true, sbx rejects unsigned kits, signatures\nthat don't match kit.trustedSigners, and ZIP kits. This policy applies when a\nkit is loaded from a local directory, Git repository, or OCI registry.\nThe signature covers spec.yaml and the kit's files/ content, but not mutable\ndependencies such as image tags or content downloaded by install and startup\ncommands. Pin those depe",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13441,
+    "height": 188,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 109,
+   "tag": "h2",
+   "id": "packaging-and-distribution",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 26,
+   "text": "Packaging and distribution",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 13657,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 110,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 60,
+   "text": "The sbx kit subcommands validate, inspect, and publish kits:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13704,
+    "height": 28,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 111,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 432,
+   "text": "sbx kit validate <path> — check that a kit directory or ZIP is\nwell-formed.\nsbx kit inspect <path> — display kit details. Add --json for\nmachine-readable output.\nsbx kit pack <path> -o <file.zip> — package a directory as a ZIP file\nfor sharing.\nsbx kit push <path> <ref> — publish to an OCI registry (for example,\nghcr.io/myorg/my-kit:1.0).\nsbx kit pull <ref> — download a kit from a registry as a ZI",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13752,
+    "height": 200,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 112,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 348,
+   "text": "For Docker Hub, include the full docker.io prefix — sbx doesn't add it\nautomatically.\nFor Docker Hub, sbx kit pull and sbx kit push use the session from\nsbx login. For other registries, they prefer credentials stored with\nsbx secret set --registry.\nBoth commands fall back to the Docker credential store, so credentials from\ndocker login also work.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 13972,
+    "height": 132,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 113,
+   "tag": "h2",
+   "id": "spec-reference",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 14,
+   "text": "Spec reference",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 14132,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 114,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 210,
+   "text": "For a field-by-field reference of every spec.yaml block — top-level\nfields, arguments, credentials, network, environment, setup, static files,\nagent instructions, and the sandbox block — see Kit spec reference.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 14178,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 115,
+   "tag": "h2",
+   "id": "debugging",
+   "class": "scroll-mt-20 flex items-center gap-2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 9,
+   "text": "Debugging",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 14290,
+    "height": 34,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 116,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 114,
+   "text": "When a kit doesn't behave as expected, start with the network policy log\nand direct inspection inside the sandbox:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14336,
+    "height": 56,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 117,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 705,
+   "text": "sbx policy log shows every outbound request the sandbox proxy saw,\nthe rule it matched, extra context when available, and its PROXY\nvalue, such as forward, forward-bypass, transparent, or\nbrowser-open. Use it to diagnose install-time download failures,\nblocked domains, and unexpected TLS interception. If downloads fail or\narrive corrupted after you add a credential's apiKey.inject, check\nwhether a",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14412,
+    "height": 260,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 118,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 225,
+   "text": "Install and startup command output is only emitted during sbx run or\nsbx create; sbx doesn't retain it for later inspection. To repeat\nsetup with fresh output, remove and recreate the sandbox:\nsbx rm <sandbox> && sbx run ....",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14692,
+    "height": 84,
+    "widthFraction": 0.47,
+    "leftFraction": 0.24,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 119,
+   "tag": "ul",
+   "class": "pl-2",
+   "landmarks": [
+    "main",
+    "aside",
+    "nav"
+   ],
+   "textLength": 440,
+   "text": "Edit this page\nRequest changes\nTable of contents\nWhat kits can do\nRun commands\nInject files\nSet environment variables\nControl network access\nAuthenticate to external services\nInject agent memory\nDefine an agent\nMixin kits\nSandbox kits\nExtend a built-in agent\nUsing kits\nPass arguments to kits\nLocal\nGit repository\nOCI registry\nRestrict kit sources\nSign and verify kits\nRequire signed kits\nPackaging a",
+   "counts": {
+    "links": 24,
+    "images": 2,
+    "headings": 0,
+    "listItems": 22,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.91,
+   "geometry": {
+    "top": 80,
+    "height": 752,
+    "widthFraction": 0.23,
+    "leftFraction": 0.73,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 120,
+   "tag": "footer",
+   "class": "relative z-10 w-full",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 189,
+   "text": "Product offerings\nPricing\nAbout us\nllms.txt\nllms-full.txt\nCookies Settings\n|\nTerms of Use\n|\nStatus\n|\nLegal\nCopyright © 2013-2026 Docker Inc. All rights reserved.\nAutomated traffic detection",
+   "counts": {
+    "links": 14,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.54,
+   "geometry": {
+    "top": 14808,
+    "height": 108,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 121,
+   "tag": "div",
+   "role": "alertdialog",
+   "ariaLabel": "Privacy",
+   "landmarks": [
+    "role=region"
+   ],
+   "textLength": 217,
+   "text": "By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. \nCookies Settings Reject All Accept All Cookies",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 745,
+    "height": 71,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  }
+ ]
+}

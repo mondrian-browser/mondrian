@@ -1,0 +1,83 @@
+{
+ "site": "medlineplus.gov",
+ "pages": 4,
+ "pageIds": [
+  "medlineplus-gov-1",
+  "medlineplus-gov-2",
+  "medlineplus-gov-3",
+  "medlineplus-gov-4"
+ ],
+ "derivedAt": "2026-09-20T13:58:10.505Z",
+ "blocks": [
+  {
+   "selector": "section > section.usa-banner",
+   "type": "site_notice",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "article > h1",
+   "type": "title",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "article > p",
+   "type": "summary",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 3
+  },
+  {
+   "selector": "footer > footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "article section > section",
+   "type": "accordion",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "article > div.share-buttons",
+   "type": "share",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "article > div.category-nav-area",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article section > ul.breaklist",
+   "type": "list",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article > p#disc",
+   "type": "legal_notice",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

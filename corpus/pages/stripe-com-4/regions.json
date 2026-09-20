@@ -1,0 +1,1883 @@
+{
+ "url": "https://docs.stripe.com/get-started/use-cases/saas-subscriptions",
+ "title": "Sell subscriptions as a SaaS startup | Stripe Documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "div",
+   "class": "Header--full ⚙",
+   "landmarks": [],
+   "textLength": 188,
+   "text": "Skip to content\nThe Stripe Docs logo\nSearch\n/Ask AI\nCreate accountSign in\nGet started \nPayments \nRevenue \nPlatforms and marketplaces \nMoney management \nDeveloper resources \nAPIs & SDKsHelp",
+   "counts": {
+    "links": 9,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 121,
+     "height": 25
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 0,
+    "height": 112,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "span",
+   "landmarks": [],
+   "textLength": 337,
+   "text": "Overview\nSee all products\nAbout the APIs\nStripe glossary\nStart building\nCreate an account\nQuickstarts\nStart developing\nBuild with agents\nUse Stripe without code\nMigrate to Stripe\nCommon use cases\nOverview\nAccept simple payments as a startup\nSell subscriptions as a SaaS startup\nAccept payments in person\nSend invoices to collect payments",
+   "counts": {
+    "links": 0,
+    "images": 6,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    },
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    },
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    },
+    {
+     "kind": "svg",
+     "alt": "Dropdown closed",
+     "width": 8,
+     "height": 8
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 124,
+    "height": 650,
+    "widthFraction": 0.15,
+    "leftFraction": 0.01,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "div",
+   "class": "⚙ rs-4 as-u as-1b",
+   "landmarks": [],
+   "textLength": 34,
+   "text": "Australia\nEnglish (United Kingdom)",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "Click to collapse the sidebar and hide the navigation",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 128,
+    "height": 640,
+    "widthFraction": 0.19,
+    "leftFraction": 0,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "nav",
+   "class": "⚙ rs-3 as-5y as-2n",
+   "ariaLabel": "Breadcrumbs",
+   "landmarks": [
+    "nav"
+   ],
+   "textLength": 17,
+   "text": "Home/\nGet started",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 144,
+    "height": 36,
+    "widthFraction": 0.73,
+    "leftFraction": 0.23,
+    "pageFraction": 0.18,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h1",
+   "class": "⚙ rs-3 as-6e as-62",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 36,
+   "text": "Sell subscriptions as a SaaS startup",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 178,
+    "height": 43,
+    "widthFraction": 0.36,
+    "leftFraction": 0.23,
+    "pageFraction": 0.22,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h2",
+   "class": "⚙ rs-3 as-6f as-62",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 63,
+   "text": "Launch a pre-built subscriptions integration as a SaaS startup.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 220,
+    "height": 40,
+    "widthFraction": 0.45,
+    "leftFraction": 0.23,
+    "pageFraction": 0.27,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "⚙ rs-4 as-w as-y",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 62,
+   "text": "Ask about this page\nCopy for LLM\nView as MarkdownInstall tools",
+   "counts": {
+    "links": 0,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 284,
+    "height": 16,
+    "widthFraction": 0.35,
+    "leftFraction": 0.23,
+    "pageFraction": 0.35,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p×2",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 453,
+   "text": "This guide is for SaaS startups who want to accept recurring payments (subscriptions) using a flat-rate pricing model. This means you charge a flat rate per month for your product or service at the beginning of a certain time period.\nThe payment flow redirects your customers to a Stripe-hosted page to enter their payment details, then returns them to your site. You use Checkout to create the Strip",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 329,
+    "height": 154,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 0.4,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div×2",
+   "class": "Section Section--numbered Box-root",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 632,
+   "text": "Create a Stripe account\nBefore integrating with Stripe, you must create a Stripe account.\nCreate an account by entering your email address, full name and country, and creating a password.\nFill out your business profile.\nIn the Dashboard, click Verify your email. Stripe sends a verification email to your email address.\nVerify your email address.\nCreate a test product and price\nCreate products and s",
+   "counts": {
+    "links": 4,
+    "images": 4,
+    "headings": 2,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 8,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 531,
+    "height": 659,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 0.65,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "Box-root Flex-flex Flex-alignItems--center Flex-direction--row",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 29,
+   "text": "Accept subscriptions payments",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1206,
+    "height": 28,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 1.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 95,
+   "text": "To accept payments, build an integration with Stripe-hosted Checkout, a pre-built payment page.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.23,
+   "geometry": {
+    "top": 1246,
+    "height": 38,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 1.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h3",
+   "id": "before-you-begin",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 16,
+   "text": "Before you begin",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1302,
+    "height": 37,
+    "widthFraction": 0.11,
+    "leftFraction": 0.23,
+    "pageFraction": 1.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 131,
+   "text": "Refer to the Stripe-hosted Checkout quickstart as you go through this step. You can download the example app or open it in VS Code.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 1339,
+    "height": 64,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 1.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h3",
+   "id": "set-up-your-server",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 18,
+   "text": "Set up your server",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1421,
+    "height": 37,
+    "widthFraction": 0.11,
+    "leftFraction": 0.23,
+    "pageFraction": 1.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 369,
+   "text": "Your server communicates with the Stripe API to initialise the checkout process, but Stripe securely hosts the actual payment form. Setting up your server varies by programming language, but typically involves installing the Stripe library, configuring your API keys, and implementing the endpoints needed to create a Checkout Session and handle post-payment processes.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1458,
+    "height": 118,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 1.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "ol",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 894,
+   "text": "Open the Quickstart and select React for the front end and Node for the back end.\nInstall the Stripe Node library.\nCreate a Checkout Session. A Checkout Session is a server-side object in Stripe that defines a payment flow for a customer. The endpoint path must match the action attribute of your checkout button.\nDefine a product to sell. Add the test product (\"Plus”) you created earlier in the Das",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 1576,
+    "height": 366,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 1.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h3",
+   "id": "create-your-checkout-page",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 25,
+   "text": "Create your checkout page",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1960,
+    "height": 37,
+    "widthFraction": 0.16,
+    "leftFraction": 0.23,
+    "pageFraction": 2.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 172,
+   "text": "This is a page on your site that shows the customer a summary of their order before they proceed to complete payment. They can review and modify their selections if needed.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1997,
+    "height": 64,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 2.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "ol",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 169,
+   "text": "Add an order preview page.\nAdd a checkout button. This is the button the customer clicks on the order preview page that redirects them to the Stripe-hosted payment page.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.27,
+   "geometry": {
+    "top": 2061,
+    "height": 102,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 2.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h3",
+   "id": "test-your-checkout-page",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 23,
+   "text": "Test your checkout page",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2181,
+    "height": 37,
+    "widthFraction": 0.14,
+    "leftFraction": 0.23,
+    "pageFraction": 2.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "ol",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 427,
+   "text": "Add \"proxy\": \"<http://localhost:4242>\" to your package.json file during local development.\nRun npm start and go to http://localhost:3000/checkout.\nIn your checkout page, enter the test card 4242424242424242 to submit a test payment as a customer.\n(Optional) To sign up for a Link account, select Save my information for faster checkout. You can test Link as the payment method to see the checkout flo",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 2218,
+    "height": 168,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 2.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "Box-root Flex-flex Flex-alignItems--center Flex-direction--row",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 37,
+   "text": "Additional recommended configurations",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2435,
+    "height": 28,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 2.98,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 77,
+   "text": "Learn how to add payment methods, trial periods and set up a customer portal.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2475,
+    "height": 38,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 3.03,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h3",
+   "id": "customize-payment-page",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 22,
+   "text": "Customise payment page",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2531,
+    "height": 37,
+    "widthFraction": 0.15,
+    "leftFraction": 0.23,
+    "pageFraction": 3.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 88,
+   "text": "You can apply custom branding to Checkout. In the Dashboard, go to Branding settings to:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.19,
+   "geometry": {
+    "top": 2568,
+    "height": 38,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 3.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "ul",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 98,
+   "text": "Upload a logo or icon\nCustomise the background colour, button colour, font and shapes for the page",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2606,
+    "height": 76,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 3.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "h3",
+   "id": "add-payment-methods",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 19,
+   "text": "Add payment methods",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2700,
+    "height": 37,
+    "widthFraction": 0.14,
+    "leftFraction": 0.23,
+    "pageFraction": 3.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p×2",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 498,
+   "text": "In the Payment methods page in the Dashboard, enable the payment methods you want to accept from your customers. Checkout supports several payment methods, and dynamic payment methods.\nThis means Stripe handles the logic for dynamically displaying the most relevant eligible payment methods to each customer to maximise conversion. Stripe only shows customers the payment methods they’re eligible to ",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 2737,
+    "height": 154,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 3.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h3",
+   "id": "add-trial-periods",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 17,
+   "text": "Add trial periods",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2909,
+    "height": 37,
+    "widthFraction": 0.1,
+    "leftFraction": 0.23,
+    "pageFraction": 3.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 124,
+   "text": "Configure a Checkout Session to add a free trial to your customer’s subscription by passing one of the following parameters:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2946,
+    "height": 66,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 3.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "ul",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 163,
+   "text": "subscription_data.trial_period_days: the length (in days) of your free trial\nsubscription_data.trial_end: a Unix timestamp representing the end of the trial period",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.38,
+   "geometry": {
+    "top": 3012,
+    "height": 76,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 3.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "div",
+   "class": "CodeBlock CodeBlock-numbered Box-root Box-background--blue800",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 515,
+   "text": "Command Line\nSelect a language cURLcURL\nStripe CLI\nRuby\nPython\nPHP\nJava\nNode.js\nGo\n.NET\ncurl https://api.stripe.com/v1/checkout/sessions \\\n -u \"sk_test_51UHFaHBIDJ1g23UA6LQ...6z7mlfm9zi00Zk4Vr6pisk_test_51UHFaHBIDJ1g23UA6LQuLoBFk95KTE2OYrX3bCY1yeQff0LNigrE3AHN7C0NDFFzSOkJLorc5XnUrk6z7mlfm9zi00Zk4Vr6pi:\" \\\n -d mode=subscription \\\n --data-urlencode \"success_url=https://example.com/success\" \\\n -d \"li",
+   "counts": {
+    "links": 1,
+    "images": 6,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 3104,
+    "height": 205,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 3.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "h3",
+   "id": "add-a-customer-portal",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 21,
+   "text": "Add a customer portal",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3327,
+    "height": 37,
+    "widthFraction": 0.13,
+    "leftFraction": 0.23,
+    "pageFraction": 4.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 217,
+   "text": "Your customers manage their existing subscriptions and invoices in a customer portal. Use the Dashboard to create the portal. At a minimum, make sure to configure it so that customers can update their payment methods.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 3364,
+    "height": 64,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 4.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "div",
+   "class": "Box-root Flex-flex Flex-alignItems--center Flex-direction--row",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 26,
+   "text": "Monitor your subscriptions",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3477,
+    "height": 28,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 4.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 183,
+   "text": "To monitor subscriptions for your Stripe-hosted Checkout integration, you can set up an endpoint to listen to specific webhook events that occur throughout the subscription lifecycle.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3517,
+    "height": 64,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 4.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h3",
+   "id": "set-up-a-webhook-endpoint",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 25,
+   "text": "Set up a webhook endpoint",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3599,
+    "height": 37,
+    "widthFraction": 0.16,
+    "leftFraction": 0.23,
+    "pageFraction": 4.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "ol",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 1280,
+   "text": "Create a webhook endpoint on your server to receive event notifications from Stripe.\nIn the Dashboard, register this endpoint in your webhook settings.\nImplement webhook signature verification for security using your webhook secret. If you don’t know your STRIPE_WEBHOOK_SECRET key, go to the destination details view of the Webhooks tab in Workbench to view it.\nIn Workbench, select the events you w",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 4,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 3636,
+    "height": 692,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 4.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "div",
+   "class": "CalloutWrapper ⚙ rs-4 as-9c",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 436,
+   "text": "Note\nThe checkout.session.completed event tells your integration that the customer completed checkout, but payment can still be pending for delayed-notification payment methods. Before provisioning access, wait for invoice.paid or checkout.session.async_payment_succeeded, and verify the subscription or payment status. These events don’t reset the subscription’s billing period. Learn more about whe",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 4348,
+    "height": 102,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 5.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h3",
+   "id": "set-the-billing-cycle",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 21,
+   "text": "Set the billing cycle",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4468,
+    "height": 37,
+    "widthFraction": 0.12,
+    "leftFraction": 0.23,
+    "pageFraction": 5.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p×2",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 670,
+   "text": "You can explicitly set a subscription’s billing cycle anchor to a fixed date (for example, the 1st of the next month) when creating a Checkout Session. The billing cycle anchor determines the first full invoice date, when customers are billed the full subscription amount. For example, a monthly subscription created on 15 May with an anchor on 1 June is first initially billed on 15 May, then always",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 4505,
+    "height": 210,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 5.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "div",
+   "class": "CodeBlock CodeBlock-numbered Box-root Box-background--blue800",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 559,
+   "text": "Command Line\nSelect a language cURLcURL\nStripe CLI\nRuby\nPython\nPHP\nJava\nNode.js\nGo\n.NET\ncurl https://api.stripe.com/v1/checkout/sessions \\\n -u \"sk_test_51UHFaHBIDJ1g23UA6LQ...6z7mlfm9zi00Zk4Vr6pisk_test_51UHFaHBIDJ1g23UA6LQuLoBFk95KTE2OYrX3bCY1yeQff0LNigrE3AHN7C0NDFFzSOkJLorc5XnUrk6z7mlfm9zi00Zk4Vr6pi:\" \\\n -d \"line_items[0][price]={{PRICE_ID}}\n\" \\\n -d \"line_items[0][quantity]=1\" \\\n -d mode=subscri",
+   "counts": {
+    "links": 1,
+    "images": 6,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 4731,
+    "height": 205,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 5.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 317,
+   "text": "If the billing cycle anchor is during a session’s active period and a customer attempts payment after it has passed, Checkout displays and charges for the full period, starting with the billing cycle anchor instead of the prorated period before the billing cycle anchor.\nTo learn more, see Set the billing cycle date.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 4952,
+    "height": 128,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 6.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "div",
+   "class": "Section Section--numbered Box-root",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 607,
+   "text": "Go live\nIn the Dashboard, open your Account settings.\nEnter your business type, tax details, business details, personal verification information and customer-facing information (for example, a statement descriptor).\nAdd bank details to confirm where to pay out your money.\nSet up two-step authentication to secure your account.\nYou can optionally add automatic tax collection or revenue-based climate",
+   "counts": {
+    "links": 3,
+    "images": 2,
+    "headings": 1,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 5113,
+    "height": 379,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 6.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h2",
+   "id": "next-steps",
+   "class": "Heading Heading--anchored",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 10,
+   "text": "Next steps",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5492,
+    "height": 60,
+    "widthFraction": 0.09,
+    "leftFraction": 0.23,
+    "pageFraction": 6.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 90,
+   "text": "After setting up your integration, we recommend that you implement the following features:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5552,
+    "height": 38,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 6.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "ul",
+   "class": "List default ⚙ as-6t",
+   "landmarks": [
+    "article"
+   ],
+   "textLength": 367,
+   "text": "Enable and automatically collect tax on subscriptions in a Checkout Session.\nCancel or refund a payment. You can cancel a payment before it’s completed or refund all or part of a payment after it succeeds.\nSet up your bank account to receive payouts.\nEnable Adaptive pricing. This allows Stripe to let your customers pay in their local currency in over 150 countries.",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 5590,
+    "height": 190,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 6.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "footer",
+   "class": "⚙ rs-4 as-9k as-9l",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 185,
+   "text": "Was this page helpful?YesNo\nNeed help? Contact Support.\nChat with Stripe developers on Discord.\nCheck out our changelog.\nQuestions? Contact Sales.\nLLM? Read llms.txt.\nPowered by Markdoc",
+   "counts": {
+    "links": 6,
+    "images": 7,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 5828,
+    "height": 367,
+    "widthFraction": 0.55,
+    "leftFraction": 0.23,
+    "pageFraction": 7.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "span",
+   "class": "TableOfContents-header Text-color--dark Text-fontSize--13 Text-fontWeight--medium",
+   "landmarks": [],
+   "textLength": 36,
+   "text": "On this page\nCreate a Stripe account",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.64,
+   "geometry": {
+    "top": 180,
+    "height": 64,
+    "widthFraction": 0.13,
+    "leftFraction": 0.82,
+    "pageFraction": 0.22,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 49,
+   "tag": "div×16",
+   "class": "Box-root Box-hideIfEmpty",
+   "landmarks": [],
+   "textLength": 362,
+   "text": "Create a test product and price\nAccept subscriptions payments\nBefore you begin\nSet up your server\nCreate your checkout page\nTest your checkout page\nAdditional recommended configurations\nCustomise payment page\nAdd payment methods\nAdd trial periods\nAdd a customer portal\nMonitor your subscriptions\nSet up a webhook endpoint\nSet the billing cycle\nGo live\nNext steps",
+   "counts": {
+    "links": 16,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 16,
+    "coverLinks": 7
+   },
+   "coverLabel": "Create a test product and price",
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 244,
+    "height": 612,
+    "widthFraction": 0.13,
+    "leftFraction": 0.82,
+    "pageFraction": 0.3,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 50,
+   "tag": "div",
+   "class": "wb-WorkbenchTray ⚙ rs-4 as-w",
+   "role": "button",
+   "ariaLabel": "Show Workbench",
+   "landmarks": [],
+   "textLength": 10,
+   "text": "Developers",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 769,
+    "height": 47,
+    "widthFraction": 0.98,
+    "leftFraction": 0.01,
+    "pageFraction": 0.94,
+    "aboveFold": true
+   }
+  }
+ ]
+}

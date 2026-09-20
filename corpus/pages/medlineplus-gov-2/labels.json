@@ -1,0 +1,262 @@
+{
+ "id": "medlineplus-gov-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:57:55.092Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 36879,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_notice",
+   "confidence": 0.51,
+   "margin": 0.34,
+   "top": [
+    [
+     "site_notice",
+     0.52
+    ],
+    [
+     "legal_notice",
+     0.18
+    ],
+    [
+     "site_header",
+     0.14
+    ],
+    [
+     "sticky_bar",
+     0.05
+    ],
+    [
+     "callout",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "site_notice"
+  },
+  {
+   "index": 1,
+   "choice": "site_header",
+   "confidence": 0.7,
+   "margin": 0.42,
+   "top": [
+    [
+     "site_header",
+     0.71
+    ],
+    [
+     "site_nav",
+     0.29
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.54,
+   "margin": 0.28,
+   "top": [
+    [
+     "title",
+     0.55
+    ],
+    [
+     "breadcrumbs",
+     0.27
+    ],
+    [
+     "heading",
+     0.16
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "infobox",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "share",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "share",
+     1
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "audio",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "tools",
+   "final": "share"
+  },
+  {
+   "index": 4,
+   "choice": "summary",
+   "confidence": 0.89,
+   "margin": 0.81,
+   "top": [
+    [
+     "summary",
+     0.9
+    ],
+    [
+     "text",
+     0.09
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 5,
+   "choice": "list",
+   "confidence": 0.89,
+   "margin": 0.84,
+   "top": [
+    [
+     "list",
+     0.9
+    ],
+    [
+     "version_switcher",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "chart",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 6,
+   "choice": "callout",
+   "confidence": 0.72,
+   "margin": 0.67,
+   "top": [
+    [
+     "callout",
+     0.73
+    ],
+    [
+     "status_message",
+     0.06
+    ],
+    [
+     "version_switcher",
+     0.06
+    ],
+    [
+     "site_notice",
+     0.06
+    ],
+    [
+     "settings",
+     0.03
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "callout"
+  },
+  {
+   "index": 7,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.821Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

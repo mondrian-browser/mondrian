@@ -1,0 +1,426 @@
+{
+ "site": "kingarthurbaking.com",
+ "pages": 4,
+ "pageIds": [
+  "kingarthurbaking-com-1",
+  "kingarthurbaking-com-2",
+  "kingarthurbaking-com-3",
+  "kingarthurbaking-com-4"
+ ],
+ "derivedAt": "2026-09-20T13:41:25.351Z",
+ "blocks": [
+  {
+   "selector": "main section > p",
+   "type": "text",
+   "n": 30,
+   "purity": 0.97,
+   "pages": 3
+  },
+  {
+   "selector": "main section > figure",
+   "type": "image",
+   "n": 17,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section article > article.comment--kaf",
+   "type": "comments",
+   "n": 11,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section article > article.comment--guest",
+   "type": "comments",
+   "n": 10,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "[role=dialog] > div.account-overview__body--menu-item",
+   "type": "account",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=dialog] > div.osano-cm-window__dialog",
+   "type": "cookie_banner",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > a.site-logo",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > ul.kab-mm--main-list",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > div.menu--utility",
+   "type": "account",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=complementary] > div.region-below-connect",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div.region-below-values",
+   "type": "logo_cloud",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.footer-grid",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=dialog] > div.account-overview__header",
+   "type": "popup",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "[role=dialog] > h4.account-overview__body--member-name",
+   "type": "popup",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=dialog] > ul.menu-account-overview-account-sublink",
+   "type": "account",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > ul",
+   "type": "list",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "main section article > h3",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > div.alert--alt",
+   "type": "site_notice",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header nav > nav.header-subnav",
+   "type": "section_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section article [role=region] > div.js-kaf-share-widget",
+   "type": "share",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section article nav > nav.breadcrumb",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section article > h2.node--article__subtitle",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section article > div.quickview--author-date",
+   "type": "byline",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section article > div.stats--blog",
+   "type": "share",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > div",
+   "type": "tag_cloud",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > div.author__wrap",
+   "type": "author_bio",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main aside > h2",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main aside > div.views-row",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main aside > div.cta",
+   "type": "cta",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main [role=complementary] > h3",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main [role=complementary] > div.related__nodes",
+   "type": "product_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section nav > nav",
+   "type": "pagination",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section form > form#comment-form",
+   "type": "form",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > h3",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div.view",
+   "type": "teaser_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "footer > div.region-footer",
+   "type": "site_footer",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header nav > nav.utility-nav",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div.brick--type--flexible-product-item",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div.pizza-small-card",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div.brick--type--cta-card-wide",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > iframe.media-oembed-content",
+   "type": "embed",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article [role=region] > div.videos-thumbnails",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div.featured-category-content-wrapper",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div.brick--type--product-list-item",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > div.brick--type--cta-bakers-hotline",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer > p.copyright",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "footer nav > nav#block-footerlegal",
+   "type": "site_footer",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4.MsoNormal",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#my-starter-recipe-says",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#I-read",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#do-I-have-to",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#my-new-starter",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#do-I-really",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#whats-the-best",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#my-starter-develops",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#I-think-I",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#Im-ready-to-bake",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > h4#can-you-point",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div.recipe--embed",
+   "type": "infobox",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "id": "catch-com-au-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:29:26.620Z",
+ "tier": "relayout",
+ "application": 0.08,
+ "inputTokens": 18313,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "site_header",
+     1
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_notice",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_notice",
+     1
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "unclear",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "header",
+   "final": "site_notice"
+  },
+  {
+   "index": 2,
+   "choice": "section_nav",
+   "confidence": 0.59,
+   "margin": 0.34,
+   "top": [
+    [
+     "section_nav",
+     0.61
+    ],
+    [
+     "site_nav",
+     0.27
+    ],
+    [
+     "table_of_contents",
+     0.05
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "site_footer",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 3,
+   "choice": "site_footer",
+   "confidence": 0.95,
+   "margin": 0.92,
+   "top": [
+    [
+     "site_footer",
+     0.96
+    ],
+    [
+     "legal_notice",
+     0.04
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.247Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

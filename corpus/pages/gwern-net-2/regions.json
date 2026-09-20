@@ -1,0 +1,2557 @@
+{
+ "url": "https://gwern.net/doc/statistics/order/selection/pipeline/index",
+ "title": "‘leaky pipeline’ directory · Gwern.net",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 42819,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "id": "navbar",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 66,
+   "text": "Skip to main content\nSite\n Me\n New\n Blog\n Links\n Patreon\n Substack",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 80,
+     "height": 94
+    }
+   ],
+   "linkTextRatio": 0.5,
+   "geometry": {
+    "top": -47,
+    "height": 110,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "header",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 26,
+   "text": "‘leaky pipeline’ directory",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 105,
+    "height": 58,
+    "widthFraction": 0.57,
+    "leftFraction": 0.21,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p",
+   "class": "block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 379,
+   "text": "Many multi-step processes look like ‘leaky pipelines’, where a frac­tional loss/suc­cess hap­pens at every step. Such mul­ti­plica­tive processes can often be mod­eled as a log-normal dis­tri­b­u­tion (or power law), with coun­ter­in­tu­itive im­pli­ca­tions like skewed out­put dis­tri­b­u­tions and large final dif­fer­ences from small dif­fer­ences in per-step suc­cess rates.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 197,
+    "height": 120,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "ul",
+   "class": "list big-list list-level-1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 5860,
+   "text": "The log-normal dis­tri­b­u­tion⁠ (quin­cunx⁠ ⁠vi­su­al­iza­tion⁠ from Li et al 2010⁠) is a skewed dis­tri­b­u­tion which is the mul­ti­plica­tive coun­ter­part to the nor­mal dis­tri­b­u­tion⁠: where the nor­mal dis­tri­b­u­tion is con­cep­tu­ally ap­plic­a­ble to where many in­de­pen­dent parts are added, the log-normal is where those parts in­stead mul­ti­ply. A com­mon ex­am­ple is la­tent vari",
+   "counts": {
+    "links": 58,
+    "images": 1,
+    "headings": 0,
+    "listItems": 24,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 28,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    }
+   ],
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 362,
+    "height": 2694,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "section",
+   "id": "see-also",
+   "class": "level1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 110,
+   "text": "See Also\nParent (‘statistical selection’ tag)⁠\nindex selection (breeding)⁠\nanimal study methodology⁠\nqueueing⁠",
+   "counts": {
+    "links": 5,
+    "images": 1,
+    "headings": 1,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 3121,
+    "height": 101,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "class": "list-level-1 list",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 2376,
+   "text": "Gwern\n“On Development Hell”, Gwern 2020\n“Embryo Selection For Intelligence”, Gwern 2016\nLinks\n“Is There a Half-Life for the Success Rates of AI Agents? [METR Temporal Agency Scaling Law]”, Ord 2025\n“Principles”, Qureshi 2025\n“Is Target-Based Drug Discovery Efficient? Discovery and ‘Off-Target’ Mechanisms of All Drugs”, Sadri 2023\n“What the Scientists Who Pioneered Weight-Loss Drugs Want You to Kno",
+   "counts": {
+    "links": 38,
+    "images": 0,
+    "headings": 0,
+    "listItems": 38,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 3285,
+    "height": 1343,
+    "widthFraction": 0.6,
+    "leftFraction": 0.2,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "h1",
+   "class": "display-pop-not heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 5,
+   "text": "Gwern",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4720,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "“On Development Hell”, Gwern 2020",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“On Development Hell”, Gwern 2020'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4787,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 144,
+   "text": "⁠“On Development Hell”⁠, ⁠Gwern⁠2020 (literary criticism, Star Wars, sociology of tech, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 4827,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 3329,
+   "text": "Why Doesn’t Development Hell Work?\nThe Resource Curse\nDevelopment Hell Is Not Universal\nIntellectual Rot Can Be Kept In Check By Reality\nExplore Vs Exploit: Create Wildly, And Gradually Invest More\nToo Much, Too Long, For Too Few: Redistribute!\nClick to expandClick to expandBacklinks (3):⁠\nReview of 𝑇𝘩𝑒 𝑇𝑎𝑙𝑒 𝑜𝑓 𝑡𝘩𝑒 𝑃𝑟𝑖𝑛𝑐𝑒𝑠𝑠 𝐾𝑎𝑔𝑢𝑦𝑎⁠ (⁠full context⁠):\n⁠[backlink context]\n‘l",
+   "counts": {
+    "links": 96,
+    "images": 4,
+    "headings": 0,
+    "listItems": 65,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 79,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 4906,
+    "height": 495,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 47,
+   "text": "“Embryo Selection For Intelligence”, Gwern 2016",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Embryo Selection For Intelligence”, Gwern 2016'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 5456,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 196,
+   "text": "⁠“Embryo Selection For Intelligence”⁠, ⁠Gwern⁠2016 (CS/r, economics, genetic correlation, decision theory, order statistics, power analysis, transhumanism; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 12,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 5496,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 52711,
+   "text": "With genetic predictors of a phenotypic trait, it is possible to select embryos during an in vitro fertilization process to increase or decrease that trait. Extending the work of ⁠Shulman & Bostrom 2014⁠/Hsu 2014⁠, I consider the case of human intelligence using SNP-based genetic prediction, finding:\na meta-analysis of GCTA⁠ results indicates that SNPs can explain >33% of variance in current intel",
+   "counts": {
+    "links": 892,
+    "images": 5,
+    "headings": 0,
+    "listItems": 761,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 816,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Statistical graph showing how large is the expected maximum from a random sample of 𝑛 points, as 𝑛 increases; initiall",
+     "width": 393,
+     "height": 330
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.94,
+   "geometry": {
+    "top": 5575,
+    "height": 2246,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h1",
+   "class": "display-pop-not heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 5,
+   "text": "Links",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 7886,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "section×2",
+   "id": "ord-2025-section",
+   "class": "level2 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 364,
+   "text": "“Is There a Half-Life for the Success Rates of AI Agents? [METR Temporal Agency Scaling Law]”, Ord 2025\n “Is There a Half-Life for the Success Rates of AI Agents? [METR Temporal Agency Scaling Law]”, Toby Ord⁠2025 (RL scaling, leaky pipeline, survey)\n“Principles”, Qureshi 2025\n “Principles”⁠, ⁠Nabeel S. Qureshi2025 (willpower, writing psychology, leaky pipeline)",
+   "counts": {
+    "links": 12,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 4,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Is There a Half-Life for the Success Rates of AI Agents? [METR Temporal Agency Scaling Law]”, Ord 2",
+   "linkTextRatio": 0.91,
+   "geometry": {
+    "top": 7953,
+    "height": 260,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 106,
+   "text": "“Is Target-Based Drug Discovery Efficient? Discovery and ‘Off-Target’ Mechanisms of All Drugs”, Sadri 2023",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Is Target-Based Drug Discovery Efficient? Discovery and ‘Off-Target’ Mechanisms of All Drugs”, Sadr",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 8268,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 213,
+   "text": "⁠“Is Target-Based Drug Discovery Efficient? Discovery and ‘Off-Target’ Mechanisms of All Drugs”⁠, Arash Sadri2023 (GLP diet drug, metformin, QS, psychiatry, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.84,
+   "geometry": {
+    "top": 8337,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   },
+   "coverLabel": "The Financial Perks of Being Tall: An extra inch correlates with an estimated $800 in increased annual earnings"
+  },
+  {
+   "index": 17,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 27433,
+   "text": "This is the first systematic and comprehensive assessment of the real-world efficiency of target-based drug discovery⁠ • Merely 9.4% of approved small-molecule drugs⁠ have been discovered by this approach • Even these supposedly target-based drugs depend on numerous off-target mechanisms for their therapeutic effects • Reductionist target-based drug discovery has thus far been inefficient and mayb",
+   "counts": {
+    "links": 379,
+    "images": 10,
+    "headings": 0,
+    "listItems": 149,
+    "tableRows": 0,
+    "controls": 7,
+    "paragraphs": 283,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 3: Number of drugs discovered by target-based or phenotype-based approaches and approved each year since 199531ya",
+     "width": 748,
+     "height": 542
+    },
+    {
+     "kind": "img",
+     "alt": "Figure 2: Shares of different approaches from the discovery origins of drugs. (a) All approved drugs; (b) drugs approved",
+     "width": 309,
+     "height": 656
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.48,
+   "geometry": {
+    "top": 8448,
+    "height": 6529,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 85,
+   "text": "“What the Scientists Who Pioneered Weight-Loss Drugs Want You to Know”, Reynolds 2023",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“What the Scientists Who Pioneered Weight-Loss Drugs Want You to Know”, Reynolds 2023'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 15032,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 189,
+   "text": "⁠“What the Scientists Who Pioneered Weight-Loss Drugs Want You to Know”⁠, Matt Reynolds2023 (GLP diet (psych), semaglutide, science, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 8,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 15100,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 12222,
+   "text": "…But the history of GLP-1⁠ goes back more than 40 years—before obesity became the health crisis it is today. To get a sense of where these drugs came from—and where they might go next—WIRED spoke to two scientists who did some of the earliest work on the GLP-1 hormone, and who have played an important role in the development of these drugs. Jens Juul Holst is a professor in the Department of Biome",
+   "counts": {
+    "links": 97,
+    "images": 5,
+    "headings": 0,
+    "listItems": 66,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 93,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 15211,
+    "height": 3805,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 239,
+   "text": "“Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 1: Ways to Make an Impact, and Why We Are Not There Yet: Quality Is More Important Than Speed and Cost in Drug Discovery”, Bender & Cortés-Ciriano 2021",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 1: Ways to M",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 19071,
+    "height": 143,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 315,
+   "text": "“Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 1: Ways to Make an Impact, and Why We Are Not There Yet: Quality Is More Important Than Speed and Cost in Drug Discovery”⁠, Andreas Bender, Isidro Cortés-Ciriano2021 (scientific bias, leaky pipeline; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 19224,
+    "height": 128,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 6064,
+   "text": "We first attempted to simulate the effect of (1) speeding up phases in the drug discovery process, (2) making them cheaper and (3) making individual phases more successful on the overall financial outcome of drug-discovery projects. In every case, an improvement of the respective measure (speed, cost and success of phase) of 20% (in the case of failure rate in relative terms) has been assumed to q",
+   "counts": {
+    "links": 32,
+    "images": 3,
+    "headings": 0,
+    "listItems": 26,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 33,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 2: The impact of increasing speed (with the time taken for each phase reduced by 20%), improving the quality of t",
+     "width": 748,
+     "height": 531
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 19367,
+    "height": 2301,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 74,
+   "text": "“Counterproductive Altruism: The Other Heavy Tail”, Kokotajlo & Oprea 2020",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Counterproductive Altruism: The Other Heavy Tail”, Kokotajlo & Oprea 2020'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 21723,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 142,
+   "text": "⁠“Counterproductive Altruism: The Other Heavy Tail”⁠, Daniel Kokotajlo⁠, Alexandra Oprea2020 (x-risk, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 21791,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 2509,
+   "text": "First, we argue that the appeal of effective altruism⁠ (henceforth, EA) depends substantially on a certain empirical premise we call the Heavy Tail⁠ Hypothesis (HTH), which characterizes the probability distribution of opportunities for doing good. Roughly, the HTH implies that the best causes, interventions, or charities produce orders of magnitude greater good than the average ones, constituting",
+   "counts": {
+    "links": 31,
+    "images": 3,
+    "headings": 0,
+    "listItems": 21,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 29,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.53,
+   "geometry": {
+    "top": 21870,
+    "height": 734,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 53,
+   "text": "“Scale-Free Networks Are Rare”, Broido & Clauset 2019",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Scale-Free Networks Are Rare”, Broido & Clauset 2019'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 22659,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 119,
+   "text": "“Scale-Free Networks Are Rare”⁠, Anna D. Broido, Aaron Clauset⁠2019 (leaky pipeline, queueing; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.73,
+   "geometry": {
+    "top": 22700,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 3155,
+   "text": "Real-world networks are often claimed to be scale free⁠, meaning that the fraction of nodes with degree k follows a power law⁠ k−α, a pattern with broad implications for the structure and dynamics of complex systems. However, the universality of scale-free networks remains controversial.\nHere, we organize different definitions of scale-free networks and construct a severe test of their empirical p",
+   "counts": {
+    "links": 33,
+    "images": 2,
+    "headings": 0,
+    "listItems": 22,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 30,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.49,
+   "geometry": {
+    "top": 22779,
+    "height": 829,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 125,
+   "text": "“Construction of Arbitrarily Strong Amplifiers of Natural Selection Using Evolutionary Graph Theory”, Pavlogiannis et al 2018",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Construction of Arbitrarily Strong Amplifiers of Natural Selection Using Evolutionary Graph Theory”",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 23663,
+    "height": 87,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 288,
+   "text": "“Construction of Arbitrarily Strong Amplifiers of Natural Selection Using Evolutionary Graph Theory”⁠, Andreas Pavlogiannis, Josef Tkadlec, Krishnendu Chatterjee⁠, Martin A. Nowak⁠2018 (breeding, RL exploration, MARL, small groups, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 23759,
+    "height": 128,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 7336,
+   "text": "[WP⁠] Because of the intrinsic randomness of the evolutionary process, a mutant with a fitness advantage has some chance to be selected but no certainty. Any experiment that searches for advantageous mutants will lose many of them due to random drift.\nIt is therefore of great interest to find population structures that improve the odds of advantageous mutants. Such structures are called amplifiers",
+   "counts": {
+    "links": 24,
+    "images": 5,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 25,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 4: Infinite variety of strong amplifiers. Many topologies can be turned into arbitrarily strong amplifiers (Wheel",
+     "width": 745,
+     "height": 656
+    },
+    {
+     "kind": "img",
+     "alt": "Figure 1: Evolutionary dynamics in structured populations. Residents (yellow) and mutants (purple) differ in their repro",
+     "width": 748,
+     "height": 591
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 23902,
+    "height": 4326,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 51,
+   "text": "“Dissolving the Fermi Paradox”, Sandberg et al 2018",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Dissolving the Fermi Paradox”, Sandberg et al 2018'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 28283,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 142,
+   "text": "⁠“Dissolving the Fermi Paradox”⁠, Anders Sandberg⁠, Eric Drexler⁠, Toby Ord⁠2018 (x-risk, philosophy, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.85,
+   "geometry": {
+    "top": 28324,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1666,
+   "text": "The Fermi paradox⁠ is the conflict between an expectation of a high ex ante probability of intelligent life elsewhere in the universe and the apparently lifeless universe we in fact observe. The expectation that the universe should be teeming with intelligent life is linked to models like the Drake equation⁠, which suggest that even if the probability of intelligent life developing at a given site",
+   "counts": {
+    "links": 6,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 10,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 28403,
+    "height": 953,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 118,
+   "text": "“When Quality Beats Quantity: Decision Theory, Drug Discovery, and the Reproducibility Crisis”, Scannell & Bosley 2016",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“When Quality Beats Quantity: Decision Theory, Drug Discovery, and the Reproducibility Crisis”, Scan",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 29411,
+    "height": 87,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 188,
+   "text": "“When Quality Beats Quantity: Decision Theory, Drug Discovery, and the Reproducibility Crisis”⁠, Jack W. Scannell, Jim Bosley2016 (scientific bias, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 29507,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 2843,
+   "text": "A striking contrast runs through the last 60 years of biopharmaceutical discovery, research, and development. Huge scientific and technological gains should have increased the quality of academic science and raised industrial R&D efficiency. However, academia faces a “reproducibility crisis”; inflation-adjusted industrial R&D costs per novel drug increased nearly 100× 1950–60201016ya; and drugs ar",
+   "counts": {
+    "links": 3,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 29586,
+    "height": 1232,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "section",
+   "id": "gwern-doc-statistics-order-selection-pipeline-abstract-section",
+   "class": "level2 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 96,
+   "text": "“Leaky Pipelines”, Gwern 2014\n ⁠“Leaky Pipelines”⁠, ⁠Gwern⁠2014 (leaky pipeline; ⁠bibliography⁠)",
+   "counts": {
+    "links": 5,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 30873,
+    "height": 73,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 107,
+   "text": "“The Best And The Rest: Revisiting The Norm Of Normality Of Individual Performance”, O’Boyle & Aguinis 2012",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“The Best And The Rest: Revisiting The Norm Of Normality Of Individual Performance”, O’Boyle & Aguin",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 31001,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 182,
+   "text": "⁠“The Best And The Rest: Revisiting The Norm Of Normality Of Individual Performance”⁠, Ernest O’Boyle Junior, Herman Aguinis⁠2012 (economics, leaky pipeline; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 31069,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 8381,
+   "text": "We revisit a long-held assumption in human resource management, organizational behavior, and industrial and organizational psychology that individual performance follows a Gaussian (normal) distribution⁠.\nWe conducted 5 studies involving 198 samples including 633,263 researchers, entertainers, politicians, and amateur and professional athletes.\nResults are remarkably consistent across industries, ",
+   "counts": {
+    "links": 17,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 2: Distribution of Individual Performance for Researchers (<em>n</em> = 490,185), Emmy Nominees (<em>n</em> = 5,8",
+     "width": 748,
+     "height": 507
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 31148,
+    "height": 3749,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 90,
+   "text": "“A New Car-Following Model Yielding Log-Normal Type Headways Distributions”, Li et al 2010",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“A New Car-Following Model Yielding Log-Normal Type Headways Distributions”, Li et al 2010'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 34953,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 187,
+   "text": "⁠“A New Car-Following Model Yielding Log-Normal Type Headways Distributions”⁠, Li Li, Wang Fa, Jiang Rui …, Hu Jian-Ming, Ji Yan2010 (leaky pipeline, probability; ⁠backlinks⁠; ⁠similar⁠):",
+   "counts": {
+    "links": 5,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 35021,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1256,
+   "text": "Modeling time headways⁠ between vehicles has attracted increasing interest in the traffic flow⁠ research field recently, because the corresponding statistics help to reveal the intrinsic interactions governing the vehicle dynamics. However, most previous micro-simulation models cannot yield the observed log-normal distributed⁠ headways.\nThis paper designs a new car-following model inspired by the ",
+   "counts": {
+    "links": 8,
+    "images": 4,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 9,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 2: Diagram of two Galton boards yielding normal (a) and log-normal (b) distributions respectively. If the tip of ",
+     "width": 700,
+     "height": 656
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 35100,
+    "height": 1430,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "section×14",
+   "id": "clauset-et-al-2007-section",
+   "class": "level2 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 2584,
+   "text": "“Power-Law Distributions in Empirical Data”, Clauset et al 2007\nPower-law distributions in empirical data⁠\n“The Major Role of Clinicians in the Discovery of Off-Label Drug Therapies”, DeMonaco et al 2006\nThe Major Role of Clinicians in the Discovery of Off-Label Drug Therapies⁠\n“John R. Laughnan: Over 40 Years of Contributions to Genetic Concepts: Genetics from A to Zea in Three Score and Ten § Pg",
+   "counts": {
+    "links": 34,
+    "images": 20,
+    "headings": 14,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 20,
+    "paragraphs": 26,
+    "repeats": 14,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“John R. Laughnan: Over 40 Years of Contributions to Genetic Concepts: Genetics from A to Zea in Thr",
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 36585,
+    "height": 2739,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Sort By Magic",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 39389,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "div",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 479,
+   "text": "Annotations sorted by machine learning into ⁠inferred 'tags'⁠. This provides an alternative way to browse: instead of by date order, one can browse in topic order. The 'sorted' list has been automatically clustered into multiple sections & auto-labeled for easier browsing.\nBeginning with the newest annotation, it uses the embedding of each annotation to attempt to create a list of nearest-neighbor",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 39440,
+    "height": 192,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "section×3",
+   "id": "drug-discovery",
+   "class": "level3 collapse expand-on-hover collapse-block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 490,
+   "text": "drug-discovery\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\n⁠[see previous entry]⁠\ntraffic-simulation\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\nindividual-variations\nClick to expandClick to expand⁠",
+   "counts": {
+    "links": 18,
+    "images": 6,
+    "headings": 3,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 6,
+    "paragraphs": 15,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 13,
+     "height": 22
+    }
+   ],
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 39672,
+    "height": 544,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Wikipedia (26)",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 40266,
+    "height": 44,
+    "widthFraction": 0.63,
+    "leftFraction": 0.18,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "button",
+   "class": "disclosure-button labels-visible",
+   "ariaLabel": "Open/close collapsed section",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 30,
+   "text": "Click to expandClick to expand",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 22
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 40266,
+    "height": 149,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "ol",
+   "class": "list big-list list-type-decimal",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1741,
+   "text": "AM-GM Inequality⁠\nhttps://en.wikipedia.org/wiki/AM-GM_Inequality⁠\nAmdahl’s law⁠\nChlorpromazine § History⁠\nhttps://en.wikipedia.org/wiki/Chlorpromazine#History⁠\nDerek J. de Solla Price § Scientific contributions⁠\nhttps://en.wikipedia.org/wiki/Derek_J._de_Solla_Price#Scientific_contributions⁠\nDistribution of the product of two random variables⁠\nhttps://en.wikipedia.org/wiki/Distribution_of_the_produ",
+   "counts": {
+    "links": 40,
+    "images": 0,
+    "headings": 0,
+    "listItems": 26,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 40,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 40320,
+    "height": 1770,
+    "widthFraction": 0.61,
+    "leftFraction": 0.18,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "h1",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Miscellaneous",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 40490,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "ul",
+   "class": "list big-list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 512,
+   "text": "⁠/doc/psychology/energy/2010-li-quincunx-lognormal.jpg⁠\n⁠/doc/iq/high/1996-jensen.pdf#page=6⁠\n⁠/doc/iq/ses/1980-jensen-biasinmentaltesting.pdf#page=107⁠\n⁠https://adamwierman.com/wp-content/uploads/2021/05/book-05-11.pdf#page=142⁠ :\nClick to expandClick to expandView PDF:\n⁠/doc/www/adamwierman.com/38e6ea9f2a6b4d96c0bba251d04afc12df831b72.pdf#page=142⁠\n⁠https://galton.org/essays/1870-1879/galton-187",
+   "counts": {
+    "links": 7,
+    "images": 1,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 8,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.91,
+   "geometry": {
+    "top": 40542,
+    "height": 379,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "h1",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 12,
+   "text": "Bibliography",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 40996,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "ol",
+   "class": "list big-list list-type-decimal",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1134,
+   "text": "2023-sadri.pdf: “Is Target-Based Drug Discovery Efficient? Discovery and ‘Off-Target’ Mechanisms of All Drugs”⁠, Arash Sadri\nClick to expandClick to expandlink-bibliography⁠\nhttps://www.wired.com/story/obesity-drugs-researcher-interview-ozempic-wegovy/: “What the Scientists Who Pioneered Weight-Loss Drugs Want You to Know”⁠, Matt Reynolds\nClick to expandClick to expandlink-bibliography⁠\nhttps://ww",
+   "counts": {
+    "links": 13,
+    "images": 5,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    }
+   ],
+   "linkTextRatio": 0.56,
+   "geometry": {
+    "top": 41058,
+    "height": 1186,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "div",
+   "id": "footer",
+   "class": "markdownBody",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 130,
+   "text": "[Send Anonymous Feedback]\n [Quote Of The Day]\n [Site Of The Day]\n [Annotation Of The Day]\n [adblock public service announcement]\n​",
+   "counts": {
+    "links": 7,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 380,
+     "height": 33
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 380,
+     "height": 33
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 134,
+     "height": 33
+    }
+   ],
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 42294,
+    "height": 500,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "button",
+   "class": "toggle-button main-toggle-button",
+   "landmarks": [],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5,
+    "height": 46,
+    "widthFraction": 0.03,
+    "leftFraction": 0.95,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  }
+ ]
+}

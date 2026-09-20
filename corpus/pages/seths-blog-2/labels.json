@@ -1,0 +1,324 @@
+{
+ "id": "seths-blog-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:12:39.214Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 45428,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "site_header",
+     1
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "search",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "search",
+     1
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "calendar",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 2,
+   "choice": "cross_promo",
+   "confidence": 0.34,
+   "margin": 0.01,
+   "top": [
+    [
+     "cross_promo",
+     0.36
+    ],
+    [
+     "cta",
+     0.35
+    ],
+    [
+     "form",
+     0.08
+    ],
+    [
+     "newsletter",
+     0.08
+    ],
+    [
+     "subscribe",
+     0.07
+    ]
+   ],
+   "block": "controls",
+   "slot": "promo",
+   "final": "cross_promo"
+  },
+  {
+   "index": 3,
+   "choice": "newsletter",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "newsletter",
+     0.97
+    ],
+    [
+     "subscribe",
+     0.02
+    ],
+    [
+     "form",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "promo",
+   "final": "newsletter"
+  },
+  {
+   "index": 4,
+   "choice": "site_nav",
+   "confidence": 0.66,
+   "margin": 0.51,
+   "top": [
+    [
+     "site_nav",
+     0.67
+    ],
+    [
+     "cross_promo",
+     0.16
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "site_footer",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 5,
+   "choice": "heading",
+   "confidence": 0.91,
+   "margin": 0.84,
+   "top": [
+    [
+     "heading",
+     0.92
+    ],
+    [
+     "title",
+     0.08
+    ],
+    [
+     "hero",
+     0
+    ],
+    [
+     "site_footer",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "header",
+   "final": "heading"
+  },
+  {
+   "index": 6,
+   "choice": "text",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "audio",
+     0
+    ],
+    [
+     "subscribe",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "text"
+  },
+  {
+   "index": 7,
+   "choice": "share",
+   "confidence": 0.57,
+   "margin": 0.39,
+   "top": [
+    [
+     "share",
+     0.58
+    ],
+    [
+     "byline",
+     0.19
+    ],
+    [
+     "site_footer",
+     0.17
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "vote_controls",
+     0.02
+    ]
+   ],
+   "block": "list",
+   "slot": "tools",
+   "final": "share"
+  },
+  {
+   "index": 8,
+   "choice": "site_nav",
+   "confidence": 0.23,
+   "margin": 0.06,
+   "top": [
+    [
+     "site_nav",
+     0.25
+    ],
+    [
+     "action_button",
+     0.19
+    ],
+    [
+     "skip_link",
+     0.17
+    ],
+    [
+     "section_nav",
+     0.17
+    ],
+    [
+     "site_footer",
+     0.07
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 9,
+   "choice": "cookie_banner",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "cookie_banner",
+     1
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "gate",
+   "final": "cookie_banner"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.247Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

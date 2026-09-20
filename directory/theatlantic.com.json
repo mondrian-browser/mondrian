@@ -1,0 +1,223 @@
+{
+ "site": "theatlantic.com",
+ "pages": 4,
+ "pageIds": [
+  "theatlantic-com-1",
+  "theatlantic-com-2",
+  "theatlantic-com-3",
+  "theatlantic-com-4"
+ ],
+ "derivedAt": "2026-09-20T12:11:25.612Z",
+ "blocks": [
+  {
+   "selector": "main article section > p[class*=\"ArticleParagraph_root__\"]",
+   "type": "text",
+   "n": 7,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "footer nav > ul[class*=\"Footer_topContentDesktop__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer nav > nav[class*=\"Footer_container__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article header > h1[class*=\"ArticleTitle_root__\"]",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article header > figure[class*=\"ArticleLeadFigure_root__\"]",
+   "type": "image",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article section > div",
+   "type": "subscribe",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article [role=dialog] > button[class*=\"ArticleComments_closeButton__\"]",
+   "type": "action_button",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > div[class*=\"ArticleFooter_authorFooter__\"]",
+   "type": "author_bio",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div[class*=\"SectionHeading_root__\"]",
+   "type": "related",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > ul[class*=\"ArticleFooterRecirc_articles__\"]",
+   "type": "related",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav > div[class*=\"Nav_flexContainer__\"]",
+   "type": "site_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article section section > section[class*=\"ArticleMagazinePromo_root__\"]",
+   "type": "download",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "nav > nav[class*=\"HomepageNav_root__\"]",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > figure[class*=\"Lede_figure__\"]",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > h3[class*=\"Lede_title__\"]",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > p[class*=\"Lede_dek__\"]",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul[class*=\"TopStack_root__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul[class*=\"Offlede_list__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul[class*=\"QuadBelt_list__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > div[class*=\"HomepageTop_doubleWideStoryStripBelt__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > section[class*=\"HomepageGamesStrip_root__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul[class*=\"DoubleStack_ul__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ul[class*=\"Podcasts_ul__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ol[class*=\"Latest_ol__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > ol[class*=\"Popular_ol__\"]",
+   "type": "trending",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section[class*=\"AIWatchdogPromo_watchdog__\"]",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div[class*=\"ArticleFooterRecirc_root__\"]",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > nav#main-navigation",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > p[class*=\"ArticleDek_root__\"]",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > p[class*=\"ArticleReviewDisclaimer_text__\"]",
+   "type": "disclosure",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

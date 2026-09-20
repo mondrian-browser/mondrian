@@ -1,0 +1,496 @@
+{
+ "site": "svelte.dev",
+ "pages": 4,
+ "pageIds": [
+  "svelte-dev-1",
+  "svelte-dev-2",
+  "svelte-dev-3",
+  "svelte-dev-4"
+ ],
+ "derivedAt": "2026-09-20T12:59:28.873Z",
+ "blocks": [
+  {
+   "selector": "main > p",
+   "type": "text",
+   "n": 91,
+   "purity": 0.95,
+   "pages": 3
+  },
+  {
+   "selector": "main > div.code-block",
+   "type": "code",
+   "n": 36,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h3",
+   "type": "heading",
+   "n": 11,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > pre.lsp",
+   "type": "code",
+   "n": 9,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > button.copy-to-clipboard",
+   "type": "action_button",
+   "n": 8,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul",
+   "type": "list",
+   "n": 7,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > blockquote.note",
+   "type": "callout",
+   "n": 6,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "nav > nav.svelte-wf8082",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div.svelte-1ssgw6y",
+   "type": "cross_promo",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section section > p",
+   "type": "text",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > pre",
+   "type": "code",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main nav > ul.svelte-1dx26b8",
+   "type": "section_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main aside > h3.svelte-42rdnp",
+   "type": "table_of_contents",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > p.edit",
+   "type": "page_tools",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main aside nav > ul.svelte-42rdnp",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Reactivity-syntax-changes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Event-changes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Event-changes-Component-events",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Event-changes-Bubbling-events",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Event-changes-Event-modifiers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Event-changes-Multiple-event-handlers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Snippets-instead-of-slots",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Snippets-instead-of-slots-Default-content",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Snippets-instead-of-slots-Multiple-content-placeholders",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Snippets-instead-of-slots-Passing-data-back-up",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Migration-script",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Migration-script-run",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Migration-script-Event-modifiers",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Migration-script-Things-that-are-not-automigrated",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Components-are-no-longer-classes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Components-are-no-longer-classes-Server-API-changes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Components-are-no-longer-classes-Component-typing-changes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Whitespace-handling-changed",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Modern-browser-required",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Changes-to-compiler-options",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#The-children-prop-is-reserved",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Breaking-changes-in-runes-mode",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Breaking-changes-in-runes-mode-Bindings-to-component-exports-are-not-allowed",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Breaking-changes-in-runes-mode-accessors-option-is-ignored",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Breaking-changes-in-runes-mode-immutable-option-is-ignored",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Breaking-changes-in-runes-mode-Classes-are-no-longer-auto-reactive",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Breaking-changes-in-runes-mode-Touch-events-are-passive",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Breaking-changes-in-runes-mode-Attribute-prop-syntax-is-stricter",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Breaking-changes-in-runes-mode-HTML-structure-is-stricter",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#Other-breaking-changes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-Stricter-const-assignment-validation",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-CSS-hash-position-no-longer-deterministic",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-Error-warning-codes-have-been-renamed",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-Reduced-number-of-namespaces",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-beforeUpdate-afterUpdate-changes",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-contenteditable-behavior-change",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-oneventname-attributes-no-longer-accept-string-values",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-null-and-undefined-become-the-empty-string",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-Bindings-now-react-to-form-resets",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-walk-no-longer-exported",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-slot-elements-in-declarative-shadow-roots-are-preserved",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-mount-plays-transitions-by-default",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-img-src-and-html-hydration-mismatches-are-not-repaired",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-Hydration-works-differently",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-onevent-attributes-are-delegated",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h3#Other-breaking-changes-style-props-uses-a-different-element",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.svelte-s202gb",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > a.svelte-1ps7q6p",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > h2#What-is-Svelte",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > h2#How-to-use-this-tutorial",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section section > blockquote.note",
+   "type": "callout",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > svelte-split-pane.svelte-1i8tf0h",
+   "type": "code",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section.svelte-11p9qjp",
+   "type": "embed",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main aside nav > nav.svelte-42rdnp",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

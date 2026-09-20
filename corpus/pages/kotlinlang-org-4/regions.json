@@ -1,0 +1,1260 @@
+{
+ "url": "https://kotlinlang.org/docs/multiplatform/quickstart.html",
+ "title": "Kotlin Multiplatform quickstart | Kotlin Multiplatform Documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "kt-header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 80,
+   "text": "Kotlin Multiplatformv2.4.20\nSolutions\nCase studies\nDocs\nAPI\nCommunity\nTeach\nPlay",
+   "counts": {
+    "links": 5,
+    "images": 6,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "Kotlin Multiplatform",
+     "width": 100,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.66,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "span",
+   "class": "kt-app__subnav _switcher_8gxhuj_37 _sizeM_8gxhuj_19 _modeRock_8gxhuj_29",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 21,
+   "text": "LanguageMultiplatform",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 72,
+    "height": 40,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "ul",
+   "class": "toc toc--theme-light kt-app__toc",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 349,
+   "text": "Get started\n Kotlin Multiplatform quickstart\n Kotlin Multiplatform overview\n Compose Multiplatform UI framework\n Choose your use case\n Explore project structure\n Share code\n Add dependencies\n Set up iOS integration\n Compile artifacts\n Test your multiplatform app\n Publish your multiplatform project\n KMP tooling\n Compatibility\n Multiplatform journal",
+   "counts": {
+    "links": 3,
+    "images": 12,
+    "headings": 0,
+    "listItems": 15,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 120,
+    "height": 540,
+    "widthFraction": 0.21,
+    "leftFraction": 0,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h1",
+   "id": "quickstart.md",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 31,
+   "text": "Kotlin Multiplatform quickstart",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 184,
+    "height": 49,
+    "widthFraction": 0.57,
+    "leftFraction": 0.23,
+    "pageFraction": 0.23,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "id": "-h26cjp_3",
+   "class": "article__p h1-related",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 155,
+   "text": "Edit pageLast modified: 21 July 2026\nIn this tutorial, you'll learn how to build and run a simple Kotlin Multiplatform app with a Compose Multiplatform UI.",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 245,
+    "height": 106,
+    "widthFraction": 0.57,
+    "leftFraction": 0.23,
+    "pageFraction": 0.3,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h2",
+   "id": "set-up-the-environment",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "Set up the environment",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 415,
+    "height": 42,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 0.51,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ol",
+   "id": "-h26cjp_11",
+   "class": "article__list list _decimal h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1675,
+   "text": "Start with an IDE and necessary plugins:\nChoose and install the IDE: Kotlin Multiplatform is fully supported in IntelliJ IDEA and Android Studio.\nThe JetBrains Toolbox App is the recommended tool to install IDEs. It allows you to manage multiple products or versions, including Early Access Program (EAP) and Nightly releases.\nFor standalone installations, download the installer for IntelliJ IDEA or",
+   "counts": {
+    "links": 8,
+    "images": 6,
+    "headings": 1,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 489,
+    "height": 833,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 0.6,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "id": "create-a-project",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 16,
+   "text": "Create a project",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1386,
+    "height": 42,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 1.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "_tabsContainer_1fcqo6x_13 _light_1fcqo6x_31 _classic_1fcqo6x_31 _sizeM_1fcqo6x_99",
+   "role": "tablist",
+   "ariaLabel": "Content",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 28,
+   "text": "IntelliJ IDEA\nAndroid Studio",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1460,
+    "height": 40,
+    "widthFraction": 0.16,
+    "leftFraction": 0.23,
+    "pageFraction": 1.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "ol",
+   "id": "-h26cjp_55",
+   "class": "article__list list _decimal child",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1165,
+   "text": "Use the IDE wizard to create a new KMP project:\nSelect File | New | Project in the main menu.\nChoose Kotlin Multiplatform in the list on the left.\nSet the name, location, and other base attributes of the project as needed.\nWe recommend selecting a version of JetBrains Runtime (JBR) as the JDK for your project, as it provides important fixes, particularly for improving the compatibility of desktop ",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 9,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 1524,
+    "height": 561,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 1.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "figure",
+   "id": "-h26cjp_56",
+   "class": "article__figure child",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "IntelliJ IDEA Wizard with default settings and Android, iOS, desktop, and web platforms selected",
+     "width": 600,
+     "height": 664
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2101,
+    "height": 664,
+    "widthFraction": 0.57,
+    "leftFraction": 0.23,
+    "pageFraction": 2.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "ol",
+   "id": "-h26cjp_81",
+   "class": "article__list list _decimal child",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 914,
+   "text": "Use the IDE wizard to create a new KMP project:\nSelect File | New | New project in the main menu.\nChoose Kotlin Multiplatform in the default Phone and Tablet template category.\nSet the name, location, and other base attributes of the project as needed, then click Next.\nTo create a full demo, choose all available platforms: Android, iOS, Desktop, Web, and Server. Leave Share UI options selected whe",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 1,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 8,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "First new project step in Android Studio",
+     "width": 400,
+     "height": 331
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 1428,
+    "height": 787,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 1.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "figure",
+   "id": "-h26cjp_82",
+   "class": "article__figure child",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Last step in the Android Studio wizard with Android, iOS, desktop, and web platforms selected",
+     "width": 600,
+     "height": 453
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2231,
+    "height": 453,
+    "widthFraction": 0.57,
+    "leftFraction": 0.23,
+    "pageFraction": 2.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h2",
+   "id": "consult-the-preflight-checks",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 28,
+   "text": "Consult the preflight checks",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2829,
+    "height": 42,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 3.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p×3",
+   "id": "-h26cjp_106",
+   "class": "article__p h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 467,
+   "text": "You can make sure there are no environment issues with the project setup by opening the Project Environment Preflight Checks tool window: click the preflight checks icon on the right sidebar or the bottom bar\nIn this tool window, you can see messages related to these checks, rerun them, or change their settings.\nPreflight checks commands are also available in the Search Everywhere dialog. Press do",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Project Environment Preflight Checks icon with a plane",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2903,
+    "height": 233,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 3.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "figure",
+   "id": "-h26cjp_109",
+   "class": "article__figure h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Search Everywhere menu with the word \"preflight\" entered",
+     "width": 600,
+     "height": 221
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3168,
+    "height": 221,
+    "widthFraction": 0.57,
+    "leftFraction": 0.23,
+    "pageFraction": 3.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "id": "run-the-sample-apps",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 19,
+   "text": "Run the sample apps",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3453,
+    "height": 42,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 4.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "id": "-h26cjp_114",
+   "class": "article__p h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 241,
+   "text": "The project created by the IDE wizard includes generated run configurations for iOS, Android, desktop, and web applications, as well as Gradle tasks for running the server app. The specific Gradle commands for each platform are listed below.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3527,
+    "height": 72,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 4.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "div",
+   "class": "_tabsContainer_1fcqo6x_13 _light_1fcqo6x_31 _classic_1fcqo6x_31 _sizeM_1fcqo6x_99",
+   "role": "tablist",
+   "ariaLabel": "Content",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 23,
+   "text": "Android\niOS\nDesktop\nWeb",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3631,
+    "height": 40,
+    "widthFraction": 0.18,
+    "leftFraction": 0.23,
+    "pageFraction": 4.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "div×4",
+   "id": "tabs-GuBTr2GbMUawLtG9_z4DD-panel-0",
+   "class": "tabs__content-wrapper",
+   "role": "tabpanel",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 1454,
+   "text": "To run the Android app, start the androidApp run configuration:\nTo create an Android run configuration manually, choose Android App as the run configuration template and select the module [project name].androidApp.\nBy default, it runs on the first available virtual device:\nnote\nYou need a macOS host and Xcode installed to build iOS apps.\nIf you chose the iOS target for the project and set up a mac",
+   "counts": {
+    "links": 0,
+    "images": 11,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 12,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Web app ran on a virtual device",
+     "width": 600,
+     "height": 505
+    },
+    {
+     "kind": "img",
+     "alt": "JVM app ran on a virtual device",
+     "width": 600,
+     "height": 450
+    },
+    {
+     "kind": "img",
+     "alt": "iOS app ran on a virtual device",
+     "width": 350,
+     "height": 717
+    },
+    {
+     "kind": "img",
+     "alt": "Android app ran on a virtual device",
+     "width": 300,
+     "height": 634
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3599,
+    "height": 1111,
+    "widthFraction": 0.57,
+    "leftFraction": 0.23,
+    "pageFraction": 4.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h2",
+   "id": "troubleshooting",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "Troubleshooting",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4774,
+    "height": 42,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 5.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "section×4",
+   "class": "chapter h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1187,
+   "text": "Java and JDK﻿\nCommon issues with Java:\nSome tools may not find a Java version to run or use a wrong version. To solve this:\nSet the JAVA_HOME environment variable to the directory where the appropriate JDK is installed.\nnote\nWe recommend using JetBrains Runtime, an OpenJDK fork that supports class redefinition.\nAppend the path to the bin folder inside your JAVA_HOME to the PATH variable, so that t",
+   "counts": {
+    "links": 8,
+    "images": 5,
+    "headings": 5,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 11,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 4864,
+    "height": 919,
+    "widthFraction": 0.57,
+    "leftFraction": 0.23,
+    "pageFraction": 5.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "h2",
+   "id": "what-s-next",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 11,
+   "text": "What's next",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5847,
+    "height": 42,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 7.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p",
+   "id": "-h26cjp_197",
+   "class": "article__p h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 72,
+   "text": "Learn more about the structure of a KMP project and writing shared code:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5921,
+    "height": 24,
+    "widthFraction": 0.49,
+    "leftFraction": 0.23,
+    "pageFraction": 7.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "ul",
+   "id": "-h26cjp_198",
+   "class": "article__list list _bullet h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 533,
+   "text": "A series of tutorials about working with shared UI code using Compose Multiplatform: Create your Compose Multiplatform app\nA series of tutorials about working with shared code in a project with a native UI: Create your Kotlin Multiplatform app\nTake a deep dive into the Kotlin Multiplatform documentation:\nProject configuration\nWorking with multiplatform dependencies\nLearn about the Compose Multipla",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.37,
+   "geometry": {
+    "top": 5977,
+    "height": 317,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 7.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "ul",
+   "id": "-h26cjp_200",
+   "class": "article__list list _bullet h2-related",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 469,
+   "text": "Discover code already written for KMP:\nOur Samples page, with official JetBrains samples as well as a curated list of projects showcasing KMP capabilities.\nThe GitHub topics:\nkotlin-multiplatform, projects implemented with Kotlin Multiplatform.\nkotlin-multiplatform-sample, a list of sample projects written with KMP.\nklibs.io – search platform for KMP libraries, with more than 2000 libraries indexe",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.13,
+   "geometry": {
+    "top": 6326,
+    "height": 303,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 7.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div",
+   "class": "wt-row wt-row_size_xs wt-row_wide wt-row_wrap",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "Was this page helpful?\nYesNo",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6773,
+    "height": 48,
+    "widthFraction": 0.22,
+    "leftFraction": 0.25,
+    "pageFraction": 8.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "ul",
+   "class": "toc kt-app__virtual-toc",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 200,
+   "text": "Kotlin Multiplatform quickstart\n Set up the environment\n Create a project\n Consult the preflight checks\n Run the sample apps\n Troubleshooting\n Java and JDK\n Android tools\n Xcode\n Get help\n What's next",
+   "counts": {
+    "links": 11,
+    "images": 0,
+    "headings": 0,
+    "listItems": 11,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.9,
+   "geometry": {
+    "top": 86,
+    "height": 436,
+    "widthFraction": 0.15,
+    "leftFraction": 0.83,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 28,
+   "tag": "nav",
+   "class": "navigation-links",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 65,
+   "text": "Get started with Kotlin MultiplatformWhat is Kotlin Multiplatform",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6909,
+    "height": 121,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 8.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "footer",
+   "class": "layout layout--container-content",
+   "landmarks": [
+    "main",
+    "footer"
+   ],
+   "textLength": 230,
+   "text": "Contributing to KotlinReleasesPress KitSecurityBlogIssue TrackerBrand AssetsCareersKotlin MerchOpt-Out\nKotlin™ is protected under the Kotlin Foundation and licensed under the Apache 2 license. \nSupported and developed by JetBrains",
+   "counts": {
+    "links": 20,
+    "images": 6,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 7030,
+    "height": 171,
+    "widthFraction": 0.78,
+    "leftFraction": 0.21,
+    "pageFraction": 8.62,
+    "aboveFold": false
+   }
+  }
+ ]
+}

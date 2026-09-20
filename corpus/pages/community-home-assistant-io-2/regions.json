@@ -1,0 +1,823 @@
+{
+ "url": "https://community.home-assistant.io/t/how-to-help-us-help-you-or-how-to-ask-a-good-question/114371",
+ "title": "How to help us help you - or How to ask a good question - Configuration - Home Assistant Community",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 9222,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "d-header",
+   "landmarks": [
+    "section",
+    "header"
+   ],
+   "textLength": 39,
+   "text": "Skip to main content\nSign Up\n Log In\n ​",
+   "counts": {
+    "links": 2,
+    "images": 4,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Home Assistant Community",
+     "width": 179,
+     "height": 37
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.51,
+   "geometry": {
+    "top": -75,
+    "height": 127,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": -0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "ul",
+   "id": "sidebar-section-content-community",
+   "class": "sidebar-section-content",
+   "landmarks": [
+    "section",
+    "role=main",
+    "nav"
+   ],
+   "textLength": 21,
+   "text": "Topics\n Discord\n More",
+   "counts": {
+    "links": 2,
+    "images": 3,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.62,
+   "geometry": {
+    "top": 68,
+    "height": 110,
+    "widthFraction": 0.18,
+    "leftFraction": 0.03,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "div×2",
+   "class": "sidebar-section sidebar-section-wrapper sidebar-section--expanded",
+   "landmarks": [
+    "section",
+    "role=main",
+    "nav"
+   ],
+   "textLength": 165,
+   "text": "Categories\n Blogs\n Configuration\n Blueprints Exchange\n Installation\n Share your Projects!\n All categories\nTags\n automation\n templates\n mqtt\n switch\n zigbee\n All tags",
+   "counts": {
+    "links": 12,
+    "images": 9,
+    "headings": 0,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 183,
+    "height": 521,
+    "widthFraction": 0.18,
+    "leftFraction": 0.03,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "button",
+   "class": "btn no-text btn-icon btn-flat",
+   "ariaLabel": "Keyboard Shortcuts",
+   "landmarks": [
+    "section",
+    "role=main",
+    "nav"
+   ],
+   "textLength": 1,
+   "text": "​",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 782,
+    "height": 26,
+    "widthFraction": 0.02,
+    "leftFraction": 0.19,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "h1",
+   "landmarks": [
+    "section",
+    "role=main"
+   ],
+   "textLength": 55,
+   "text": "How to help us help you - or How to ask a good question",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 21,
+     "height": 21
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 21,
+     "height": 21
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 68,
+    "height": 34,
+    "widthFraction": 0.66,
+    "leftFraction": 0.23,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "div",
+   "class": "topic-category",
+   "landmarks": [
+    "section",
+    "role=main"
+   ],
+   "textLength": 19,
+   "text": "Configuration\n help",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 102,
+    "height": 23,
+    "widthFraction": 0.11,
+    "leftFraction": 0.23,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "timeline-scrollarea-wrapper",
+   "landmarks": [
+    "section",
+    "role=main"
+   ],
+   "textLength": 35,
+   "text": "May 2019\n 1 / 3\n May 2019\n May 2019",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.46,
+   "geometry": {
+    "top": 149,
+    "height": 361,
+    "widthFraction": 0.13,
+    "leftFraction": 0.84,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "img",
+   "class": "avatar",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section",
+    "article"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 48,
+     "height": 48
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 158,
+    "height": 48,
+    "widthFraction": 0.03,
+    "leftFraction": 0.23,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "div",
+   "class": "topic-meta-data",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section",
+    "article"
+   ],
+   "textLength": 66,
+   "text": "Tinkerer\n aka DubhAd on GitHub\n Solution Institution\n 18\n May 2019",
+   "counts": {
+    "links": 3,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 9,
+     "height": 9
+    }
+   ],
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 154,
+    "height": 27,
+    "widthFraction": 0.5,
+    "leftFraction": 0.26,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "cooked",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section",
+    "article"
+   ],
+   "textLength": 11619,
+   "text": "Before we begin…\nThis forum is not a helpdesk\nThe people here don’t work for Home Assistant, that’s an open source project. We are volunteering our free time to help others. Not all topics may get an answer, never mind one that helps you solve your problem.\nimage600×470 81.7 KB\nThis also isn’t a general home automation forum, this is a forum for Home Assistant and things related to it. Any questio",
+   "counts": {
+    "links": 56,
+    "images": 52,
+    "headings": 31,
+    "listItems": 29,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 66,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "image",
+     "width": 600,
+     "height": 470
+    },
+    {
+     "kind": "img",
+     "alt": "image",
+     "width": 220,
+     "height": 39
+    },
+    {
+     "kind": "img",
+     "alt": "image",
+     "width": 42,
+     "height": 43
+    },
+    {
+     "kind": "img",
+     "alt": ":zero:",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 181,
+    "height": 7949,
+    "widthFraction": 0.5,
+    "leftFraction": 0.26,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "button",
+   "class": "btn btn-icon-text btn-default post-action-menu__solved-shared-issue",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section",
+    "article"
+   ],
+   "textLength": 4,
+   "text": "This",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8130,
+    "height": 36,
+    "widthFraction": 0.05,
+    "leftFraction": 0.27,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "section",
+   "class": "post__menu-area post-menu-area clearfix",
+   "role": "group",
+   "ariaLabel": "Post actions",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section",
+    "article",
+    "section"
+   ],
+   "textLength": 9,
+   "text": "225\n ​\n ​",
+   "counts": {
+    "links": 0,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "+1",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8186,
+    "height": 36,
+    "widthFraction": 0.5,
+    "leftFraction": 0.26,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "class": "post-links",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section",
+    "article"
+   ],
+   "textLength": 220,
+   "text": "Getting help in languages other than English\n The Home Assistant Cookbook - Index\n Raspberry pi 3 b+ - ideas\n Welcome to the Home Assistant Community!\n Severe Weather Alerts from the US National Weather Service\n3507 more",
+   "counts": {
+    "links": 5,
+    "images": 5,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.92,
+   "geometry": {
+    "top": 8242,
+    "height": 203,
+    "widthFraction": 0.49,
+    "leftFraction": 0.27,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "section",
+   "class": "topic-map__contents",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section",
+    "article",
+    "section"
+   ],
+   "textLength": 37,
+   "text": "174k\n views\n 39\n links\n read \n 5\n min",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8470,
+    "height": 40,
+    "widthFraction": 0.49,
+    "leftFraction": 0.27,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div×2",
+   "id": "post_2",
+   "class": "post-stream--cloaked",
+   "landmarks": [
+    "section",
+    "role=main",
+    "section"
+   ],
+   "textLength": 52,
+   "text": "Closed on May 2, 2019\nPinned globally on May 2, 2019",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8518,
+    "height": 108,
+    "widthFraction": 0.59,
+    "leftFraction": 0.23,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "button",
+   "class": "btn btn-icon-text btn-primary",
+   "landmarks": [
+    "section",
+    "role=main",
+    "role=region"
+   ],
+   "textLength": 5,
+   "text": "Reply",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8638,
+    "height": 36,
+    "widthFraction": 0.06,
+    "leftFraction": 0.7,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "id": "suggested-topics",
+   "class": "more-topics__list",
+   "role": "complementary",
+   "landmarks": [
+    "section",
+    "role=main",
+    "role=complementary"
+   ],
+   "textLength": 492,
+   "text": "New & Unread Topics\n Topic list, column headers with buttons are sortable.\n Topic\n Replies\n Views\n Activity\n MQTT Topic Abbreviations\n Configuration\n mqtt\n 5\n 151\n Mar 21\n How do i group all rachio sprinkler zones into a single “homekit accessory”?\n Configuration\n homekit\n 2\n 64\n Aug 19\n Disabling exposing assets still found in google\n Configuration\n 2\n 76\n Dec 2025\n Errors on script\n Configuratio",
+   "counts": {
+    "links": 23,
+    "images": 2,
+    "headings": 1,
+    "listItems": 3,
+    "tableRows": 6,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.64,
+   "geometry": {
+    "top": 8697,
+    "height": 429,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h3",
+   "class": "more-topics__browse-more",
+   "landmarks": [
+    "section",
+    "role=main"
+   ],
+   "textLength": 99,
+   "text": "Want to read more? Browse other topics in Configuration or view latest topics.\nPowered by Discourse",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0.31,
+   "geometry": {
+    "top": 9135,
+    "height": 81,
+    "widthFraction": 0.67,
+    "leftFraction": 0.23,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

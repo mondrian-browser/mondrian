@@ -1,0 +1,138 @@
+{
+ "id": "danluu-com-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:18:13.011Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 18486,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "title",
+   "confidence": 0.5,
+   "margin": 0.31,
+   "top": [
+    [
+     "title",
+     0.51
+    ],
+    [
+     "subscribe",
+     0.2
+    ],
+    [
+     "site_header",
+     0.19
+    ],
+    [
+     "heading",
+     0.03
+    ],
+    [
+     "text",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "page",
+   "final": "title"
+  },
+  {
+   "index": 1,
+   "choice": "text",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "summary",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 2,
+   "choice": "text",
+   "confidence": 0.93,
+   "margin": 0.89,
+   "top": [
+    [
+     "text",
+     0.94
+    ],
+    [
+     "comments",
+     0.05
+    ],
+    [
+     "code",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 3,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "subscribe",
+     0
+    ],
+    [
+     "cta",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.324Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

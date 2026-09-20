@@ -1,0 +1,132 @@
+{
+ "site": "stuff.co.nz",
+ "pages": 4,
+ "pageIds": [
+  "stuff-co-nz-1",
+  "stuff-co-nz-2",
+  "stuff-co-nz-3",
+  "stuff-co-nz-4"
+ ],
+ "derivedAt": "2026-09-20T12:22:06.542Z",
+ "blocks": [
+  {
+   "selector": "section > div",
+   "type": "teaser_card",
+   "n": 28,
+   "purity": 0.79,
+   "pages": 1
+  },
+  {
+   "selector": "section article > article",
+   "type": "teaser_card",
+   "n": 24,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section article > div",
+   "type": "teaser_card",
+   "n": 22,
+   "purity": 0.95,
+   "pages": 1
+  },
+  {
+   "selector": "section > div.snap-start",
+   "type": "teaser_card",
+   "n": 15,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section > h2.duration-200",
+   "type": "heading",
+   "n": 9,
+   "purity": 0.89,
+   "pages": 1
+  },
+  {
+   "selector": "article [role=region] > p",
+   "type": "text",
+   "n": 5,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header > header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "article [role=region] > h1.duration-200",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "article [role=region] > div.video-info",
+   "type": "video",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "[role=dialog] > div",
+   "type": "comments",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "[role=dialog] > div#coral-shadow-container",
+   "type": "comments",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "article [role=region] [role=region] [role=dialog] > div.vjs-errors-dialog",
+   "type": "popup",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "article [role=region] [role=region] > video#vjs_video_3_html5_api",
+   "type": "video",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section > div#slab-login-driver-hp-banner",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article [role=region] [role=region] > video.vjs-tech",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "article [role=region] > div.free-body",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

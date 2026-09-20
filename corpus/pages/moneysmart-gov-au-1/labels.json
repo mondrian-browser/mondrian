@@ -1,0 +1,293 @@
+{
+ "id": "moneysmart-gov-au-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:53:43.056Z",
+ "tier": "relayout",
+ "application": 0.08,
+ "inputTokens": 41348,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.56,
+   "margin": 0.31,
+   "top": [
+    [
+     "site_header",
+     0.57
+    ],
+    [
+     "site_nav",
+     0.26
+    ],
+    [
+     "skip_link",
+     0.15
+    ],
+    [
+     "toolbar",
+     0.01
+    ],
+    [
+     "chart",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "hero",
+   "confidence": 0.91,
+   "margin": 0.89,
+   "top": [
+    [
+     "hero",
+     0.92
+    ],
+    [
+     "cta",
+     0.03
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "feature_grid",
+     0.01
+    ],
+    [
+     "gallery",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "hero",
+   "final": "hero"
+  },
+  {
+   "index": 2,
+   "choice": "search",
+   "confidence": 0.77,
+   "margin": 0.65,
+   "top": [
+    [
+     "search",
+     0.79
+    ],
+    [
+     "site_nav",
+     0.14
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "chat_widget",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "teaser_card",
+     0.96
+    ],
+    [
+     "related",
+     0.02
+    ],
+    [
+     "cta",
+     0.02
+    ],
+    [
+     "image",
+     0
+    ],
+    [
+     "correction",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 4,
+   "choice": "summary",
+   "confidence": 0.22,
+   "margin": 0.03,
+   "top": [
+    [
+     "summary",
+     0.23
+    ],
+    [
+     "heading",
+     0.2
+    ],
+    [
+     "embed",
+     0.18
+    ],
+    [
+     "cross_promo",
+     0.11
+    ],
+    [
+     "text",
+     0.1
+    ]
+   ],
+   "block": "prose",
+   "slot": "hero",
+   "final": "summary"
+  },
+  {
+   "index": 5,
+   "choice": "pagination",
+   "confidence": 0.76,
+   "margin": 0.66,
+   "top": [
+    [
+     "pagination",
+     0.77
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "action_button",
+     0.04
+    ],
+    [
+     "toolbar",
+     0.04
+    ],
+    [
+     "vote_controls",
+     0.03
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "pagination"
+  },
+  {
+   "index": 6,
+   "choice": "teaser_card",
+   "confidence": 0.83,
+   "margin": 0.79,
+   "top": [
+    [
+     "teaser_card",
+     0.84
+    ],
+    [
+     "feature_grid",
+     0.05
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "product_card",
+     0.03
+    ],
+    [
+     "embed",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 7,
+   "choice": "teaser_card",
+   "confidence": 0.79,
+   "margin": 0.72,
+   "top": [
+    [
+     "teaser_card",
+     0.8
+    ],
+    [
+     "gallery",
+     0.08
+    ],
+    [
+     "related",
+     0.07
+    ],
+    [
+     "feature_grid",
+     0.01
+    ],
+    [
+     "trending",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "unclear",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.872Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

@@ -1,0 +1,510 @@
+{
+ "id": "theatlantic-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T12:11:16.599Z",
+ "tier": "relayout",
+ "application": 0.02,
+ "inputTokens": 74159,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.97,
+   "margin": 0.94,
+   "top": [
+    [
+     "site_nav",
+     0.97
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "title",
+   "confidence": 0.81,
+   "margin": 0.64,
+   "top": [
+    [
+     "title",
+     0.82
+    ],
+    [
+     "heading",
+     0.18
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "unclear",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "summary",
+   "confidence": 0.93,
+   "margin": 0.9,
+   "top": [
+    [
+     "summary",
+     0.94
+    ],
+    [
+     "text",
+     0.04
+    ],
+    [
+     "byline",
+     0.01
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 3,
+   "choice": "image",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "image",
+     0.98
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "article",
+   "final": "image"
+  },
+  {
+   "index": 4,
+   "choice": "byline",
+   "confidence": 0.45,
+   "margin": 0.3,
+   "top": [
+    [
+     "byline",
+     0.47
+    ],
+    [
+     "share",
+     0.17
+    ],
+    [
+     "page_tools",
+     0.08
+    ],
+    [
+     "action_button",
+     0.07
+    ],
+    [
+     "sticky_bar",
+     0.06
+    ]
+   ],
+   "block": "controls",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 5,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "text"
+  },
+  {
+   "index": 6,
+   "choice": "text",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "external_links",
+     0
+    ],
+    [
+     "toolbar",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "text"
+  },
+  {
+   "index": 7,
+   "choice": "subscribe",
+   "confidence": 0.88,
+   "margin": 0.83,
+   "top": [
+    [
+     "subscribe",
+     0.89
+    ],
+    [
+     "paywall",
+     0.06
+    ],
+    [
+     "cta",
+     0.05
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "stats",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "subscribe"
+  },
+  {
+   "index": 8,
+   "choice": "disclosure",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "disclosure",
+     0.99
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "byline",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "notice",
+   "final": "disclosure"
+  },
+  {
+   "index": 9,
+   "choice": "action_button",
+   "confidence": 0.9,
+   "margin": 0.87,
+   "top": [
+    [
+     "action_button",
+     0.92
+    ],
+    [
+     "popup",
+     0.05
+    ],
+    [
+     "comments",
+     0.03
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "heading",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "action_button"
+  },
+  {
+   "index": 10,
+   "choice": "author_bio",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "author_bio",
+     1
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "author",
+   "final": "author_bio"
+  },
+  {
+   "index": 11,
+   "choice": "related",
+   "confidence": 0.91,
+   "margin": 0.86,
+   "top": [
+    [
+     "related",
+     0.92
+    ],
+    [
+     "heading",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 12,
+   "choice": "related",
+   "confidence": 0.65,
+   "margin": 0.32,
+   "top": [
+    [
+     "related",
+     0.66
+    ],
+    [
+     "teaser_card",
+     0.34
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 13,
+   "choice": "newsletter",
+   "confidence": 0.61,
+   "margin": 0.28,
+   "top": [
+    [
+     "newsletter",
+     0.63
+    ],
+    [
+     "subscribe",
+     0.35
+    ],
+    [
+     "cta",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "promo",
+   "final": "newsletter"
+  },
+  {
+   "index": 14,
+   "choice": "site_footer",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 15,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.478Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

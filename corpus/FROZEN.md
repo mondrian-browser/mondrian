@@ -53,3 +53,11 @@ flagged. Four sites came back as bot walls or app shells and were dropped
 (english.stackexchange.com, fbref.com, msn.com, bestbuy.com). The corpus is now 236 pages,
 86 sites, 7,996 regions. On it the rules score 63% (the 70% before was fitted to the
 first 45 sites); the directory then the rules 73% by leave-one-page-out.
+
+## Grown again 21 September 2026
+
+`tools/corpus/growth-2.txt`, 100 sites: 104 solved (some hosts redirected to variants) in
+two and a half hours, one Cloudflare wall dropped (dictionary.cambridge.org), four empty
+pages dropped. **662 pages, 186 sites, 22,300 regions**, 150 directory entries. Rules on
+this corpus: 60.7% strict (holdout 56.4%); directory then rules 72.2%, coverage 41%,
+92% right where covered.

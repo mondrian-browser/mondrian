@@ -1,0 +1,727 @@
+{
+ "id": "developer-android-com-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:07:41.512Z",
+ "tier": "relayout",
+ "application": 0.05,
+ "inputTokens": 106193,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.64,
+   "margin": 0.47,
+   "top": [
+    [
+     "site_nav",
+     0.65
+    ],
+    [
+     "tabs",
+     0.18
+    ],
+    [
+     "section_nav",
+     0.14
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "site_header",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.71,
+   "margin": 0.58,
+   "top": [
+    [
+     "site_nav",
+     0.72
+    ],
+    [
+     "tabs",
+     0.14
+    ],
+    [
+     "section_nav",
+     0.12
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "tabs",
+   "confidence": 0.5,
+   "margin": 0.3,
+   "top": [
+    [
+     "tabs",
+     0.52
+    ],
+    [
+     "site_nav",
+     0.22
+    ],
+    [
+     "action_button",
+     0.19
+    ],
+    [
+     "section_nav",
+     0.06
+    ],
+    [
+     "disclosure",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 3,
+   "choice": "search",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "search",
+     0.99
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "heading",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 4,
+   "choice": "settings",
+   "confidence": 0.63,
+   "margin": 0.33,
+   "top": [
+    [
+     "settings",
+     0.65
+    ],
+    [
+     "version_switcher",
+     0.32
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "settings"
+  },
+  {
+   "index": 5,
+   "choice": "site_notice",
+   "confidence": 0.49,
+   "margin": 0.05,
+   "top": [
+    [
+     "site_notice",
+     0.51
+    ],
+    [
+     "cta",
+     0.46
+    ],
+    [
+     "poll",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0.01
+    ],
+    [
+     "feedback",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "site_notice"
+  },
+  {
+   "index": 6,
+   "choice": "image",
+   "confidence": 0.74,
+   "margin": 0.6,
+   "top": [
+    [
+     "image",
+     0.75
+    ],
+    [
+     "teaser_card",
+     0.15
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "decoration",
+     0.03
+    ],
+    [
+     "feature_grid",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "teasers",
+   "final": "image"
+  },
+  {
+   "index": 7,
+   "choice": "teaser_card",
+   "confidence": 0.52,
+   "margin": 0.32,
+   "top": [
+    [
+     "teaser_card",
+     0.53
+    ],
+    [
+     "hero",
+     0.21
+    ],
+    [
+     "summary",
+     0.2
+    ],
+    [
+     "text",
+     0.04
+    ],
+    [
+     "feature_grid",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 8,
+   "choice": "feature_grid",
+   "confidence": 0.7,
+   "margin": 0.46,
+   "top": [
+    [
+     "feature_grid",
+     0.72
+    ],
+    [
+     "teaser_card",
+     0.26
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "title",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 9,
+   "choice": "teaser_card",
+   "confidence": 0.55,
+   "margin": 0.19,
+   "top": [
+    [
+     "teaser_card",
+     0.56
+    ],
+    [
+     "image",
+     0.37
+    ],
+    [
+     "feature_grid",
+     0.03
+    ],
+    [
+     "decoration",
+     0.01
+    ],
+    [
+     "gallery",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 10,
+   "choice": "teaser_card",
+   "confidence": 0.8,
+   "margin": 0.65,
+   "top": [
+    [
+     "teaser_card",
+     0.81
+    ],
+    [
+     "cta",
+     0.16
+    ],
+    [
+     "feature_grid",
+     0.03
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 11,
+   "choice": "teaser_card",
+   "confidence": 0.88,
+   "margin": 0.78,
+   "top": [
+    [
+     "teaser_card",
+     0.89
+    ],
+    [
+     "feature_grid",
+     0.11
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 12,
+   "choice": "teaser_card",
+   "confidence": 0.65,
+   "margin": 0.33,
+   "top": [
+    [
+     "teaser_card",
+     0.66
+    ],
+    [
+     "feature_grid",
+     0.33
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 13,
+   "choice": "teaser_card",
+   "confidence": 0.94,
+   "margin": 0.91,
+   "top": [
+    [
+     "teaser_card",
+     0.95
+    ],
+    [
+     "feature_grid",
+     0.04
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 14,
+   "choice": "teaser_card",
+   "confidence": 0.89,
+   "margin": 0.81,
+   "top": [
+    [
+     "teaser_card",
+     0.9
+    ],
+    [
+     "feature_grid",
+     0.09
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "feedback",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 15,
+   "choice": "teaser_card",
+   "confidence": 0.83,
+   "margin": 0.72,
+   "top": [
+    [
+     "teaser_card",
+     0.84
+    ],
+    [
+     "feature_grid",
+     0.12
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 16,
+   "choice": "teaser_card",
+   "confidence": 0.56,
+   "margin": 0.36,
+   "top": [
+    [
+     "teaser_card",
+     0.57
+    ],
+    [
+     "section_nav",
+     0.21
+    ],
+    [
+     "feature_grid",
+     0.14
+    ],
+    [
+     "list",
+     0.05
+    ],
+    [
+     "definition_list",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 17,
+   "choice": "teaser_card",
+   "confidence": 0.6,
+   "margin": 0.32,
+   "top": [
+    [
+     "teaser_card",
+     0.61
+    ],
+    [
+     "feature_grid",
+     0.29
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "text",
+     0.03
+    ],
+    [
+     "list",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 18,
+   "choice": "teaser_card",
+   "confidence": 0.94,
+   "margin": 0.91,
+   "top": [
+    [
+     "teaser_card",
+     0.95
+    ],
+    [
+     "related",
+     0.04
+    ],
+    [
+     "feature_grid",
+     0.01
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "author_bio",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 19,
+   "choice": "site_footer",
+   "confidence": 0.69,
+   "margin": 0.54,
+   "top": [
+    [
+     "site_footer",
+     0.7
+    ],
+    [
+     "external_links",
+     0.16
+    ],
+    [
+     "cross_promo",
+     0.11
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "site_nav",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 20,
+   "choice": "site_footer",
+   "confidence": 0.85,
+   "margin": 0.74,
+   "top": [
+    [
+     "site_footer",
+     0.86
+    ],
+    [
+     "site_nav",
+     0.12
+    ],
+    [
+     "section_nav",
+     0.02
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 21,
+   "choice": "site_footer",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "site_footer",
+     0.96
+    ],
+    [
+     "site_nav",
+     0.03
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 22,
+   "choice": "poll",
+   "confidence": 0.4,
+   "margin": 0.19,
+   "top": [
+    [
+     "poll",
+     0.42
+    ],
+    [
+     "feedback",
+     0.23
+    ],
+    [
+     "sticky_bar",
+     0.14
+    ],
+    [
+     "popup",
+     0.13
+    ],
+    [
+     "site_notice",
+     0.05
+    ]
+   ],
+   "block": "mixed",
+   "slot": "form",
+   "final": "poll"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.344Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

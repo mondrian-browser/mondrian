@@ -1,0 +1,160 @@
+{
+ "site": "community.home-assistant.io",
+ "pages": 4,
+ "pageIds": [
+  "community-home-assistant-io-1",
+  "community-home-assistant-io-2",
+  "community-home-assistant-io-3",
+  "community-home-assistant-io-4"
+ ],
+ "derivedAt": "2026-09-20T13:22:50.296Z",
+ "blocks": [
+  {
+   "selector": "section [role=main] > div.latest-topic-list-item",
+   "type": "teaser_card",
+   "n": 23,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section header > header",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "section [role=main] nav > ul#sidebar-section-content-community",
+   "type": "section_nav",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "section [role=main] nav > div.sidebar-section",
+   "type": "tag_cloud",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "section [role=main] nav > button.btn",
+   "type": "action_button",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "section [role=main] section > section.navigation-container",
+   "type": "section_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "section [role=main] > table.topic-list",
+   "type": "table",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "section [role=main] > table.category-list",
+   "type": "section_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] > ul.discourse-tags",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] > div.topic-stats",
+   "type": "stats",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] > div.topic-category",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] > div.timeline-scrollarea-wrapper",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] section article > div.topic-meta-data",
+   "type": "byline",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] section article > button.btn",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] section article section > section.post__menu-area",
+   "type": "reactions",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] section article > ul.post-links",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] section article section > section.topic-map__contents",
+   "type": "metadata",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] section > div#post_2",
+   "type": "badge",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] [role=region] > button.btn",
+   "type": "action_button",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] [role=complementary] > div#suggested-topics",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "section [role=main] > h3.more-topics__browse-more",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

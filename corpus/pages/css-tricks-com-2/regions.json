@@ -1,0 +1,791 @@
+{
+ "url": "https://css-tricks.com/almanac/properties/u/user-select/",
+ "title": "user-select | CSS-Tricks",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 15709,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "id": "site-header",
+   "class": "site-header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 100,
+   "text": "Skip to main content \n CSS-Tricks\n Since 2007\n Articles\nGuides\nAlmanac\nLinks\nPicks\nNewsletter\nSearch",
+   "counts": {
+    "links": 9,
+    "images": 3,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 225,
+     "height": 25
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 34,
+     "height": 39
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 0,
+    "height": 82,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "breadcrumbs",
+   "landmarks": [
+    "main",
+    "header"
+   ],
+   "textLength": 42,
+   "text": "CSS Almanac → Properties → U → user-select",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.52,
+   "geometry": {
+    "top": 180,
+    "height": 28,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "header"
+   ],
+   "textLength": 43,
+   "text": "user-select\nChris Coyier \n on\n Dec 14, 2011",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 208,
+    "height": 127,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 149,
+   "text": "The user-select property in CSS controls how the text in an element is allowed to be selected. For example, it can be used to make text unselectable.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 384,
+    "height": 191,
+    "widthFraction": 0.6,
+    "leftFraction": 0.17,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 196,
+   "text": ".row-of-icons {\n -webkit-user-select: none; /* Chrome all / Safari all */\n -moz-user-select: none; /* Firefox all */\n -ms-user-select: none; /* IE 10+ */\n user-select: none; /* Likely future */ \n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 600,
+    "height": 210,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 438,
+   "text": "This is useful in situations where you want to provide an easier/cleaner copy-paste experience for users (not have them accidentally text-select useless things, like icons or images). However it’s a bit buggy. Firefox enforces the fact that any text matching that selector cannot be copied. WebKit still allows the text to be copied if you select elements around it.\nYou can also use this to enforce ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 834,
+    "height": 225,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 188,
+   "text": ".force-select { \n -webkit-user-select: all; /* Chrome 49+ */\n -moz-user-select: all; /* Firefox 43+ */\n -ms-user-select: all; /* No support yet */\n user-select: all; /* Likely future */ \n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1084,
+    "height": 210,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.07,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "class": "wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper resizable",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 50,
+   "text": "Here’s some demos of those:\nCodePen Embed Fallback",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1319,
+    "height": 508,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 272,
+   "text": "There was no spec for this property for quite a while, but now is covered under CSS Basic User Interface Module Level 4.\nThe default value is auto, which makes selection happen normally as you expect. “Normally” is a bit complicated. It’s worth quoting from the spec here:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 1843,
+    "height": 192,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "blockquote",
+   "class": "wp-block-quote is-layout-flow wp-block-quote-is-layout-flow",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 404,
+   "text": "On the ::before and ::after pseudo elements, the computed value is none\nIf the element is an editable element, the computed value is contain\nOtherwise, if the computed value of user-select on the parent of this element is all, the computed value is all\nOtherwise, if the computed value of user-select on the parent of this element is none, the computed value is none\nOtherwise, the computed value is ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2060,
+    "height": 259,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 179,
+   "text": "In other words, it intelligently cascades and resets to a sensical state. It looks like maybe this feature could be used to make pseudo elements selectable, but no final word yet.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2343,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h3",
+   "id": "olderproprietary",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Older/Proprietary",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2543,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 390,
+   "text": "Firefox supports -moz-none, which is just like none except that it means sub-elements can override the cascade and become selectable again with -moz-user-select: text; As of Firefox 21, none behaves like -moz-none.\nInternet Explorer also supports a so-far-proprietary value, element, in which you can select text inside the element but the selection will stop at the bounds of that element.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 2604,
+    "height": 225,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h3",
+   "id": "more-information",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 16,
+   "text": "More Information",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2929,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "ul",
+   "class": "wp-block-list",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 37,
+   "text": "MDN Docs\nUser Select interoperability",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.97,
+   "geometry": {
+    "top": 2990,
+    "height": 68,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "h3",
+   "id": "browser-support",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Browser Support",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3158,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "baseline-status",
+   "class": "wp-block-css-tricks-baseline-status",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 141,
+   "text": "user-select\n Limited availability \nThis feature is not Baseline because it does not work in some of the most widely-used browsers.\nLearn more",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3219,
+    "height": 128,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "ul",
+   "id": "almanac-sidebar-list",
+   "class": "almanac-sidebar-list",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 7493,
+   "text": "At-Rules\n A\n B\n C\n @charset\n @color-profile\n @container\n @counter-style\n @custom-media\n D\n E\n F\n @font-face\n @font-feature-values\n @font-palette-values\n @function\n G\n H\n I\n @import\n J\n K\n @keyframes\n L\n @layer\n M\n @media\n color-gamut\n prefers-reduced-motion\n N\n @namespace\n O\n P\n @page\n @position-try\n @property\n Q\n R\n S\n @scope\n @starting-style\n @supports\n T\n U\n V\n @view-transition\n W\n X\n Y\n Z\nFunc",
+   "counts": {
+    "links": 639,
+    "images": 0,
+    "headings": 0,
+    "listItems": 639,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 401,
+    "height": 3974,
+    "widthFraction": 0.1,
+    "leftFraction": 0.05,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h2",
+   "id": "comments",
+   "class": "comments-title",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 8,
+   "text": "Comments",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4424,
+    "height": 180,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "ol",
+   "id": "commentlist",
+   "class": "commentlist",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 13618,
+   "text": "Gabo\n Permalink to comment# March 15, 2012\n Unfortunately it doesn’t seem to work for android devices… any advice ?\n Reply \n sachou\n Permalink to comment# May 21, 2013\n hi, did you find the solution for the Android issue ?\nIt seems that’s related the device , since i tried on a Samsug galaxy Note 2 , and the issue isn’t there, however in Asus & Samsung Galaxy Tab Note 2 , the issue’s here .\nRegard",
+   "counts": {
+    "links": 72,
+    "images": 0,
+    "headings": 0,
+    "listItems": 38,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 65,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 4628,
+    "height": 9645,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h3",
+   "id": "reply-title",
+   "class": "comment-reply-title",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 26,
+   "text": "Leave a Reply Cancel reply",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.46,
+   "geometry": {
+    "top": 14355,
+    "height": 25,
+    "widthFraction": 0.37,
+    "leftFraction": 0.31,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "form",
+   "id": "commentform",
+   "class": "comment-form",
+   "landmarks": [
+    "section",
+    "form"
+   ],
+   "textLength": 263,
+   "text": "Your email address will not be published. Required fields are marked *\nComment * \n Write Preview\nName * \nEmail * \nWebsite \n Save my name, email, and website in this browser for the next time I comment.\n Copy and paste this code: micuno *\n Leave this field empty\nΔ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 14,
+    "paragraphs": 11,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 14405,
+    "height": 570,
+    "widthFraction": 0.37,
+    "leftFraction": 0.31,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "footer",
+   "class": "site-footer",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 435,
+   "text": "CSS-Tricks is powered by DigitalOcean.\n Get Curated Front-End Roundups Right in Your Inbox\n Coming back really, really soon! See past issues →\n Comments\nThis field is for validation purposes and should be left unchanged.\nEmail\n Subscribe \n Δ\n CSS-Tricks\n About the site\nContact us\nWrite for CSS-Tricks!\nAdvertising\nRSS Feeds\n Social\n Bluesky\nMastodon\nCodePen\nX / Twitter\nLinkedIn\n Legalese\n CSS-Trick",
+   "counts": {
+    "links": 15,
+    "images": 3,
+    "headings": 4,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 17,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "frame": {
+    "host": "",
+    "width": 0,
+    "height": 0,
+    "title": "This iframe contains the logic required to handle Ajax powered Gravity Forms."
+   },
+   "linkTextRatio": 0.4,
+   "geometry": {
+    "top": 15295,
+    "height": 413,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  }
+ ]
+}

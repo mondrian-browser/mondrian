@@ -1,0 +1,300 @@
+{
+ "site": "zdnet.com",
+ "pages": 4,
+ "pageIds": [
+  "zdnet-com-1",
+  "zdnet-com-2",
+  "zdnet-com-3",
+  "zdnet-com-4"
+ ],
+ "derivedAt": "2026-09-20T12:43:06.978Z",
+ "blocks": [
+  {
+   "selector": "main article > p",
+   "type": "text",
+   "n": 42,
+   "purity": 0.95,
+   "pages": 3
+  },
+  {
+   "selector": "main article > h3.wp-block-heading",
+   "type": "heading",
+   "n": 16,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > h2.wp-block-heading",
+   "type": "heading",
+   "n": 14,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article article > article.list-entry",
+   "type": "teaser_card",
+   "n": 11,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > details.zd-product-details-card__accordion",
+   "type": "accordion",
+   "n": 10,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > figure.wp-block-image",
+   "type": "image",
+   "n": 7,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.zd-product-details-card__top-row",
+   "type": "product_card",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.zd-product-details-card__get-it-now",
+   "type": "buy_box",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.zd-product-summary-card",
+   "type": "product_card",
+   "n": 5,
+   "purity": 0.8,
+   "pages": 2
+  },
+  {
+   "selector": "header > div.site-header__top-row",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > div.site-header__bottom-row",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > h2.ccb-header__block-title",
+   "type": "pagination",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 1
+  },
+  {
+   "selector": "main article article > img.attachment-large",
+   "type": "image",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article article > h3",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.c-ccb",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.site-footer__top-section",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer nav nav > div.site-footer__category",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.site-footer__brand-legal-section",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "[role=dialog] > div.pushPrompt__card",
+   "type": "app_nag",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article > h3.zd-product-details-card__title",
+   "type": "heading",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "> p.zd-hero-disclosure__content",
+   "type": "disclosure",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main header nav > nav.rank-math-breadcrumb",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main header > h1.entry-title",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main header > button.zd-share-article",
+   "type": "share",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main header > p.entry-excerpt",
+   "type": "summary",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div.zd-article-stats-card__card",
+   "type": "stats",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > figure.wp-block-table",
+   "type": "table",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > div.zd-product-gallery__image-gallery",
+   "type": "gallery",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article section > section.zd-disqus",
+   "type": "comments",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > div.articleAuthorBioFooter",
+   "type": "author_bio",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > ul.wp-block-list",
+   "type": "list",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.wp-block-group",
+   "type": "text",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > img.attachment-large",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3.cover-story__title",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > h2.wp-block-zd-team-carousel__heading",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > p.wp-block-zd-team-carousel__description",
+   "type": "team",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > ul.swiper-wrapper",
+   "type": "team",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article nav > nav.zd-toc",
+   "type": "table_of_contents",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.zd-best-list-precap__item",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.zd-best-list-precap__overflow-inner",
+   "type": "product_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div.zd-product-gallery__slide",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

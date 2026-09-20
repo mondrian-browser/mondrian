@@ -1,0 +1,1407 @@
+{
+ "url": "https://vuejs.org/guide/introduction.html",
+ "title": "Introduction | Vue.js",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 7398,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "VPNav nav-bar",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 697,
+   "text": "Skip to content\nVue.jsSearchCtrlK\nMain NavigationDocs Quick StartGuideTutorialExamplesAPIGlossaryError ReferenceVue 2 DocsMigration from Vue 2\nPlaygroundEcosystem Resources\nThemesUI ComponentsPlugins CollectionCertificationJobsT-Shirt Shop\nOfficial Libraries\nVue RouterPiniaTooling Guide\nVideo Courses\nVue MasteryVue School\nHelp\nDiscord ChatGitHub DiscussionsDEV Community\nNews\nBlogTwitterEventsNewsl",
+   "counts": {
+    "links": 72,
+    "images": 58,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 10,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.72,
+   "geometry": {
+    "top": 4,
+    "height": 123,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "preference-switch",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 209,
+   "text": "API PreferenceOptionsComposition?API style now defaults to Composition API.\n Some pages contain different content based on the API style chosen. Use this switch to toggle between APIs styles. \nLearn moreGot it",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 11,
+     "height": 11
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 96,
+    "height": 103,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h2",
+   "class": "active title-text",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "Getting Started",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 223,
+    "height": 20,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "link-text",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "Introduction\nQuick Start",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 251,
+    "height": 52,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "section×7",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 739,
+   "text": "Essentials\nCreating an Application\nTemplate Syntax\nReactivity Fundamentals\nComputed Properties\nClass and Style Bindings\nConditional Rendering\nList Rendering\nEvent Handling\nForm Input Bindings\nWatchers\nTemplate Refs\nComponents Basics\nLifecycle Hooks\nComponents In-Depth\nRegistration\nProps\nEvents\nComponent v-model\nFallthrough Attributes\nSlots\nProvide / inject\nAsync Components\nReusability\nComposables\n",
+   "counts": {
+    "links": 42,
+    "images": 0,
+    "headings": 7,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 42,
+    "repeats": 7,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 319,
+    "height": 1468,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "section",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 188,
+   "text": "Extra Topics\nWays of Using Vue\nComposition API FAQ\nReactivity in Depth\nRendering Mechanism\nRender Functions & JSX\nVue and Web Components\nAnimation Techniques\nGet Security Updates for Vue 2",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 1803,
+    "height": 280,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "VPContentDocOutline",
+   "landmarks": [],
+   "textLength": 164,
+   "text": "On this page\nTable of Contents for current pageWhat is Vue?\nThe Progressive Framework\nSingle-File Components\nAPI Styles\nStill Got Questions?\nPick Your Learning Path",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 136,
+    "height": 196,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "div",
+   "landmarks": [],
+   "textLength": 58,
+   "text": "SponsorsInquire about Special Sponsorship\nBecome a Sponsor",
+   "counts": {
+    "links": 13,
+    "images": 10,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Greptile",
+     "width": 88,
+     "height": 29
+    },
+    {
+     "kind": "img",
+     "alt": "Vehikl",
+     "width": 88,
+     "height": 22
+    },
+    {
+     "kind": "img",
+     "alt": "Vue.js Amsterdam",
+     "width": 88,
+     "height": 22
+    },
+    {
+     "kind": "img",
+     "alt": "JavaScript Certification",
+     "width": 88,
+     "height": 22
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 332,
+    "height": 442,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h1",
+   "id": "introduction",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 14,
+   "text": "Introduction ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 136,
+    "height": 53,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "info custom-block",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 166,
+   "text": "You are reading the documentation for Vue 3!\nVue 2 support has ended on Dec 31, 2023. Learn more about Vue 2 EOL.\nUpgrading from Vue 2? Check out the Migration Guide.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.14,
+   "geometry": {
+    "top": 237,
+    "height": 119,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "a",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 48,
+   "text": "Learn Vue with video tutorials on VueMastery.com",
+   "counts": {
+    "links": 0,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Vue Mastery banner",
+     "width": 96,
+     "height": 56
+    },
+    {
+     "kind": "img",
+     "alt": "Vue Mastery Logo",
+     "width": 25,
+     "height": 14
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 392,
+    "height": 56,
+    "widthFraction": 0.46,
+    "leftFraction": 0.28,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h2",
+   "id": "what-is-vue",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 14,
+   "text": "What is Vue? ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 520,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 277,
+   "text": "Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 614,
+    "height": 109,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 136,
+   "text": "Here is a minimal example:\njsimport { createApp, ref } from 'vue'\ncreateApp({\n setup() {\n return {\n count: ref(0)\n }\n }\n}).mount('#app')",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 742,
+    "height": 272,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 90,
+   "text": "template<div id=\"app\">\n <button @click=\"count++\">\n Count is: {{ count }}\n </button>\n</div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1026,
+    "height": 133,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 18,
+   "text": "Result\nCount is: 0",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1187,
+    "height": 105,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 60,
+   "text": "The above example demonstrates the two core features of Vue:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1334,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 266,
+   "text": "Declarative Rendering: Vue extends standard HTML with a template syntax that allows us to declaratively describe HTML output based on JavaScript state.\nReactivity: Vue automatically tracks JavaScript state changes and efficiently updates the DOM when changes happen.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1380,
+    "height": 128,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 203,
+   "text": "You may already have questions - don't worry. We will cover every little detail in the rest of the documentation. For now, please read along so you can have a high-level understanding of what Vue offers.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1527,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.21,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "div",
+   "class": "tip custom-block",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 431,
+   "text": "Prerequisites\nThe rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for JavaScript, HTML and CSS if needed. Prior experience with other framewo",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1637,
+    "height": 187,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h2",
+   "id": "the-progressive-framework",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 27,
+   "text": "The Progressive Framework ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1887,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 352,
+   "text": "Vue is a framework and ecosystem that covers most of the common features needed in frontend development. But the web is extremely diverse - the things we build on the web may vary drastically in form and scale. With that in mind, Vue is designed to be flexible and incrementally adoptable. Depending on your use case, Vue can be used in different ways:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1982,
+    "height": 136,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 248,
+   "text": "Enhancing static HTML without a build step\nEmbedding as Web Components on any page\nSingle-Page Application (SPA)\nFullstack / Server-Side Rendering (SSR)\nJamstack / Static Site Generation (SSG)\nTargeting desktop, mobile, WebGL, and even the terminal",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2137,
+    "height": 168,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "p×3",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 920,
+   "text": "If you find these concepts intimidating, don't worry! The tutorial and guide only require basic HTML and JavaScript knowledge, and you should be able to follow along without being an expert in any of these.\nIf you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in Ways of Using Vue.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 2324,
+    "height": 392,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h2",
+   "id": "single-file-components",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 24,
+   "text": "Single-File Components ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2780,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 360,
+   "text": "In most build-tool-enabled Vue projects, we author Vue components using an HTML-like file format called Single-File Component (also known as *.vue files, abbreviated as SFC). A Vue SFC, as the name suggests, encapsulates the component's logic (JavaScript), template (HTML), and styles (CSS) in a single file. Here's the previous example, written in SFC format:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2875,
+    "height": 136,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div",
+   "class": "language-vue",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 209,
+   "text": "vue<script setup>\nimport { ref } from 'vue'\nconst count = ref(0)\n</script>\n<template>\n <button @click=\"count++\">Count is: {{ count }}</button>\n</template>\n<style scoped>\nbutton {\n font-weight: bold;\n}\n</style>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3039,
+    "height": 322,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 279,
+   "text": "SFC is a defining feature of Vue and is the recommended way to author Vue components if your use case warrants a build setup. You can learn more about the how and why of SFC in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 3389,
+    "height": 109,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h2",
+   "id": "api-styles",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 12,
+   "text": "API Styles ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3561,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 92,
+   "text": "Vue components can be authored in two different API styles: Options API and Composition API.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3656,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h3",
+   "id": "options-api",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "Options API ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 3758,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 218,
+   "text": "With Options API, we define a component's logic using an object of options such as data, methods, and mounted. Properties defined by options are exposed on this inside functions, which points to the component instance:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3807,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "pre",
+   "class": "shiki github-dark",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 635,
+   "text": "vue\n<script>\nexport default {\n // Properties returned from data() become reactive state\n // and will be exposed on `this`.\n data() {\n return {\n count: 0\n }\n },\n // Methods are functions that mutate state and trigger updates.\n // They can be bound as event handlers in templates.\n methods: {\n increment() {\n this.count++\n }\n },\n // Lifecycle hooks are called at different stages\n // of a component's l",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3917,
+    "height": 658,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h3",
+   "id": "composition-api",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 42,
+   "text": "Try it in the Playground\nComposition API ​",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.6,
+   "geometry": {
+    "top": 4603,
+    "height": 104,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 515,
+   "text": "With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with <script setup>. The setup attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in <script setup> are directly usable in the templa",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4726,
+    "height": 210,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "div",
+   "class": "language-vue",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 369,
+   "text": "vue<script setup>\nimport { ref, onMounted } from 'vue'\n// reactive state\nconst count = ref(0)\n// functions that mutate state and trigger updates\nfunction increment() {\n count.value++\n}\n// lifecycle hooks\nonMounted(() => {\n console.log(`The initial count is ${count.value}.`)\n})\n</script>\n<template>\n <button @click=\"increment\">Count is: {{ count }}</button>\n</template>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4964,
+    "height": 448,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "h3",
+   "id": "which-to-choose",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 43,
+   "text": "Try it in the Playground\nWhich to Choose? ​",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.58,
+   "geometry": {
+    "top": 5440,
+    "height": 104,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "p×4",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1147,
+   "text": "Both API styles are fully capable of covering common use cases. They are different interfaces powered by the exact same underlying system. In fact, the Options API is implemented on top of the Composition API! The fundamental concepts and knowledge about Vue are shared across the two styles.\nThe Options API is centered around the concept of a \"component instance\" (this as seen in the example), whi",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 5563,
+    "height": 465,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 512,
+   "text": "If you are new to Vue, here's our general recommendation:\nFor learning purposes, go with the style that looks easier to understand to you. Again, most of the core concepts are shared between the two styles. You can always pick up the other style later.\nFor production use:\nGo with Options API if you are not using build tools, or plan to use Vue primarily in low-complexity scenarios, e.g. progressiv",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6048,
+    "height": 321,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 268,
+   "text": "You don't have to commit to only one style during the learning phase. The rest of the documentation will provide code samples in both styles where applicable, and you can toggle between them at any time using the API Preference switches at the top of the left sidebar.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6389,
+    "height": 109,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "h2",
+   "id": "still-got-questions",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "Still Got Questions? ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 6561,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "h2",
+   "id": "pick-your-learning-path",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 44,
+   "text": "Check out our FAQ.\nPick Your Learning Path ​",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 6656,
+    "height": 157,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 184,
+   "text": "Different developers have different learning styles. Feel free to pick a learning path that suits your preference - although we do recommend going over all of the content, if possible!",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6842,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "div",
+   "class": "vt-box-container next-steps",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 255,
+   "text": "Try the Tutorial\nFor those who prefer learning things hands-on.\nRead the Guide\nThe guide walks you through every aspect of the framework in full detail.\nCheck out the Examples\nExplore examples of core features and common UI tasks.\nEdit this page on GitHub",
+   "counts": {
+    "links": 4,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 6971,
+    "height": 299,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "yahoo-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:46:07.569Z",
+ "tier": "relayout",
+ "application": 0.14,
+ "inputTokens": 9714,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.95,
+   "margin": 0.92,
+   "top": [
+    [
+     "site_header",
+     0.96
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "audio",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.63,
+   "margin": 0.33,
+   "top": [
+    [
+     "site_nav",
+     0.64
+    ],
+    [
+     "site_footer",
+     0.31
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "hero",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.736Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

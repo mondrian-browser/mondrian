@@ -1,0 +1,200 @@
+{
+ "id": "simonwillison-net-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:17:26.837Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 27767,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.95,
+   "margin": 0.92,
+   "top": [
+    [
+     "site_header",
+     0.95
+    ],
+    [
+     "title",
+     0.03
+    ],
+    [
+     "subscribe",
+     0.01
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "teaser_card",
+   "confidence": 0.59,
+   "margin": 0.4,
+   "top": [
+    [
+     "teaser_card",
+     0.6
+    ],
+    [
+     "title",
+     0.2
+    ],
+    [
+     "heading",
+     0.13
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "list",
+     0.02
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 2,
+   "choice": "text",
+   "confidence": 0.91,
+   "margin": 0.86,
+   "top": [
+    [
+     "text",
+     0.92
+    ],
+    [
+     "summary",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "steps",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "header",
+   "final": "text"
+  },
+  {
+   "index": 3,
+   "choice": "related",
+   "confidence": 0.73,
+   "margin": 0.55,
+   "top": [
+    [
+     "related",
+     0.74
+    ],
+    [
+     "teaser_card",
+     0.19
+    ],
+    [
+     "trending",
+     0.05
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "related",
+   "final": "related"
+  },
+  {
+   "index": 4,
+   "choice": "byline",
+   "confidence": 0.44,
+   "margin": 0.19,
+   "top": [
+    [
+     "byline",
+     0.46
+    ],
+    [
+     "subscribe",
+     0.27
+    ],
+    [
+     "newsletter",
+     0.07
+    ],
+    [
+     "author_bio",
+     0.05
+    ],
+    [
+     "metadata",
+     0.05
+    ]
+   ],
+   "block": "prose",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 5,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "site_footer",
+     0.98
+    ],
+    [
+     "legal_notice",
+     0.02
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.276Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

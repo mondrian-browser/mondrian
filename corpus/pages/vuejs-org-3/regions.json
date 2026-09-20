@@ -1,0 +1,2779 @@
+{
+ "url": "https://vuejs.org/guide/essentials/template-syntax.html",
+ "title": "Template Syntax | Vue.js",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 9340,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "VPNav nav-bar",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 697,
+   "text": "Skip to content\nVue.jsSearchCtrlK\nMain NavigationDocs Quick StartGuideTutorialExamplesAPIGlossaryError ReferenceVue 2 DocsMigration from Vue 2\nPlaygroundEcosystem Resources\nThemesUI ComponentsPlugins CollectionCertificationJobsT-Shirt Shop\nOfficial Libraries\nVue RouterPiniaTooling Guide\nVideo Courses\nVue MasteryVue School\nHelp\nDiscord ChatGitHub DiscussionsDEV Community\nNews\nBlogTwitterEventsNewsl",
+   "counts": {
+    "links": 72,
+    "images": 58,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 10,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.72,
+   "geometry": {
+    "top": 4,
+    "height": 123,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "preference-switch",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 209,
+   "text": "API PreferenceOptionsComposition?API style now defaults to Composition API.\n Some pages contain different content based on the API style chosen. Use this switch to toggle between APIs styles. \nLearn moreGot it",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 11,
+     "height": 11
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 96,
+    "height": 103,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "section",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 40,
+   "text": "Getting Started\nIntroduction\nQuick Start",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 219,
+    "height": 84,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "h2",
+   "class": "active title-text",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 10,
+   "text": "Essentials",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 323,
+    "height": 20,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "a",
+   "class": "link",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 23,
+   "text": "Creating an Application",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 347,
+    "height": 28,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "p",
+   "class": "link-text",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "Template Syntax",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 379,
+    "height": 20,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "a×11",
+   "class": "link",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 197,
+   "text": "Reactivity Fundamentals\nComputed Properties\nClass and Style Bindings\nConditional Rendering\nList Rendering\nEvent Handling\nForm Input Bindings\nWatchers\nTemplate Refs\nComponents Basics\nLifecycle Hooks",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 11,
+    "repeats": 11,
+    "coverLinks": 11
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 403,
+    "height": 308,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "section×6",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 490,
+   "text": "Components In-Depth\nRegistration\nProps\nEvents\nComponent v-model\nFallthrough Attributes\nSlots\nProvide / inject\nAsync Components\nReusability\nComposables\nCustom Directives\nPlugins\nBuilt-in Components\nTransition\nTransitionGroup\nKeepAlive\nTeleport\nSuspense\nScaling Up\nSingle-File Components\nTooling\nRouting\nState Management\nTesting\nServer-Side Rendering (SSR)\nBest Practices\nProduction Deployment\nPerforma",
+   "counts": {
+    "links": 29,
+    "images": 0,
+    "headings": 6,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 29,
+    "repeats": 6,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 727,
+    "height": 1060,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "section",
+   "class": "VPSidebarGroup",
+   "landmarks": [
+    "aside",
+    "nav",
+    "section"
+   ],
+   "textLength": 188,
+   "text": "Extra Topics\nWays of Using Vue\nComposition API FAQ\nReactivity in Depth\nRendering Mechanism\nRender Functions & JSX\nVue and Web Components\nAnimation Techniques\nGet Security Updates for Vue 2",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 12,
+     "height": 12
+    }
+   ],
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 1803,
+    "height": 280,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "VPContentDocOutline",
+   "landmarks": [],
+   "textLength": 133,
+   "text": "On this page\nTable of Contents for current pageText Interpolation\nRaw HTML\nAttribute Bindings\nUsing JavaScript Expressions\nDirectives",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.62,
+   "geometry": {
+    "top": 136,
+    "height": 168,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "div",
+   "landmarks": [],
+   "textLength": 58,
+   "text": "SponsorsInquire about Special Sponsorship\nBecome a Sponsor",
+   "counts": {
+    "links": 13,
+    "images": 10,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Greptile",
+     "width": 88,
+     "height": 29
+    },
+    {
+     "kind": "img",
+     "alt": "Vehikl",
+     "width": 88,
+     "height": 22
+    },
+    {
+     "kind": "img",
+     "alt": "Vue.js Amsterdam",
+     "width": 88,
+     "height": 22
+    },
+    {
+     "kind": "img",
+     "alt": "JavaScript Certification",
+     "width": 88,
+     "height": 22
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 304,
+    "height": 442,
+    "widthFraction": 0.16,
+    "leftFraction": 0.82,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h1",
+   "id": "template-syntax",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Template Syntax ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 136,
+    "height": 53,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 294,
+   "text": "Watch an interactive video lesson on Scrimba\nVue uses an HTML-based template syntax that allows you to declaratively bind the rendered DOM to the underlying component instance's data. All Vue templates are syntactically valid HTML that can be parsed by spec-compliant browsers and HTML parsers.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 237,
+    "height": 196,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 554,
+   "text": "Under the hood, Vue compiles the templates into highly-optimized JavaScript code. Combined with the reactivity system, Vue can intelligently figure out the minimal number of components to re-render and apply the minimal amount of DOM manipulations when the app state changes.\nIf you are familiar with Virtual DOM concepts and prefer the raw power of JavaScript, you can also directly write render fun",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 452,
+    "height": 237,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "id": "text-interpolation",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Text Interpolation ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 753,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 108,
+   "text": "The most basic form of data binding is text interpolation using the \"Mustache\" syntax (double curly braces):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 848,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 39,
+   "text": "template<span>Message: {{ msg }}</span>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 930,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 170,
+   "text": "The mustache tag will be replaced with the value of the msg property from the corresponding component instance. It will also be updated whenever the msg property changes.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 1007,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "h2",
+   "id": "raw-html",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 10,
+   "text": "Raw HTML ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 1153,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 137,
+   "text": "The double mustaches interpret the data as plain text, not HTML. In order to output real HTML, you will need to use the v-html directive:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 1247,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 116,
+   "text": "template<p>Using text interpolation: {{ rawHtml }}</p>\n<p>Using v-html directive: <span v-html=\"rawHtml\"></span></p>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1330,
+    "height": 70,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.14,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "div",
+   "class": "demo",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 121,
+   "text": "Using text interpolation: <span style=\"color: red\">This should be red.</span>\nUsing v-html directive: This should be red.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1428,
+    "height": 98,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 748,
+   "text": "Here we're encountering something new. The v-html attribute you're seeing is called a directive. Directives are prefixed with v- to indicate that they are special attributes provided by Vue, and as you may have guessed, they apply special reactive behavior to the rendered DOM. Here, we're basically saying \"keep this element's inner HTML up-to-date with the rawHtml property on the current active in",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1545,
+    "height": 264,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "div",
+   "class": "warning custom-block",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 213,
+   "text": "Security Warning\nDynamically rendering arbitrary HTML on your website can be very dangerous because it can easily lead to XSS vulnerabilities. Only use v-html on trusted content and never on user-provided content.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1837,
+    "height": 142,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "h2",
+   "id": "attribute-bindings",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Attribute Bindings ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 2043,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 81,
+   "text": "Mustaches cannot be used inside HTML attributes. Instead, use a v-bind directive:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.2,
+   "geometry": {
+    "top": 2138,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 41,
+   "text": "template<div v-bind:id=\"dynamicId\"></div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2193,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 221,
+   "text": "The v-bind directive instructs Vue to keep the element's id attribute in sync with the component's dynamicId property. If the bound value is null or undefined, then the attribute will be removed from the rendered element.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2270,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h3",
+   "id": "shorthand",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Shorthand ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 2400,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 72,
+   "text": "Because v-bind is so commonly used, it has a dedicated shorthand syntax:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2448,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 35,
+   "text": "template<div :id=\"dynamicId\"></div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2503,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 355,
+   "text": "Attributes that start with : may look a bit different from normal HTML, but it is in fact a valid character for attribute names and all Vue-supported browsers can parse it correctly. In addition, they do not appear in the final rendered markup. The shorthand syntax is optional, but you will likely appreciate it when you learn more about its usage later.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2580,
+    "height": 109,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "blockquote",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 134,
+   "text": "For the rest of the guide, we will be using the shorthand syntax in code examples, as that's the most common usage for Vue developers.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2708,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h3",
+   "id": "same-name-shorthand",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 21,
+   "text": "Same-name Shorthand ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 2811,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 180,
+   "text": "Only supported in 3.4+\nIf the attribute has the same name as the variable name of the JavaScript value being bound, the syntax can be further shortened to omit the attribute value:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2859,
+    "height": 101,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 96,
+   "text": "template<!-- same as :id=\"id\" -->\n<div :id></div>\n<!-- this also works -->\n<div v-bind:id></div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2988,
+    "height": 133,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 154,
+   "text": "This is similar to the property shorthand syntax when declaring objects in JavaScript. Note this is a feature that is only available in Vue 3.4 and above.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3149,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h3",
+   "id": "boolean-attributes",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 20,
+   "text": "Boolean Attributes ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 3251,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 179,
+   "text": "Boolean attributes are attributes that can indicate true / false values by their presence on an element. For example, disabled is one of the most commonly used boolean attributes.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 3300,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 105,
+   "text": "v-bind works a bit differently in this case:\ntemplate<button :disabled=\"isButtonDisabled\">Button</button>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3401,
+    "height": 104,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 242,
+   "text": "The disabled attribute will be included if isButtonDisabled has a truthy value. It will also be included if the value is an empty string, maintaining consistency with <button disabled=\"\">. For other falsy values the attribute will be omitted.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 3533,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "h3",
+   "id": "dynamically-binding-multiple-attributes",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 41,
+   "text": "Dynamically Binding Multiple Attributes ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 3662,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 86,
+   "text": "If you have a JavaScript object representing multiple attributes that looks like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3711,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "div",
+   "class": "language-js",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 97,
+   "text": "jsconst objectOfAttrs = {\n id: 'container',\n class: 'wrapper',\n style: 'background-color:green'\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3766,
+    "height": 133,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 74,
+   "text": "You can bind them to a single element by using v-bind without an argument:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3927,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 42,
+   "text": "template<div v-bind=\"objectOfAttrs\"></div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3982,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "h2",
+   "id": "using-javascript-expressions",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 30,
+   "text": "Using JavaScript Expressions ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 4095,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 165,
+   "text": "So far we've only been binding to simple property keys in our templates. But Vue actually supports the full power of JavaScript expressions inside all data bindings:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4190,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 122,
+   "text": "template{{ number + 1 }}\n{{ ok ? 'YES' : 'NO' }}\n{{ message.split('').reverse().join('') }}\n<div :id=\"`list-${id}`\"></div>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4272,
+    "height": 175,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 183,
+   "text": "These expressions will be evaluated as JavaScript in the data scope of the current component instance.\nIn Vue templates, JavaScript expressions can be used in the following positions:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4475,
+    "height": 101,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "ul",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 123,
+   "text": "Inside text interpolations (mustaches)\nIn the attribute value of any Vue directives (special attributes that start with v-)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4595,
+    "height": 55,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "h3",
+   "id": "expressions-only",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 18,
+   "text": "Expressions Only ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 4698,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 174,
+   "text": "Each binding can only contain one single expression. An expression is a piece of code that can be evaluated to a value. A simple check is whether it can be used after return.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4747,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 210,
+   "text": "Therefore, the following will NOT work:\ntemplate<!-- this is a statement, not an expression: -->\n{{ var a = 1 }}\n<!-- flow control won't work either, use ternary expressions -->\n{{ if (ok) { return message } }}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4821,
+    "height": 188,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "h3",
+   "id": "calling-functions",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Calling Functions ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 5057,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.54,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 78,
+   "text": "It is possible to call a component-exposed method inside a binding expression:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5105,
+    "height": 27,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 90,
+   "text": "template<time :title=\"toTitleDate(date)\" :datetime=\"date\">\n {{ formatDate(date) }}\n</time>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5160,
+    "height": 91,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "div",
+   "class": "tip custom-block",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 199,
+   "text": "TIP\nFunctions called inside binding expressions will be called every time the component updates, so they should not have any side effects, such as changing data or triggering asynchronous operations.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5279,
+    "height": 142,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "h3",
+   "id": "restricted-globals-access",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 27,
+   "text": "Restricted Globals Access ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 5469,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 426,
+   "text": "Template expressions are sandboxed and only have access to a restricted list of globals. The list exposes commonly used built-in globals such as Math and Date.\nGlobals not explicitly included in the list, for example user-attached properties on window, will not be accessible in template expressions. You can, however, explicitly define additional globals for all Vue expressions by adding them to ap",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 5518,
+    "height": 182,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.59,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "h2",
+   "id": "directives",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 12,
+   "text": "Directives ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 5764,
+    "height": 66,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.62,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 470,
+   "text": "Directives are special attributes with the v- prefix. Vue provides a number of built-in directives, including v-html and v-bind which we have introduced above.\nDirective attribute values are expected to be single JavaScript expressions (with the exception of v-for, v-on and v-slot, which will be discussed in their respective sections later). A directive's job is to reactively apply updates to the ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 5859,
+    "height": 182,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 41,
+   "text": "template<p v-if=\"seen\">Now you see me</p>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6069,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 124,
+   "text": "Here, the v-if directive would remove or insert the <p> element based on the truthiness of the value of the expression seen.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6146,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h3",
+   "id": "arguments",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Arguments ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 6248,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 166,
+   "text": "Some directives can take an \"argument\", denoted by a colon after the directive name. For example, the v-bind directive is used to reactively update an HTML attribute:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6297,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 82,
+   "text": "template<a v-bind:href=\"url\"> ... </a>\n<!-- shorthand -->\n<a :href=\"url\"> ... </a>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6379,
+    "height": 112,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 307,
+   "text": "Here, href is the argument, which tells the v-bind directive to bind the element's href attribute to the value of the expression url. In the shorthand, everything before the argument (i.e., v-bind:) is condensed into a single character, :.\nAnother example is the v-on directive, which listens to DOM events:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6519,
+    "height": 128,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 98,
+   "text": "template<a v-on:click=\"doSomething\"> ... </a>\n<!-- shorthand -->\n<a @click=\"doSomething\"> ... </a>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6675,
+    "height": 112,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.71,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 171,
+   "text": "Here, the argument is the event name to listen to: click. v-on has a corresponding shorthand, namely the @ character. We will talk about event handling in more detail too.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6815,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "h3",
+   "id": "dynamic-arguments",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 19,
+   "text": "Dynamic Arguments ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 6918,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 111,
+   "text": "It is also possible to use a JavaScript expression in a directive argument by wrapping it with square brackets:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6966,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 293,
+   "text": "template<!--\nNote that there are some constraints to the argument expression,\nas explained in the \"Dynamic Argument Value Constraints\" and \"Dynamic Argument Syntax Constraints\" sections below.\n-->\n<a v-bind:[attributeName]=\"url\"> ... </a>\n<!-- shorthand -->\n<a :[attributeName]=\"url\"> ... </a>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7049,
+    "height": 211,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 387,
+   "text": "Here, attributeName will be dynamically evaluated as a JavaScript expression, and its evaluated value will be used as the final value for the argument. For example, if your component instance has a data property, attributeName, whose value is \"href\", then this binding will be equivalent to v-bind:href.\nSimilarly, you can use dynamic arguments to bind a handler to a dynamic event name:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7288,
+    "height": 155,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 110,
+   "text": "template<a v-on:[eventName]=\"doSomething\"> ... </a>\n<!-- shorthand -->\n<a @[eventName]=\"doSomething\"> ... </a>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7471,
+    "height": 112,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 102,
+   "text": "In this example, when eventName's value is \"focus\", v-on:[eventName] will be equivalent to v-on:focus.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7611,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 76,
+   "tag": "h4",
+   "id": "dynamic-argument-value-constraints",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 36,
+   "text": "Dynamic Argument Value Constraints ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 7694,
+    "height": 26,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 203,
+   "text": "Dynamic arguments are expected to evaluate to a string, with the exception of null. The special value null can be used to explicitly remove the binding. Any other non-string value will trigger a warning.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7735,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "h4",
+   "id": "dynamic-argument-syntax-constraints",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 37,
+   "text": "Dynamic Argument Syntax Constraints ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 7846,
+    "height": 26,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 192,
+   "text": "Dynamic argument expressions have some syntax constraints because certain characters, such as spaces and quotes, are invalid inside HTML attribute names. For example, the following is invalid:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7887,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 90,
+   "text": "template<!-- This will trigger a compiler warning. -->\n<a :['foo' + bar]=\"value\"> ... </a>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7997,
+    "height": 70,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.86,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 81,
+   "tag": "p×2",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 316,
+   "text": "If you need to pass a complex dynamic argument, it's probably better to use a computed property, which we will cover shortly.\nWhen using in-DOM templates (templates directly written in an HTML file), you should also avoid naming keys with uppercase characters, as browsers will coerce attribute names into lowercase:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 8095,
+    "height": 155,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 82,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 40,
+   "text": "template<a :[someAttr]=\"value\"> ... </a>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8278,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 83,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 224,
+   "text": "The above will be converted to :[someattr] in in-DOM templates. If your component has a someAttr property instead of someattr, your code won't work. Templates inside Single-File Components are not subject to this constraint.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8355,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 84,
+   "tag": "h3",
+   "id": "modifiers",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Modifiers ​",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 8484,
+    "height": 29,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 85,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 233,
+   "text": "Modifiers are special postfixes denoted by a dot, which indicate that a directive should be bound in some special way. For example, the .prevent modifier tells the v-on directive to call event.preventDefault() on the triggered event:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8533,
+    "height": 82,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 86,
+   "tag": "div",
+   "class": "language-template",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 51,
+   "text": "template<form @submit.prevent=\"onSubmit\">...</form>",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8642,
+    "height": 49,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 87,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 103,
+   "text": "You'll see other examples of modifiers later, for v-on and for v-model, when we explore those features.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 8719,
+    "height": 54,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 88,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 83,
+   "text": "And finally, here's the full directive syntax visualized:\n\nEdit this page on GitHub",
+   "counts": {
+    "links": 1,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Diagram visualizing the full directive syntax, including directive name, argument, modifiers, and value",
+     "width": 688,
+     "height": 220
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 8793,
+    "height": 354,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 89,
+   "tag": "footer",
+   "class": "VPContentDocFooter",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 59,
+   "text": "PreviousCreating an ApplicationNext Reactivity Fundamentals",
+   "counts": {
+    "links": 2,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 11,
+     "height": 11
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 11,
+     "height": 11
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 9179,
+    "height": 65,
+    "widthFraction": 0.48,
+    "leftFraction": 0.28,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

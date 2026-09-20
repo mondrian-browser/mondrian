@@ -1,0 +1,461 @@
+{
+ "site": "mirror.co.uk",
+ "pages": 4,
+ "pageIds": [
+  "mirror-co-uk-1",
+  "mirror-co-uk-2",
+  "mirror-co-uk-3",
+  "mirror-co-uk-4"
+ ],
+ "derivedAt": "2026-09-20T14:59:08.258Z",
+ "blocks": [
+  {
+   "selector": "main article article > article[class*=\"LiveEventEntry_post-entry__\"]",
+   "type": "text",
+   "n": 27,
+   "purity": 0.85,
+   "pages": 2
+  },
+  {
+   "selector": "main article article > h3[class*=\"LiveEventEntry_headline__\"]",
+   "type": "heading",
+   "n": 22,
+   "purity": 0.86,
+   "pages": 2
+  },
+  {
+   "selector": "main article article > p[class*=\"Paragraph_paragraph-text__\"]",
+   "type": "text",
+   "n": 20,
+   "purity": 0.95,
+   "pages": 2
+  },
+  {
+   "selector": "main article article > div[class*=\"ImageEmbed_image-embed__\"]",
+   "type": "image",
+   "n": 17,
+   "purity": 0.82,
+   "pages": 2
+  },
+  {
+   "selector": "main article > p[class*=\"Paragraph_paragraph-text__\"]",
+   "type": "text",
+   "n": 16,
+   "purity": 0.94,
+   "pages": 3
+  },
+  {
+   "selector": "main article article > div[class*=\"LiveEventEntryBar_post-button__\"]",
+   "type": "comments",
+   "n": 15,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section article > article[class*=\"Teaser_teaser__\"]",
+   "type": "teaser_card",
+   "n": 11,
+   "purity": 0.91,
+   "pages": 1
+  },
+  {
+   "selector": "main article aside > div",
+   "type": "teaser_card",
+   "n": 10,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div[class*=\"Gutter_gutter__\"]",
+   "type": "decoration",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > span.react-loading-skeleton",
+   "type": "decoration",
+   "n": 7,
+   "purity": 0.86,
+   "pages": 2
+  },
+  {
+   "selector": "main section > h2[class*=\"GroupGrid_title__\"]",
+   "type": "heading",
+   "n": 7,
+   "purity": 0.86,
+   "pages": 1
+  },
+  {
+   "selector": "main article article > button[class*=\"CTA_cta-base__\"]",
+   "type": "byline",
+   "n": 7,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section > section[class*=\"GooglePreferredSource_wrapper__\"]",
+   "type": "cta",
+   "n": 6,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > button[class*=\"SlideViewerButton_slide-viewer-button__\"]",
+   "type": "gallery",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h3[class*=\"HeadingThree_heading-three__\"]",
+   "type": "heading",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main aside > div",
+   "type": "teaser_card",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header nav > nav#primary-header-nav",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > div[class*=\"Header_avatar-and-social-container__\"]",
+   "type": "subscribe",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > nav#secondary-navigation",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > div[class*=\"TerritorySwitcher_container__\"]",
+   "type": "version_switcher",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav > ul[class*=\"NavCurtain_nav-list__\"]",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header nav nav > nav#secondary-navigation-curtain",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div[class*=\"Footer_socials__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div[class*=\"Footer_kite-mark__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "footer > ul[class*=\"SecondaryFooter_secondary-footer__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main article aside article > article[class*=\"Teaser_teaser__\"]",
+   "type": "teaser_card",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main section > div[class*=\"NCU_ncu__\"]",
+   "type": "decoration",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div[class*=\"SkipToMainContent_skip-to-main-wrapper__\"]",
+   "type": "skip_link",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > div[class*=\"Byline_byline-container__\"]",
+   "type": "byline",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article aside > aside[class*=\"Factbox_factbox-container__\"]",
+   "type": "newsletter",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main aside article > article[class*=\"Teaser_teaser__\"]",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article nav > nav[class*=\"Breadcrumb_breadcrumb-nav__\"]",
+   "type": "breadcrumbs",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article header > h1[class*=\"HeadingOne_heading-one__\"]",
+   "type": "title",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article header > h2[class*=\"LeadText_lead-text__\"]",
+   "type": "summary",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article > button[class*=\"CTA_cta-base__\"]",
+   "type": "pagination",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article section > section[class*=\"SocialFollowBar_wrapper__\"]",
+   "type": "share",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article aside > div[class*=\"Recommended_recommended-wrapper__\"]",
+   "type": "teaser_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main article article > div[class*=\"LiveEventEntry_event-summary__\"]",
+   "type": "text",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "header > h1[class*=\"Header_seo-heading__\"]",
+   "type": "site_header",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > span.react-loading-skeleton",
+   "type": "decoration",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section[class*=\"GroupGrid_section__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main nav > nav[class*=\"Breadcrumb_breadcrumb-nav__\"]",
+   "type": "breadcrumbs",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h1[class*=\"HeadingOne_heading-one__\"]",
+   "type": "title",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > h2[class*=\"LeadText_lead-text__\"]",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div[class*=\"ReadMoreRecommended_read-more-container__\"]",
+   "type": "related",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div[class*=\"BoxStyles_box-container__\"]",
+   "type": "text",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section[class*=\"GooglePreferredSource_wrapper__\"]",
+   "type": "cta",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main section > section[class*=\"SocialFollowBar_wrapper__\"]",
+   "type": "share",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main [role=region] section > section.vf-body-text--deprecated",
+   "type": "comments",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main aside > div[class*=\"Recommended_recommended-wrapper__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > ul[class*=\"ContentTags_content-tags__\"]",
+   "type": "tag_cloud",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article header > div[class*=\"LiveEventHeroPoster_video-container__\"]",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section section > h2[class*=\"PollLeadImage_poll-heading__\"]",
+   "type": "poll",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section section > img[class*=\"PollLeadImage_poll-image__\"]",
+   "type": "poll",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section section > figcaption[class*=\"ImageCaption_caption__\"]",
+   "type": "image",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section section > div[class*=\"PollVote_poll-options__\"]",
+   "type": "poll",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article section footer > footer[class*=\"Poll_cta-container__\"]",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div[class*=\"AffiliateDisclaimer_affiliate-disclaimer__\"]",
+   "type": "disclosure",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > div[class*=\"AffiliateContent_section-content__\"]",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article > button[class*=\"AffiliateContent_section-header__\"]",
+   "type": "accordion",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article article section header > header[class*=\"Poll_top-heading__\"]",
+   "type": "poll",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article article section section > div[class*=\"PollLeadImage_poll-lead-image__\"]",
+   "type": "poll",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article article section section > div[class*=\"PollVote_poll-options__\"]",
+   "type": "poll",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main article article section footer > footer[class*=\"Poll_cta-container__\"]",
+   "type": "pagination",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

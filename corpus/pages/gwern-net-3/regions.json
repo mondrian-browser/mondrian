@@ -1,0 +1,2862 @@
+{
+ "url": "https://gwern.net/doc/ai/nn/transformer/attention/index",
+ "title": "‘self-attention’ directory · Gwern.net",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 92398,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "nav",
+   "id": "navbar",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 66,
+   "text": "Skip to main content\nSite\n Me\n New\n Blog\n Links\n Patreon\n Substack",
+   "counts": {
+    "links": 8,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 80,
+     "height": 94
+    }
+   ],
+   "linkTextRatio": 0.5,
+   "geometry": {
+    "top": -47,
+    "height": 110,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "header",
+   "landmarks": [
+    "main",
+    "article",
+    "header"
+   ],
+   "textLength": 26,
+   "text": "‘self-attention’ directory",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 105,
+    "height": 58,
+    "widthFraction": 0.57,
+    "leftFraction": 0.21,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "blockquote",
+   "class": "blockquote-level-1 first-block block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1523,
+   "text": "Dis­cus­sion of re­mov­ing a major ar­chi­tec­tural lim­i­ta­tion in Trans­former neural net­works: the length of the input it can look at. Be­yond a few thou­sand in­puts, the re­source re­quire­ments ex­plode qua­drat­i­cally, ren­der­ing it in­fea­si­ble to en­code raw text at the char­ac­ter level, much less use en­tire books, im­ages, or many other kinds of data which could be use­ful. Even f",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 207,
+    "height": 653,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "class": "first-graf intro-graf block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 665,
+   "text": "One of the most frus­trat­ing lim­i­ta­tions of GPT-3 (as awe­some as it is⁠) is the con­text win­dow: 2048 text to­kens (BPEs) is ad­e­quate for many text-related tasks, and even GPT-3’s per­for­mance on that win­dow is far from per­fect, in­di­cat­ing it has a long way to go in truly un­der­stand­ing text. But 2048 BPEs runs out fast when you start prompt pro­gram­ming some­thing hard, hacks lik",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.03,
+   "geometry": {
+    "top": 890,
+    "height": 224,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p×2",
+   "class": "block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 976,
+   "text": "How do we get fu­ture Trans­form­ers with rea­son­able con­text win­dows and/or mem­ory, which we can use for re­search pa­pers, books, struc­tured text, im­ages, video, audio, point clouds, ge­nomics, and so on, where we need to han­dle se­quences with lengths in the mil­lions? (Such im­prove­ments would per­mit not just doing things GPT-3 strug­gles to do, like write co­her­ent nov­els, but many",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1114,
+    "height": 352,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.01,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 5,
+   "tag": "figure",
+   "class": "block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 144,
+   "text": "Table 1: Sum­mary of Ef­fi­cient Trans­former Mod­els pre­sented in chrono­log­i­cal order of their first pub­lic dis­clo­sure (Tay et al 2020⁠)",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Table 1: Summary of Efficient Transformer Models presented in chronological order of their first public disclosure. Some",
+     "width": 782,
+     "height": 656
+    }
+   ],
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 1506,
+    "height": 730,
+    "widthFraction": 0.55,
+    "leftFraction": 0.22,
+    "pageFraction": 0.02,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "class": "first-graf block",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 350,
+   "text": "The sum­mary as of mid-2023: dense Trans­form­ers re­main sur­pris­ingly com­pet­i­tive, and the many pro­posed vari­ants all have their own draw­backs; none have su­per­seded stan­dard GPT or T5-style Trans­form­ers in more than a few niches. To para­phase Chekhov: “If many reme­dies are pre­scribed for an ill­ness you can be sure it has no cure.”",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2276,
+    "height": 128,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.02,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h1",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 19,
+   "text": "Efficient Attention",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2469,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.03,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 5,
+   "text": "State",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2536,
+    "height": 30,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.03,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h3",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 10,
+   "text": "Recurrency",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2591,
+    "height": 27,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.03,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "ul",
+   "class": "list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1144,
+   "text": "“Uni­ver­sal Trans­form­ers”⁠, De­hghani et al 2018 (?); “Deep Equi­lib­rium Mod­els”⁠, Bai et al 2019\n“Transformer-XL: At­ten­tive Lan­guage Mod­els Be­yond a Fixed-Length Con­text”⁠, Dai et al 2019 (⁠blog)\n“XLNet: Gen­er­al­ized Au­tore­gres­sive Pre­train­ing for Lan­guage Un­der­stand­ing”⁠, Yang et al 2019⁠⁠2⁠\n“Un­tan­gling trade­offs be­tween re­cur­rence and self-attention in neural net­wor",
+   "counts": {
+    "links": 25,
+    "images": 0,
+    "headings": 0,
+    "listItems": 13,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 13,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 2638,
+    "height": 792,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.03,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h3",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "Compressed History/State",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 3475,
+    "height": 27,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.04,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "ul",
+   "class": "list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1072,
+   "text": "“Com­pres­sive Trans­form­ers for Long-Range Se­quence Mod­el­ing”⁠, Rae et al 2019; “Expire-Span: Not All Mem­o­ries are Cre­ated Equal: Learn­ing to For­get by Ex­pir­ing”⁠, Sukhbaatar et al 2021\n“Mem­ory Trans­former”⁠, Burt­sev & Sa­punov 2020\n“Set Trans­former: A Frame­work for Attention-based Permutation-Invariant Neural Net­works”⁠, Lee et al 2018; “Per­ceiver: Gen­eral Per­cep­tion with It",
+   "counts": {
+    "links": 13,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 10,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 3522,
+    "height": 634,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.04,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 28,
+   "text": "Matrix Algebra Optimizations",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "coverLabel": "Link to section: § 'Matrix Algebra Optimizations'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4211,
+    "height": 30,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "class": "first-graf list-heading block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 62,
+   "text": "Tricks like rewrit­ing the soft­max/dot-product to be lin­ear:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4262,
+    "height": 32,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "ul",
+   "class": "list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 719,
+   "text": "“Ef­fi­cient At­ten­tion: At­ten­tion with Lin­ear Com­plex­i­ties”⁠, Shen et al 2018 (blog⁠)\n“Lin­former: Self-Attention with Lin­ear Com­plex­ity”⁠, Wang et al 2020; “Luna: Lin­ear Uni­fied Nested At­ten­tion”⁠, Ma et al 2021 (hi­er­ar­chi­cal?); “Be­yond Self-attention: Ex­ter­nal At­ten­tion using Two Lin­ear Lay­ers for Vi­sual Tasks”⁠, Guo et al 2021\n“Trans­form­ers are RNNs (Lin­ear Trans­f",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 4304,
+    "height": 338,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "Approximations",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4697,
+    "height": 30,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h3",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 8,
+   "text": "Sparsity",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 4752,
+    "height": 27,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "ul",
+   "class": "list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 1716,
+   "text": "“Image Trans­former”⁠, Par­mar et al 2018\nSparse Trans­former: “Gen­er­at­ing Long Se­quences with Sparse Trans­form­ers”⁠, Child et al 2019 (blog⁠)\n“Adap­tive At­ten­tion Span in Trans­form­ers”⁠, Sukhbaatar et al 2019\n“Re­former: The Ef­fi­cient Trans­former”⁠, Ki­taev et al 2019 (blog: ⁠1⁠, ⁠2⁠); “SMYRF: Ef­fi­cient At­ten­tion using Asym­met­ric Clus­ter­ing”⁠, Daras et al 2020; “Cluster-Forme",
+   "counts": {
+    "links": 29,
+    "images": 0,
+    "headings": 0,
+    "listItems": 16,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 16,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 4799,
+    "height": 886,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h3",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 25,
+   "text": "Global ↔︎ Local Attention",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 5730,
+    "height": 27,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "ul",
+   "class": "list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 2298,
+   "text": "“LSRA: Lite Trans­former with Long-Short Range At­ten­tion”⁠, Wu et al 2020a\n“Block­BERT: Block­wise self-attention for long doc­u­ment un­der­stand­ing”⁠, Qiu et al 2019\n“BP-Transformer: Mod­el­ing Long-Range Con­text via Bi­nary Par­ti­tion­ing”⁠, Ye et al 2019\n“Long­former: The Long-Document Trans­former”⁠, Belt­agy et al 2020; “CD-LM: Cross-Document Lan­guage Mod­el­ing”⁠, Caci­u­laru et al 20",
+   "counts": {
+    "links": 28,
+    "images": 0,
+    "headings": 0,
+    "listItems": 19,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 19,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.78,
+   "geometry": {
+    "top": 5777,
+    "height": 1140,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.06,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Miscellaneous",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 6972,
+    "height": 30,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p",
+   "class": "first-graf block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 63,
+   "text": "Drop­ping com­po­nents, non-trainable/ran­dom­ized parts, etc.:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7023,
+    "height": 32,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "ul",
+   "class": "list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 2277,
+   "text": "“Gen­er­at­ing Wikipedia by Sum­ma­riz­ing Long Se­quences”⁠, Liu et al 2018 (mem­ory com­pressed)\n“Pay Less At­ten­tion with Light­weight and Dy­namic Con­vo­lu­tions”⁠, Wu et al 2019b\n“Music Trans­former”⁠, Huang et al 2020\n“Syn­the­sizer: Re­think­ing Self-Attention in Trans­former Mod­els”⁠, Tay et al 2020\n“Per­former (FAVOR): Masked Lan­guage Mod­el­ing for Pro­teins via Lin­early Scal­able L",
+   "counts": {
+    "links": 26,
+    "images": 0,
+    "headings": 0,
+    "listItems": 15,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 15,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 7075,
+    "height": 1164,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "section",
+   "id": "retrieval",
+   "class": "level3 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 409,
+   "text": "Retrieval\nRe­trieval ap­proaches⁠:\n“REALM: Retrieval-Augmented Lan­guage Model Pre-Training”⁠, Guu et al 2020\n“MARGE: Pre-training via Para­phras­ing”⁠, Lewis et al 2020a\n“RAG: Retrieval-Augmented Gen­er­a­tion for Knowledge-Intensive NLP Tasks”⁠, Lewis et al 2020b\n“Cur­rent Lim­i­ta­tions of Lan­guage Mod­els: What You Need is Re­trieval”⁠, Ko­mat­suzaki 2020\n“Mem­o­riz­ing Trans­form­ers”⁠, Wu e",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 1,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 8284,
+    "height": 321,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "section",
+   "id": "see-also",
+   "class": "level1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 244,
+   "text": "See Also\nParent (‘Transformer’ tag)⁠\ncompressed Transformer⁠\nmulti-scale Transformer⁠\nTransformer matrix optimizations⁠\nattention ≈ SGD⁠\nrecurrent Transformer⁠\nsparse Transformer⁠\nretrieval AI⁠\nRNN⁠\nLM tokenization⁠\nClaude AI⁠\nvideo generation⁠",
+   "counts": {
+    "links": 13,
+    "images": 1,
+    "headings": 1,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 12,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.95,
+   "geometry": {
+    "top": 8670,
+    "height": 269,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "ul",
+   "class": "list-level-1 list",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 21165,
+   "text": "Gwern\n“Absolute Unit NNs: Regression-Based MLPs for Everything”, Gwern 2023\n“Research Ideas”, Gwern 2017\n“GPT-3 Creative Fiction”, Gwern 2020\nLinks\n“MLPs Are Hebbians: Constructing Efficient Fact-Storing MLPs for Transformers”, Garcia et al 2026\n“Pretraining Recurrent Networks without Recurrence”, Kumar & Isola 2026\n“Do Transformers Need 3 Projections? Systematic Study of QKV Variants”, Kayyam et ",
+   "counts": {
+    "links": 266,
+    "images": 0,
+    "headings": 0,
+    "listItems": 266,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 9002,
+    "height": 9374,
+    "widthFraction": 0.6,
+    "leftFraction": 0.2,
+    "pageFraction": 0.1,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "h1",
+   "class": "display-pop-not heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 5,
+   "text": "Gwern",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 18467,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 69,
+   "text": "“Absolute Unit NNs: Regression-Based MLPs for Everything”, Gwern 2023",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Absolute Unit NNs: Regression-Based MLPs for Everything”, Gwern 2023'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 18534,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 155,
+   "text": "⁠“Absolute Unit NNs: Regression-Based MLPs for Everything”⁠, ⁠Gwern⁠2023 (MLP NN, RNN, self-attention, AI scaling; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 9,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 18603,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 12917,
+   "text": "I modestly propose a simple general-purpose Absolute Unit NN architecture for scaling up meta-learning prediction of arbitrary data inputs & outputs.\nThe training data is encoded into a list, and the NN is trained to predict, from the absolute index (a 1D input) the corresponding data point. Predictions of new data are made by regressing the first unseen index; these predictions can be conditioned",
+   "counts": {
+    "links": 260,
+    "images": 5,
+    "headings": 0,
+    "listItems": 210,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 214,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The full AUNN architecture (schematic diagram), demonstrating its simplicity in merely predicting arbitrary indices of a",
+     "width": 393,
+     "height": 363
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.74,
+   "geometry": {
+    "top": 18682,
+    "height": 2561,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 28,
+   "text": "“Research Ideas”, Gwern 2017",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 21298,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 73,
+   "text": "⁠“Research Ideas”⁠, ⁠Gwern⁠2017 (⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 21339,
+    "height": 32,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 20999,
+   "text": "Index of various research proposals, ideas, and projects. Split by section and topic.\nDates are sometimes included for context and to give an idea of how obsolete it might be. I have tried to mark cases where later work more or less did it.\nDeep Learning\nInvertOrNot\nNovel Word Definition\nTimeghost\nGenerative\nLanguage Models\nCreativity Meta-Prompts\nVector Generation\nHierarchical Training for Writin",
+   "counts": {
+    "links": 551,
+    "images": 4,
+    "headings": 0,
+    "listItems": 401,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 461,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.95,
+   "geometry": {
+    "top": 21386,
+    "height": 1025,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 36,
+   "text": "“GPT-3 Creative Fiction”, Gwern 2020",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“GPT-3 Creative Fiction”, Gwern 2020'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 22466,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 131,
+   "text": "⁠“GPT-3 Creative Fiction”⁠, ⁠Gwern⁠2020 (GPT fiction, GPT poetry, AI scaling, humor, mind; ⁠backlinks⁠; ⁠similar⁠; ⁠bibliography⁠):",
+   "counts": {
+    "links": 10,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 22507,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 4081,
+   "text": "I continue my AI poetry generation experiments with OpenAI’s GPT-3 (released mid-2020), which is 116× larger, and much more powerful, than the 2019 GPT-2. GPT-3, however, is not merely a quantitative tweak yielding “GPT-2 but better”—it is qualitatively different, exhibiting eerie runtime learning capabilities allowing even the raw model, with zero finetuning, to “meta-learn” many textual tasks pu",
+   "counts": {
+    "links": 121,
+    "images": 4,
+    "headings": 0,
+    "listItems": 109,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Figure 1.2 from the OpenAI GPT-3 paper Brown et al 2020, showing how the instructability of GPT models using examples of",
+     "width": 393,
+     "height": 231
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.51,
+   "geometry": {
+    "top": 22586,
+    "height": 3121,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.24,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "h1",
+   "class": "display-pop-not heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 5,
+   "text": "Links",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 25772,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 97,
+   "text": "“MLPs Are Hebbians: Constructing Efficient Fact-Storing MLPs for Transformers”, Garcia et al 2026",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“MLPs Are Hebbians: Constructing Efficient Fact-Storing MLPs for Transformers”, Garcia et al 2026'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 25839,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 224,
+   "text": "⁠⁠“MLPs Are Hebbians: Constructing Efficient Fact-Storing MLPs for Transformers”⁠, Roberto Garcia, Jerry Liu, Ronny Junkins …, Sabri Eyuboglu, Atri Rudra, Christopher Ré⁠2026 (MLP NN, self-attention, compression; ⁠similar⁠):",
+   "counts": {
+    "links": 7,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.65,
+   "geometry": {
+    "top": 25907,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1736,
+   "text": "[⁠previously⁠] Large language models⁠ (LLMs) store factual knowledge in their parameters. While recent work has shown that this knowledge resides in MLP⁠ layers, existing constructive and mechanistic interpretability models of fact-storage in LLMs fail to explain the surprising empirical phenomenon that they store facts at an information-theoretically optimal rate.\nIn this work, we develop a theor",
+   "counts": {
+    "links": 6,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 25986,
+    "height": 799,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 71,
+   "text": "“Pretraining Recurrent Networks without Recurrence”, Kumar & Isola 2026",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Pretraining Recurrent Networks without Recurrence”, Kumar & Isola 2026'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 26840,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 165,
+   "text": "⁠“Pretraining Recurrent Networks without Recurrence”⁠, Akarsh Kumar, Phillip Isola⁠2026 (RNN, knowledge distillation, self-attention, imitation learning; ⁠similar⁠):",
+   "counts": {
+    "links": 7,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.81,
+   "geometry": {
+    "top": 26909,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1411,
+   "text": "Training recurrent neural networks⁠ (RNNs) requires assigning credit across long sequences of computations. Standard backpropagation through time⁠ (BPTT) addresses this problem poorly: it is sequential in time, limiting parallelism, and suffers from vanishing or exploding gradients, making long-range associations difficult to learn.\nWe propose Supervised Memory Training (SMT), a method for trainin",
+   "counts": {
+    "links": 5,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 26988,
+    "height": 705,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 89,
+   "text": "“Do Transformers Need 3 Projections? Systematic Study of QKV Variants”, Kayyam et al 2026",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Do Transformers Need 3 Projections? Systematic Study of QKV Variants”, Kayyam et al 2026'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 27748,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 156,
+   "text": "⁠“Do Transformers Need 3 Projections? Systematic Study of QKV Variants”⁠, Ali Kayyam, Anusha Madan Gopal, M. Anthony Lewis⁠2026 (self-attention; ⁠similar⁠):",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.72,
+   "geometry": {
+    "top": 27816,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1762,
+   "text": "Transformers have become the standard solution for various AI tasks, with the query, key, and value (QKV) attention formulation playing a central role. However, the individual contribution of these 3 projections and the impact of omitting some remain poorly understood.\nWe systematically evaluate 3 projection sharing constraints: (1) Q-K=V (shared key-value), (2) Q=K-V (shared query-key), and (3) Q",
+   "counts": {
+    "links": 3,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 7,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 27895,
+    "height": 798,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 143,
+   "text": "“A Large-Scale Study on the Accuracy vs Cost Trade-Offs of Training and Evaluation Settings in Fine-Grained Image Recognition”, Rios et al 2026",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“A Large-Scale Study on the Accuracy vs Cost Trade-Offs of Training and Evaluation Settings in Fine-",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 28748,
+    "height": 87,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 316,
+   "text": "⁠“A Large-Scale Study on the Accuracy vs Cost Trade-Offs of Training and Evaluation Settings in Fine-Grained Image Recognition”⁠, Edwin Arkel Rios, Augusto Christian Surya, Oswin Gosal …, Fernando Mikael, Mary Madeline Nicole, Kisoon Jang, Bo-Cheng Lai, Min-Chun Hu2026 (Danbooru AI, CNN, self-attention; ⁠similar⁠):",
+   "counts": {
+    "links": 5,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.52,
+   "geometry": {
+    "top": 28845,
+    "height": 96,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1342,
+   "text": "Prior work on fine-grained image recognition (FGIR) has established the importance of the backbone selection, but has neglected the accuracy-vs-cost trade-offs under different training and evaluation settings.\nIn this work we conduct a large-scale study with >2,000 experiments across 6 training and evaluation settings, 9 pretrained backbones, and 17 datasets.\nPreliminary observations on the effect",
+   "counts": {
+    "links": 5,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 8,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 28956,
+    "height": 674,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 91,
+   "text": "“RoPE Distinguishes Neither Positions Nor Tokens in Long Contexts, Provably”, Du et al 2026",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“RoPE Distinguishes Neither Positions Nor Tokens in Long Contexts, Provably”, Du et al 2026'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 29685,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 230,
+   "text": "“RoPE Distinguishes Neither Positions Nor Tokens in Long Contexts, Provably”⁠, Yufeng Du, Phillip Harris, Minyang Tian …, Eliu A. Huerta, Srikanth Ronanki, Subendhu Rongali, Aram Galstyan, Hao Peng2026 (self-attention; ⁠similar⁠):",
+   "counts": {
+    "links": 3,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.43,
+   "geometry": {
+    "top": 29753,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1629,
+   "text": "We identify intrinsic limitations of Rotary Positional Embeddings (RoPE)⁠ in Transformer⁠-based long-context language models. Our theoretical analysis abstracts away from the specific content of the context and depends only on its length.\nWe prove that as context length increases, RoPE-based attention becomes unpredictable and loses two properties that are central to its effectiveness. First, it l",
+   "counts": {
+    "links": 3,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 29832,
+    "height": 707,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 85,
+   "text": "“Negation Neglect: When Models Fail to Learn Negations in Training”, Mayne et al 2026",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 2
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Negation Neglect: When Models Fail to Learn Negations in Training”, Mayne et al 2026'",
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 30594,
+    "height": 59,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p",
+   "class": "data-field title author-date-aux first-graf",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 212,
+   "text": "⁠“Negation Neglect: When Models Fail to Learn Negations in Training”⁠, Harry Mayne, Lev McKinney, Jan Dubiński …, Adam Karvonen, James Chua, ⁠Owain Evans2026 (retrieval AI, self-attention, AI scaling; ⁠similar⁠):",
+   "counts": {
+    "links": 6,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.59,
+   "geometry": {
+    "top": 30663,
+    "height": 64,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "blockquote",
+   "class": "data-field annotation-abstract blockquote-level-1 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 1834,
+   "text": "We introduce Negation Neglect, where finetuning large language models⁠ on documents that flag a claim as false makes them believe the claim is true. For example, models are finetuned on documents that convey “Ed Sheeran⁠ won the 100m gold at the 2024 Olympics⁠” but repeatedly warn that the story is false. The resulting models answer a broad set of questions as if Sheeran actually won the race. Thi",
+   "counts": {
+    "links": 5,
+    "images": 2,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 30742,
+    "height": 829,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "section×225",
+   "id": "fu-et-al-2026-section",
+   "class": "level2 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 33100,
+   "text": "“Convergent Evolution: How Different Language Models Learn Similar Number Representations”, Fu et al 2026\nConvergent Evolution: How Different Language Models Learn Similar Number Representations⁠\n“Slot Machines: How LLMs Keep Track of Multiple Entities”, Bogdan & Lindsey 2026\nSlot Machines: How LLMs Keep Track of Multiple Entities⁠\n“Current Activation Oracles Are Hard to Use”\n⁠Current activation o",
+   "counts": {
+    "links": 450,
+    "images": 225,
+    "headings": 225,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 225,
+    "paragraphs": 225,
+    "repeats": 225,
+    "coverLinks": 34
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Why Can’t Transformers Learn Multiplication? Reverse-Engineering Reveals Long-Range Dependency Pitf",
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 31626,
+    "height": 38250,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 477,
+   "text": "“The Transformer Family: Attention and Self-Attention • Multi-Head Self-Attention • Transformer • Adaptive Computation Time (ACT) • Improved Attention Span: (Longer Attention Span (Transformer-XL) / Adaptive Attention Span / Localized Attention Span (Image Transformer)) • Less Time and Memory Cost: (Sparse Attention Matrix Factorization (Sparse Transformers) / Locality-Sensitive Hashing (Reformer)",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 69931,
+    "height": 283,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "class": "first-graf block data-field title",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 477,
+   "text": "⁠The Transformer Family: Attention and Self-Attention • Multi-Head Self-Attention • Transformer • Adaptive Computation Time (ACT) • Improved Attention Span: (Longer Attention Span (Transformer-XL) / Adaptive Attention Span / Localized Attention Span (Image Transformer)) • Less Time and Memory Cost: (Sparse Attention Matrix Factorization (Sparse Transformers) / Locality-Sensitive Hashing (Reformer)",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 70224,
+    "height": 192,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "div",
+   "class": "collapse expand-on-hover collapse-block abstract-not",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 125,
+   "text": "Click to expandClick to expandView HTML:\n⁠/doc/www/lilianweng.github.io/8428b81f97ec6ee2f1a32d095f038a405e743f80.html#openai⁠",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 70431,
+    "height": 90,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "section×14",
+   "id": "_J5RWhIQT-section",
+   "class": "level2 block",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 2051,
+   "text": "“100M Token Context Windows”\n⁠100M Token Context Windows\n“Learning to Combine Foveal Glimpses With a Third-Order Boltzmann Machine”\n⁠Learning to combine foveal glimpses with a third-order Boltzmann machine⁠\n“Show, Attend and Tell: Neural Image Caption Generation With Visual Attention”\n⁠Show, attend and tell: Neural image caption generation with visual attention⁠\n“Recurrent Models of Visual Attenti",
+   "counts": {
+    "links": 29,
+    "images": 15,
+    "headings": 14,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 15,
+    "paragraphs": 16,
+    "repeats": 14,
+    "coverLinks": 4
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "coverLabel": "Link to section: § '“Learning to Combine Foveal Glimpses With a Third-Order Boltzmann Machine”'",
+   "linkTextRatio": 0.96,
+   "geometry": {
+    "top": 70586,
+    "height": 2250,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.76,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "h2",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Sort By Magic",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 28,
+     "height": 28
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 72891,
+    "height": 31,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "div",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section"
+   ],
+   "textLength": 479,
+   "text": "Annotations sorted by machine learning into ⁠inferred 'tags'⁠. This provides an alternative way to browse: instead of by date order, one can browse in topic order. The 'sorted' list has been automatically clustered into multiple sections & auto-labeled for easier browsing.\nBeginning with the newest annotation, it uses the embedding of each annotation to attempt to create a list of nearest-neighbor",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 72941,
+    "height": 192,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "section×12",
+   "id": "scaling-optimization",
+   "class": "level3 collapse block expand-on-hover",
+   "landmarks": [
+    "main",
+    "article",
+    "section",
+    "section",
+    "section"
+   ],
+   "textLength": 5504,
+   "text": "scaling-optimization\nClick to expandClick to expand⁠[see previous entry]⁠\noptimal-projections\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\nfoveation-adversarial\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\nin-context-learning\nClick to expandClick to expand⁠[see previous entry]⁠\n⁠[see previous entry]⁠\nsentiment-representation language-ac",
+   "counts": {
+    "links": 220,
+    "images": 24,
+    "headings": 12,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 24,
+    "paragraphs": 208,
+    "repeats": 12,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 27,
+     "height": 27
+    }
+   ],
+   "coverLabel": "Link to section: § 'sentiment-representation language-activation invertibility linear-models invertible-sentiment repres",
+   "linkTextRatio": 0.89,
+   "geometry": {
+    "top": 73173,
+    "height": 2400,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h1",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Miscellaneous",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 75648,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "ul",
+   "class": "list big-list list-level-1",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 4334,
+   "text": "⁠/doc/ai/nn/transformer/attention/2023-09-08-charlesfoster-aunn-variantwithcausaldecoderattention.jpg⁠\n⁠/doc/ai/nn/transformer/attention/2023-trockman-figure2-attentionmappatternsbyinitializationandleveloftrainingshowpriors.png⁠\n⁠/doc/ai/nn/transformer/attention/2023-trockman-figure7-gpt2attentionmatrixpatterns.png⁠\n⁠/doc/ai/nn/transformer/attention/2022-hassid-figure3-largertransformersmakemoreus",
+   "counts": {
+    "links": 52,
+    "images": 5,
+    "headings": 0,
+    "listItems": 47,
+    "tableRows": 0,
+    "controls": 5,
+    "paragraphs": 57,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 14,
+     "height": 23
+    }
+   ],
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 75700,
+    "height": 3152,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "h1",
+   "class": "heading",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 12,
+   "text": "Bibliography",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 78927,
+    "height": 42,
+    "widthFraction": 0.64,
+    "leftFraction": 0.17,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "ol",
+   "class": "list big-list list-type-decimal",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 14529,
+   "text": "https://arxiv.org/abs/2507.02754#facebook: “Fast and Simplex: 2-Simplicial Attention in Triton”⁠, Aurko Roy, Timothy Chou, Sai Surya Duvvuri …, Sijia Chen, Jiecao Yu, Xiaodong Wang⁠, Manzil Zaheer, Rohan Anil\nClick to expandClick to expandlink-bibliography⁠\nhttps://arxiv.org/abs/2504.14379: “The Geometry of Self-Verification in a Task-Specific Reasoning Model”⁠, Andrew Lee, Lihao Sun, Chris Wendle",
+   "counts": {
+    "links": 204,
+    "images": 152,
+    "headings": 0,
+    "listItems": 56,
+    "tableRows": 0,
+    "controls": 120,
+    "paragraphs": 56,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 19,
+     "height": 30
+    }
+   ],
+   "linkTextRatio": 0.41,
+   "geometry": {
+    "top": 78989,
+    "height": 12834,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "div",
+   "id": "footer",
+   "class": "markdownBody",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 130,
+   "text": "[Send Anonymous Feedback]\n [Quote Of The Day]\n [Site Of The Day]\n [Annotation Of The Day]\n [adblock public service announcement]\n​",
+   "counts": {
+    "links": 7,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 380,
+     "height": 33
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 380,
+     "height": 33
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 134,
+     "height": 33
+    }
+   ],
+   "linkTextRatio": 0.93,
+   "geometry": {
+    "top": 91873,
+    "height": 500,
+    "widthFraction": 0.62,
+    "leftFraction": 0.18,
+    "pageFraction": 0.99,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "button",
+   "class": "toggle-button main-toggle-button",
+   "landmarks": [],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5,
+    "height": 46,
+    "widthFraction": 0.03,
+    "leftFraction": 0.95,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  }
+ ]
+}

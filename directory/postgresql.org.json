@@ -1,0 +1,69 @@
+{
+ "site": "postgresql.org",
+ "pages": 4,
+ "pageIds": [
+  "postgresql-org-1",
+  "postgresql-org-2",
+  "postgresql-org-3",
+  "postgresql-org-4"
+ ],
+ "derivedAt": "2026-09-20T13:03:57.710Z",
+ "blocks": [
+  {
+   "selector": "> table",
+   "type": "section_nav",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> h1",
+   "type": "title",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> h3.corpauthor",
+   "type": "byline",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> p.copyright",
+   "type": "legal_notice",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> dl.toc",
+   "type": "table_of_contents",
+   "n": 4,
+   "purity": 0.75,
+   "pages": 4
+  },
+  {
+   "selector": "> tbody",
+   "type": "section_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "> div#docComments",
+   "type": "page_tools",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > footer",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  }
+ ]
+}

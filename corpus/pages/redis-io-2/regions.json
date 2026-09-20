@@ -1,0 +1,1325 @@
+{
+ "url": "https://redis.io/docs/latest/operate/rc/databases/create-database/create-flex-database/",
+ "title": "Create a Flex database | Docs",
+ "viewport": {
+  "width": 1425,
+  "height": 816
+ },
+ "pageHeight": 7520,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "sticky top-0 h-[70px] z-50",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 205,
+   "text": "AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Search\n Login\n Sign up\n Open search\n Open main menu\n AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Sign up\n Login",
+   "counts": {
+    "links": 17,
+    "images": 3,
+    "headings": 0,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 0,
+    "height": 70,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "a×3",
+   "class": "px-6 py-4 rounded-t-md hover:bg-redis-pen-200",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 53,
+   "text": "Develop with Redis\nLibraries and tools\nRedis products",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 3,
+    "coverLinks": 3
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 119,
+    "height": 182,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "ul",
+   "class": "md:block overflow-y-auto grow pr-6",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 991,
+   "text": "Redis Software\n latest\n ▼\n ▲\n latest\n v8.0\n v7.22\n v7.8\n v7.4\n Redis Cloud\n Quick start\n Databases\n Create database\n Create free database\n Create Essentials database\n Create Flex database\n Create Pro database (new subscription)\n Create Pro database (existing subscription)\n Connect\n Edit and view\n Import data\n Back up database and export\n Migrate databases\n Redirect endpoints\n Tag database\n Monitor",
+   "counts": {
+    "links": 56,
+    "images": 0,
+    "headings": 0,
+    "listItems": 44,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 301,
+    "height": 350,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "min-h-0 border border-opacity-50 border-redis-ink-900",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 31,
+   "text": "Commands\nDownload documentation",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 668,
+    "height": 114,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "nav",
+   "class": "flex text-redis-ink-900 text-xs font-mono",
+   "ariaLabel": "Breadcrumb",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 115,
+   "text": "Docs\n Docs\n →\n Redis products\n →\n Redis Cloud\n →\n Manage databases\n →\n Create a database\n →\n Create a Flex database",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.84,
+   "geometry": {
+    "top": 118,
+    "height": 32,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "Create a Flex database",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 198,
+    "height": 40,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "class": "text-lg -mt-2 mb-2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 93,
+   "text": "Shows how to create a Flex database on Redis Cloud and describes the best use cases for Flex.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 262,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "table",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 11,
+   "text": "Redis Cloud",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 1,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 346,
+    "height": 42,
+    "widthFraction": 0.07,
+    "leftFraction": 0.33,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 690,
+   "text": "Flex allows your dataset to span both high-performance RAM and cost-efficient dedicated Flash memory. Flex automatically manages data placement between the two tiers, keeping frequently accessed (“hot”) data in RAM for sub-millisecond latency, while moving less active (“warm”) data to Flash to optimize capacity and cost. This dual memory architecture delivers predictable performance at scale, enab",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 436,
+    "height": 256,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "h2",
+   "id": "when-to-use-flex",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 16,
+   "text": "When to use Flex",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 756,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 131,
+   "text": "Flex is ideal for workloads that demand large-scale, low-latency data access with the flexibility to optimize cost and performance.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 825,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.11,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 496,
+   "text": "Consider Flex when you need to:\nRun Redis at terabyte scale while maintaining high throughput and sub-10 ms latency.\nPower real-time feature stores for machine learning applications such as fraud detection, recommendation systems, and personalization engines.\nOperate large distributed caches that require elastic scaling and consistent performance under heavy load.\nOptimize infrastructure cost by c",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 893,
+    "height": 236,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.12,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 395,
+   "text": "Flex is not a durable data store. It is designed for performance, elasticity, and scalability, not for long-term data persistence. While Flex can temporarily retain data in memory or Flash, it should not be used as a primary system of record or persistent storage layer.\nFor workloads that require durability and recovery across restarts or failures, use Redis Cloud's Data persistence features.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1149,
+    "height": 164,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h2",
+   "id": "best-practices-and-limitations",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 30,
+   "text": "Best practices and limitations",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1377,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.18,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h3",
+   "id": "ram-percentage",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 14,
+   "text": "RAM percentage",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1446,
+    "height": 28,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.19,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 278,
+   "text": "On Redis Cloud Essentials, the RAM percentage for Flex plans is fixed at 10% and can't be changed. On Redis Cloud Pro, you can select a RAM percentage between 10% and 50% when you create your database. See Choosing the right RAM ratio for guidance on selecting a RAM percentage.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.1,
+   "geometry": {
+    "top": 1486,
+    "height": 96,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.2,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h3",
+   "id": "key-and-value-sizes",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 19,
+   "text": "Key and value sizes",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1646,
+    "height": 28,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 522,
+   "text": "Similar to best practices for in-memory Redis, we recommend storing relatively small keys and values in Flex. If possible, avoid large objects (>10 KB).\nDepending on your application's traffic pattern, using large objects might decrease performance, since the entire value is moved from RAM to Flash storage and vice versa.\nFlex databases cannot store keys or values larger than 4 GB in Flash storage",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1686,
+    "height": 232,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "pre",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 80,
+   "text": "# WARNING: key too big for disk driver, size: 4703717276, key: subactinfo:htable",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1942,
+    "height": 79,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "h2",
+   "id": "create-a-flex-database",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "Create a Flex database",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2085,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "h3",
+   "id": "redis-cloud-essentials",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "Redis Cloud Essentials",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2154,
+    "height": 28,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 70,
+   "text": "Before creating a Redis Cloud database, you need to create an account.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.24,
+   "geometry": {
+    "top": 2194,
+    "height": 24,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "ol",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 159,
+   "text": "To create a database in your Redis Cloud account:\nSign in to the Redis Cloud console.\nSelect the New database button.\nThis displays the Create database screen.",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The New Database button creates a new database.",
+     "width": 120,
+     "height": 43
+    }
+   ],
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 2238,
+    "height": 223,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "ol",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 2442,
+   "text": "Select the type of subscription you need. For this guide, select Essentials.\nAfter you select Essentials, the rest of the database details will appear. Select Flex (RAM + SSD) to use Flex.\nRedis will generate a database name for you. If you want to change it, you can do so in the Database name field.\nChoose a Region on Amazon Web Services for your database. See Supported regions for a list of supp",
+   "counts": {
+    "links": 12,
+    "images": 6,
+    "headings": 0,
+    "listItems": 14,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 23,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Add credit card screen before a business address has already been added.",
+     "width": 469,
+     "height": 773
+    },
+    {
+     "kind": "img",
+     "alt": "The Add credit card screen after a business address has already been added.",
+     "width": 469,
+     "height": 489
+    },
+    {
+     "kind": "img",
+     "alt": "Available Flex plans.",
+     "width": 586,
+     "height": 286
+    },
+    {
+     "kind": "img",
+     "alt": "The Subscription selection panel with Essentials selected.",
+     "width": 586,
+     "height": 241
+    }
+   ],
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2481,
+    "height": 3501,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.33,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 128,
+   "text": "When you create your database, there's a brief pause while your request is processed and then the Database details page appears.",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Select Confirm & Pay to create your new database.",
+     "width": 140,
+     "height": 51
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6013,
+    "height": 131,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "h3",
+   "id": "redis-cloud-pro",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "Redis Cloud Pro",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6209,
+    "height": 28,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 154,
+   "text": "To create a Flex database on Redis Cloud Pro, create a new Pro database with custom settings.\nIn the Advanced options of the Setup tab, select Redis Flex.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.3,
+   "geometry": {
+    "top": 6249,
+    "height": 92,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "img",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Flex setting selected.",
+     "width": 464,
+     "height": 118
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6373,
+    "height": 118,
+    "widthFraction": 0.33,
+    "leftFraction": 0.33,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 414,
+   "text": "During the Sizing step, when you are provisioning your databases, you can select the RAM percentage for your database. The default is 20%, but you can select a percentage between 10% and 50%. Lower RAM percentages reduce cost but may increase latency, while higher RAM percentages improve throughput and latency at higher cost. See Choosing the right RAM ratio to choose the right RAM percentage for ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 6523,
+    "height": 144,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "img",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The RAM percentage setting.",
+     "width": 464,
+     "height": 97
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6699,
+    "height": 97,
+    "widthFraction": 0.33,
+    "leftFraction": 0.33,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h2",
+   "id": "troubleshooting",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 71,
+   "text": "Continue with the instructions to create your database.\nTroubleshooting",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 6827,
+    "height": 133,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 139,
+   "text": "See Troubleshooting Redis Flex performance questions on the Redis Support knowledge base to learn how to troubleshoot Redis Flex databases.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.35,
+   "geometry": {
+    "top": 6984,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "form",
+   "id": "page-feedback",
+   "class": "text-sm w-full mt-24 pt-5",
+   "landmarks": [
+    "main",
+    "section",
+    "form"
+   ],
+   "textLength": 52,
+   "text": "RATE THIS PAGE\n ★\n ★\n ★\n ★\n ★\n Back to top ↑\n Submit",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 9,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 7128,
+    "height": 69,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.95,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "section",
+   "class": "hidden xl:block w-60 h-full",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 274,
+   "text": "Edit this page\n Create an issue\n Download documentation\n Ask AI to explain this page\n On this page\n When to use Flex \n Best practices and limitations \n RAM percentage \n Key and value sizes \n Create a Flex database \n Redis Cloud Essentials \n Redis Cloud Pro \n Troubleshooting",
+   "counts": {
+    "links": 11,
+    "images": 4,
+    "headings": 1,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.76,
+   "geometry": {
+    "top": 70,
+    "height": 0,
+    "widthFraction": 0.17,
+    "leftFraction": 0.81,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 34,
+   "tag": "footer",
+   "class": "relative z-50 flex justify-center",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 347,
+   "text": "Trust\n Privacy\n Terms of use\n Legal notices\n Compare\n Redis vs Elasticache\n Redis vs Memcached\n Redis vs Memory Store\n Redis vs. Open Source\n Company\n Mission & valuesLeadership\n Careers\n Partners\n Amazon Web Services\n Google Cloud\n Microsoft Azure\n All partners\n Support\n Professional\n servicesSupport\n Trust\n Privacy\n Terms of use\n Legal notices",
+   "counts": {
+    "links": 28,
+    "images": 7,
+    "headings": 4,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 7293,
+    "height": 227,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.97,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "div",
+   "class": "my-0 mx-auto w-full max-w-[47.375rem]",
+   "landmarks": [],
+   "textLength": 148,
+   "text": "All products\n Redis Software\n Redis Cloud\n Redis Open Source\n Redis Insight\n Redis Enterprise for K8s\n Redis Data Integration\n Client Libraries\n ESC",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 147,
+    "widthFraction": 0.1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  }
+ ]
+}

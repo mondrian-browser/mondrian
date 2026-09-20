@@ -1,0 +1,153 @@
+{
+ "site": "bigw.com.au",
+ "pages": 4,
+ "pageIds": [
+  "bigw-com-au-1",
+  "bigw-com-au-2",
+  "bigw-com-au-3",
+  "bigw-com-au-4"
+ ],
+ "derivedAt": "2026-09-20T13:33:42.527Z",
+ "blocks": [
+  {
+   "selector": "header > header.Nav",
+   "type": "site_header",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer section > section[class*=\"SharedFooterElements_SharedFooterElements__\"]",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main nav > nav.Breadcrumbs",
+   "type": "breadcrumbs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main [role=navigation] > div[class*=\"FilterBar_FiltersContainer__\"]",
+   "type": "filters",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > ul[class*=\"ProductGrid_ProductGrid__\"]",
+   "type": "product_card",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > div.LoadMoreProducts",
+   "type": "pagination",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main article > article.ProductTile",
+   "type": "product_card",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div[class*=\"MosaicTile_desktopText__\"]",
+   "type": "cta",
+   "n": 2,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div[class*=\"NavigationLink_NavigationLinks__\"]",
+   "type": "section_nav",
+   "n": 2,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div[class*=\"MosaicTile_tile__\"]",
+   "type": "teaser_card",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div[class*=\"PropositionMessages_messageContainer__\"]",
+   "type": "feature_grid",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2[class*=\"KeepShoppingCarousel_KeepShoppingTitle__\"]",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#top-deals",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.CartologyDisplayAd",
+   "type": "ad",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#latest-arrivals",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.ImageCarouselContainer",
+   "type": "gallery",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#online-only-finds",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h2#top-categories",
+   "type": "heading",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.ImageNavigation",
+   "type": "site_nav",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> button[class*=\"ChatBot_tab__\"]",
+   "type": "chat_widget",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

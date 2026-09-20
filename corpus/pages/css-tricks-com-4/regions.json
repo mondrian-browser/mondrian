@@ -1,0 +1,2750 @@
+{
+ "url": "https://css-tricks.com/almanac/functions/r/random/",
+ "title": "random() | CSS-Tricks",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 18579,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "id": "site-header",
+   "class": "site-header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 100,
+   "text": "Skip to main content \n CSS-Tricks\n Since 2007\n Articles\nGuides\nAlmanac\nLinks\nPicks\nNewsletter\nSearch",
+   "counts": {
+    "links": 9,
+    "images": 3,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 225,
+     "height": 25
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 35,
+     "height": 39
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 0,
+    "height": 82,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "div",
+   "class": "breadcrumbs",
+   "landmarks": [
+    "main",
+    "header"
+   ],
+   "textLength": 38,
+   "text": "CSS Almanac → Functions → R → random()",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.55,
+   "geometry": {
+    "top": 180,
+    "height": 28,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "header"
+   ],
+   "textLength": 45,
+   "text": "random()\nSunkanmi Fafowora \n on\n Oct 31, 2024",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    }
+   ],
+   "linkTextRatio": 0.38,
+   "geometry": {
+    "top": 208,
+    "height": 127,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "p",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 68,
+   "text": "Experimental: Check browser support before using this in production.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.22,
+   "geometry": {
+    "top": 384,
+    "height": 133,
+    "widthFraction": 0.6,
+    "leftFraction": 0.17,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 330,
+   "text": "The random() function in CSS is an experimental feature (i.e., not supported in any browser) that returns a random numeric value or random choice among multiple values from a range you specify. It works the same as JavaScript’s Math.random function except that it outputs a number or value in a range between two inclusive points.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 601,
+    "height": 169,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 92,
+   "text": ".grid-item {\n position: relative; \n top: random(5rem, 20rem);\n right: random(5rem, 15rem);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 795,
+    "height": 182,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 623,
+   "text": "As developers, we get to choose whether to reuse the random value when calling the random() function again from the same range… or generate a new random value. Also, the generated value does not persist on page reload. In other words, refreshing the page results in a newly generated random value.\nTake a moment to notice that the arguments must be of the same type. In that example above, we’re cons",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 1001,
+    "height": 359,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.05,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h3",
+   "id": "syntax",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 6,
+   "text": "Syntax",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1461,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 108,
+   "text": "random( <random-caching-options>?, <calc-sum> (minimum value), <calc-sum (maximum value), [by <calc-sum>]? )",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1521,
+    "height": 70,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.08,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 293,
+   "text": "…where:\n<calc-sum> = \n <calc-product> [ [ '+' | '-' ] <calc-product> ]*\n<calc-product> =\n <calc-value> [ [ '' | '/' ] <calc-value> ]*\n<calc-value> = \n <number> | \n <dimension> | \n <percentage> | \n <calc-keyword> | \n ( <calc-sum> )\n<calc-keyword> = \n e | \n pi | \n infinity | \n -infinity | \n NaN",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1616,
+    "height": 632,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.09,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h3",
+   "id": "arguments",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 9,
+   "text": "Arguments",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2348,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 105,
+   "text": "The random() function takes numeric values and instructions for how to generate a random value from them.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2409,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 549,
+   "text": "/* Generate a random number from a set range of values */\n.grid-items { \n /* Result: Numeric value between 4rem-10rem, e.g. 8rem */\n top: random(4rem, 10rem);\n}\n/* Generate separate random numbers per element */\n.grid-items {\n /* Result: Numeric value between 4rem-10rem for this instance */\n top: random(--per-element, 4rem, 10rem);\n}\n/* Generates random values in measured steps */\n.grid-items {\n /",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2500,
+    "height": 546,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.13,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "ul",
+   "class": "wp-block-list",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 1905,
+   "text": "<random-caching-options>: The optional items that allow random numbers to be unique across the stylesheet. It is also a part of the random-caching-keys that assist the uniqueness of the value. --per-element is usually enough for this to work, but to ensure uniqueness in randomness.\n<dashed-indent>: The name of the desired anchor element. The value is called a “dashed” indent because it must be pre",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 10,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 3071,
+    "height": 1033,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 0.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 183,
+   "text": ".grid-item {\n /* Generates 6rem or 11rem, etc. */\n font-size: random(1rem, 20rem, by 5rem);\n /* Generate 3.1rem, 4.2rem, or 5.3rem, etc. */\n padding: random(2rem, 10rem, by 1.1rem);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4129,
+    "height": 210,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 168,
+   "text": "See our “Complete Guide on the CSS calc() Function” for a detailed explanation of the <calc-sum> arguments and for examples demonstrating how the calc() function works.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 4363,
+    "height": 101,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h3",
+   "id": "css-random-vs-scss-random-",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 30,
+   "text": "CSS random() vs. SCSS random()",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4565,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 258,
+   "text": "There’s currently no implementation (yet) for the random() function in browsers (emphasis on yet). But, we can explore how this is done in SCSS and view CSS’ random() function’s potential. SCSS random() function works in a similar way to CSS random() except:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4625,
+    "height": 134,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.25,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "ul",
+   "class": "wp-block-list",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 390,
+   "text": "you can only specify an upper limit. Every random number generated starts from 1,\nthere is no step function,\nrandomness happens whenever SCSS is compiled and not on refresh, meaning anytime a change happens to the SCSS file, the random function generates another value, and\nif no upper limit is specified, it will generate a random decimal number between 0 and 1 like the following example:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4784,
+    "height": 267,
+    "widthFraction": 0.5,
+    "leftFraction": 0.23,
+    "pageFraction": 0.26,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 72,
+   "text": "/* Resolves to a value like 0.4421314514 */\n.item { opacity: random(); }",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5076,
+    "height": 98,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.27,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 358,
+   "text": "OK, those are the differences for working with random() in CSS and SCSS, but does it still generate randomly? The answer is yes.\nLet’s take a look at a simple example of how this works in SCSS. We create a @for statement that loops through a certain number of elements to generate random() values that are applied to the properties we declare in the ruleset:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5198,
+    "height": 225,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "pre",
+   "class": "language-scss",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 282,
+   "text": "@for $i from 1 through 2 {\n .box:nth-child(#{$i}) {\n // random number between 1 and 5\n border: random(5) + px solid;\n // random number between 1 and 2 determines `dashed` or `dotted`\n border-style: nth((dashed, dotted), random(2));\n width: 2rem;\n height: 2rem;\n margin: 1rem 0;\n }\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5448,
+    "height": 350,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.29,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 803,
+   "text": "This example shows how to apply the SCSS random() function to the border shorthand property specifically the border-width option — to set the element’s border-width to a value between 1px–5px and its border-style to either dashed or dotted at random. Note that we’re actually using the SCSS nth() function to determine the range of border styles first before using random() to pick one of the two pos",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.01,
+   "geometry": {
+    "top": 5823,
+    "height": 427,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h3",
+   "id": "picking-one-number-randomly",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 27,
+   "text": "Picking one number randomly",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6350,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 70,
+   "text": "By default, if all we did was set a range in the arguments, like this:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6411,
+    "height": 33,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 39,
+   "text": ".element {\n top: random(4rem, 10rem);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6469,
+    "height": 126,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 352,
+   "text": "…then we get some random number between 4rem and 10rem. And that value is applied to the element that it’s declared on, of course, but is shared with any other elements using that style. It’s like generating one value to rule them all!\nThe same is true if we use the exact same random() with identical arguments — they resolve to the same random value.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6619,
+    "height": 225,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 210,
+   "text": ".element-1 {\n /* Both result in the same random number */\n top: random(4rem, 10rem);\n left: random(4rem, 10rem);\n}\n.element-2 {\n /* Result in the same random number as .element-1 */\n top: random(4rem, 10rem);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 6869,
+    "height": 322,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "h3",
+   "id": "picking-randomly-from-a-list-of-options",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 39,
+   "text": "Picking randomly from a list of options",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7291,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.39,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 181,
+   "text": "We just saw how random() is capable of picking a number at random based on a range of values. But what if we want random() to return a specific value from a list of possible values?",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7352,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 107,
+   "text": "/* DOES NOT WORK! */\n.element {\n /* Choose one from the list: */\n top: random(4rem, 10rem, 16rem, 45rem);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7477,
+    "height": 182,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 312,
+   "text": "This will likely be possible with the implementation of a similar function called random-item(). The specification defines this function, but like random(), is only experimental and not implemented in any browsers at the time of this writing. If we get that in the future, then it might work something like this:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 7684,
+    "height": 167,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.41,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 110,
+   "text": "/* CAUTION: Hypothetical example */\n/* Choose one from the list: */\ncolor: random-item(--x, red, blue, green);",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 7875,
+    "height": 126,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "h3",
+   "id": "there-s-no-rounding-numbers",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 29,
+   "text": "There are no rounding numbers",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8101,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 220,
+   "text": "You read that correctly — if we say we want a random number between, say, 50px–100px then we might wind up with a decimal, like 65.76px. If you’re looking for a round number, then you’ll want to look at the next section.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8162,
+    "height": 134,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "h3",
+   "id": "counting-in-steps",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 17,
+   "text": "Counting in steps",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8396,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 200,
+   "text": "We can tell random() to only produce numbers that fall in a sequence. For example, if we say we want to produce a random value between 5rem–25rem, we can force random() to count in increments of five:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8457,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 94,
+   "text": "/* Possible values: 5rem, 10rem, 15rem, 20rem, 25rem */\npadding: random(5rem, 25rem, by 5rem);",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8582,
+    "height": 98,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.46,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 82,
+   "text": "So, if you need a round number rather than a decimal value, this is the way to go.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8704,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "h3",
+   "id": "the-maximum-value-might-not-be-a-possible-value",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 47,
+   "text": "The maximum value might not be a possible value",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8871,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 146,
+   "text": "The minimum and maximum values in random()‘s arguments could be the returned value since the range is inclusive of the minimum and maximum limits.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 8932,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.48,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 61,
+   "text": "/* Inclusive of 100px and 200px */\ntop: random(100px, 200px);",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9057,
+    "height": 98,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 42,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 121,
+   "text": "But what if we’re using the by argument?\n/* Generate a value in increments of 30px */\ntop: random(100px, 200px, by 30px);",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9179,
+    "height": 156,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 152,
+   "text": "random() returns a value in a 30px increment, starting from 100px. That means we’ll never make it to 200px since it is not a step when counting by 30px.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9360,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 44,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 130,
+   "text": "/* Generate a value in increments of 30px */\n/* Possible values: 100px, 130px, 160px, 190px */\ntop: random(100px, 200px, by 30px);",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9485,
+    "height": 126,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 45,
+   "tag": "h3",
+   "id": "-random-needs-a-consistent-unit",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 32,
+   "text": "random() needs a consistent unit",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9711,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.52,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 46,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 215,
+   "text": "Although the calc() function’s most useful feature is mixing CSS values of different units, that’s simply not the case with the random() function. Instead, you need to be consistent with your units for this to work.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9772,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 47,
+   "tag": "pre",
+   "class": "wp-block-csstricks-code-block language-css",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 134,
+   "text": "So, in essence:\n.card { \n /* Valid */\n padding: random(10rem, 20rem, by 5rem); \n /* Invalid */\n padding: random(10rem, 5em, by 5px);\n}",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 9897,
+    "height": 268,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 48,
+   "tag": "h3",
+   "id": "the-value-does-not-persist-on-page-load",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 82,
+   "text": "Our advice: Pick a unit and stick with it!\nThe value does not persist on page load",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10189,
+    "height": 170,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 49,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 170,
+   "text": "That’s right! Anytime the page is refreshed, so too is the random number that random() generates. Try re-running the following CodePen to see the value change on refresh:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10384,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 50,
+   "tag": "div",
+   "class": "wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper resizable",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "CodePen Embed Fallback",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "codepen.io",
+    "width": 738,
+    "height": 450,
+    "title": "CodePen Embed BagbJpB"
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 10509,
+    "height": 450,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 51,
+   "tag": "h3",
+   "id": "example-next-js-blinking-switchboard",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 37,
+   "text": "Example: Next.js blinking switchboard",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11059,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 52,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 149,
+   "text": "Have you seen the “blinking switchboard” effect in use over at the Next.js website? Rauno Freiberg published a video of it that I’ll drop in for you:",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 11119,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 53,
+   "tag": "figure",
+   "class": "wp-block-video",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "video",
+     "alt": "",
+     "width": 732,
+     "height": 531
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11211,
+    "height": 537,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 54,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 214,
+   "text": "Pretty neat, right? I love how the stars flicker and spell out “NEXT” in the night sky. This inspired me to do the same sort of thing but with random() (in SCSS since we don’t have a true random() in CSS just yet):",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11773,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 55,
+   "tag": "div",
+   "class": "wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper resizable",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "CodePen Embed Fallback",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "codepen.io",
+    "width": 738,
+    "height": 450,
+    "title": "CodePen Embed xxoeOxx"
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 11898,
+    "height": 450,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 56,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 120,
+   "text": "The dots randomly flicker between white and black at first, but hover over the grid and the dots update to spell “NEXT”.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12364,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 57,
+   "tag": "h3",
+   "id": "future-demo",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 11,
+   "text": "Future demo",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12531,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 58,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 444,
+   "text": "We don’t know for sure how random() will work until it is formally implemented. Until then, I’ve made a demo based on what’s currently defined in the CSS Values and Units Module Level 5 specification with the idea that it will work once browsers start shipping random() in future releases. That may or may not work depending on how things shake out, but do come back and check this demo once random()",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 12592,
+    "height": 234,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 59,
+   "tag": "div",
+   "class": "wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper resizable",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 22,
+   "text": "CodePen Embed Fallback",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "frame": {
+    "host": "codepen.io",
+    "width": 738,
+    "height": 450,
+    "title": "CodePen Embed bGPyPVR"
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 12850,
+    "height": 450,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.69,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 60,
+   "tag": "p×2",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 348,
+   "text": "(I know you can easily manipulate the values to see the butterfly ahead of time, but no cheating! 😅)\nThis is only a demonstration of how random() might work when fully implemented. The code I’m using is purely for demonstration purposes and will most certainly be different from how things work when random() is implemented in CSS. So, stay tuned!",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13317,
+    "height": 225,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 61,
+   "tag": "h3",
+   "id": "known-issues",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 12,
+   "text": "Known issues",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13642,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 62,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 181,
+   "text": "The biggest known issue? This simply doesn’t work in any browser at the time I’m writing this. Beyond that, the specification does note some existing known issues in the definition:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 13703,
+    "height": 100,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 63,
+   "tag": "blockquote",
+   "class": "wp-block-quote is-layout-flow wp-block-quote-is-layout-flow",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 712,
+   "text": "ISSUE 11 At least in theory it should be fine to use random() in non-property contexts, so long as per-element isn’t specified; it’s well-defined what happens with @media (max-width: random(100px, 500px)) {...}, for example. I suspect we want to disallow it, tho?\nISSUE 12 Define arbitrary substitution function, probably over in Variables, since we have several upcoming functions leaning on this fu",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 13828,
+    "height": 373,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 64,
+   "tag": "h3",
+   "id": "browser-support",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 74,
+   "text": "As the documentation progresses, so too will this section.\nBrowser support",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14226,
+    "height": 170,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.77,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 65,
+   "tag": "baseline-status",
+   "class": "wp-block-css-tricks-baseline-status",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 138,
+   "text": "random()\n Limited availability \nThis feature is not Baseline because it does not work in some of the most widely-used browsers.\nLearn more",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14420,
+    "height": 128,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 66,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 129,
+   "text": "Firefox Nightly announced random() support starting in version 158, so we should see Firefox go green in the above at some point.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 14597,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 67,
+   "tag": "h3",
+   "id": "specification",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 13,
+   "text": "Specification",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 14764,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.79,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 68,
+   "tag": "p",
+   "class": "wp-block-paragraph",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 284,
+   "text": "The CSS random() function is defined in the CSS Values and Units Module Level 5 specification, which is currently in Working Draft status at the time of writing. That means a lot can change between now and when the feature becomes a formal Candidate Recommendation for implementation.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.17,
+   "geometry": {
+    "top": 14825,
+    "height": 167,
+    "widthFraction": 0.43,
+    "leftFraction": 0.21,
+    "pageFraction": 0.8,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 69,
+   "tag": "h3",
+   "id": "related-tricks",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 15,
+   "text": "Related tricks!",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 15092,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 70,
+   "tag": "article×2",
+   "id": "mini-post-393373",
+   "class": "in-article-card articles",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 256,
+   "text": "CSS functions random \n Article\n on\n Apr 30, 2026 \n The Importance of Native Randomness in CSS \n Alvaro Montoro\nCSS functions polyfill random resource \n Article\n on\n Aug 31, 2026 \n Let’s Use the Emergent CSS random() Function in all the Browsers \n Lee Meyer",
+   "counts": {
+    "links": 14,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    }
+   ],
+   "linkTextRatio": 0.71,
+   "geometry": {
+    "top": 15153,
+    "height": 227,
+    "widthFraction": 0.52,
+    "leftFraction": 0.21,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 71,
+   "tag": "article",
+   "id": "mini-post-257582",
+   "class": "in-article-card",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 40,
+   "text": "on\n Aug 11, 2017 \n Random \n Chris Coyier",
+   "counts": {
+    "links": 4,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    }
+   ],
+   "linkTextRatio": 0.45,
+   "geometry": {
+    "top": 15396,
+    "height": 204,
+    "widthFraction": 0.26,
+    "leftFraction": 0.21,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 72,
+   "tag": "article×8",
+   "id": "mini-post-249849",
+   "class": "in-article-card articles",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 639,
+   "text": "custom properties JavaScript random numbers \n Article\n on\n Jan 11, 2017 \n Random Numbers in CSS \n Robin Rendle\ncss animation random numbers \n Article\n on\n Oct 29, 2019 \n Are There Random Numbers in CSS? \n Alvaro Montoro\nArticle\n on\n Mar 9, 2009 \n Generate a Random Number \n Chris Coyier\nArticle\n on\n Mar 26, 2015 \n Choose a Random Option based on a Range \n Chris Coyier\ngame popover \n Article\n on\n Ju",
+   "counts": {
+    "links": 39,
+    "images": 8,
+    "headings": 8,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 8,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    }
+   ],
+   "linkTextRatio": 0.58,
+   "geometry": {
+    "top": 15396,
+    "height": 971,
+    "widthFraction": 0.52,
+    "leftFraction": 0.21,
+    "pageFraction": 0.83,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 73,
+   "tag": "h3",
+   "id": "related-guides",
+   "class": "wp-block-heading",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 14,
+   "text": "Related Guides",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16467,
+    "height": 36,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 74,
+   "tag": "div",
+   "class": "in-article-cards",
+   "landmarks": [
+    "main"
+   ],
+   "textLength": 164,
+   "text": "functions \n Article\n on\n May 4, 2020 \n CSS Functions Guide \n Eric Bailey \n calc math \n Article\n on\n Mar 17, 2020 \n The CSS Calculating Function Guide \n Chris Coyier",
+   "counts": {
+    "links": 11,
+    "images": 2,
+    "headings": 2,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 25,
+     "height": 25
+    }
+   ],
+   "linkTextRatio": 0.57,
+   "geometry": {
+    "top": 16527,
+    "height": 206,
+    "widthFraction": 0.51,
+    "leftFraction": 0.21,
+    "pageFraction": 0.89,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 75,
+   "tag": "ul",
+   "id": "almanac-sidebar-list",
+   "class": "almanac-sidebar-list",
+   "landmarks": [
+    "main",
+    "aside"
+   ],
+   "textLength": 7493,
+   "text": "At-Rules\n A\n B\n C\n @charset\n @color-profile\n @container\n @counter-style\n @custom-media\n D\n E\n F\n @font-face\n @font-feature-values\n @font-palette-values\n @function\n G\n H\n I\n @import\n J\n K\n @keyframes\n L\n @layer\n M\n @media\n color-gamut\n prefers-reduced-motion\n N\n @namespace\n O\n P\n @page\n @position-try\n @property\n Q\n R\n S\n @scope\n @starting-style\n @supports\n T\n U\n V\n @view-transition\n W\n X\n Y\n Z\nFunc",
+   "counts": {
+    "links": 639,
+    "images": 0,
+    "headings": 0,
+    "listItems": 639,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.83,
+   "geometry": {
+    "top": 401,
+    "height": 3974,
+    "widthFraction": 0.1,
+    "leftFraction": 0.05,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 76,
+   "tag": "h2",
+   "id": "comments",
+   "class": "comments-title",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 8,
+   "text": "Comments",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 16799,
+    "height": 180,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 77,
+   "tag": "ol",
+   "id": "commentlist",
+   "class": "commentlist",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 226,
+   "text": "Viktor\n Permalink to comment# August 28, 2026\n Thanks for “page reload” info. The spec is confusing, it is saying the “key” can be used as a seed, this makes me feeling after page reload i should have same random value.\n Reply",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.12,
+   "geometry": {
+    "top": 17003,
+    "height": 141,
+    "widthFraction": 0.92,
+    "leftFraction": 0.03,
+    "pageFraction": 0.92,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 78,
+   "tag": "h3",
+   "id": "reply-title",
+   "class": "comment-reply-title",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 26,
+   "text": "Leave a Reply Cancel reply",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.46,
+   "geometry": {
+    "top": 17226,
+    "height": 25,
+    "widthFraction": 0.37,
+    "leftFraction": 0.31,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 79,
+   "tag": "form",
+   "id": "commentform",
+   "class": "comment-form",
+   "landmarks": [
+    "section",
+    "form"
+   ],
+   "textLength": 263,
+   "text": "Your email address will not be published. Required fields are marked *\nComment * \n Write Preview\nName * \nEmail * \nWebsite \n Save my name, email, and website in this browser for the next time I comment.\n Copy and paste this code: micuno *\n Leave this field empty\nΔ",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 14,
+    "paragraphs": 11,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 17276,
+    "height": 570,
+    "widthFraction": 0.37,
+    "leftFraction": 0.31,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 80,
+   "tag": "footer",
+   "class": "site-footer",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 434,
+   "text": "CSS-Tricks is powered by DigitalOcean.\n Get Curated Front-End Roundups Right in Your Inbox\n Coming back really, really soon! See past issues →\n Company\nThis field is for validation purposes and should be left unchanged.\nEmail\n Subscribe \n Δ\n CSS-Tricks\n About the site\nContact us\nWrite for CSS-Tricks!\nAdvertising\nRSS Feeds\n Social\n Bluesky\nMastodon\nCodePen\nX / Twitter\nLinkedIn\n Legalese\n CSS-Tricks",
+   "counts": {
+    "links": 15,
+    "images": 3,
+    "headings": 4,
+    "listItems": 12,
+    "tableRows": 0,
+    "controls": 17,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 40,
+     "height": 40
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 32,
+     "height": 32
+    }
+   ],
+   "frame": {
+    "host": "",
+    "width": 0,
+    "height": 0,
+    "title": "This iframe contains the logic required to handle Ajax powered Gravity Forms."
+   },
+   "linkTextRatio": 0.41,
+   "geometry": {
+    "top": 18165,
+    "height": 413,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

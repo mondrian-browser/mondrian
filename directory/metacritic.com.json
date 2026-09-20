@@ -1,0 +1,90 @@
+{
+ "site": "metacritic.com",
+ "pages": 4,
+ "pageIds": [
+  "metacritic-com-1",
+  "metacritic-com-2",
+  "metacritic-com-3",
+  "metacritic-com-4"
+ ],
+ "derivedAt": "2026-09-20T14:29:37.706Z",
+ "blocks": [
+  {
+   "selector": "main section > div",
+   "type": "teaser_card",
+   "n": 27,
+   "purity": 0.89,
+   "pages": 4
+  },
+  {
+   "selector": "main aside > div",
+   "type": "filters",
+   "n": 6,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "header nav > ul.c-site-header-navigation",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "header > div",
+   "type": "account",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "footer > div.site-footer__container",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > div.global-header",
+   "type": "site_nav",
+   "n": 3,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > h1",
+   "type": "title",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > p",
+   "type": "summary",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main section > ul",
+   "type": "tabs",
+   "n": 3,
+   "purity": 1,
+   "pages": 3
+  },
+  {
+   "selector": "main > button.btn-clear",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "main > div.c-section-about",
+   "type": "summary",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}

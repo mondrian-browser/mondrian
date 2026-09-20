@@ -1,0 +1,758 @@
+{
+ "id": "myagedcare-gov-au-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:48:15.821Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 109105,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.85,
+   "margin": 0.7,
+   "top": [
+    [
+     "site_header",
+     0.85
+    ],
+    [
+     "site_nav",
+     0.15
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "page_tools",
+   "confidence": 0.3,
+   "margin": 0.02,
+   "top": [
+    [
+     "page_tools",
+     0.31
+    ],
+    [
+     "breadcrumbs",
+     0.29
+    ],
+    [
+     "site_header",
+     0.14
+    ],
+    [
+     "site_nav",
+     0.07
+    ],
+    [
+     "site_footer",
+     0.05
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "page_tools"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "title",
+     0.98
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "video",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "byline",
+   "confidence": 0.73,
+   "margin": 0.66,
+   "top": [
+    [
+     "byline",
+     0.74
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "metadata",
+     0.04
+    ],
+    [
+     "badge",
+     0.03
+    ],
+    [
+     "text",
+     0.03
+    ]
+   ],
+   "block": "prose",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 4,
+   "choice": "summary",
+   "confidence": 0.54,
+   "margin": 0.22,
+   "top": [
+    [
+     "summary",
+     0.56
+    ],
+    [
+     "text",
+     0.34
+    ],
+    [
+     "callout",
+     0.03
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "heading",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 5,
+   "choice": "list",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "list",
+     0.95
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "feature_grid",
+     0.01
+    ],
+    [
+     "summary",
+     0.01
+    ]
+   ],
+   "block": "list",
+   "slot": "article",
+   "final": "list"
+  },
+  {
+   "index": 6,
+   "choice": "summary",
+   "confidence": 0.49,
+   "margin": 0.04,
+   "top": [
+    [
+     "summary",
+     0.51
+    ],
+    [
+     "text",
+     0.47
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "summary"
+  },
+  {
+   "index": 7,
+   "choice": "heading",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "heading",
+     0.96
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "testimonial",
+     0.02
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 8,
+   "choice": "text",
+   "confidence": 0.72,
+   "margin": 0.52,
+   "top": [
+    [
+     "text",
+     0.73
+    ],
+    [
+     "testimonial",
+     0.21
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "quote",
+     0.01
+    ],
+    [
+     "site_nav",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 9,
+   "choice": "heading",
+   "confidence": 0.9,
+   "margin": 0.82,
+   "top": [
+    [
+     "heading",
+     0.91
+    ],
+    [
+     "teaser_card",
+     0.09
+    ],
+    [
+     "references",
+     0
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "chart",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 10,
+   "choice": "text",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "text",
+     0.94
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "testimonial",
+     0.02
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "quote",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 11,
+   "choice": "text",
+   "confidence": 0.48,
+   "margin": 0.05,
+   "top": [
+    [
+     "text",
+     0.5
+    ],
+    [
+     "quote",
+     0.45
+    ],
+    [
+     "testimonial",
+     0.04
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 12,
+   "choice": "heading",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "heading",
+     0.99
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "toolbar",
+     0
+    ],
+    [
+     "site_footer",
+     0
+    ],
+    [
+     "image",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 13,
+   "choice": "text",
+   "confidence": 0.79,
+   "margin": 0.69,
+   "top": [
+    [
+     "text",
+     0.81
+    ],
+    [
+     "teaser_card",
+     0.12
+    ],
+    [
+     "testimonial",
+     0.05
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "quote",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 14,
+   "choice": "heading",
+   "confidence": 0.93,
+   "margin": 0.89,
+   "top": [
+    [
+     "heading",
+     0.94
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "reviews",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 15,
+   "choice": "text",
+   "confidence": 0.8,
+   "margin": 0.75,
+   "top": [
+    [
+     "text",
+     0.82
+    ],
+    [
+     "teaser_card",
+     0.07
+    ],
+    [
+     "testimonial",
+     0.07
+    ],
+    [
+     "quote",
+     0.02
+    ],
+    [
+     "summary",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 16,
+   "choice": "heading",
+   "confidence": 0.95,
+   "margin": 0.92,
+   "top": [
+    [
+     "heading",
+     0.96
+    ],
+    [
+     "teaser_card",
+     0.04
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 17,
+   "choice": "text",
+   "confidence": 0.62,
+   "margin": 0.35,
+   "top": [
+    [
+     "text",
+     0.64
+    ],
+    [
+     "testimonial",
+     0.29
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "quote",
+     0.02
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 18,
+   "choice": "text",
+   "confidence": 0.86,
+   "margin": 0.83,
+   "top": [
+    [
+     "text",
+     0.87
+    ],
+    [
+     "summary",
+     0.04
+    ],
+    [
+     "cta",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "testimonial",
+     0.02
+    ]
+   ],
+   "block": "prose",
+   "slot": "article",
+   "final": "text"
+  },
+  {
+   "index": 19,
+   "choice": "byline",
+   "confidence": 0.62,
+   "margin": 0.51,
+   "top": [
+    [
+     "byline",
+     0.64
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "text",
+     0.08
+    ],
+    [
+     "teaser_card",
+     0.07
+    ],
+    [
+     "metadata",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "byline",
+   "final": "byline"
+  },
+  {
+   "index": 20,
+   "choice": "skip_link",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "skip_link",
+     0.98
+    ],
+    [
+     "action_button",
+     0.02
+    ],
+    [
+     "references",
+     0
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "skip_link"
+  },
+  {
+   "index": 21,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 22,
+   "choice": "site_footer",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "site_footer",
+     0.98
+    ],
+    [
+     "legal_notice",
+     0.02
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "external_links",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 23,
+   "choice": "chat_widget",
+   "confidence": 0.68,
+   "margin": 0.42,
+   "top": [
+    [
+     "chat_widget",
+     0.7
+    ],
+    [
+     "action_button",
+     0.28
+    ],
+    [
+     "cta",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "gate",
+   "final": "chat_widget"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.882Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

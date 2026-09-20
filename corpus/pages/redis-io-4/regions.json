@@ -1,0 +1,1567 @@
+{
+ "url": "https://redis.io/docs/latest/develop/ai/context-engine/langcache/",
+ "title": "Redis LangCache | Docs",
+ "viewport": {
+  "width": 1425,
+  "height": 816
+ },
+ "pageHeight": 6461,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "sticky top-0 h-[70px] z-50",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 205,
+   "text": "AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Search\n Login\n Sign up\n Open search\n Open main menu\n AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Sign up\n Login",
+   "counts": {
+    "links": 17,
+    "images": 3,
+    "headings": 0,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 0,
+    "height": 70,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "a",
+   "class": "px-6 py-4 rounded-t-md hover:bg-redis-pen-200",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 18,
+   "text": "Develop with Redis",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 119,
+    "height": 60,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "ul",
+   "class": "md:block overflow-y-auto grow pr-6",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 747,
+   "text": "Get started\n What's new?\n Quick starts\n Client tools\n Client APIs\n Using commands\n Data types\n Redis for AI and search\n RedisVL\n latest\n ▼\n ▲\n latest\n v0.27.1\n v0.27.0\n v0.26.0\n v0.25.1\n v0.25.0\n v0.24.0\n v0.23.0\n v0.22.0\n v0.20.1\n v0.20.0\n v0.19.0\n v0.18.2\n v0.18.1\n v0.18.0\n v0.17.1\n v0.17.0\n v0.16.0\n v0.15.0\n v0.14.0\n v0.13.2\n v0.13.0\n v0.12.1\n v0.12.0\n v0.11.1\n v0.11.0\n v0.10.0\n v0.9.1\n v0.9.0\n",
+   "counts": {
+    "links": 61,
+    "images": 0,
+    "headings": 0,
+    "listItems": 27,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 179,
+    "height": 350,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "a×2",
+   "class": "px-6 py-4 hover:bg-redis-pen-200 border-t",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 34,
+   "text": "Libraries and tools\nRedis products",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 2,
+    "coverLinks": 5
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 529,
+    "height": 122,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "min-h-0 border border-opacity-50 border-redis-ink-900",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 31,
+   "text": "Commands\nDownload documentation",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 668,
+    "height": 114,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "nav",
+   "class": "flex text-redis-ink-900 text-xs font-mono",
+   "ariaLabel": "Breadcrumb",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 111,
+   "text": "Docs\n Docs\n →\n Develop with Redis\n →\n Redis for AI and search\n →\n Redis Iris context engine\n →\n Redis LangCache",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 118,
+    "height": 32,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 15,
+   "text": "Redis LangCache",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 198,
+    "height": 40,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 142,
+   "text": "Store LLM responses for AI apps in a semantic cache.\nLangCache is currently available in preview. Features and behavior are subject to change.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 250,
+    "height": 133,
+    "widthFraction": 0.44,
+    "leftFraction": 0.33,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 302,
+   "text": "Cut LLM costs and improve response times with semantic caching.\nLangCache checks whether a semantically similar prompt has been answered before and returns the cached response instantly — no LLM call required. When there's no match, your app calls the LLM as usual and stores the result for future use.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 424,
+    "height": 116,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.07,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "grid grid-cols-1 md:grid-cols-3 gap-6",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 245,
+   "text": "Quick Start — Create a LangCache service on Redis Cloud and make your first API call\n API and SDK Examples — Search, store, and manage cache entries with REST, Python, or JS\n Monitor Cache — Track hit rates, usage, and performance in Redis Cloud",
+   "counts": {
+    "links": 3,
+    "images": 3,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Quick start icon",
+     "width": 112,
+     "height": 112
+    },
+    {
+     "kind": "img",
+     "alt": "API examples icon",
+     "width": 112,
+     "height": 112
+    },
+    {
+     "kind": "img",
+     "alt": "Monitor icon",
+     "width": 112,
+     "height": 112
+    }
+   ],
+   "linkTextRatio": 0.98,
+   "geometry": {
+    "top": 572,
+    "height": 306,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h2",
+   "id": "what-is-langcache",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "What is LangCache?",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 942,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.15,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "ul",
+   "class": "my-4 space-y-2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 521,
+   "text": "LangCache is a fully-managed semantic caching service that:\n●Reduces LLM costs — Avoids redundant API calls for semantically equivalent queries\n ●Improves response times — Returns cached answers in milliseconds instead of waiting for an LLM\n ●Handles embeddings automatically — No embedding model to manage; LangCache generates them for you\n ●Gives you cache control — Configure similarity thresholds",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1011,
+    "height": 316,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.16,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h2",
+   "id": "why-use-langcache",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 18,
+   "text": "Why use LangCache?",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1391,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.22,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "div",
+   "class": "grid grid-cols-1 md:grid-cols-2 gap-6",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 525,
+   "text": "For AI applications\n Dramatically lower LLM API spend for apps with repetitive queries\n Faster responses for AI assistants, chatbots, and RAG pipelines\n Cache intermediate results in multi-step agent workflows\n Centralize caching across multiple apps via an AI gateway\n For developers\n Two API calls to integrate — search before LLM, store after LLM\n Python and JavaScript SDKs available on PyPI and ",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 2,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1460,
+    "height": 410,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.23,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "id": "quick-example",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 13,
+   "text": "Quick example",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1934,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.3,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "highlight",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 157,
+   "text": "Before calling your LLM, search for a cached response:\nPOST /v1/caches/{cacheId}/entries/search\n{\n \"prompt\": \"What are the features of Product A?\"\n}\n Copied!",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2003,
+    "height": 176,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "div",
+   "class": "highlight",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 254,
+   "text": "On a cache miss, call your LLM, then store the result:\nPOST /v1/caches/{cacheId}/entries\n{\n \"prompt\": \"What are the features of Product A?\",\n \"response\": \"Product A includes real-time analytics, automatic scaling, and sub-millisecond latency.\"\n}\n Copied!",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2203,
+    "height": 215,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.34,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "h2",
+   "id": "langcache-overview",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 72,
+   "text": "See the full LangCache API and SDK examples for more.\nLangCache overview",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.42,
+   "geometry": {
+    "top": 2442,
+    "height": 133,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.38,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 478,
+   "text": "LangCache uses semantic caching to store and reuse previous LLM responses for repeated queries. Instead of calling the LLM for every request, LangCache checks if a similar response has already been generated and is stored in the cache. If a match is found, LangCache returns the cached response instantly, saving time and resources.\nImagine you’re using an LLM to build an agent to answer questions a",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2599,
+    "height": 164,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 122,
+   "text": "\"What are the features of Product A?\"\n\"Can you list the main features of Product A?\"\n\"Tell me about Product A’s features.\"",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2783,
+    "height": 72,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 316,
+   "text": "These prompts may have slight variations, but they essentially ask the same question. LangCache can help you avoid calling the LLM for each of these prompts by caching the response to the first prompt and returning it for any similar prompts.\nUsing LangCache as a semantic caching service has the following benefits:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2875,
+    "height": 116,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.44,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 479,
+   "text": "Lower LLM costs: Reduce costly LLM calls by easily storing the most frequently-requested responses.\nFaster AI app responses: Get faster AI responses by retrieving previously-stored requests from memory.\nSimpler deployments: Access our managed service using a REST API with automated embedding generation, configurable controls, and no database management required.\nAdvanced cache management: Manage d",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3011,
+    "height": 216,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.47,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 609,
+   "text": "LangCache works well for the following use cases:\nAI assistants and chatbots: Optimize conversational AI applications by caching common responses and reducing latency for frequently asked questions.\nRAG applications: Enhance retrieval-augmented generation performance by caching responses to similar queries, reducing both cost and response time.\nAI agents: Improve multi-step reasoning chains and ag",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3247,
+    "height": 236,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "h3",
+   "id": "llm-cost-reduction-with-langcache",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 33,
+   "text": "LLM cost reduction with LangCache",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3547,
+    "height": 28,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.55,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 375,
+   "text": "LangCache reduces your LLM costs by caching responses and avoiding repeated API calls. When a response is served from cache, you don’t pay for output tokens. Input token costs are typically offset by embedding and storage costs.\nFor every cached response, you'll save the output token cost. To calculate your monthly savings with LangCache, you can use the following formula:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3587,
+    "height": 140,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.56,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "div",
+   "class": "highlight",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 96,
+   "text": "Est. monthly savings with LangCache = \n (Monthly output token costs) × (Cache hit rate)\n Copied!",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3751,
+    "height": 80,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.58,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 114,
+   "text": "The more requests you serve from LangCache, the more you save, because you’re not paying to regenerate the output.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3855,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.6,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 192,
+   "text": "Here’s an example:\nMonthly LLM spend: $200\nPercentage of output tokens in your spend: 60%\nCost of output tokens: $200 × 60% = $120\nCache hit rate: 50%\nEstimated savings: $120 × 50% = $60/month",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 3923,
+    "height": 164,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.61,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 28,
+   "tag": "div",
+   "class": "alert p-3 relative flex",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 136,
+   "text": "Note:\n The formula and numbers above provide a rough estimate of your monthly savings. Actual savings will vary depending on your usage.",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 21,
+     "height": 21
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4107,
+    "height": 104,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 97,
+   "text": "You can also use the LangCache savings calculator to estimate your annual savings with LangCache.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 4231,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 30,
+   "tag": "h2",
+   "id": "langcache-architecture",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 22,
+   "text": "LangCache architecture",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4343,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.67,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 31,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 83,
+   "text": "The following diagram displays how you can integrate LangCache into your GenAI app:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4412,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 32,
+   "tag": "img",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 0,
+   "text": "",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The LangCache process diagram.",
+     "width": 618,
+     "height": 354
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4492,
+    "height": 354,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 33,
+   "tag": "ol",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 929,
+   "text": "A user sends a prompt to your AI app.\nYour app sends the prompt to LangCache through the POST /v1/caches/{cacheId}/entries/search endpoint.\nLangCache calls an embedding model service to generate an embedding for the prompt.\nLangCache searches the cache to see if a similar response already exists by matching the embeddings of the new query with the stored embeddings.\nIf a semantically similar entry",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 4878,
+    "height": 408,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 34,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 92,
+   "text": "See the LangCache API and SDK examples for more information on how to use the LangCache API.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.33,
+   "geometry": {
+    "top": 5306,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.82,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 35,
+   "tag": "h2",
+   "id": "get-started",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 11,
+   "text": "Get started",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5418,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 36,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 94,
+   "text": "LangCache is currently in preview:\nPublic preview on Redis Cloud\nFully-managed private preview",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.28,
+   "geometry": {
+    "top": 5487,
+    "height": 92,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 37,
+   "tag": "div",
+   "class": "tab-nav",
+   "role": "tablist",
+   "ariaLabel": "Tab navigation",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 28,
+   "text": "Redis Cloud\n Private preview",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 5599,
+    "height": 46,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.87,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 38,
+   "tag": "ol",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 174,
+   "text": "To set up LangCache on Redis Cloud:\nCreate a database on Redis Cloud.\nCreate a LangCache service for your database on Redis Cloud.\nUse the LangCache API from your client app.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 3,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.37,
+   "geometry": {
+    "top": 5677,
+    "height": 116,
+    "widthFraction": 0.4,
+    "leftFraction": 0.35,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 39,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 180,
+   "text": "After you set up LangCache, you can view and edit the cache and monitor the cache's performance.\nSee also our Redis LangCache setup\ntutorial video for advice on how to get started.",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.42,
+   "geometry": {
+    "top": 5813,
+    "height": 116,
+    "widthFraction": 0.4,
+    "leftFraction": 0.35,
+    "pageFraction": 0.9,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 40,
+   "tag": "form",
+   "id": "page-feedback",
+   "class": "text-sm w-full mt-24 pt-5",
+   "landmarks": [
+    "main",
+    "section",
+    "form"
+   ],
+   "textLength": 52,
+   "text": "RATE THIS PAGE\n ★\n ★\n ★\n ★\n ★\n Back to top ↑\n Submit",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 9,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 6070,
+    "height": 69,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.94,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 41,
+   "tag": "section",
+   "class": "hidden xl:block w-60 h-full",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 245,
+   "text": "Edit this page\n Create an issue\n Download documentation\n Ask AI to explain this page\n On this page\n What is LangCache?\n Why use LangCache?\n Quick example\n LangCache overview\n LLM cost reduction with LangCache\n LangCache architecture\n Get started",
+   "counts": {
+    "links": 10,
+    "images": 4,
+    "headings": 1,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.77,
+   "geometry": {
+    "top": 70,
+    "height": 0,
+    "widthFraction": 0.17,
+    "leftFraction": 0.81,
+    "pageFraction": 0.01,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 42,
+   "tag": "footer",
+   "class": "relative z-50 flex justify-center",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 347,
+   "text": "Trust\n Privacy\n Terms of use\n Legal notices\n Compare\n Redis vs Elasticache\n Redis vs Memcached\n Redis vs Memory Store\n Redis vs. Open Source\n Company\n Mission & valuesLeadership\n Careers\n Partners\n Amazon Web Services\n Google Cloud\n Microsoft Azure\n All partners\n Support\n Professional\n servicesSupport\n Trust\n Privacy\n Terms of use\n Legal notices",
+   "counts": {
+    "links": 28,
+    "images": 7,
+    "headings": 4,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 6235,
+    "height": 227,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.96,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 43,
+   "tag": "div",
+   "class": "my-0 mx-auto w-full max-w-[47.375rem]",
+   "landmarks": [],
+   "textLength": 148,
+   "text": "All products\n Redis Software\n Redis Cloud\n Redis Open Source\n Redis Insight\n Redis Enterprise for K8s\n Redis Data Integration\n Client Libraries\n ESC",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 147,
+    "widthFraction": 0.1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  }
+ ]
+}

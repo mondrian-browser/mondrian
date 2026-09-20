@@ -1,0 +1,355 @@
+{
+ "id": "forums-whirlpool-net-au-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:23:41.721Z",
+ "tier": "relayout",
+ "application": 0.06,
+ "inputTokens": 50171,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "account",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "account",
+     0.98
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ],
+    [
+     "heading",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "header",
+   "final": "account"
+  },
+  {
+   "index": 1,
+   "choice": "site_header",
+   "confidence": 0.78,
+   "margin": 0.67,
+   "top": [
+    [
+     "site_header",
+     0.79
+    ],
+    [
+     "title",
+     0.12
+    ],
+    [
+     "heading",
+     0.08
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 2,
+   "choice": "breadcrumbs",
+   "confidence": 0.43,
+   "margin": 0.13,
+   "top": [
+    [
+     "breadcrumbs",
+     0.44
+    ],
+    [
+     "site_header",
+     0.31
+    ],
+    [
+     "site_nav",
+     0.13
+    ],
+    [
+     "search",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.04
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 3,
+   "choice": "table",
+   "confidence": 0.84,
+   "margin": 0.75,
+   "top": [
+    [
+     "table",
+     0.85
+    ],
+    [
+     "teaser_card",
+     0.1
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "comments",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "block": "table",
+   "slot": "header",
+   "final": "table"
+  },
+  {
+   "index": 4,
+   "choice": "pagination",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "pagination",
+     1
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ],
+    [
+     "comments",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "nav",
+   "final": "pagination"
+  },
+  {
+   "index": 5,
+   "choice": "breadcrumbs",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "breadcrumbs",
+     0.99
+    ],
+    [
+     "site_footer",
+     0.01
+    ],
+    [
+     "site_nav",
+     0
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 6,
+   "choice": "site_nav",
+   "confidence": 0.86,
+   "margin": 0.76,
+   "top": [
+    [
+     "site_nav",
+     0.87
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "site_footer",
+     0.01
+    ],
+    [
+     "legal_notice",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 7,
+   "choice": "stats",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "stats",
+     0.99
+    ],
+    [
+     "site_footer",
+     0.01
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "pairs",
+   "slot": "header",
+   "final": "stats"
+  },
+  {
+   "index": 8,
+   "choice": "site_nav",
+   "confidence": 0.53,
+   "margin": 0.15,
+   "top": [
+    [
+     "site_nav",
+     0.54
+    ],
+    [
+     "section_nav",
+     0.39
+    ],
+    [
+     "tag_cloud",
+     0.03
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "site_footer",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 9,
+   "choice": "site_footer",
+   "confidence": 0.58,
+   "margin": 0.31,
+   "top": [
+    [
+     "site_footer",
+     0.59
+    ],
+    [
+     "site_nav",
+     0.28
+    ],
+    [
+     "section_nav",
+     0.09
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "vote_controls",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 10,
+   "choice": "site_footer",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "site_footer",
+     0.95
+    ],
+    [
+     "legal_notice",
+     0.05
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.487Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

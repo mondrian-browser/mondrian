@@ -1,0 +1,479 @@
+{
+ "id": "developer-android-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:08:03.808Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 68837,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.69,
+   "margin": 0.57,
+   "top": [
+    [
+     "site_nav",
+     0.71
+    ],
+    [
+     "tabs",
+     0.14
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "site_header",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.8,
+   "margin": 0.72,
+   "top": [
+    [
+     "site_nav",
+     0.82
+    ],
+    [
+     "tabs",
+     0.1
+    ],
+    [
+     "section_nav",
+     0.06
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "share",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "tabs",
+   "confidence": 0.52,
+   "margin": 0.32,
+   "top": [
+    [
+     "tabs",
+     0.53
+    ],
+    [
+     "action_button",
+     0.21
+    ],
+    [
+     "site_nav",
+     0.19
+    ],
+    [
+     "section_nav",
+     0.07
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "tabs"
+  },
+  {
+   "index": 3,
+   "choice": "search",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "search",
+     0.99
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "title",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "content_warning",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 4,
+   "choice": "settings",
+   "confidence": 0.71,
+   "margin": 0.47,
+   "top": [
+    [
+     "settings",
+     0.72
+    ],
+    [
+     "version_switcher",
+     0.25
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "settings"
+  },
+  {
+   "index": 5,
+   "choice": "breadcrumbs",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "breadcrumbs",
+     1
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "hero",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 6,
+   "choice": "search",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "search",
+     1
+    ],
+    [
+     "logo_cloud",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 7,
+   "choice": "section_nav",
+   "confidence": 0.87,
+   "margin": 0.76,
+   "top": [
+    [
+     "section_nav",
+     0.88
+    ],
+    [
+     "site_nav",
+     0.12
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "user_card",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 8,
+   "choice": "section_nav",
+   "confidence": 0.41,
+   "margin": 0.29,
+   "top": [
+    [
+     "section_nav",
+     0.42
+    ],
+    [
+     "site_nav",
+     0.13
+    ],
+    [
+     "action_button",
+     0.12
+    ],
+    [
+     "decoration",
+     0.11
+    ],
+    [
+     "version_switcher",
+     0.11
+    ]
+   ],
+   "block": "links",
+   "slot": "nav",
+   "final": "section_nav"
+  },
+  {
+   "index": 9,
+   "choice": "hero",
+   "confidence": 0.81,
+   "margin": 0.69,
+   "top": [
+    [
+     "hero",
+     0.82
+    ],
+    [
+     "teaser_card",
+     0.13
+    ],
+    [
+     "summary",
+     0.02
+    ],
+    [
+     "feature_grid",
+     0.02
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "hero",
+   "final": "hero"
+  },
+  {
+   "index": 10,
+   "choice": "legal_notice",
+   "confidence": 0.62,
+   "margin": 0.26,
+   "top": [
+    [
+     "legal_notice",
+     0.63
+    ],
+    [
+     "site_footer",
+     0.37
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "disclosure",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "legal_notice"
+  },
+  {
+   "index": 11,
+   "choice": "site_footer",
+   "confidence": 0.71,
+   "margin": 0.57,
+   "top": [
+    [
+     "site_footer",
+     0.72
+    ],
+    [
+     "external_links",
+     0.15
+    ],
+    [
+     "cross_promo",
+     0.11
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 12,
+   "choice": "site_footer",
+   "confidence": 0.72,
+   "margin": 0.49,
+   "top": [
+    [
+     "site_footer",
+     0.74
+    ],
+    [
+     "site_nav",
+     0.25
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 13,
+   "choice": "site_footer",
+   "confidence": 0.94,
+   "margin": 0.92,
+   "top": [
+    [
+     "site_footer",
+     0.95
+    ],
+    [
+     "site_nav",
+     0.03
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "paywall",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 14,
+   "choice": "feedback",
+   "confidence": 0.38,
+   "margin": 0.11,
+   "top": [
+    [
+     "feedback",
+     0.39
+    ],
+    [
+     "poll",
+     0.28
+    ],
+    [
+     "popup",
+     0.18
+    ],
+    [
+     "sticky_bar",
+     0.08
+    ],
+    [
+     "site_notice",
+     0.05
+    ]
+   ],
+   "block": "mixed",
+   "slot": "form",
+   "final": "feedback"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.352Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

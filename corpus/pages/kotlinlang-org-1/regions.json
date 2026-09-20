@@ -1,0 +1,392 @@
+{
+ "url": "https://kotlinlang.org/docs/home.html",
+ "title": "Kotlin Docs | Kotlin Documentation",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 816,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "kt-header",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 66,
+   "text": "Kotlinv2.4.20\nSolutions\nCase studies\nDocs\nAPI\nCommunity\nTeach\nPlay",
+   "counts": {
+    "links": 5,
+    "images": 6,
+    "headings": 0,
+    "listItems": 7,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "Kotlin",
+     "width": 100,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0.59,
+   "geometry": {
+    "top": 0,
+    "height": 64,
+    "widthFraction": 1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "span",
+   "class": "kt-app__subnav _switcher_8gxhuj_37 _sizeM_8gxhuj_19 _modeRock_8gxhuj_29",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 21,
+   "text": "LanguageMultiplatform",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 72,
+    "height": 40,
+    "widthFraction": 0.16,
+    "leftFraction": 0.02,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "ul",
+   "class": "toc toc--theme-light kt-app__toc",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 286,
+   "text": "Home\n Get started\n Take Kotlin tour\n What's new in Kotlin\n Language guide\n Development\n Development tooling\n Interoperability\n Library guides\n API reference\n Build tools\n Compiler and plugins\n Kotlin evolution and roadmap\n Early access preview (EAP)\n Learning materials\n Other resources",
+   "counts": {
+    "links": 2,
+    "images": 14,
+    "headings": 0,
+    "listItems": 16,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 120,
+    "height": 576,
+    "widthFraction": 0.21,
+    "leftFraction": 0,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "section×2",
+   "class": "wt-section wt-section_bg_white wt-section_theme_light section-starting-page-content__section",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 432,
+   "text": "Kotlin docs\nLatest stable version: 2.4.20\nGet started with Kotlin\nCreate your first Kotlin project for a platform of your choice in an IDE: IntelliJ IDEA or Android Studio\nTry Kotlin online\nWrite, edit, run, and share Kotlin code right in the browser\nFirst steps\nBasic syntax\nA quick introduction to Kotlin syntax: keywords, operators, program structure\nKotlin tour\nTake a tour of the fundamentals of",
+   "counts": {
+    "links": 4,
+    "images": 2,
+    "headings": 6,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 5,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 72,
+     "height": 72
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 72,
+     "height": 72
+    }
+   ],
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 112,
+    "height": 791,
+    "widthFraction": 0.78,
+    "leftFraction": 0.21,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "div",
+   "class": "layout layout--container-content",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 442,
+   "text": "Kotlin Multiplatform\nKotlin Multiplatform quickstart\nSet up your first KMP project\nWhat is Kotlin Multiplatform\nLearn about the features and benefits of Kotlin Multiplatform\nShare both logic and UI with Compose Multiplatform\nCreate an application with a shared UI across Android, iOS, and desktop using Compose Multiplatform\nShare logic but keep the UI native\nUse Kotlin Multiplatform to create a mob",
+   "counts": {
+    "links": 4,
+    "images": 0,
+    "headings": 5,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.94,
+   "geometry": {
+    "top": 951,
+    "height": 460,
+    "widthFraction": 0.78,
+    "leftFraction": 0.21,
+    "pageFraction": 1.17,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 5,
+   "tag": "section",
+   "class": "wt-section wt-section_bg_white wt-section_theme_light section-starting-page-content__section",
+   "landmarks": [
+    "main",
+    "article",
+    "section"
+   ],
+   "textLength": 523,
+   "text": "Featured topics\nWhat's new in Kotlin 2.4.20\nNew experimental and stable features, performance improvements, and bug fixes\nStandard library API reference\nLiving essentials for everyday work with Kotlin: IO, files, threading, collections, and much more\nGradle\nLearn about Gradle as a build tool to automate and manage building your projects\nMaven\nLearn about Maven as a build tool to automate and manag",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 7,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 6,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.95,
+   "geometry": {
+    "top": 1427,
+    "height": 670,
+    "widthFraction": 0.78,
+    "leftFraction": 0.21,
+    "pageFraction": 1.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "div",
+   "class": "wt-row wt-row_size_xs wt-row_wide wt-row_wrap",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 28,
+   "text": "Was this page helpful?\nYesNo",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2185,
+    "height": 48,
+    "widthFraction": 0.22,
+    "leftFraction": 0.25,
+    "pageFraction": 2.68,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "nav",
+   "class": "navigation-links",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 23,
+   "text": "Get started with Kotlin",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 1,
+   "geometry": {
+    "top": 2321,
+    "height": 121,
+    "widthFraction": 0.74,
+    "leftFraction": 0.23,
+    "pageFraction": 2.84,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "footer",
+   "class": "layout layout--container-content",
+   "landmarks": [
+    "main",
+    "footer"
+   ],
+   "textLength": 230,
+   "text": "Contributing to KotlinReleasesPress KitSecurityBlogIssue TrackerBrand AssetsCareersKotlin MerchOpt-Out\nKotlin™ is protected under the Kotlin Foundation and licensed under the Apache 2 license. \nSupported and developed by JetBrains",
+   "counts": {
+    "links": 20,
+    "images": 6,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.63,
+   "geometry": {
+    "top": 2442,
+    "height": 171,
+    "widthFraction": 0.78,
+    "leftFraction": 0.21,
+    "pageFraction": 2.99,
+    "aboveFold": false
+   }
+  }
+ ]
+}

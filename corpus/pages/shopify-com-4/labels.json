@@ -1,0 +1,1068 @@
+{
+ "id": "shopify-com-4",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T14:09:43.645Z",
+ "tier": "relayout",
+ "application": 0.1,
+ "inputTokens": 154585,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "skip_link",
+   "confidence": 0.91,
+   "margin": 0.84,
+   "top": [
+    [
+     "skip_link",
+     0.92
+    ],
+    [
+     "site_header",
+     0.08
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "block": "mixed",
+   "slot": "header",
+   "final": "skip_link"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.95,
+   "margin": 0.93,
+   "top": [
+    [
+     "site_nav",
+     0.96
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "account",
+   "confidence": 0.89,
+   "margin": 0.83,
+   "top": [
+    [
+     "account",
+     0.9
+    ],
+    [
+     "site_header",
+     0.07
+    ],
+    [
+     "site_nav",
+     0.03
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "account"
+  },
+  {
+   "index": 3,
+   "choice": "product_card",
+   "confidence": 0.59,
+   "margin": 0.32,
+   "top": [
+    [
+     "product_card",
+     0.61
+    ],
+    [
+     "image",
+     0.29
+    ],
+    [
+     "decoration",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.03
+    ],
+    [
+     "hero",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "listing",
+   "final": "product_card"
+  },
+  {
+   "index": 4,
+   "choice": "image",
+   "confidence": 0.42,
+   "margin": 0.22,
+   "top": [
+    [
+     "image",
+     0.44
+    ],
+    [
+     "cart",
+     0.22
+    ],
+    [
+     "product_card",
+     0.17
+    ],
+    [
+     "teaser_card",
+     0.1
+    ],
+    [
+     "decoration",
+     0.06
+    ]
+   ],
+   "block": "media",
+   "slot": "listing",
+   "final": "image"
+  },
+  {
+   "index": 5,
+   "choice": "image",
+   "confidence": 0.7,
+   "margin": 0.48,
+   "top": [
+    [
+     "image",
+     0.71
+    ],
+    [
+     "decoration",
+     0.23
+    ],
+    [
+     "hero",
+     0.04
+    ],
+    [
+     "gallery",
+     0.01
+    ],
+    [
+     "canvas",
+     0.01
+    ]
+   ],
+   "block": "media",
+   "slot": "listing",
+   "final": "image"
+  },
+  {
+   "index": 6,
+   "choice": "image",
+   "confidence": 0.73,
+   "margin": 0.57,
+   "top": [
+    [
+     "image",
+     0.74
+    ],
+    [
+     "decoration",
+     0.17
+    ],
+    [
+     "gallery",
+     0.03
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "product_card",
+     0.03
+    ]
+   ],
+   "block": "media",
+   "slot": "listing",
+   "final": "image"
+  },
+  {
+   "index": 7,
+   "choice": "decoration",
+   "confidence": 0.49,
+   "margin": 0.1,
+   "top": [
+    [
+     "decoration",
+     0.51
+    ],
+    [
+     "image",
+     0.41
+    ],
+    [
+     "site_header",
+     0.04
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "logo_cloud",
+     0.01
+    ]
+   ],
+   "block": "empty",
+   "slot": "listing",
+   "final": "decoration"
+  },
+  {
+   "index": 8,
+   "choice": "heading",
+   "confidence": 0.71,
+   "margin": 0.56,
+   "top": [
+    [
+     "heading",
+     0.72
+    ],
+    [
+     "tabs",
+     0.16
+    ],
+    [
+     "hero",
+     0.04
+    ],
+    [
+     "unclear",
+     0.03
+    ],
+    [
+     "title",
+     0.02
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 9,
+   "choice": "heading",
+   "confidence": 0.36,
+   "margin": 0.02,
+   "top": [
+    [
+     "heading",
+     0.37
+    ],
+    [
+     "title",
+     0.35
+    ],
+    [
+     "hero",
+     0.27
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "empty_state",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "hero",
+   "final": "heading"
+  },
+  {
+   "index": 10,
+   "choice": "hero",
+   "confidence": 0.61,
+   "margin": 0.48,
+   "top": [
+    [
+     "hero",
+     0.62
+    ],
+    [
+     "text",
+     0.14
+    ],
+    [
+     "heading",
+     0.12
+    ],
+    [
+     "quote",
+     0.05
+    ],
+    [
+     "summary",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "hero",
+   "final": "hero"
+  },
+  {
+   "index": 11,
+   "choice": "summary",
+   "confidence": 0.4,
+   "margin": 0.14,
+   "top": [
+    [
+     "summary",
+     0.42
+    ],
+    [
+     "text",
+     0.28
+    ],
+    [
+     "hero",
+     0.28
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "cta",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "hero",
+   "final": "summary"
+  },
+  {
+   "index": 12,
+   "choice": "cta",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "cta",
+     0.98
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "pricing_table",
+     0
+    ],
+    [
+     "empty_state",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 13,
+   "choice": "text",
+   "confidence": 0.22,
+   "margin": 0,
+   "top": [
+    [
+     "cta",
+     0.24
+    ],
+    [
+     "text",
+     0.24
+    ],
+    [
+     "feature_grid",
+     0.16
+    ],
+    [
+     "heading",
+     0.11
+    ],
+    [
+     "teaser_card",
+     0.1
+    ]
+   ],
+   "block": "prose",
+   "slot": "hero",
+   "final": "text"
+  },
+  {
+   "index": 14,
+   "choice": "video",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "video",
+     0.99
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "chart",
+     0
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "hero",
+   "final": "video"
+  },
+  {
+   "index": 15,
+   "choice": "cta",
+   "confidence": 0.32,
+   "margin": 0.04,
+   "top": [
+    [
+     "cta",
+     0.34
+    ],
+    [
+     "heading",
+     0.3
+    ],
+    [
+     "text",
+     0.19
+    ],
+    [
+     "teaser_card",
+     0.08
+    ],
+    [
+     "summary",
+     0.04
+    ]
+   ],
+   "block": "prose",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 16,
+   "choice": "teaser_card",
+   "confidence": 0.47,
+   "margin": 0.05,
+   "top": [
+    [
+     "teaser_card",
+     0.48
+    ],
+    [
+     "product_card",
+     0.43
+    ],
+    [
+     "feature_grid",
+     0.05
+    ],
+    [
+     "gallery",
+     0.03
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 17,
+   "choice": "cta",
+   "confidence": 0.92,
+   "margin": 0.89,
+   "top": [
+    [
+     "cta",
+     0.93
+    ],
+    [
+     "feature_grid",
+     0.04
+    ],
+    [
+     "hero",
+     0.02
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "callout",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "cta",
+   "final": "cta"
+  },
+  {
+   "index": 18,
+   "choice": "feature_grid",
+   "confidence": 0.76,
+   "margin": 0.65,
+   "top": [
+    [
+     "feature_grid",
+     0.78
+    ],
+    [
+     "text",
+     0.13
+    ],
+    [
+     "heading",
+     0.08
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 19,
+   "choice": "feature_grid",
+   "confidence": 0.82,
+   "margin": 0.74,
+   "top": [
+    [
+     "feature_grid",
+     0.83
+    ],
+    [
+     "text",
+     0.09
+    ],
+    [
+     "heading",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "steps",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 20,
+   "choice": "feature_grid",
+   "confidence": 0.94,
+   "margin": 0.91,
+   "top": [
+    [
+     "feature_grid",
+     0.95
+    ],
+    [
+     "teaser_card",
+     0.04
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "sponsored",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 21,
+   "choice": "text",
+   "confidence": 0.25,
+   "margin": 0.03,
+   "top": [
+    [
+     "text",
+     0.27
+    ],
+    [
+     "feature_grid",
+     0.24
+    ],
+    [
+     "heading",
+     0.17
+    ],
+    [
+     "teaser_card",
+     0.16
+    ],
+    [
+     "cta",
+     0.09
+    ]
+   ],
+   "block": "prose",
+   "slot": "hero",
+   "final": "text"
+  },
+  {
+   "index": 22,
+   "choice": "feature_grid",
+   "confidence": 0.54,
+   "margin": 0.18,
+   "top": [
+    [
+     "feature_grid",
+     0.55
+    ],
+    [
+     "cta",
+     0.37
+    ],
+    [
+     "teaser_card",
+     0.08
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "external_links",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 23,
+   "choice": "feature_grid",
+   "confidence": 0.9,
+   "margin": 0.88,
+   "top": [
+    [
+     "feature_grid",
+     0.91
+    ],
+    [
+     "text",
+     0.03
+    ],
+    [
+     "teaser_card",
+     0.03
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 24,
+   "choice": "feature_grid",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "feature_grid",
+     0.96
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 25,
+   "choice": "feature_grid",
+   "confidence": 0.67,
+   "margin": 0.46,
+   "top": [
+    [
+     "feature_grid",
+     0.68
+    ],
+    [
+     "teaser_card",
+     0.22
+    ],
+    [
+     "list",
+     0.04
+    ],
+    [
+     "definition_list",
+     0.03
+    ],
+    [
+     "text",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 26,
+   "choice": "feature_grid",
+   "confidence": 0.71,
+   "margin": 0.57,
+   "top": [
+    [
+     "feature_grid",
+     0.72
+    ],
+    [
+     "text",
+     0.15
+    ],
+    [
+     "heading",
+     0.1
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 27,
+   "choice": "feature_grid",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "feature_grid",
+     0.99
+    ],
+    [
+     "logo_cloud",
+     0.01
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "cta",
+     0
+    ]
+   ],
+   "block": "cards",
+   "slot": "features",
+   "final": "feature_grid"
+  },
+  {
+   "index": 28,
+   "choice": "heading",
+   "confidence": 0.78,
+   "margin": 0.58,
+   "top": [
+    [
+     "heading",
+     0.79
+    ],
+    [
+     "accordion",
+     0.21
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "audio",
+     0
+    ]
+   ],
+   "block": "heading",
+   "slot": "article",
+   "final": "heading"
+  },
+  {
+   "index": 29,
+   "choice": "accordion",
+   "confidence": 0.76,
+   "margin": 0.65,
+   "top": [
+    [
+     "accordion",
+     0.77
+    ],
+    [
+     "text",
+     0.12
+    ],
+    [
+     "site_footer",
+     0.07
+    ],
+    [
+     "feature_grid",
+     0.03
+    ],
+    [
+     "definition_list",
+     0.01
+    ]
+   ],
+   "block": "cards",
+   "slot": "article",
+   "final": "accordion"
+  },
+  {
+   "index": 30,
+   "choice": "site_footer",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "site_footer",
+     0.95
+    ],
+    [
+     "site_nav",
+     0.05
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "references",
+     0
+    ],
+    [
+     "legal_notice",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 31,
+   "choice": "version_switcher",
+   "confidence": 0.58,
+   "margin": 0.32,
+   "top": [
+    [
+     "version_switcher",
+     0.6
+    ],
+    [
+     "site_footer",
+     0.28
+    ],
+    [
+     "settings",
+     0.1
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "action_button",
+     0.01
+    ]
+   ],
+   "block": "controls",
+   "slot": "nav",
+   "final": "version_switcher"
+  },
+  {
+   "index": 32,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_footer",
+     0.99
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "subscribe",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 33,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "site_footer",
+     0.98
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "reactions",
+     0
+    ]
+   ],
+   "block": "list",
+   "slot": "footer",
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:26.265Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

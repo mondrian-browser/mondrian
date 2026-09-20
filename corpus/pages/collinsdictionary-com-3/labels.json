@@ -1,0 +1,417 @@
+{
+ "id": "collinsdictionary-com-3",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T13:14:43.423Z",
+ "tier": "relayout",
+ "application": 0.4,
+ "inputTokens": 59258,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "image",
+   "confidence": 0.74,
+   "margin": 0.67,
+   "top": [
+    [
+     "image",
+     0.75
+    ],
+    [
+     "hero",
+     0.08
+    ],
+    [
+     "site_header",
+     0.07
+    ],
+    [
+     "decoration",
+     0.06
+    ],
+    [
+     "gallery",
+     0.03
+    ]
+   ],
+   "block": "media",
+   "slot": "page",
+   "final": "image"
+  },
+  {
+   "index": 1,
+   "choice": "site_header",
+   "confidence": 0.88,
+   "margin": 0.8,
+   "top": [
+    [
+     "site_header",
+     0.89
+    ],
+    [
+     "site_nav",
+     0.09
+    ],
+    [
+     "image",
+     0.01
+    ],
+    [
+     "decoration",
+     0.01
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "header",
+   "final": "site_header"
+  },
+  {
+   "index": 2,
+   "choice": "site_nav",
+   "confidence": 0.95,
+   "margin": 0.9,
+   "top": [
+    [
+     "site_nav",
+     0.95
+    ],
+    [
+     "site_header",
+     0.05
+    ],
+    [
+     "account",
+     0
+    ],
+    [
+     "metadata",
+     0
+    ],
+    [
+     "share",
+     0
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 3,
+   "choice": "search",
+   "confidence": 0.51,
+   "margin": 0.26,
+   "top": [
+    [
+     "search",
+     0.52
+    ],
+    [
+     "site_nav",
+     0.26
+    ],
+    [
+     "site_header",
+     0.2
+    ],
+    [
+     "form",
+     0.02
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "header",
+   "final": "search"
+  },
+  {
+   "index": 4,
+   "choice": "site_nav",
+   "confidence": 0.78,
+   "margin": 0.68,
+   "top": [
+    [
+     "site_nav",
+     0.79
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "tag_cloud",
+     0.05
+    ],
+    [
+     "list",
+     0.03
+    ],
+    [
+     "site_header",
+     0.01
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  },
+  {
+   "index": 5,
+   "choice": "ad",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "ad",
+     1
+    ],
+    [
+     "external_links",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ]
+   ],
+   "block": "media",
+   "slot": "ad",
+   "final": "ad"
+  },
+  {
+   "index": 6,
+   "choice": "title",
+   "confidence": 0.56,
+   "margin": 0.29,
+   "top": [
+    [
+     "title",
+     0.58
+    ],
+    [
+     "heading",
+     0.29
+    ],
+    [
+     "version_switcher",
+     0.06
+    ],
+    [
+     "poll",
+     0.04
+    ],
+    [
+     "unclear",
+     0.01
+    ]
+   ],
+   "block": "heading",
+   "slot": "teasers",
+   "final": "title"
+  },
+  {
+   "index": 7,
+   "choice": "poll",
+   "confidence": 0.9,
+   "margin": 0.87,
+   "top": [
+    [
+     "poll",
+     0.91
+    ],
+    [
+     "progress",
+     0.04
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "rating",
+     0.01
+    ]
+   ],
+   "block": "prose",
+   "slot": "form",
+   "final": "poll"
+  },
+  {
+   "index": 8,
+   "choice": "poll",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "poll",
+     0.98
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "form",
+   "final": "poll"
+  },
+  {
+   "index": 9,
+   "choice": "action_button",
+   "confidence": 0.77,
+   "margin": 0.62,
+   "top": [
+    [
+     "action_button",
+     0.79
+    ],
+    [
+     "pagination",
+     0.17
+    ],
+    [
+     "poll",
+     0.04
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "sponsored",
+     0
+    ]
+   ],
+   "block": "controls",
+   "slot": "tools",
+   "final": "action_button"
+  },
+  {
+   "index": 10,
+   "choice": "teaser_card",
+   "confidence": 0.49,
+   "margin": 0.38,
+   "top": [
+    [
+     "teaser_card",
+     0.51
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "ad",
+     0.13
+    ],
+    [
+     "infobox",
+     0.06
+    ],
+    [
+     "related",
+     0.05
+    ]
+   ],
+   "block": "cards",
+   "slot": "teasers",
+   "final": "teaser_card"
+  },
+  {
+   "index": 11,
+   "choice": "site_footer",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ]
+   ],
+   "block": "prose",
+   "slot": "footer",
+   "final": "site_footer"
+  },
+  {
+   "index": 12,
+   "choice": "site_nav",
+   "confidence": 0.5,
+   "margin": 0.21,
+   "top": [
+    [
+     "site_nav",
+     0.52
+    ],
+    [
+     "site_footer",
+     0.31
+    ],
+    [
+     "section_nav",
+     0.07
+    ],
+    [
+     "list",
+     0.04
+    ],
+    [
+     "site_header",
+     0.03
+    ]
+   ],
+   "block": "links",
+   "slot": "header",
+   "final": "site_nav"
+  }
+ ],
+ "reviewedAt": "2026-09-20T15:00:25.281Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

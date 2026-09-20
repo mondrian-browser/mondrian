@@ -1,0 +1,1073 @@
+{
+ "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/",
+ "title": "Install Redis Open Source | Docs",
+ "viewport": {
+  "width": 1425,
+  "height": 816
+ },
+ "pageHeight": 3207,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "header",
+   "class": "sticky top-0 h-[70px] z-50",
+   "landmarks": [
+    "header"
+   ],
+   "textLength": 205,
+   "text": "AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Search\n Login\n Sign up\n Open search\n Open main menu\n AI agent builder\n Redis install\n Data types\n Tools\n Community\n Docs\n Sign up\n Login",
+   "counts": {
+    "links": 17,
+    "images": 3,
+    "headings": 0,
+    "listItems": 8,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.67,
+   "geometry": {
+    "top": 0,
+    "height": 70,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "a×3",
+   "class": "px-6 py-4 rounded-t-md hover:bg-redis-pen-200",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 53,
+   "text": "Develop with Redis\nLibraries and tools\nRedis products",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 3,
+    "coverLinks": 7
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 119,
+    "height": 182,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "ul",
+   "class": "md:block overflow-y-auto grow pr-6",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 564,
+   "text": "Redis Software\n latest\n ▼\n ▲\n latest\n v8.0\n v7.22\n v7.8\n v7.4\n Redis Cloud\n Redis for Kubernetes\n latest\n ▼\n ▲\n latest\n v8.0.18\n v8.0\n v7.22\n v7.8.6\n v7.8.4\n v7.4.6\n Redis Open Source\n Install and upgrade\n Install Redis Open Source\n Docker\n APT\n RPM\n Snap\n Homebrew\n Windows\n Install redis-cli\n Upgrade Redis Open Source\n Build and run Redis Open Source\n Version management\n Archived instructions\n Ma",
+   "counts": {
+    "links": 37,
+    "images": 0,
+    "headings": 0,
+    "listItems": 25,
+    "tableRows": 0,
+    "controls": 2,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 301,
+    "height": 350,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.09,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "div",
+   "class": "min-h-0 border border-opacity-50 border-redis-ink-900",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 31,
+   "text": "Commands\nDownload documentation",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.26,
+   "geometry": {
+    "top": 668,
+    "height": 114,
+    "widthFraction": 0.27,
+    "leftFraction": 0.01,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "nav",
+   "class": "flex text-redis-ink-900 text-xs font-mono",
+   "ariaLabel": "Breadcrumb",
+   "landmarks": [
+    "main",
+    "nav"
+   ],
+   "textLength": 111,
+   "text": "Docs\n Docs\n →\n Redis products\n →\n Redis Open Source\n →\n Install Redis Open Source\n →\n Install Redis Open Source",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.88,
+   "geometry": {
+    "top": 118,
+    "height": 32,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 25,
+   "text": "Install Redis Open Source",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 198,
+    "height": 40,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p",
+   "class": "text-lg -mt-2 mb-2",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 82,
+   "text": "Install Redis Open Source on Docker, Linux, macOS, and Windows (using Docker only)",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 262,
+    "height": 24,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.08,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "table",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 17,
+   "text": "Redis Open Source",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 1,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 322,
+    "height": 42,
+    "widthFraction": 0.1,
+    "leftFraction": 0.33,
+    "pageFraction": 0.1,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "h2",
+   "id": "quick-start-with-docker",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 23,
+   "text": "Quick start with Docker",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 456,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.14,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "div",
+   "class": "highlight",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 99,
+   "text": "The fastest way to run Redis is with Docker:\ndocker run -d --name redis -p 6379:6379 redis\n Copied!",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 525,
+    "height": 104,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 10,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 118,
+   "text": "See the Docker page for full details, including data persistence, custom configuration, and connecting with redis-cli.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 653,
+    "height": 48,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.2,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 11,
+   "tag": "h2",
+   "id": "install-on-your-platform",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 24,
+   "text": "Install on your platform",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 814,
+    "height": 45,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.25,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "tab-nav",
+   "role": "tablist",
+   "ariaLabel": "Tab navigation",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 21,
+   "text": "Linux\n macOS\n Windows",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 3,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 883,
+    "height": 46,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.28,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "h4",
+   "id": "docker-powershell",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 19,
+   "text": "Docker (PowerShell)",
+   "counts": {
+    "links": 1,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1005,
+    "height": 28,
+    "widthFraction": 0.4,
+    "leftFraction": 0.35,
+    "pageFraction": 0.31,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 101,
+   "text": "Make sure Docker Desktop is installed and configured to run Linux containers, then run in PowerShell:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1042,
+    "height": 48,
+    "widthFraction": 0.4,
+    "leftFraction": 0.35,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "div",
+   "class": "highlight",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 54,
+   "text": "docker run -d --name redis -p 6379:6379 redis\n Copied!",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 24,
+     "height": 24
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1114,
+    "height": 56,
+    "widthFraction": 0.4,
+    "leftFraction": 0.35,
+    "pageFraction": 0.35,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h4",
+   "id": "memurai-preview",
+   "class": "group relative",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 45,
+   "text": "Full Windows / Docker guide\nMemurai (preview)",
+   "counts": {
+    "links": 2,
+    "images": 1,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.6,
+   "geometry": {
+    "top": 1194,
+    "height": 165,
+    "widthFraction": 0.4,
+    "leftFraction": 0.35,
+    "pageFraction": 0.37,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 133,
+   "text": "A preview of Redis Open Source 8.2 RC1 is available on Windows through Memurai, the official Redis partner for Windows compatibility.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.05,
+   "geometry": {
+    "top": 1368,
+    "height": 48,
+    "widthFraction": 0.4,
+    "leftFraction": 0.35,
+    "pageFraction": 0.43,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 83,
+   "text": "The latest version of Redis Open Source has been tested on the following platforms:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1558,
+    "height": 24,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.49,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 305,
+   "text": "Ubuntu 22.04 (Jammy Jellyfish), 24.04 (Noble Numbat), and 26.04 (Resolute Raccoon).\nRocky Linux 8.10, 9.7, and 10.1.\nAlmaLinux 8.10, 9.7, and 10.1.\nDebian 12.13 (Bookworm) and Debian 13.4 (Trixie).\nAlpine 3.23.\nmacOS 14.8.4 (Sonoma), 15.7.4 (Sequoia), and 26.3 (Tahoe) - for both Intel and ARM processors.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 1602,
+    "height": 192,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.5,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 20,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 455,
+   "text": "While you can install Redis Open Source on any of the platforms listed below, you might also consider using Redis Cloud by creating a free account.\nYou can also download Redis Insight, a free developer companion tool with an intuitive GUI and advanced CLI, which you can use alongside Redis Open Source.\nIf you only need the Redis CLI (redis-cli) to connect to a remote Redis server, and not the full",
+   "counts": {
+    "links": 3,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1814,
+    "height": 184,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.57,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 21,
+   "tag": "a",
+   "landmarks": [
+    "main",
+    "section",
+    "nav"
+   ],
+   "textLength": 108,
+   "text": "Run Redis Open Source on Docker\nHow to run Redis Open Source using Docker\nInstall Redis Open Source on Linux",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2099,
+    "height": 111,
+    "widthFraction": 0.18,
+    "leftFraction": 0.33,
+    "pageFraction": 0.65,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 22,
+   "tag": "a",
+   "landmarks": [
+    "main",
+    "section",
+    "nav"
+   ],
+   "textLength": 77,
+   "text": "How to install Redis Open Source using APT\nInstall Redis Open Source on Linux",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2235,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.7,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 23,
+   "tag": "a",
+   "landmarks": [
+    "main",
+    "section",
+    "nav"
+   ],
+   "textLength": 77,
+   "text": "How to install Redis Open Source using RPM\nInstall Redis Open Source on Linux",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2327,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.73,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 24,
+   "tag": "a",
+   "landmarks": [
+    "main",
+    "section",
+    "nav"
+   ],
+   "textLength": 78,
+   "text": "How to install Redis Open Source using Snap\nInstall Redis Open Source on macOS",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2419,
+    "height": 67,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.75,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 25,
+   "tag": "p",
+   "landmarks": [
+    "main",
+    "section",
+    "nav"
+   ],
+   "textLength": 238,
+   "text": "How to install Redis Open Source on macOS using Homebrew\nRun Redis Open Source on Windows using Docker\nHow to run Redis Open Source on Windows\nInstall redis-cli\nHow to install just the Redis CLI (redis-cli) without installing all of Redis",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2511,
+    "height": 208,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 26,
+   "tag": "form",
+   "id": "page-feedback",
+   "class": "text-sm w-full mt-24 pt-5",
+   "landmarks": [
+    "main",
+    "section",
+    "form"
+   ],
+   "textLength": 52,
+   "text": "RATE THIS PAGE\n ★\n ★\n ★\n ★\n ★\n Back to top ↑\n Submit",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 9,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.25,
+   "geometry": {
+    "top": 2815,
+    "height": 69,
+    "widthFraction": 0.43,
+    "leftFraction": 0.33,
+    "pageFraction": 0.88,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 27,
+   "tag": "section",
+   "class": "hidden xl:block w-60 h-full",
+   "landmarks": [
+    "main",
+    "section"
+   ],
+   "textLength": 149,
+   "text": "Edit this page\n Create an issue\n Download documentation\n Ask AI to explain this page\n On this page\n Quick start with Docker\n Install on your platform",
+   "counts": {
+    "links": 5,
+    "images": 4,
+    "headings": 1,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.69,
+   "geometry": {
+    "top": 70,
+    "height": 0,
+    "widthFraction": 0.17,
+    "leftFraction": 0.81,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 28,
+   "tag": "footer",
+   "class": "relative z-50 flex justify-center",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 347,
+   "text": "Trust\n Privacy\n Terms of use\n Legal notices\n Compare\n Redis vs Elasticache\n Redis vs Memcached\n Redis vs Memory Store\n Redis vs. Open Source\n Company\n Mission & valuesLeadership\n Careers\n Partners\n Amazon Web Services\n Google Cloud\n Microsoft Azure\n All partners\n Support\n Professional\n servicesSupport\n Trust\n Privacy\n Terms of use\n Legal notices",
+   "counts": {
+    "links": 28,
+    "images": 7,
+    "headings": 4,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 82,
+     "height": 26
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    },
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 20,
+     "height": 20
+    }
+   ],
+   "linkTextRatio": 0.82,
+   "geometry": {
+    "top": 2980,
+    "height": 227,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 29,
+   "tag": "div",
+   "class": "my-0 mx-auto w-full max-w-[47.375rem]",
+   "landmarks": [],
+   "textLength": 148,
+   "text": "All products\n Redis Software\n Redis Cloud\n Redis Open Source\n Redis Insight\n Redis Enterprise for K8s\n Redis Data Integration\n Client Libraries\n ESC",
+   "counts": {
+    "links": 0,
+    "images": 1,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 4,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 19
+    }
+   ],
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 0,
+    "height": 147,
+    "widthFraction": 0.1,
+    "leftFraction": 0,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  }
+ ]
+}

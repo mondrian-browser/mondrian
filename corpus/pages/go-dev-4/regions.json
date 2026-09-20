@@ -1,0 +1,673 @@
+{
+ "url": "https://go.dev/doc/modules/developing",
+ "title": "Developing and publishing modules - The Go Programming Language",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 2373,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "ul",
+   "class": "Header-menu",
+   "landmarks": [
+    "header",
+    "nav"
+   ],
+   "textLength": 1100,
+   "text": "Skip to Main Content\nWhy Go arrow_drop_down\n Press Enter to activate/deactivate dropdown\n Case Studies\n Common problems companies solve with Go\n Use Cases\n Stories about how and why companies use Go\n Security\n How Go can help keep you secure by default\n Learn \n Press Enter to activate/deactivate dropdown\n Docs arrow_drop_down\n Press Enter to activate/deactivate dropdown\n Go Spec\n The official Go l",
+   "counts": {
+    "links": 27,
+    "images": 1,
+    "headings": 0,
+    "listItems": 19,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 14,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Go",
+     "width": 82,
+     "height": 32
+    }
+   ],
+   "linkTextRatio": 0.29,
+   "geometry": {
+    "top": 0,
+    "height": 56,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "nav",
+   "class": "NavigationDrawer-nav",
+   "landmarks": [
+    "aside",
+    "nav"
+   ],
+   "textLength": 359,
+   "text": "Why Go navigate_next\n navigate_beforeWhy Go\n Case Studies\n Use Cases\n Security\n Learn\n Docs navigate_next\n navigate_beforeDocs\n Go Spec\n Go User Manual\n Standard library\n Release Notes\n Effective Go\n Packages\n Community navigate_next\n navigate_beforeCommunity\n Recorded Talks\n Meetups\n open_in_new\n Conferences\n open_in_new\n Go blog\n Go project\n Get connected",
+   "counts": {
+    "links": 30,
+    "images": 9,
+    "headings": 0,
+    "listItems": 19,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "Go.",
+     "width": 82,
+     "height": 32
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    },
+    {
+     "kind": "img",
+     "alt": "",
+     "width": 16,
+     "height": 16
+    }
+   ],
+   "linkTextRatio": 0.99,
+   "geometry": {
+    "top": 0,
+    "height": 279,
+    "widthFraction": 0.3,
+    "leftFraction": 0.99,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "h1",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 33,
+   "text": "Developing and publishing modules",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 72,
+    "height": 50,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.03,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "table",
+   "class": "unruled",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 137,
+   "text": "Table of Contents\nWorkflow for developing and publishing modulesDesign and developmentDecentralized publishingPackage discoveryVersioning",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 2,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.87,
+   "geometry": {
+    "top": 142,
+    "height": 124,
+    "widthFraction": 0.24,
+    "leftFraction": 0.09,
+    "pageFraction": 0.06,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 230,
+   "text": "You can collect related packages into modules, then publish the modules for\nother developers to use. This topic gives an overview of developing and\npublishing modules.\nTo support developing, publishing, and using modules, you use:",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 287,
+    "height": 83,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.12,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 951,
+   "text": "A workflow through which you develop and publish modules, revising them\nwith new versions over time. See Workflow for developing and publishing\nmodules.\nDesign practices that help a module’s users understand it and upgrade\nto new versions in a stable way. See Design and development.\nA decentralized system for publishing modules and retrieving their code.\nYou make your module available for other de",
+   "counts": {
+    "links": 6,
+    "images": 0,
+    "headings": 0,
+    "listItems": 6,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.15,
+   "geometry": {
+    "top": 386,
+    "height": 224,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.16,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 6,
+   "tag": "ul",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 237,
+   "text": "See also\nIf you’re interested simply in using packages developed by others, this\nisn’t the topic for you. Instead, see Managing\ndependencies.\nFor a tutorial that includes a few module development basics, see\nTutorial: Create a Go module.",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.21,
+   "geometry": {
+    "top": 626,
+    "height": 83,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.26,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 7,
+   "tag": "h2",
+   "id": "workflow",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 47,
+   "text": "Workflow for developing and publishing modules¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 725,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.31,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×2",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 216,
+   "text": "When you want to publish your modules for others, you adopt a few conventions to\nmake using those modules easier.\nThe following high-level steps are described in more detail in Module release\nand versioning workflow.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.18,
+   "geometry": {
+    "top": 772,
+    "height": 61,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.33,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 9,
+   "tag": "ol",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 365,
+   "text": "Design and code the packages that the module will include.\nCommit code to your repository using conventions that ensure it’s available\nto others via Go tools.\nPublish the module to make it discoverable by developers.\nOver time, revise the module with versions that use a version numbering\nconvention that signals each version’s stability and backward compatibility.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 4,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 849,
+    "height": 90,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.36,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "h2",
+   "id": "design",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 23,
+   "text": "Design and development¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 955,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.4,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 878,
+   "text": "Your module will be easier for developers to find and use if the functions and\npackages in it form a coherent whole. When you’re designing a module’s public\nAPI, try to keep its functionality focused and discrete.\nAlso, designing and developing your module with backward compatibility in mind\nhelps its users upgrade while minimizing churn to their own code. You can use\ncertain techniques in code to",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.08,
+   "geometry": {
+    "top": 1002,
+    "height": 189,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.42,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "h2",
+   "id": "decentralized",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 25,
+   "text": "Decentralized publishing¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1207,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p×4",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 1049,
+   "text": "In Go, you publish your module by tagging its code in your repository to make it\navailable for other developers to use. You don’t need to push your module to a\ncentralized service because Go tools can download your module directly from your\nrepository (located using the module’s path, which is a URL with the scheme\nomitted) or from a proxy server.\nAfter importing your package in their code, develo",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1254,
+    "height": 251,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.53,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 14,
+   "tag": "h2",
+   "id": "discovery",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 18,
+   "text": "Package discovery¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1521,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.64,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 450,
+   "text": "After you’ve published your module and someone has fetched it with Go tools, it\nwill become visible on the Go package discovery site at\npkg.go.dev. There, developers can search the site to find\nit and read its documentation.\nTo begin using the module, a developer imports packages from the module, then\nruns the go get command to download its source code to compile with.\nFor more about how developer",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.07,
+   "geometry": {
+    "top": 1568,
+    "height": 123,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.66,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 16,
+   "tag": "h2",
+   "id": "versioning",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 11,
+   "text": "Versioning¶",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1707,
+    "height": 31,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.72,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 17,
+   "tag": "p×3",
+   "landmarks": [
+    "main",
+    "article"
+   ],
+   "textLength": 625,
+   "text": "As you revise and improve your module over time, you assign version numbers\n(based on the semantic versioning model) designed to signal each version’s\nstability and backward compatibility. This helps developers using your module\ndetermine when the module is stable and whether an upgrade may include\nsignificant changes in behavior. You indicate a module’s version number by\ntagging the module’s sour",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 1754,
+    "height": 144,
+    "widthFraction": 0.81,
+    "leftFraction": 0.09,
+    "pageFraction": 0.74,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 18,
+   "tag": "footer",
+   "class": "Site-footer",
+   "landmarks": [
+    "footer"
+   ],
+   "textLength": 404,
+   "text": "Why Go\n Use Cases\n Case Studies\n Get Started\n Playground\n Tour\n Stack Overflow\n Help\n Packages\n Standard Library\n About Go Packages\n pkg.go.dev API\n About\n Download\n Blog\n Issue Tracker\n Release Notes\n Brand Guidelines\n Code of Conduct\n Connect\n Bluesky\n Mastodon\n Twitter\n GitHub\n Slack\n r/golang\n Meetup\n Golang Weekly\n Opens in new window.\n Copyright\n Terms of Service\n Privacy Policy\n Report an I",
+   "counts": {
+    "links": 33,
+    "images": 3,
+    "headings": 0,
+    "listItems": 5,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "img",
+     "alt": "The Go Gopher",
+     "width": 80,
+     "height": 50
+    },
+    {
+     "kind": "img",
+     "alt": "Google logo",
+     "width": 72,
+     "height": 24
+    },
+    {
+     "kind": "img",
+     "alt": "System theme",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.79,
+   "geometry": {
+    "top": 1928,
+    "height": 445,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.81,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 19,
+   "tag": "section",
+   "class": "Cookie-notice js-cookieNotice Cookie-notice--visible",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 125,
+   "text": "go.dev uses cookies from Google to deliver and enhance the quality of its services and to\n analyze traffic. Learn more.\n Okay",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.09,
+   "geometry": {
+    "top": 743,
+    "height": 73,
+    "widthFraction": 0.99,
+    "leftFraction": 0,
+    "pageFraction": 0.31,
+    "aboveFold": true
+   }
+  }
+ ]
+}

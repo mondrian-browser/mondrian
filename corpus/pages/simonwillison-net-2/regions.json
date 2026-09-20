@@ -1,0 +1,511 @@
+{
+ "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+ "title": "Some thoughts on the Navier–Stokes Millennium Prize Problem",
+ "viewport": {
+  "width": 1440,
+  "height": 816
+ },
+ "pageHeight": 2785,
+ "regions": [
+  {
+   "index": 0,
+   "tag": "h1",
+   "landmarks": [],
+   "textLength": 33,
+   "text": "Simon Willison’s Weblog\nSubscribe",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.7,
+   "geometry": {
+    "top": 6,
+    "height": 23,
+    "widthFraction": 0.65,
+    "leftFraction": 0.17,
+    "pageFraction": 0,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 1,
+   "tag": "h2",
+   "landmarks": [],
+   "textLength": 59,
+   "text": "Some thoughts on the Navier–Stokes Millennium Prize Problem",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 50,
+    "height": 63,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 2,
+   "tag": "p×3",
+   "landmarks": [],
+   "textLength": 1151,
+   "text": "On the Navier–Stokes Millennium Prize Problem introduces an impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000.\nThe discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaste",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 3,
+    "repeats": 3,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 124,
+    "height": 443,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.04,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 3,
+   "tag": "blockquote",
+   "landmarks": [],
+   "textLength": 512,
+   "text": "I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI.\nI asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this proj",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 583,
+    "height": 198,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.21,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 4,
+   "tag": "p",
+   "landmarks": [],
+   "textLength": 265,
+   "text": "It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would not be invited as a co-author due to OpenAI’s competitive relationship with his employer.",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 797,
+    "height": 93,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.29,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 5,
+   "tag": "blockquote",
+   "landmarks": [],
+   "textLength": 790,
+   "text": "Here’s how OpenAI described their work:\nOn Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...]\nThe agents arrived at their resolution on Saturday, Septembe",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 903,
+    "height": 343,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.32,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 6,
+   "tag": "p×2",
+   "landmarks": [],
+   "textLength": 248,
+   "text": "(We don’t know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost $15,000,000.)\nHere’s where they provide their perspective on Tristan and Levent’s work (emphasis mine):",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 2,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 1262,
+    "height": 129,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.45,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 7,
+   "tag": "blockquote",
+   "landmarks": [],
+   "textLength": 920,
+   "text": "Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result ",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.02,
+   "geometry": {
+    "top": 1407,
+    "height": 337,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.51,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 8,
+   "tag": "p×4",
+   "landmarks": [],
+   "textLength": 1115,
+   "text": "My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI’s own models to work on this problem for the best part of a year.\nThis situation appears to mirror what’s hap",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 4,
+    "repeats": 4,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.06,
+   "geometry": {
+    "top": 1760,
+    "height": 409,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.63,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 9,
+   "tag": "ul",
+   "landmarks": [],
+   "textLength": 566,
+   "text": "If I’m running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the “regurgitation” problem and assured me that they take great pains to prevent that... but wouldn’t describe how.)\nIf I brainstorm with ChatGPT about potential n",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 2182,
+    "height": 186,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.78,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 10,
+   "tag": "ul",
+   "landmarks": [],
+   "textLength": 248,
+   "text": "My new preferred hypothetical for this is:\nIf I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone else solve it first?\nVia Hacker News.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 1,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.04,
+   "geometry": {
+    "top": 2381,
+    "height": 142,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.85,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 11,
+   "tag": "div",
+   "class": "entryFooter",
+   "landmarks": [],
+   "textLength": 109,
+   "text": "Posted 8th September 2026 at 11:55 pm · Follow me on Mastodon, Bluesky, Twitter or subscribe to my newsletter",
+   "counts": {
+    "links": 5,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.61,
+   "geometry": {
+    "top": 2537,
+    "height": 50,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.91,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 12,
+   "tag": "div",
+   "class": "recent-articles",
+   "landmarks": [],
+   "textLength": 170,
+   "text": "More recent articles\n Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026\n OpenAI agents attacked RubyGems back in May - 12th September 2026",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 1,
+    "listItems": 2,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.6,
+   "geometry": {
+    "top": 2602,
+    "height": 102,
+    "widthFraction": 0.39,
+    "leftFraction": 0.17,
+    "pageFraction": 0.93,
+    "aboveFold": false
+   }
+  },
+  {
+   "index": 13,
+   "tag": "p",
+   "class": "this-is",
+   "landmarks": [],
+   "textLength": 116,
+   "text": "This is Some thoughts on the Navier–Stokes Millennium Prize Problem by Simon Willison, posted on 8th September 2026.",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 1,
+    "repeats": 1,
+    "coverLinks": 1
+   },
+   "linkTextRatio": 0.16,
+   "geometry": {
+    "top": 50,
+    "height": 84,
+    "widthFraction": 0.19,
+    "leftFraction": 0.58,
+    "pageFraction": 0.02,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 14,
+   "tag": "a×7",
+   "class": "item-tag",
+   "landmarks": [],
+   "textLength": 103,
+   "text": "mathematics\n 22\nai\n 2,242\nopenai\n 464\ngenerative-ai\n 1,988\nllms\n 1,954\ntraining-data\n 68\nai-ethics\n 343",
+   "counts": {
+    "links": 0,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 0,
+    "repeats": 7,
+    "coverLinks": 4
+   },
+   "linkTextRatio": 0,
+   "geometry": {
+    "top": 145,
+    "height": 145,
+    "widthFraction": 0.08,
+    "leftFraction": 0.58,
+    "pageFraction": 0.05,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 15,
+   "tag": "p",
+   "landmarks": [],
+   "textLength": 119,
+   "text": "Next: OpenAI agents attacked RubyGems back in May\nPrevious: The Pelican comparison grid for Astra is pretty interesting",
+   "counts": {
+    "links": 2,
+    "images": 0,
+    "headings": 0,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.86,
+   "geometry": {
+    "top": 297,
+    "height": 95,
+    "widthFraction": 0.19,
+    "leftFraction": 0.58,
+    "pageFraction": 0.11,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 16,
+   "tag": "section",
+   "landmarks": [
+    "section"
+   ],
+   "textLength": 168,
+   "text": "Monthly briefing\n Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments.\n Pay me to send you less!\n Sponsor & subscribe",
+   "counts": {
+    "links": 1,
+    "images": 0,
+    "headings": 1,
+    "listItems": 0,
+    "tableRows": 0,
+    "controls": 0,
+    "paragraphs": 2,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "linkTextRatio": 0.11,
+   "geometry": {
+    "top": 416,
+    "height": 224,
+    "widthFraction": 0.19,
+    "leftFraction": 0.58,
+    "pageFraction": 0.15,
+    "aboveFold": true
+   }
+  },
+  {
+   "index": 17,
+   "tag": "ul",
+   "landmarks": [],
+   "textLength": 174,
+   "text": "Disclosures\n Colophon\n ©\n 2002\n 2003\n 2004\n 2005\n 2006\n 2007\n 2008\n 2009\n 2010\n 2011\n 2012\n 2013\n 2014\n 2015\n 2016\n 2017\n 2018\n 2019\n 2020\n 2021\n 2022\n 2023\n 2024\n 2025\n 2026",
+   "counts": {
+    "links": 27,
+    "images": 1,
+    "headings": 0,
+    "listItems": 29,
+    "tableRows": 0,
+    "controls": 1,
+    "paragraphs": 0,
+    "repeats": 1,
+    "coverLinks": 0
+   },
+   "images": [
+    {
+     "kind": "svg",
+     "alt": "",
+     "width": 18,
+     "height": 18
+    }
+   ],
+   "linkTextRatio": 0.68,
+   "geometry": {
+    "top": 2733,
+    "height": 35,
+    "widthFraction": 0.96,
+    "leftFraction": 0.02,
+    "pageFraction": 0.98,
+    "aboveFold": false
+   }
+  }
+ ]
+}

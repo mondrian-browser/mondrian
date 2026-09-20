@@ -1,0 +1,111 @@
+{
+ "site": "food52.com",
+ "pages": 4,
+ "pageIds": [
+  "food52-com-1",
+  "food52-com-2",
+  "food52-com-3",
+  "food52-com-4"
+ ],
+ "derivedAt": "2026-09-20T13:39:01.444Z",
+ "blocks": [
+  {
+   "selector": "main > h2",
+   "type": "heading",
+   "n": 11,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.swiper-wrapper",
+   "type": "teaser_card",
+   "n": 10,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > a.btn-text",
+   "type": "action_button",
+   "n": 10,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "> div",
+   "type": "cart",
+   "n": 8,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main section > div",
+   "type": "teaser_card",
+   "n": 8,
+   "purity": 0.75,
+   "pages": 2
+  },
+  {
+   "selector": "main section > img.object-cover",
+   "type": "image",
+   "n": 6,
+   "purity": 0.83,
+   "pages": 3
+  },
+  {
+   "selector": "main > span",
+   "type": "summary",
+   "n": 5,
+   "purity": 1,
+   "pages": 1
+  },
+  {
+   "selector": "> div.auto-rows-auto",
+   "type": "search",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "nav [role=navigation] > ul",
+   "type": "site_nav",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > video.jw-video",
+   "type": "video",
+   "n": 4,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "footer > div",
+   "type": "site_footer",
+   "n": 4,
+   "purity": 1,
+   "pages": 4
+  },
+  {
+   "selector": "main > div.jw-nextup-container",
+   "type": "video",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > h3",
+   "type": "heading",
+   "n": 3,
+   "purity": 1,
+   "pages": 2
+  },
+  {
+   "selector": "main > div.jw-controls",
+   "type": "video",
+   "n": 1,
+   "purity": 1,
+   "pages": 1
+  }
+ ]
+}
