@@ -160,6 +160,36 @@ both older registrations when it runs.
 
 ---
 
+## 12. A start page that will not load used to stop the browser booting
+
+`webContents.loadURL` rejects on any main-frame navigation failure. `boot()` awaited the
+start-page `tab_open` without catching, so the rejection reached the boot `catch` and
+called `app.exit(1)`. The result was the worst possible failure for a browser: offline,
+behind a captive portal, behind a proxy that refuses CONNECT, or with a typo in
+`homeUrl`, Mondrian would not start **at all** — no window, no control socket, and no
+omnibox to type a working URL into. The one thing a browser must do when the network is
+bad is open.
+
+Found 20 Sep 2026 when the fixture suite would not run in a cloud container whose proxy
+refuses `CONNECT duckduckgo.com`. It had never shown up before because every machine the
+suite had run on could reach the configured `homeUrl`.
+
+Two things were wrong and both are fixed:
+
+- The start-page load is wrapped. The tab is already created when `loadURL` rejects, so
+  Chromium paints its own error page in it and `did-fail-load` records `tab.lastError`;
+  the failure is visible rather than swallowed. `control.json` is still written last, so
+  it keeps meaning "ready for commands".
+- The fixture suite launched with no `--url=`, so it booted to `settings.homeUrl` and put
+  duckduckgo.com on the critical path of all 86 checks of a suite documented as hermetic.
+  It now boots to its own fixture server.
+
+The lesson is the general one: **anything a suite calls hermetic should be run once with
+the network taken away.** A network dependency in a boot path is invisible until you are
+on the machine that cannot reach it, and that machine is usually CI.
+
+---
+
 ## Things that are true and easy to forget
 
 - Tests must kill their process tree. `spawn` without `detached: true` means

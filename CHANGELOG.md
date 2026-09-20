@@ -12,7 +12,7 @@ Notable changes. Format loosely follows Keep a Changelog. Nothing is released ye
 - Ad and tracker blocking on EasyList and EasyPrivacy, with element hiding and scriptlet
   injection, and a toolbar shield showing per-page blocked counts.
 - Composed pages: build one page from several live sites.
-- Three test suites: 86 fixture checks, 20 live sites, and multi-step agent flows.
+- Three test suites: 92 fixture checks, 20 live sites, and multi-step agent flows.
 - `destijl` theme.
 
 ### Fixed
@@ -28,6 +28,13 @@ Notable changes. Format loosely follows Keep a Changelog. Nothing is released ye
   shadow DOM at all, so web-component sites returned nothing.
 - Frame-header stripping was silently disabled on Windows, because `file://` URLs were
   built by string concatenation.
+- A start page that would not load stopped the browser booting at all. `loadURL` rejects
+  on any main-frame failure and the rejection reached the boot handler's `app.exit(1)`,
+  so offline, behind a captive portal, or with a bad `homeUrl` there was no window and no
+  control socket. Boot now records the error on the tab and opens anyway.
+- The fixture suite was not hermetic despite being documented as such: it booted to
+  `settings.homeUrl` and so could not run without reaching duckduckgo.com. It now boots
+  to its own fixture server.
 
 ### Changed
 - Renamed from Claude Browser to Mondrian. The MCP server registers as `mondrian`.

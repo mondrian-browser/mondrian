@@ -254,7 +254,18 @@ async function boot() {
   win.show();
 
   const startUrl = process.argv.find((a) => a.startsWith('--url='))?.slice(6) || settings.homeUrl;
-  await handlers.tab_open({ url: startUrl, activate: true, wait: false });
+  // A start page that will not load is not a reason to refuse to start. loadURL
+  // rejects on any main-frame failure — offline, DNS down, a captive portal, a proxy
+  // that refuses CONNECT, or a typo in settings.json — and that rejection reached the
+  // boot catch below and called app.exit(1): no window, no control socket, and no way
+  // to type a different URL. The tab is already created by this point, Chromium paints
+  // its own error page in it, and did-fail-load has recorded tab.lastError, so the
+  // failure is visible rather than swallowed.
+  try {
+    await handlers.tab_open({ url: startUrl, activate: true, wait: false });
+  } catch (e) {
+    log.warn(`start page "${startUrl}" failed to load: ${e.message}. Starting anyway; use the omnibox.`);
+  }
   layout();
 
   await control.start();

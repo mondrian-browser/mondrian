@@ -11,7 +11,7 @@ cd C:\Users\Lloyd\Documents\Claude\Projects\ClaudeBrowser
 npm.cmd test
 ```
 
-Expect **86 passed, 0 failed**. Everything in the repo is already on your machine and
+Expect **92 passed, 0 failed**. Everything in the repo is already on your machine and
 checksum-verified, but the suites were run on Linux in the cloud container. Windows has
 already caught one platform-specific bug tonight, so your run is the one that counts.
 

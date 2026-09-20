@@ -25,7 +25,7 @@ cd Mondrian
 npm install
 npm start                 # run it
 npm run install-mcp       # register it with the Claude desktop app, then fully quit and reopen Claude
-npm test                  # 86 end-to-end checks against a real browser
+npm test                  # 92 end-to-end checks against a real browser
 ```
 
 The MCP server registers as **mondrian**, so its tools are named
