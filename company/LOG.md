@@ -16,3 +16,16 @@ release events as triggers.
 Next: connect GitHub at claude.ai/code, install the Claude GitHub App on the repo, create
 the four routines from company/loops/.
 Tags: [needs-ops]
+
+## 2026-09-20 marketing
+Did: wrote company/marketing/positioning.md (trigger: the file did not exist yet), one
+page derived only from docs/PRD.md. Who it is for, the problem in their words, what
+Mondrian does, the non-goals as a selling point, and the one sentence. Flagged the
+measurable gates and the application-coverage risk as unverified, per the PRD's own
+status.
+Found: no release yet, no CHANGELOG entry, no marketing-tagged DECISIONS entry, so
+release notes, the landing page draft and the name decision (C3) stay untouched this run.
+Next: name.md still needs to be started against the Headstart collisions once there is a
+DECISIONS answer to track (D2 is still open); landing page draft once there is something
+to download.
+Tags: none
