@@ -141,6 +141,79 @@ function startFixture() {
   return new Promise((r) => server.listen(0, '127.0.0.1', () => r({ server, port: server.address().port })));
 }
 
+// A port nothing is listening on, so a navigation to it is refused immediately and
+// offline. Bind an ephemeral port, note it, hand it back.
+function closedPort() {
+  return new Promise((resolve) => {
+    const s = http.createServer();
+    s.listen(0, '127.0.0.1', () => { const p = s.address().port; s.close(() => resolve(p)); });
+  });
+}
+
+// ---------------------------------------------------------------- launching the app
+// detached gives the child its own process group. Without it, killing -pid does
+// nothing and xvfb-run leaves an orphaned Electron holding a control port; twenty
+// of those and the next run cannot start at all.
+function spawnApp(extraArgs = []) {
+  const electron = require('electron');
+  const needXvfb = !process.env.DISPLAY && process.platform === 'linux';
+  // Both flags are about headless Linux, not about root, though they were keyed on
+  // getuid() === 0 until 20 Sep 2026 because that is the machine they were first
+  // needed on. That guard held everywhere anyone tested by hand and failed on the one
+  // nobody watched: CI was red on main for nine consecutive runs. Gotcha 8.
+  //   --no-sandbox   must be argv, because appendSwitch in main.js runs after the SUID
+  //                  check. A normal user cannot set the setuid bit on
+  //                  node_modules/electron/dist/chrome-sandbox, and the runners
+  //                  restrict unprivileged user namespaces, so there is no namespace
+  //                  sandbox to fall back on: Chromium aborts before boot.
+  //   --disable-gpu  without it the runner has no working viz compositor, so
+  //                  capturePage fails with UnknownVizError and clicks miss.
+  const isLinux = process.platform === 'linux';
+  const extra = isLinux ? ['--no-sandbox', '--disable-gpu'] : [];
+  const cmd = needXvfb ? 'xvfb-run' : electron;
+  const args = needXvfb
+    ? ['-a', '-s', '-screen 0 1440x900x24', electron, '.', ...extra, ...extraArgs]
+    : ['.', ...extra, ...extraArgs];
+  console.log(`launching electron${needXvfb ? ' under xvfb' : ''}${extraArgs.length ? ' ' + extraArgs.join(' ') : ''}…`);
+  try { fs.unlinkSync(CONTROL); } catch (_) {}
+  const child = spawn(cmd, args, {
+    cwd: ROOT,
+    env: { ...process.env, CB_ANNOUNCE: '1', CB_ALLOW_MULTIPLE: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+    detached: true,
+  });
+  const box = { text: '', exited: false };
+  child.stdout.on('data', (d) => { box.text += d; });
+  child.stderr.on('data', (d) => { box.text += d; });
+  child.on('exit', (code) => {
+    box.exited = true;
+    if (code !== 0 && !KEEP) console.log(`electron exited ${code}`);
+  });
+  return { child, box };
+}
+
+// Wait for the process itself, not for its control.json to disappear. An instance
+// unlinks that file from its own will-quit handler, so a slow exit can delete the
+// *next* instance's file after it has been written — the suite would then sit there
+// reporting "browser never wrote control.json" against a browser that had started
+// perfectly. Only matters when one run launches twice, which is why it appears here
+// and not in the older single-launch suites.
+async function waitForExit(app, timeoutMs = 15000) {
+  shutdown(app.child);
+  return until(() => app.box.exited, { timeoutMs, everyMs: 100 });
+}
+
+// control.json appearing is the app's own signal that commands are safe to send.
+// spawnApp deletes it first, so what turns up here is always this instance's.
+async function waitForControl(timeoutMs = 40000) {
+  const deadline = Date.now() + timeoutMs;
+  while (Date.now() < deadline) {
+    try { return JSON.parse(fs.readFileSync(CONTROL, 'utf8')); } catch (_) {}
+    await sleep(400);
+  }
+  return null;
+}
+
 // ---------------------------------------------------------------- control client
 class Client {
   constructor(info) { this.info = info; this.seq = 0; this.pending = new Map(); this.events = []; }
@@ -190,35 +263,36 @@ class Client {
   fs.mkdirSync(path.join(ROOT, 'rules'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'rules', 'e2e.json'), JSON.stringify(testRule, null, 2));
 
-  try { fs.unlinkSync(CONTROL); } catch (_) {}
-
-  const electron = require('electron');
-  const needXvfb = !process.env.DISPLAY && process.platform === 'linux';
-  const asRoot = process.platform === 'linux' && typeof process.getuid === 'function' && process.getuid() === 0;
-  const extra = asRoot ? ['--no-sandbox', '--disable-gpu'] : [];
-  const cmd = needXvfb ? 'xvfb-run' : electron;
-  const args = needXvfb ? ['-a', '-s', '-screen 0 1440x900x24', electron, '.', ...extra] : ['.', ...extra];
-  console.log(`launching electron${needXvfb ? ' under xvfb' : ''}…`);
-  // detached gives the child its own process group. Without it, killing -pid does
-  // nothing and xvfb-run leaves an orphaned Electron holding a control port; twenty
-  // of those and the next run cannot start at all.
-  const child = spawn(cmd, args, {
-    cwd: ROOT,
-    env: { ...process.env, CB_ANNOUNCE: '1', CB_ALLOW_MULTIPLE: '1' },
-    stdio: ['ignore', 'pipe', 'pipe'],
-    detached: true,
-  });
-  let appLog = '';
-  child.stdout.on('data', (d) => { appLog += d; });
-  child.stderr.on('data', (d) => { appLog += d; });
-  child.on('exit', (code) => { if (code !== 0 && !KEEP) console.log(`electron exited ${code}`); });
-
-  let info = null;
-  for (let i = 0; i < 100 && !info; i++) {
-    await sleep(400);
-    try { info = JSON.parse(fs.readFileSync(CONTROL, 'utf8')); } catch (_) {}
+  // ---- boot survives a start page that will not load
+  // The home page lives on the network and the network is not always there. Until
+  // 20 Sep 2026 a start page that failed to load rejected out of boot() and took
+  // app.exit(1) with it: no window, no control socket, no omnibox to type a working
+  // URL into. Offline, behind a captive portal, or behind a proxy that refuses
+  // CONNECT, Mondrian would not start at all — and this suite, which is documented
+  // as hermetic, could not run either, because it booted to the configured homeUrl.
+  // The positive case is here; the negative case is three checks below, where a
+  // start page that does load has to still be loaded and still be error-free.
+  const deadUrl = `http://127.0.0.1:${await closedPort()}/`;
+  const dead = spawnApp([`--url=${deadUrl}`]);
+  const deadInfo = await waitForControl();
+  check('an unreachable start page still boots the browser', !!deadInfo, dead.box.text.slice(-400));
+  if (deadInfo) {
+    const dc = await new Client(deadInfo).connect();
+    const dst = await dc.call('status');
+    check('the control socket comes up after a failed start page', !!dst.control.port && dst.tabs.length >= 1, JSON.stringify(dst.control));
+    check('the failed start page is recorded, not swallowed',
+      dst.tabs[0]?.lastError?.url === deadUrl, JSON.stringify(dst.tabs[0]?.lastError));
+    const recovered = await dc.call('navigate', { url: base });
+    check('the browser can navigate away from a failed start page', recovered.tab.url.startsWith(base), recovered.tab.url);
   }
-  if (!info) { console.error('browser never wrote control.json\n' + appLog); shutdown(child); process.exit(1); }
+  check('the browser with a failed start page shuts down cleanly', await waitForExit(dead), dead.box.text.slice(-300));
+
+  // The rest of the suite boots straight to the fixture. Booting to settings.homeUrl
+  // put duckduckgo.com on the critical path of all 86 hermetic checks.
+  const { child, box } = spawnApp([`--url=${base}`]);
+  const appLogOf = () => box.text;
+  const info = await waitForControl();
+  if (!info) { console.error('browser never wrote control.json\n' + appLogOf()); shutdown(child); process.exit(1); }
 
   const c = await new Client(info).connect();
   console.log('connected\n');
@@ -229,6 +303,10 @@ class Client {
     check('status returns version and port', !!st.version && st.control.port === info.port, JSON.stringify(st).slice(0, 200));
     check('status lists rule sets', st.rules.some((r) => r.name === 'e2e'), st.rules.map((r) => r.name).join(','));
     check('boot tab exists', st.tabs.length >= 1);
+    // The negative case for the boot-resilience fix above: catching the failure must
+    // not turn into boot quietly skipping the navigation altogether.
+    check('boot loads the start page it was given', st.tabs[0]?.url.startsWith(base), st.tabs[0]?.url);
+    check('a start page that loads records no error', !st.tabs[0]?.lastError, JSON.stringify(st.tabs[0]?.lastError));
 
     // ---- tabs + navigation
     const opened = await c.call('tab_open', { url: base, profile: 'claude' });
@@ -665,7 +743,7 @@ class Client {
 
   console.log(results.join('\n'));
   console.log(`\n${passed} passed, ${failed} failed`);
-  if (failed && appLog) console.log('\n--- app log ---\n' + appLog.slice(-4000));
+  if (failed && appLogOf()) console.log('\n--- app log ---\n' + appLogOf().slice(-4000));
 
   for (const f of ['e2e.json', 'e2e-live.json', 'e2e-mainworld.json', 'e2e-noeval.json', 'e2e-throw.json']) {
     try { fs.unlinkSync(path.join(ROOT, 'rules', f)); } catch (_) {}

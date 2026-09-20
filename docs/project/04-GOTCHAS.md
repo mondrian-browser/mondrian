@@ -120,10 +120,41 @@ while passing on Linux, where the path already starts with `/`.
 Use `url.pathToFileURL` for anything that turns a path into a URL. This was found by
 running the suite on Windows, which is why the suites should be run on both.
 
-## 8. Electron needs `--no-sandbox` as an argv flag when running as root
+## 8. Electron needs `--no-sandbox` as an argv flag on Linux, root or not
 
 `app.commandLine.appendSwitch('no-sandbox')` inside `main.js` runs too late; the fatal
-check happens first. Only relevant in the container, but it will stop a test run dead.
+check happens first. So `main.js`'s own Linux no-sandbox line never takes effect, and
+the flag has to come from the command line.
+
+The first half of this was found in the container, running as root, and the harnesses
+were given the flag **only when `getuid() === 0`**. That was the wrong condition and it
+left CI red on `main` for nine consecutive runs, unnoticed because the Linux job was the
+only one failing and the suite passed everywhere it was run by hand:
+
+```
+FATAL:setuid_sandbox_host.cc(166)] The SUID sandbox helper binary was found, but is
+not configured correctly. ... chrome-sandbox is owned by root and has mode 4755.
+```
+
+A normal user cannot set the setuid bit on `node_modules/electron/dist/chrome-sandbox`,
+so an npm-installed Electron never has it, and GitHub's runners restrict unprivileged
+user namespaces, so there is no namespace sandbox to fall back on. Root is not the
+special case — **not having a correctly configured sandbox helper is the normal case for
+Electron out of node_modules**, and that is true of every non-root Linux box, not just
+CI. All three harnesses now pass `--no-sandbox` on Linux unconditionally.
+
+`--disable-gpu` was keyed on the same wrong condition and is the same bug one layer
+down: without it the runner has no working viz compositor, so `capturePage` fails with
+`UnknownVizError` and clicks miss their target. Both flags are about **headless Linux**,
+not about root, and all three harnesses now pass both on Linux unconditionally.
+
+Two lessons, both about the shape of the mistake rather than the flag:
+
+- The symptom was `browser never wrote control.json`, which says nothing about sandboxes.
+  Whenever you see it, the app log printed under it is the actual error; read that first.
+- A guard written from one machine's symptom (`asRoot`) encoded *where the bug was found*
+  rather than *what the bug was*. It then held on every machine anyone tested by hand and
+  failed only on the one nobody watched.
 
 ## 9. `device_commit_files` has reported success without writing
 
@@ -157,6 +188,36 @@ config and simply never starts, so the tools never show up.
 
 This project registers as `mondrian`. It was briefly `cbrowser`; `install-mcp` deletes
 both older registrations when it runs.
+
+---
+
+## 12. A start page that will not load used to stop the browser booting
+
+`webContents.loadURL` rejects on any main-frame navigation failure. `boot()` awaited the
+start-page `tab_open` without catching, so the rejection reached the boot `catch` and
+called `app.exit(1)`. The result was the worst possible failure for a browser: offline,
+behind a captive portal, behind a proxy that refuses CONNECT, or with a typo in
+`homeUrl`, Mondrian would not start **at all** — no window, no control socket, and no
+omnibox to type a working URL into. The one thing a browser must do when the network is
+bad is open.
+
+Found 20 Sep 2026 when the fixture suite would not run in a cloud container whose proxy
+refuses `CONNECT duckduckgo.com`. It had never shown up before because every machine the
+suite had run on could reach the configured `homeUrl`.
+
+Two things were wrong and both are fixed:
+
+- The start-page load is wrapped. The tab is already created when `loadURL` rejects, so
+  Chromium paints its own error page in it and `did-fail-load` records `tab.lastError`;
+  the failure is visible rather than swallowed. `control.json` is still written last, so
+  it keeps meaning "ready for commands".
+- The fixture suite launched with no `--url=`, so it booted to `settings.homeUrl` and put
+  duckduckgo.com on the critical path of all 86 checks of a suite documented as hermetic.
+  It now boots to its own fixture server.
+
+The lesson is the general one: **anything a suite calls hermetic should be run once with
+the network taken away.** A network dependency in a boot path is invisible until you are
+on the machine that cannot reach it, and that machine is usually CI.
 
 ---
 
