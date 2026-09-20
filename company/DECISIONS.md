@@ -14,14 +14,15 @@ GitHub at claude.ai/code and install the Claude GitHub App on the repo
 (github.com/apps/claude), which also enables the PR and release event triggers.
 Answer: done.
 
-### D2 (open) operations, 2026-09-20
+### D2 (later) operations, 2026-09-20
 Ask: file TM Headstart for MONDRIAN in class 9, $200 now, $130 later to convert.
 Specification, narrow on purpose to avoid the Phasecraft citation (TM 2677332, quantum
 software, priority 13 Nov 2025):
   Class 9: Web browser software; downloadable web browser software; browser extension
   software; software for reformatting and laying out web page content for reading.
 Add class 42 only if a hosted service exists later.
-Answer:
+Answer: later (Lloyd, 20 Sep 2026). Not filing yet. Operations: do not prepare the filing
+sheet; raise it again when a release date is in sight or if the name decision (C3) changes.
 
 ### D3 (open) operations, 2026-09-20
 Ask: company structure and timing. Sole trader with ABN and business name now (ABN free,
