@@ -57,9 +57,23 @@ instead of settings.homeUrl. Six new checks with the negative case; 92 passed, 0
 in 25 s with no network, twice. Reverting only the main.js change turns the new check red,
 so the test fails without the fix. Gotcha 12 written up, counts 86 -> 92 across the docs,
 CHANGELOG entry.
-Found: two things worth knowing. The live suites (site-suite.js, agent-suite.js) launch
-the same way with no --url=, so the same bug stopped them booting too — after the fix
-npm run test:sites reaches its own reporting. And this container cannot reach any of the
+Then CI on the PR showed the trigger had three causes, not one, and the other two had
+been hiding in plain sight. Second: --no-sandbox was passed only when getuid() === 0, so
+on any non-root Linux box Chromium aborted before boot with the SUID sandbox error. It
+has to be argv because appendSwitch runs after the SUID check, so main.js's own Linux
+no-sandbox line never took effect. Third, once that was fixed the browser booted and
+failed on screenshot with UnknownVizError and on a click that missed: --disable-gpu was
+keyed on the same wrong guard. Both flags describe headless Linux, not root; all three
+harnesses now pass both unconditionally on Linux. PR #1 is green on Linux and Windows,
+mergeable_state clean, waiting on Lloyd. Five commits, 93 checks.
+Found: four things. (1) **CI has been red on main for nine consecutive runs**, 17 through
+25, and nobody noticed: only the Linux job was failing, Windows was green, and the suite
+passed on every machine anyone ran by hand. This PR is the first green Linux run the repo
+has had. Worth a habit of checking the Actions tab, not just the local run. (2) The guard
+that caused it, asRoot, encoded *where* the bug was first found rather than *what* it was
+— the shape of mistake to watch for. (3) The live suites (site-suite.js, agent-suite.js)
+launch the same way with no --url=, so the boot bug stopped them too; after the fix
+npm run test:sites reaches its own reporting. (4) This container cannot reach any of the
 20 live sites (proxy blocks them all: 0/0 tested, 20 skipped), so no cloud run can give
 real-IP evidence; that has to come from Lloyd's machine.
 Next: nothing in NEXT.md is ticked by this — it came from the fixture-suite trigger, not
