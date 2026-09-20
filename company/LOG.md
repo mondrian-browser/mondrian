@@ -131,3 +131,29 @@ when the base stylesheet is first written, and B1 recording a tier per corpus pa
 where a light-or-dark token would first be useful. Nothing else fires for design until
 the chrome changes or the concept does.
 Tags: [needs-engineering]
+
+## 2026-09-20 marketing, evening
+Did: rewrote company/marketing/positioning.md against the revised PRD (trigger: the
+[needs-marketing] tag on Lloyd's evening entry). Rewrite rather than patch, because the
+two things the first version leaned on hardest are now false: it said Mondrian was not a
+Chrome replacement and that it never stored credentials, and the PRD now says it is a
+complete browser with three rendering tiers and that credentials are stored per profile
+and kept away from the steering layer. The new page adds the tiers as the reason Mondrian
+is a browser rather than a reading mode, adds the profile boundary as a describable shape
+rather than a promise, replaces the old "not a Chrome replacement" non-goal with "not a
+site faithful browser", and turns the threat model's residual risk into something the
+public description is required to state rather than something marketing manages.
+Found: two things worth holding to. The old positioning was not wrong when written, which
+is the argument for regenerating from the PRD on every revision rather than editing the
+page in place; a patched version would have kept "not a credential manager" as a selling
+point while the product stored credentials. And the PRD's honesty is the most usable
+material in it: the unmeasured gates, the coverage risk and the accepted prompt injection
+risk read better stated plainly than hedged, so they are a section of the positioning
+instead of a caveat at the bottom. The only number on the page is Brave SpeedReader's
+22%, taken from the PRD's prior art note and labelled as not Mondrian's.
+Next: name.md (C3) is still unstarted and still has nothing to track, since D2 is answered
+"later" and no Headstart search has been run. It needs a decision from Lloyd or a name
+change before it is worth writing, so it is not blocked on marketing. Landing page draft
+waits on something to download. Nothing else fires until a release, a [needs-marketing]
+tag, a marketing tagged DECISIONS answer, or the first of October.
+Tags: none
