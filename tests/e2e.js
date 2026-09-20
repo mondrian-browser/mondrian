@@ -157,8 +157,19 @@ function closedPort() {
 function spawnApp(extraArgs = []) {
   const electron = require('electron');
   const needXvfb = !process.env.DISPLAY && process.platform === 'linux';
-  const asRoot = process.platform === 'linux' && typeof process.getuid === 'function' && process.getuid() === 0;
-  const extra = asRoot ? ['--no-sandbox', '--disable-gpu'] : [];
+  // --no-sandbox has to arrive as an argv flag: appendSwitch inside main.js runs after
+  // the SUID check (gotcha 8), so main.js's own Linux no-sandbox line never takes
+  // effect. It used to be passed only when running as root, which meant every Linux
+  // machine that is not root — including every GitHub runner — aborted before boot
+  // with "The SUID sandbox helper binary was found, but is not configured correctly",
+  // and the suite reported "browser never wrote control.json". npm cannot set the
+  // setuid bit on node_modules/electron/dist/chrome-sandbox as a normal user, and the
+  // runners restrict unprivileged user namespaces, so there is no namespace sandbox to
+  // fall back on either. main.js already intends no sandbox on Linux; the harness now
+  // agrees with it instead of only agreeing when it happens to be root.
+  const isLinux = process.platform === 'linux';
+  const asRoot = isLinux && typeof process.getuid === 'function' && process.getuid() === 0;
+  const extra = [...(isLinux ? ['--no-sandbox'] : []), ...(asRoot ? ['--disable-gpu'] : [])];
   const cmd = needXvfb ? 'xvfb-run' : electron;
   const args = needXvfb
     ? ['-a', '-s', '-screen 0 1440x900x24', electron, '.', ...extra, ...extraArgs]
