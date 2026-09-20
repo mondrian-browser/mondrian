@@ -1,0 +1,188 @@
+{
+ "id": "ebay-item",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:45:39.251Z",
+ "tier": "relayout",
+ "application": 0.11,
+ "inputTokens": 29266,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.86,
+   "margin": 0.76,
+   "top": [
+    [
+     "site_nav",
+     0.87
+    ],
+    [
+     "site_header",
+     0.11
+    ],
+    [
+     "account",
+     0.01
+    ],
+    [
+     "accordion",
+     0.01
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "site_header",
+   "confidence": 0.79,
+   "margin": 0.61,
+   "top": [
+    [
+     "site_header",
+     0.8
+    ],
+    [
+     "site_nav",
+     0.19
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 2,
+   "choice": "site_nav",
+   "confidence": 0.67,
+   "margin": 0.53,
+   "top": [
+    [
+     "site_nav",
+     0.68
+    ],
+    [
+     "search",
+     0.15
+    ],
+    [
+     "tag_cloud",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "site_header",
+     0.04
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 3,
+   "choice": "empty_state",
+   "confidence": 0.81,
+   "margin": 0.62,
+   "top": [
+    [
+     "empty_state",
+     0.81
+    ],
+    [
+     "status_message",
+     0.19
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "final": "empty_state"
+  },
+  {
+   "index": 4,
+   "choice": "image",
+   "confidence": 0.55,
+   "margin": 0.34,
+   "top": [
+    [
+     "image",
+     0.56
+    ],
+    [
+     "decoration",
+     0.22
+    ],
+    [
+     "empty_state",
+     0.18
+    ],
+    [
+     "status_message",
+     0.04
+    ],
+    [
+     "cookie_banner",
+     0
+    ]
+   ],
+   "final": "image"
+  },
+  {
+   "index": 5,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.591Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

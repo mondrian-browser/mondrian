@@ -1,0 +1,190 @@
+{
+ "id": "excalidraw",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:46:00.359Z",
+ "tier": "contained",
+ "application": 0.96,
+ "inputTokens": 27647,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "callout",
+   "confidence": 0.91,
+   "margin": 0.9,
+   "top": [
+    [
+     "callout",
+     0.92
+    ],
+    [
+     "site_notice",
+     0.02
+    ],
+    [
+     "empty_state",
+     0.01
+    ],
+    [
+     "status_message",
+     0.01
+    ],
+    [
+     "hero",
+     0.01
+    ]
+   ],
+   "final": "callout"
+  },
+  {
+   "index": 1,
+   "choice": "toolbar",
+   "confidence": 0.48,
+   "margin": 0.29,
+   "top": [
+    [
+     "toolbar",
+     0.49
+    ],
+    [
+     "popup",
+     0.2
+    ],
+    [
+     "site_nav",
+     0.13
+    ],
+    [
+     "hero",
+     0.03
+    ],
+    [
+     "cta",
+     0.03
+    ]
+   ],
+   "review": "ok",
+   "final": "toolbar"
+  },
+  {
+   "index": 2,
+   "choice": "toolbar",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "toolbar",
+     0.98
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "tabs",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "byline",
+     0
+    ]
+   ],
+   "final": "toolbar"
+  },
+  {
+   "index": 3,
+   "choice": "toolbar",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "toolbar",
+     1
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "pagination",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "final": "toolbar"
+  },
+  {
+   "index": 4,
+   "choice": "canvas",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "canvas",
+     1
+    ],
+    [
+     "feedback",
+     0
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "site_nav",
+     0
+    ],
+    [
+     "reviews",
+     0
+    ]
+   ],
+   "final": "canvas"
+  },
+  {
+   "index": 5,
+   "choice": "canvas",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "canvas",
+     1
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "account",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "canvas"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.594Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

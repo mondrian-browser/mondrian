@@ -1,0 +1,248 @@
+{
+ "id": "reddit-login-wall",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:51:18.228Z",
+ "tier": "relayout",
+ "application": 0.27,
+ "inputTokens": 36474,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.74,
+   "margin": 0.61,
+   "top": [
+    [
+     "site_header",
+     0.75
+    ],
+    [
+     "decoration",
+     0.14
+    ],
+    [
+     "skip_link",
+     0.06
+    ],
+    [
+     "sticky_bar",
+     0.04
+    ],
+    [
+     "code",
+     0.01
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "heading",
+   "confidence": 0.42,
+   "margin": 0.14,
+   "top": [
+    [
+     "heading",
+     0.44
+    ],
+    [
+     "title",
+     0.3
+    ],
+    [
+     "login_form",
+     0.08
+    ],
+    [
+     "hero",
+     0.07
+    ],
+    [
+     "cta",
+     0.06
+    ]
+   ],
+   "review": "wrong",
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "paywall",
+   "confidence": 0.51,
+   "margin": 0.43,
+   "top": [
+    [
+     "paywall",
+     0.52
+    ],
+    [
+     "site_notice",
+     0.09
+    ],
+    [
+     "cta",
+     0.09
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "version_switcher",
+     0.05
+    ]
+   ],
+   "final": "paywall"
+  },
+  {
+   "index": 3,
+   "choice": "legal_notice",
+   "confidence": 0.72,
+   "margin": 0.55,
+   "top": [
+    [
+     "legal_notice",
+     0.73
+    ],
+    [
+     "login_form",
+     0.18
+    ],
+    [
+     "consent_gate",
+     0.03
+    ],
+    [
+     "cookie_banner",
+     0.03
+    ],
+    [
+     "popup",
+     0.02
+    ]
+   ],
+   "final": "legal_notice"
+  },
+  {
+   "index": 4,
+   "choice": "login_form",
+   "confidence": 0.93,
+   "margin": 0.91,
+   "top": [
+    [
+     "login_form",
+     0.94
+    ],
+    [
+     "tabs",
+     0.03
+    ],
+    [
+     "cta",
+     0.01
+    ],
+    [
+     "form",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ]
+   ],
+   "final": "login_form"
+  },
+  {
+   "index": 5,
+   "choice": "login_form",
+   "confidence": 0.93,
+   "margin": 0.88,
+   "top": [
+    [
+     "login_form",
+     0.94
+    ],
+    [
+     "form",
+     0.06
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "external_links",
+     0
+    ]
+   ],
+   "final": "login_form"
+  },
+  {
+   "index": 6,
+   "choice": "login_form",
+   "confidence": 0.98,
+   "margin": 0.96,
+   "top": [
+    [
+     "login_form",
+     0.98
+    ],
+    [
+     "form",
+     0.02
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "final": "login_form"
+  },
+  {
+   "index": 7,
+   "choice": "login_form",
+   "confidence": 0.49,
+   "margin": 0.23,
+   "top": [
+    [
+     "login_form",
+     0.5
+    ],
+    [
+     "account",
+     0.27
+    ],
+    [
+     "action_button",
+     0.22
+    ],
+    [
+     "form",
+     0.01
+    ],
+    [
+     "ad",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "login_form"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.613Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

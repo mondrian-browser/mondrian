@@ -1,0 +1,6136 @@
+[
+ {
+  "id": "apple-iphone:3",
+  "label": "heading",
+  "confidence": 0.51,
+  "margin": 0.2,
+  "top": [
+   [
+    "heading",
+    0.53
+   ],
+   [
+    "title",
+    0.33
+   ],
+   [
+    "hero",
+    0.11
+   ]
+  ],
+  "tag": "header",
+  "where": "main>section>header",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 6,
+  "text": "iPhone"
+ },
+ {
+  "id": "python-tutorial:14",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "math",
+    0
+   ],
+   [
+    "cross_promo",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 49,
+  "text": ">>> for i in range(5):\n... print(i)\n...\n0\n1\n2\n3\n4"
+ },
+ {
+  "id": "so-yield:237",
+  "label": "comments",
+  "confidence": 0.84,
+  "margin": 0.78,
+  "top": [
+   [
+    "comments",
+    0.85
+   ],
+   [
+    "form",
+    0.07
+   ],
+   [
+    "heading",
+    0.05
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 23,
+  "text": "Comments\n Add a comment"
+ },
+ {
+  "id": "spiegel-index:162",
+  "label": "heading",
+  "confidence": 0.62,
+  "margin": 0.48,
+  "top": [
+   [
+    "heading",
+    0.63
+   ],
+   [
+    "site_nav",
+    0.15
+   ],
+   [
+    "teaser_card",
+    0.11
+   ]
+  ],
+  "tag": "h2",
+  "where": "main>section",
+  "counts": {
+   "links": 1,
+   "images": 1,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 12,
+    "height": 12
+   }
+  ],
+  "textLength": 10,
+  "text": "Wirtschaft"
+ },
+ {
+  "id": "nytimes-article:25",
+  "label": "heading",
+  "confidence": 0.94,
+  "margin": 0.9,
+  "top": [
+   [
+    "heading",
+    0.95
+   ],
+   [
+    "steps",
+    0.05
+   ],
+   [
+    "table_of_contents",
+    0
+   ]
+  ],
+  "tag": "h3",
+  "where": "main>article>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 27,
+  "text": "So you’re ready for Tuesday"
+ },
+ {
+  "id": "genius-lyrics:20",
+  "label": "action_button",
+  "confidence": 0.53,
+  "margin": 0.1,
+  "top": [
+   [
+    "action_button",
+    0.55
+   ],
+   [
+    "accordion",
+    0.45
+   ],
+   [
+    "empty_state",
+    0
+   ]
+  ],
+  "tag": "button",
+  "where": "main",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 8,
+    "height": 20
+   }
+  ],
+  "textLength": 6,
+  "text": "Expand"
+ },
+ {
+  "id": "spiegel-index:42",
+  "label": "action_button",
+  "confidence": 0.52,
+  "margin": 0.21,
+  "top": [
+   [
+    "action_button",
+    0.53
+   ],
+   [
+    "byline",
+    0.32
+   ],
+   [
+    "metadata",
+    0.09
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section>article",
+  "counts": {
+   "links": 0,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 30,
+  "text": "4 Min\nZur Merkliste hinzufügen"
+ },
+ {
+  "id": "allrecipes-cookies:47",
+  "label": "form",
+  "confidence": 0.77,
+  "margin": 0.63,
+  "top": [
+   [
+    "form",
+    0.78
+   ],
+   [
+    "reviews",
+    0.15
+   ],
+   [
+    "feedback",
+    0.06
+   ]
+  ],
+  "tag": "div",
+  "where": "main>article",
+  "counts": {
+   "links": 1,
+   "images": 5,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 8,
+   "paragraphs": 2,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 44,
+    "height": 44
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 44,
+    "height": 44
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 44,
+    "height": 44
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 44,
+    "height": 44
+   }
+  ],
+  "textLength": 182,
+  "text": "Check out our Community Guidelines about reviews.\nBest Chocolate Chip Cookies\n My Rating \nRate this a 1Rate this a 2Rate this a 3Rate this a 4Rate this a 5\n My Review \n Cancel Submit"
+ },
+ {
+  "id": "bom-melbourne:17",
+  "label": "map",
+  "confidence": 0.84,
+  "margin": 0.71,
+  "top": [
+   [
+    "map",
+    0.85
+   ],
+   [
+    "heading",
+    0.14
+   ],
+   [
+    "canvas",
+    0.01
+   ]
+  ],
+  "tag": "section",
+  "where": "main>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 11,
+  "text": "Weather map"
+ },
+ {
+  "id": "so-yield:265",
+  "label": "vote_controls",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "vote_controls",
+    1
+   ],
+   [
+    "share",
+    0
+   ],
+   [
+    "table",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 1,
+   "images": 4,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 5,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 19,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 139,
+  "text": "This answer is useful\n150 \n This answer is not useful\nSave this answer.\nLoading when this answer was accepted…\n Show activity on this post."
+ },
+ {
+  "id": "wiki-mondrian:18",
+  "label": "heading",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "heading",
+    1
+   ],
+   [
+    "share",
+    0
+   ],
+   [
+    "table",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section>section",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 24,
+  "text": "Paris (1912–1914)\n[edit]"
+ },
+ {
+  "id": "imdb-name:0",
+  "label": "search",
+  "confidence": 0.93,
+  "margin": 0.91,
+  "top": [
+   [
+    "search",
+    0.94
+   ],
+   [
+    "site_header",
+    0.03
+   ],
+   [
+    "site_nav",
+    0.02
+   ]
+  ],
+  "tag": "form",
+  "where": "nav>form",
+  "counts": {
+   "links": 0,
+   "images": 4,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 3,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 64,
+    "height": 32
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   }
+  ],
+  "textLength": 35,
+  "text": "Menu\nAllAll\n8 suggestions available"
+ },
+ {
+  "id": "photopea:5",
+  "label": "feature_grid",
+  "confidence": 0.98,
+  "margin": 0.97,
+  "top": [
+   [
+    "feature_grid",
+    0.98
+   ],
+   [
+    "definition_list",
+    0.01
+   ],
+   [
+    "teaser_card",
+    0.01
+   ]
+  ],
+  "tag": "div×2",
+  "where": "34% down",
+  "counts": {
+   "links": 3,
+   "images": 2,
+   "headings": 8,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 2,
+   "paragraphs": 8,
+   "repeats": 2
+  },
+  "images": [
+   {
+    "kind": "video",
+    "alt": "",
+    "width": 440,
+    "height": 440
+   },
+   {
+    "kind": "img",
+    "alt": "Photo editor on a phone",
+    "width": 385,
+    "height": 490
+   }
+  ],
+  "textLength": 1222,
+  "text": "Professional Editor\n Photopea offers a full suite of editing tools, from basic features like cropping and resizing to advanced features such as layering, masking, and blending.\n Full PSD support\n Photopea fully supports a popular PSD format, both opening and saving files. It is the main format of Ph"
+ },
+ {
+  "id": "so-sorted-array:262",
+  "label": "text",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "text",
+    1
+   ],
+   [
+    "code",
+    0
+   ],
+   [
+    "decoration",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 1
+  },
+  "textLength": 840,
+  "text": "But this is actually part of a bigger picture:\nCMP opcodes always update the status bits in the Processor Status Register (PSR), because that is their purpose, but most other instructions do not touch the PSR unless you add an optional S suffix to the instruction, specifying that the PSR should be u"
+ },
+ {
+  "id": "guardian-index:54",
+  "label": "trending",
+  "confidence": 0.61,
+  "margin": 0.3,
+  "top": [
+   [
+    "trending",
+    0.63
+   ],
+   [
+    "teaser_card",
+    0.33
+   ],
+   [
+    "list",
+    0.03
+   ]
+  ],
+  "tag": "ol",
+  "where": "main>section>section",
+  "counts": {
+   "links": 10,
+   "images": 11,
+   "headings": 10,
+   "listItems": 10,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 54,
+    "height": 40
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 40,
+    "height": 40
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 40,
+    "height": 40
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 40,
+    "height": 40
+   }
+  ],
+  "textLength": 860,
+  "text": "double quotation markZidane’s next move as France coach may reveal the wizard behind the curtain\nOur children may be surprised by what’s in our will – should we tell them now?\nBaby born via surrogate can leave Texas for treatment in California, court rules\nElderly man allegedly beaten to death in Vi"
+ },
+ {
+  "id": "sallys-recipe:12",
+  "label": "heading",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "heading",
+    1
+   ],
+   [
+    "contact_details",
+    0
+   ],
+   [
+    "math",
+    0
+   ]
+  ],
+  "tag": "h2",
+  "where": "main>article",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 45,
+  "text": "Why Are These My BEST Chocolate Chip Cookies?"
+ },
+ {
+  "id": "so-sorted-array:39",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "tag_cloud",
+    0
+   ],
+   [
+    "unclear",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 200,
+  "text": "data[] = 226, 185, 125, 158, 198, 144, 217, 79, 202, 118, 14, 150, 177, 182, ...\nbranch = T, T, N, T, T, T, T, N, T, N, N, T, T, T ...\n = TTNTTTTNTNNTTT ... (completely random - impossible to predict)"
+ },
+ {
+  "id": "tomshardware-index:42",
+  "label": "heading",
+  "confidence": 0.87,
+  "margin": 0.82,
+  "top": [
+   [
+    "heading",
+    0.88
+   ],
+   [
+    "site_nav",
+    0.06
+   ],
+   [
+    "teaser_card",
+    0.03
+   ]
+  ],
+  "tag": "header",
+  "where": "role=main>article>section>header",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 7,
+  "text": "Laptops"
+ },
+ {
+  "id": "so-yield:195",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "sticky_bar",
+    0
+   ],
+   [
+    "login_form",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   }
+  ],
+  "textLength": 133,
+  "text": "Copy\ndef square_list(n):\n the_list = [] # Replace\n for x in range(n):\n y = x * x\n the_list.append(y) # these\n return the_list # lines"
+ },
+ {
+  "id": "so-yield:288",
+  "label": "vote_controls",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "vote_controls",
+    1
+   ],
+   [
+    "math",
+    0
+   ],
+   [
+    "skip_link",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 1,
+   "images": 4,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 5,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 19,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 138,
+  "text": "This answer is useful\n94 \n This answer is not useful\nSave this answer.\nLoading when this answer was accepted…\n Show activity on this post."
+ },
+ {
+  "id": "hn-front:43",
+  "label": "teaser_card",
+  "confidence": 0.96,
+  "margin": 0.94,
+  "top": [
+   [
+    "teaser_card",
+    0.97
+   ],
+   [
+    "list",
+    0.03
+   ],
+   [
+    "table_of_contents",
+    0
+   ]
+  ],
+  "tag": "tr",
+  "where": "above fold",
+  "counts": {
+   "links": 3,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 69,
+  "text": "22.\nArrow heads at Obi-Rakhmat (Uzbekistan) 80K years ago? (plos.org)"
+ },
+ {
+  "id": "bbc-news-tech:3",
+  "label": "image",
+  "confidence": 0.95,
+  "margin": 0.95,
+  "top": [
+   [
+    "image",
+    0.96
+   ],
+   [
+    "consent_gate",
+    0.01
+   ],
+   [
+    "hero",
+    0.01
+   ]
+  ],
+  "tag": "img",
+  "where": "main>article>section",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "image unavailable",
+    "width": 924,
+    "height": 520
+   }
+  ],
+  "textLength": 0,
+  "text": ""
+ },
+ {
+  "id": "python-tutorial:24",
+  "label": "heading",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "heading",
+    1
+   ],
+   [
+    "related",
+    0
+   ],
+   [
+    "empty_state",
+    0
+   ]
+  ],
+  "tag": "h2",
+  "where": "role=main>section>section",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 35,
+  "text": "4.4. break and continue Statements¶"
+ },
+ {
+  "id": "abc-news-article:13",
+  "label": "image",
+  "confidence": 0.94,
+  "margin": 0.9,
+  "top": [
+   [
+    "image",
+    0.95
+   ],
+   [
+    "text",
+    0.05
+   ],
+   [
+    "disclosure",
+    0
+   ]
+  ],
+  "tag": "figure",
+  "where": "main>article",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 118,
+  "text": "Supermodel Claudia Schiffer was at the height of her popularity when she fronted Cue's 1997 campaign. (Supplied: Myer)"
+ },
+ {
+  "id": "abc-news-index:52",
+  "label": "heading",
+  "confidence": 0.59,
+  "margin": 0.29,
+  "top": [
+   [
+    "heading",
+    0.6
+   ],
+   [
+    "site_footer",
+    0.31
+   ],
+   [
+    "site_nav",
+    0.07
+   ]
+  ],
+  "tag": "h3",
+  "where": "footer>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 8,
+  "text": "Sections"
+ },
+ {
+  "id": "nytimes-index:23",
+  "label": "teaser_card",
+  "confidence": 0.9,
+  "margin": 0.82,
+  "top": [
+   [
+    "teaser_card",
+    0.91
+   ],
+   [
+    "related",
+    0.09
+   ],
+   [
+    "map",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "main",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 3,
+   "repeats": 1
+  },
+  "textLength": 235,
+  "text": "More News\nEd Sheeran Addresses War in Gaza as Tour Resumes\nThe singer-songwriter began his Philadelphia show by apologizing for “mistakes” he had made amid a debate over free speech and the Palestinian cause.\n2 min read\n1:24\nJulie Yoon"
+ },
+ {
+  "id": "python-tutorial:132",
+  "label": "text",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "text",
+    1
+   ],
+   [
+    "map",
+    0
+   ],
+   [
+    "product_card",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main>section>section>section",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 442,
+  "text": "Small anonymous functions can be created with the lambda keyword.\nThis function returns the sum of its two arguments: lambda a, b: a+b.\nLambda functions can be used wherever function objects are required. They are\nsyntactically restricted to a single expression. Semantically, they are just\nsyntactic"
+ },
+ {
+  "id": "python-tutorial:41",
+  "label": "text",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "text",
+    1
+   ],
+   [
+    "table_of_contents",
+    0
+   ],
+   [
+    "embed",
+    0
+   ]
+  ],
+  "tag": "p×2",
+  "where": "role=main>section>section",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 2
+  },
+  "textLength": 583,
+  "text": "A match statement takes an expression and compares its value to successive\npatterns given as one or more case blocks. This is superficially\nsimilar to a switch statement in C, Java or JavaScript (and many\nother languages), but it’s more similar to pattern matching in\nlanguages like Rust or Haskell. "
+ },
+ {
+  "id": "so-yield:103",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "math",
+    0
+   ],
+   [
+    "cross_promo",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   }
+  ],
+  "textLength": 43,
+  "text": "Copy\n>>> list(makeRange(5))\n[0, 1, 2, 3, 4]"
+ },
+ {
+  "id": "so-yield:6",
+  "label": "vote_controls",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "vote_controls",
+    1
+   ],
+   [
+    "section_nav",
+    0
+   ],
+   [
+    "age_gate",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 1,
+   "images": 4,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 5,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 19,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 193,
+  "text": "This question shows research effort; it is useful and clear\n13135 \n This question does not show any research effort; it is unclear or not useful\nSave this question.\n Show activity on this post."
+ },
+ {
+  "id": "bom-melbourne:12",
+  "label": "table",
+  "confidence": 0.69,
+  "margin": 0.61,
+  "top": [
+   [
+    "table",
+    0.71
+   ],
+   [
+    "chart",
+    0.1
+   ],
+   [
+    "list",
+    0.08
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section>section",
+  "counts": {
+   "links": 0,
+   "images": 300,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "canvas",
+    "alt": "",
+    "width": 76,
+    "height": 88
+   },
+   {
+    "kind": "canvas",
+    "alt": "",
+    "width": 76,
+    "height": 88
+   },
+   {
+    "kind": "canvas",
+    "alt": "",
+    "width": 76,
+    "height": 88
+   },
+   {
+    "kind": "canvas",
+    "alt": "",
+    "width": 76,
+    "height": 88
+   }
+  ],
+  "textLength": 583,
+  "text": "25°\n23°\n21°\n19°\n18°\n17°\n16°\n15°\n14°\n13°\n12°\n11°\n11°\n11°\n11°\n12°\n13°\n14°\n14°\n14°\n15°\n14°\n14°\n14°\n13°\n12°\n11°\n11°\n10°\n10°\n9°\n8°\n7°\n7°\n6°\n6°\n6°\n6°\n8°\n11°\n13°\n15°\n16°\n17°\n17°\n17°\n17°\n17°\n15°\n14°\n13°\n13°\n11°\n11°\n10°\n9°\n9°\n8°\n7°\n7°\n7°\n7°\n10°\n13°\n16°\n18°\n19°\n21°\n21°\n21°\n21°\n21°\n20°\n19°\n17°\n17°\n16°\n15°\n14°\n"
+ },
+ {
+  "id": "wiki-melbourne:16",
+  "label": "infobox",
+  "confidence": 0.78,
+  "margin": 0.69,
+  "top": [
+   [
+    "infobox",
+    0.79
+   ],
+   [
+    "metadata",
+    0.1
+   ],
+   [
+    "list",
+    0.05
+   ]
+  ],
+  "tag": "tr×2",
+  "where": "main>section",
+  "counts": {
+   "links": 7,
+   "images": 0,
+   "headings": 0,
+   "listItems": 6,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 2
+  },
+  "textLength": 212,
+  "text": "LGA31 municipalities across Greater Melbourne\nLocation\n669 km (416 mi) SW of Canberra\n730 km (450 mi) SE of Adelaide\n877 km (545 mi) SW of Sydney\n1,687 km (1,048 mi) SW of Brisbane\n3,337 km (2,074 mi) SE of Perth"
+ },
+ {
+  "id": "devto-article:0",
+  "label": "site_header",
+  "confidence": 0.97,
+  "margin": 0.97,
+  "top": [
+   [
+    "site_header",
+    0.98
+   ],
+   [
+    "account",
+    0.01
+   ],
+   [
+    "site_nav",
+    0.01
+   ]
+  ],
+  "tag": "header",
+  "where": "header",
+  "counts": {
+   "links": 5,
+   "images": 3,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 3,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "DEV Community",
+    "width": 50,
+    "height": 40
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 14,
+    "height": 14
+   }
+  ],
+  "textLength": 92,
+  "text": "Skip to content\n Navigation menu\n Search\n Powered by Algolia\n Search\n Log in\n Create account"
+ },
+ {
+  "id": "bbc-news-tech:7",
+  "label": "teaser_card",
+  "confidence": 0.98,
+  "margin": 0.98,
+  "top": [
+   [
+    "teaser_card",
+    0.99
+   ],
+   [
+    "related",
+    0.01
+   ],
+   [
+    "checkout",
+    0
+   ]
+  ],
+  "tag": "div×3",
+  "where": "main>article>section",
+  "counts": {
+   "links": 3,
+   "images": 8,
+   "headings": 3,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 3
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "image unavailable",
+    "width": 308,
+    "height": 173
+   },
+   {
+    "kind": "img",
+    "alt": "US President Donald Trump delivers remarks at the \"Winning the AI Race\" AI Summit at the Andrew W. Mellon Auditorium in ",
+    "width": 308,
+    "height": 173
+   },
+   {
+    "kind": "img",
+    "alt": "image unavailable",
+    "width": 308,
+    "height": 173
+   },
+   {
+    "kind": "img",
+    "alt": "From clinician to patient",
+    "width": 308,
+    "height": 173
+   }
+  ],
+  "textLength": 189,
+  "text": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar\nThe life-changing potential of next-generation prosthetics\nCould AI wipe out humans and how might that happen?"
+ },
+ {
+  "id": "raspberrypi-product:28",
+  "label": "list",
+  "confidence": 0.72,
+  "margin": 0.64,
+  "top": [
+   [
+    "list",
+    0.74
+   ],
+   [
+    "download",
+    0.1
+   ],
+   [
+    "section_nav",
+    0.05
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section",
+  "counts": {
+   "links": 4,
+   "images": 0,
+   "headings": 0,
+   "listItems": 4,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 122,
+  "text": "Raspberry Pi 5 product brief\nRaspberry Pi 5 mechanical drawing\nGetting started documentation\nRP1 peripherals documentation"
+ },
+ {
+  "id": "imdb-name:17",
+  "label": "heading",
+  "confidence": 0.68,
+  "margin": 0.55,
+  "top": [
+   [
+    "heading",
+    0.7
+   ],
+   [
+    "page_tools",
+    0.15
+   ],
+   [
+    "tabs",
+    0.11
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section>section>section",
+  "counts": {
+   "links": 1,
+   "images": 2,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 12,
+  "text": "Credits\nEdit"
+ },
+ {
+  "id": "tomshardware-article:50",
+  "label": "byline",
+  "confidence": 0.74,
+  "margin": 0.56,
+  "top": [
+   [
+    "byline",
+    0.75
+   ],
+   [
+    "author_bio",
+    0.19
+   ],
+   [
+    "comments",
+    0.05
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main>article>section",
+  "counts": {
+   "links": 2,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "Christian Eberle",
+    "width": 70,
+    "height": 70
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   }
+  ],
+  "textLength": 60,
+  "text": "Christian Eberle\nSocial Links Navigation\nContributing Editor"
+ },
+ {
+  "id": "allrecipes-cookies:36",
+  "label": "heading",
+  "confidence": 0.87,
+  "margin": 0.76,
+  "top": [
+   [
+    "heading",
+    0.88
+   ],
+   [
+    "steps",
+    0.12
+   ],
+   [
+    "form",
+    0
+   ]
+  ],
+  "tag": "h2",
+  "where": "main>article",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 10,
+  "text": "Directions"
+ },
+ {
+  "id": "bbcgoodfood-victoria:8",
+  "label": "action_button",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "action_button",
+    1
+   ],
+   [
+    "sponsored",
+    0
+   ],
+   [
+    "skip_link",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section>role=banner",
+  "counts": {
+   "links": 0,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 2,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 20,
+    "height": 20
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 14,
+    "height": 14
+   }
+  ],
+  "textLength": 11,
+  "text": "Save recipe"
+ },
+ {
+  "id": "so-sorted-array:159",
+  "label": "comments",
+  "confidence": 0.66,
+  "margin": 0.6,
+  "top": [
+   [
+    "comments",
+    0.67
+   ],
+   [
+    "rating",
+    0.07
+   ],
+   [
+    "share",
+    0.06
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 11,
+  "text": "11 Comments"
+ },
+ {
+  "id": "wiki-melbourne:140",
+  "label": "text",
+  "confidence": 0.67,
+  "margin": 0.45,
+  "top": [
+   [
+    "text",
+    0.68
+   ],
+   [
+    "image",
+    0.23
+   ],
+   [
+    "related",
+    0.02
+   ]
+  ],
+  "tag": "figure",
+  "where": "main>section>section",
+  "counts": {
+   "links": 3,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 252,
+    "height": 252
+   }
+  ],
+  "textLength": 154,
+  "text": "Main article: Energy in Victoria (Australia)\nSugarloaf Reservoir at Christmas Hills in the metropolitan area is one of Melbourne's closest water supplies."
+ },
+ {
+  "id": "bbc-news-article-2:6",
+  "label": "related",
+  "confidence": 0.77,
+  "margin": 0.67,
+  "top": [
+   [
+    "related",
+    0.78
+   ],
+   [
+    "teaser_card",
+    0.11
+   ],
+   [
+    "trending",
+    0.02
+   ]
+  ],
+  "tag": "div",
+  "where": "main>article",
+  "counts": {
+   "links": 3,
+   "images": 0,
+   "headings": 3,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 181,
+  "text": "Why are there concerns AI could threaten humanity, and how real are they?\nCould AI wipe out humans and how might it do it?\nQuestions mount over what an AI 'slowdown' would look like"
+ },
+ {
+  "id": "bbc-news-article-2:17",
+  "label": "site_footer",
+  "confidence": 0.7,
+  "margin": 0.42,
+  "top": [
+   [
+    "site_footer",
+    0.71
+   ],
+   [
+    "legal_notice",
+    0.29
+   ],
+   [
+    "tag_cloud",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "footer",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 1
+  },
+  "textLength": 147,
+  "text": "Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read about our approach to external linking."
+ },
+ {
+  "id": "tomshardware-index:32",
+  "label": "heading",
+  "confidence": 0.8,
+  "margin": 0.76,
+  "top": [
+   [
+    "heading",
+    0.81
+   ],
+   [
+    "teaser_card",
+    0.05
+   ],
+   [
+    "site_nav",
+    0.04
+   ]
+  ],
+  "tag": "header",
+  "where": "role=main>article>section>header",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 4,
+  "text": "CPUs"
+ },
+ {
+  "id": "so-sorted-array:157",
+  "label": "text",
+  "confidence": 0.69,
+  "margin": 0.47,
+  "top": [
+   [
+    "text",
+    0.7
+   ],
+   [
+    "external_links",
+    0.23
+   ],
+   [
+    "references",
+    0.04
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 65,
+  "text": "Here's a link to this code: Red Black Trees, Eternally Confuzzled"
+ },
+ {
+  "id": "so-sorted-array:226",
+  "label": "text",
+  "confidence": 0.96,
+  "margin": 0.95,
+  "top": [
+   [
+    "text",
+    0.97
+   ],
+   [
+    "comments",
+    0.02
+   ],
+   [
+    "summary",
+    0.01
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 150,
+  "text": "This question has already been answered excellently many times over. Still I'd like to draw the group's attention to yet another interesting analysis."
+ },
+ {
+  "id": "python-tutorial:101",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "pricing_table",
+    0
+   ],
+   [
+    "gallery",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main>section>section>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 245,
+  "text": ">>> def standard_arg(arg):\n... print(arg)\n...\n>>> def pos_only_arg(arg, /):\n... print(arg)\n...\n>>> def kwd_only_arg(*, arg):\n... print(arg)\n...\n>>> def combined_example(pos_only, /, standard, *, kwd_only):\n... print(pos_only, standard, kwd_only)"
+ },
+ {
+  "id": "bbcgoodfood-victoria:36",
+  "label": "comments",
+  "confidence": 0.65,
+  "margin": 0.34,
+  "top": [
+   [
+    "comments",
+    0.66
+   ],
+   [
+    "reviews",
+    0.32
+   ],
+   [
+    "reactions",
+    0.02
+   ]
+  ],
+  "tag": "article×5",
+  "where": "main>role=main>article",
+  "counts": {
+   "links": 0,
+   "images": 6,
+   "headings": 6,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 7,
+   "paragraphs": 6,
+   "repeats": 5
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 60,
+    "height": 60
+   }
+  ],
+  "textLength": 1196,
+  "text": "ibarsenbach\n1 week ago\nI hate how I have to create an account just to write a review. \nI made this over 4 years ago for my own birthday. I remember it being a disaster. \n4 years later, and I find myself making it for my mother’s birthday. It has so many good reviews, and I thought I had improved my "
+ },
+ {
+  "id": "so-yield:124",
+  "label": "comments",
+  "confidence": 0.87,
+  "margin": 0.84,
+  "top": [
+   [
+    "comments",
+    0.89
+   ],
+   [
+    "form",
+    0.05
+   ],
+   [
+    "heading",
+    0.04
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 23,
+  "text": "Comments\n Add a comment"
+ },
+ {
+  "id": "so-sorted-array:322",
+  "label": "comments",
+  "confidence": 0.97,
+  "margin": 0.97,
+  "top": [
+   [
+    "comments",
+    0.98
+   ],
+   [
+    "byline",
+    0.01
+   ],
+   [
+    "text",
+    0.01
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 3,
+   "images": 5,
+   "headings": 0,
+   "listItems": 1,
+   "tableRows": 0,
+   "controls": 4,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 18
+   }
+  ],
+  "textLength": 493,
+  "text": "Peter Cordes\n Peter Cordes Over a year ago \n This seems to be missing the point of the question, and is answering whether sorting itself is faster with already-sorted arrays. This is less surprising because as this answer points out, there's less work to be done (with most sort algorithms other than"
+ },
+ {
+  "id": "python-tutorial:137",
+  "label": "text",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "text",
+    1
+   ],
+   [
+    "empty_state",
+    0
+   ],
+   [
+    "transcript",
+    0
+   ]
+  ],
+  "tag": "p×4",
+  "where": "role=main>section>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 4,
+   "repeats": 4
+  },
+  "textLength": 823,
+  "text": "Here are some conventions about the content and formatting of documentation\nstrings.\nThe first line should always be a short, concise summary of the object’s\npurpose. For brevity, it should not explicitly state the object’s name or type,\nsince these are available by other means (except if the name h"
+ },
+ {
+  "id": "bbcgoodfood-victoria:47",
+  "label": "cross_promo",
+  "confidence": 0.75,
+  "margin": 0.65,
+  "top": [
+   [
+    "cross_promo",
+    0.76
+   ],
+   [
+    "subscribe",
+    0.11
+   ],
+   [
+    "site_footer",
+    0.08
+   ]
+  ],
+  "tag": "div",
+  "where": "90% down",
+  "counts": {
+   "links": 9,
+   "images": 3,
+   "headings": 3,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 3,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "Good Food App Footer Prepped Not Processed",
+    "width": 93,
+    "height": 84
+   },
+   {
+    "kind": "img",
+    "alt": "footer-promo-880x800",
+    "width": 93,
+    "height": 84
+   },
+   {
+    "kind": "img",
+    "alt": "Good Food Podcast with Samuel Goldsmith cover",
+    "width": 93,
+    "height": 84
+   }
+  ],
+  "textLength": 400,
+  "text": "Explore our recipe app\nSubscribe now and get access to exclusive recipes, meal plans, podcasts and more.\nTry today\nAll Access subscription: Magazine & App\nGood Food magazine and our award winning app in one premium subscription. Subscribe now for our Christmas issue\nSubscribe today\nPodcast\nOur food "
+ },
+ {
+  "id": "spiegel-index:163",
+  "label": "teaser_card",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "teaser_card",
+    1
+   ],
+   [
+    "status_message",
+    0
+   ],
+   [
+    "code",
+    0
+   ]
+  ],
+  "tag": "article",
+  "where": "main>section>article",
+  "counts": {
+   "links": 2,
+   "images": 3,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "4000 weitere Jobs bei Porsche bedroht - Clemens Bilan / EPA",
+    "width": 288,
+    "height": 192
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 88,
+  "text": "Zweifel am Sparkurs\n4000 weitere Jobs bei Porsche bedroht\n1 Min\nZur Merkliste hinzufügen"
+ },
+ {
+  "id": "reddit-listing:3",
+  "label": "teaser_card",
+  "confidence": 0.91,
+  "margin": 0.89,
+  "top": [
+   [
+    "teaser_card",
+    0.92
+   ],
+   [
+    "vote_controls",
+    0.03
+   ],
+   [
+    "comments",
+    0.02
+   ]
+  ],
+  "tag": "article",
+  "where": "main>article",
+  "counts": {
+   "links": 5,
+   "images": 4,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "r/programming - You can run git on object storage if you re-make packfiles",
+    "width": 128,
+    "height": 98
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 12,
+    "height": 12
+   }
+  ],
+  "textLength": 330,
+  "text": "Upvote 93 Downvote 13 Go to comments \n Share \n You can run git on object storage if you re-make packfiles\n u/Either_Collection349\n •\n 15 hr. ago \n Locked post \n Stickied post \n Archived post \n Award this post \n Report \n You can run git on object storage if you re-make packfiles \n https://www.tigrisd"
+ },
+ {
+  "id": "forbes-article:41",
+  "label": "heading",
+  "confidence": 0.92,
+  "margin": 0.91,
+  "top": [
+   [
+    "heading",
+    0.93
+   ],
+   [
+    "unclear",
+    0.02
+   ],
+   [
+    "title",
+    0.02
+   ]
+  ],
+  "tag": "h2",
+  "where": "section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 10,
+  "text": "Innovation"
+ },
+ {
+  "id": "abc-news-index:36",
+  "label": "teaser_card",
+  "confidence": 0.84,
+  "margin": 0.72,
+  "top": [
+   [
+    "teaser_card",
+    0.85
+   ],
+   [
+    "text",
+    0.13
+   ],
+   [
+    "related",
+    0.01
+   ]
+  ],
+  "tag": "div",
+  "where": "main",
+  "counts": {
+   "links": 7,
+   "images": 3,
+   "headings": 2,
+   "listItems": 3,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 3,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "Three players in red and blue celebrate an AFL win",
+    "width": 368,
+    "height": 246
+   },
+   {
+    "kind": "img",
+    "alt": "A group of AFL players in red and blue celebrate a goal",
+    "width": 368,
+    "height": 246
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 350,
+  "text": "Lions to take one big advantage into grand final showdown with Freo\nTopic:AFL\nTopic:Australian Rules Football\nArticle is a 3 minute read.3 min read\nBrisbane coach Chris Fagan urges the Lions to lean into their experience to seize the rare prize of an AFL premiership three-peat. \nHawks fans throw bot"
+ },
+ {
+  "id": "spiegel-index:95",
+  "label": "teaser_card",
+  "confidence": 0.97,
+  "margin": 0.96,
+  "top": [
+   [
+    "teaser_card",
+    0.98
+   ],
+   [
+    "related",
+    0.02
+   ],
+   [
+    "vote_controls",
+    0
+   ]
+  ],
+  "tag": "article",
+  "where": "main>section>article",
+  "counts": {
+   "links": 1,
+   "images": 3,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 108,
+  "text": "Netzreaktionen zum 4. Bundesliga-Spieltag\n„Sind die Bayern erster BVB-Jäger?“\n3 Min\nZur Merkliste hinzufügen"
+ },
+ {
+  "id": "tomshardware-article:35",
+  "label": "heading",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "heading",
+    1
+   ],
+   [
+    "related",
+    0
+   ],
+   [
+    "empty_state",
+    0
+   ]
+  ],
+  "tag": "h2",
+  "where": "role=main>article>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 12,
+  "text": "OSD Features"
+ },
+ {
+  "id": "allrecipes-banana:51",
+  "label": "comments",
+  "confidence": 0.66,
+  "margin": 0.53,
+  "top": [
+   [
+    "comments",
+    0.68
+   ],
+   [
+    "toolbar",
+    0.15
+   ],
+   [
+    "action_button",
+    0.11
+   ]
+  ],
+  "tag": "div",
+  "where": "main>article",
+  "counts": {
+   "links": 0,
+   "images": 3,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 3,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 29,
+  "text": "13,093 Reply View Replies (2)"
+ },
+ {
+  "id": "abc-news-article:45",
+  "label": "image",
+  "confidence": 0.97,
+  "margin": 0.95,
+  "top": [
+   [
+    "image",
+    0.97
+   ],
+   [
+    "text",
+    0.02
+   ],
+   [
+    "gallery",
+    0.01
+   ]
+  ],
+  "tag": "figure",
+  "where": "main>article",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 90,
+  "text": "An original Cue store sign on display at its 50-year exhibition in Sydney. (Supplied: Cue)"
+ },
+ {
+  "id": "excalidraw:5",
+  "label": "canvas",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "canvas",
+    1
+   ],
+   [
+    "cross_promo",
+    0
+   ],
+   [
+    "breadcrumbs",
+    0
+   ]
+  ],
+  "tag": "canvas",
+  "where": "above fold",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "canvas",
+    "alt": "",
+    "width": 1440,
+    "height": 816
+   }
+  ],
+  "textLength": 14,
+  "text": "Drawing canvas"
+ },
+ {
+  "id": "ddg-web:0",
+  "label": "site_header",
+  "confidence": 0.94,
+  "margin": 0.9,
+  "top": [
+   [
+    "site_header",
+    0.95
+   ],
+   [
+    "site_nav",
+    0.05
+   ],
+   [
+    "text",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "above fold",
+  "counts": {
+   "links": 8,
+   "images": 7,
+   "headings": 0,
+   "listItems": 8,
+   "tableRows": 0,
+   "controls": 6,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 129,
+  "text": "DuckDuckGo\nProtection. Privacy. Peace of mind.\nOpen menu\n All\nImages\nShopping\nVideos\nMore\n Search Assist\n Duck.ai\nSearch Settings"
+ },
+ {
+  "id": "abc-news-index:31",
+  "label": "teaser_card",
+  "confidence": 0.96,
+  "margin": 0.96,
+  "top": [
+   [
+    "teaser_card",
+    0.97
+   ],
+   [
+    "list",
+    0.01
+   ],
+   [
+    "trending",
+    0.01
+   ]
+  ],
+  "tag": "div",
+  "where": "main",
+  "counts": {
+   "links": 6,
+   "images": 0,
+   "headings": 2,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 1
+  },
+  "textLength": 152,
+  "text": "Woman charged over fire in hospital mental health clinic\nTopic:Police\nOne person in hospital after aged care facility fire in North Adelaide\nTopic:Fires"
+ },
+ {
+  "id": "github-file:20",
+  "label": "list",
+  "confidence": 0.94,
+  "margin": 0.91,
+  "top": [
+   [
+    "list",
+    0.94
+   ],
+   [
+    "text",
+    0.03
+   ],
+   [
+    "definition_list",
+    0.02
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section>article",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 3,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 490,
+  "text": "macOS (Ventura and up): Electron provides 64-bit Intel and Apple Silicon / ARM binaries for macOS.\nWindows (Windows 10 and up): Electron provides x64 (amd64) and arm64 binaries for Windows.\nLinux: Electron provides x64 (amd64) and arm64 binaries for Linux. Electron supports major Linux distributions"
+ },
+ {
+  "id": "hn-front:49",
+  "label": "teaser_card",
+  "confidence": 0.97,
+  "margin": 0.96,
+  "top": [
+   [
+    "teaser_card",
+    0.98
+   ],
+   [
+    "list",
+    0.02
+   ],
+   [
+    "site_header",
+    0
+   ]
+  ],
+  "tag": "tr",
+  "where": "72% down",
+  "counts": {
+   "links": 3,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 68,
+  "text": "25.\nZK-JPEG: Zero-Knowledge Image Editing and Compression (iacr.org)"
+ },
+ {
+  "id": "abc-news-article:6",
+  "label": "text",
+  "confidence": 0.94,
+  "margin": 0.9,
+  "top": [
+   [
+    "text",
+    0.95
+   ],
+   [
+    "summary",
+    0.05
+   ],
+   [
+    "feedback",
+    0
+   ]
+  ],
+  "tag": "p×5",
+  "where": "main>article",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 5,
+   "repeats": 5
+  },
+  "textLength": 690,
+  "text": "It was a modern-day success story, an idea sparked by Beatlemania that became deeply woven into the fabric of Australia's identity.\nLong a cornerstone of Australian fashion, Cue repeatedly reinvented itself to outlast the times, with the proof hanging in the wardrobes of generations of women.\nIt's s"
+ },
+ {
+  "id": "wiki-melbourne:88",
+  "label": "text",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "text",
+    1
+   ],
+   [
+    "settings",
+    0
+   ],
+   [
+    "chat_widget",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "main>section",
+  "counts": {
+   "links": 29,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 1305,
+  "text": "The oldest film in Australia's National Film and Sound Archive is of the 1896 Melbourne Cup.[181] Melbourne filmmakers spurred Australia's first cinematic boom with The Story of the Kelly Gang (1906), shot a quarter century after bushranger Ned Kelly's execution at Old Melbourne Gaol, and since reco"
+ },
+ {
+  "id": "genius-lyrics:10",
+  "label": "text",
+  "confidence": 0.94,
+  "margin": 0.92,
+  "top": [
+   [
+    "text",
+    0.95
+   ],
+   [
+    "quote",
+    0.03
+   ],
+   [
+    "transcript",
+    0.01
+   ]
+  ],
+  "tag": "a",
+  "where": "main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 76,
+  "text": "Yes, and how many years can a mountain exist\nBefore it is washed to the sea?"
+ },
+ {
+  "id": "ddg-web:3",
+  "label": "pagination",
+  "confidence": 0.93,
+  "margin": 0.88,
+  "top": [
+   [
+    "pagination",
+    0.94
+   ],
+   [
+    "action_button",
+    0.06
+   ],
+   [
+    "list",
+    0
+   ]
+  ],
+  "tag": "button",
+  "where": "section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 12,
+  "text": "More results"
+ },
+ {
+  "id": "imdb-title:15",
+  "label": "list",
+  "confidence": 0.51,
+  "margin": 0.23,
+  "top": [
+   [
+    "list",
+    0.53
+   ],
+   [
+    "team",
+    0.3
+   ],
+   [
+    "table",
+    0.07
+   ]
+  ],
+  "tag": "div×18",
+  "where": "main>section>section>section",
+  "counts": {
+   "links": 54,
+   "images": 20,
+   "headings": 0,
+   "listItems": 18,
+   "tableRows": 0,
+   "controls": 18,
+   "paragraphs": 0,
+   "repeats": 18
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 96,
+    "height": 96
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 96,
+    "height": 96
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 15,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 15,
+    "height": 24
+   }
+  ],
+  "textLength": 434,
+  "text": "Tim RobbinsAndy Dufresne\nMorgan FreemanEllis Boyd 'Red' Redding\nBob GuntonWarden Norton\nWilliam SadlerHeywood\nClancy BrownCaptain Hadley\nGil BellowsTommy\nMark RolstonBogs Diamond\nJames WhitmoreBrooks Hatlen\nJeffrey DeMunn1946 D.A.\nLarry BrandenburgSkeet\nNeil GiuntoliJigger\nBrian LibbyFloyd\nDavid Pro"
+ },
+ {
+  "id": "so-sorted-array:98",
+  "label": "action_button",
+  "confidence": 0.9,
+  "margin": 0.82,
+  "top": [
+   [
+    "action_button",
+    0.9
+   ],
+   [
+    "comments",
+    0.08
+   ],
+   [
+    "form",
+    0.01
+   ]
+  ],
+  "tag": "button",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 13,
+  "text": "Add a comment"
+ },
+ {
+  "id": "wiki-mondrian:56",
+  "label": "text",
+  "confidence": 0.58,
+  "margin": 0.2,
+  "top": [
+   [
+    "text",
+    0.59
+   ],
+   [
+    "list",
+    0.39
+   ],
+   [
+    "unclear",
+    0.01
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section",
+  "counts": {
+   "links": 86,
+   "images": 0,
+   "headings": 0,
+   "listItems": 27,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 5277,
+  "text": "The National Museum of Serbia was the first museum to include one of Mondrian's paintings in its permanent exhibition.[58]\nAlong with Klee and Kandinsky, Mondrian was one of the main inspirations to the early pointillist musical aesthetic of serialist composer Pierre Boulez,[59][page needed] althoug"
+ },
+ {
+  "id": "python-tutorial:38",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "callout",
+    0
+   ],
+   [
+    "quote",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 66,
+  "text": ">>> def initlog(*args):\n... pass # Remember to implement this!\n..."
+ },
+ {
+  "id": "so-sorted-array:76",
+  "label": "text",
+  "confidence": 0.98,
+  "margin": 0.97,
+  "top": [
+   [
+    "text",
+    0.98
+   ],
+   [
+    "code",
+    0.01
+   ],
+   [
+    "comments",
+    0.01
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 220,
+  "text": "max2 uses much less code due to the usage of instruction cmovge. But the real gain is that max2 does not involve branch jumps, jmp, which would have a significant performance penalty if the predicted result is not right."
+ },
+ {
+  "id": "genius-lyrics:36",
+  "label": "metadata",
+  "confidence": 0.77,
+  "margin": 0.64,
+  "top": [
+   [
+    "metadata",
+    0.78
+   ],
+   [
+    "definition_list",
+    0.14
+   ],
+   [
+    "infobox",
+    0.07
+   ]
+  ],
+  "tag": "div×30",
+  "where": "main",
+  "counts": {
+   "links": 203,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 30
+  },
+  "textLength": 7950,
+  "text": "Released on\nMay 27, 1963\nProducers\nJohn Hammond & Tom Wilson\nWriter\nBob Dylan\nRemastered At\nCBS Studios (New York) & Sterling Sound\nLacquer Cut At\nMobile Fidelity Sound Lab, Philips Records & Sterling Sound\nAdditional Production\nSteve Berkowitz\nCopyright ©\nColumbia Records, CBS Records Australia, CB"
+ },
+ {
+  "id": "guardian-index:13",
+  "label": "heading",
+  "confidence": 0.96,
+  "margin": 0.95,
+  "top": [
+   [
+    "heading",
+    0.97
+   ],
+   [
+    "trending",
+    0.02
+   ],
+   [
+    "teaser_card",
+    0.01
+   ]
+  ],
+  "tag": "h2",
+  "where": "main>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 8,
+  "text": "In focus"
+ },
+ {
+  "id": "imdb-title:17",
+  "label": "reviews",
+  "confidence": 0.57,
+  "margin": 0.44,
+  "top": [
+   [
+    "reviews",
+    0.59
+   ],
+   [
+    "heading",
+    0.15
+   ],
+   [
+    "rating",
+    0.12
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section>section>section",
+  "counts": {
+   "links": 1,
+   "images": 2,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 22,
+  "text": "User reviews12K\nReview"
+ },
+ {
+  "id": "so-yield:220",
+  "label": "text",
+  "confidence": 0.97,
+  "margin": 0.96,
+  "top": [
+   [
+    "text",
+    0.98
+   ],
+   [
+    "comments",
+    0.02
+   ],
+   [
+    "infobox",
+    0
+   ]
+  ],
+  "tag": "p×2",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 2
+  },
+  "textLength": 433,
+  "text": "This is what a generator does (a function that contains a yield); it starts executing on the first next(), pauses whenever it does a yield, and when asked for the next() value it continues from the point it was last. It fits perfectly by design with the iterator protocol of Python, which describes h"
+ },
+ {
+  "id": "squoosh:6",
+  "label": "site_footer",
+  "confidence": 0.9,
+  "margin": 0.85,
+  "top": [
+   [
+    "site_footer",
+    0.91
+   ],
+   [
+    "legal_notice",
+    0.06
+   ],
+   [
+    "external_links",
+    0.03
+   ]
+  ],
+  "tag": "footer",
+  "where": "footer",
+  "counts": {
+   "links": 2,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 1425,
+    "height": 59
+   },
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 26,
+    "height": 25
+   }
+  ],
+  "textLength": 23,
+  "text": "PrivacySource on Github"
+ },
+ {
+  "id": "wiki-melbourne:101",
+  "label": "text",
+  "confidence": 0.95,
+  "margin": 0.93,
+  "top": [
+   [
+    "text",
+    0.96
+   ],
+   [
+    "summary",
+    0.03
+   ],
+   [
+    "infobox",
+    0.01
+   ]
+  ],
+  "tag": "p",
+  "where": "main>section>section",
+  "counts": {
+   "links": 31,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 1327,
+  "text": "Melbourne is the second-most-visited city in Australia. In the 12-month to March 2026, 13.5 million domestic overnight tourists and 2.7 million international overnight tourists visited Melbourne.[209] The most visited attractions are Federation Square, Queen Victoria Market, Crown Casino, Southbank,"
+ },
+ {
+  "id": "python-tutorial:28",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "action_button",
+    0
+   ],
+   [
+    "gallery",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 327,
+  "text": ">>> for num in range(2, 10):\n... if num % 2 == 0:\n... print(f\"Found an even number {num}\")\n... continue\n... print(f\"Found an odd number {num}\")\n...\nFound an even number 2\nFound an odd number 3\nFound an even number 4\nFound an odd number 5\nFound an even number 6\nFound an odd number 7\nFound an even num"
+ },
+ {
+  "id": "so-yield:79",
+  "label": "action_button",
+  "confidence": 0.79,
+  "margin": 0.64,
+  "top": [
+   [
+    "action_button",
+    0.81
+   ],
+   [
+    "comments",
+    0.17
+   ],
+   [
+    "form",
+    0.01
+   ]
+  ],
+  "tag": "button",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 13,
+  "text": "Add a comment"
+ },
+ {
+  "id": "forbes-article:0",
+  "label": "site_header",
+  "confidence": 0.79,
+  "margin": 0.75,
+  "top": [
+   [
+    "site_header",
+    0.81
+   ],
+   [
+    "empty_state",
+    0.06
+   ],
+   [
+    "title",
+    0.04
+   ]
+  ],
+  "tag": "h1",
+  "where": "header",
+  "counts": {
+   "links": 1,
+   "images": 1,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 208,
+    "height": 80
+   }
+  ],
+  "textLength": 0,
+  "text": ""
+ },
+ {
+  "id": "so-sorted-array:77",
+  "label": "text",
+  "confidence": 0.99,
+  "margin": 0.98,
+  "top": [
+   [
+    "text",
+    0.99
+   ],
+   [
+    "comments",
+    0.01
+   ],
+   [
+    "contact_details",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 1
+  },
+  "textLength": 308,
+  "text": "So why does a conditional move perform better?\nIn a typical x86 processor, the execution of an instruction is divided into several stages. Roughly, we have different hardware to deal with different stages. So we do not have to wait for one instruction to finish to start a new one. This is called pip"
+ },
+ {
+  "id": "wiki-population:11",
+  "label": "related",
+  "confidence": 0.55,
+  "margin": 0.4,
+  "top": [
+   [
+    "related",
+    0.57
+   ],
+   [
+    "list",
+    0.17
+   ],
+   [
+    "text",
+    0.08
+   ]
+  ],
+  "tag": "a",
+  "where": "main>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 101,
+  "text": "List of countries and dependencies by population density\nList of regional organizations by population"
+ },
+ {
+  "id": "spiegel-index:251",
+  "label": "action_button",
+  "confidence": 0.5,
+  "margin": 0.17,
+  "top": [
+   [
+    "action_button",
+    0.51
+   ],
+   [
+    "byline",
+    0.34
+   ],
+   [
+    "metadata",
+    0.11
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section>article",
+  "counts": {
+   "links": 0,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 30,
+  "text": "4 Min\nZur Merkliste hinzufügen"
+ },
+ {
+  "id": "python-tutorial:95",
+  "label": "text",
+  "confidence": 0.99,
+  "margin": 0.98,
+  "top": [
+   [
+    "text",
+    0.99
+   ],
+   [
+    "summary",
+    0.01
+   ],
+   [
+    "callout",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main>section>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 340,
+  "text": "By default, arguments may be passed to a Python function either by position\nor explicitly by keyword. For readability and performance, it makes sense to\nrestrict the way arguments can be passed so that a developer need only look\nat the function definition to determine if items are passed by position"
+ },
+ {
+  "id": "jbhifi-listing:10",
+  "label": "product_card",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "product_card",
+    1
+   ],
+   [
+    "site_footer",
+    0
+   ],
+   [
+    "checkout",
+    0
+   ]
+  ],
+  "tag": "div×4",
+  "where": "main",
+  "counts": {
+   "links": 8,
+   "images": 47,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 22,
+   "paragraphs": 0,
+   "repeats": 4
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "HP Laptop 15-fd1265TU 15.6\" Full HD Laptop (Intel Core 5)[256GB]",
+    "width": 189,
+    "height": 189
+   },
+   {
+    "kind": "img",
+    "alt": "HP OmniBook 3 14\" WUXGA AI PC Laptop (Snapdragon X1)[512GB]",
+    "width": 189,
+    "height": 189
+   },
+   {
+    "kind": "img",
+    "alt": "Microsoft Surface Pro AI PC 12\" Snapdragon X Plus 8 core/8GB/256GB (Platinum)",
+    "width": 189,
+    "height": 189
+   },
+   {
+    "kind": "img",
+    "alt": "Microsoft Surface Laptop 13-inch Snapdragon X Plus 256GB/8GB Platinum (8th Edition)",
+    "width": 189,
+    "height": 189
+   }
+  ],
+  "textLength": 854,
+  "text": "You're one step away from having this in your wishlist!\nCreate accountLog in\nOn Sale\nHP Laptop 15-fd1265TU 15.6\" Full HD Laptop (Intel Core 5)[256GB]\n4.5\n(4)\nTicket $1599\n$799\n$800OFF^\nAdd to cartAdded\nCompare\nYou're one step away from having this in your wishlist!\nCreate accountLog in\nOn Sale\nHP Om"
+ },
+ {
+  "id": "genius-lyrics:16",
+  "label": "share",
+  "confidence": 0.85,
+  "margin": 0.75,
+  "top": [
+   [
+    "share",
+    0.86
+   ],
+   [
+    "embed",
+    0.11
+   ],
+   [
+    "page_tools",
+    0.02
+   ]
+  ],
+  "tag": "div",
+  "where": "main",
+  "counts": {
+   "links": 0,
+   "images": 3,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 4,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 19,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 8,
+    "height": 16
+   }
+  ],
+  "textLength": 7,
+  "text": "51Embed"
+ },
+ {
+  "id": "guardian-index:9",
+  "label": "teaser_card",
+  "confidence": 0.97,
+  "margin": 0.96,
+  "top": [
+   [
+    "teaser_card",
+    0.98
+   ],
+   [
+    "list",
+    0.02
+   ],
+   [
+    "action_button",
+    0
+   ]
+  ],
+  "tag": "ul×2",
+  "where": "main>section",
+  "counts": {
+   "links": 5,
+   "images": 4,
+   "headings": 5,
+   "listItems": 5,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 2
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "Plumes of smoke rise from fires at an oil refinery in Moscow, Russia",
+    "width": 220,
+    "height": 176
+   },
+   {
+    "kind": "img",
+    "alt": "A woman with long dark hair raises her hands as she speaks in front of a microphone.",
+    "width": 220,
+    "height": 176
+   },
+   {
+    "kind": "img",
+    "alt": "Nigel Farage",
+    "width": 220,
+    "height": 176
+   },
+   {
+    "kind": "img",
+    "alt": "Statue symbolising end of slavery in Barbados",
+    "width": 220,
+    "height": 176
+   }
+  ],
+  "textLength": 511,
+  "text": "Russia\nHundreds of drones target Moscow on last day of voting in Russia’s parliamentary election\n2h ago\nUkraine war briefing\nKyiv denounces Russia’s inclusion of annexed regions in parliamentary elections\nNazanin Zaghari-Ratcliffe\nPizza dough and TV prison dramas: how Nazanin Zaghari-Ratcliffe survi"
+ },
+ {
+  "id": "wiki-mondrian:14",
+  "label": "gallery",
+  "confidence": 0.96,
+  "margin": 0.95,
+  "top": [
+   [
+    "gallery",
+    0.97
+   ],
+   [
+    "list",
+    0.02
+   ],
+   [
+    "infobox",
+    0.01
+   ]
+  ],
+  "tag": "figure×3",
+  "where": "main>section>section",
+  "counts": {
+   "links": 7,
+   "images": 3,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 3
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "Piet Mondrian painting Spring Sun (Lentezon): Castle Ruin: Brederode in the Dallas Museum of Art",
+    "width": 252,
+    "height": 224
+   },
+   {
+    "kind": "img",
+    "alt": "Piet Mondrain painting Willow Grove: Impression of Light and Shadow in the Dallas Museum of Art",
+    "width": 252,
+    "height": 195
+   },
+   {
+    "kind": "img",
+    "alt": "Piet Mondrian painting Evening; Red Tree in the Gemeentemuseum Den Haag",
+    "width": 252,
+    "height": 178
+   }
+  ],
+  "textLength": 344,
+  "text": "Willow Grove: Impression of Light and Shadow, c. 1905, oil on canvas, 35 × 45 cm, Dallas Museum of Art\nPiet Mondrian, Evening; Red Tree (Avond; De rode boom), 1908–1910, oil on canvas, 70 × 99 cm, Gemeentemuseum Den Haag\nSpring Sun (Lentezon): Castle Ruin: Brederode, c. late 1909 – early 1910, oil o"
+ },
+ {
+  "id": "hn-front:21",
+  "label": "teaser_card",
+  "confidence": 0.94,
+  "margin": 0.91,
+  "top": [
+   [
+    "teaser_card",
+    0.95
+   ],
+   [
+    "list",
+    0.04
+   ],
+   [
+    "trending",
+    0.01
+   ]
+  ],
+  "tag": "tr",
+  "where": "above fold",
+  "counts": {
+   "links": 3,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 42,
+  "text": "11.\nMeasure internet censorship (ooni.org)"
+ },
+ {
+  "id": "apple-iphone:23",
+  "label": "site_nav",
+  "confidence": 0.59,
+  "margin": 0.25,
+  "top": [
+   [
+    "site_nav",
+    0.61
+   ],
+   [
+    "site_footer",
+    0.36
+   ],
+   [
+    "section_nav",
+    0.02
+   ]
+  ],
+  "tag": "div×5",
+  "where": "footer>nav",
+  "counts": {
+   "links": 64,
+   "images": 0,
+   "headings": 11,
+   "listItems": 64,
+   "tableRows": 0,
+   "controls": 11,
+   "paragraphs": 0,
+   "repeats": 5
+  },
+  "textLength": 1290,
+  "text": "Shop and Learn\n Shop and Learn\n Store\n Mac\n iPad\n iPhone\n Watch\n Vision\n AirPods\n TV & Home\n AirTag\n Accessories\n Gift Cards\n Apple Wallet\n Apple Wallet\n Wallet\n Apple Card\n Apple Pay\n Apple Cash\nAccount\n Account\n Manage Your Apple Account\n Apple Store Account\n iCloud.com\n Entertainment\n Entertainme"
+ },
+ {
+  "id": "so-sorted-array:180",
+  "label": "text",
+  "confidence": 0.98,
+  "margin": 0.98,
+  "top": [
+   [
+    "text",
+    0.99
+   ],
+   [
+    "code",
+    0.01
+   ],
+   [
+    "action_button",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 1
+  },
+  "textLength": 361,
+  "text": "Without branch prediction, the following would occur:\nTo execute instruction B or instruction C the processor will have to wait (stall) till the instruction A leaves the EX stage in the pipeline, as the decision to go to instruction B or instruction C depends on the result of instruction A. (i.e. wh"
+ },
+ {
+  "id": "govuk-start:12",
+  "label": "text",
+  "confidence": 0.98,
+  "margin": 0.98,
+  "top": [
+   [
+    "text",
+    0.99
+   ],
+   [
+    "callout",
+    0.01
+   ],
+   [
+    "vote_controls",
+    0
+   ]
+  ],
+  "tag": "p×2",
+  "where": "main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 2
+  },
+  "textLength": 183,
+  "text": "DVLA will send you a confirmation email once you’ve applied.\nYour licence should arrive within one week if you apply online. It may take longer if DVLA need to make additional checks."
+ },
+ {
+  "id": "economist-article:5",
+  "label": "image",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "image",
+    1
+   ],
+   [
+    "cross_promo",
+    0
+   ],
+   [
+    "rating",
+    0
+   ]
+  ],
+  "tag": "section",
+  "where": "main>article>section",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "President Trump Makes Healthcare Announcement",
+    "width": 665,
+    "height": 374
+   }
+  ],
+  "textLength": 38,
+  "text": "Photograph: Bloomberg via Getty Images"
+ },
+ {
+  "id": "bbc-news-index:7",
+  "label": "teaser_card",
+  "confidence": 0.76,
+  "margin": 0.63,
+  "top": [
+   [
+    "teaser_card",
+    0.77
+   ],
+   [
+    "trending",
+    0.14
+   ],
+   [
+    "related",
+    0.06
+   ]
+  ],
+  "tag": "section",
+  "where": "main>article>section",
+  "counts": {
+   "links": 5,
+   "images": 1,
+   "headings": 5,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 364,
+  "text": "Journalists denied White House access after Trump banned some media outlets\nNato welcomes Greenland deal as Trump says it will give US 'permanent security control'\n'Enough is enough': Women protest after string of murders near Johannesburg\nCultural treasures are being destroyed by war, and people wa"
+ },
+ {
+  "id": "genius-lyrics:44",
+  "label": "site_footer",
+  "confidence": 0.99,
+  "margin": 0.98,
+  "top": [
+   [
+    "site_footer",
+    0.99
+   ],
+   [
+    "site_nav",
+    0.01
+   ],
+   [
+    "text",
+    0
+   ]
+  ],
+  "tag": "div×2",
+  "where": "footer",
+  "counts": {
+   "links": 14,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 2
+  },
+  "textLength": 166,
+  "text": "About GeniusContributor GuidelinesPressShopAdvertisePrivacy PolicyDo Not Sell My Personal Information\nLicensingJobsDevelopersCopyright PolicyContact UsSecuritySign In"
+ },
+ {
+  "id": "so-sorted-array:324",
+  "label": "vote_controls",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "vote_controls",
+    1
+   ],
+   [
+    "poll",
+    0
+   ],
+   [
+    "newsletter",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 1,
+   "images": 4,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 5,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 19,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 139,
+  "text": "This answer is useful\n112 \n This answer is not useful\nSave this answer.\nLoading when this answer was accepted…\n Show activity on this post."
+ },
+ {
+  "id": "wiki-population:2",
+  "label": "title",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "title",
+    1
+   ],
+   [
+    "site_header",
+    0
+   ],
+   [
+    "comments",
+    0
+   ]
+  ],
+  "tag": "h1",
+  "where": "main>header",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 48,
+  "text": "List of countries and dependencies by population"
+ },
+ {
+  "id": "devto-article:12",
+  "label": "trending",
+  "confidence": 0.93,
+  "margin": 0.88,
+  "top": [
+   [
+    "trending",
+    0.93
+   ],
+   [
+    "teaser_card",
+    0.05
+   ],
+   [
+    "related",
+    0.01
+   ]
+  ],
+  "tag": "a×25",
+  "where": "aside>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 25
+  },
+  "textLength": 1645,
+  "text": "Why Your TypeScript 7 Upgrade Broke ESLint, ts-jest, and ts-morph\nWhy Angular, Vue, and ESLint Can't Upgrade to TypeScript 7.0 (Yet) — And Why TS 7.1 Changes Every...\nTypeScript 7 Went Native: What Actually Changes And What Doesn't\nWhy Google Translate Crashes Your React App (and How to Fix It)\nJell"
+ },
+ {
+  "id": "github-repo:15",
+  "label": "text",
+  "confidence": 0.94,
+  "margin": 0.9,
+  "top": [
+   [
+    "text",
+    0.95
+   ],
+   [
+    "summary",
+    0.05
+   ],
+   [
+    "share",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "main>article",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 70,
+  "text": "Each Electron release provides binaries for macOS, Windows, and Linux."
+ },
+ {
+  "id": "so-sorted-array:6",
+  "label": "byline",
+  "confidence": 0.54,
+  "margin": 0.17,
+  "top": [
+   [
+    "byline",
+    0.56
+   ],
+   [
+    "metadata",
+    0.39
+   ],
+   [
+    "stats",
+    0.02
+   ]
+  ],
+  "tag": "div",
+  "where": "above fold",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 72,
+  "text": "Asked\n 14 years, 2 months ago\n Modified\n 16 days ago\n Viewed\n 2.0m times"
+ },
+ {
+  "id": "so-yield:230",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "table",
+    0
+   ],
+   [
+    "age_gate",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   }
+  ],
+  "textLength": 35,
+  "text": "Copy\ndef f():\n while True:\n yield 4"
+ },
+ {
+  "id": "python-tutorial:84",
+  "label": "text",
+  "confidence": 0.97,
+  "margin": 0.96,
+  "top": [
+   [
+    "text",
+    0.98
+   ],
+   [
+    "code",
+    0.02
+   ],
+   [
+    "login_form",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main>section>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 153,
+  "text": "accepts one required argument (voltage) and three optional arguments\n(state, action, and type). This function can be called in any\nof the following ways:"
+ },
+ {
+  "id": "ato-index:4",
+  "label": "search",
+  "confidence": 0.97,
+  "margin": 0.94,
+  "top": [
+   [
+    "search",
+    0.97
+   ],
+   [
+    "site_header",
+    0.03
+   ],
+   [
+    "ad",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "header",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 2,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 18,
+    "height": 18
+   }
+  ],
+  "textLength": 49,
+  "text": ".st0{fill:none;}\n .st1{fill:CurrentColor;}\nSearch"
+ },
+ {
+  "id": "nhs-index:21",
+  "label": "list",
+  "confidence": 0.53,
+  "margin": 0.22,
+  "top": [
+   [
+    "list",
+    0.54
+   ],
+   [
+    "section_nav",
+    0.32
+   ],
+   [
+    "table_of_contents",
+    0.13
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>article",
+  "counts": {
+   "links": 70,
+   "images": 0,
+   "headings": 0,
+   "listItems": 70,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 2046,
+  "text": "Haemochromatosis\n Haemolytic disease of the fetus and newborn (HDFN)\n Haemophilia\n Haemophilus influenzae type b (Hib)\n Haemorrhoids, see Piles (haemorrhoids)\n Hamstring injury\n Hand, foot and mouth disease\n Hantavirus\n Hay fever\n Head injury and concussion\n Head lice and nits\n Headaches\n Headaches "
+ },
+ {
+  "id": "so-sorted-array:112",
+  "label": "code",
+  "confidence": 0.99,
+  "margin": 0.98,
+  "top": [
+   [
+    "code",
+    0.99
+   ],
+   [
+    "table",
+    0.01
+   ],
+   [
+    "external_links",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main",
+  "counts": {
+   "links": 1,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   }
+  ],
+  "textLength": 358,
+  "text": "Copy\n Percent | Source code & Disassembly of sumtest_unsorted\n------------------------------------------------\n...\n : sum += data[c];\n 0.00 : 400a1a: mov -0x14(%rbp),%eax\n 39.97 : 400a1d: mov %eax,%eax\n 5.31 : 400a1f: mov -0x20040(%rbp,%rax,4),%eax\n 4.60 : 400a26: cltq \n 0.00 : 400a28: add %rax,-0x3"
+ },
+ {
+  "id": "jbhifi-listing:24",
+  "label": "ad",
+  "confidence": 0.96,
+  "margin": 0.96,
+  "top": [
+   [
+    "ad",
+    0.97
+   ],
+   [
+    "image",
+    0.01
+   ],
+   [
+    "site_notice",
+    0.01
+   ]
+  ],
+  "tag": "div",
+  "where": "main",
+  "counts": {
+   "links": 1,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "jb-au-20250103-computers-crazy-ink leaderboard desktop",
+    "width": 1092,
+    "height": 136
+   }
+  ],
+  "textLength": 0,
+  "text": ""
+ },
+ {
+  "id": "forbes-article:32",
+  "label": "heading",
+  "confidence": 0.83,
+  "margin": 0.79,
+  "top": [
+   [
+    "heading",
+    0.84
+   ],
+   [
+    "teaser_card",
+    0.05
+   ],
+   [
+    "site_nav",
+    0.03
+   ]
+  ],
+  "tag": "h2",
+  "where": "section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 9,
+  "text": "Education"
+ },
+ {
+  "id": "nytimes-article:6",
+  "label": "byline",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "byline",
+    1
+   ],
+   [
+    "cookie_banner",
+    0
+   ],
+   [
+    "logo_cloud",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "main>article>header",
+  "counts": {
+   "links": 2,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 77,
+  "text": "By Jackie Frere and Isaac Aronow\nPublished Sept. 19, 2022Updated Oct. 7, 2022"
+ },
+ {
+  "id": "allrecipes-banana:3",
+  "label": "breadcrumbs",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "breadcrumbs",
+    1
+   ],
+   [
+    "status_message",
+    0
+   ],
+   [
+    "code",
+    0
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>article",
+  "counts": {
+   "links": 4,
+   "images": 3,
+   "headings": 0,
+   "listItems": 4,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 12,
+    "height": 12
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 12,
+    "height": 12
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 12,
+    "height": 12
+   }
+  ],
+  "textLength": 58,
+  "text": "Bread\nQuick Bread Recipes\nFruit Bread Recipes\nBanana Bread"
+ },
+ {
+  "id": "wiki-melbourne:34",
+  "label": "text",
+  "confidence": 0.97,
+  "margin": 0.96,
+  "top": [
+   [
+    "text",
+    0.98
+   ],
+   [
+    "gallery",
+    0.02
+   ],
+   [
+    "math",
+    0
+   ]
+  ],
+  "tag": "p×2",
+  "where": "main>section>section",
+  "counts": {
+   "links": 29,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 2
+  },
+  "textLength": 1829,
+  "text": "In May and June 1835, John Batman, a leading member of the Port Phillip Association in Van Diemen's Land, explored the Melbourne area, and later claimed to have negotiated a purchase of 2,400 km2 (600,000 acres) with eight Wurundjeri elders. However, the nature of the treaty has been heavily dispute"
+ },
+ {
+  "id": "python-json:13",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "related",
+    0
+   ],
+   [
+    "empty_state",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 227,
+  "text": "Using json from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n \"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+ },
+ {
+  "id": "pg-essay-2:1",
+  "label": "cta",
+  "confidence": 0.61,
+  "margin": 0.51,
+  "top": [
+   [
+    "cta",
+    0.63
+   ],
+   [
+    "site_header",
+    0.12
+   ],
+   [
+    "cross_promo",
+    0.11
+   ]
+  ],
+  "tag": "a",
+  "where": "above fold",
+  "counts": {
+   "links": 1,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 410,
+    "height": 45
+   },
+   {
+    "kind": "img",
+    "alt": "Do Things that Don't Scale",
+    "width": 217,
+    "height": 18
+   }
+  ],
+  "textLength": 52,
+  "text": "Want to start a startup? Get funded by\nY Combinator."
+ },
+ {
+  "id": "github-issues:10",
+  "label": "site_footer",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "site_footer",
+    1
+   ],
+   [
+    "code",
+    0
+   ],
+   [
+    "decoration",
+    0
+   ]
+  ],
+  "tag": "footer",
+  "where": "footer",
+  "counts": {
+   "links": 8,
+   "images": 1,
+   "headings": 2,
+   "listItems": 9,
+   "tableRows": 0,
+   "controls": 2,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   }
+  ],
+  "textLength": 160,
+  "text": "Footer\n © 2026 GitHub, Inc.\n Footer navigation\n Terms\n Privacy\n Security\n Status\n Community\n Docs\n Contact\n Manage cookies\n Do not share my personal information"
+ },
+ {
+  "id": "wiki-melbourne:145",
+  "label": "references",
+  "confidence": 0.61,
+  "margin": 0.26,
+  "top": [
+   [
+    "references",
+    0.63
+   ],
+   [
+    "heading",
+    0.37
+   ],
+   [
+    "tabs",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "main>section",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 17,
+  "text": "References\n[edit]"
+ },
+ {
+  "id": "guardian-index:6",
+  "label": "heading",
+  "confidence": 0.95,
+  "margin": 0.93,
+  "top": [
+   [
+    "heading",
+    0.96
+   ],
+   [
+    "title",
+    0.03
+   ],
+   [
+    "version_switcher",
+    0.01
+   ]
+  ],
+  "tag": "h2",
+  "where": "main>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 4,
+  "text": "News"
+ },
+ {
+  "id": "so-yield:336",
+  "label": "comments",
+  "confidence": 0.82,
+  "margin": 0.74,
+  "top": [
+   [
+    "comments",
+    0.83
+   ],
+   [
+    "form",
+    0.09
+   ],
+   [
+    "heading",
+    0.04
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 23,
+  "text": "Comments\n Add a comment"
+ },
+ {
+  "id": "wiki-melbourne:25",
+  "label": "text",
+  "confidence": 0.97,
+  "margin": 0.94,
+  "top": [
+   [
+    "text",
+    0.97
+   ],
+   [
+    "heading",
+    0.03
+   ],
+   [
+    "teaser_card",
+    0
+   ]
+  ],
+  "tag": "section",
+  "where": "main>section",
+  "counts": {
+   "links": 9,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 1
+  },
+  "textLength": 624,
+  "text": "Name\n[edit]\nThe Port Phillip area of Victoria was known in the Boonwurrung/Woiwurrung languages as Narrm or Naarm.[19][20]\nDifferent parts of Melbourne had different traditional Indigenous names, though these do not match up exactly with modern council districts. The Melbourne city area near St Paul"
+ },
+ {
+  "id": "wiki-mondrian:63",
+  "label": "references",
+  "confidence": 0.9,
+  "margin": 0.86,
+  "top": [
+   [
+    "references",
+    0.91
+   ],
+   [
+    "list",
+    0.05
+   ],
+   [
+    "external_links",
+    0.04
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section",
+  "counts": {
+   "links": 3,
+   "images": 0,
+   "headings": 0,
+   "listItems": 1,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 206,
+  "text": "Pääsky, Jaana (2019). The Evening is Over, the Beauty Remains: A Semiotic Study of Piet Mondrian's Text \"Natural Reality and Abstract Reality\" (Ph.D. thesis). University of Helsinki. ISBN 978-951-51-4875-9."
+ },
+ {
+  "id": "guardian-index:44",
+  "label": "teaser_card",
+  "confidence": 0.75,
+  "margin": 0.63,
+  "top": [
+   [
+    "teaser_card",
+    0.76
+   ],
+   [
+    "list",
+    0.13
+   ],
+   [
+    "related",
+    0.06
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section",
+  "counts": {
+   "links": 3,
+   "images": 3,
+   "headings": 2,
+   "listItems": 2,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "Composite image of David and Dec from the waist up",
+    "width": 460,
+    "height": 575
+   },
+   {
+    "kind": "img",
+    "alt": "An illustration of a cat and a dog either side of a photograph cutout of Tim Dowling, in front of  a background of diffe",
+    "width": 460,
+    "height": 575
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 14,
+    "height": 14
+   }
+  ],
+  "textLength": 169,
+  "text": "Blind date\n'We talked about how I don’t like Clapham gays – guess where he lives?’ \nThe Tim Dowling column\nCould the new dog’s tricks make her into a star?\n…\n…\n comments"
+ },
+ {
+  "id": "guardian-index:7",
+  "label": "teaser_card",
+  "confidence": 0.96,
+  "margin": 0.95,
+  "top": [
+   [
+    "teaser_card",
+    0.97
+   ],
+   [
+    "list",
+    0.02
+   ],
+   [
+    "trending",
+    0.01
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section",
+  "counts": {
+   "links": 3,
+   "images": 1,
+   "headings": 3,
+   "listItems": 3,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "A man walks in front of an AI sign at the Shanghai New Expo Center during the WAIC conference in Shanghai, China.",
+    "width": 620,
+    "height": 496
+   }
+  ],
+  "textLength": 383,
+  "text": "AI\nWhy China is pushing back on US warnings over rapid AI development\nBeijing believes slowdown calls aim to lock in US advantage, and is pursuing a different balance between safety and pace\n2h ago\nAI\nTrump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow\nAI\nTrump "
+ },
+ {
+  "id": "ebay-search:12",
+  "label": "related",
+  "confidence": 0.89,
+  "margin": 0.8,
+  "top": [
+   [
+    "related",
+    0.9
+   ],
+   [
+    "tag_cloud",
+    0.1
+   ],
+   [
+    "footnote",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 12,
+   "images": 2,
+   "headings": 1,
+   "listItems": 12,
+   "tableRows": 0,
+   "controls": 2,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 259,
+  "text": "Related searches\nusb c cable to usb c\nusb c cable fast charge\niphone 11 case\niphone 11 screen protector\niphone 15 pro max screen protector\nusb a to usb c cable\nusb c cable iphone\nbraiding hair\nusb c cable 2m\nusb c cable short\nusb c cable baseus\nusb c to usb c"
+ },
+ {
+  "id": "guardian-index:20",
+  "label": "teaser_card",
+  "confidence": 0.85,
+  "margin": 0.8,
+  "top": [
+   [
+    "teaser_card",
+    0.86
+   ],
+   [
+    "related",
+    0.06
+   ],
+   [
+    "list",
+    0.05
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section",
+  "counts": {
+   "links": 3,
+   "images": 3,
+   "headings": 2,
+   "listItems": 2,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "The",
+    "width": 220,
+    "height": 176
+   },
+   {
+    "kind": "img",
+    "alt": "Hands typing on a laptop displaying a \"scam alert\" warning on its screen",
+    "width": 220,
+    "height": 176
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 14,
+    "height": 14
+   }
+  ],
+  "textLength": 196,
+  "text": "The moment I knew\nOn a bike ride, she did a bunny hop over a speed hump – her pure joy for life delighted me\n…\n…\n comments\nScams\nReαd carefully: how to spot – and avoid – a homoglyph attack\n2h ago"
+ },
+ {
+  "id": "premierleague-table:7",
+  "label": "action_button",
+  "confidence": 0.89,
+  "margin": 0.84,
+  "top": [
+   [
+    "action_button",
+    0.91
+   ],
+   [
+    "popup",
+    0.07
+   ],
+   [
+    "accordion",
+    0.02
+   ]
+  ],
+  "tag": "button",
+  "where": "main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 0,
+  "text": ""
+ },
+ {
+  "id": "python-json:10",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "text",
+    0
+   ],
+   [
+    "map",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 275,
+  "text": "Decoding JSON:\n>>> import json\n>>> json.loads('[\"foo\", {\"bar\":[\"baz\", null, 1.0, 2]}]')\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n>>> json.loads('\"\\\\\"foo\\\\bar\"')\n'\"foo\\x08ar'\n>>> from io import StringIO\n>>> io = StringIO('[\"streaming API\"]')\n>>> json.load(io)\n['streaming API']"
+ },
+ {
+  "id": "nhs-index:37",
+  "label": "list",
+  "confidence": 0.51,
+  "margin": 0.16,
+  "top": [
+   [
+    "list",
+    0.52
+   ],
+   [
+    "section_nav",
+    0.36
+   ],
+   [
+    "table_of_contents",
+    0.11
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>article",
+  "counts": {
+   "links": 76,
+   "images": 0,
+   "headings": 0,
+   "listItems": 76,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 2279,
+  "text": "Paget's disease of bone\n Paget's disease of the nipple\n Pancreatic cancer\n Pancreatitis (chronic), see Chronic pancreatitis\n Panic disorder\n Parkinson's disease\n Patau's syndrome\n PCOS, see Polyendocrine metabolic ovarian syndrome (PMOS)\n Pelvic inflammatory disease\n Pelvic organ prolapse\n Pemphigus"
+ },
+ {
+  "id": "forbes-article:27",
+  "label": "teaser_card",
+  "confidence": 0.85,
+  "margin": 0.72,
+  "top": [
+   [
+    "teaser_card",
+    0.85
+   ],
+   [
+    "related",
+    0.13
+   ],
+   [
+    "list",
+    0.01
+   ]
+  ],
+  "tag": "div×4",
+  "where": "section",
+  "counts": {
+   "links": 16,
+   "images": 0,
+   "headings": 4,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 8,
+   "repeats": 4
+  },
+  "textLength": 439,
+  "text": "Investing\nWhat Higher Interest Rates Mean For Stocks\nByJim Osman,\nSenior Contributor\nRetirement\nMedicare Costs Poised To Rise As 2027 Plan Changes Take Shape\nByBob Carlson,\nSenior Contributor\nMoney\nA Record 590 U.S. Billionaires Aren’t Rich Enough To Make The Forbes 400 List\nByKirk Ogunrinde,\nReport"
+ },
+ {
+  "id": "stripe-home:21",
+  "label": "teaser_card",
+  "confidence": 0.9,
+  "margin": 0.88,
+  "top": [
+   [
+    "teaser_card",
+    0.91
+   ],
+   [
+    "list",
+    0.03
+   ],
+   [
+    "testimonial",
+    0.02
+   ]
+  ],
+  "tag": "ul",
+  "where": "main>section>section>section",
+  "counts": {
+   "links": 7,
+   "images": 14,
+   "headings": 7,
+   "listItems": 7,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 344,
+    "height": 448
+   },
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 344,
+    "height": 448
+   },
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 344,
+    "height": 448
+   },
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 344,
+    "height": 448
+   }
+  ],
+  "textLength": 590,
+  "text": "Leonardo AI recovers 40% of failed payments with Stripe.\nRead Leonardo AI's story\nRunway protects developer time with no-code solutions from Stripe.\nRead Runway's story\nLovable grows into a vibe-coding juggernaut with Stripe.\nRead Lovable's story\nDecagon decreases support costs by 65% with Stripe-in"
+ },
+ {
+  "id": "tomshardware-index:6",
+  "label": "trending",
+  "confidence": 0.91,
+  "margin": 0.84,
+  "top": [
+   [
+    "trending",
+    0.92
+   ],
+   [
+    "site_nav",
+    0.08
+   ],
+   [
+    "contact_details",
+    0
+   ]
+  ],
+  "tag": "nav",
+  "where": "role=main>nav",
+  "counts": {
+   "links": 7,
+   "images": 0,
+   "headings": 0,
+   "listItems": 7,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 105,
+  "text": "TrendingAI Data Centers\nRAM Shortage\nVera Rubin\nRAM Combo Deals\nNova Lake\nTom's 30th Anniversary\nIFA 2026"
+ },
+ {
+  "id": "python-tutorial:5",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "steps",
+    0
+   ],
+   [
+    "status_message",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main>section>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 246,
+  "text": ">>> x = int(input(\"Please enter an integer: \"))\nPlease enter an integer: 42\n>>> if x < 0:\n... x = 0\n... print('Negative changed to zero')\n... elif x == 0:\n... print('Zero')\n... elif x == 1:\n... print('Single')\n... else:\n... print('More')\n...\nMore"
+ },
+ {
+  "id": "tomshardware-article:42",
+  "label": "heading",
+  "confidence": 0.99,
+  "margin": 0.98,
+  "top": [
+   [
+    "heading",
+    0.99
+   ],
+   [
+    "tabs",
+    0.01
+   ],
+   [
+    "definition_list",
+    0
+   ]
+  ],
+  "tag": "h2",
+  "where": "role=main>article>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 19,
+  "text": "Gaming and Hands-on"
+ },
+ {
+  "id": "spiegel-index:20",
+  "label": "heading",
+  "confidence": 0.79,
+  "margin": 0.73,
+  "top": [
+   [
+    "heading",
+    0.8
+   ],
+   [
+    "trending",
+    0.07
+   ],
+   [
+    "teaser_card",
+    0.07
+   ]
+  ],
+  "tag": "section",
+  "where": "main>section",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 16,
+  "text": "Themen des Tages"
+ },
+ {
+  "id": "guardian-index:60",
+  "label": "site_footer",
+  "confidence": 0.84,
+  "margin": 0.7,
+  "top": [
+   [
+    "site_footer",
+    0.85
+   ],
+   [
+    "legal_notice",
+    0.15
+   ],
+   [
+    "tag_cloud",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "footer",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 292,
+  "text": "Guardian Australia acknowledges the traditional owners and custodians of Country throughout Australia and their connections to land, waters and community. We pay respect by giving voice to social justice, acknowledging our shared history and valuing the cultures of First Nations.\nBack to top"
+ },
+ {
+  "id": "so-yield:56",
+  "label": "comments",
+  "confidence": 0.85,
+  "margin": 0.72,
+  "top": [
+   [
+    "comments",
+    0.86
+   ],
+   [
+    "text",
+    0.14
+   ],
+   [
+    "ad",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 3,
+   "images": 4,
+   "headings": 0,
+   "listItems": 1,
+   "tableRows": 0,
+   "controls": 4,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 18
+   }
+  ],
+  "textLength": 692,
+  "text": "Matthias Fripp\n Matthias Fripp Over a year ago \n yield is not as magical this answer suggests. When you call a function that contains a yield statement anywhere, you get a generator object, but no code runs. Then each time you extract an object from the generator, Python executes code in the functio"
+ },
+ {
+  "id": "github-repo:13",
+  "label": "text",
+  "confidence": 0.8,
+  "margin": 0.63,
+  "top": [
+   [
+    "text",
+    0.8
+   ],
+   [
+    "code",
+    0.17
+   ],
+   [
+    "related",
+    0.01
+   ]
+  ],
+  "tag": "p",
+  "where": "main>article",
+  "counts": {
+   "links": 2,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 16
+   }
+  ],
+  "textLength": 188,
+  "text": "npm install electron --save-dev\nFor more installation options and troubleshooting tips, see\ninstallation. For info on how to manage Electron versions in your apps, see\nElectron versioning."
+ },
+ {
+  "id": "so-sorted-array:136",
+  "label": "text",
+  "confidence": 0.99,
+  "margin": 0.98,
+  "top": [
+   [
+    "text",
+    0.99
+   ],
+   [
+    "comments",
+    0.01
+   ],
+   [
+    "map",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 457,
+  "text": "The question is: What makes the above statement not execute in certain cases as in case of sorted data? Here comes the \"branch predictor\". A branch predictor is a digital circuit that tries to guess which way a branch (e.g. an if-then-else structure) will go before this is known for sure. The purpos"
+ },
+ {
+  "id": "so-sorted-array:106",
+  "label": "text",
+  "confidence": 0.97,
+  "margin": 0.96,
+  "top": [
+   [
+    "text",
+    0.98
+   ],
+   [
+    "code",
+    0.02
+   ],
+   [
+    "tag_cloud",
+    0
+   ]
+  ],
+  "tag": "p",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "textLength": 267,
+  "text": "This lets you easily identify the problematic line - in the unsorted version the if (data[c] >= 128) line is causing 164,050,007 mispredicted conditional branches (Bcm) under cachegrind's branch-predictor model, whereas it's only causing 10,006 in the sorted version."
+ },
+ {
+  "id": "allrecipes-cookies:46",
+  "label": "reviews",
+  "confidence": 0.73,
+  "margin": 0.52,
+  "top": [
+   [
+    "reviews",
+    0.74
+   ],
+   [
+    "heading",
+    0.22
+   ],
+   [
+    "comments",
+    0.02
+   ]
+  ],
+  "tag": "h2",
+  "where": "main>article",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 16,
+  "text": "Reviews (14,906)"
+ },
+ {
+  "id": "so-sorted-array:247",
+  "label": "comments",
+  "confidence": 0.99,
+  "margin": 1,
+  "top": [
+   [
+    "comments",
+    1
+   ],
+   [
+    "cookie_banner",
+    0
+   ],
+   [
+    "logo_cloud",
+    0
+   ]
+  ],
+  "tag": "div",
+  "where": "role=main",
+  "counts": {
+   "links": 3,
+   "images": 4,
+   "headings": 0,
+   "listItems": 1,
+   "tableRows": 0,
+   "controls": 4,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "img",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 18
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 18
+   }
+  ],
+  "textLength": 363,
+  "text": "mckenzm\n mckenzm Over a year ago \n Almost as good as the Intel marketing animations, and they were obsessed not just with branch prediction but out of order execution, both strategies being \"speculative\". Reading ahead in memory and storage (sequential pre-fetch to buffer) is also speculative. It al"
+ },
+ {
+  "id": "so-yield:338",
+  "label": "text",
+  "confidence": 0.89,
+  "margin": 0.8,
+  "top": [
+   [
+    "text",
+    0.9
+   ],
+   [
+    "comments",
+    0.1
+   ],
+   [
+    "callout",
+    0
+   ]
+  ],
+  "tag": "p×4",
+  "where": "role=main",
+  "counts": {
+   "links": 2,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 4,
+   "repeats": 4
+  },
+  "textLength": 1653,
+  "text": "(My below answer only speaks from the perspective of using Python generator, not the underlying implementation of generator mechanism, which involves some tricks of stack and heap manipulation.)\nWhen yield is used instead of a return in a python function, that function is turned into something speci"
+ },
+ {
+  "id": "bbcgoodfood-victoria:0",
+  "label": "ad",
+  "confidence": 0.94,
+  "margin": 0.92,
+  "top": [
+   [
+    "ad",
+    0.95
+   ],
+   [
+    "decoration",
+    0.03
+   ],
+   [
+    "subscribe",
+    0.02
+   ]
+  ],
+  "tag": "div",
+  "where": "above fold",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 0,
+  "text": ""
+ },
+ {
+  "id": "wiki-melbourne:124",
+  "label": "text",
+  "confidence": 0.99,
+  "margin": 0.98,
+  "top": [
+   [
+    "text",
+    0.99
+   ],
+   [
+    "list",
+    0.01
+   ],
+   [
+    "search",
+    0
+   ]
+  ],
+  "tag": "p×2",
+  "where": "main>section",
+  "counts": {
+   "links": 51,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 2,
+   "repeats": 2
+  },
+  "textLength": 1580,
+  "text": "Three daily newspapers serve Melbourne: the Herald Sun (tabloid), The Age (compact) and The Australian (national broadsheet). There are six primary free-to-air digital television stations operating in Greater Melbourne and Geelong: ABC Victoria (ABV), SBS Victoria (SBS), Seven Melbourne (HSV), Nine "
+ },
+ {
+  "id": "so-yield:321",
+  "label": "code",
+  "confidence": 1,
+  "margin": 1,
+  "top": [
+   [
+    "code",
+    1
+   ],
+   [
+    "site_header",
+    0
+   ],
+   [
+    "hero",
+    0
+   ]
+  ],
+  "tag": "pre",
+  "where": "role=main",
+  "counts": {
+   "links": 0,
+   "images": 1,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 17,
+    "height": 18
+   }
+  ],
+  "textLength": 82,
+  "text": "will print\nCopy\n\"first time\"\n\"second time\"\n\"third time\"\n\"Now some useful value 12\""
+ },
+ {
+  "id": "reddit-listing:18",
+  "label": "login_form",
+  "confidence": 0.95,
+  "margin": 0.93,
+  "top": [
+   [
+    "login_form",
+    0.96
+   ],
+   [
+    "form",
+    0.03
+   ],
+   [
+    "cta",
+    0.01
+   ]
+  ],
+  "tag": "rect",
+  "where": "above fold",
+  "counts": {
+   "links": 0,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 20,
+    "height": 20
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 20,
+    "height": 20
+   }
+  ],
+  "textLength": 46,
+  "text": "Continue with Phone Number\nContinue with Email"
+ },
+ {
+  "id": "spiegel-index:239",
+  "label": "summary",
+  "confidence": 0.84,
+  "margin": 0.78,
+  "top": [
+   [
+    "summary",
+    0.86
+   ],
+   [
+    "text",
+    0.08
+   ],
+   [
+    "teaser_card",
+    0.05
+   ]
+  ],
+  "tag": "section",
+  "where": "main>section>article>section",
+  "counts": {
+   "links": 1,
+   "images": 0,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 207,
+  "text": "Der Rucksack ist die einfachste Art, mit dem Fahrrad leichtes Gepäck zu transportieren – vor allem auf dem Weg zur Arbeit, Uni oder Schule. Wir haben Radrucksäcke mit Notebookfach getestet.\nVon Markus Linden"
+ },
+ {
+  "id": "govuk-start:4",
+  "label": "title",
+  "confidence": 0.87,
+  "margin": 0.76,
+  "top": [
+   [
+    "title",
+    0.88
+   ],
+   [
+    "heading",
+    0.12
+   ],
+   [
+    "version_switcher",
+    0
+   ]
+  ],
+  "tag": "h1",
+  "where": "main",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 48,
+  "text": "Apply for your first provisional driving licence"
+ },
+ {
+  "id": "jbhifi-listing:0",
+  "label": "site_notice",
+  "confidence": 0.72,
+  "margin": 0.59,
+  "top": [
+   [
+    "site_notice",
+    0.74
+   ],
+   [
+    "cross_promo",
+    0.15
+   ],
+   [
+    "site_header",
+    0.07
+   ]
+  ],
+  "tag": "div",
+  "where": "header",
+  "counts": {
+   "links": 1,
+   "images": 2,
+   "headings": 0,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 1,
+   "paragraphs": 1,
+   "repeats": 1
+  },
+  "images": [
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 24,
+    "height": 24
+   },
+   {
+    "kind": "svg",
+    "alt": "",
+    "width": 16,
+    "height": 10
+   }
+  ],
+  "textLength": 53,
+  "text": "iPhone 18 Pro Out Now! Trade-in & Upgrade! Learn more"
+ },
+ {
+  "id": "sallys-recipe:63",
+  "label": "author_bio",
+  "confidence": 0.82,
+  "margin": 0.72,
+  "top": [
+   [
+    "author_bio",
+    0.83
+   ],
+   [
+    "heading",
+    0.11
+   ],
+   [
+    "byline",
+    0.06
+   ]
+  ],
+  "tag": "h2",
+  "where": "aside",
+  "counts": {
+   "links": 0,
+   "images": 0,
+   "headings": 1,
+   "listItems": 0,
+   "tableRows": 0,
+   "controls": 0,
+   "paragraphs": 0,
+   "repeats": 1
+  },
+  "textLength": 31,
+  "text": "About the Author\nSally McKenney"
+ }
+]

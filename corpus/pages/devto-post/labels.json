@@ -1,0 +1,716 @@
+{
+ "id": "devto-post",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:45:31.731Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 110579,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_header",
+     0.99
+    ],
+    [
+     "site_nav",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "reactions",
+   "confidence": 0.57,
+   "margin": 0.42,
+   "top": [
+    [
+     "reactions",
+     0.59
+    ],
+    [
+     "page_tools",
+     0.17
+    ],
+    [
+     "action_button",
+     0.13
+    ],
+    [
+     "share",
+     0.06
+    ],
+    [
+     "toolbar",
+     0.03
+    ]
+   ],
+   "final": "reactions"
+  },
+  {
+   "index": 2,
+   "choice": "image",
+   "confidence": 0.88,
+   "margin": 0.84,
+   "top": [
+    [
+     "image",
+     0.89
+    ],
+    [
+     "hero",
+     0.05
+    ],
+    [
+     "reactions",
+     0.04
+    ],
+    [
+     "gallery",
+     0.01
+    ],
+    [
+     "decoration",
+     0.01
+    ]
+   ],
+   "final": "image"
+  },
+  {
+   "index": 3,
+   "choice": "byline",
+   "confidence": 0.93,
+   "margin": 0.89,
+   "top": [
+    [
+     "byline",
+     0.94
+    ],
+    [
+     "comments",
+     0.05
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "trending",
+     0
+    ]
+   ],
+   "final": "byline"
+  },
+  {
+   "index": 4,
+   "choice": "reactions",
+   "confidence": 0.9,
+   "margin": 0.85,
+   "top": [
+    [
+     "reactions",
+     0.91
+    ],
+    [
+     "vote_controls",
+     0.06
+    ],
+    [
+     "rating",
+     0.02
+    ],
+    [
+     "byline",
+     0.01
+    ],
+    [
+     "tag_cloud",
+     0
+    ]
+   ],
+   "final": "reactions"
+  },
+  {
+   "index": 5,
+   "choice": "title",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "title",
+     0.99
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "external_links",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "final": "title"
+  },
+  {
+   "index": 6,
+   "choice": "tag_cloud",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "tag_cloud",
+     0.99
+    ],
+    [
+     "metadata",
+     0.01
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "final": "tag_cloud"
+  },
+  {
+   "index": 7,
+   "choice": "text",
+   "confidence": 0.61,
+   "margin": 0.26,
+   "top": [
+    [
+     "text",
+     0.63
+    ],
+    [
+     "summary",
+     0.37
+    ],
+    [
+     "team",
+     0
+    ],
+    [
+     "trending",
+     0
+    ],
+    [
+     "legal_notice",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 8,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "final": "code"
+  },
+  {
+   "index": 9,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "text",
+     0.98
+    ],
+    [
+     "code",
+     0.02
+    ],
+    [
+     "tag_cloud",
+     0
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 10,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "infobox",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "audio",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "final": "code"
+  },
+  {
+   "index": 11,
+   "choice": "text",
+   "confidence": 0.86,
+   "margin": 0.75,
+   "top": [
+    [
+     "text",
+     0.87
+    ],
+    [
+     "code",
+     0.12
+    ],
+    [
+     "table",
+     0.01
+    ],
+    [
+     "definition_list",
+     0
+    ],
+    [
+     "map",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 12,
+   "choice": "code",
+   "confidence": 0.51,
+   "margin": 0.27,
+   "top": [
+    [
+     "code",
+     0.52
+    ],
+    [
+     "table",
+     0.25
+    ],
+    [
+     "list",
+     0.19
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "stats",
+     0.02
+    ]
+   ],
+   "final": "code"
+  },
+  {
+   "index": 13,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ],
+    [
+     "team",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 14,
+   "choice": "text",
+   "confidence": 0.72,
+   "margin": 0.62,
+   "top": [
+    [
+     "text",
+     0.73
+    ],
+    [
+     "code",
+     0.11
+    ],
+    [
+     "cta",
+     0.06
+    ],
+    [
+     "poll",
+     0.05
+    ],
+    [
+     "external_links",
+     0.02
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 15,
+   "choice": "comments",
+   "confidence": 0.8,
+   "margin": 0.75,
+   "top": [
+    [
+     "comments",
+     0.81
+    ],
+    [
+     "subscribe",
+     0.06
+    ],
+    [
+     "heading",
+     0.06
+    ],
+    [
+     "tabs",
+     0.02
+    ],
+    [
+     "action_button",
+     0.02
+    ]
+   ],
+   "final": "comments"
+  },
+  {
+   "index": 16,
+   "choice": "form",
+   "confidence": 0.96,
+   "margin": 0.94,
+   "top": [
+    [
+     "form",
+     0.97
+    ],
+    [
+     "comments",
+     0.03
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "subscribe",
+     0
+    ]
+   ],
+   "final": "form"
+  },
+  {
+   "index": 17,
+   "choice": "comments",
+   "confidence": 0.47,
+   "margin": 0.21,
+   "top": [
+    [
+     "comments",
+     0.48
+    ],
+    [
+     "user_card",
+     0.27
+    ],
+    [
+     "byline",
+     0.22
+    ],
+    [
+     "author_bio",
+     0.02
+    ],
+    [
+     "accordion",
+     0.01
+    ]
+   ],
+   "review": "ok",
+   "final": "comments"
+  },
+  {
+   "index": 18,
+   "choice": "text",
+   "confidence": 0.49,
+   "margin": 0.01,
+   "top": [
+    [
+     "text",
+     0.5
+    ],
+    [
+     "comments",
+     0.49
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "review": "either",
+   "final": "text"
+  },
+  {
+   "index": 19,
+   "choice": "reactions",
+   "confidence": 0.39,
+   "margin": 0.13,
+   "top": [
+    [
+     "reactions",
+     0.4
+    ],
+    [
+     "comments",
+     0.27
+    ],
+    [
+     "vote_controls",
+     0.23
+    ],
+    [
+     "action_button",
+     0.06
+    ],
+    [
+     "site_footer",
+     0.02
+    ]
+   ],
+   "review": "ok",
+   "final": "reactions"
+  },
+  {
+   "index": 20,
+   "choice": "page_tools",
+   "confidence": 0.4,
+   "margin": 0,
+   "top": [
+    [
+     "site_footer",
+     0.41
+    ],
+    [
+     "page_tools",
+     0.41
+    ],
+    [
+     "legal_notice",
+     0.1
+    ],
+    [
+     "site_nav",
+     0.07
+    ],
+    [
+     "external_links",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "page_tools"
+  },
+  {
+   "index": 21,
+   "choice": "cross_promo",
+   "confidence": 0.42,
+   "margin": 0.14,
+   "top": [
+    [
+     "cross_promo",
+     0.44
+    ],
+    [
+     "sponsored",
+     0.3
+    ],
+    [
+     "ad",
+     0.24
+    ],
+    [
+     "site_notice",
+     0.01
+    ],
+    [
+     "cta",
+     0.01
+    ]
+   ],
+   "review": "either",
+   "final": "cross_promo"
+  },
+  {
+   "index": 22,
+   "choice": "user_card",
+   "confidence": 0.39,
+   "margin": 0.06,
+   "top": [
+    [
+     "user_card",
+     0.41
+    ],
+    [
+     "author_bio",
+     0.35
+    ],
+    [
+     "related",
+     0.17
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "review": "either",
+   "final": "user_card"
+  },
+  {
+   "index": 23,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "pagination",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.589Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

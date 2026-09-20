@@ -1,0 +1,247 @@
+{
+ "id": "worldometers",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:58:28.475Z",
+ "tier": "relayout",
+ "application": 0.08,
+ "inputTokens": 36731,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.79,
+   "margin": 0.63,
+   "top": [
+    [
+     "site_header",
+     0.8
+    ],
+    [
+     "site_nav",
+     0.17
+    ],
+    [
+     "tag_cloud",
+     0.01
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "breadcrumbs",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "breadcrumbs",
+     1
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 2,
+   "choice": "title",
+   "confidence": 0.76,
+   "margin": 0.54,
+   "top": [
+    [
+     "title",
+     0.77
+    ],
+    [
+     "heading",
+     0.23
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "form",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "summary",
+   "confidence": 0.89,
+   "margin": 0.81,
+   "top": [
+    [
+     "summary",
+     0.9
+    ],
+    [
+     "text",
+     0.09
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "final": "summary"
+  },
+  {
+   "index": 4,
+   "choice": "search",
+   "confidence": 0.55,
+   "margin": 0.2,
+   "top": [
+    [
+     "search",
+     0.57
+    ],
+    [
+     "filters",
+     0.37
+    ],
+    [
+     "form",
+     0.03
+    ],
+    [
+     "table",
+     0.02
+    ],
+    [
+     "contact_details",
+     0
+    ]
+   ],
+   "final": "search"
+  },
+  {
+   "index": 5,
+   "choice": "table",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "table",
+     1
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ],
+    [
+     "pagination",
+     0
+    ]
+   ],
+   "final": "table"
+  },
+  {
+   "index": 6,
+   "choice": "references",
+   "confidence": 0.44,
+   "margin": 0.25,
+   "top": [
+    [
+     "references",
+     0.46
+    ],
+    [
+     "byline",
+     0.21
+    ],
+    [
+     "legal_notice",
+     0.11
+    ],
+    [
+     "site_footer",
+     0.11
+    ],
+    [
+     "footnote",
+     0.06
+    ]
+   ],
+   "review": "ok",
+   "final": "references"
+  },
+  {
+   "index": 7,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "buy_box",
+     0
+    ],
+    [
+     "pagination",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.628Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

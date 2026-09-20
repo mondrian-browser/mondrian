@@ -1,0 +1,500 @@
+{
+  "updatedAt": "2026-09-20T08:58:53.097Z",
+  "model": "jev-latest",
+  "types": "questions",
+  "typeCount": 100,
+  "pages": 74,
+  "regions": 3277,
+  "flagged": {
+    "lowConfidence": 448,
+    "ties": 208,
+    "either": 467,
+    "reviewBelow": 0.5,
+    "tieMargin": 0.1
+  },
+  "confidence": {
+    "min": 0.14,
+    "p25": 0.63,
+    "median": 0.9,
+    "p75": 0.98,
+    "max": 1
+  },
+  "inputTokens": 14990731,
+  "estimatedCostUsd": 0.63,
+  "byType": {
+    "text": 535,
+    "teaser_card": 398,
+    "heading": 358,
+    "code": 212,
+    "site_footer": 133,
+    "comments": 122,
+    "image": 105,
+    "list": 88,
+    "action_button": 88,
+    "byline": 83,
+    "site_nav": 79,
+    "related": 72,
+    "vote_controls": 58,
+    "summary": 53,
+    "site_header": 51,
+    "title": 41,
+    "trending": 33,
+    "cross_promo": 31,
+    "version_switcher": 30,
+    "gallery": 29,
+    "section_nav": 29,
+    "skip_link": 25,
+    "metadata": 24,
+    "pagination": 24,
+    "callout": 23,
+    "infobox": 23,
+    "quote": 21,
+    "filters": 21,
+    "cta": 20,
+    "ad": 20,
+    "breadcrumbs": 19,
+    "table": 19,
+    "account": 17,
+    "legal_notice": 16,
+    "search": 16,
+    "tag_cloud": 15,
+    "subscribe": 15,
+    "cookie_banner": 15,
+    "feature_grid": 14,
+    "accordion": 14,
+    "tabs": 14,
+    "decoration": 14,
+    "share": 13,
+    "newsletter": 12,
+    "reviews": 12,
+    "toolbar": 12,
+    "page_tools": 11,
+    "external_links": 11,
+    "table_of_contents": 11,
+    "references": 11,
+    "product_card": 10,
+    "steps": 9,
+    "form": 9,
+    "feedback": 9,
+    "video": 8,
+    "rating": 8,
+    "paywall": 8,
+    "login_form": 8,
+    "empty_state": 7,
+    "hero": 7,
+    "testimonial": 6,
+    "author_bio": 6,
+    "badge": 4,
+    "chat_widget": 4,
+    "audio": 4,
+    "settings": 4,
+    "map": 4,
+    "canvas": 4,
+    "logo_cloud": 4,
+    "buy_box": 4,
+    "stats": 4,
+    "sponsored": 4,
+    "app_nag": 3,
+    "reactions": 3,
+    "user_card": 3,
+    "definition_list": 3,
+    "footnote": 3,
+    "chart": 3,
+    "poll": 2,
+    "progress": 2,
+    "team": 2,
+    "correction": 2,
+    "sticky_bar": 1,
+    "contact_details": 1,
+    "site_notice": 1,
+    "status_message": 1,
+    "disclosure": 1,
+    "transcript": 1
+  },
+  "unusedTypes": [
+    "content_warning",
+    "math",
+    "embed",
+    "calendar",
+    "download",
+    "cart",
+    "checkout",
+    "pricing_table",
+    "consent_gate",
+    "age_gate",
+    "popup",
+    "unclear"
+  ],
+  "application": [
+    {
+      "id": "diagrams-net",
+      "tier": "contained",
+      "application": 0.96
+    },
+    {
+      "id": "excalidraw",
+      "tier": "contained",
+      "application": 0.96
+    },
+    {
+      "id": "squoosh",
+      "tier": "contained",
+      "application": 0.93
+    },
+    {
+      "id": "openstreetmap",
+      "tier": "contained",
+      "application": 0.92
+    },
+    {
+      "id": "photopea",
+      "tier": "contained",
+      "application": 0.85
+    },
+    {
+      "id": "youtube-watch",
+      "tier": "skinned",
+      "application": 0.5
+    },
+    {
+      "id": "reddit-login-wall",
+      "tier": "relayout",
+      "application": 0.27
+    },
+    {
+      "id": "bom-melbourne",
+      "tier": "relayout",
+      "application": 0.14
+    },
+    {
+      "id": "govuk-start",
+      "tier": "relayout",
+      "application": 0.13
+    },
+    {
+      "id": "premierleague-table",
+      "tier": "relayout",
+      "application": 0.12
+    },
+    {
+      "id": "ebay-item",
+      "tier": "relayout",
+      "application": 0.11
+    },
+    {
+      "id": "youtube-results",
+      "tier": "skinned",
+      "application": 0.1
+    },
+    {
+      "id": "github-issues",
+      "tier": "skinned",
+      "application": 0.09
+    },
+    {
+      "id": "ato-index",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "govuk-licence",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "worldometers",
+      "tier": "relayout",
+      "application": 0.08
+    },
+    {
+      "id": "hn-front",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "reddit-listing",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "services-australia",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "stripe-home",
+      "tier": "relayout",
+      "application": 0.07
+    },
+    {
+      "id": "imdb-name",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "imdb-title",
+      "tier": "relayout",
+      "application": 0.06
+    },
+    {
+      "id": "apple-iphone",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ddg-web",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ddg-web-2",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "devto-article",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "ebay-search",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "forbes-article",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "github-repo",
+      "tier": "skinned",
+      "application": 0.05
+    },
+    {
+      "id": "hn-thread",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "jbhifi-listing",
+      "tier": "skinned",
+      "application": 0.05
+    },
+    {
+      "id": "reddit-thread",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "substack-index",
+      "tier": "relayout",
+      "application": 0.05
+    },
+    {
+      "id": "abc-news-index",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bbc-news-index",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "bbc-news-tech",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "genius-lyrics",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "medium-tag",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "nhs-index",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "nytimes-index",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "raspberrypi-product",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "tomshardware-index",
+      "tier": "relayout",
+      "application": 0.04
+    },
+    {
+      "id": "allrecipes-banana",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "allrecipes-cookies",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "bbcgoodfood-victoria",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "devto-post",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "economist-article",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "economist-index",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "github-file",
+      "tier": "skinned",
+      "application": 0.03
+    },
+    {
+      "id": "guardian-article",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "guardian-index",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "mdn-flexbox",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "mdn-innertext",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "medium-post",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nhs-flu",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "nytimes-article",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "pg-essay-1",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "pg-essay-2",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "pg-index",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "sallys-recipe",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "so-sorted-array",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "so-yield",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "spiegel-index",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "tomshardware-article",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "wiki-population",
+      "tier": "relayout",
+      "application": 0.03
+    },
+    {
+      "id": "abc-news-article",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "bbc-news-article",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "bbc-news-article-2",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "python-json",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "python-tutorial",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "substack-post",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "wiki-melbourne",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "wiki-mondrian",
+      "tier": "relayout",
+      "application": 0.02
+    },
+    {
+      "id": "arxiv-pdf",
+      "tier": "contained",
+      "application": null
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+ "id": "youtube-watch",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:58:34.676Z",
+ "tier": "skinned",
+ "application": 0.5,
+ "inputTokens": 23468,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_header",
+     0.99
+    ],
+    [
+     "skip_link",
+     0.01
+    ],
+    [
+     "calendar",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "title",
+   "confidence": 0.43,
+   "margin": 0.26,
+   "top": [
+    [
+     "title",
+     0.45
+    ],
+    [
+     "site_header",
+     0.19
+    ],
+    [
+     "sticky_bar",
+     0.16
+    ],
+    [
+     "video",
+     0.09
+    ],
+    [
+     "metadata",
+     0.04
+    ]
+   ],
+   "review": "ok",
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "video",
+   "confidence": 0.7,
+   "margin": 0.55,
+   "top": [
+    [
+     "video",
+     0.71
+    ],
+    [
+     "sticky_bar",
+     0.16
+    ],
+    [
+     "toolbar",
+     0.11
+    ],
+    [
+     "action_button",
+     0.01
+    ],
+    [
+     "progress",
+     0.01
+    ]
+   ],
+   "final": "video"
+  },
+  {
+   "index": 3,
+   "choice": "user_card",
+   "confidence": 0.39,
+   "margin": 0.19,
+   "top": [
+    [
+     "user_card",
+     0.4
+    ],
+    [
+     "title",
+     0.21
+    ],
+    [
+     "action_button",
+     0.12
+    ],
+    [
+     "metadata",
+     0.07
+    ],
+    [
+     "byline",
+     0.04
+    ]
+   ],
+   "review": "either",
+   "final": "user_card"
+  },
+  {
+   "index": 4,
+   "choice": "metadata",
+   "confidence": 0.44,
+   "margin": 0.33,
+   "top": [
+    [
+     "metadata",
+     0.46
+    ],
+    [
+     "summary",
+     0.13
+    ],
+    [
+     "user_card",
+     0.08
+    ],
+    [
+     "byline",
+     0.07
+    ],
+    [
+     "text",
+     0.06
+    ]
+   ],
+   "review": "either",
+   "final": "metadata"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.629Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

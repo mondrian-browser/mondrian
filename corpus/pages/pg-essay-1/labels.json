@@ -1,0 +1,72 @@
+{
+ "id": "pg-essay-1",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:49:50.280Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 9463,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "image",
+   "confidence": 0.6,
+   "margin": 0.37,
+   "top": [
+    [
+     "image",
+     0.61
+    ],
+    [
+     "site_header",
+     0.24
+    ],
+    [
+     "decoration",
+     0.08
+    ],
+    [
+     "byline",
+     0.04
+    ],
+    [
+     "gallery",
+     0.01
+    ]
+   ],
+   "final": "image"
+  },
+  {
+   "index": 1,
+   "choice": "text",
+   "confidence": 0.84,
+   "margin": 0.78,
+   "top": [
+    [
+     "text",
+     0.86
+    ],
+    [
+     "image",
+     0.08
+    ],
+    [
+     "summary",
+     0.03
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "byline",
+     0.01
+    ]
+   ],
+   "final": "text"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.607Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

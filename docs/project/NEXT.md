@@ -80,8 +80,7 @@ Screenshots needed a main-process change: Windows Chromium refuses `capturePage`
 occluded window, and Mondrian sits behind the desktop app while Claude drives it.
 `CalculateNativeWinOcclusion` is now disabled at boot in `app/main/main.js`.
 
-**Not yet frozen.** Freeze once Lloyd has confirmed the tiers and B2 has labelled it; a
-recapture after that invalidates labels.
+**Frozen 20 Sep 2026**, tiers confirmed by Lloyd, see `corpus/FROZEN.md`.
 
 The brief as written: 50 pages, **several pages per site**, serialised DOM stored on
 disk. Capture through Mondrian so client-rendered content and shadow DOM are included;
@@ -96,9 +95,39 @@ hatch needs testing too.
 
 Freeze it when it is captured. ADR 0008. (See "Not yet frozen" above.)
 
-**B2. Label it with Jev.** Next. `tools/label/trial.js` drives live pages; it needs a
-mode that reads `corpus/pages/*/regions.json` instead, then labels all 3,277 regions with
-the 100 types. Under a dollar at the trial's rate. Route review by top-two margin.
+**B2. Done 20 Sep 2026: 3,277 regions labelled, 617 reviewed, 62 corrected, $0.63.**
+`node tools/label/label.js` (reads `corpus/`, writes `labels.json` per page and
+`corpus/labels-summary.json`); `node tools/label/review.js` lists the flagged, samples the
+rest, scores judgements and `--apply` writes `final` into the labels. Judgements in
+`tools/label/judgements/corpus-*.json`. **The number: 84% top label right, 97%
+right-or-acceptable, 2.4% wrong**, weighted over the corpus (flagged 13% wrong, unflagged
+1%). Flag-then-review holds. 88 of 100 types were used; unused: content_warning, math,
+embed, calendar, download, cart, checkout, pricing_table, consent_gate, age_gate, popup,
+unclear. Application score separated the five apps (0.85 to 0.96) from every document
+(≤0.27), YouTube watch at 0.50.
+
+What the review found, for `questions.js` before any relabel (do not relabel now; the
+review is against these definitions):
+- `heading` ↔ `section_nav` ↔ `title` is the main confusion. An h2 that is a section
+  heading with an "all posts" link beside it (Spiegel) went to section_nav, account,
+  pagination; an h1 went to heading three times. Sharpen: "title is the h1 or the largest
+  heading naming the page; heading is any other heading, even with a link beside it".
+- `byline` vs `teaser_card` on listing rows (HN subtext, NYT opinion cards): both are
+  defensible, 40 cases. Either the extractor should keep a listing row whole, or the
+  definition of teaser_card should say a row's metadata line counts as part of it.
+- Text-less regions (a carousel arrow, a logo, a loading skeleton, an ad slot) are the
+  bulk of the unsure and the low-confidence decoration/hero/version_switcher guesses.
+  The labeller sees alt text and sizes now but still has little to go on; either give
+  it the image list more prominently or accept `decoration` as the honest answer.
+- Two definition gaps: a servings scaler (`1/2x 1x 2x`) has no type (went to
+  version_switcher), and a "why you can trust us" box went to legal_notice, not
+  disclosure.
+- **Cross-origin iframes are not regions.** Spiegel's full-screen consent wall is a
+  Sourcepoint iframe; the extractor emits nothing for an iframe with no text or images,
+  so the wall is in the screenshot and absent from `regions.json`, and `consent_gate` was
+  never chosen. Same for embedded videos, ad frames and social embeds. The extractor
+  should emit an iframe as a region carrying its `src` host and size; a fix for B3, and a
+  recapture of the affected pages after it, noted in `corpus/FROZEN.md` when done.
 
 The brief as written: ten types per region across the corpus. Jev returns a typed
 choice with a confidence number, so it labels in bulk and flags what it is unsure of.

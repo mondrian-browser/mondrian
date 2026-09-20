@@ -1,0 +1,1129 @@
+{
+ "id": "nytimes-index",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:49:45.757Z",
+ "tier": "relayout",
+ "application": 0.04,
+ "inputTokens": 171839,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.75,
+   "margin": 0.55,
+   "top": [
+    [
+     "site_header",
+     0.76
+    ],
+    [
+     "site_nav",
+     0.21
+    ],
+    [
+     "skip_link",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "site_footer",
+     0
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_header",
+   "confidence": 0.62,
+   "margin": 0.49,
+   "top": [
+    [
+     "site_header",
+     0.64
+    ],
+    [
+     "subscribe",
+     0.15
+    ],
+    [
+     "sticky_bar",
+     0.08
+    ],
+    [
+     "site_notice",
+     0.04
+    ],
+    [
+     "stats",
+     0.04
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 2,
+   "choice": "site_nav",
+   "confidence": 0.92,
+   "margin": 0.89,
+   "top": [
+    [
+     "site_nav",
+     0.93
+    ],
+    [
+     "site_header",
+     0.04
+    ],
+    [
+     "section_nav",
+     0.03
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 3,
+   "choice": "teaser_card",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "teaser_card",
+     0.99
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 4,
+   "choice": "teaser_card",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "teaser_card",
+     0.98
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "trending",
+     0.01
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 5,
+   "choice": "related",
+   "confidence": 0.32,
+   "margin": 0.12,
+   "top": [
+    [
+     "related",
+     0.34
+    ],
+    [
+     "list",
+     0.22
+    ],
+    [
+     "teaser_card",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "site_nav",
+     0.09
+    ]
+   ],
+   "review": "either",
+   "final": "related"
+  },
+  {
+   "index": 6,
+   "choice": "teaser_card",
+   "confidence": 0.93,
+   "margin": 0.9,
+   "top": [
+    [
+     "teaser_card",
+     0.94
+    ],
+    [
+     "related",
+     0.04
+    ],
+    [
+     "trending",
+     0.01
+    ],
+    [
+     "action_button",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 7,
+   "choice": "byline",
+   "confidence": 0.82,
+   "margin": 0.66,
+   "top": [
+    [
+     "byline",
+     0.83
+    ],
+    [
+     "image",
+     0.17
+    ],
+    [
+     "login_form",
+     0
+    ],
+    [
+     "video",
+     0
+    ],
+    [
+     "download",
+     0
+    ]
+   ],
+   "final": "byline"
+  },
+  {
+   "index": 8,
+   "choice": "site_nav",
+   "confidence": 0.24,
+   "margin": 0.03,
+   "top": [
+    [
+     "site_nav",
+     0.25
+    ],
+    [
+     "related",
+     0.22
+    ],
+    [
+     "list",
+     0.19
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "trending",
+     0.11
+    ]
+   ],
+   "review": "either",
+   "final": "site_nav"
+  },
+  {
+   "index": 9,
+   "choice": "teaser_card",
+   "confidence": 0.94,
+   "margin": 0.89,
+   "top": [
+    [
+     "teaser_card",
+     0.94
+    ],
+    [
+     "related",
+     0.05
+    ],
+    [
+     "trending",
+     0.01
+    ],
+    [
+     "correction",
+     0
+    ],
+    [
+     "skip_link",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 10,
+   "choice": "byline",
+   "confidence": 0.85,
+   "margin": 0.75,
+   "top": [
+    [
+     "byline",
+     0.87
+    ],
+    [
+     "image",
+     0.12
+    ],
+    [
+     "author_bio",
+     0.01
+    ],
+    [
+     "tag_cloud",
+     0
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "final": "byline"
+  },
+  {
+   "index": 11,
+   "choice": "cta",
+   "confidence": 0.46,
+   "margin": 0.33,
+   "top": [
+    [
+     "cta",
+     0.48
+    ],
+    [
+     "contact_details",
+     0.15
+    ],
+    [
+     "site_notice",
+     0.13
+    ],
+    [
+     "site_footer",
+     0.1
+    ],
+    [
+     "callout",
+     0.07
+    ]
+   ],
+   "review": "ok",
+   "final": "cta"
+  },
+  {
+   "index": 12,
+   "choice": "teaser_card",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "teaser_card",
+     0.99
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 13,
+   "choice": "cross_promo",
+   "confidence": 0.25,
+   "margin": 0.08,
+   "top": [
+    [
+     "cross_promo",
+     0.26
+    ],
+    [
+     "site_footer",
+     0.18
+    ],
+    [
+     "site_notice",
+     0.16
+    ],
+    [
+     "site_nav",
+     0.12
+    ],
+    [
+     "site_header",
+     0.07
+    ]
+   ],
+   "review": "ok",
+   "final": "cross_promo"
+  },
+  {
+   "index": 14,
+   "choice": "teaser_card",
+   "confidence": 0.81,
+   "margin": 0.7,
+   "top": [
+    [
+     "teaser_card",
+     0.82
+    ],
+    [
+     "related",
+     0.12
+    ],
+    [
+     "trending",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 15,
+   "choice": "teaser_card",
+   "confidence": 0.76,
+   "margin": 0.56,
+   "top": [
+    [
+     "teaser_card",
+     0.77
+    ],
+    [
+     "video",
+     0.21
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "version_switcher",
+     0.01
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 16,
+   "choice": "teaser_card",
+   "confidence": 0.87,
+   "margin": 0.78,
+   "top": [
+    [
+     "teaser_card",
+     0.88
+    ],
+    [
+     "audio",
+     0.1
+    ],
+    [
+     "cross_promo",
+     0.02
+    ],
+    [
+     "table_of_contents",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 17,
+   "choice": "teaser_card",
+   "confidence": 0.86,
+   "margin": 0.8,
+   "top": [
+    [
+     "teaser_card",
+     0.87
+    ],
+    [
+     "summary",
+     0.07
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "status_message",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 18,
+   "choice": "gallery",
+   "confidence": 0.55,
+   "margin": 0.26,
+   "top": [
+    [
+     "gallery",
+     0.56
+    ],
+    [
+     "byline",
+     0.3
+    ],
+    [
+     "teaser_card",
+     0.08
+    ],
+    [
+     "image",
+     0.03
+    ],
+    [
+     "decoration",
+     0.01
+    ]
+   ],
+   "final": "gallery"
+  },
+  {
+   "index": 19,
+   "choice": "heading",
+   "confidence": 0.82,
+   "margin": 0.74,
+   "top": [
+    [
+     "heading",
+     0.83
+    ],
+    [
+     "related",
+     0.09
+    ],
+    [
+     "teaser_card",
+     0.06
+    ],
+    [
+     "trending",
+     0.02
+    ],
+    [
+     "share",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 20,
+   "choice": "related",
+   "confidence": 0.32,
+   "margin": 0.13,
+   "top": [
+    [
+     "related",
+     0.34
+    ],
+    [
+     "heading",
+     0.21
+    ],
+    [
+     "teaser_card",
+     0.17
+    ],
+    [
+     "trending",
+     0.09
+    ],
+    [
+     "gallery",
+     0.07
+    ]
+   ],
+   "review": "either",
+   "final": "related"
+  },
+  {
+   "index": 21,
+   "choice": "heading",
+   "confidence": 0.6,
+   "margin": 0.43,
+   "top": [
+    [
+     "heading",
+     0.61
+    ],
+    [
+     "teaser_card",
+     0.18
+    ],
+    [
+     "related",
+     0.11
+    ],
+    [
+     "trending",
+     0.03
+    ],
+    [
+     "cross_promo",
+     0.03
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 22,
+   "choice": "poll",
+   "confidence": 0.48,
+   "margin": 0.15,
+   "top": [
+    [
+     "poll",
+     0.49
+    ],
+    [
+     "cross_promo",
+     0.34
+    ],
+    [
+     "related",
+     0.08
+    ],
+    [
+     "teaser_card",
+     0.05
+    ],
+    [
+     "cta",
+     0.03
+    ]
+   ],
+   "review": "either",
+   "final": "poll"
+  },
+  {
+   "index": 23,
+   "choice": "teaser_card",
+   "confidence": 0.9,
+   "margin": 0.82,
+   "top": [
+    [
+     "teaser_card",
+     0.91
+    ],
+    [
+     "related",
+     0.09
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "progress",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "teaser_card"
+  },
+  {
+   "index": 24,
+   "choice": "teaser_card",
+   "confidence": 0.91,
+   "margin": 0.86,
+   "top": [
+    [
+     "teaser_card",
+     0.92
+    ],
+    [
+     "related",
+     0.06
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "trending",
+     0.01
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 25,
+   "choice": "decoration",
+   "confidence": 0.39,
+   "margin": 0.21,
+   "top": [
+    [
+     "decoration",
+     0.41
+    ],
+    [
+     "teaser_card",
+     0.2
+    ],
+    [
+     "action_button",
+     0.06
+    ],
+    [
+     "ad",
+     0.06
+    ],
+    [
+     "gallery",
+     0.03
+    ]
+   ],
+   "review": "wrong",
+   "final": "action_button"
+  },
+  {
+   "index": 26,
+   "choice": "heading",
+   "confidence": 0.52,
+   "margin": 0.31,
+   "top": [
+    [
+     "heading",
+     0.53
+    ],
+    [
+     "site_nav",
+     0.22
+    ],
+    [
+     "teaser_card",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.05
+    ],
+    [
+     "tabs",
+     0.04
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 27,
+   "choice": "teaser_card",
+   "confidence": 0.91,
+   "margin": 0.87,
+   "top": [
+    [
+     "teaser_card",
+     0.92
+    ],
+    [
+     "byline",
+     0.05
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "definition_list",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 28,
+   "choice": "teaser_card",
+   "confidence": 0.88,
+   "margin": 0.81,
+   "top": [
+    [
+     "teaser_card",
+     0.89
+    ],
+    [
+     "byline",
+     0.08
+    ],
+    [
+     "related",
+     0.03
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 29,
+   "choice": "teaser_card",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "teaser_card",
+     0.98
+    ],
+    [
+     "text",
+     0.01
+    ],
+    [
+     "byline",
+     0.01
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "callout",
+     0
+    ]
+   ],
+   "final": "teaser_card"
+  },
+  {
+   "index": 30,
+   "choice": "byline",
+   "confidence": 0.51,
+   "margin": 0.09,
+   "top": [
+    [
+     "byline",
+     0.52
+    ],
+    [
+     "teaser_card",
+     0.43
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "related",
+     0.02
+    ],
+    [
+     "author_bio",
+     0.01
+    ]
+   ],
+   "review": "either",
+   "final": "byline"
+  },
+  {
+   "index": 31,
+   "choice": "ad",
+   "confidence": 0.69,
+   "margin": 0.52,
+   "top": [
+    [
+     "ad",
+     0.7
+    ],
+    [
+     "teaser_card",
+     0.18
+    ],
+    [
+     "list",
+     0.04
+    ],
+    [
+     "related",
+     0.04
+    ],
+    [
+     "trending",
+     0.03
+    ]
+   ],
+   "final": "ad"
+  },
+  {
+   "index": 32,
+   "choice": "ad",
+   "confidence": 0.47,
+   "margin": 0.12,
+   "top": [
+    [
+     "ad",
+     0.49
+    ],
+    [
+     "cross_promo",
+     0.37
+    ],
+    [
+     "sponsored",
+     0.09
+    ],
+    [
+     "teaser_card",
+     0.02
+    ],
+    [
+     "related",
+     0.01
+    ]
+   ],
+   "review": "either",
+   "final": "ad"
+  },
+  {
+   "index": 33,
+   "choice": "ad",
+   "confidence": 0.92,
+   "margin": 0.91,
+   "top": [
+    [
+     "ad",
+     0.93
+    ],
+    [
+     "subscribe",
+     0.02
+    ],
+    [
+     "skip_link",
+     0.02
+    ],
+    [
+     "video",
+     0.01
+    ],
+    [
+     "vote_controls",
+     0.01
+    ]
+   ],
+   "final": "ad"
+  },
+  {
+   "index": 34,
+   "choice": "heading",
+   "confidence": 0.26,
+   "margin": 0.07,
+   "top": [
+    [
+     "heading",
+     0.28
+    ],
+    [
+     "cross_promo",
+     0.21
+    ],
+    [
+     "ad",
+     0.2
+    ],
+    [
+     "video",
+     0.08
+    ],
+    [
+     "teaser_card",
+     0.06
+    ]
+   ],
+   "review": "ok",
+   "final": "heading"
+  },
+  {
+   "index": 35,
+   "choice": "cross_promo",
+   "confidence": 0.3,
+   "margin": 0.13,
+   "top": [
+    [
+     "cross_promo",
+     0.32
+    ],
+    [
+     "teaser_card",
+     0.19
+    ],
+    [
+     "list",
+     0.17
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "site_nav",
+     0.07
+    ]
+   ],
+   "review": "ok",
+   "final": "cross_promo"
+  },
+  {
+   "index": 36,
+   "choice": "site_footer",
+   "confidence": 0.33,
+   "margin": 0.04,
+   "top": [
+    [
+     "site_footer",
+     0.34
+    ],
+    [
+     "heading",
+     0.3
+    ],
+    [
+     "site_nav",
+     0.26
+    ],
+    [
+     "table_of_contents",
+     0.04
+    ],
+    [
+     "skip_link",
+     0.03
+    ]
+   ],
+   "review": "ok",
+   "final": "site_footer"
+  },
+  {
+   "index": 37,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "badge",
+     0
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.606Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

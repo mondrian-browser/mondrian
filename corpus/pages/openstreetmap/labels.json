@@ -1,0 +1,246 @@
+{
+ "id": "openstreetmap",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:49:48.912Z",
+ "tier": "contained",
+ "application": 0.92,
+ "inputTokens": 36414,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "site_header",
+     0.99
+    ],
+    [
+     "title",
+     0.01
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.74,
+   "margin": 0.63,
+   "top": [
+    [
+     "site_nav",
+     0.76
+    ],
+    [
+     "site_header",
+     0.13
+    ],
+    [
+     "page_tools",
+     0.06
+    ],
+    [
+     "toolbar",
+     0.04
+    ],
+    [
+     "accordion",
+     0.01
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "search",
+   "confidence": 0.93,
+   "margin": 0.9,
+   "top": [
+    [
+     "search",
+     0.94
+    ],
+    [
+     "form",
+     0.04
+    ],
+    [
+     "site_header",
+     0.01
+    ],
+    [
+     "references",
+     0
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "final": "search"
+  },
+  {
+   "index": 3,
+   "choice": "heading",
+   "confidence": 0.56,
+   "margin": 0.33,
+   "top": [
+    [
+     "heading",
+     0.57
+    ],
+    [
+     "title",
+     0.24
+    ],
+    [
+     "hero",
+     0.16
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 4,
+   "choice": "summary",
+   "confidence": 0.56,
+   "margin": 0.24,
+   "top": [
+    [
+     "summary",
+     0.57
+    ],
+    [
+     "text",
+     0.33
+    ],
+    [
+     "hero",
+     0.07
+    ],
+    [
+     "site_footer",
+     0.01
+    ],
+    [
+     "site_notice",
+     0.01
+    ]
+   ],
+   "final": "summary"
+  },
+  {
+   "index": 5,
+   "choice": "legal_notice",
+   "confidence": 0.72,
+   "margin": 0.59,
+   "top": [
+    [
+     "legal_notice",
+     0.73
+    ],
+    [
+     "site_footer",
+     0.14
+    ],
+    [
+     "site_notice",
+     0.09
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "disclosure",
+     0.01
+    ]
+   ],
+   "final": "legal_notice"
+  },
+  {
+   "index": 6,
+   "choice": "cta",
+   "confidence": 0.73,
+   "margin": 0.66,
+   "top": [
+    [
+     "cta",
+     0.74
+    ],
+    [
+     "site_footer",
+     0.08
+    ],
+    [
+     "action_button",
+     0.06
+    ],
+    [
+     "site_nav",
+     0.04
+    ],
+    [
+     "hero",
+     0.03
+    ]
+   ],
+   "final": "cta"
+  },
+  {
+   "index": 7,
+   "choice": "site_footer",
+   "confidence": 0.8,
+   "margin": 0.77,
+   "top": [
+    [
+     "site_footer",
+     0.81
+    ],
+    [
+     "sticky_bar",
+     0.04
+    ],
+    [
+     "tabs",
+     0.03
+    ],
+    [
+     "subscribe",
+     0.03
+    ],
+    [
+     "metadata",
+     0.03
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.607Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

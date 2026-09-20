@@ -1,0 +1,276 @@
+{
+ "id": "substack-post",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:56:40.579Z",
+ "tier": "relayout",
+ "application": 0.02,
+ "inputTokens": 41140,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_header",
+   "confidence": 0.97,
+   "margin": 0.95,
+   "top": [
+    [
+     "site_header",
+     0.97
+    ],
+    [
+     "title",
+     0.02
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "logo_cloud",
+     0
+    ]
+   ],
+   "final": "site_header"
+  },
+  {
+   "index": 1,
+   "choice": "account",
+   "confidence": 0.45,
+   "margin": 0.11,
+   "top": [
+    [
+     "account",
+     0.47
+    ],
+    [
+     "subscribe",
+     0.36
+    ],
+    [
+     "site_header",
+     0.15
+    ],
+    [
+     "action_button",
+     0.01
+    ],
+    [
+     "cta",
+     0.01
+    ]
+   ],
+   "review": "ok",
+   "final": "account"
+  },
+  {
+   "index": 2,
+   "choice": "site_nav",
+   "confidence": 0.88,
+   "margin": 0.83,
+   "top": [
+    [
+     "site_nav",
+     0.89
+    ],
+    [
+     "site_header",
+     0.06
+    ],
+    [
+     "breadcrumbs",
+     0.04
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "age_gate",
+     0
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 3,
+   "choice": "title",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "title",
+     0.99
+    ],
+    [
+     "heading",
+     0.01
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "version_switcher",
+     0
+    ]
+   ],
+   "final": "title"
+  },
+  {
+   "index": 4,
+   "choice": "text",
+   "confidence": 0.6,
+   "margin": 0.47,
+   "top": [
+    [
+     "text",
+     0.62
+    ],
+    [
+     "correction",
+     0.15
+    ],
+    [
+     "summary",
+     0.15
+    ],
+    [
+     "callout",
+     0.06
+    ],
+    [
+     "legal_notice",
+     0.01
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 5,
+   "choice": "correction",
+   "confidence": 0.53,
+   "margin": 0.16,
+   "top": [
+    [
+     "correction",
+     0.55
+    ],
+    [
+     "list",
+     0.39
+    ],
+    [
+     "text",
+     0.06
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "final": "correction"
+  },
+  {
+   "index": 6,
+   "choice": "correction",
+   "confidence": 0.73,
+   "margin": 0.52,
+   "top": [
+    [
+     "correction",
+     0.74
+    ],
+    [
+     "list",
+     0.22
+    ],
+    [
+     "text",
+     0.04
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "final": "correction"
+  },
+  {
+   "index": 7,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "settings",
+     0
+    ],
+    [
+     "chat_widget",
+     0
+    ],
+    [
+     "rating",
+     0
+    ],
+    [
+     "audio",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 8,
+   "choice": "site_footer",
+   "confidence": 0.97,
+   "margin": 0.97,
+   "top": [
+    [
+     "site_footer",
+     0.98
+    ],
+    [
+     "app_nag",
+     0.01
+    ],
+    [
+     "legal_notice",
+     0.01
+    ],
+    [
+     "contact_details",
+     0
+    ],
+    [
+     "math",
+     0
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.623Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

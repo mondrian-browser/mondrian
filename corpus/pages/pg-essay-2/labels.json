@@ -1,0 +1,131 @@
+{
+ "id": "pg-essay-2",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:49:52.210Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 18487,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "image",
+   "confidence": 0.5,
+   "margin": 0.18,
+   "top": [
+    [
+     "image",
+     0.52
+    ],
+    [
+     "site_header",
+     0.34
+    ],
+    [
+     "decoration",
+     0.06
+    ],
+    [
+     "cta",
+     0.03
+    ],
+    [
+     "gallery",
+     0.01
+    ]
+   ],
+   "final": "image"
+  },
+  {
+   "index": 1,
+   "choice": "cta",
+   "confidence": 0.61,
+   "margin": 0.51,
+   "top": [
+    [
+     "cta",
+     0.63
+    ],
+    [
+     "site_header",
+     0.12
+    ],
+    [
+     "cross_promo",
+     0.11
+    ],
+    [
+     "hero",
+     0.05
+    ],
+    [
+     "title",
+     0.04
+    ]
+   ],
+   "review": "ok",
+   "final": "cta"
+  },
+  {
+   "index": 2,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 3,
+   "choice": "version_switcher",
+   "confidence": 0.97,
+   "margin": 0.95,
+   "top": [
+    [
+     "version_switcher",
+     0.97
+    ],
+    [
+     "site_footer",
+     0.02
+    ],
+    [
+     "page_tools",
+     0.01
+    ],
+    [
+     "site_header",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "final": "version_switcher"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.608Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

@@ -1,0 +1,1418 @@
+{
+ "id": "github-repo",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:47:06.229Z",
+ "tier": "skinned",
+ "application": 0.05,
+ "inputTokens": 218099,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "site_nav",
+   "confidence": 0.89,
+   "margin": 0.87,
+   "top": [
+    [
+     "site_nav",
+     0.91
+    ],
+    [
+     "cross_promo",
+     0.04
+    ],
+    [
+     "feature_grid",
+     0.02
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 1,
+   "choice": "account",
+   "confidence": 0.82,
+   "margin": 0.7,
+   "top": [
+    [
+     "account",
+     0.83
+    ],
+    [
+     "site_header",
+     0.13
+    ],
+    [
+     "cta",
+     0.03
+    ],
+    [
+     "settings",
+     0.01
+    ],
+    [
+     "checkout",
+     0
+    ]
+   ],
+   "final": "account"
+  },
+  {
+   "index": 2,
+   "choice": "hero",
+   "confidence": 0.14,
+   "margin": 0,
+   "top": [
+    [
+     "site_header",
+     0.16
+    ],
+    [
+     "hero",
+     0.16
+    ],
+    [
+     "metadata",
+     0.15
+    ],
+    [
+     "page_tools",
+     0.1
+    ],
+    [
+     "tabs",
+     0.1
+    ]
+   ],
+   "review": "wrong",
+   "final": "title"
+  },
+  {
+   "index": 3,
+   "choice": "page_tools",
+   "confidence": 0.45,
+   "margin": 0.24,
+   "top": [
+    [
+     "page_tools",
+     0.46
+    ],
+    [
+     "metadata",
+     0.22
+    ],
+    [
+     "toolbar",
+     0.08
+    ],
+    [
+     "version_switcher",
+     0.05
+    ],
+    [
+     "site_header",
+     0.04
+    ]
+   ],
+   "review": "ok",
+   "final": "page_tools"
+  },
+  {
+   "index": 4,
+   "choice": "metadata",
+   "confidence": 0.55,
+   "margin": 0.36,
+   "top": [
+    [
+     "metadata",
+     0.57
+    ],
+    [
+     "byline",
+     0.21
+    ],
+    [
+     "teaser_card",
+     0.08
+    ],
+    [
+     "infobox",
+     0.07
+    ],
+    [
+     "page_tools",
+     0.04
+    ]
+   ],
+   "final": "metadata"
+  },
+  {
+   "index": 5,
+   "choice": "table",
+   "confidence": 0.95,
+   "margin": 0.94,
+   "top": [
+    [
+     "table",
+     0.96
+    ],
+    [
+     "list",
+     0.02
+    ],
+    [
+     "teaser_card",
+     0.01
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "action_button",
+     0
+    ]
+   ],
+   "final": "table"
+  },
+  {
+   "index": 6,
+   "choice": "section_nav",
+   "confidence": 0.66,
+   "margin": 0.56,
+   "top": [
+    [
+     "section_nav",
+     0.67
+    ],
+    [
+     "list",
+     0.11
+    ],
+    [
+     "site_footer",
+     0.09
+    ],
+    [
+     "table_of_contents",
+     0.06
+    ],
+    [
+     "site_nav",
+     0.03
+    ]
+   ],
+   "final": "section_nav"
+  },
+  {
+   "index": 7,
+   "choice": "version_switcher",
+   "confidence": 0.42,
+   "margin": 0.23,
+   "top": [
+    [
+     "version_switcher",
+     0.44
+    ],
+    [
+     "image",
+     0.21
+    ],
+    [
+     "text",
+     0.18
+    ],
+    [
+     "decoration",
+     0.06
+    ],
+    [
+     "site_footer",
+     0.05
+    ]
+   ],
+   "review": "wrong",
+   "final": "image"
+  },
+  {
+   "index": 8,
+   "choice": "version_switcher",
+   "confidence": 0.96,
+   "margin": 0.95,
+   "top": [
+    [
+     "version_switcher",
+     0.97
+    ],
+    [
+     "text",
+     0.02
+    ],
+    [
+     "site_footer",
+     0.01
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "final": "version_switcher"
+  },
+  {
+   "index": 9,
+   "choice": "text",
+   "confidence": 0.58,
+   "margin": 0.21,
+   "top": [
+    [
+     "text",
+     0.59
+    ],
+    [
+     "summary",
+     0.38
+    ],
+    [
+     "site_footer",
+     0.02
+    ],
+    [
+     "hero",
+     0.01
+    ],
+    [
+     "steps",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 10,
+   "choice": "legal_notice",
+   "confidence": 0.68,
+   "margin": 0.44,
+   "top": [
+    [
+     "legal_notice",
+     0.7
+    ],
+    [
+     "site_footer",
+     0.26
+    ],
+    [
+     "text",
+     0.03
+    ],
+    [
+     "site_notice",
+     0.01
+    ],
+    [
+     "tag_cloud",
+     0
+    ]
+   ],
+   "final": "legal_notice"
+  },
+  {
+   "index": 11,
+   "choice": "heading",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "callout",
+     0
+    ],
+    [
+     "quote",
+     0
+    ],
+    [
+     "pagination",
+     0
+    ],
+    [
+     "app_nag",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 12,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.95,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "steps",
+     0.02
+    ],
+    [
+     "code",
+     0.01
+    ],
+    [
+     "disclosure",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 13,
+   "choice": "text",
+   "confidence": 0.8,
+   "margin": 0.63,
+   "top": [
+    [
+     "text",
+     0.8
+    ],
+    [
+     "code",
+     0.17
+    ],
+    [
+     "related",
+     0.01
+    ],
+    [
+     "steps",
+     0.01
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "text"
+  },
+  {
+   "index": 14,
+   "choice": "heading",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 15,
+   "choice": "text",
+   "confidence": 0.94,
+   "margin": 0.9,
+   "top": [
+    [
+     "text",
+     0.95
+    ],
+    [
+     "summary",
+     0.05
+    ],
+    [
+     "share",
+     0
+    ],
+    [
+     "table",
+     0
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "text"
+  },
+  {
+   "index": 16,
+   "choice": "list",
+   "confidence": 0.87,
+   "margin": 0.81,
+   "top": [
+    [
+     "list",
+     0.88
+    ],
+    [
+     "text",
+     0.07
+    ],
+    [
+     "definition_list",
+     0.04
+    ],
+    [
+     "table",
+     0.01
+    ],
+    [
+     "settings",
+     0
+    ]
+   ],
+   "final": "list"
+  },
+  {
+   "index": 17,
+   "choice": "text",
+   "confidence": 0.99,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 18,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 19,
+   "choice": "text",
+   "confidence": 0.97,
+   "margin": 0.96,
+   "top": [
+    [
+     "text",
+     0.97
+    ],
+    [
+     "cross_promo",
+     0.01
+    ],
+    [
+     "summary",
+     0.01
+    ],
+    [
+     "cta",
+     0.01
+    ],
+    [
+     "tabs",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 20,
+   "choice": "heading",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "heading",
+     0.99
+    ],
+    [
+     "external_links",
+     0.01
+    ],
+    [
+     "poll",
+     0
+    ],
+    [
+     "newsletter",
+     0
+    ],
+    [
+     "vote_controls",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 21,
+   "choice": "external_links",
+   "confidence": 0.66,
+   "margin": 0.44,
+   "top": [
+    [
+     "external_links",
+     0.68
+    ],
+    [
+     "list",
+     0.24
+    ],
+    [
+     "related",
+     0.05
+    ],
+    [
+     "cross_promo",
+     0.03
+    ],
+    [
+     "transcript",
+     0
+    ]
+   ],
+   "final": "external_links"
+  },
+  {
+   "index": 22,
+   "choice": "heading",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "footnote",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 23,
+   "choice": "text",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "text",
+     1
+    ],
+    [
+     "list",
+     0
+    ],
+    [
+     "transcript",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 24,
+   "choice": "code",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "code",
+     1
+    ],
+    [
+     "search",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "download",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ]
+   ],
+   "final": "code"
+  },
+  {
+   "index": 25,
+   "choice": "heading",
+   "confidence": 0.87,
+   "margin": 0.76,
+   "top": [
+    [
+     "heading",
+     0.88
+    ],
+    [
+     "external_links",
+     0.12
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 26,
+   "choice": "external_links",
+   "confidence": 0.54,
+   "margin": 0.3,
+   "top": [
+    [
+     "external_links",
+     0.55
+    ],
+    [
+     "text",
+     0.25
+    ],
+    [
+     "callout",
+     0.13
+    ],
+    [
+     "list",
+     0.06
+    ],
+    [
+     "code",
+     0
+    ]
+   ],
+   "final": "external_links"
+  },
+  {
+   "index": 27,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "sticky_bar",
+     0
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "external_links",
+     0
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 28,
+   "choice": "text",
+   "confidence": 0.98,
+   "margin": 0.98,
+   "top": [
+    [
+     "text",
+     0.99
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "product_card",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "external_links",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 29,
+   "choice": "heading",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "version_switcher",
+     0
+    ],
+    [
+     "empty_state",
+     0
+    ],
+    [
+     "related",
+     0
+    ],
+    [
+     "quote",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 30,
+   "choice": "text",
+   "confidence": 0.92,
+   "margin": 0.89,
+   "top": [
+    [
+     "text",
+     0.93
+    ],
+    [
+     "cta",
+     0.04
+    ],
+    [
+     "callout",
+     0.03
+    ],
+    [
+     "tag_cloud",
+     0
+    ],
+    [
+     "checkout",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 31,
+   "choice": "heading",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "heading",
+     1
+    ],
+    [
+     "code",
+     0
+    ],
+    [
+     "decoration",
+     0
+    ],
+    [
+     "summary",
+     0
+    ],
+    [
+     "sticky_bar",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 32,
+   "choice": "text",
+   "confidence": 0.73,
+   "margin": 0.66,
+   "top": [
+    [
+     "text",
+     0.74
+    ],
+    [
+     "site_footer",
+     0.08
+    ],
+    [
+     "external_links",
+     0.08
+    ],
+    [
+     "cross_promo",
+     0.05
+    ],
+    [
+     "callout",
+     0.02
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 33,
+   "choice": "heading",
+   "confidence": 0.83,
+   "margin": 0.73,
+   "top": [
+    [
+     "heading",
+     0.84
+    ],
+    [
+     "legal_notice",
+     0.11
+    ],
+    [
+     "site_footer",
+     0.03
+    ],
+    [
+     "metadata",
+     0.02
+    ],
+    [
+     "checkout",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 34,
+   "choice": "legal_notice",
+   "confidence": 0.8,
+   "margin": 0.7,
+   "top": [
+    [
+     "legal_notice",
+     0.81
+    ],
+    [
+     "text",
+     0.11
+    ],
+    [
+     "site_footer",
+     0.05
+    ],
+    [
+     "metadata",
+     0.02
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "final": "legal_notice"
+  },
+  {
+   "index": 35,
+   "choice": "heading",
+   "confidence": 0.79,
+   "margin": 0.67,
+   "top": [
+    [
+     "heading",
+     0.8
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "site_footer",
+     0.02
+    ],
+    [
+     "table_of_contents",
+     0.02
+    ],
+    [
+     "site_nav",
+     0.01
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 36,
+   "choice": "summary",
+   "confidence": 0.41,
+   "margin": 0.07,
+   "top": [
+    [
+     "summary",
+     0.42
+    ],
+    [
+     "infobox",
+     0.35
+    ],
+    [
+     "text",
+     0.22
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "review": "ok",
+   "final": "summary"
+  },
+  {
+   "index": 37,
+   "choice": "heading",
+   "confidence": 0.33,
+   "margin": 0.12,
+   "top": [
+    [
+     "heading",
+     0.35
+    ],
+    [
+     "tag_cloud",
+     0.23
+    ],
+    [
+     "external_links",
+     0.17
+    ],
+    [
+     "cross_promo",
+     0.07
+    ],
+    [
+     "metadata",
+     0.05
+    ]
+   ],
+   "review": "either",
+   "final": "heading"
+  },
+  {
+   "index": 38,
+   "choice": "tag_cloud",
+   "confidence": 0.99,
+   "margin": 1,
+   "top": [
+    [
+     "tag_cloud",
+     1
+    ],
+    [
+     "disclosure",
+     0
+    ],
+    [
+     "teaser_card",
+     0
+    ],
+    [
+     "page_tools",
+     0
+    ],
+    [
+     "chart",
+     0
+    ]
+   ],
+   "final": "tag_cloud"
+  },
+  {
+   "index": 39,
+   "choice": "heading",
+   "confidence": 0.92,
+   "margin": 0.9,
+   "top": [
+    [
+     "heading",
+     0.93
+    ],
+    [
+     "skip_link",
+     0.03
+    ],
+    [
+     "table_of_contents",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ],
+    [
+     "cart",
+     0
+    ]
+   ],
+   "final": "heading"
+  },
+  {
+   "index": 40,
+   "choice": "heading",
+   "confidence": 0.22,
+   "margin": 0.01,
+   "top": [
+    [
+     "heading",
+     0.24
+    ],
+    [
+     "list",
+     0.23
+    ],
+    [
+     "external_links",
+     0.16
+    ],
+    [
+     "table_of_contents",
+     0.09
+    ],
+    [
+     "section_nav",
+     0.09
+    ]
+   ],
+   "review": "wrong",
+   "final": "section_nav"
+  },
+  {
+   "index": 41,
+   "choice": "heading",
+   "confidence": 0.35,
+   "margin": 0.21,
+   "top": [
+    [
+     "heading",
+     0.37
+    ],
+    [
+     "site_footer",
+     0.16
+    ],
+    [
+     "table_of_contents",
+     0.15
+    ],
+    [
+     "skip_link",
+     0.06
+    ],
+    [
+     "section_nav",
+     0.06
+    ]
+   ],
+   "review": "wrong",
+   "final": "section_nav"
+  },
+  {
+   "index": 42,
+   "choice": "heading",
+   "confidence": 0.45,
+   "margin": 0.33,
+   "top": [
+    [
+     "heading",
+     0.46
+    ],
+    [
+     "site_footer",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.11
+    ],
+    [
+     "table_of_contents",
+     0.08
+    ],
+    [
+     "site_nav",
+     0.08
+    ]
+   ],
+   "review": "wrong",
+   "final": "section_nav"
+  },
+  {
+   "index": 43,
+   "choice": "tabs",
+   "confidence": 0.21,
+   "margin": 0.08,
+   "top": [
+    [
+     "tabs",
+     0.22
+    ],
+    [
+     "metadata",
+     0.14
+    ],
+    [
+     "page_tools",
+     0.13
+    ],
+    [
+     "heading",
+     0.11
+    ],
+    [
+     "section_nav",
+     0.11
+    ]
+   ],
+   "review": "wrong",
+   "final": "section_nav"
+  },
+  {
+   "index": 44,
+   "choice": "metadata",
+   "confidence": 0.46,
+   "margin": 0.19,
+   "top": [
+    [
+     "metadata",
+     0.47
+    ],
+    [
+     "rating",
+     0.28
+    ],
+    [
+     "stats",
+     0.18
+    ],
+    [
+     "page_tools",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "review": "ok",
+   "final": "metadata"
+  },
+  {
+   "index": 45,
+   "choice": "metadata",
+   "confidence": 0.69,
+   "margin": 0.58,
+   "top": [
+    [
+     "metadata",
+     0.7
+    ],
+    [
+     "stats",
+     0.12
+    ],
+    [
+     "page_tools",
+     0.08
+    ],
+    [
+     "rating",
+     0.03
+    ],
+    [
+     "action_button",
+     0.03
+    ]
+   ],
+   "final": "metadata"
+  },
+  {
+   "index": 46,
+   "choice": "infobox",
+   "confidence": 0.56,
+   "margin": 0.19,
+   "top": [
+    [
+     "infobox",
+     0.57
+    ],
+    [
+     "metadata",
+     0.38
+    ],
+    [
+     "stats",
+     0.02
+    ],
+    [
+     "list",
+     0.01
+    ],
+    [
+     "team",
+     0.01
+    ]
+   ],
+   "final": "infobox"
+  },
+  {
+   "index": 47,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "status_message",
+     0
+    ],
+    [
+     "age_gate",
+     0
+    ],
+    [
+     "section_nav",
+     0
+    ],
+    [
+     "steps",
+     0
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.597Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

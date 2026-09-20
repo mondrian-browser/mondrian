@@ -1,0 +1,421 @@
+{
+ "id": "mdn-innertext",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:49:01.389Z",
+ "tier": "relayout",
+ "application": 0.03,
+ "inputTokens": 63871,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "skip_link",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "skip_link",
+     1
+    ],
+    [
+     "site_footer",
+     0
+    ],
+    [
+     "checkout",
+     0
+    ],
+    [
+     "filters",
+     0
+    ],
+    [
+     "consent_gate",
+     0
+    ]
+   ],
+   "final": "skip_link"
+  },
+  {
+   "index": 1,
+   "choice": "site_nav",
+   "confidence": 0.75,
+   "margin": 0.64,
+   "top": [
+    [
+     "site_nav",
+     0.77
+    ],
+    [
+     "section_nav",
+     0.13
+    ],
+    [
+     "tabs",
+     0.06
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "list",
+     0.01
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 2,
+   "choice": "site_nav",
+   "confidence": 0.71,
+   "margin": 0.55,
+   "top": [
+    [
+     "site_nav",
+     0.73
+    ],
+    [
+     "tabs",
+     0.18
+    ],
+    [
+     "section_nav",
+     0.07
+    ],
+    [
+     "site_header",
+     0.02
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "final": "site_nav"
+  },
+  {
+   "index": 3,
+   "choice": "account",
+   "confidence": 0.46,
+   "margin": 0.14,
+   "top": [
+    [
+     "account",
+     0.48
+    ],
+    [
+     "site_nav",
+     0.34
+    ],
+    [
+     "tabs",
+     0.1
+    ],
+    [
+     "site_header",
+     0.05
+    ],
+    [
+     "section_nav",
+     0.02
+    ]
+   ],
+   "review": "either",
+   "final": "account"
+  },
+  {
+   "index": 4,
+   "choice": "breadcrumbs",
+   "confidence": 0.54,
+   "margin": 0.3,
+   "top": [
+    [
+     "breadcrumbs",
+     0.56
+    ],
+    [
+     "settings",
+     0.26
+    ],
+    [
+     "site_header",
+     0.11
+    ],
+    [
+     "version_switcher",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "final": "breadcrumbs"
+  },
+  {
+   "index": 5,
+   "choice": "title",
+   "confidence": 0.96,
+   "margin": 0.92,
+   "top": [
+    [
+     "title",
+     0.96
+    ],
+    [
+     "heading",
+     0.04
+    ],
+    [
+     "badge",
+     0
+    ],
+    [
+     "comments",
+     0
+    ],
+    [
+     "callout",
+     0
+    ]
+   ],
+   "final": "title"
+  },
+  {
+   "index": 6,
+   "choice": "badge",
+   "confidence": 0.91,
+   "margin": 0.87,
+   "top": [
+    [
+     "badge",
+     0.92
+    ],
+    [
+     "metadata",
+     0.05
+    ],
+    [
+     "infobox",
+     0.02
+    ],
+    [
+     "accordion",
+     0.01
+    ],
+    [
+     "list",
+     0
+    ]
+   ],
+   "final": "badge"
+  },
+  {
+   "index": 7,
+   "choice": "text",
+   "confidence": 0.95,
+   "margin": 0.9,
+   "top": [
+    [
+     "text",
+     0.95
+    ],
+    [
+     "summary",
+     0.05
+    ],
+    [
+     "steps",
+     0
+    ],
+    [
+     "feedback",
+     0
+    ],
+    [
+     "search",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 8,
+   "choice": "table_of_contents",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "table_of_contents",
+     1
+    ],
+    [
+     "cookie_banner",
+     0
+    ],
+    [
+     "text",
+     0
+    ],
+    [
+     "map",
+     0
+    ],
+    [
+     "embed",
+     0
+    ]
+   ],
+   "final": "table_of_contents"
+  },
+  {
+   "index": 9,
+   "choice": "text",
+   "confidence": 0.94,
+   "margin": 0.93,
+   "top": [
+    [
+     "text",
+     0.95
+    ],
+    [
+     "heading",
+     0.02
+    ],
+    [
+     "definition_list",
+     0.02
+    ],
+    [
+     "callout",
+     0.01
+    ],
+    [
+     "cross_promo",
+     0
+    ]
+   ],
+   "final": "text"
+  },
+  {
+   "index": 10,
+   "choice": "feedback",
+   "confidence": 0.9,
+   "margin": 0.84,
+   "top": [
+    [
+     "feedback",
+     0.91
+    ],
+    [
+     "site_footer",
+     0.07
+    ],
+    [
+     "page_tools",
+     0.02
+    ],
+    [
+     "cart",
+     0
+    ],
+    [
+     "quote",
+     0
+    ]
+   ],
+   "final": "feedback"
+  },
+  {
+   "index": 11,
+   "choice": "search",
+   "confidence": 0.72,
+   "margin": 0.53,
+   "top": [
+    [
+     "search",
+     0.74
+    ],
+    [
+     "filters",
+     0.21
+    ],
+    [
+     "section_nav",
+     0.04
+    ],
+    [
+     "vote_controls",
+     0.01
+    ],
+    [
+     "footnote",
+     0
+    ]
+   ],
+   "final": "search"
+  },
+  {
+   "index": 12,
+   "choice": "section_nav",
+   "confidence": 0.71,
+   "margin": 0.59,
+   "top": [
+    [
+     "section_nav",
+     0.73
+    ],
+    [
+     "list",
+     0.14
+    ],
+    [
+     "definition_list",
+     0.07
+    ],
+    [
+     "table_of_contents",
+     0.02
+    ],
+    [
+     "site_nav",
+     0.02
+    ]
+   ],
+   "final": "section_nav"
+  },
+  {
+   "index": 13,
+   "choice": "site_footer",
+   "confidence": 1,
+   "margin": 1,
+   "top": [
+    [
+     "site_footer",
+     1
+    ],
+    [
+     "tag_cloud",
+     0
+    ],
+    [
+     "code",
+     0
+    ],
+    [
+     "author_bio",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ]
+   ],
+   "final": "site_footer"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.603Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}

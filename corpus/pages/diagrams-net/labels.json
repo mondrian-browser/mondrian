@@ -1,0 +1,456 @@
+{
+ "id": "diagrams-net",
+ "model": "jev-latest",
+ "types": "questions",
+ "typeCount": 100,
+ "labelledAt": "2026-09-20T08:45:36.717Z",
+ "tier": "contained",
+ "application": 0.96,
+ "inputTokens": 66995,
+ "regions": [
+  {
+   "index": 0,
+   "choice": "toolbar",
+   "confidence": 0.6,
+   "margin": 0.34,
+   "top": [
+    [
+     "toolbar",
+     0.61
+    ],
+    [
+     "site_nav",
+     0.27
+    ],
+    [
+     "site_header",
+     0.06
+    ],
+    [
+     "page_tools",
+     0.03
+    ],
+    [
+     "tabs",
+     0.02
+    ]
+   ],
+   "final": "toolbar"
+  },
+  {
+   "index": 1,
+   "choice": "title",
+   "confidence": 0.75,
+   "margin": 0.64,
+   "top": [
+    [
+     "title",
+     0.76
+    ],
+    [
+     "site_header",
+     0.12
+    ],
+    [
+     "action_button",
+     0.06
+    ],
+    [
+     "toolbar",
+     0.05
+    ],
+    [
+     "canvas",
+     0.01
+    ]
+   ],
+   "final": "title"
+  },
+  {
+   "index": 2,
+   "choice": "search",
+   "confidence": 0.55,
+   "margin": 0.38,
+   "top": [
+    [
+     "search",
+     0.57
+    ],
+    [
+     "toolbar",
+     0.19
+    ],
+    [
+     "canvas",
+     0.14
+    ],
+    [
+     "site_header",
+     0.03
+    ],
+    [
+     "action_button",
+     0.03
+    ]
+   ],
+   "final": "search"
+  },
+  {
+   "index": 3,
+   "choice": "toolbar",
+   "confidence": 0.33,
+   "margin": 0.11,
+   "top": [
+    [
+     "toolbar",
+     0.35
+    ],
+    [
+     "heading",
+     0.24
+    ],
+    [
+     "canvas",
+     0.13
+    ],
+    [
+     "title",
+     0.1
+    ],
+    [
+     "tabs",
+     0.05
+    ]
+   ],
+   "review": "ok",
+   "final": "toolbar"
+  },
+  {
+   "index": 4,
+   "choice": "canvas",
+   "confidence": 0.51,
+   "margin": 0.21,
+   "top": [
+    [
+     "canvas",
+     0.52
+    ],
+    [
+     "empty_state",
+     0.31
+    ],
+    [
+     "section_nav",
+     0.07
+    ],
+    [
+     "toolbar",
+     0.04
+    ],
+    [
+     "heading",
+     0.02
+    ]
+   ],
+   "final": "canvas"
+  },
+  {
+   "index": 5,
+   "choice": "section_nav",
+   "confidence": 0.4,
+   "margin": 0.27,
+   "top": [
+    [
+     "section_nav",
+     0.41
+    ],
+    [
+     "tabs",
+     0.14
+    ],
+    [
+     "toolbar",
+     0.14
+    ],
+    [
+     "site_nav",
+     0.1
+    ],
+    [
+     "heading",
+     0.09
+    ]
+   ],
+   "review": "either",
+   "final": "section_nav"
+  },
+  {
+   "index": 6,
+   "choice": "toolbar",
+   "confidence": 0.27,
+   "margin": 0.03,
+   "top": [
+    [
+     "toolbar",
+     0.29
+    ],
+    [
+     "section_nav",
+     0.26
+    ],
+    [
+     "tabs",
+     0.12
+    ],
+    [
+     "action_button",
+     0.1
+    ],
+    [
+     "heading",
+     0.07
+    ]
+   ],
+   "review": "ok",
+   "final": "toolbar"
+  },
+  {
+   "index": 7,
+   "choice": "section_nav",
+   "confidence": 0.45,
+   "margin": 0.32,
+   "top": [
+    [
+     "section_nav",
+     0.47
+    ],
+    [
+     "toolbar",
+     0.15
+    ],
+    [
+     "site_nav",
+     0.1
+    ],
+    [
+     "list",
+     0.08
+    ],
+    [
+     "tabs",
+     0.06
+    ]
+   ],
+   "review": "either",
+   "final": "section_nav"
+  },
+  {
+   "index": 8,
+   "choice": "toolbar",
+   "confidence": 0.5,
+   "margin": 0.3,
+   "top": [
+    [
+     "toolbar",
+     0.52
+    ],
+    [
+     "section_nav",
+     0.22
+    ],
+    [
+     "list",
+     0.06
+    ],
+    [
+     "site_nav",
+     0.05
+    ],
+    [
+     "heading",
+     0.05
+    ]
+   ],
+   "final": "toolbar"
+  },
+  {
+   "index": 9,
+   "choice": "toolbar",
+   "confidence": 0.26,
+   "margin": 0.12,
+   "top": [
+    [
+     "toolbar",
+     0.27
+    ],
+    [
+     "section_nav",
+     0.15
+    ],
+    [
+     "list",
+     0.13
+    ],
+    [
+     "action_button",
+     0.07
+    ],
+    [
+     "site_nav",
+     0.06
+    ]
+   ],
+   "review": "ok",
+   "final": "toolbar"
+  },
+  {
+   "index": 10,
+   "choice": "tabs",
+   "confidence": 0.24,
+   "margin": 0.04,
+   "top": [
+    [
+     "tabs",
+     0.25
+    ],
+    [
+     "toolbar",
+     0.21
+    ],
+    [
+     "section_nav",
+     0.14
+    ],
+    [
+     "title",
+     0.08
+    ],
+    [
+     "site_nav",
+     0.08
+    ]
+   ],
+   "review": "either",
+   "final": "tabs"
+  },
+  {
+   "index": 11,
+   "choice": "toolbar",
+   "confidence": 0.27,
+   "margin": 0.1,
+   "top": [
+    [
+     "toolbar",
+     0.28
+    ],
+    [
+     "tabs",
+     0.18
+    ],
+    [
+     "heading",
+     0.13
+    ],
+    [
+     "section_nav",
+     0.1
+    ],
+    [
+     "title",
+     0.06
+    ]
+   ],
+   "review": "ok",
+   "final": "toolbar"
+  },
+  {
+   "index": 12,
+   "choice": "toolbar",
+   "confidence": 0.76,
+   "margin": 0.56,
+   "top": [
+    [
+     "toolbar",
+     0.78
+    ],
+    [
+     "action_button",
+     0.22
+    ],
+    [
+     "cross_promo",
+     0
+    ],
+    [
+     "gallery",
+     0
+    ],
+    [
+     "breadcrumbs",
+     0
+    ]
+   ],
+   "final": "toolbar"
+  },
+  {
+   "index": 13,
+   "choice": "toolbar",
+   "confidence": 0.81,
+   "margin": 0.75,
+   "top": [
+    [
+     "toolbar",
+     0.83
+    ],
+    [
+     "settings",
+     0.08
+    ],
+    [
+     "list",
+     0.04
+    ],
+    [
+     "canvas",
+     0.02
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "final": "toolbar"
+  },
+  {
+   "index": 14,
+   "choice": "toolbar",
+   "confidence": 0.84,
+   "margin": 0.77,
+   "top": [
+    [
+     "toolbar",
+     0.85
+    ],
+    [
+     "tabs",
+     0.08
+    ],
+    [
+     "pagination",
+     0.03
+    ],
+    [
+     "canvas",
+     0.03
+    ],
+    [
+     "section_nav",
+     0.01
+    ]
+   ],
+   "final": "toolbar"
+  }
+ ],
+ "reviewedAt": "2026-09-20T09:04:29.591Z",
+ "reviewFile": "tools/label/judgements/corpus-all.json"
+}
