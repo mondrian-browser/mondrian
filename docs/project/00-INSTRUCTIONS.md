@@ -49,6 +49,19 @@ npm run test:agent runs multi-step flows on live sites. Every bug worth fixing s
 came from the latter two, not the fixtures — a fixture passes because it was built to.
 When you change anything in app/main, run the suites before and after.
 
+SETTLED DECISIONS
+
+Mondrian is meant to become distributable software, Windows first. The core is
+deterministic and works with no model at all; Claude is optional and plugs in two ways,
+through the MCP server for people with the Claude desktop app and through a pasted API
+key for people without. Neither is required, and 380ms to first block means a model can
+never sit in the hot path of a page load. Claude's place is composition, relayout, and
+improving the deterministic classifier offline by writing per-site rules.
+
+The first milestone is proving the classifier on a frozen corpus of 50 real sites, before
+building anything downstream of it. 08-DEVELOPMENT-PLAN.md has the reasoning, the metrics
+and the gate. The licence is undecided and should be settled before any public release.
+
 HOUSE RULES
 
 Read 04-GOTCHAS.md before touching the preload, the rules engine or input handling. Six

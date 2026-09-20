@@ -13,6 +13,7 @@ Upload these to the Claude Project as knowledge, and paste the block inside
 | `05-STATUS.md` | what is built, what is verified, and the gap to the concept | yes |
 | `06-ROADMAP.md` | the original list, and what the concept absorbs | yes |
 | `07-OVERNIGHT.md` | the night the six bugs were found; useful as worked examples | optional |
+| `08-DEVELOPMENT-PLAN.md` | decisions taken, order of work, and what would make it fail | yes |
 
 Also upload `docs/concept/concept-layout.pdf`. It is the visual reference and `01-CONCEPT.md`
 is deliberately written to work without it, but the pages carry detail that prose does not.
