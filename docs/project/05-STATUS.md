@@ -1,19 +1,19 @@
 # Status
 
-As of 20 September 2026. Update this when the picture changes; a stale status file is
+As of 21 September 2026. Update this when the picture changes; a stale status file is
 worse than none.
 
 ## Against the concept
 
 `01-CONCEPT.md` describes the browser this is meant to become. Measured against it, the
-honest position is: **the foundation is built and tested, the concept is not started.**
+honest position is: **the foundation is built and tested, and the design filter now runs on every page, in the relayout tier, as a first version.**
 
 | concept | state |
 |---|---|
-| Design filter — parse, classify, order, lay out | not started |
-| Ten block types | not started |
-| Dropped-elements index, one click from showing | not started |
-| Escape hatch per site | not started, but the rules engine is the right home for it |
+| Design filter — parse, classify, order, lay out | **running** (21 Sep 2026): veiled at document-start, extracted and classified after the document settles, Mondrian's document rendered in a shadow root, the site's design never painted. 75–500 ms. `app/main/filter.js`, `app/filter/`, the preload. |
+| Ten block types | 100 types on two axes (block, slot) plus a disposition (keep, demote, drop). Classifier: site directory (186 sites), trained trees, rules. 75% fine type, 90% keep/drop, 0.1% content lost, on unseen sites. |
+| Dropped-elements index, one click from showing | in-page: set-aside blocks folded under the column, dropped ones listed with "show anyway"; `page_blocks` for Claude; a mark in the toolbar. |
+| Three tiers per site (ADR 0011) | relayout runs; skinned and contained show the page as built and say so. Tier from a rule, the directory entry, or the default. The skinned stylesheet is not built. |
 | Progressive block arrival with states | not started |
 | Block cache, instant second visit | not started |
 | The bar, six states | not started; the omnibox is a plain address bar today |

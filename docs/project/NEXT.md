@@ -386,6 +386,53 @@ results. Decide before there is a website.
 
 ---
 
+## D. Milestone 2, started 21 Sep 2026: the filter in the browser
+
+Lloyd: "do all four now". Done in one pass, first version, all committed:
+
+**D1. Runtime classification in the preload. Done.**  decides the tier
+per page (rule > directory entry > settings) and hands the preload the directory entry,
+the model path and the stylesheet. The preload veils the page at document-start with
+ (visibility would inherit and blind the extractor), and once the
+document settles (1.2 s after DOMContentLoaded, or load, deadline 6 s) runs the
+extractor as a function, classifies with  (directory, trees at
+0.5, rules; drop only on a directory hit or a tree at 0.8), derives block and slot,
+disposition. 75–500 ms on real pages. Fallback is always the page as built.
+
+**D2. The dropped-content panel. Done, in-page.** Set-aside blocks folded under the
+column; dropped blocks listed by type with a snippet and "show anyway", which re-emits
+the block at its position. Counts in the strip and in the toolbar mark. lists every region with type, block, slot, disposition and the stage that decided it.
+
+**D3. The renderer, document tier. Done, first version.**  builds
+Mondrian's document in a closed shadow root beside the hidden body: kept blocks are
+deep clones with the site's classes, ids, styles, handlers, icons and dead controls
+stripped, laid out by  alone. One column at 68ch; headings,
+prose, quote, code, list, table, media, cards in a grid, threads folded. Not bound to
+the page: acting on an element (click, type, find, page_read) swaps the tab to the
+original first.  reads Mondrian's document.
+
+**D4. Real pages, first look.** Ars Technica article: 61 regions, 56 kept, 124 ms, a
+proper reading view. BBC News index: 22 cards in a grid. Hacker News: rows as cards.
+Wikipedia: 467 ms, the infobox and its map switcher come through as content, rough.
+GitHub and YouTube: skinned, shown as built, marked. What the look showed and what
+was fixed on the spot: text nodes were being moved out of the page rather than
+cloned; infinite scroll pushing /page/2/ re-ran the filter; a text-settings control
+opened a nav section around the whole article; SVG sprite icons rendered as empty
+boxes; hand-set tiers were outvoted by solve.js defaults.
+
+What the look showed and is still open, in order:
+- **Timing.** 1.2 s after DOMContentLoaded is a guess. Late-hydrating pages will be
+  extracted half-built; fast pages wait for nothing. Watch for mutations settling.
+- **The skinned tier** needs its stylesheet (the other session's design run is on it).
+- **Blocks are clones.** Forms, comment boxes, video players inside a relaid page do
+  not work; they are set aside or swap to the original. Concept open question 4.
+- **Infoboxes and tables** need their own layout; Wikipedia's infobox is a mess.
+- **The block cache** (0 ms second visit) is not started.
+- **Progressive arrival** (blocks landing top first with states) is not started; the
+  page appears whole after the settle.
+- The suite's "the page really did replace the node" check is flaky when the window
+  is occluded; it predates this work.
+
 ## Not now
 
 Milestones 2 (renderer and cache), 3 (the bar), 4 (composition) are in the development
