@@ -390,26 +390,27 @@ results. Decide before there is a website.
 
 Lloyd: "do all four now". Done in one pass, first version, all committed:
 
-**D1. Runtime classification in the preload. Done.**  decides the tier
+**D1. Runtime classification in the preload. Done.** `app/main/filter.js` decides the tier
 per page (rule > directory entry > settings) and hands the preload the directory entry,
 the model path and the stylesheet. The preload veils the page at document-start with
- (visibility would inherit and blind the extractor), and once the
+`html { opacity: 0 }` (visibility would inherit and blind the extractor), and once the
 document settles (1.2 s after DOMContentLoaded, or load, deadline 6 s) runs the
-extractor as a function, classifies with  (directory, trees at
+extractor as a function, classifies with `app/filter/classify.js` (directory, trees at
 0.5, rules; drop only on a directory hit or a tree at 0.8), derives block and slot,
 disposition. 75–500 ms on real pages. Fallback is always the page as built.
 
 **D2. The dropped-content panel. Done, in-page.** Set-aside blocks folded under the
 column; dropped blocks listed by type with a snippet and "show anyway", which re-emits
-the block at its position. Counts in the strip and in the toolbar mark. lists every region with type, block, slot, disposition and the stage that decided it.
+the block at its position. Counts in the strip and in the toolbar mark. `page_blocks`
+lists every region with type, block, slot, disposition and the stage that decided it.
 
-**D3. The renderer, document tier. Done, first version.**  builds
+**D3. The renderer, document tier. Done, first version.** `app/filter/render.js` builds
 Mondrian's document in a closed shadow root beside the hidden body: kept blocks are
 deep clones with the site's classes, ids, styles, handlers, icons and dead controls
-stripped, laid out by  alone. One column at 68ch; headings,
+stripped, laid out by `app/filter/layout.css` alone. One column at 68ch; headings,
 prose, quote, code, list, table, media, cards in a grid, threads folded. Not bound to
 the page: acting on an element (click, type, find, page_read) swaps the tab to the
-original first.  reads Mondrian's document.
+original first. `page_text` reads Mondrian's document.
 
 **D4. Real pages, first look.** Ars Technica article: 61 regions, 56 kept, 124 ms, a
 proper reading view. BBC News index: 22 cards in a grid. Hacker News: rows as cards.
