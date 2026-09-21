@@ -29,6 +29,8 @@ class Filter {
     this.tabsMgr = tabsMgr;
     this.saveSettings = saveSettings;
     this.cfg = { enabled: true, tier: 'relayout', ...(settings.filter || {}) };
+    // The test suite runs with the filter off and turns it on per tab where it tests it.
+    if (process.env.CB_FILTER_OFF) this.cfg.enabled = false;
     this.overrides = new Map(); // tabId -> { enabled?, tier? } for this tab only
     this.directoryCache = new Map();
     this.modelPath = fs.existsSync(MODEL) ? MODEL : null;
@@ -44,7 +46,7 @@ class Filter {
       const tab = this.tabsMgr.byWebContentsId(event.sender.id);
       if (!tab) return;
       tab.filter = result;
-      tab.console.push({ t: Date.now(), level: 'info', message: `[mondrian] filter: ${result.tier}${result.reason ? ' (' + result.reason + ')' : ''}, ${result.counts ? `${result.counts.keep} kept, ${result.counts.demote} set aside, ${result.counts.drop} dropped, ${result.elapsed} ms` : ''}` });
+      if (result.reason !== 'off') tab.console.push({ t: Date.now(), level: 'info', message: `[mondrian] filter: ${result.tier}${result.reason ? ' (' + result.reason + ')' : ''}, ${result.counts ? `${result.counts.keep} kept, ${result.counts.demote} set aside, ${result.counts.drop} dropped, ${result.elapsed} ms` : ''}` });
       this.tabsMgr.onEvent({ type: 'tab-updated', tabId: tab.id, ...tab.info() });
     });
   }

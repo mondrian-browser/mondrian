@@ -233,7 +233,11 @@ function runFilter(reason) {
 }
 
 function scheduleFilter() {
-  if (!filterCfg.enabled || filterCfg.tier !== 'relayout') return;
+  if (!filterCfg.enabled || filterCfg.tier !== 'relayout') {
+    // Shown as built; say so once the document exists, so the chrome can show the tier.
+    document.addEventListener('DOMContentLoaded', () => filterReport({ counts: null, elapsed: 0 }));
+    return;
+  }
   whenDocumentElement(() => filterVeil(true));
   const go = (why) => () => runFilter(why);
   document.addEventListener('DOMContentLoaded', () => {
@@ -341,7 +345,15 @@ function deref(ref) {
   throw new Error(`Ref "${ref}" is no longer in the document and could not be found again. Call page_read or find again.`);
 }
 
+// Acting on an element means acting on the page as built: a clone in Mondrian's
+// document is not bound to anything, and the hidden body has no geometry. Reading
+// (page_text) stays on the blocks; anything that resolves or lists elements to act on
+// swaps the tab to the original first.
+function filterOriginalForActing() {
+  if (filterApi && filterApi.showing === 'blocks') { filterApi.original(); if (filterResult) { filterResult.showing = 'original'; ipcRenderer.send('cb:filter-result', filterResult); } }
+}
 function resolve({ ref, selector }) {
+  filterOriginalForActing();
   if (ref) return deref(ref);
   if (selector) {
     const el = deepQuery(selector);
@@ -561,6 +573,7 @@ const methods = {
   },
 
   pageRead({ filter = 'interactive', selector, maxItems = 300 }) {
+    filterOriginalForActing();
     const root = selector ? resolve({ selector }) : document.body;
     const out = [];
     const seen = new Set();
@@ -582,6 +595,7 @@ const methods = {
   },
 
   find({ query, maxItems = 20 }) {
+    filterOriginalForActing();
     const q = String(query).toLowerCase();
     const out = [];
     for (const el of walkAll(document.body)) {

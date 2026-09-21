@@ -22,6 +22,12 @@ function clean(node, opts) {
   if (node.nodeType !== 1) return node.nodeType === 3 ? node.cloneNode() : null; // a copy: the original stays in the page
   if (STRIP_TAGS.has(node.tagName)) return null;
   if (node.tagName === 'IFRAME' && !opts.frames) return null;
+  // Inline SVG outside a media block is an icon or a logo, usually drawn from a sprite the
+  // shadow root cannot see: an empty box. Icons are not part of the layout language.
+  if ((node.tagName === 'svg' || node.tagName === 'SVG') && !opts.frames) return null;
+  // A control in a clone is not bound to the page and does nothing; outside a controls
+  // block it is noise (Wikipedia's 'move to sidebar', 'Toggle ... subsection').
+  if (/^(BUTTON|INPUT|SELECT|TEXTAREA)$/.test(node.tagName) && !opts.controls) return null;
   const out = node.cloneNode(false);
   for (const a of [...out.attributes]) {
     const n = a.name.toLowerCase();
@@ -48,13 +54,15 @@ function blockFor(region, call, opts) {
   const el = document.createElement('section');
   el.className = `mx-block mx-${call.block} mx-slot-${call.slot} mx-type-${call.type}`;
   if (call.type === 'title') el.classList.add('mx-title');
+  if ((region.counts.repeats || 1) > 1) el.classList.add('mx-run');
   if (call.disposition === 'demote') el.classList.add('mx-demoted');
   el.dataset.mxIndex = String(region.index);
   el.dataset.mxType = call.type;
   el.dataset.mxLabel = label(call);
   const frames = call.block === 'media' || call.type === 'video' || call.type === 'embed';
+  const controls = call.block === 'controls' || /form|search|login|settings|filters|poll|feedback/.test(call.type);
   let body = document.createDocumentFragment();
-  for (const src of region.els || []) { const c = clean(src, { frames }); if (c) body.appendChild(c); }
+  for (const src of region.els || []) { const c = clean(src, { frames, controls }); if (c) body.appendChild(c); }
   if (region.frame && frames && !(region.els || []).some((e) => e.tagName === 'IFRAME')) {
     // a frame region whose element is the frame itself
     const f = (region.els || []).find((e) => e.tagName === 'IFRAME');
@@ -135,7 +143,17 @@ function render({ regions, calls, counts, url, site, tier, elapsed }) {
     if (!b) { skipped.push([r.index, c.type, (r.els || []).map((e) => e.tagName + ':' + (e.textContent || '').length).join(',')]); continue; }
     if (c.type === 'title') hasTitle = true;
     built.set(r.index, b);
-    (c.disposition === 'keep' ? column : aside).appendChild(b);
+    if (c.disposition !== 'keep') { aside.appendChild(b); continue; }
+    // Consecutive single cards share one grid; a run of cards is a grid of its own.
+    if (c.block === 'cards' && (r.counts.repeats || 1) === 1) {
+      let grid = column.lastElementChild;
+      if (!grid || !grid.classList.contains('mx-grid')) { grid = document.createElement('div'); grid.className = 'mx-grid'; column.appendChild(grid); }
+      grid.appendChild(b);
+    } else if (c.type === 'byline' && column.lastElementChild && column.lastElementChild.classList.contains('mx-grid')) {
+      // A byline right after a card is that card's byline (Hacker News: title row, then points row).
+      b.classList.add('mx-card-byline');
+      column.lastElementChild.lastElementChild.appendChild(b);
+    } else column.appendChild(b);
   }
   if (!hasTitle && document.title) {
     const t = document.createElement('section');

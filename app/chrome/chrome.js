@@ -74,6 +74,7 @@ function renderActive() {
   const active = ui.rules.filter((r) => r.enabled).length;
   $('#rules-dot').hidden = active === 0;
   renderShield(t);
+  renderFilter(t);
 }
 
 function renderShield(t) {
@@ -88,6 +89,26 @@ function renderShield(t) {
     : allowed ? `Ad blocking is off for ${host}. Click to turn it back on.`
     : `${t?.blockedCount || 0} requests blocked on this page. Click to allow this site.`;
 }
+
+// The design filter's mark: a relaid page carries the accent (the concept's clay edge)
+// with kept/set-aside/dropped counts; showing the original, it goes faint. Click swaps.
+function renderFilter(t) {
+  const f = t?.filter;
+  const btn = $('#filter-btn');
+  const relaid = !!(f && f.counts && f.tier === 'relayout');
+  btn.classList.toggle('is-relaid', relaid && f.showing !== 'original');
+  btn.classList.toggle('is-original', relaid && f.showing === 'original');
+  $('#filter-count').textContent = relaid ? `${f.counts.keep}/${f.counts.demote}/${f.counts.drop}` : '';
+  btn.title = !f ? 'The design filter has not run on this page.'
+    : relaid ? `Relaid in ${f.elapsed} ms: ${f.counts.keep} kept, ${f.counts.demote} set aside, ${f.counts.drop} dropped. Click to see the ${f.showing === 'original' ? 'relayout' : 'original'}.`
+    : `Shown as built (${f.tier}${f.reason ? ': ' + f.reason : ''}).`;
+}
+$('#filter-btn').onclick = async () => {
+  const t = ui.tabs.find((x) => x.active);
+  const f = t?.filter;
+  if (!f || !f.counts || f.tier !== 'relayout') { toast('This page was not relaid', 'warning'); return; }
+  try { await cmd('filter_set', { tabId: t.id, show: f.showing === 'original' ? 'blocks' : 'original' }); } catch (e) { toastErr(e); }
+};
 
 // ---------------------------------------------------------------- rules panel
 function renderRules() {

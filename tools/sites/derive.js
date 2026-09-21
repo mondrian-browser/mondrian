@@ -126,7 +126,9 @@ if (TEST) {
     const existing = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
     // The site's tier (ADR 0011): the most common tier of its corpus pages, which pages.js
     // set by hand for the first 74 and solve.js sets to relayout; a rule can override.
-    const tiers = {}; for (const p of list) tiers[p.tier || 'relayout'] = (tiers[p.tier || 'relayout'] || 0) + 1;
+    // Hand-set tiers (pages.js) outrank solve.js's default.
+    const hand = list.filter((p) => p.kind !== 'directory');
+    const tiers = {}; for (const p of (hand.length ? hand : list)) tiers[p.tier || 'relayout'] = (tiers[p.tier || 'relayout'] || 0) + 1;
     const tier = Object.entries(tiers).sort((a, b) => b[1] - a[1])[0][0];
     const entry = { ...existing, site, tier, pages: list.length, pageIds: list.map((p) => p.id), derivedAt: new Date().toISOString(), blocks };
     fs.writeFileSync(file, JSON.stringify(entry, null, 1));

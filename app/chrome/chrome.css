@@ -143,6 +143,11 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
   font-variant-numeric: tabular-nums;
 }
 #blocked-count:empty { display: none; }
+#filter-btn.is-relaid { color: var(--accent, #c8794f); }
+#filter-btn.is-original { color: var(--text-faint); }
+#filter-btn.is-original svg { stroke-dasharray: 2 2; }
+#filter-count { font: 600 9px/1 var(--mono, monospace); margin-left: 3px; }
+#filter-count:empty { display: none; }
 
 #omniform { flex: 1; }
 

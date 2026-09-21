@@ -113,6 +113,27 @@ function startFixture() {
       </body></html>`);
       return;
     }
+    if (req.url.startsWith('/filter')) {
+      // A page with the parts a real one has: chrome, promotion, an article, a footer.
+      res.writeHead(200, { 'content-type': 'text/html' });
+      res.end(`<!doctype html><html><head><title>Filter fixture</title><style>body{margin:0;font:16px/1.5 sans-serif} nav a{margin-right:12px}</style></head><body>
+        <header><a href="/">FIXTURE_SITE_NAME</a><nav><a href="/a">Home</a><a href="/b">Sport</a><a href="/c">Business</a><a href="/d">Culture</a><a href="/e">More</a></nav></header>
+        <div class="cookie-banner" role="dialog">We use cookies. Accept all cookies or manage your cookie preferences. <button>Accept</button><button>Manage</button></div>
+        <main><article>
+          <h1>FILTER_TITLE_MARKER: a heading for the piece</h1>
+          <p class="standfirst">FILTER_SUMMARY_MARKER sets up what follows in one sentence.</p>
+          <p>FILTER_BODY_MARKER one. Paragraphs of prose, with commas, and sentences long enough to be read as reading matter rather than as chrome. Another sentence follows, and another after it, because a paragraph in a real article runs to several lines and the extractor's idea of a small region is seven hundred characters of text or a box under five hundred pixels tall.</p>
+          <p>FILTER_BODY_MARKER two. More prose here so the body has weight; the extractor merges these paragraphs into a run and the classifier should call them text. It is worth writing this out at length, since the fixture stands in for every article the browser will ever meet, and an article of three short lines would be split nowhere and typed as one block.</p>
+          <p>FILTER_BODY_MARKER three. Still more, because a three-paragraph article is the shortest real one there is, and this one needs to be long enough that the article element is split into its parts: heading, standfirst, body, promotion, and the newsletter box that follows it.</p>
+          <p>FILTER_BODY_MARKER four. A fourth paragraph, with a comma, and a second sentence to make the prose test pass on the shape of the text rather than on its length alone.</p>
+          <div class="ad-unit advert">FILTER_AD_MARKER Advertisement. Buy the thing now.</div>
+          <div class="newsletter-signup"><h3>Newsletter</h3><p>Subscribe to our newsletter and get the best in your inbox.</p><input placeholder="Email"><button>Subscribe</button></div>
+        </article></main>
+        <aside class="related"><h2>Related stories</h2><ul><li><a href="/r1">FILTER_RELATED_MARKER one</a></li><li><a href="/r2">Related two</a></li><li><a href="/r3">Related three</a></li></ul></aside>
+        <footer><a href="/about">About</a> <a href="/terms">Terms</a> <a href="/privacy">Privacy</a> <span>FILTER_FOOTER_MARKER © 2026 Fixture</span></footer>
+      </body></html>`);
+      return;
+    }
     if (req.url.startsWith('/shadow')) {
       res.writeHead(200, { 'content-type': 'text/html' });
       res.end(`<!doctype html><html><head><title>Shadow page</title></head><body>
@@ -204,7 +225,7 @@ class Client {
   // of those and the next run cannot start at all.
   const child = spawn(cmd, args, {
     cwd: ROOT,
-    env: { ...process.env, CB_ANNOUNCE: '1', CB_ALLOW_MULTIPLE: '1' },
+    env: { ...process.env, CB_ANNOUNCE: '1', CB_ALLOW_MULTIPLE: '1', CB_FILTER_OFF: '1' },
     stdio: ['ignore', 'pipe', 'pipe'],
     detached: true,
   });
@@ -655,6 +676,63 @@ class Client {
     let errMsg = '';
     try { await c.call('click', { tabId, ref: 'e99999' }); } catch (e) { errMsg = e.message; }
     check('a stale ref gives a useful error', /Unknown ref/.test(errMsg), errMsg);
+
+    // ---- the design filter
+    // The suite runs with the filter off (CB_FILTER_OFF), so a page shows as built by
+    // default; the tab override turns it on and reloads.
+    const fOff = await c.call('tab_open', { url: base + '/filter', profile: 'claude' });
+    await sleep(1600);
+    const offState = await c.call('page_blocks', { tabId: fOff.tab.id });
+    check('filter off: the page is shown as built', offState.tier === 'off' || offState.tier === 'contained', JSON.stringify(offState).slice(0, 120));
+    const offText = await c.call('page_text', { tabId: fOff.tab.id });
+    check('filter off: page_text reads the page as built', offText.text.includes('FILTER_BODY_MARKER') && !offText.viaFilter);
+
+    await c.call('filter_set', { tabId: fOff.tab.id, enabled: true, tier: 'relayout' });
+    await c.call('wait_for', { tabId: fOff.tab.id, load: true, timeoutMs: 10000 }).catch(() => {});
+    await sleep(2200);
+    const fTab = fOff.tab.id;
+    const fs1 = await c.call('page_blocks', { tabId: fTab });
+    check('filter on: the page is relaid', fs1.tier === 'relayout' && fs1.counts && fs1.counts.keep >= 3, JSON.stringify({ tier: fs1.tier, reason: fs1.reason, counts: fs1.counts }));
+    const kind = (marker) => fs1.blocks.find((b) => b.text.includes(marker));
+    check('filter: the title is kept', kind('FILTER_TITLE_MARKER')?.disposition === 'keep', JSON.stringify(kind('FILTER_TITLE_MARKER')));
+    check('filter: the body is kept as text', kind('FILTER_BODY_MARKER')?.disposition === 'keep' && kind('FILTER_BODY_MARKER')?.block === 'prose', JSON.stringify(kind('FILTER_BODY_MARKER')));
+    check('filter: the footer is set aside or dropped', ['demote', 'drop'].includes(kind('FILTER_FOOTER_MARKER')?.disposition), JSON.stringify(kind('FILTER_FOOTER_MARKER')));
+    check('filter: the ad is not kept', kind('FILTER_AD_MARKER') && kind('FILTER_AD_MARKER').disposition !== 'keep', JSON.stringify(kind('FILTER_AD_MARKER')));
+    check('filter: every block names the stage that decided it', fs1.blocks.every((b) => ['directory', 'trees', 'rules'].includes(b.source)));
+    const fText = await c.call('page_text', { tabId: fTab });
+    check('filter: page_text reads the relaid document', fText.viaFilter === true && fText.text.includes('FILTER_BODY_MARKER'), fText.text.slice(0, 100));
+    check('filter: page_text leaves out what was set aside', !fText.text.includes('FILTER_FOOTER_MARKER'));
+    const swapped = await c.call('filter_set', { tabId: fTab, show: 'original' });
+    check('filter_set show=original swaps without a reload', swapped.showing === 'original', JSON.stringify(swapped));
+    const oText = await c.call('page_text', { tabId: fTab });
+    check('original: page_text reads the page as built again', !oText.viaFilter && oText.text.includes('FILTER_BODY_MARKER'));
+    await c.call('filter_set', { tabId: fTab, show: 'blocks' });
+    const dropped = fs1.blocks.find((b) => b.disposition === 'drop');
+    if (dropped) {
+      const shown = await c.call('page_blocks', { tabId: fTab, show: dropped.index });
+      check('a dropped block can be shown anyway', shown.shown === true && (await c.call('page_text', { tabId: fTab })).text.includes(dropped.text.slice(0, 20)), JSON.stringify(shown.shown));
+    } else {
+      check('nothing was dropped on the fixture, so show-anyway is not exercised here', true);
+    }
+    // Acting on an element swaps to the original: a clone is bound to nothing.
+    const fFound = await c.call('find', { tabId: fTab, query: 'Accept' });
+    check('find still resolves elements on a relaid page', (fFound.elements || []).length > 0, JSON.stringify(fFound).slice(0, 120));
+    const afterAct = await c.call('page_blocks', { tabId: fTab });
+    check('acting on an element swapped the tab to the original', afterAct.showing === 'original', afterAct.showing);
+    // Negative: a rule can pin a site to the contained tier and the page shows as built.
+    await c.call('rules_set', { name: 'e2e-tier', rule: { enabled: true, match: [base + '/*'], tier: 'contained' } });
+    await sleep(300);
+    const fCont = await c.call('tab_open', { url: base + '/filter?contained', profile: 'claude' });
+    await c.call('filter_set', { tabId: fCont.tab.id, enabled: true });
+    await c.call('wait_for', { tabId: fCont.tab.id, load: true, timeoutMs: 10000 }).catch(() => {});
+    await sleep(1600);
+    const contState = await c.call('page_blocks', { tabId: fCont.tab.id });
+    check('a contained rule keeps the page as built', contState.tier === 'contained' && /rule/.test(contState.reason || ''), JSON.stringify({ tier: contState.tier, reason: contState.reason }));
+    await c.call('rules_set', { name: 'e2e-tier', rule: { enabled: false, match: [], tier: 'contained' } });
+    await c.call('tab_close', { tabId: fCont.tab.id });
+    await c.call('tab_close', { tabId: fTab });
+    const fst = await c.call('filter_status');
+    check('filter_status reports the model and the directory', typeof fst.directoryEntries === 'number' && fst.directoryEntries > 100, JSON.stringify(fst));
 
     // ---- cleanup
     await c.call('tab_close', { tabId });

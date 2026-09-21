@@ -25,6 +25,7 @@ const DEMOTE = new Set([
   'version_switcher', 'settings', 'share', 'page_tools', 'toolbar', 'feedback',
   'action_button', 'related', 'trending', 'tag_cloud', 'external_links',
   'hero', 'cta', 'logo_cloud', 'unclear',
+  'table_of_contents', 'section_nav', 'breadcrumbs', 'pagination', 'tabs', 'filters',
 ]);
 
 // Everything else is content: keep.

@@ -26,7 +26,7 @@ function loadPages() {
     const regions = JSON.parse(fs.readFileSync(path.join(dir, 'regions.json'), 'utf8'));
     const labels = JSON.parse(fs.readFileSync(path.join(dir, 'labels.json'), 'utf8'));
     const meta = JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8'));
-    pages.push({ id, site: meta.site, url: regions.url, title: regions.title, viewport: regions.viewport, pageHeight: regions.pageHeight, regions: regions.regions, labels: labels.regions, tier: meta.tier, split: isHoldout(meta.site) ? 'holdout' : 'dev' });
+    pages.push({ id, site: meta.site, url: regions.url, title: regions.title, viewport: regions.viewport, pageHeight: regions.pageHeight, regions: regions.regions, labels: labels.regions, tier: meta.tier, kind: meta.kind, split: isHoldout(meta.site) ? 'holdout' : 'dev' });
   }
   return pages;
 }
